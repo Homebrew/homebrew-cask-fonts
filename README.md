@@ -3,9 +3,14 @@
 Here you'll find font Casks for the [homebrew-cask](https://github.com/phinze/homebrew-cask)
 project.
 
+# Current Status
+
+Fonts installed via `homebrew-cask` are not being recognized at the moment due to a glitch.
+A [fix](https://github.com/phinze/homebrew-cask/pull/2258) has been merged and will be in the next release of `homebrew-cask`.
+
 # Usage
 
-After you install homebrew-cask, run the following command:
+After you install `homebrew-cask`, run the following command:
 
 ```sh
 $ brew tap caskroom/fonts
