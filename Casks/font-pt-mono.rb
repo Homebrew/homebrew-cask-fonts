@@ -3,6 +3,6 @@ class FontPtMono < Cask
   homepage 'http://www.paratype.com/public/'
   version '1.002'
   sha1 '1e06f32df070d93adb1b5f5b515d8af770b6cd28'
-  font 'PTM55F.ttf',
-       'PTM75F.ttf'
+  font 'PTM55F.ttf'
+  font 'PTM75F.ttf'
 end

@@ -3,11 +3,11 @@ class FontAksharUnicode < Cask
   homepage 'http://www.kamban.com.au/downloads.html'
   version 'latest'
   no_checksum
-  font 'maduram.ttf',
-       'akshar.ttf',
-       'tscmaduram.ttf',
-       'tamkal.ttf',
-       'tamkad.ttf',
-       'tammadur.ttf',
-       'tabmadur.ttf'
+  font 'maduram.ttf'
+  font 'akshar.ttf'
+  font 'tscmaduram.ttf'
+  font 'tamkal.ttf'
+  font 'tamkad.ttf'
+  font 'tammadur.ttf'
+  font 'tabmadur.ttf'
 end
