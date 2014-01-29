@@ -11,7 +11,7 @@ See [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRI
 
 Making a Font Cask is easy: a Cask is a small Ruby file.
 
-Here's a Cask for the font Inconsolata as an example:
+Here's a Cask for the font [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) as an example:
 ```ruby
 class FontInconsolata < Cask
   url 'http://levien.com/type/myfonts/Inconsolata.otf'
@@ -22,7 +22,7 @@ class FontInconsolata < Cask
 end
 ```
 
-Here's a more complex Cask for the font Source Code Pro.  Note that you may
+Here's a more complex Cask for the font [Source Code Pro](http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1960).  Note that you may
 repeat the `font` stanza as many times as you need to, if multiple files must
 be installed from the same package:
 
@@ -42,15 +42,15 @@ class FontSourceCodePro < Cask
 end
 ```
 
-## Cask Fields
+## Font Cask Fields
 
 The `url`, `homepage`, `version`, and `sha1` fields in a Font Cask are as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
 Note that if the download `url` is not a versioned file, `sha1 <hexstring>`
-should be replaced with `no_checksum`, and `version` should be changed to
+should be replaced with `no_checksum`, and `version` should be set to
 `latest`.
 
 The string which follows the `font` field is a relative path to the font
-file within the downloaded archive.  This font will be linked into the
+file within the downloaded archive.  That font will be linked into the
 user's `~/Library/Fonts` directory at install time.
 
 ## Naming Font Casks
@@ -62,9 +62,11 @@ predictable.
 
 The canonical font name is the font family name as returned by the command
 `otfinfo --family`.  `otfinfo` is a free utility available as part of the
-TeX distribution.  If there is more than one family in the distribution, use
-your judgment to choose the "most famous" one.  If there is more than one
-style, choose "Regular".
+TeX distribution.  `brew cask install mactex` is one way to obtain it.
+
+If there is more than one family in the distribution, use your judgment to
+choose the "most famous" one.  If there is more than one style, choose the
+"Regular" variant
 
 Translate the name into English if necessary.
 
@@ -116,5 +118,10 @@ Cask.
 
 This constraint may change in the future, when the backend Ruby code becomes
 more sophisticated.
+
+## Check Your Font Licenses
+
+At this time, homebrew-fonts is only accepting Casks for fonts which are
+freely redistributable.
 
 **<3 THANK YOU! <3**
