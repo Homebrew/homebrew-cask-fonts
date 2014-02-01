@@ -124,4 +124,30 @@ more sophisticated.
 At this time, homebrew-fonts is only accepting Casks for fonts which are
 freely redistributable.
 
+## URL Notes
+
+### Google Web Fonts
+
+Google web font "kit" URLs in the form `http://www.google.com/fonts/download?kit=<id>`
+are not stable, and should be avoided.  All Google web fonts are available here:
+
+	<https://code.google.com/p/googlefontdirectory/source/browse/>
+
+Here is one way to get a stable link to a Google web font:
+
+* Construct the directory for your font of interest
+
+		https://code.google.com/p/googlefontdirectory/source/browse/<license>/<familyname>
+  Where `<license>` is one of: `ofl`, `apache`, or `ubuntu`.  `<familyname>` is
+  usually styled all-lowercase, no spaces or punctuation.
+
+* Click through the font name you want to find a "Raw" link, in the form:
+
+		https://googlefontdirectory.googlecode.com/hg-history/default/<license>/<familyname>/<fontname>.<ext>
+
+Example: <https://googlefontdirectory.googlecode.com/hg-history/default/ofl/lekton/Lekton-Regular.ttf>.
+
+If you know a better way, we'd love to hear it -- please send us a pull
+request!
+
 **<3 THANK YOU! <3**
