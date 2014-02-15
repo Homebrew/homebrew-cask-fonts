@@ -1,7 +1,13 @@
 class FontCousine < Cask
-  url 'http://noto.googlecode.com/svn/trunk/fonts/individual/hinted/Cousine-Regular.ttf'
+  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/cousine',
+      :using      => :svn,
+      :revision   => '47',
+      :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Cousine'
   version '1.21'
-  sha1 '278ee74bbc5e025f64e3143b55a3b24ec118ff3e'
+  sha256 'c1c76aa1d35545aaf5d12ab8ad933e70544e62248f6450e65645768122d91dc1'
   font 'Cousine-Regular.ttf'
+  font 'Cousine-Bold.ttf'
+  font 'Cousine-BoldItalic.ttf'
+  font 'Cousine-Italic.ttf'
 end
