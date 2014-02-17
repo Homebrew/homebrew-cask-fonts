@@ -1,7 +1,11 @@
 class FontBattambang < Cask
-  url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/suwannaphum/Suwannaphum.ttf'
-  homepage 'http://www.google.com/fonts/specimen/Suwannaphum'
+  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/battambang',
+      :using      => :svn,
+      :revision   => '50',
+      :trust_cert => true
+  homepage 'http://www.google.com/fonts/specimen/Battambang'
   version '2.00'
-  sha256 '7cf557f984a99bc8fb718eecb44f6dcd5acd1469b22205dfd238c9bdcb446fe2'
-  font 'Suwannaphum.ttf'
+  sha256 '3af6e125895f0660c6a14686006283bc053c4bb539485b5368368e33a3ad7211'
+  font 'Battambang-Bold.ttf'
+  font 'Battambang-Regular.ttf'
 end
