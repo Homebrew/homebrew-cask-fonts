@@ -38,7 +38,7 @@ class FontSourceCodePro < Cask
   font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Light.otf'
   font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Medium.otf'
   font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Regular.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Semibold.otf
+  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Semibold.otf'
 end
 ```
 
