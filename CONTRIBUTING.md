@@ -129,7 +129,11 @@ freely redistributable.
 ### Google Web Fonts
 
 Google web font "kit" URLs in the form `http://www.google.com/fonts/download?kit=<id>`
-are not stable, and should be avoided.  All Google web fonts are available here:
+are not stable, and should be avoided.
+
+### OUT-OF-DATE -- THIS SECTION IS NOW OUT-OF-DATE, see Casks for examples
+
+All Google web fonts are available here:
 
 	<https://code.google.com/p/googlefontdirectory/source/browse/>
 
