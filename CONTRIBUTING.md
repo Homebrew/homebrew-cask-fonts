@@ -22,29 +22,29 @@ class FontInconsolata < Cask
 end
 ```
 
-Here's a more complex Cask for the font [Source Code Pro](http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1960).  Note that you may
-repeat the `font` stanza as many times as you need to, if multiple files must
+Here's a more complex Cask for the font [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans).
+Note that you may repeat the `font` stanza as many times as you need to, if multiple files must
 be installed from the same package:
 
 ```ruby
 class FontFantasqueSansMono < Cask
-    url 'https://github.com/belluzj/fantasque-sans/releases/download/v1.6.2/FantasqueSansMono.zip'
-    homepage 'https://github.com/belluzj/fantasque-sans'
-    version '1.6.2'
-    sha256 '06262d8e0d30ec85cebd3a2cd69c041fb35d48c159ef124379cf03d5c99a215c'
-    font 'OTF/FantasqueSansMono-Bold.otf'
-    font 'OTF/FantasqueSansMono-BoldItalic.otf'
-    font 'OTF/FantasqueSansMono-RegItalic.otf'
-    font 'OTF/FantasqueSansMono-Regular.otf'
+  url 'https://github.com/belluzj/fantasque-sans/releases/download/v1.6.2/FantasqueSansMono.zip'
+  homepage 'https://github.com/belluzj/fantasque-sans'
+  version '1.6.2'
+  sha256 '06262d8e0d30ec85cebd3a2cd69c041fb35d48c159ef124379cf03d5c99a215c'
+  font 'OTF/FantasqueSansMono-Bold.otf'
+  font 'OTF/FantasqueSansMono-BoldItalic.otf'
+  font 'OTF/FantasqueSansMono-RegItalic.otf'
+  font 'OTF/FantasqueSansMono-Regular.otf'
 end
 ```
 
 ## Font Cask Fields
 
-The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
+The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
 Note that if the download `url` is not a versioned file, `sha256 <hexstring>`
 should be replaced with `no_checksum`, and `version` should be set to
-`latest`.
+`'latest'`.
 
 The string which follows the `font` field is a relative path to the font
 file within the downloaded archive.  That font will be linked into the
@@ -124,6 +124,20 @@ mean it is licensed for distribution, so please check that a license is availabl
 
 ## URL Notes
 
-We prefer to have the casks point to font download links as high up the distribution
-chain as possible. This generally means linking directly to the download from the 
-font's author when possible rather than from a site that aggregates fonts. 
+### Upstream Links Are Preferred
+
+We prefer to have the Casks point to font download links as high up the distribution
+chain as possible. This generally means linking directly to the download from the
+font's author when possible rather than from a site that aggregates fonts.
+
+### Google Web Font Directory
+
+This repository was seeded with fonts from Google Web Font Directory.  If you wish
+to rewrite a Google Web Font Cask with a `url` pointing to the upstream type foundry,
+please do: we consider that an upgrade.
+
+For some fonts, Google Web Font Directory is the only current source.  Writing
+the `url` stanza for those cases may require using some unusual features of the
+Cask language.  See example [lekton.rb](../Casks/lekton.rb), consult [CASK_LANGUAGE_REFERENCE](https://github.com/phinze/homebrew-cask/blob/master/doc/CASK_LANGUAGE_REFERENCE.md), or contact the maintainers.
+
+**<3 THANK YOU TO ALL CONTRIBUTORS! <3**
