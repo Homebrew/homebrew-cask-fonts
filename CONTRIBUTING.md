@@ -27,18 +27,15 @@ repeat the `font` stanza as many times as you need to, if multiple files must
 be installed from the same package:
 
 ```ruby
-class FontSourceCodePro < Cask
-  url 'http://downloads.sourceforge.net/sourceforge/sourcecodepro.adobe/SourceCodePro_FontsOnly-1.017.zip'
-  homepage 'http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1960'
-  version '1.017'
-  sha1 'c0e3f6f8e25b434c0e28a817539632f8a5ecb9e5'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Black.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Bold.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-ExtraLight.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Light.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Medium.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Regular.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Semibold.otf'
+class FontFantasqueSansMono < Cask
+    url 'https://github.com/belluzj/fantasque-sans/releases/download/v1.6.2/FantasqueSansMono.zip'
+    homepage 'https://github.com/belluzj/fantasque-sans'
+    version '1.6.2'
+    sha256 '06262d8e0d30ec85cebd3a2cd69c041fb35d48c159ef124379cf03d5c99a215c'
+    font 'OTF/FantasqueSansMono-Bold.otf'
+    font 'OTF/FantasqueSansMono-BoldItalic.otf'
+    font 'OTF/FantasqueSansMono-RegItalic.otf'
+    font 'OTF/FantasqueSansMono-Regular.otf'
 end
 ```
 
