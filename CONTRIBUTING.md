@@ -27,25 +27,22 @@ repeat the `font` stanza as many times as you need to, if multiple files must
 be installed from the same package:
 
 ```ruby
-class FontSourceCodePro < Cask
-  url 'http://downloads.sourceforge.net/sourceforge/sourcecodepro.adobe/SourceCodePro_FontsOnly-1.017.zip'
-  homepage 'http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1960'
-  version '1.017'
-  sha1 'c0e3f6f8e25b434c0e28a817539632f8a5ecb9e5'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Black.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Bold.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-ExtraLight.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Light.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Medium.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Regular.otf'
-  font 'SourceCodePro_FontsOnly-1.017/OTF/SourceCodePro-Semibold.otf'
+class FontFantasqueSansMono < Cask
+    url 'https://github.com/belluzj/fantasque-sans/releases/download/v1.6.2/FantasqueSansMono.zip'
+    homepage 'https://github.com/belluzj/fantasque-sans'
+    version '1.6.2'
+    sha256 '06262d8e0d30ec85cebd3a2cd69c041fb35d48c159ef124379cf03d5c99a215c'
+    font 'OTF/FantasqueSansMono-Bold.otf'
+    font 'OTF/FantasqueSansMono-BoldItalic.otf'
+    font 'OTF/FantasqueSansMono-RegItalic.otf'
+    font 'OTF/FantasqueSansMono-Regular.otf'
 end
 ```
 
 ## Font Cask Fields
 
-The `url`, `homepage`, `version`, and `sha1` fields in a Font Cask are as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
-Note that if the download `url` is not a versioned file, `sha1 <hexstring>`
+The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
+Note that if the download `url` is not a versioned file, `sha256 <hexstring>`
 should be replaced with `no_checksum`, and `version` should be set to
 `latest`.
 
@@ -122,36 +119,11 @@ more sophisticated.
 ## Check Your Font Licenses
 
 At this time, homebrew-fonts is only accepting Casks for fonts which are
-freely redistributable.
+freely redistributable. Just because a font is freely downloadable does not
+mean it is licensed for distribution, so please check that a license is available.
 
 ## URL Notes
 
-### Google Web Fonts
-
-Google web font "kit" URLs in the form `http://www.google.com/fonts/download?kit=<id>`
-are not stable, and should be avoided.
-
-### OUT-OF-DATE -- THIS SECTION IS NOW OUT-OF-DATE, see Casks for examples
-
-All Google web fonts are available here:
-
-	<https://code.google.com/p/googlefontdirectory/source/browse/>
-
-Here is one way to get a stable link to a Google web font:
-
-* Construct the directory for your font of interest
-
-		https://code.google.com/p/googlefontdirectory/source/browse/<license>/<familyname>
-  Where `<license>` is one of: `ofl`, `apache`, or `ubuntu`.  `<familyname>` is
-  usually styled all-lowercase, no spaces or punctuation.
-
-* Click through the font name you want to find a "Raw" link, in the form:
-
-		https://googlefontdirectory.googlecode.com/hg-history/default/<license>/<familyname>/<fontname>.<ext>
-
-Example: <https://googlefontdirectory.googlecode.com/hg-history/default/ofl/lekton/Lekton-Regular.ttf>.
-
-If you know a better way, we'd love to hear it -- please send us a pull
-request!
-
-**<3 THANK YOU! <3**
+We prefer to have the casks point to font download links as high up the distribution
+chain as possible. This generally means linking directly to the download from the 
+font's author when possible rather than from a site that aggregates fonts. 
