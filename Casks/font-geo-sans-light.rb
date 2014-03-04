@@ -1,8 +1,7 @@
 class FontGeoSansLight < Cask
-  url 'http://img.dafont.com/dl/?f=geo_sans_light'
-  homepage 'http://www.dafont.com/geo-sans-light.font'
+  url 'http://moorstation.org/typoasis/designers/klein03/text02/pc/GeosansLight.zip'
+  homepage 'http://moorstation.org/typoasis/designers/klein03/text02/geosanslite.htm'
   version 'latest'
-  sha1 'no_checksum'
-  font 'GeosansLight-Oblique.ttf'
+  sha1 '09c6e902bdf8141ec22d54e69c12daaf867d1458'
   font 'GeosansLight.ttf'
 end
