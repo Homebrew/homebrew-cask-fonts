@@ -2,7 +2,7 @@ class FontRoboto < Cask
   url 'http://developer.android.com/downloads/design/roboto-1.2.zip'
   homepage 'http://developer.android.com/design/style/typography.html'
   version '1.200311'
-  sha1 '87ac584379974261d2483f459a388790d9d817ed'
+  sha256 '5101b5bdb3b7b14cc922a771ba068bfcae8634467c1f446bc89bc2b4f8b4f1b5'
   font 'Roboto_v1.2/Roboto/Roboto-Black.ttf'
   font 'Roboto_v1.2/Roboto/Roboto-BlackItalic.ttf'
   font 'Roboto_v1.2/Roboto/Roboto-Bold.ttf'
