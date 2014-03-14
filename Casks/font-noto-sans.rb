@@ -2,7 +2,7 @@ class FontNotoSans < Cask
   url 'http://noto.googlecode.com/files/NotoFonts-hinted-2013-04-11.zip'
   homepage 'https://code.google.com/p/noto/'
   version '1.04'
-  sha1 '5fb539468e0e689d9c60c246577432e212364e8b'
+  sha256 '158eac9f6637a0f3b0b0fdd91ccc93c3aa3485e2c1da8ce5e06ba500388c4818'
   font 'fonts/individual/hinted/NotoSans-Bold.ttf'
   font 'fonts/individual/hinted/NotoSans-BoldItalic.ttf'
   font 'fonts/individual/hinted/NotoSans-Italic.ttf'
