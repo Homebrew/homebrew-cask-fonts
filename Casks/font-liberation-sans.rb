@@ -2,7 +2,7 @@ class FontLiberationSans < Cask
   url 'https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz'
   homepage 'https://fedorahosted.org/liberation-fonts/'
   version '2.00.1'
-  sha1 '84b40d7f8bb0cd085dd70b3abed197133d761557'
+  sha256 '7890278a6cd17873c57d9cd785c2d230d9abdea837e96516019c5885dd271504'
   font 'liberation-fonts-ttf-2.00.1/LiberationMono-Bold.ttf'
   font 'liberation-fonts-ttf-2.00.1/LiberationMono-BoldItalic.ttf'
   font 'liberation-fonts-ttf-2.00.1/LiberationMono-Italic.ttf'
