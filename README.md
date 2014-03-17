@@ -7,6 +7,12 @@ your Mac.
 Here is where you can find or submit font Casks for the
 [homebrew-cask](https://github.com/phinze/homebrew-cask) project.
 
+## Pre-release
+
+Caskroom-fonts is a pre-release.  You are welcome to use it and contribute,
+but be aware that some things do not work yet.  You can track our goal of
+first alpha release [here](https://github.com/caskroom/homebrew-fonts/issues/84).
+
 ## Prerequisites
 
 Fonts are available through homebrew-cask, which is an "external command"
@@ -22,17 +28,24 @@ $ brew cask install font-inconsolata
 
 ## Search For a Font
 
-```bash
-$ brew cask search symbola
-font-symbola
-```
-
-## Search For All Known Fonts
+Font searching is temporarily disabled per phinze/homebrew-cask#3025.  While
+this is being fixed, one workaround is
 
 ```bash
-$ brew cask search font
-font-ubuntu
+$ ls /usr/local//Library/Taps/caskroom-fonts/Casks/ | grep <pattern>
 ```
+
+~~```bash~~
+~~$ brew cask search symbola~~
+~~font-symbola~~
+~~```~~
+
+## ~~Search For All Known Fonts~~
+
+~~```bash~~
+~~$ brew cask search font~~
+~~font-ubuntu~~
+~~```~~
 
 ## Submitting a Font Cask
 
