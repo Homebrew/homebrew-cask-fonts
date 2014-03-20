@@ -3,9 +3,9 @@ class FontBebasNeue < Cask
   homepage 'http://fontfabric.com/bebas-neue/'
   version 'latest'
   no_checksum
-  font 'bebas/BebasNeue Bold.otf'
-  font 'bebas/BebasNeue Book.otf'
-  font 'bebas/BebasNeue Light.otf'
-  font 'bebas/BebasNeue Regular.otf'
-  font 'bebas/BebasNeue Thin.otf'
+  font 'BebasNeue Bold.otf'
+  font 'BebasNeue Book.otf'
+  font 'BebasNeue Light.otf'
+  font 'BebasNeue Regular.otf'
+  font 'BebasNeue Thin.otf'
 end

@@ -3,10 +3,10 @@ class FontAleo < Cask
   homepage 'http://fontfabric.com/aleo-free-font/'
   version 'latest'
   no_checksum
-  font 'aleo/Aleo-Bold.otf'
-  font 'aleo/Aleo-BoldItalic.otf'
-  font 'aleo/Aleo-Italic.otf'
-  font 'aleo/Aleo-Light.otf'
-  font 'aleo/Aleo-LightItalic.otf'
-  font 'aleo/Aleo-Regular.otf'
+  font 'Aleo-Bold.otf'
+  font 'Aleo-BoldItalic.otf'
+  font 'Aleo-Italic.otf'
+  font 'Aleo-Light.otf'
+  font 'Aleo-LightItalic.otf'
+  font 'Aleo-Regular.otf'
 end
