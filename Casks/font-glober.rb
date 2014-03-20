@@ -3,6 +3,6 @@ class FontGlober < Cask
   homepage 'http://fontfabric.com/glober-free-font/'
   version 'latest'
   no_checksum
-  font 'glober/Glober Bold Free.otf'
-  font 'glober/Glober Thin Free.otf'
+  font 'Glober Bold Free.otf'
+  font 'Glober Thin Free.otf'
 end

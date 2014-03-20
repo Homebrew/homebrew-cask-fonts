@@ -3,6 +3,6 @@ class FontNexa < Cask
   homepage 'http://fontfabric.com/nexa-font/'
   version 'latest'
   no_checksum
-  font 'nexa/Nexa Bold.otf'
-  font 'nexa/Nexa Light.otf'
+  font 'Nexa Bold.otf'
+  font 'Nexa Light.otf'
 end

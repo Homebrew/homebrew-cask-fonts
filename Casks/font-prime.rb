@@ -3,6 +3,6 @@ class FontPrime < Cask
   homepage 'http://fontfabric.com/prime-free-font/'
   version 'latest'
   no_checksum
-  font 'prime/Prime Light.otf'
-  font 'prime/Prime Regular.otf'
+  font 'Prime Light.otf'
+  font 'Prime Regular.otf'
 end

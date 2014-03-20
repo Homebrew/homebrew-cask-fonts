@@ -3,10 +3,10 @@ class FontCanter < Cask
   homepage 'http://fontfabric.com/canter-free-font/'
   version 'latest'
   no_checksum
-  font 'canter/Canter Bold.otf'
-  font 'canter/Canter Bold 3D.otf'
-  font 'canter/Canter Bold Shadow.otf'
-  font 'canter/Canter Bold Strips.otf'
-  font 'canter/Canter Light.otf'
-  font 'canter/Canter Outline.otf'
+  font 'Canter Bold.otf'
+  font 'Canter Bold 3D.otf'
+  font 'Canter Bold Shadow.otf'
+  font 'Canter Bold Strips.otf'
+  font 'Canter Light.otf'
+  font 'Canter Outline.otf'
 end
