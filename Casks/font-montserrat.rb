@@ -5,7 +5,7 @@ class FontMontserrat < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Montserrat'
   version '2.001'
-  sha256 'feadbeb6ce9787cc415c6f5377205a5c56b52879e4f1a45623966617cd37ca4d'
+  sha256 :no_check
   font 'Montserrat-Bold.ttf'
   font 'Montserrat-Regular.ttf'
 end

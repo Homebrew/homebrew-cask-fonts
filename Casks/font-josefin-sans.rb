@@ -5,7 +5,7 @@ class FontJosefinSans < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Josefin%20Sans'
   version '0'
-  sha256 '26f6b4cf43de81e65873c54fc40179ae5fa0c05acf1665c9cb3de6b98c03ab03'
+  sha256 :no_check
   font 'JosefinSans-Bold.ttf'
   font 'JosefinSans-BoldItalic.ttf'
   font 'JosefinSans-Italic.ttf'

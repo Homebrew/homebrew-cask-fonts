@@ -5,7 +5,7 @@ class FontExo < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Exo'
   version '1.00'
-  sha256 '1e1c5df4a1260d0672d1c20b2ccf62fca57ae31f7203f96413368bda317af730'
+  sha256 :no_check
   font 'Exo-Black.ttf'
   font 'Exo-BlackItalic.ttf'
   font 'Exo-Bold.ttf'

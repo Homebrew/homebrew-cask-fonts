@@ -5,7 +5,7 @@ class FontGfsNeohellenic < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/GFS%20Neohellenic'
   version '1.0'
-  sha256 '52ffbaa49b26311451eca9e47d2bf31eaeee1286b333dc3304885ffe2b08822f'
+  sha256 :no_check
   font 'GFSNeohellenic.ttf'
   font 'GFSNeohellenicBold.ttf'
   font 'GFSNeohellenicBoldItalic.ttf'

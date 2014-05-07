@@ -5,7 +5,7 @@ class FontTitilliumWeb < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Titillium%20Web'
   version '1.001'
-  sha256 'bc9ce40bfaab68a8ae1b64e2698c66ecce56fe65ba1b2f3a53f46929d6f56002'
+  sha256 :no_check
   font 'TitilliumWeb-Black.ttf'
   font 'TitilliumWeb-Bold.ttf'
   font 'TitilliumWeb-BoldItalic.ttf'

@@ -5,7 +5,7 @@ class FontKarlaTamilUpright < Cask
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
   version '1.001'
-  sha256 '211fb39a042e55bc15ff48e6995486a66f39e058794f522dc067283bdbf5d8c5'
+  sha256 :no_check
   font 'KarlaTamilUpright-Bold.ttf'
   font 'KarlaTamilUpright-Regular.ttf'
 end

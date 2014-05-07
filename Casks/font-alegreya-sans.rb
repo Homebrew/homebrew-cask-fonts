@@ -5,7 +5,7 @@ class FontAlegreyaSans < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Alegreya%20Sans'
   version '1.000'
-  sha256 'e8c76fcb938ad9546384d5761405ffbc0183522fae40e4b4c0a2dc14d851da94'
+  sha256 :no_check
   font 'AlegreyaSans-Black.ttf'
   font 'AlegreyaSans-BlackItalic.ttf'
   font 'AlegreyaSans-Bold.ttf'

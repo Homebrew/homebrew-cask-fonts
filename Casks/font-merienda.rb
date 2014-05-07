@@ -5,7 +5,7 @@ class FontMerienda < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Merienda'
   version '1.001'
-  sha256 '10beb4571c53d87d3f5d07a8d9896eda5b605b4a641c2bb044a8481d965c71b0'
+  sha256 :no_check
   font 'Merienda-Bold.ttf'
   font 'Merienda-Regular.ttf'
 end

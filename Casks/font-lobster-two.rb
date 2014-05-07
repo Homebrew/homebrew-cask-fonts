@@ -5,7 +5,7 @@ class FontLobsterTwo < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Lobster%20Two'
   version '1.006'
-  sha256 'b9ff651fc259b0e4420add2e3d9536f7718176b3c04c697a89ec87b476351890'
+  sha256 :no_check
   font 'LobsterTwo-Bold.ttf'
   font 'LobsterTwo-BoldItalic.ttf'
   font 'LobsterTwo-Italic.ttf'

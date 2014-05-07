@@ -5,7 +5,7 @@ class FontBuenard < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Buenard'
   version '1.001'
-  sha256 '9bfea213afa2c01674f1dcaf1c629f81ce34537694ee8a8140965b615524fddd'
+  sha256 :no_check
   font 'Buenard-Bold.ttf'
   font 'Buenard-Regular.ttf'
 end

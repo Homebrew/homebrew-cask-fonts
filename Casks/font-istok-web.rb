@@ -5,7 +5,7 @@ class FontIstokWeb < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Istok%20Web'
   version '1.0'
-  sha256 '5b4571589fc4c743d5da7869fc16364ac95056ff0a273ac2ac3d0b1a115eaca6'
+  sha256 :no_check
   font 'IstokWeb-Bold.ttf'
   font 'IstokWeb-BoldItalic.ttf'
   font 'IstokWeb-Italic.ttf'

@@ -5,7 +5,7 @@ class FontRambla < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Rambla'
   version '1.001'
-  sha256 '2728ff3f0b99d01be68441a9ae87c11a6cf42461714367b01bf73a6c5ed3bed5'
+  sha256 :no_check
   font 'Rambla-Bold.ttf'
   font 'Rambla-BoldItalic.ttf'
   font 'Rambla-Italic.ttf'

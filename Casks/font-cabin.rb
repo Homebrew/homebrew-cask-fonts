@@ -5,7 +5,7 @@ class FontCabin < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Cabin'
   version '1.006'
-  sha256 '4635264920a2141c2ed3deb7d5484d948dfee00f2faa5b1c77382c5064fa9b08'
+  sha256 :no_check
   font 'Cabin-Bold.ttf'
   font 'Cabin-BoldItalic.ttf'
   font 'Cabin-Italic.ttf'

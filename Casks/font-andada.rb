@@ -5,7 +5,7 @@ class FontAndada < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Andada'
   version '1.003'
-  sha256 'db9d97f98d6e2585fdca7fec9bb49aa22ccdba504f56baa5f471cd6a642a6a81'
+  sha256 :no_check
   font 'Andada-Bold.ttf'
   font 'Andada-BoldItalic.ttf'
   font 'Andada-Italic.ttf'

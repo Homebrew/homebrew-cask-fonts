@@ -5,7 +5,7 @@ class FontLifeSavers < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Life%20Savers'
   version '2.001'
-  sha256 'ded0215b0e38df7243ca739e02ea34c46138256e071669431169121ea34d65fb'
+  sha256 :no_check
   font 'LifeSavers-Bold.ttf'
   font 'LifeSavers-Regular.ttf'
 end

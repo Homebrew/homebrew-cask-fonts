@@ -5,7 +5,7 @@ class FontGentiumBasic < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Gentium%20Basic'
   version '1.100'
-  sha256 '0238aec8de1d796450268810b68ee24e8b7927e985b685b859dd3921e52512ff'
+  sha256 :no_check
   font 'GenBasB.ttf'
   font 'GenBasBI.ttf'
   font 'GenBasI.ttf'

@@ -5,7 +5,7 @@ class FontRosario < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Rosario'
   version '1.003'
-  sha256 '2fc7b410345ac6eb44f04d3d0478a0413a321a8e8589fe567957a2200129307d'
+  sha256 :no_check
   font 'Rosario-Bold.ttf'
   font 'Rosario-BoldItalic.ttf'
   font 'Rosario-Italic.ttf'

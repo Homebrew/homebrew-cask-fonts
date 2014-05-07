@@ -5,7 +5,7 @@ class FontMerriweather < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Merriweather'
   version '1.003'
-  sha256 'ca492523b689849909f715930666a0411a5b15cf726817cb445af3de356f6759'
+  sha256 :no_check
   font 'Merriweather-Black.ttf'
   font 'Merriweather-Bold.ttf'
   font 'Merriweather-BoldItalic.ttf'

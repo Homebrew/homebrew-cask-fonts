@@ -5,7 +5,7 @@ class FontGorditas < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Gorditas'
   version '001.001'
-  sha256 '7ecab1e4f49e7101c4d3b22c54d082c8c02d305a082097a155a6f589bcfb3917'
+  sha256 :no_check
   font 'Gorditas-Bold.ttf'
   font 'Gorditas-Regular.ttf'
 end

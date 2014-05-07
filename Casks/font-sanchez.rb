@@ -5,7 +5,7 @@ class FontSanchez < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Sanchez'
   version '1.001'
-  sha256 'ddf2693582691dd411b4f8a008c53f8d0295ef17864a81666743aa8d148b48e0'
+  sha256 :no_check
   font 'Sanchez-Italic.ttf'
   font 'Sanchez-Regular.ttf'
 end

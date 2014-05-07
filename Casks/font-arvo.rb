@@ -5,7 +5,7 @@ class FontArvo < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Arvo'
   version '2.001'
-  sha256 '9b2b853409b4ac4ba4c982dda1b3517b35c97c282ffdafcb8306c4436d948816'
+  sha256 :no_check
   font 'Arvo-Bold.ttf'
   font 'Arvo-BoldItalic.ttf'
   font 'Arvo-Italic.ttf'

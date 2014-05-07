@@ -5,7 +5,7 @@ class FontSignikaNegative < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Signika%20Negative'
   version '1.001'
-  sha256 '8568eaeae339b8c55c98d9651f2c7bab9832de0761a0da89a7edd14b80e205a6'
+  sha256 :no_check
   font 'SignikaNegative-Bold.ttf'
   font 'SignikaNegative-Light.ttf'
   font 'SignikaNegative-Regular.ttf'

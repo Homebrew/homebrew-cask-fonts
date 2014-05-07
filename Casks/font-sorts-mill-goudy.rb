@@ -5,7 +5,7 @@ class FontSortsMillGoudy < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Sorts%20Mill%20Goudy'
   version '003.101'
-  sha256 'a5785d80ebbe9bd31adc5afa99f5629586bdf4e6424a626afe0cc87d91dc841a'
+  sha256 :no_check
   font 'SortsMillGoudy-Italic.ttf'
   font 'SortsMillGoudy-Regular.ttf'
 end

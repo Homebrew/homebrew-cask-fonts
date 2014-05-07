@@ -5,7 +5,7 @@ class FontOpenSans < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Open+Sans'
   version '1.10'
-  sha256 '133b1d0459692d42b9742b6f6a34ca3759b43f4c4201d7bec952b51aecff9852'
+  sha256 :no_check
   font 'OpenSans-Bold.ttf'
   font 'OpenSans-BoldItalic.ttf'
   font 'OpenSans-ExtraBold.ttf'

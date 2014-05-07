@@ -5,7 +5,7 @@ class FontOpenSansHebrewCondensed < Cask
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
   version '2.001'
-  sha256 '240f7f3e4f5aa622fcdbc66899671d7d82fd6e87d97933996e299e7acc2d8a30'
+  sha256 :no_check
   font 'OpenSansHebrewCondensed-Bold.ttf'
   font 'OpenSansHebrewCondensed-BoldItalic.ttf'
   font 'OpenSansHebrewCondensed-ExtraBold.ttf'

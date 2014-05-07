@@ -5,7 +5,7 @@ class FontArchivoNarrow < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Archivo%20Narrow'
   version '1.002'
-  sha256 'bd163745545aeadb56423c0d01bdd59160944453b12c553e7e1c7ac33ddb14a7'
+  sha256 :no_check
   font 'ArchivoNarrow-Bold.ttf'
   font 'ArchivoNarrow-BoldItalic.ttf'
   font 'ArchivoNarrow-Italic.ttf'

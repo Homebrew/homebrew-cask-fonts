@@ -5,7 +5,7 @@ class FontNeuton < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Neuton'
   version '1.42'
-  sha256 '44c1f37faf2a8ad764600c154af98f92803ba5f4c58f0078d3f965f199f72fa0'
+  sha256 :no_check
   font 'Neuton-Bold.ttf'
   font 'Neuton-ExtraBold.ttf'
   font 'Neuton-ExtraLight.ttf'
