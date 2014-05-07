@@ -5,7 +5,7 @@ class FontAsap < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Asap'
   version '1.001'
-  sha256 '31be87256b7870673256159dbaa6391ac5f9aaa3423454bcf60ae4f08d8625ed'
+  sha256 :no_check
   font 'Asap-Bold.ttf'
   font 'Asap-BoldItalic.ttf'
   font 'Asap-Italic.ttf'

@@ -5,7 +5,7 @@ class FontAbeezee < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/ABeeZee'
   version '1.001'
-  sha256 'd3b8845910236cbd5728647f255549654a00d991d177e67f25be3e0e19231636'
+  sha256 :no_check
   font 'ABeeZee-Italic.ttf'
   font 'ABeeZee-Regular.ttf'
 end

@@ -5,7 +5,7 @@ class FontPlay < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Play'
   version '1.002'
-  sha256 '3e670e7de92e5c83553438d14d031163877e61bcc4555afe57d11067da1c9a54'
+  sha256 :no_check
   font 'Play-Bold.ttf'
   font 'Play-Regular.ttf'
 end

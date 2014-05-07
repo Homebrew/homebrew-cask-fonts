@@ -5,7 +5,7 @@ class FontQuicksand < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Quicksand'
   version '001.001'
-  sha256 'e61c090c1e419ddc0187fe5b735f52fbddf1be043d11309121b1a6e42adf7db0'
+  sha256 :no_check
   font 'Quicksand-Bold.ttf'
   font 'Quicksand-BoldItalic.ttf'
   font 'Quicksand-Italic.ttf'

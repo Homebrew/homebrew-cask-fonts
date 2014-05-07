@@ -5,7 +5,7 @@ class FontSintony < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Sintony'
   version '1.001'
-  sha256 '59a4fa6f5b42a402cd0fbdd5868096f603f661652ebb793bf7e03ea276e0fb3c'
+  sha256 :no_check
   font 'Sintony-Bold.ttf'
   font 'Sintony-Regular.ttf'
 end

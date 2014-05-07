@@ -5,7 +5,7 @@ class FontAlmendraSc < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Almendra%20SC'
   version '1.003'
-  sha256 'd0a8b809e216ca7849932f3c4385c5e598bba595674bafec8367e5aaad956d6a'
+  sha256 :no_check
   font 'AlmendraSC-Bold.ttf'
   font 'AlmendraSC-BoldItalic.ttf'
   font 'AlmendraSC-Italic.ttf'

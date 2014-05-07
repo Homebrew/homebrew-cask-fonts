@@ -5,7 +5,7 @@ class FontCousine < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Cousine'
   version '1.21'
-  sha256 'c1c76aa1d35545aaf5d12ab8ad933e70544e62248f6450e65645768122d91dc1'
+  sha256 :no_check
   font 'Cousine-Regular.ttf'
   font 'Cousine-Bold.ttf'
   font 'Cousine-BoldItalic.ttf'

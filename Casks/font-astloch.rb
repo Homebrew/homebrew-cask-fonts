@@ -5,7 +5,7 @@ class FontAstloch < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Astloch'
   version '1.000'
-  sha256 '15e45b014c53bb13441f1e438bcfe38d3308770c9ef226ee4d3cdbecf9fcd2e6'
+  sha256 :no_check
   font 'Astloch-Bold.ttf'
   font 'Astloch-Regular.ttf'
 end

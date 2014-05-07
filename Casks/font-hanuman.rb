@@ -5,7 +5,7 @@ class FontHanuman < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Hanuman'
   version '2.00'
-  sha256 'e650d506ed195d5c679b564259da51be99112c791930062099fd92b07beaadba'
+  sha256 :no_check
   font 'Hanuman.ttf'
   font 'Hanumanb.ttf'
 end

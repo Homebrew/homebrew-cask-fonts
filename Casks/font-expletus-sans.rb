@@ -5,7 +5,7 @@ class FontExpletusSans < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Expletus%20Sans'
   version '7.029'
-  sha256 '5363fb22063fbb3aa163f5d1015267415c278c6b2bf68a46565af0ccd5289246'
+  sha256 :no_check
   font 'ExpletusSans-Bold.ttf'
   font 'ExpletusSans-BoldItalic.ttf'
   font 'ExpletusSans-Italic.ttf'

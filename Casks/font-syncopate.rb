@@ -5,7 +5,7 @@ class FontSyncopate < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Syncopate'
   version '1.000'
-  sha256 'e5cbd80e4555893304c2a563e2828aeb8bce6b3960929bf87b517d113b13376e'
+  sha256 :no_check
   font 'Syncopate-Bold.ttf'
   font 'Syncopate-Regular.ttf'
 end

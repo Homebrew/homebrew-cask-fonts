@@ -5,7 +5,7 @@ class FontPuritan < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Puritan'
   version '2.1'
-  sha256 'bd88edf5a2154641c0e0311b65d1cbfb9996b713d9c0486f7bfbfad9f5441d8c'
+  sha256 :no_check
   font 'Puritan-Bold.ttf'
   font 'Puritan-BoldItalic.ttf'
   font 'Puritan-Italic.ttf'

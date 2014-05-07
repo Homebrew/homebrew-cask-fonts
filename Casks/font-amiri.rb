@@ -5,7 +5,7 @@ class FontAmiri < Cask
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
   version '000.104'
-  sha256 '46ba5f32e2fee7ebd04cbf42be2d38a433564361221ad9d5c99f3bea36c1dc48'
+  sha256 :no_check
   font 'Amiri-Bold.ttf'
   font 'Amiri-BoldSlanted.ttf'
   font 'Amiri-Regular.ttf'

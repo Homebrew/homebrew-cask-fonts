@@ -5,7 +5,7 @@ class FontTrochut < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Trochut'
   version '1.001'
-  sha256 'ae34d59248365cb4670e97c6c1e592373d51de20afc69da83d1145667ab82214'
+  sha256 :no_check
   font 'Trochut-Bold.ttf'
   font 'Trochut-Italic.ttf'
   font 'Trochut-Regular.ttf'

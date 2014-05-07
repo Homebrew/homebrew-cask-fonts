@@ -5,7 +5,7 @@ class FontFlamenco < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Flamenco'
   version '1.002'
-  sha256 '26c44a0032b5cd77ebbbed0a1bc542116b4d71bac3b38f4ed6467be1752237f8'
+  sha256 :no_check
   font 'Flamenco-Light.ttf'
   font 'Flamenco-Regular.ttf'
 end

@@ -5,7 +5,7 @@ class FontPoly < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Poly'
   version '1.003'
-  sha256 '6b631b15f977205cedf938eacacd25e0a3bd7a257697f19bf3ab98f0f7043a76'
+  sha256 :no_check
   font 'Poly-Italic.ttf'
   font 'Poly-Regular.ttf'
 end

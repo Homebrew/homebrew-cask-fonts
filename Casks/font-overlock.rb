@@ -5,7 +5,7 @@ class FontOverlock < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Overlock'
   version '1.001'
-  sha256 '841f1baa868b848fd4b18a0f35676070c2317b3eaaa81dd1461fffd3e341f641'
+  sha256 :no_check
   font 'Overlock-Black.ttf'
   font 'Overlock-BlackItalic.ttf'
   font 'Overlock-Bold.ttf'

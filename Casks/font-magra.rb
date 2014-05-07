@@ -5,7 +5,7 @@ class FontMagra < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Magra'
   version '1.001'
-  sha256 'de629aefd51dd17eaac91204acc67e6c835aa36ef55a4c2ed97cc96bb4cac339'
+  sha256 :no_check
   font 'Magra-Bold.ttf'
   font 'Magra-Regular.ttf'
 end

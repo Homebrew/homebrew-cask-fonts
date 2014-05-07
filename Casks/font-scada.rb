@@ -5,7 +5,7 @@ class FontScada < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Scada'
   version '3.005'
-  sha256 '1ec4eb597181f45a18c25767c4c56f856fdc5e1ecf1bf1e9fea23f2bf4515e80'
+  sha256 :no_check
   font 'Scada-Bold.ttf'
   font 'Scada-BoldItalic.ttf'
   font 'Scada-Italic.ttf'

@@ -5,7 +5,7 @@ class FontJosefinSlab < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Josefin%20Slab'
   version '1.000'
-  sha256 'c83cbf4ac9b671a2122f99186f0f08948d68d8c7eaf9330d7ec28c933586ebe9'
+  sha256 :no_check
   font 'JosefinSlab-Bold.ttf'
   font 'JosefinSlab-BoldItalic.ttf'
   font 'JosefinSlab-Italic.ttf'

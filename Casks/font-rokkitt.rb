@@ -5,7 +5,7 @@ class FontRokkitt < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Rokkitt'
   version '1.000'
-  sha256 '11c48e7dfa9112c95036a3f239380efd720884acf9246effed85c773d2858dba'
+  sha256 :no_check
   font 'Rokkitt-Bold.ttf'
   font 'Rokkitt-Light.ttf'
   font 'Rokkitt-Regular.ttf'

@@ -5,7 +5,7 @@ class FontChangaOne < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Changa%20One'
   version '1.003'
-  sha256 '608a628b0d85b1ce960f16650ec55edfa0ae8fcc7561df565290f04141eb0a60'
+  sha256 :no_check
   font 'ChangaOne-Italic.ttf'
   font 'ChangaOne-Regular.ttf'
 end

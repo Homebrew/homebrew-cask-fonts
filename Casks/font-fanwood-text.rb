@@ -5,7 +5,7 @@ class FontFanwoodText < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Fanwood%20Text'
   version '1.101'
-  sha256 'a1fc31b54c3933ad60838363a76387399d93efc6b9e83155a0b9e64a722bae97'
+  sha256 :no_check
   font 'FanwoodText-Italic.ttf'
   font 'FanwoodText-Regular.ttf'
 end

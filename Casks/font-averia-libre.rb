@@ -5,7 +5,7 @@ class FontAveriaLibre < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Averia%20Libre'
   version '1.001'
-  sha256 'a3a49ba621bf0ab8794d58364a24f0a3d19b2a868ccf04de6c14ff84bd31f3e3'
+  sha256 :no_check
   font 'AveriaLibre-Bold.ttf'
   font 'AveriaLibre-BoldItalic.ttf'
   font 'AveriaLibre-Italic.ttf'

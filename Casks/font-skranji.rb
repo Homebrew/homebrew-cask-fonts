@@ -5,7 +5,7 @@ class FontSkranji < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Skranji'
   version '1.001'
-  sha256 'e397b97d47bd306f10d07ce85807c6adad4f3acefa2a969e0e31d194e45e0b7c'
+  sha256 :no_check
   font 'Skranji-Bold.ttf'
   font 'Skranji-Regular.ttf'
 end

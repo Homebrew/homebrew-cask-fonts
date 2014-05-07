@@ -5,7 +5,7 @@ class FontDroidSerifThai < Cask
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
   version '1.00'
-  sha256 '13a780a370d2d19d70e70276896ba9cee1e36b357550a6c5acbf404535195a55'
+  sha256 :no_check
   font 'DroidSerifThai-Bold.ttf'
   font 'DroidSerifThai-Regular.ttf'
 end

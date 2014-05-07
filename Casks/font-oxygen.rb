@@ -5,7 +5,7 @@ class FontOxygen < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Oxygen'
   version '0.2.3'
-  sha256 '3d86bd6808b127e2d530f71000682d2105c4b67a994806c1f0852b48f3bb1a70'
+  sha256 :no_check
   font 'Oxygen-Bold.ttf'
   font 'Oxygen-Light.ttf'
   font 'Oxygen-Regular.ttf'

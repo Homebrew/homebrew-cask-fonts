@@ -5,7 +5,7 @@ class FontMarvel < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Marvel'
   version '1.001'
-  sha256 '70adb11ab7a9abbc29b2b3fb41f2db6b6c4f447cf009478516ae7def37956473'
+  sha256 :no_check
   font 'Marvel-Bold.ttf'
   font 'Marvel-BoldItalic.ttf'
   font 'Marvel-Italic.ttf'

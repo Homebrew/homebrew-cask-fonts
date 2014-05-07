@@ -5,7 +5,7 @@ class FontArapey < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Arapey'
   version '1.002'
-  sha256 '6f97ea6c3e833807c9cde959b7f2d1d59f70ecbee0c5ab8d9579954423c62d1e'
+  sha256 :no_check
   font 'Arapey-Italic.ttf'
   font 'Arapey-Regular.ttf'
 end

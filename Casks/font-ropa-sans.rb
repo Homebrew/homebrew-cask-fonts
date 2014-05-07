@@ -5,7 +5,7 @@ class FontRopaSans < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Ropa%20Sans'
   version '1.002'
-  sha256 '14b4fdd4ebbaa433eaab2b491410d918baf172e4da091c67bfed62aa1dc9c8a1'
+  sha256 :no_check
   font 'RopaSans-Italic.ttf'
   font 'RopaSans-Regular.ttf'
 end

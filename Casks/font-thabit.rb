@@ -5,7 +5,7 @@ class FontThabit < Cask
       :trust_cert => true
   homepage 'http://projects.arabeyes.org/project.php?proj=Khotot'
   version '0.01'
-  sha256 '1879aa6db5f567d7443868f3bbad7f9342da3672c3c72742d5a681f1e25e77db'
+  sha256 :no_check
   font 'Thabit-Bold.ttf'
   font 'Thabit-BoldOblique.ttf'
   font 'Thabit-Oblique.ttf'

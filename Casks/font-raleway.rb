@@ -5,7 +5,7 @@ class FontRaleway < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Raleway'
   version '2.001'
-  sha256 '6e54d8201223a51e1af3c0b8c3ffa4899d47fcdf5fc7a8a9e826d943acfd693d'
+  sha256 :no_check
   font 'Raleway-Bold.ttf'
   font 'Raleway-ExtraBold.ttf'
   font 'Raleway-ExtraLight.ttf'

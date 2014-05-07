@@ -5,7 +5,7 @@ class FontDroidSansTamil < Cask
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
   version '1.02'
-  sha256 '0bbce1117a38c58933ee68e34d9a6cd309d55090b9579bbc39793aa8b6027979'
+  sha256 :no_check
   font 'DroidSansTamil-Bold.ttf'
   font 'DroidSansTamil-Regular.ttf'
 end

@@ -5,7 +5,7 @@ class FontNanumgothiccoding < Cask
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
   version '2.000'
-  sha256 'e8a24f97588fdb013414cfbce6318db69eded218e8c628301d8073fb2403f4ad'
+  sha256 :no_check
   font 'NanumGothicCoding-Bold.ttf'
   font 'NanumGothicCoding-Regular.ttf'
 end

@@ -5,7 +5,7 @@ class FontCaudex < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Caudex'
   version '1.01'
-  sha256 'ad59106dd29d0b3086f18ec1ca59e54fea477828034b9e477f6b32f4af80fee7'
+  sha256 :no_check
   font 'Caudex-Bold.ttf'
   font 'Caudex-BoldItalic.ttf'
   font 'Caudex-Italic.ttf'

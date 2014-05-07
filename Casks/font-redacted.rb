@@ -5,7 +5,7 @@ class FontRedacted < Cask
       :trust_cert => true
   homepage 'https://github.com/christiannaths/Redacted-Font'
   version '1.001'
-  sha256 '89770a4c042b040b9bc3df731d06a1fcb0f40aca74daf9805de55a65d863c764'
+  sha256 :no_check
   font 'redacted-regular.ttf'
   font 'redacted-script-bold.ttf'
   font 'redacted-script-light.ttf'

@@ -5,7 +5,7 @@ class FontCantarell < Cask
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Cantarell'
   version '001.001'
-  sha256 '1507d899293765d46be86653f50e89e62580301fd5be40541d7ae07c1bb7f03a'
+  sha256 :no_check
   font 'Cantarell-Bold.ttf'
   font 'Cantarell-BoldOblique.ttf'
   font 'Cantarell-Oblique.ttf'
