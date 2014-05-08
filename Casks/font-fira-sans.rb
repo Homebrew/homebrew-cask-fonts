@@ -2,7 +2,7 @@ class FontFiraSans < Cask
   url 'https://github.com/mozilla/Fira/archive/master.zip'
   homepage 'https://github.com/mozilla/Fira'
   version 'latest'
-  no_checksum
+  sha256 :no_check
   font 'Fira-master/otf/FiraSansOT-Bold.otf'
   font 'Fira-master/otf/FiraSansOT-BoldItalic.otf'
   font 'Fira-master/otf/FiraSansOT-Regular.otf'
