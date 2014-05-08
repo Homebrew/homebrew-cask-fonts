@@ -2,7 +2,7 @@ class FontLato < Cask
   url 'http://www.latofonts.com/download/LatoOFL.zip'
   homepage 'http://www.latofonts.com/'
   version 'latest'
-  no_checksum
+  sha256 :no_check
   font 'OTF/Lato-Bla.otf'
   font 'OTF/Lato-BlaIta.otf'
   font 'OTF/Lato-Bol.otf'

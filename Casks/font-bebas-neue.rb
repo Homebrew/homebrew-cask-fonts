@@ -2,7 +2,7 @@ class FontBebasNeue < Cask
   url 'http://fontfabric.com/downfont/bebas.zip'
   homepage 'http://fontfabric.com/bebas-neue/'
   version 'latest'
-  no_checksum
+  sha256 :no_check
   font 'BebasNeue Bold.otf'
   font 'BebasNeue Book.otf'
   font 'BebasNeue Light.otf'
