@@ -29,10 +29,10 @@ $ brew cask install font-inconsolata
 ## Search For a Font
 
 Font searching is temporarily disabled per phinze/homebrew-cask#3025.  While
-this is being fixed, one workaround is
+this is being fixed, one workaround is to use a regular expression search:
 
 ```bash
-$ ls /usr/local//Library/Taps/caskroom-fonts/Casks/ | grep <pattern>
+$ brew cask search /symbola/
 ```
 
 ~~```bash~~
