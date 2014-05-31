@@ -1,7 +1,7 @@
 class FontFontawesome < Cask
-  url 'http://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.0.3.zip'
+  url 'http://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.1.0.zip'
   homepage 'http://fortawesome.github.io/Font-Awesome/'
-  version '4.0.3'
-  sha256 'ead30a79363ad5a29e1fac72aec3dbde3e986778405c042ca6d1a7a89fbfe841'
-  font 'font-awesome-4.0.3/fonts/FontAwesome.otf'
+  version '4.1.0'
+  sha256 '4980e584bd84437f25788ef45f79fca46dc253b542360f12b1f3b35824a0e27f'
+  font 'font-awesome-4.1.0/fonts/FontAwesome.otf'
 end
