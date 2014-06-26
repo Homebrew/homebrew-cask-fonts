@@ -1,7 +1,7 @@
 class FontQuivira < Cask
-  url 'http://www.quivira-font.com/files/Quivira.ttf'
+  url 'http://www.quivira-font.com/files/Quivira.otf'
   homepage 'http://www.quivira-font.com/downloads.php'
-  version '3.8'
+  version '4.0'
   sha256 :no_check
-  font 'Quivira.ttf'
+  font 'Quivira.otf'
 end
