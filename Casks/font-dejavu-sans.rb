@@ -1,4 +1,4 @@
-class FontDejavu < Cask
+class FontDejavuSans < Cask
   url 'http://downloads.sourceforge.net/sourceforge/dejavu/dejavu-fonts-ttf-2.34.zip'
   homepage 'http://dejavu-fonts.org/wiki/Main_Page'
   version '2.34'
