@@ -1,7 +1,7 @@
 class FontSymbola < Cask
-  url 'http://users.teilar.gr/~g1951d/Symbola.ttf'
+  url 'http://users.teilar.gr/~g1951d/Symbola.zip'
   homepage 'http://users.teilar.gr/~g1951d/'
-  version '7.12'
+  version '7.17'
   sha256 :no_check
-  font 'Symbola.ttf'
+  font 'Symbola_hint.ttf'
 end
