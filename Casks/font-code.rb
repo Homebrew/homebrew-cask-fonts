@@ -1,5 +1,5 @@
 class FontCode < Cask
-  url 'http://fontfabric.com/downloadfont/code.zip'
+  url 'http://fontfabric.com/downfont/code.zip'
   homepage 'http://fontfabric.com/code-free-font-3/'
   version 'latest'
   sha256 :no_check
