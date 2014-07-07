@@ -1,8 +1,8 @@
 class FontFantasqueSansMono < Cask
-    url 'https://github.com/belluzj/fantasque-sans/releases/download/v1.6.3/FantasqueSansMono.tar.gz'
+    url 'https://github.com/belluzj/fantasque-sans/releases/download/1.6.4/FantasqueSansMono.zip'
     homepage 'https://github.com/belluzj/fantasque-sans'
-    version '1.6.3'
-    sha256 '1dce16461d84fbd9af37c2a8b36ccd7534e3ed70415f1398071aa5a4a16e907b'
+    version '1.6.4'
+    sha256 'da5a7f84ac0e1c02b49334690d7451d936691718fb1332f863eacc521816dccd'
     font 'OTF/FantasqueSansMono-Bold.otf'
     font 'OTF/FantasqueSansMono-BoldItalic.otf'
     font 'OTF/FantasqueSansMono-RegItalic.otf'
