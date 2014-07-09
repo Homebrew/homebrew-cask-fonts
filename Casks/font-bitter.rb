@@ -1,12 +1,12 @@
 class FontBitter < Cask
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/bitter',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
-  homepage 'http://www.google.com/fonts/specimen/Bitter'
-  version '001.001'
+  version 'latest'
   sha256 :no_check
-  font 'Bitter-Bold.ttf'
-  font 'Bitter-Italic.ttf'
-  font 'Bitter-Regular.ttf'
+
+  url 'http://www.huertatipografica.com/free_download/36'
+  homepage 'http://www.huertatipografica.com/fonts/bitter-ht'
+
+  font 'Bitter-Bold.otf'
+  font 'Bitter-BoldItalic.otf'
+  font 'Bitter-Italic.otf'
+  font 'Bitter-Regular.otf'
 end
