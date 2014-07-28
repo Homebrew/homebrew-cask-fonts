@@ -1,4 +1,4 @@
-class FontNotoSansPhags-pa < Cask
+class FontNotoSansPhagsPa < Cask
   version 'latest'
   sha256 :no_check
 
