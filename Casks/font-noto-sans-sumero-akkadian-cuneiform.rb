@@ -1,4 +1,4 @@
-class FontNotoSansSumero-AkkadianCuneiform < Cask
+class FontNotoSansSumeroAkkadianCuneiform < Cask
   version 'latest'
   sha256 :no_check
 
