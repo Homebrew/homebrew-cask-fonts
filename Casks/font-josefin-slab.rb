@@ -1,11 +1,13 @@
 class FontJosefinSlab < Cask
+  version '1.000'
+  sha256 :no_check
+
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/josefinslab',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Josefin%20Slab'
-  version '1.000'
-  sha256 :no_check
+
   font 'JosefinSlab-Bold.ttf'
   font 'JosefinSlab-BoldItalic.ttf'
   font 'JosefinSlab-Italic.ttf'
