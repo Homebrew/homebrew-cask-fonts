@@ -6,6 +6,7 @@ class FontSeoulhangangcondensed < Cask
   sha256 '474a658fe169fd97c9ec5c816d094e221a5aa8e9cf83250c82625718544e1817'
   # These mangled filenames appear to be due to a limitation in /usr/bin/unzip.
   # "unar" can unpack this archive correctly.
+
   font '+%A1+%B4%A6%A6+%DB +%D5++-%A9%E3os+%D9/+%A1+%B4%A6%A6+%DB +%D5++B.otf'
   font '+%A1+%B4%A6%A6+%DB +%D5++-%A9%E3os+%D9/+%A1+%B4%A6%A6+%DB +%D5++BL.otf'
   font '+%A1+%B4%A6%A6+%DB +%D5++-%A9%E3os+%D9/+%A1+%B4%A6%A6+%DB +%D5++EB.otf'
