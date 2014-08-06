@@ -1,8 +1,10 @@
 class FontDejavuSans < Cask
-  url 'http://downloads.sourceforge.net/sourceforge/dejavu/dejavu-fonts-ttf-2.34.zip'
-  homepage 'http://dejavu-fonts.org/wiki/Main_Page'
   version '2.34'
   sha256 'f6b806b4aa0ea36a8d0f2c46dcd5afa6743773930024e562980c4cd0f9230792'
+
+  url 'http://downloads.sourceforge.net/sourceforge/dejavu/dejavu-fonts-ttf-2.34.zip'
+  homepage 'http://dejavu-fonts.org/wiki/Main_Page'
+
   font 'dejavu-fonts-ttf-2.34/ttf/DejaVuSans-Bold.ttf'
   font 'dejavu-fonts-ttf-2.34/ttf/DejaVuSans-BoldOblique.ttf'
   font 'dejavu-fonts-ttf-2.34/ttf/DejaVuSans-ExtraLight.ttf'
