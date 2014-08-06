@@ -1,5 +1,6 @@
 class FontNewsCycle < Cask
-  version '0.5'
+  # version '0.5'
+  version 'latest'
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/newscycle',
