@@ -1,8 +1,10 @@
 class FontFreesans < Cask
-  url 'http://ftp.gnu.org/gnu/freefont/freefont-otf-20120503.tar.gz'
-  homepage 'http://ftp.gnu.org/gnu/freefont/'
   version '0412.2268'
   sha256 '3a6c51868c71b006c33c4bcde63d90927e6fcca8f51c965b8ad62d021614a860'
+
+  url 'http://ftp.gnu.org/gnu/freefont/freefont-otf-20120503.tar.gz'
+  homepage 'http://ftp.gnu.org/gnu/freefont/'
+
   font 'freefont-20120503/FreeMono.otf'
   font 'freefont-20120503/FreeMonoBold.otf'
   font 'freefont-20120503/FreeMonoBoldOblique.otf'
