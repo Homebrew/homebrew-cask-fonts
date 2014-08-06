@@ -1,5 +1,6 @@
 class FontRaleway < Cask
-  version '2.001'
+  # version '2.001'
+  version 'latest'
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/raleway',

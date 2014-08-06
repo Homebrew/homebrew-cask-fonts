@@ -1,5 +1,6 @@
 class FontBattambang < Cask
-  version '2.00'
+  # version '2.00'
+  version 'latest'
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/battambang',

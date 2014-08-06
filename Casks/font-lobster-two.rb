@@ -1,5 +1,6 @@
 class FontLobsterTwo < Cask
-  version '1.006'
+  # version '1.006'
+  version 'latest'
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/lobstertwo',

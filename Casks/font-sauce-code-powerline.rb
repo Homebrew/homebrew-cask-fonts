@@ -1,5 +1,6 @@
 class FontSauceCodePowerline < Cask
-  version '1.017'
+  # version '1.017'
+  version 'latest'
   sha256 :no_check
 
   url 'https://github.com/Lokaltog/powerline-fonts/trunk/SourceCodePro',

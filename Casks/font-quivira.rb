@@ -1,5 +1,6 @@
 class FontQuivira < Cask
-  version '4.0'
+  # version '4.0'
+  version 'latest'
   sha256 :no_check
 
   url 'http://www.quivira-font.com/files/Quivira.otf'
