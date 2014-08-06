@@ -1,11 +1,13 @@
 class FontJosefinSans < Cask
+  version '0'
+  sha256 :no_check
+
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/josefinsans',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Josefin%20Sans'
-  version '0'
-  sha256 :no_check
+
   font 'JosefinSans-Bold.ttf'
   font 'JosefinSans-BoldItalic.ttf'
   font 'JosefinSans-Italic.ttf'
