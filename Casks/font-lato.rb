@@ -1,8 +1,10 @@
 class FontLato < Cask
-  url 'http://www.latofonts.com/download/Lato2OFL.zip'
-  homepage 'http://www.latofonts.com/'
   version 'latest'
   sha256 :no_check
+
+  url 'http://www.latofonts.com/download/Lato2OFL.zip'
+  homepage 'http://www.latofonts.com/'
+
   font 'Lato2OFL/Lato-Black.ttf'
   font 'Lato2OFL/Lato-BlackItalic.ttf'
   font 'Lato2OFL/Lato-Bold.ttf'
