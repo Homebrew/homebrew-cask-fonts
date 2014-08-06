@@ -1,11 +1,13 @@
 class FontQuattrocentoSans < Cask
+  version '2.000'
+  sha256 :no_check
+
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/quattrocentosans',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Quattrocento%20Sans'
-  version '2.000'
-  sha256 :no_check
+
   font 'QuattrocentoSans-Bold.ttf'
   font 'QuattrocentoSans-BoldItalic.ttf'
   font 'QuattrocentoSans-Italic.ttf'

@@ -1,11 +1,13 @@
 class FontExpletusSans < Cask
+  version '7.029'
+  sha256 :no_check
+
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/expletussans',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Expletus%20Sans'
-  version '7.029'
-  sha256 :no_check
+
   font 'ExpletusSans-Bold.ttf'
   font 'ExpletusSans-BoldItalic.ttf'
   font 'ExpletusSans-Italic.ttf'

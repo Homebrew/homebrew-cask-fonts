@@ -1,8 +1,10 @@
 class FontUbuntu < Cask
-  url 'http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip'
-  homepage 'http://font.ubuntu.com/'
   version '0.80'
   sha256 '107170099bbc3beae8602b97a5c423525d363106c3c24f787d43e09811298e4c'
+
+  url 'http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip'
+  homepage 'http://font.ubuntu.com/'
+
   font 'ubuntu-font-family-0.80/Ubuntu-B.ttf'
   font 'ubuntu-font-family-0.80/Ubuntu-BI.ttf'
   font 'ubuntu-font-family-0.80/Ubuntu-C.ttf'

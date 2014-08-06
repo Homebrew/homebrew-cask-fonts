@@ -1,8 +1,10 @@
 class FontAksharUnicode < Cask
-  url 'http://www.kamban.com.au/fonts/freefonts.zip'
-  homepage 'http://www.kamban.com.au/downloads.html'
   version 'latest'
   sha256 :no_check
+
+  url 'http://www.kamban.com.au/fonts/freefonts.zip'
+  homepage 'http://www.kamban.com.au/downloads.html'
+
   font 'maduram.ttf'
   font 'akshar.ttf'
   font 'tscmaduram.ttf'

@@ -1,11 +1,13 @@
 class FontNobile < Cask
+  version '001.001'
+  sha256 :no_check
+
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/nobile',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Nobile'
-  version '001.001'
-  sha256 :no_check
+
   font 'Nobile-Bold.ttf'
   font 'Nobile-BoldItalic.ttf'
   font 'Nobile-Italic.ttf'

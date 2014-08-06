@@ -1,8 +1,10 @@
 class FontAileron < Cask
-  url 'http://dotcolon.net/DL/font/aileron.zip'
-  homepage 'http://dotcolon.net/font/aileron/'
   version 'latest'
   sha256 :no_check
+
+  url 'http://dotcolon.net/DL/font/aileron.zip'
+  homepage 'http://dotcolon.net/font/aileron/'
+
   font 'Aileron-Black.otf'            
   font 'Aileron-BlackItalic.otf'      
   font 'Aileron-Bold.otf'             

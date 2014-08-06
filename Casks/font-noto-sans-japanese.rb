@@ -1,8 +1,10 @@
 class FontNotoSansJapanese < Cask
-  url 'http://www.google.com/get/noto/pkgs/NotoSansJapanese-hinted.zip'
-  homepage 'http://www.google.com/get/noto/#/family/noto-sans-jpan'
   version 'latest'
   sha256 :no_check
+
+  url 'http://www.google.com/get/noto/pkgs/NotoSansJapanese-hinted.zip'
+  homepage 'http://www.google.com/get/noto/#/family/noto-sans-jpan'
+
   font 'NotoSansJP-Black.otf'
   font 'NotoSansJP-Bold.otf'
   font 'NotoSansJP-DemiLight.otf'

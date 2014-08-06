@@ -1,11 +1,13 @@
 class FontExo2 < Cask
+  version '1.001'
+  sha256 :no_check
+
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/exo2',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Exo%202'
-  version '1.001'
-  sha256 :no_check
+
   font 'Exo2-Black.ttf'
   font 'Exo2-BlackItalic.ttf'
   font 'Exo2-Bold.ttf'

@@ -1,8 +1,10 @@
 class FontSignika < Cask
-  url 'http://fontfabric.com/downfont/signika.zip'
-  homepage 'http://fontfabric.com/signika-font/'
   version 'latest'
   sha256 :no_check
+
+  url 'http://fontfabric.com/downfont/signika.zip'
+  homepage 'http://fontfabric.com/signika-font/'
+
   font 'Signika/Signika-Bold.ttf'
   font 'Signika/Signika-Light.ttf'
   font 'Signika/Signika-Regular.ttf'
