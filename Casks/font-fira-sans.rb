@@ -1,8 +1,10 @@
 class FontFiraSans < Cask
-  url 'http://www.carrois.com/wordpress/downloads/fira_3_1/FiraFonts3111.zip'
-  homepage 'http://dev.carrois.com/fira-3-1/'
   version '3.111'
   sha256 '3ced3df236b0b0eec1b390885c53ac02f3e3f830e9449414230717334a0b2457'
+
+  url 'http://www.carrois.com/wordpress/downloads/fira_3_1/FiraFonts3111.zip'
+  homepage 'http://dev.carrois.com/fira-3-1/'
+
   font 'FiraFonts3111/FiraMono3111/OTF/FiraMono-Bold.otf'
   font 'FiraFonts3111/FiraMono3111/OTF/FiraMono-Medium.otf'
   font 'FiraFonts3111/FiraMono3111/OTF/FiraMono-Regular.otf'
