@@ -2,7 +2,7 @@ class FontMPlus < Cask
   version '1.050'
   sha256 'd3db85b8b7a0aac83ac621b3a816edaad3f37fe0aaee3782697dcf674ccc5d7d'
 
-  url 'http://osdn.dl.sourceforge.jp/mplus-fonts/6650/mplus-TESTFLIGHT-050.tar.xz'
+  url 'http://dl.sourceforge.jp/mplus-fonts/6650/mplus-TESTFLIGHT-050.tar.xz'
   homepage 'http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/design/index-en.html'
 
   font 'mplus-TESTFLIGHT-050/mplus-1c-black.ttf'
