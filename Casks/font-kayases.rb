@@ -1,0 +1,11 @@
+class FontKayases < Cask
+  version 'latest'
+  sha256 :no_check
+  # version '001.000'
+  # sha256 'b62b8e2a7ec95d476a1f1fb91c3329f376b221716308547be9bcc946f4de5923'
+
+  url 'http://www.languagegeek.com/font/Kayases.zip'
+  homepage 'http://www.languagegeek.com/font/fontdownload.html'
+
+  font 'Kayases.ttf'
+end
