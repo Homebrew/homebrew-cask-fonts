@@ -133,7 +133,7 @@ end
 def font_version(fontblobs)
   cmd = ['otfinfo', '-v']
   versions = fontblobs.map { |x| eval_bin_cmd(cmd, x) }
-                      .map { |x| %r{\A(?:Version\s+)?(\d+.*?)(;|$|\Z)}.match(x)[1] }
+                      .map { |x| %r{\A(?:Version\s+)?(\d[^\s,;]*)}i.match(x) ? $1 : x.gsub("\n", '') }
 
   # assumption: the main version is the most common one
   presumed_main =  mce(versions)
