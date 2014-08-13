@@ -35,18 +35,6 @@ this is being fixed, one workaround is to use a regular expression search:
 $ brew cask search /symbola/
 ```
 
-~~```bash~~
-~~$ brew cask search symbola~~
-~~font-symbola~~
-~~```~~
-
-## ~~Search For All Known Fonts~~
-
-~~```bash~~
-~~$ brew cask search font~~
-~~font-ubuntu~~
-~~```~~
-
 ## Submitting a Font Cask
 
 Want to contribute a Font Cask? Awesome! Please do! See
