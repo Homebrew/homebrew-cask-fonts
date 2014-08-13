@@ -143,6 +143,7 @@ end
 def font_family(fontblobs)
   cmd = ['otfinfo', '-a']
   families = fontblobs.map { |x| eval_bin_cmd(cmd, x) }
+                      .map { |x| x.gsub("\n", '')}
 
   # assumption: the main family is the most common one
   presumed_main = mce(families)
@@ -154,7 +155,9 @@ def stanzas
 
   version = font_version(blobs)
   sha = shasum(ARCHIVE_PATH)
+  family = font_family(blobs)
 
+  puts "FAMILY: #{family}"
   puts stanzify('version', version)
   puts stanzify("sha256", sha)
   puts stanzify("font", paths)
