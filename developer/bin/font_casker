@@ -4,14 +4,18 @@
 #
 # TODO:
 #   font_cask_namer
-#     cask name
-#     class name
+#     cask name - relevant code is in cask_namer
+#     class name - relevant code is in cask_namer
 #   font version
 #     report/resolve version conflicts
 #   cask generation
 #     templating
 #   constants
 #     abbreviations
+#   URL
+#     from file metadata as in list_url_attributes_on_file
+#   homepage
+#     from "Vendor URL" field in otfinfo -i output
 #
 
 ###
