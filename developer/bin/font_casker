@@ -115,9 +115,9 @@ end
 
 def stanzify(stanza_name, val = "")
   if val.respond_to?(:map)
-    val.map { |x| "#{stanza_name} '#{x}'" }
+    val.map { |x| "  #{stanza_name} '#{x}'" }
   else
-    "#{stanza_name} '#{val}'"
+    "  #{stanza_name} '#{val}'"
   end
 end
 
@@ -158,9 +158,15 @@ def stanzas
   family = font_family(blobs)
 
   puts "FAMILY: #{family}"
+  puts 'class FIXME < Cask'
   puts stanzify('version', version)
-  puts stanzify("sha256", sha)
-  puts stanzify("font", paths)
+  puts stanzify('sha256', sha)
+  puts "\n"
+  puts stanzify('url', '')
+  puts stanzify('homepage', '')
+  puts "\n"
+  puts stanzify('font', paths)
+  puts 'end'
 end
 
 
