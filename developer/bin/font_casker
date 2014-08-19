@@ -125,6 +125,19 @@ def stanzify(stanza_name, val = "")
   end
 end
 
+# todo: named parameters, after switching to Ruby 2.x
+def caskify(family, klass, version, sha, url, homepage, paths)
+  output = ["FAMILY: #{family}"]
+  output << 'class FIXME < Cask'
+  output << stanzify('version', version)
+  output << stanzify('sha256', sha)
+  output << ''
+  output << stanzify('url', '')
+  output << stanzify('homepage', '')
+  output << ''
+  output << stanzify('font', paths)
+  output << 'end'
+end
 
 ###
 ### Values
@@ -153,24 +166,17 @@ def font_family(fontblobs)
   presumed_main = mce(families)
 end
 
-def stanzas
+def cask
   paths = font_paths(ARCHIVE_PATH)
   blobs = font_blobs(ARCHIVE_PATH, paths)
 
-  version = font_version(blobs)
-  sha = shasum(ARCHIVE_PATH)
-  family = font_family(blobs)
-
-  puts "FAMILY: #{family}"
-  puts 'class FIXME < Cask'
-  puts stanzify('version', version)
-  puts stanzify('sha256', sha)
-  puts "\n"
-  puts stanzify('url', '')
-  puts stanzify('homepage', '')
-  puts "\n"
-  puts stanzify('font', paths)
-  puts 'end'
+  caskify(font_family(blobs),
+          nil,                  # class
+          font_version(blobs),
+          shasum(ARCHIVE_PATH),
+          nil,                  # url
+          nil,                  # homepage
+          paths)
 end
 
 
@@ -196,4 +202,4 @@ unless ARGV.length == 1
   exit 1
 end
 
-stanzas
+puts cask
