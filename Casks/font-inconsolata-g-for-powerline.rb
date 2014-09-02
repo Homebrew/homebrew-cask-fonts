@@ -1,4 +1,4 @@
-class InconsolataGForPowerline < Cask
+class FontInconsolataGForPowerline < Cask
   version 'latest'
   sha256 :no_check
 
@@ -7,5 +7,5 @@ class InconsolataGForPowerline < Cask
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata-g'
 
-  font 'Inconsolata-g for Powerline.ttf'
+  font 'Inconsolata-g for Powerline.otf'
 end
