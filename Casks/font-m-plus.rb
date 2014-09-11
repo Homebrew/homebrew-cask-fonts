@@ -4,7 +4,7 @@ class FontMPlus < Cask
 
   url 'http://dl.sourceforge.jp/mplus-fonts/6650/mplus-TESTFLIGHT-050.tar.xz'
   homepage 'http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/design/index-en.html'
-  depends_on_formula 'xz'
+  depends_on :formula => 'xz'
 
   font 'mplus-TESTFLIGHT-050/mplus-1c-black.ttf'
   font 'mplus-TESTFLIGHT-050/mplus-1c-bold.ttf'
