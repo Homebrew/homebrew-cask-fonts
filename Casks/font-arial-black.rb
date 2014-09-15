@@ -4,7 +4,7 @@ class FontArialBlack < Cask
 
   url 'http://downloads.sourceforge.net/sourceforge/corefonts/arialb32.exe'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
-  depends_on_formula 'cabextract'
+  depends_on :formula => 'cabextract'
 
   font 'AriBlk.TTF'
 end
