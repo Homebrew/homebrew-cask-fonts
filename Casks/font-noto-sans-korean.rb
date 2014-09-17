@@ -1,5 +1,5 @@
 class FontNotoSansKorean < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://www.google.com/get/noto/pkgs/NotoSansKorean-hinted.zip'
