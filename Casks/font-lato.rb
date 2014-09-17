@@ -1,5 +1,5 @@
 class FontLato < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://www.latofonts.com/download/Lato2OFL.zip'
