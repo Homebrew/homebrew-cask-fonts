@@ -1,6 +1,5 @@
 class FontInput < Cask
-  # version 'latest'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   # the served font is built dynamically, according to the query string;

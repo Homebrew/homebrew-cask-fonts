@@ -1,6 +1,6 @@
 class FontInconsolata < Cask
   # version '001.010'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://levien.com/type/myfonts/Inconsolata.otf'

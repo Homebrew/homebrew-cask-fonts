@@ -1,5 +1,5 @@
 class FontPenuturesu < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://www.i18nguy.com/unicode/penuture.zip',

@@ -1,5 +1,5 @@
 class FontEversonMono < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
   # version '6.201'
   # sha256 'd74a8d99342da41716a8ddf51536f79bf5394a6577450a5068be25b1c326b149'

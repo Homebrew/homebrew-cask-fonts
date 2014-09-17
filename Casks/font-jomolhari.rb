@@ -1,5 +1,5 @@
 class FontJomolhari < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://www.library.gov.bt/IT/download/Jomolhari.zip'

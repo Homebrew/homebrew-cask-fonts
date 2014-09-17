@@ -1,6 +1,6 @@
 class FontOpenIconic < Cask
   # version '1.1.0'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/iconic/open-iconic/archive/1.1.0.zip'

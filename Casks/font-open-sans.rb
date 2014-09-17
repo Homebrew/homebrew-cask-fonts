@@ -1,6 +1,6 @@
 class FontOpenSans < Cask
   # version '1.10'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/opensans',

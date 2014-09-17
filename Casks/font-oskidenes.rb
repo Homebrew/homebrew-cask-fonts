@@ -1,5 +1,5 @@
 class FontOskidenes < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
   # version '1.000'
   # sha256 '4f951d09daf71c412e1335da0a501a7bab785bcae83f77637ca5edf91c3584b0'

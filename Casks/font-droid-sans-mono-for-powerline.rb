@@ -1,5 +1,5 @@
 class FontDroidSansMonoForPowerline < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/Lokaltog/powerline-fonts/trunk/DroidSansMono',

@@ -1,5 +1,5 @@
 class FontJsmath < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://www.math.union.edu/~dpvc/jsmath/download/TeX-fonts-10.zip'

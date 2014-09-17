@@ -1,5 +1,5 @@
 class FontInconsolataDz < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://media.nodnod.net/Inconsolata-dz.otf.zip'

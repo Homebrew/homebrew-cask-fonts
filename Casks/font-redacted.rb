@@ -1,6 +1,6 @@
 class FontRedacted < Cask
   # version '1.001'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/christiannaths/Redacted-Font/trunk/fonts',

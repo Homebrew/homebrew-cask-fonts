@@ -1,6 +1,6 @@
 class FontRadley < Cask
   # version '1.002'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/radley',

@@ -1,5 +1,5 @@
 class FontCourierPrime < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://quoteunquoteapps.com/downloads/courier-prime.zip'

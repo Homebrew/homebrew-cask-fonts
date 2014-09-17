@@ -1,5 +1,5 @@
 class FontSilentLips < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://www.ffonts.net/Silent_Lips.font.zip'

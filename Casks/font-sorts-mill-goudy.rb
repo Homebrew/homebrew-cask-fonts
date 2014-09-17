@@ -1,6 +1,6 @@
 class FontSortsMillGoudy < Cask
   # version '003.101'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/sortsmillgoudy',

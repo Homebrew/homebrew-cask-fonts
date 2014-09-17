@@ -1,5 +1,5 @@
 class FontGeoSansLight < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://moorstation.org/typoasis/designers/klein03/text02/pc/GeosansLight.zip'
