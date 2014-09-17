@@ -1,6 +1,6 @@
 class FontMusica < Cask
   # version '3.12'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://users.teilar.gr/~g1951d/Musica.zip'
