@@ -1,5 +1,5 @@
 class FontConstructium < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://www.kreativekorp.com/swdownload/fonts/xlang/constructium.zip'
