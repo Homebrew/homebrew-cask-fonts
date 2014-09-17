@@ -1,5 +1,5 @@
 class FontKoruri < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/Koruri/Koruri/archive/master.zip'
