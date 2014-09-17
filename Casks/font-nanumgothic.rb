@@ -1,6 +1,6 @@
 class FontNanumgothic < Cask
   # version '2.030'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/nanumgothic',
