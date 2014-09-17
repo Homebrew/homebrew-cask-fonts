@@ -1,5 +1,5 @@
 class FontCretan < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'http://users.teilar.gr/~g1951d/Cretan.zip'
