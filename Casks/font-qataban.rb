@@ -1,5 +1,5 @@
 class FontQataban < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
   # version '1.0'
   # sha256 '9f3243f1caa97cd8740c87ea892e8dc15d4efac0546df08ce1df2bc6f5fbdf32'
