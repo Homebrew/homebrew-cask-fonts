@@ -1,5 +1,5 @@
 class FontMasinahikan < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
   # version '1.000'
   # sha256 '15b64154923017c85c0da6563479b1bd5bc6fe78d729ba085168ca3f208ccd4c'
