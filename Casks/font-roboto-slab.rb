@@ -1,6 +1,6 @@
 class FontRobotoSlab < Cask
   # version '1.100263'
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/robotoslab',
