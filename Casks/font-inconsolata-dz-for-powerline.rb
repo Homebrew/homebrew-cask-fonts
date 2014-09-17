@@ -1,5 +1,5 @@
 class FontInconsolataDzForPowerline < Cask
-  version 'latest'
+  version :latest
   sha256 :no_check
 
   url 'https://raw.github.com/Lokaltog/powerline-fonts/master/InconsolataDz/Inconsolata-dz%20for%20Powerline.otf'
