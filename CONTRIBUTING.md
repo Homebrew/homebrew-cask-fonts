@@ -48,7 +48,7 @@ end
 The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
 Note that if the download `url` is not a versioned file, `sha256 <hexstring>`
 should be replaced with `sha256 :no_check`, and `version` should be set to
-`'latest'`.
+`:latest`.
 
 The string which follows the `font` field is a relative path to the font
 file within the downloaded archive.  That font will be linked into the
