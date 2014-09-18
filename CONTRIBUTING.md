@@ -54,6 +54,23 @@ The string which follows the `font` field is a relative path to the font
 file within the downloaded archive.  That font will be linked into the
 user's `~/Library/Fonts` directory at install time.
 
+### Automatic Generation
+
+For OTF and TTF fonts, the easiest way to create a cask is to run the
+`font_casker` script on their containing archive.
+
+```bash
+"$(brew --repository)/Library/Taps/caskroom/homebrew-fonts/developer/bin/font_casker" font_archive.zip
+```
+
+`font_casker` produces a preformatted cask including the values of
+`version`, `sha256`, and all `font` stanzas, and writes it to stdout.
+
+Note that `font_casker` depends on `otfinfo`, a command-line utility
+from the lcdf-typetools suite of typographical software. You can obtain
+it as part of a TeX distribution with `brew cask install mactex`, or
+from upstream with `brew install lcdf-typetools`.
+
 ## Naming Font Casks
 
 We try to maintain a consistent naming policy so everything stays clean and
@@ -62,8 +79,7 @@ predictable.
 ### Start From the Font's Canonical Name
 
 The canonical font name is the font family name as returned by the command
-`otfinfo --family`.  `otfinfo` is a free utility available as part of the
-TeX distribution.  `brew cask install mactex` is one way to obtain it.
+`otfinfo --family`.
 
 If there is more than one family in the distribution, use your judgment to
 choose the "most famous" one.  If there is more than one style, choose the
