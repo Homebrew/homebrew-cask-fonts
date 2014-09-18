@@ -14,10 +14,12 @@ Making a Font Cask is easy: a Cask is a small Ruby file.
 Here's a Cask for the font [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) as an example:
 ```ruby
 class FontInconsolata < Cask
+  version :latest
+  sha256 :no_check
+
   url 'http://levien.com/type/myfonts/Inconsolata.otf'
   homepage 'http://levien.com/type/myfonts/inconsolata.html'
-  version 'latest'
-  sha256 :no_check
+
   font 'Inconsolata.otf'
 end
 ```
@@ -28,10 +30,12 @@ be installed from the same package:
 
 ```ruby
 class FontFantasqueSansMono < Cask
-  url 'https://github.com/belluzj/fantasque-sans/releases/download/v1.6.2/FantasqueSansMono.zip'
+  version '1.6.4'
+  sha256 'da5a7f84ac0e1c02b49334690d7451d936691718fb1332f863eacc521816dccd'
+
+  url 'https://github.com/belluzj/fantasque-sans/releases/download/1.6.4/FantasqueSansMono.zip'
   homepage 'https://github.com/belluzj/fantasque-sans'
-  version '1.6.2'
-  sha256 '06262d8e0d30ec85cebd3a2cd69c041fb35d48c159ef124379cf03d5c99a215c'
+
   font 'OTF/FantasqueSansMono-Bold.otf'
   font 'OTF/FantasqueSansMono-BoldItalic.otf'
   font 'OTF/FantasqueSansMono-RegItalic.otf'
