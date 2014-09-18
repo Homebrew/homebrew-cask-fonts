@@ -67,7 +67,7 @@ TeX distribution.  `brew cask install mactex` is one way to obtain it.
 
 If there is more than one family in the distribution, use your judgment to
 choose the "most famous" one.  If there is more than one style, choose the
-"Regular" variant
+"Regular" variant.
 
 Translate the name into English if necessary.
 
