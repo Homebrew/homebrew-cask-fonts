@@ -14,10 +14,12 @@ Making a Font Cask is easy: a Cask is a small Ruby file.
 Here's a Cask for the font [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) as an example:
 ```ruby
 class FontInconsolata < Cask
+  version :latest
+  sha256 :no_check
+
   url 'http://levien.com/type/myfonts/Inconsolata.otf'
   homepage 'http://levien.com/type/myfonts/inconsolata.html'
-  version 'latest'
-  sha256 :no_check
+
   font 'Inconsolata.otf'
 end
 ```
@@ -28,10 +30,12 @@ be installed from the same package:
 
 ```ruby
 class FontFantasqueSansMono < Cask
-  url 'https://github.com/belluzj/fantasque-sans/releases/download/v1.6.2/FantasqueSansMono.zip'
+  version '1.6.4'
+  sha256 'da5a7f84ac0e1c02b49334690d7451d936691718fb1332f863eacc521816dccd'
+
+  url 'https://github.com/belluzj/fantasque-sans/releases/download/1.6.4/FantasqueSansMono.zip'
   homepage 'https://github.com/belluzj/fantasque-sans'
-  version '1.6.2'
-  sha256 '06262d8e0d30ec85cebd3a2cd69c041fb35d48c159ef124379cf03d5c99a215c'
+
   font 'OTF/FantasqueSansMono-Bold.otf'
   font 'OTF/FantasqueSansMono-BoldItalic.otf'
   font 'OTF/FantasqueSansMono-RegItalic.otf'
@@ -44,11 +48,28 @@ end
 The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
 Note that if the download `url` is not a versioned file, `sha256 <hexstring>`
 should be replaced with `sha256 :no_check`, and `version` should be set to
-`'latest'`.
+`:latest`.
 
 The string which follows the `font` field is a relative path to the font
 file within the downloaded archive.  That font will be linked into the
 user's `~/Library/Fonts` directory at install time.
+
+### Automatic Generation
+
+For OTF and TTF fonts, the easiest way to create a cask is to run the
+`font_casker` script on their containing archive.
+
+```bash
+"$(brew --repository)/Library/Taps/caskroom/homebrew-fonts/developer/bin/font_casker" font_archive.zip
+```
+
+`font_casker` produces a preformatted cask including the values of
+`version`, `sha256`, and all `font` stanzas, and writes it to stdout.
+
+Note that `font_casker` depends on `otfinfo`, a command-line utility
+from the lcdf-typetools suite of typographical software. You can obtain
+it as part of a TeX distribution with `brew cask install mactex`, or
+from upstream with `brew install lcdf-typetools`.
 
 ## Naming Font Casks
 
@@ -58,12 +79,11 @@ predictable.
 ### Start From the Font's Canonical Name
 
 The canonical font name is the font family name as returned by the command
-`otfinfo --family`.  `otfinfo` is a free utility available as part of the
-TeX distribution.  `brew cask install mactex` is one way to obtain it.
+`otfinfo --family`.
 
 If there is more than one family in the distribution, use your judgment to
 choose the "most famous" one.  If there is more than one style, choose the
-"Regular" variant
+"Regular" variant.
 
 Translate the name into English if necessary.
 
