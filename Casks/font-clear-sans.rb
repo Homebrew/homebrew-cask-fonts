@@ -1,8 +1,8 @@
 class FontClearSans < Cask
-  version '1.0'
+  version '1.00'
   sha256 '41809a296870dd7b4753d6532b4093821d61f9806281e6c053ccb11083ad1190'
 
-  url 'https://01.org/sites/default/files/downloads/clear-sans/clearsans-1.00.zip'
+  url "https://01.org/sites/default/files/downloads/clear-sans/clearsans-#{version}.zip"
   homepage 'https://01.org/clear-sans'
 
   font 'TTF/ClearSans-Bold.ttf'

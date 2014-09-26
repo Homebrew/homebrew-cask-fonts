@@ -2,7 +2,7 @@ class FontHermit < Cask
   version '1.21'
   sha256 '2966e83f012e6a31a861e3afdcb89d157f12b307f2367303d58be364d4308b85'
 
-  url 'https://pcaro.es/d/otf-hermit-1.21.tar.gz'
+  url "https://pcaro.es/d/otf-hermit-#{version}.tar.gz"
   homepage 'https://pcaro.es/p/hermit/'
 
   font 'Hermit-bold.otf'
