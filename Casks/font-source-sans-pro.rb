@@ -1,7 +1,7 @@
 class FontSourceSansPro < Cask
   version '2.010'
   sha256 '82a6a8658db708fe56b3280832154c3db28283d1c72dd443c5c3dd5bee703c7c'
-  
+
   url "https://downloads.sourceforge.net/sourceforge/sourcesans.adobe/SourceSansPro_FontsOnly-#{version}roman-1.065-italic.zip"
   homepage 'http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1959'
 
