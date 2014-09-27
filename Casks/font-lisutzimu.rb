@@ -8,6 +8,8 @@ class FontLisutzimu < Cask
   depends_on :formula => 'unar'
   container_type :seven_zip
 
+  # The garbled characters in the directory name are intentional,
+  # including the NO-BREAK SPACE
   font 'ý €/lisutzimu.ttf'
   font 'ý €/lisutzimu-bold.ttf'
   font 'ý €/lisutzimu-bolditalic.ttf'
