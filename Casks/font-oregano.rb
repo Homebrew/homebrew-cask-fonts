@@ -8,6 +8,7 @@ class FontOregano < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Oregano'
+  license :ofl
 
   font 'Oregano-Italic.ttf'
   font 'Oregano-Regular.ttf'
