@@ -8,6 +8,7 @@ class FontOpenSans < Cask
       :revision   => '48',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Open+Sans'
+  license :apache
 
   font 'OpenSans-Bold.ttf'
   font 'OpenSans-BoldItalic.ttf'
