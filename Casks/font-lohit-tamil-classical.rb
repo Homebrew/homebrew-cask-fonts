@@ -4,6 +4,7 @@ class FontLohitTamilClassical < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-tamil-classical-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-tamil-classical-ttf-#{version}/Lohit-Tamil-Classical.ttf"
 end
