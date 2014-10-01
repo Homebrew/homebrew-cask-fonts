@@ -8,6 +8,7 @@ class FontTienne < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Tienne'
+  license :ofl
 
   font 'Tienne-Bold.ttf'
   font 'Tienne-Heavy.ttf'
