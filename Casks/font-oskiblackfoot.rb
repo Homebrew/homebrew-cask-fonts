@@ -6,6 +6,7 @@ class FontOskiblackfoot < Cask
 
   url 'http://www.languagegeek.com/font/oskiblackfoot.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'oskiblackfoot5.ttf'
   font 'oskiblackfootbold5.ttf'
