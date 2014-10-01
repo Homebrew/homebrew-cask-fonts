@@ -4,6 +4,7 @@ class FontLohitMarathi < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-marathi-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-marathi-ttf-#{version}/Lohit-Marathi.ttf"
 end
