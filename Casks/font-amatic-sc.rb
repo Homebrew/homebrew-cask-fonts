@@ -8,6 +8,7 @@ class FontAmaticSc < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Amatic%20SC'
+  license :ofl
 
   font 'AmaticSC-Bold.ttf'
   font 'AmaticSC-Regular.ttf'
