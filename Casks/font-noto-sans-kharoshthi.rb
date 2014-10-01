@@ -4,6 +4,7 @@ class FontNotoSansKharoshthi < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansKharoshthi-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansKharoshthi-Regular.ttf'
 end
