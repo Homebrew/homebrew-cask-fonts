@@ -8,6 +8,7 @@ class FontAmaranth < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Amaranth'
+  license :ofl
 
   font 'Amaranth-Bold.ttf'
   font 'Amaranth-BoldItalic.ttf'
