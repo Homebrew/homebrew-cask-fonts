@@ -4,6 +4,7 @@ class FontFenix < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/fenix/Fenix-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Fenix'
+  license :ofl
 
   font 'Fenix-Regular.ttf'
 end
