@@ -8,6 +8,7 @@ class FontInika < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Inika'
+  license :ofl
 
   font 'Inika-Bold.ttf'
   font 'Inika-Regular.ttf'
