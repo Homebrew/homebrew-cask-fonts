@@ -4,6 +4,7 @@ class FontNotoSansSinhala < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSinhala-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSinhala-Regular.ttf'
   font 'NotoSansSinhala-Bold.ttf'
