@@ -8,6 +8,7 @@ class FontAbeezee < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/ABeeZee'
+  license :ofl
 
   font 'ABeeZee-Italic.ttf'
   font 'ABeeZee-Regular.ttf'
