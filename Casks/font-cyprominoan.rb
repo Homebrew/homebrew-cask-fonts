@@ -4,6 +4,7 @@ class FontCyprominoan < Cask
 
   url 'http://users.teilar.gr/~g1951d/CyproMinoan.zip'
   homepage 'http://users.teilar.gr/~g1951d/'
+  license :gratis
 
   font 'CyproMinoan_hint.ttf'
 end
