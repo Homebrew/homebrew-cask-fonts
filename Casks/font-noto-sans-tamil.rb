@@ -4,6 +4,7 @@ class FontNotoSansTamil < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansTamil-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansTamil-Bold.ttf'
   font 'NotoSansTamil-Regular.ttf'
