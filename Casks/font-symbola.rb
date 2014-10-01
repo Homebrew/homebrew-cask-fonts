@@ -5,6 +5,7 @@ class FontSymbola < Cask
 
   url 'http://users.teilar.gr/~g1951d/Symbola.zip'
   homepage 'http://users.teilar.gr/~g1951d/'
+  license :gratis
 
   font 'Symbola_hint.ttf'
 end
