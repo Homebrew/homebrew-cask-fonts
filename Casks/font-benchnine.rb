@@ -8,6 +8,7 @@ class FontBenchnine < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/BenchNine'
+  license :ofl
 
   font 'BenchNine-Bold.ttf'
   font 'BenchNine-Light.ttf'
