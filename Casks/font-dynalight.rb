@@ -4,6 +4,7 @@ class FontDynalight < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/dynalight/Dynalight-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Dynalight'
+  license :ofl
 
   font 'Dynalight-Regular.ttf'
 end
