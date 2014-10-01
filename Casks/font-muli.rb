@@ -8,6 +8,7 @@ class FontMuli < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Muli'
+  license :ofl
 
   font 'Muli-Italic.ttf'
   font 'Muli-Light.ttf'
