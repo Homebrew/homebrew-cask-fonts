@@ -8,6 +8,7 @@ class FontAsul < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Asul'
+  license :ofl
 
   font 'Asul-Bold.ttf'
   font 'Asul-Regular.ttf'
