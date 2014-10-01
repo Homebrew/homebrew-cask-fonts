@@ -4,6 +4,7 @@ class FontOcra < Cask
 
   url 'http://dl.sourceforge.jp/tsukurimashou/56948/ocr-0.2.zip'
   homepage 'http://ansuz.sooke.bc.ca/page/fonts#ocra'
+  license :oss
 
   font 'ocr-0.2/OCRA.otf'
   font 'ocr-0.2/OCRB.otf'
