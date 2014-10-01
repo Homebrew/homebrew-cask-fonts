@@ -4,6 +4,7 @@ class FontPecita < Cask
 
   url 'http://pecita.eu/b/Pecita.otf'
   homepage 'http://pecita.eu/police-en.php'
+  license :ofl
 
   font 'Pecita.otf'
 end
