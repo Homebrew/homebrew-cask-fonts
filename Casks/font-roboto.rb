@@ -4,6 +4,7 @@ class FontRoboto < Cask
 
   url 'http://developer.android.com/downloads/design/roboto-1.2.zip'
   homepage 'http://developer.android.com/design/style/typography.html'
+  license :apache
 
   font 'Roboto_v1.2/Roboto/Roboto-Black.ttf'
   font 'Roboto_v1.2/Roboto/Roboto-BlackItalic.ttf'
