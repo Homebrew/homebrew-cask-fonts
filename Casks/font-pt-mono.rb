@@ -4,6 +4,7 @@ class FontPtMono < Cask
 
   url 'http://www.fontstock.com/public/PTMono.zip'
   homepage 'http://www.paratype.com/public/'
+  license :ofl
 
   font 'PTM55F.ttf'
   font 'PTM75F.ttf'
