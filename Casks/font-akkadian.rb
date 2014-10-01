@@ -4,6 +4,7 @@ class FontAkkadian < Cask
 
   url 'http://users.teilar.gr/~g1951d/Akkadian.zip'
   homepage 'http://users.teilar.gr/~g1951d/'
+  license :gratis
 
   font 'Akkadian_hint.ttf'
 end
