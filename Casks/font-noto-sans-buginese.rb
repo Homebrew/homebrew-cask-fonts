@@ -4,6 +4,7 @@ class FontNotoSansBuginese < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansBuginese-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansBuginese-Regular.ttf'
 end
