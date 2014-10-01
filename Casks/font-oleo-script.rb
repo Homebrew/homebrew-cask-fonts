@@ -8,6 +8,7 @@ class FontOleoScript < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Oleo%20Script'
+  license :ofl
 
   font 'OleoScript-Bold.ttf'
   font 'OleoScript-Regular.ttf'
