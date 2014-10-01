@@ -6,6 +6,7 @@ class FontOskidenec < Cask
 
   url 'http://www.languagegeek.com/font/OskiDeneC.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'oskidene_c.ttf'
   font 'oskidenebold_c.ttf'
