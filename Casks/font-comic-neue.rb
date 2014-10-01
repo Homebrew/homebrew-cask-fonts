@@ -4,6 +4,7 @@ class FontComicNeue < Cask
 
   url "http://comicneue.com/comic-neue-#{version}.zip"
   homepage 'http://comicneue.com/'
+  license :unknown
 
   font "comic-neue-#{version}/ComicNeue-Angular-Bold-Oblique.ttf"
   font "comic-neue-#{version}/ComicNeue-Angular-Bold.ttf"
