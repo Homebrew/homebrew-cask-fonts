@@ -6,6 +6,7 @@ class FontAnonymousProForPowerline < Cask
       :using => :svn,
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/AnonymousPro'
+  license :oss
 
   font 'Anonymice Powerline Bold Italic.ttf'
   font 'Anonymice Powerline Bold.ttf'
