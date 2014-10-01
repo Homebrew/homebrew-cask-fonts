@@ -4,6 +4,7 @@ class FontLuculent < Cask
 
   url 'http://eastfarthing.com/luculent/luculent.tar.xz'
   homepage 'http://eastfarthing.com/luculent/'
+  license :unknown
   depends_on :formula => 'xz'
 
   font 'luculent/luculent.ttf'
