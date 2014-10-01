@@ -8,6 +8,7 @@ class FontFanwoodText < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Fanwood%20Text'
+  license :ofl
 
   font 'FanwoodText-Italic.ttf'
   font 'FanwoodText-Regular.ttf'
