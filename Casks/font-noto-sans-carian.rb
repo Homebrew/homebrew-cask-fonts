@@ -4,6 +4,7 @@ class FontNotoSansCarian < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansCarian-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansCarian-Regular.ttf'
 end
