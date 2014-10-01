@@ -8,6 +8,7 @@ class FontAveriaLibre < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Averia%20Libre'
+  license :ofl
 
   font 'AveriaLibre-Bold.ttf'
   font 'AveriaLibre-BoldItalic.ttf'
