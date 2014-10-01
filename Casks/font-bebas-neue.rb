@@ -4,6 +4,7 @@ class FontBebasNeue < Cask
 
   url 'http://fontfabric.com/downfont/bebas.zip'
   homepage 'http://fontfabric.com/bebas-neue/'
+  license :unknown
 
   font 'BebasNeue Bold.otf'
   font 'BebasNeue Book.otf'
