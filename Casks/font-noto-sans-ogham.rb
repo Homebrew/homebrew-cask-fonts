@@ -4,6 +4,7 @@ class FontNotoSansOgham < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansOgham-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansOgham-Regular.ttf'
 end
