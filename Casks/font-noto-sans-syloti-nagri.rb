@@ -4,6 +4,7 @@ class FontNotoSansSylotiNagri < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSylotiNagri-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSylotiNagri-Regular.ttf'
 end
