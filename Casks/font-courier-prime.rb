@@ -4,6 +4,7 @@ class FontCourierPrime < Cask
 
   url 'http://quoteunquoteapps.com/downloads/courier-prime.zip'
   homepage 'http://quoteunquoteapps.com/courierprime/'
+  license :unknown
 
   font 'Courier Prime/Courier Prime.ttf'
   font 'Courier Prime/Courier Prime Bold.ttf'
