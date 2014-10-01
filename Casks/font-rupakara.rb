@@ -4,6 +4,7 @@ class FontRupakara < Cask
 
   url 'http://www.evertype.com/fonts/rupakara/rupakara.zip'
   homepage 'http://www.evertype.com/fonts/rupakara/'
+  license :unknown
 
   font 'rupakara-1.0.4/Rupakara-Bold.ttf'
   font 'rupakara-1.0.4/Rupakara-BoldOblique.ttf'
