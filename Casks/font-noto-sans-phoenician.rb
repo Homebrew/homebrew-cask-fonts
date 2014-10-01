@@ -4,6 +4,7 @@ class FontNotoSansPhoenician < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansPhoenician-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansPhoenician-Regular.ttf'
 end
