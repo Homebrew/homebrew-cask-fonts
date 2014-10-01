@@ -4,6 +4,7 @@ class FontBitter < Cask
 
   url 'http://www.huertatipografica.com/free_download/36'
   homepage 'http://www.huertatipografica.com/fonts/bitter-ht'
+  license :ofl
 
   font 'Bitter-Bold.otf'
   font 'Bitter-BoldItalic.otf'
