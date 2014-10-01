@@ -8,6 +8,7 @@ class FontCreteRound < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Crete%20Round'
+  license :ofl
 
   font 'CreteRound-Italic.ttf'
   font 'CreteRound-Regular.ttf'
