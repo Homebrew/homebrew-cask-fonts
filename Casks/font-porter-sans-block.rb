@@ -4,6 +4,7 @@ class FontPorterSansBlock < Cask
 
   url 'http://tylerfinck.com/portersansblock.zip'
   homepage 'http://www.tylerfinck.com/2013/10/porter-sans-block-a-free-font/'
+  license :ofl
 
   font 'portersansblock/porter-sans-inline-block.otf'
 end
