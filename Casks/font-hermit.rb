@@ -4,6 +4,7 @@ class FontHermit < Cask
 
   url "https://pcaro.es/d/otf-hermit-#{version}.tar.gz"
   homepage 'https://pcaro.es/p/hermit/'
+  license :unknown
 
   font 'Hermit-bold.otf'
   font 'Hermit-light.otf'
