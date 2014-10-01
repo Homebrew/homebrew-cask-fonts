@@ -8,6 +8,7 @@ class FontPlay < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Play'
+  license :ofl
 
   font 'Play-Bold.ttf'
   font 'Play-Regular.ttf'
