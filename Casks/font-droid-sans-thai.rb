@@ -8,6 +8,7 @@ class FontDroidSansThai < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
+  license :apache
 
   font 'DroidSansThai-Bold.ttf'
   font 'DroidSansThai-Regular.ttf'
