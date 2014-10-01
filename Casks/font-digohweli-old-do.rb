@@ -6,6 +6,7 @@ class FontDigohweliOldDo < Cask
 
   url 'http://www.languagegeek.com/font/OldDODigohweli.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'OldDODigohweli.ttf'
 end
