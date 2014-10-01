@@ -4,6 +4,7 @@ class FontNotoSansGurmukhi < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansGurmukhi-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansGurmukhi-Bold.ttf'
   font 'NotoSansGurmukhi-Regular.ttf'
