@@ -6,6 +6,7 @@ class FontMasinahikan < Cask
 
   url 'http://www.languagegeek.com/font/Masinahikan.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'Masinahikan_h.ttf'
   font 'Masinahikan_h_Bold.ttf'
