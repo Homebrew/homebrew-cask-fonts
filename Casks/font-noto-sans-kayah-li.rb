@@ -4,6 +4,7 @@ class FontNotoSansKayahLi < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansKayahLi-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansKayahLi-Regular.ttf'
 end
