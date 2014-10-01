@@ -4,6 +4,7 @@ class FontNotoSansMeeteiMayek < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansMeeteiMayek-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansMeeteiMayek-Regular.ttf'
 end
