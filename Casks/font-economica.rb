@@ -8,6 +8,7 @@ class FontEconomica < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Economica'
+  license :ofl
 
   font 'Economica-Bold.ttf'
   font 'Economica-BoldItalic.ttf'
