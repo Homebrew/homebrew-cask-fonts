@@ -8,6 +8,7 @@ class FontOpenSansHebrewCondensed < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
+  license :oss
 
   font 'OpenSansHebrewCondensed-Bold.ttf'
   font 'OpenSansHebrewCondensed-BoldItalic.ttf'
