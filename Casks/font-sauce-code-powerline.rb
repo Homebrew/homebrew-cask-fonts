@@ -8,6 +8,7 @@ class FontSauceCodePowerline < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro'
+  license :oss
 
   font 'Sauce Code Powerline Black.otf'
   font 'Sauce Code Powerline Bold.otf'
