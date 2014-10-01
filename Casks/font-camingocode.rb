@@ -4,6 +4,7 @@ class FontCamingocode < Cask
 
   url 'http://janfromm.de/_data/downloads/CamingoCode-v1.0.zip'
   homepage 'http://www.janfromm.de/typefaces/camingomono/camingocode/'
+  license :unknown
 
   font 'CamingoCode-Bold.ttf'
   font 'CamingoCode-BoldItalic.ttf'
