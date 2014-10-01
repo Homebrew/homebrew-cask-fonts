@@ -4,6 +4,7 @@ class FontNotoSansBrahmi < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansBrahmi-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansBrahmi-Regular.ttf'
 end
