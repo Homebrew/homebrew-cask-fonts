@@ -4,6 +4,7 @@ class FontAegean < Cask
 
   url 'http://users.teilar.gr/~g1951d/Aegean.zip'
   homepage 'http://users.teilar.gr/~g1951d/'
+  license :gratis
 
   font 'Aegean_hint.ttf'
 end
