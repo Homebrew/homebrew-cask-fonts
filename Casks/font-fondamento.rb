@@ -8,6 +8,7 @@ class FontFondamento < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Fondamento'
+  license :ofl
 
   font 'Fondamento-Italic.ttf'
   font 'Fondamento-Regular.ttf'
