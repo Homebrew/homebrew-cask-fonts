@@ -6,6 +6,7 @@ class FontKayases < Cask
 
   url 'http://www.languagegeek.com/font/Kayases.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'Kayases.ttf'
 end
