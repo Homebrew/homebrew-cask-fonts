@@ -4,6 +4,7 @@ class FontCalligraffitti < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/apache/calligraffitti/Calligraffitti-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Calligraffitti'
+  license :apache
 
   font 'Calligraffitti-Regular.ttf'
 end
