@@ -4,6 +4,7 @@ class FontCwtexQHei < Cask
 
   url 'https://cwtex-q-fonts.googlecode.com/svn-history/r37/trunk/ttf/cwTeXQHei-Bold.ttf'
   homepage 'https://code.google.com/p/cwtex-q-fonts/'
+  license :oss
 
   font 'cwTeXQHei-Bold.ttf'
 end
