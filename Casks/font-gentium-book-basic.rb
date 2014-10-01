@@ -8,6 +8,7 @@ class FontGentiumBookBasic < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Gentium%20Book%20Basic'
+  license :ofl
 
   font 'GenBkBasB.ttf'
   font 'GenBkBasBI.ttf'
