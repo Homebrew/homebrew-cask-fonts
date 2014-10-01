@@ -8,6 +8,7 @@ class FontArchivoNarrow < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Archivo%20Narrow'
+  license :ofl
 
   font 'ArchivoNarrow-Bold.ttf'
   font 'ArchivoNarrow-BoldItalic.ttf'
