@@ -6,6 +6,7 @@ class FontTaiLeValentinium < Cask
 
   url 'http://www.alanwood.net/downloads/tai-le-valentinium.zip'
   homepage 'http://www.alanwood.net/downloads/index.html'
+  license :unknown
 
   font 'taileval.ttf'
 end
