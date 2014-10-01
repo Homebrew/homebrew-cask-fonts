@@ -8,6 +8,7 @@ class FontHanuman < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Hanuman'
+  license :ofl
 
   font 'Hanuman.ttf'
   font 'Hanumanb.ttf'
