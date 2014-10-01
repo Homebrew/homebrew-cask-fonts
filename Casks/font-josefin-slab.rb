@@ -8,6 +8,7 @@ class FontJosefinSlab < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Josefin%20Slab'
+  license :ofl
 
   font 'JosefinSlab-Bold.ttf'
   font 'JosefinSlab-BoldItalic.ttf'
