@@ -4,6 +4,7 @@ class FontLohitOriya < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-oriya-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-oriya-ttf-#{version}/Lohit-Oriya.ttf"
 end
