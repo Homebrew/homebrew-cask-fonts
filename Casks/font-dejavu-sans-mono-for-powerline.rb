@@ -6,6 +6,7 @@ class FontDejavuSansMonoForPowerline < Cask
       :using => :svn,
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/DejaVuSansMono'
+  license :oss
 
   font 'DejaVu Sans Mono for Powerline.ttf'
   font 'DejaVu Sans Mono Bold for Powerline.ttf'
