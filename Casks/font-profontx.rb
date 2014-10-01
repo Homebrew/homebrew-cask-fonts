@@ -4,6 +4,7 @@ class FontProfontx < Cask
 
   url 'http://faisal.com/software/profontx/ProFontX.zip'
   homepage 'http://faisal.com/software/profontx/'
+  license :unknown
 
   font 'ProFontX/ProFontX'
 end
