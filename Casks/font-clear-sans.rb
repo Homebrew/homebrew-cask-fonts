@@ -4,6 +4,7 @@ class FontClearSans < Cask
 
   url "https://01.org/sites/default/files/downloads/clear-sans/clearsans-#{version}.zip"
   homepage 'https://01.org/clear-sans'
+  license :unknown
 
   font 'TTF/ClearSans-Bold.ttf'
   font 'TTF/ClearSans-BoldItalic.ttf'
