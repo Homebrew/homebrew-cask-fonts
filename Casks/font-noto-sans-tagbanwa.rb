@@ -4,6 +4,7 @@ class FontNotoSansTagbanwa < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansTagbanwa-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansTagbanwa-Regular.ttf'
 end
