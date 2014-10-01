@@ -4,6 +4,7 @@ class FontNotoSansLepcha < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansLepcha-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansLepcha-Regular.ttf'
 end
