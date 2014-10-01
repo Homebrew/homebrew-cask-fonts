@@ -4,6 +4,7 @@ class FontTerminus < Cask
 
   url "http://files.ax86.net/terminus-ttf/files/#{version}/terminus-ttf-#{version}.zip"
   homepage 'http://files.ax86.net/terminus-ttf/'
+  license :unknown
 
   font "terminus-ttf-#{version}/TerminusTTF-#{version}.ttf"
   font "terminus-ttf-#{version}/TerminusTTF-Bold-#{version}.ttf"
