@@ -4,6 +4,7 @@ class FontArial < Cask
 
   url 'http://downloads.sourceforge.net/sourceforge/corefonts/arial32.exe'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
+  license :oss
   depends_on :formula => 'cabextract'
 
   font 'Ariali.TTF'
