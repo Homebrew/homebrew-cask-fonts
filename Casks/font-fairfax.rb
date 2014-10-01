@@ -4,6 +4,7 @@ class FontFairfax < Cask
 
   url 'http://www.kreativekorp.com/swdownload/fonts/xlang/fairfax.zip'
   homepage 'http://www.kreativekorp.com/software/fonts/constructium.shtml'
+  license :unknown
 
   font 'Fairfax.ttf'
   font 'FairfaxBold.ttf'
