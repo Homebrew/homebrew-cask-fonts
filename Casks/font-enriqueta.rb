@@ -8,6 +8,7 @@ class FontEnriqueta < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Enriqueta'
+  license :ofl
 
   font 'Enriqueta-Bold.ttf'
   font 'Enriqueta-Regular.ttf'
