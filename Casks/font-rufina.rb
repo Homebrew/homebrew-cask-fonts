@@ -8,6 +8,7 @@ class FontRufina < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Rufina'
+  license :ofl
 
   font 'Rufina-Bold.ttf'
   font 'Rufina-Regular.ttf'
