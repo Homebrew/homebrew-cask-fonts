@@ -4,6 +4,7 @@ class FontSourceSerifPro < Cask
 
   url "http://downloads.sourceforge.net/sourceforge/sourceserifpro.adobe/SourceSerifPro_FontsOnly-#{version}.zip"
   homepage 'http://adobe.github.io/source-serif-pro/'
+  license :ofl
 
   font "source-serif-pro-#{version}R/OTF/SourceSerifPro-Bold.otf"
   font "source-serif-pro-#{version}R/OTF/SourceSerifPro-Regular.otf"
