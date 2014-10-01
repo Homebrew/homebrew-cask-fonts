@@ -4,6 +4,7 @@ class FontSignika < Cask
 
   url 'http://fontfabric.com/downfont/signika.zip'
   homepage 'http://fontfabric.com/signika-font/'
+  license :ofl
 
   font 'Signika/Signika-Bold.ttf'
   font 'Signika/Signika-Light.ttf'
