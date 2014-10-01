@@ -8,6 +8,7 @@ class FontRambla < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Rambla'
+  license :ofl
 
   font 'Rambla-Bold.ttf'
   font 'Rambla-BoldItalic.ttf'
