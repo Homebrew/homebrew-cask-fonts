@@ -8,6 +8,7 @@ class FontMagra < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Magra'
+  license :ofl
 
   font 'Magra-Bold.ttf'
   font 'Magra-Regular.ttf'
