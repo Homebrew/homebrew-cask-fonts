@@ -4,6 +4,7 @@ class FontNotoSansMongolian < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansMongolian-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansMongolian-Regular.ttf'
 end
