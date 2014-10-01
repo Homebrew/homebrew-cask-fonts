@@ -5,6 +5,7 @@ class FontMusica < Cask
 
   url 'http://users.teilar.gr/~g1951d/Musica.zip'
   homepage 'http://users.teilar.gr/~g1951d/'
+  license :gratis
 
   font 'Musica_hint.ttf'
 end
