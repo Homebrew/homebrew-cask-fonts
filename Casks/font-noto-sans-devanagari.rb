@@ -4,6 +4,7 @@ class FontNotoSansDevanagari < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansDevanagari-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansDevanagari-Bold.ttf'
   font 'NotoSansDevanagari-Regular.ttf'
