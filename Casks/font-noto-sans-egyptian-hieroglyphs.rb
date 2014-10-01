@@ -4,6 +4,7 @@ class FontNotoSansEgyptianHieroglyphs < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansEgyptianHieroglyphs-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansEgyptianHieroglyphs-Regular.ttf'
 end
