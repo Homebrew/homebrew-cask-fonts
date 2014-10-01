@@ -8,6 +8,7 @@ class FontYanoneKaffeesatz < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Yanone%20Kaffeesatz'
+  license :ofl
 
   font 'YanoneKaffeesatz-Bold.ttf'
   font 'YanoneKaffeesatz-ExtraLight.ttf'
