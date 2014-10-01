@@ -4,6 +4,7 @@ class FontNotoSansCham < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansCham-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansCham-Bold.ttf'
   font 'NotoSansCham-Regular.ttf'
