@@ -5,6 +5,7 @@ class FontBabelstoneHan < Cask
 
   url 'http://babelstone.co.uk/Fonts/BabelStoneHan.zip'
   homepage 'http://babelstone.co.uk/Fonts/Han.html'
+  license :unknown
 
   font 'BabelStoneHan.ttf'
 end
