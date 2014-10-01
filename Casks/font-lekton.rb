@@ -8,6 +8,7 @@ class FontLekton < Cask
       :revision   => '47',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Lekton'
+  license :ofl
 
   font 'Lekton-Bold.ttf'
   font 'Lekton-Italic.ttf'
