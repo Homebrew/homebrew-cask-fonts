@@ -8,6 +8,7 @@ class FontCousine < Cask
       :revision   => '47',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Cousine'
+  license :apache
 
   font 'Cousine-Regular.ttf'
   font 'Cousine-Bold.ttf'
