@@ -8,6 +8,7 @@ class FontDhyana < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
+  license :ofl
 
   font 'Dhyana-Bold.ttf'
   font 'Dhyana-Regular.ttf'
