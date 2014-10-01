@@ -4,6 +4,7 @@ class FontNotoSansDeseret < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansDeseret-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansDeseret-Regular.ttf'
 end
