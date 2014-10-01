@@ -4,6 +4,7 @@ class FontFruktur < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/fruktur/Fruktur-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Fruktur'
+  license :ofl
 
   font 'Fruktur-Regular.ttf'
 end
