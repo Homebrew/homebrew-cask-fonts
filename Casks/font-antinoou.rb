@@ -4,6 +4,7 @@ class FontAntinoou < Cask
 
   url 'http://www.evertype.com/fonts/coptic/AntinoouFont.zip'
   homepage 'http://www.evertype.com/fonts/coptic/'
+  license :unknown
 
   font 'AntinoouFont-1.0.6/Antinoou.ttf'
   font 'AntinoouFont-1.0.6/AntinoouItalic.ttf'
