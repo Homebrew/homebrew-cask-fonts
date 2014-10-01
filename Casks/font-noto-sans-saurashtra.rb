@@ -4,6 +4,7 @@ class FontNotoSansSaurashtra < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSaurashtra-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSaurashtra-Regular.ttf'
 end
