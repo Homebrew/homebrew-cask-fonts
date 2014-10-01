@@ -4,6 +4,7 @@ class FontWakor < Cask
 
   url 'http://www.evertype.com/fonts/vai/wakorfont.zip'
   homepage 'http://www.evertype.com/fonts/vai/'
+  license :unknown
 
   font 'Wakor-4.0.7/Wakor.ttf'
   font 'Wakor-4.0.7/WakorOblique.ttf'
