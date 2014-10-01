@@ -4,6 +4,7 @@ class FontGalindo < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/galindo/Galindo-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Galindo'
+  license :ofl
 
   font 'Galindo-Regular.ttf'
 end
