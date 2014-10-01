@@ -4,6 +4,7 @@ class FontLiberationSans < Cask
 
   url "https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/liberation-fonts/'
+  license :unknown
 
   font "liberation-fonts-ttf-#{version}/LiberationMono-Bold.ttf"
   font "liberation-fonts-ttf-#{version}/LiberationMono-BoldItalic.ttf"
