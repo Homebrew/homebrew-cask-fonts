@@ -8,6 +8,7 @@ class FontAdventPro < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Advent%20Pro'
+  license :ofl
 
   font 'AdventPro-Bold.ttf'
   font 'AdventPro-ExtraLight.ttf'
