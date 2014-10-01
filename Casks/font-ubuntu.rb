@@ -4,6 +4,7 @@ class FontUbuntu < Cask
 
   url "http://font.ubuntu.com/download/ubuntu-font-family-#{version}.zip"
   homepage 'http://font.ubuntu.com/'
+  license :ubuntu_font
 
   font "ubuntu-font-family-#{version}/Ubuntu-B.ttf"
   font "ubuntu-font-family-#{version}/Ubuntu-BI.ttf"
