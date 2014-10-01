@@ -4,6 +4,7 @@ class FontGeoSansLight < Cask
 
   url 'http://moorstation.org/typoasis/designers/klein03/text02/pc/GeosansLight.zip'
   homepage 'http://moorstation.org/typoasis/designers/klein03/text02/geosanslite.htm'
+  license :unknown
 
   font 'GeosansLight.ttf'
 end
