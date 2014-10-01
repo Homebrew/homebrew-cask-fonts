@@ -4,6 +4,7 @@ class FontLohitMalayalam < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-malayalam-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-malayalam-ttf-#{version}/Lohit-Malayalam.ttf"
 end
