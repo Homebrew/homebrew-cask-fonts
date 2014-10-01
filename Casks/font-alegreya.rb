@@ -8,6 +8,7 @@ class FontAlegreya < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Alegreya'
+  license :ofl
 
   font 'Alegreya-Black.ttf'
   font 'Alegreya-BlackItalic.ttf'
