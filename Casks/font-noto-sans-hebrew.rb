@@ -4,6 +4,7 @@ class FontNotoSansHebrew < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansHebrew-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansHebrew-Regular.ttf'
   font 'NotoSansHebrew-Bold.ttf'
