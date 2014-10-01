@@ -8,6 +8,7 @@ class FontChangaOne < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Changa%20One'
+  license :ofl
 
   font 'ChangaOne-Italic.ttf'
   font 'ChangaOne-Regular.ttf'
