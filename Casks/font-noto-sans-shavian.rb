@@ -4,6 +4,7 @@ class FontNotoSansShavian < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansShavian-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansShavian-Regular.ttf'
 end
