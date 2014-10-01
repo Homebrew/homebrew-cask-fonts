@@ -6,8 +6,8 @@ class FontEversonMono < Cask
 
   url 'http://www.evertype.com/emono/evermono.zip'
   homepage 'http://www.evertype.com/emono/'
+  license :commercial           # trial
 
-  # license :trial
   font 'evermono-6.2.1/Everson Mono.ttf'
   font 'evermono-6.2.1/Everson Mono Bold.ttf'
   font 'evermono-6.2.1/Everson Mono Bold Oblique.ttf'
