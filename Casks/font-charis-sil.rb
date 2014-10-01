@@ -4,6 +4,7 @@ class FontCharisSil < Cask
 
   url "https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=CharisSIL-#{version}.zip&filename=CharisSIL-#{version}.zip"
   homepage 'https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=CharisSILfont'
+  license :ofl
 
   font "CharisSIL-#{version}/CharisSIL-R.ttf"
   font "CharisSIL-#{version}/CharisSIL-B.ttf"
