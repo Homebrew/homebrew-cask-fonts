@@ -4,6 +4,7 @@ class FontLohitNepali < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-nepali-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-nepali-ttf-#{version}/Lohit-Nepali.ttf"
 end
