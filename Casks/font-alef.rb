@@ -8,6 +8,7 @@ class FontAlef < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Alef'
+  license :ofl
 
   font 'Alef-Bold.ttf'
   font 'Alef-Regular.ttf'
