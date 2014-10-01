@@ -4,6 +4,7 @@ class FontNotoSansSamaritan < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSamaritan-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSamaritan-Regular.ttf'
 end
