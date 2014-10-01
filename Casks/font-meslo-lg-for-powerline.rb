@@ -6,6 +6,7 @@ class FontMesloLgForPowerline < Cask
       :using => :svn,
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/Meslo'
+  license :oss
 
   font 'Meslo LG L DZ Regular for Powerline.otf'
   font 'Meslo LG L Regular for Powerline.otf'
