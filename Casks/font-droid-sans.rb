@@ -8,6 +8,7 @@ class FontDroidSans < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Droid%20Sans'
+  license :apache
 
   font 'DroidSans-Bold.ttf'
   font 'DroidSans.ttf'
