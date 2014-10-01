@@ -4,6 +4,7 @@ class FontPoetsenone < Cask
 
   url 'http://www.impallari.com/media/uploads/commentsources/comment-241-source.zip'
   homepage 'http://www.impallari.com/projects/overview/poetsen'
+  license :unknown
 
   font 'PoetsenOne-v1.1/PoetsenOne-Regular.ttf'
 end
