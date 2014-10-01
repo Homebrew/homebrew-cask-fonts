@@ -6,6 +6,7 @@ class FontPitabek < Cask
 
   url 'http://www.languagegeek.com/font/pitabek.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'pitabek.ttf'
 end
