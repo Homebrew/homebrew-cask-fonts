@@ -4,6 +4,7 @@ class FontImprima < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/imprima/Imprima-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Imprima'
+  license :ofl
 
   font 'Imprima-Regular.ttf'
 end
