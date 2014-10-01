@@ -4,6 +4,7 @@ class FontAnonymousPro < Cask
 
   url "http://www.marksimonson.com/assets/content/fonts/AnonymousPro-#{version}.zip"
   homepage 'http://www.marksimonson.com/fonts/view/anonymous-pro'
+  license :ofl
 
   font "AnonymousPro-#{version}.001/Anonymous Pro B.ttf"
   font "AnonymousPro-#{version}.001/Anonymous Pro BI.ttf"
