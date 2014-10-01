@@ -4,6 +4,7 @@ class FontSeoulhangang < Cask
 
   url 'http://www.seoul.go.kr/v2012/seoul/symbol/download.php?div=Zm9udDA0'
   homepage 'http://www.seoul.go.kr/v2012/seoul/symbol/font.html'
+  license :unknown
 
   font 'SeoulHangangB.otf'
   font 'SeoulHangangEB.otf'
