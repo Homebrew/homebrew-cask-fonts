@@ -4,6 +4,7 @@ class FontCardo < Cask
 
   url 'http://scholarsfonts.net/cardo104.zip'
   homepage 'http://scholarsfonts.net/cardofnt.html'
+  license :ofl
 
   font 'Cardo104s.ttf'
   font 'Cardoi99.ttf'
