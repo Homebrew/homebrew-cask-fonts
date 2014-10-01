@@ -4,6 +4,7 @@ class FontCode2001 < Cask
 
   url "http://distcache.freebsd.org/ports-distfiles/code2001-#{version}/CODE2001.ZIP"
   homepage "http://ftp.freebsd.org/pub/FreeBSD/ports/distfiles/code2001-#{version}/"
+  license :unknown
 
   font 'CODE2001.TTF'
 end
