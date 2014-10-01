@@ -8,6 +8,7 @@ class FontAsap < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Asap'
+  license :ofl
 
   font 'Asap-Bold.ttf'
   font 'Asap-BoldItalic.ttf'
