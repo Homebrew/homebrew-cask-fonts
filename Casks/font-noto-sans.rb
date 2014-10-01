@@ -4,6 +4,7 @@ class FontNotoSans < Cask
 
   url 'http://www.google.com/get/noto/pkgs/NotoSans-unhinted.zip'
   homepage 'http://www.google.com/get/noto/#/family/noto-sans'
+  license :apache
 
   font 'NotoSans-Bold.ttf'
   font 'NotoSans-BoldItalic.ttf'
