@@ -4,6 +4,7 @@ class FontNotoSansCherokee < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansCherokee-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansCherokee-Regular.ttf'
 end
