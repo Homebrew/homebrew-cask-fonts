@@ -4,6 +4,7 @@ class FontNotoSansOlChiki < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansOlChiki-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansOlChiki-Regular.ttf'
 end
