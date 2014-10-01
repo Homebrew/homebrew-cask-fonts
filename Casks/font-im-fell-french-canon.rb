@@ -8,6 +8,7 @@ class FontImFellFrenchCanon < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20French%20Canon'
+  license :ofl
 
   font 'IMFeFCit28P.ttf'
   font 'IMFeFCrm28P.ttf'
