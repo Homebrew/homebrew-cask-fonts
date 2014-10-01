@@ -4,6 +4,7 @@ class FontAileron < Cask
 
   url 'http://dotcolon.net/DL/font/aileron.zip'
   homepage 'http://dotcolon.net/font/aileron/'
+  license :unknown
 
   font 'Aileron-Black.otf'
   font 'Aileron-BlackItalic.otf'
