@@ -4,6 +4,7 @@ class FontNotoSansSymbols < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSymbols-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSymbols-Regular.ttf'
 end
