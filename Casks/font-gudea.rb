@@ -8,6 +8,7 @@ class FontGudea < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Gudea'
+  license :ofl
 
   font 'Gudea-Bold.ttf'
   font 'Gudea-Italic.ttf'
