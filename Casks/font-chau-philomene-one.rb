@@ -8,6 +8,7 @@ class FontChauPhilomeneOne < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Chau%20Philomene%20One'
+  license :ofl
 
   font 'ChauPhilomeneOne-Italic.ttf'
   font 'ChauPhilomeneOne-Regular.ttf'
