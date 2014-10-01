@@ -5,6 +5,7 @@ class FontQuivira < Cask
 
   url 'http://www.quivira-font.com/files/Quivira.otf'
   homepage 'http://www.quivira-font.com/downloads.php'
+  license :unknown
 
   font 'Quivira.otf'
 end
