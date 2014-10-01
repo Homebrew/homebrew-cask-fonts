@@ -4,6 +4,7 @@ class FontFontawesome < Cask
 
   url "http://fontawesome.io/assets/font-awesome-#{version}.zip"
   homepage 'http://fortawesome.github.io/Font-Awesome/'
+  license :oss
 
   font "font-awesome-#{version}/fonts/FontAwesome.otf"
 end
