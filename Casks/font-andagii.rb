@@ -5,6 +5,7 @@ class FontAndagii < Cask
   url 'http://www.i18nguy.com/unicode/andagii.zip',
       :user_agent => :fake
   homepage 'http://www.i18nguy.com/unicode/unicode-font.html'
+  license :unknown
 
   font 'ANDAGII_.TTF'
 end
