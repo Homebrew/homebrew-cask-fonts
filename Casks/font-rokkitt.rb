@@ -8,6 +8,7 @@ class FontRokkitt < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Rokkitt'
+  license :ofl
 
   font 'Rokkitt-Bold.ttf'
   font 'Rokkitt-Light.ttf'
