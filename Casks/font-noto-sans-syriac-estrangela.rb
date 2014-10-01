@@ -4,6 +4,7 @@ class FontNotoSansSyriacEstrangela < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSyriacEstrangela-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSyriacEstrangela-Regular.ttf'
 end
