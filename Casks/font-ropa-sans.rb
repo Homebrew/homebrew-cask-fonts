@@ -8,6 +8,7 @@ class FontRopaSans < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Ropa%20Sans'
+  license :ofl
 
   font 'RopaSans-Italic.ttf'
   font 'RopaSans-Regular.ttf'
