@@ -4,6 +4,7 @@ class FontNotoSansSyriacEastern < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSyriacEastern-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSyriacEastern-Regular.ttf'
 end
