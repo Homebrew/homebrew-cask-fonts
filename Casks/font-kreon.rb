@@ -8,6 +8,7 @@ class FontKreon < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Kreon'
+  license :ofl
 
   font 'Kreon-Bold.ttf'
   font 'Kreon-Light.ttf'
