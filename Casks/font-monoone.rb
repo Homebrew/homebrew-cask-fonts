@@ -5,6 +5,7 @@ class FontMonoone < Cask
 
   url 'https://github.com/madmalik/monoOne/blob/master/monoOne.otf'
   homepage 'https://github.com/madmalik/monoOne'
+  license :oss
 
   font 'monoOne.otf'
 end
