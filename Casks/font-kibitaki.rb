@@ -4,6 +4,7 @@ class FontKibitaki < Cask
 
   url 'https://github.com/Koruri/kibitaki/archive/master.zip'
   homepage 'http://kibitaki.lindwurm.biz/'
+  license :oss
 
   font 'kibitaki-master/Kibitaki-Bold.ttf'
   font 'kibitaki-master/Kibitaki-Light.ttf'
