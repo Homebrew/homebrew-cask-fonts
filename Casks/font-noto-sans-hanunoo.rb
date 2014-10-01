@@ -4,6 +4,7 @@ class FontNotoSansHanunoo < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansHanunoo-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansHanunoo-Regular.ttf'
 end
