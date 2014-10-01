@@ -4,6 +4,7 @@ class FontNotoSansTifinagh < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansTifinagh-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansTifinagh-Regular.ttf'
 end
