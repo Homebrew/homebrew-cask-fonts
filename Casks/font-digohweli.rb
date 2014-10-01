@@ -4,6 +4,7 @@ class FontDigohweli < Cask
 
   url 'http://www.languagegeek.com/font/Digohweli.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'Digohweli_1_7.ttf'
 end
