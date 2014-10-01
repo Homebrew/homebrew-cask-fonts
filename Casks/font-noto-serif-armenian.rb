@@ -4,6 +4,7 @@ class FontNotoSerifArmenian < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSerifArmenian-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSerifArmenian-Regular.ttf'
   font 'NotoSerifArmenian-Bold.ttf'
