@@ -4,6 +4,7 @@ class FontCanter < Cask
 
   url 'http://fontfabric.com/downfont/canter.zip'
   homepage 'http://fontfabric.com/canter-free-font/'
+  license :unknown
 
   font 'Canter Bold.otf'
   font 'Canter Bold 3D.otf'
