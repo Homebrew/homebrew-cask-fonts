@@ -4,6 +4,7 @@ class FontKoruri < Cask
 
   url 'https://github.com/Koruri/Koruri/archive/master.zip'
   homepage 'http://koruri.lindwurm.biz/'
+  license :oss
 
   font 'Koruri-master/Koruri-Bold.ttf'
   font 'Koruri-master/Koruri-Extrabold.ttf'
