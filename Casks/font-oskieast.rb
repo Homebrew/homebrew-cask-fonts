@@ -6,6 +6,7 @@ class FontOskieast < Cask
 
   url 'http://www.languagegeek.com/font/oskieast.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'oskie.ttf'
   font 'oskiebold.ttf'
