@@ -7,7 +7,7 @@ class FontLisutzimu < Cask
   homepage 'http://www.alanwood.net/unicode/fonts-east-asian.html#lisu'
   license :unknown
   depends_on :formula => 'unar'
-  container_type :seven_zip
+  container :type => :seven_zip
 
   # The garbled characters in the directory name are intentional,
   # including the NO-BREAK SPACE
