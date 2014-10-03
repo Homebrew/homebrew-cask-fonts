@@ -8,6 +8,7 @@ class FontStardosStencil < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Stardos%20Stencil'
+  license :ofl
 
   font 'StardosStencil-Bold.ttf'
   font 'StardosStencil-Regular.ttf'

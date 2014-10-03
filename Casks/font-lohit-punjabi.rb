@@ -4,6 +4,7 @@ class FontLohitPunjabi < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-punjabi-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-punjabi-ttf-#{version}/Lohit-Punjabi.ttf"
 end

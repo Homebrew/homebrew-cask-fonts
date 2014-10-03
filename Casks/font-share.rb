@@ -8,6 +8,7 @@ class FontShare < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Share'
+  license :ofl
 
   font 'Share-Bold.ttf'
   font 'Share-BoldItalic.ttf'

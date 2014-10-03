@@ -4,6 +4,7 @@ class FontLohitTelugu < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-telugu-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-telugu-ttf-#{version}/Lohit-Telugu.ttf"
 end

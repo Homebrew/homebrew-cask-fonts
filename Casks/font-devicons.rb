@@ -4,6 +4,7 @@ class FontDevicons < Cask
 
   url "https://github.com/vorillaz/devicons/archive/#{version}.zip"
   homepage 'http://vorillaz.github.io/devicons/'
+  license :oss
 
   font "devicons-#{version}/fonts/devicons.ttf"
 end

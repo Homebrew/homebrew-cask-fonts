@@ -8,6 +8,7 @@ class FontExpletusSans < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Expletus%20Sans'
+  license :ofl
 
   font 'ExpletusSans-Bold.ttf'
   font 'ExpletusSans-BoldItalic.ttf'

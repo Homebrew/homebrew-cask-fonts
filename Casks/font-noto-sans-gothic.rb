@@ -4,6 +4,7 @@ class FontNotoSansGothic < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansGothic-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansGothic-Regular.ttf'
 end

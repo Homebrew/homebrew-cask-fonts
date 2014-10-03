@@ -8,6 +8,7 @@ class FontMerriweatherSans < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Merriweather%20Sans'
+  license :ofl
 
   font 'MerriweatherSans-Bold.ttf'
   font 'MerriweatherSans-BoldItalic.ttf'

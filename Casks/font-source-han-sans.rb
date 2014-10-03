@@ -4,6 +4,7 @@ class FontSourceHanSans < Cask
 
   url "https://github.com/adobe-fonts/source-han-sans/archive/#{version}R.zip"
   homepage 'https://github.com/adobe-fonts/source-han-sans'
+  license :oss
 
   font "source-han-sans-#{version}R/OTF/Japanese/SourceHanSans-Bold.otf"
   font "source-han-sans-#{version}R/OTF/Japanese/SourceHanSans-ExtraLight.otf"

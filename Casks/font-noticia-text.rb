@@ -8,6 +8,7 @@ class FontNoticiaText < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Noticia%20Text'
+  license :ofl
 
   font 'NoticiaText-Bold.ttf'
   font 'NoticiaText-BoldItalic.ttf'

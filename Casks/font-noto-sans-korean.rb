@@ -4,6 +4,7 @@ class FontNotoSansKorean < Cask
 
   url 'http://www.google.com/get/noto/pkgs/NotoSansKorean-hinted.zip'
   homepage 'http://www.google.com/get/noto/#/family/noto-sans-kore'
+  license :apache
 
   font 'NotoSansKR-Black.otf'
   font 'NotoSansKR-Bold.otf'

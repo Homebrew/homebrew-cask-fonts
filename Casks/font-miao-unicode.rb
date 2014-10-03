@@ -4,6 +4,7 @@ class FontMiaoUnicode < Cask
 
   url 'https://github.com/phjamr/MiaoUnicode/blob/master/MiaoUnicode-Regular.ttf?raw=true'
   homepage 'http://phjamr.github.io/miao.html'
+  license :oss
 
   font 'MiaoUnicode-Regular.ttf'
 end

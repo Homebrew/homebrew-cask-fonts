@@ -8,6 +8,7 @@ class FontOverlock < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Overlock'
+  license :ofl
 
   font 'Overlock-Black.ttf'
   font 'Overlock-BlackItalic.ttf'

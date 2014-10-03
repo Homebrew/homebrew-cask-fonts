@@ -8,6 +8,7 @@ class FontCinzel < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Cinzel'
+  license :ofl
 
   font 'Cinzel-Black.ttf'
   font 'Cinzel-Bold.ttf'

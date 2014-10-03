@@ -6,6 +6,7 @@ class FontOskidenes < Cask
 
   url 'http://www.languagegeek.com/font/OskiDeneS.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'OskiDeneS.ttf'
   font 'OskiDeneS_b.ttf'

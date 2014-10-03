@@ -4,6 +4,7 @@ class FontNotoNaskhArabic < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoNaskhArabic-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoNaskhArabic-Bold.ttf'
   font 'NotoNaskhArabic-Regular.ttf'

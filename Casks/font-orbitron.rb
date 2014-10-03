@@ -8,6 +8,7 @@ class FontOrbitron < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Orbitron'
+  license :ofl
 
   font 'Orbitron-Black.ttf'
   font 'Orbitron-Bold.ttf'

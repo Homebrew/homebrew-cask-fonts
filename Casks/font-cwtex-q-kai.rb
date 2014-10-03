@@ -4,6 +4,7 @@ class FontCwtexQKai < Cask
 
   url 'https://cwtex-q-fonts.googlecode.com/svn-history/r37/trunk/ttf/cwTeXQKai-Medium.ttf'
   homepage 'https://code.google.com/p/cwtex-q-fonts/'
+  license :oss
 
   font 'cwTeXQKai-Medium.ttf'
 end

@@ -8,6 +8,7 @@ class FontNeuton < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Neuton'
+  license :ofl
 
   font 'Neuton-Bold.ttf'
   font 'Neuton-ExtraBold.ttf'

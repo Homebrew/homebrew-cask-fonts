@@ -8,6 +8,7 @@ class FontElsieSwashCaps < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Elsie%20Swash%20Caps'
+  license :ofl
 
   font 'ElsieSwashCaps-Black.ttf'
   font 'ElsieSwashCaps-Regular.ttf'

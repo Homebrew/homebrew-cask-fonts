@@ -8,6 +8,7 @@ class FontPlayfairDisplay < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Playfair%20Display'
+  license :ofl
 
   font 'PlayfairDisplay-Black.ttf'
   font 'PlayfairDisplay-BlackItalic.ttf'

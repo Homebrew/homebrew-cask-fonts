@@ -4,6 +4,7 @@ class FontPtSans < Cask
 
   url 'http://www.fontstock.com/public/PTSans.zip'
   homepage 'http://www.paratype.com/public/'
+  license :ofl
 
   font 'PTC55F.ttf'
   font 'PTC75F.ttf'

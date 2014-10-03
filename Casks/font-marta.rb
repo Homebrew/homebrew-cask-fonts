@@ -4,6 +4,7 @@ class FontMarta < Cask
 
   url 'http://fontfabric.com/downfont/marta.zip'
   homepage 'http://fontfabric.com/marta-free-font/'
+  license :unknown
 
   font 'Marta_Bold.otf'
   font 'Marta_Italic.otf'

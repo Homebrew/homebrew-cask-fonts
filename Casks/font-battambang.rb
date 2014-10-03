@@ -8,6 +8,7 @@ class FontBattambang < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Battambang'
+  license :ofl
 
   font 'Battambang-Bold.ttf'
   font 'Battambang-Regular.ttf'

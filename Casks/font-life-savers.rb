@@ -8,6 +8,7 @@ class FontLifeSavers < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Life%20Savers'
+  license :ofl
 
   font 'LifeSavers-Bold.ttf'
   font 'LifeSavers-Regular.ttf'

@@ -6,6 +6,7 @@ class FontOskidenea < Cask
 
   url 'http://www.languagegeek.com/font/OskiDeneA.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'OskiDeneA.ttf'
   font 'OskiDeneA_b.ttf'

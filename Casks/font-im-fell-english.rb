@@ -8,6 +8,7 @@ class FontImFellEnglish < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20English'
+  license :ofl
 
   font 'IMFeENit28P.ttf'
   font 'IMFeENrm28P.ttf'

@@ -6,6 +6,7 @@ class FontBabelstoneModern < Cask
 
   url 'http://www.babelstone.co.uk/Fonts/BabelStoneModern.ttf'
   homepage 'http://www.babelstone.co.uk/Fonts/'
+  license :unknown
 
   font 'BabelStoneModern.ttf'
 end

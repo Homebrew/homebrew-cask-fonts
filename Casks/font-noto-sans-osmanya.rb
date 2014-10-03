@@ -4,6 +4,7 @@ class FontNotoSansOsmanya < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansOsmanya-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansOsmanya-Regular.ttf'
 end

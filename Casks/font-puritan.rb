@@ -8,6 +8,7 @@ class FontPuritan < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Puritan'
+  license :ofl
 
   font 'Puritan-Bold.ttf'
   font 'Puritan-BoldItalic.ttf'

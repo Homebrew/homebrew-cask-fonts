@@ -4,6 +4,7 @@ class FontNotoSansSundanese < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSundanese-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSundanese-Regular.ttf'
 end

@@ -4,6 +4,7 @@ class FontFreesans < Cask
 
   url 'http://ftp.gnu.org/gnu/freefont/freefont-otf-20120503.tar.gz'
   homepage 'http://ftp.gnu.org/gnu/freefont/'
+  license :unknown
 
   font 'freefont-20120503/FreeMono.otf'
   font 'freefont-20120503/FreeMonoBold.otf'

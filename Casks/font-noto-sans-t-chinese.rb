@@ -4,6 +4,7 @@ class FontNotoSansTChinese < Cask
 
   url 'http://www.google.com/get/noto/pkgs/NotoSansTChinese-hinted.zip'
   homepage 'http://www.google.com/get/noto/#/family/noto-sans-hant'
+  license :apache
 
   font 'NotoSansHant-Black.otf'
   font 'NotoSansHant-Bold.otf'

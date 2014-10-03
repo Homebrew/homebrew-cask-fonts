@@ -4,6 +4,7 @@ class FontLohitDevanagari < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-devanagari-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-devanagari-ttf-#{version}/Lohit-Devanagari.ttf"
 end

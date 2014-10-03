@@ -4,6 +4,7 @@ class FontNewAthenaUnicode < Cask
 
   url 'http://apagreekkeys.org/fonts/NAU405styles.zip'
   homepage 'http://apagreekkeys.org/NAUdownload.html'
+  license :unknown
 
   font 'NAU405styles/newathu405.ttf'
   font 'NAU405styles/newathuBold405.ttf'

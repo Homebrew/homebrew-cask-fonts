@@ -8,6 +8,7 @@ class FontImFellGreatPrimer < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20Great%20Primer'
+  license :ofl
 
   font 'IMFeGPit28P.ttf'
   font 'IMFeGPrm28P.ttf'

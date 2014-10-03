@@ -8,6 +8,7 @@ class FontSortsMillGoudy < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Sorts%20Mill%20Goudy'
+  license :ofl
 
   font 'SortsMillGoudy-Italic.ttf'
   font 'SortsMillGoudy-Regular.ttf'

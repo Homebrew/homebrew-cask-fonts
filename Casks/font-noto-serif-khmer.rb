@@ -4,6 +4,7 @@ class FontNotoSerifKhmer < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSerifKhmer-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSerifKhmer-Bold.ttf'
   font 'NotoSerifKhmer-Regular.ttf'

@@ -8,6 +8,7 @@ class FontTinos < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Tinos'
+  license :apache
 
   font 'Tinos-Bold.ttf'
   font 'Tinos-BoldItalic.ttf'

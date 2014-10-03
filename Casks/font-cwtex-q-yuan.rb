@@ -4,6 +4,7 @@ class FontCwtexQYuan < Cask
 
   url 'https://cwtex-q-fonts.googlecode.com/svn-history/r37/trunk/ttf/cwTeXQYuan-Medium.ttf'
   homepage 'https://code.google.com/p/cwtex-q-fonts/'
+  license :oss
 
   font 'cwTeXQYuan-Medium.ttf'
 end

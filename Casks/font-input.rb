@@ -6,6 +6,7 @@ class FontInput < Cask
   # we pass the default parameters, plus the required license agreement.
   url 'http://input.fontbureau.com/build/?basic=1&fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&lineHeight=1&accept=I+do'
   homepage 'http://input.fontbureau.com/'
+  license :closed
 
   font 'Input_Fonts/InputMono/InputMono/InputMono-Black.ttf'
   font 'Input_Fonts/InputMono/InputMono/InputMono-BlackItalic.ttf'

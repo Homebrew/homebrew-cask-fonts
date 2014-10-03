@@ -4,6 +4,7 @@ class FontLohitAssamese < Cask
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-assamese-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
+  license :unknown
 
   font "lohit-assamese-ttf-#{version}/Lohit-Assamese.ttf"
 end

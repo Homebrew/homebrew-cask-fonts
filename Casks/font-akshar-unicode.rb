@@ -4,6 +4,7 @@ class FontAksharUnicode < Cask
 
   url 'http://www.kamban.com.au/fonts/freefonts.zip'
   homepage 'http://www.kamban.com.au/downloads.html'
+  license :unknown
 
   font 'maduram.ttf'
   font 'akshar.ttf'

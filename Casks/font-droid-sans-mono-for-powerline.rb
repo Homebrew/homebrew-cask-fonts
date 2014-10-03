@@ -6,6 +6,7 @@ class FontDroidSansMonoForPowerline < Cask
       :using => :svn,
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/DroidSansMono'
+  license :oss
 
   font 'Droid Sans Mono for Powerline.otf'
 end

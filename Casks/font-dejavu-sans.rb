@@ -4,6 +4,7 @@ class FontDejavuSans < Cask
 
   url "http://downloads.sourceforge.net/sourceforge/dejavu/dejavu-fonts-ttf-#{version}.zip"
   homepage 'http://dejavu-fonts.org/wiki/Main_Page'
+  license :oss
 
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-Bold.ttf"
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-BoldOblique.ttf"

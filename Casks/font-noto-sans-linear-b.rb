@@ -4,6 +4,7 @@ class FontNotoSansLinearB < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansLinearB-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansLinearB-Regular.ttf'
 end

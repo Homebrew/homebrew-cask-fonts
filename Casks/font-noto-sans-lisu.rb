@@ -4,6 +4,7 @@ class FontNotoSansLisu < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansLisu-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansLisu-Regular.ttf'
 end

@@ -4,6 +4,7 @@ class FontAfricanSans < Cask
 
   url 'http://www.languagegeek.com/font/AfricanSans.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'African Sans REGULAR 938.ttf'
   font 'African Sans BOLD 938.ttf'

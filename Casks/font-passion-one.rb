@@ -8,6 +8,7 @@ class FontPassionOne < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Passion%20One'
+  license :ofl
 
   font 'PassionOne-Black.ttf'
   font 'PassionOne-Bold.ttf'

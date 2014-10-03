@@ -8,6 +8,7 @@ class FontLibreBaskerville < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Libre%20Baskerville'
+  license :ofl
 
   font 'LibreBaskerville-Bold.ttf'
   font 'LibreBaskerville-Italic.ttf'

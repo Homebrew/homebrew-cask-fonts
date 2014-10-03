@@ -4,6 +4,7 @@ class FontAleo < Cask
 
   url 'http://fontfabric.com/downfont/aleo.zip'
   homepage 'http://fontfabric.com/aleo-free-font/'
+  license :unknown
 
   font 'Aleo-Bold.otf'
   font 'Aleo-BoldItalic.otf'

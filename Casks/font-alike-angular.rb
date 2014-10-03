@@ -4,6 +4,7 @@ class FontAlikeAngular < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/alikeangular/AlikeAngular-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Alike%20Angular'
+  license :ofl
 
   font 'AlikeAngular-Regular.ttf'
 end

@@ -4,6 +4,7 @@ class FontNotoSansLycian < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansLycian-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansLycian-Regular.ttf'
 end

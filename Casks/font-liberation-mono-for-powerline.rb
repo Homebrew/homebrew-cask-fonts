@@ -6,6 +6,7 @@ class FontLiberationMonoForPowerline < Cask
       :using => :svn,
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/LiberationMono'
+  license :oss
 
   font 'Literation Mono Powerline Bold Italic.ttf'
   font 'Literation Mono Powerline Bold.ttf'

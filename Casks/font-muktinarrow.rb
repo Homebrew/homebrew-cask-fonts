@@ -4,6 +4,7 @@ class FontMuktinarrow < Cask
 
   url 'http://www.omicronlab.com/download/fonts/muktinarrow.ttf'
   homepage 'http://www.omicronlab.com/bangla-fonts.html'
+  license :unknown
 
   font 'muktinarrow.ttf'
 end

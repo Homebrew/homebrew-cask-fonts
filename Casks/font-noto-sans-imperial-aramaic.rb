@@ -4,6 +4,7 @@ class FontNotoSansImperialAramaic < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansImperialAramaic-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansImperialAramaic-Regular.ttf'
 end

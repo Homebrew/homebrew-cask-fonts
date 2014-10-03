@@ -5,6 +5,7 @@ class FontWaltograph < Cask
 
   url 'http://mickeyavenue.com/fonts/download/waltograph.zip'
   homepage 'http://mickeyavenue.com/fonts/waltograph/'
+  license :unknown
 
   font 'Waltograph/waltograph42.otf'
 end

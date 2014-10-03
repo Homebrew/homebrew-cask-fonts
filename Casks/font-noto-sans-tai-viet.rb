@@ -4,6 +4,7 @@ class FontNotoSansTaiViet < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansTaiViet-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansTaiViet-Regular.ttf'
 end

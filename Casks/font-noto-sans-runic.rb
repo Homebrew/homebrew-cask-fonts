@@ -4,6 +4,7 @@ class FontNotoSansRunic < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansRunic-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansRunic-Regular.ttf'
 end

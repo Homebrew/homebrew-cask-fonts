@@ -8,6 +8,7 @@ class FontRaleway < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Raleway'
+  license :ofl
 
   font 'Raleway-Bold.ttf'
   font 'Raleway-ExtraBold.ttf'

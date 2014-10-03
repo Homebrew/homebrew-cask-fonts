@@ -8,6 +8,7 @@ class FontMontserrat < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Montserrat'
+  license :ofl
 
   font 'Montserrat-Bold.ttf'
   font 'Montserrat-Regular.ttf'

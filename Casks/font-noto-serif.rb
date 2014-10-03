@@ -4,6 +4,7 @@ class FontNotoSerif < Cask
 
   url 'http://www.google.com/get/noto/pkgs/NotoSerif-unhinted.zip'
   homepage 'http://www.google.com/get/noto/#/family/noto-serif'
+  license :apache
 
   font 'NotoSerif-Bold.ttf'
   font 'NotoSerif-BoldItalic.ttf'

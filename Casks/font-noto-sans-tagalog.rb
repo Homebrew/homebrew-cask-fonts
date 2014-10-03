@@ -4,6 +4,7 @@ class FontNotoSansTagalog < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansTagalog-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansTagalog-Regular.ttf'
 end

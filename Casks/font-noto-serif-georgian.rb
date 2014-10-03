@@ -4,6 +4,7 @@ class FontNotoSerifGeorgian < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSerifGeorgian-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSerifGeorgian-Bold.ttf'
   font 'NotoSerifGeorgian-Regular.ttf'

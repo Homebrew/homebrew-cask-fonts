@@ -8,6 +8,7 @@ class FontLora < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Lora'
+  license :ofl
 
   font 'Lora-Bold.ttf'
   font 'Lora-BoldItalic.ttf'

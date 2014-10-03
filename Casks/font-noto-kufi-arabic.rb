@@ -4,6 +4,7 @@ class FontNotoKufiArabic < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoKufiArabic-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoKufiArabic-Bold.ttf'
   font 'NotoKufiArabic-Regular.ttf'

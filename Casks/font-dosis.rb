@@ -8,6 +8,7 @@ class FontDosis < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Dosis'
+  license :ofl
 
   font 'Dosis-Bold.ttf'
   font 'Dosis-ExtraBold.ttf'

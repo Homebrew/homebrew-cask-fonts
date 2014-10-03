@@ -8,6 +8,7 @@ class FontMavenPro < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Maven%20Pro'
+  license :ofl
 
   font 'MavenPro-Black.ttf'
   font 'MavenPro-Bold.ttf'

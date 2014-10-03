@@ -4,6 +4,7 @@ class FontCode2002 < Cask
 
   url 'http://www.ffonts.net/Code2002.font.zip'
   homepage 'http://www.ffonts.net/Code2002.font.download'
+  license :unknown
 
   font 'CODE2002.TTF'
 end

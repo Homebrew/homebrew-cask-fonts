@@ -4,6 +4,7 @@ class FontNotoSansOldTurkic < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansOldTurkic-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansOldTurkic-Regular.ttf'
 end

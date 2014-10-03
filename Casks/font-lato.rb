@@ -4,6 +4,7 @@ class FontLato < Cask
 
   url 'http://www.latofonts.com/download/Lato2OFL.zip'
   homepage 'http://www.latofonts.com/'
+  license :ofl
 
   font 'Lato2OFL/Lato-Black.ttf'
   font 'Lato2OFL/Lato-BlackItalic.ttf'

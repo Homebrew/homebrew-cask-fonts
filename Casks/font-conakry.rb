@@ -4,6 +4,7 @@ class FontConakry < Cask
 
   url 'http://www.evertype.com/fonts/nko/ConakryFont.zip'
   homepage 'http://www.evertype.com/fonts/nko/'
+  license :unknown
 
   font 'ConakryFont/Conakry.ttf'
 end

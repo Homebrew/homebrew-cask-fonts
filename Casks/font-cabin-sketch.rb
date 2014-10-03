@@ -8,6 +8,7 @@ class FontCabinSketch < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Cabin%20Sketch'
+  license :ofl
 
   font 'CabinSketch-Bold.ttf'
   font 'CabinSketch-Regular.ttf'

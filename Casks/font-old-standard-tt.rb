@@ -8,6 +8,7 @@ class FontOldStandardTt < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Old%20Standard%20TT'
+  license :ofl
 
   font 'OldStandard-Bold.ttf'
   font 'OldStandard-Italic.ttf'

@@ -4,6 +4,7 @@ class FontNotoSansEthiopic < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansEthiopic-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansEthiopic-Regular.ttf'
   font 'NotoSansEthiopic-Bold.ttf'

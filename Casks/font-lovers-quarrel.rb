@@ -4,6 +4,7 @@ class FontLoversQuarrel < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/loversquarrel/LoversQuarrel-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Lovers%20Quarrel'
+  license :ofl
 
   font 'LoversQuarrel-Regular.ttf'
 end

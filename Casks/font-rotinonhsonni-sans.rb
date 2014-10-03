@@ -4,6 +4,7 @@ class FontRotinonhsonniSans < Cask
 
   url 'http://www.languagegeek.com/font/RotinonhSans.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'rotinonhsans8_7_2_2001.ttf'
   font 'rotinonhsansbi8_7_2_2001.ttf'

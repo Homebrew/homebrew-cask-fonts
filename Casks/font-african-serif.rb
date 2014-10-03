@@ -4,6 +4,7 @@ class FontAfricanSerif < Cask
 
   url 'http://www.languagegeek.com/font/AfricanSerif.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'African Serif REGULAR 938.ttf'
   font 'African Serif BOLD 938.ttf'

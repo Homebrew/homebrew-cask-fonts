@@ -4,6 +4,7 @@ class FontNotoSansSumeroAkkadianCuneiform < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansSumero-AkkadianCuneiform-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansSumeroAkkadianCuneiform-Regular.ttf'
 end

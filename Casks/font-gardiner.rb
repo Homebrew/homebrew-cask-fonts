@@ -4,6 +4,7 @@ class FontGardiner < Cask
 
   url 'http://users.teilar.gr/~g1951d/Gardiner.zip'
   homepage 'http://users.teilar.gr/~g1951d/'
+  license :gratis
 
   font 'Gardiner_hint.ttf'
 end

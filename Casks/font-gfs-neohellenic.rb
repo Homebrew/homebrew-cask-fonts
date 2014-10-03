@@ -8,6 +8,7 @@ class FontGfsNeohellenic < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/GFS%20Neohellenic'
+  license :ofl
 
   font 'GFSNeohellenic.ttf'
   font 'GFSNeohellenicBold.ttf'

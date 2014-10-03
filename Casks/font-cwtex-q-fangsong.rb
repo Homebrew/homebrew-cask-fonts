@@ -4,6 +4,7 @@ class FontCwtexQFangsong < Cask
 
   url 'https://cwtex-q-fonts.googlecode.com/svn-history/r37/trunk/ttf/cwTeXQFangsong-Medium.ttf'
   homepage 'https://code.google.com/p/cwtex-q-fonts/'
+  license :oss
 
   font 'cwTeXQFangsong-Medium.ttf'
 end

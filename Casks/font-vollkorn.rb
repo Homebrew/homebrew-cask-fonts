@@ -4,6 +4,7 @@ class FontVollkorn < Cask
 
   url 'http://vollkorn-typeface.com/download/vollkorn-3-005.zip'
   homepage 'http://vollkorn-typeface.com/'
+  license :ofl
 
   font 'PS-OTF/Vollkorn-Bold.otf'
   font 'PS-OTF/Vollkorn-BoldItalic.otf'

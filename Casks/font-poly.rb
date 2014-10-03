@@ -8,6 +8,7 @@ class FontPoly < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Poly'
+  license :ofl
 
   font 'Poly-Italic.ttf'
   font 'Poly-Regular.ttf'

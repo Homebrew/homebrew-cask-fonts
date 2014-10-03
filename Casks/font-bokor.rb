@@ -4,6 +4,7 @@ class FontBokor < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/bokor/Bokor.ttf'
   homepage 'http://www.google.com/fonts/specimen/Bokor'
+  license :ofl
 
   font 'Bokor.ttf'
 end

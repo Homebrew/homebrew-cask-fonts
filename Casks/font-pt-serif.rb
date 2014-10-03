@@ -4,6 +4,7 @@ class FontPtSerif < Cask
 
   url 'http://www.fontstock.com/public/PTSerif.zip'
   homepage 'http://www.paratype.com/public/'
+  license :ofl
 
   font 'PTF55F.ttf'
   font 'PTF56F.ttf'

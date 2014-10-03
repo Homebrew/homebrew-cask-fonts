@@ -4,6 +4,7 @@ class FontFiraSans < Cask
 
   url 'http://www.carrois.com/wordpress/downloads/fira_3_1/FiraFonts3111.zip'
   homepage 'http://dev.carrois.com/fira-3-1/'
+  license :ofl
 
   font 'FiraFonts3111/FiraMono3111/OTF/FiraMono-Bold.otf'
   font 'FiraFonts3111/FiraMono3111/OTF/FiraMono-Medium.otf'

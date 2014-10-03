@@ -6,6 +6,7 @@ class FontOskidakelh < Cask
 
   url 'http://www.languagegeek.com/font/oskidakelh.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'oskidakelh1.ttf'
   font 'oskidakelhbold1.ttf'

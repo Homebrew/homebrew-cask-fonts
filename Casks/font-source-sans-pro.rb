@@ -4,6 +4,7 @@ class FontSourceSansPro < Cask
 
   url "https://downloads.sourceforge.net/sourceforge/sourcesans.adobe/SourceSansPro_FontsOnly-#{version}roman-1.065-italic.zip"
   homepage 'http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1959'
+  license :ofl
 
   font "source-sans-pro-#{version}R-ro-1.065R-it/OTF/SourceSansPro-Black.otf"
   font "source-sans-pro-#{version}R-ro-1.065R-it/OTF/SourceSansPro-BlackIt.otf"

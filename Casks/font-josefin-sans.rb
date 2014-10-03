@@ -8,6 +8,7 @@ class FontJosefinSans < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Josefin%20Sans'
+  license :ofl
 
   font 'JosefinSans-Bold.ttf'
   font 'JosefinSans-BoldItalic.ttf'

@@ -8,6 +8,7 @@ class FontPhilosopher < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Philosopher'
+  license :ofl
 
   font 'Philosopher-Bold.ttf'
   font 'Philosopher-BoldItalic.ttf'

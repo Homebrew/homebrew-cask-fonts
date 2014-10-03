@@ -4,6 +4,7 @@ class FontNotoSerifLao < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSerifLao-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSerifLao-Bold.ttf'
   font 'NotoSerifLao-Regular.ttf'

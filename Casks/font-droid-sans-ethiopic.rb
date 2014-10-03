@@ -8,6 +8,7 @@ class FontDroidSansEthiopic < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
+  license :apache
 
   font 'DroidSansEthiopic-Bold.ttf'
   font 'DroidSansEthiopic-Regular.ttf'

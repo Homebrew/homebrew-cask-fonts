@@ -4,6 +4,7 @@ class FontNotoSansRejang < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansRejang-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansRejang-Regular.ttf'
 end

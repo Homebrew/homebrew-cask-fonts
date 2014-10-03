@@ -8,6 +8,7 @@ class FontCorben < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Corben'
+  license :ofl
 
   font 'Corben-Bold.ttf'
   font 'Corben-Regular.ttf'

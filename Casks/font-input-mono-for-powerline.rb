@@ -6,6 +6,7 @@ class FontInputMonoForPowerline < Cask
       :using => :svn,
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/InputMono'
+  license :oss
 
   font 'InputMono ExLight for Powerline.ttf'
   font 'InputMono Thin for Powerline.ttf'

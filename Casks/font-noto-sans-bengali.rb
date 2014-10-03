@@ -4,6 +4,7 @@ class FontNotoSansBengali < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansBengali-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansBengali-Bold.ttf'
   font 'NotoSansBengali-Regular.ttf'

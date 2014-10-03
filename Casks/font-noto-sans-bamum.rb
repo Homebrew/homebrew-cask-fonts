@@ -4,6 +4,7 @@ class FontNotoSansBamum < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansBamum-unhinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansBamum-Regular.ttf'
 end

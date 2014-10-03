@@ -4,6 +4,7 @@ class FontEzraSil < Cask
 
   url "https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=EzraSIL#{version.gsub('.', '')}.zip&filename=EzraSIL#{version.gsub('.', '')}.zip"
   homepage 'https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=EzraSIL_Home'
+  license :ofl
 
   font "EzraSIL#{version}/SILEOT.ttf"
   font "EzraSIL#{version}/SILEOTSR.ttf"

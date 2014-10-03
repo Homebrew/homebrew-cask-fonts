@@ -4,6 +4,7 @@ class FontSourceCodePro < Cask
 
   url "http://downloads.sourceforge.net/sourceforge/sourcecodepro.adobe/SourceCodePro_FontsOnly-#{version}.zip"
   homepage 'http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1960'
+  license :ofl
 
   font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-Black.otf"
   font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-Bold.otf"

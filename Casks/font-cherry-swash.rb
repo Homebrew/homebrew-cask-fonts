@@ -8,6 +8,7 @@ class FontCherrySwash < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Cherry%20Swash'
+  license :ofl
 
   font 'CherrySwash-Bold.ttf'
   font 'CherrySwash-Regular.ttf'

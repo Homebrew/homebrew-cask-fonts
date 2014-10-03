@@ -4,6 +4,7 @@ class FontNotoSansGujarati < Cask
 
   url 'https://www.google.com/get/noto/pkgs/NotoSansGujarati-hinted.zip'
   homepage 'http://www.google.com/get/noto'
+  license :apache
 
   font 'NotoSansGujarati-Bold.ttf'
   font 'NotoSansGujarati-Regular.ttf'

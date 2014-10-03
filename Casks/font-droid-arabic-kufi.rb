@@ -8,6 +8,7 @@ class FontDroidArabicKufi < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
+  license :apache
 
   font 'DroidKufi-Bold.ttf'
   font 'DroidKufi-Regular.ttf'

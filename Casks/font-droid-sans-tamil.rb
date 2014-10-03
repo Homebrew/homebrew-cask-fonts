@@ -8,6 +8,7 @@ class FontDroidSansTamil < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
+  license :oss
 
   font 'DroidSansTamil-Bold.ttf'
   font 'DroidSansTamil-Regular.ttf'

@@ -6,6 +6,7 @@ class FontInconsolataGForPowerline < Cask
       :using => :svn,
       :trust_cert => true
   homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata-g'
+  license :ofl
 
   font 'Inconsolata-g for Powerline.otf'
 end

@@ -8,6 +8,7 @@ class FontKarlaTamilUpright < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
+  license :ofl
 
   font 'KarlaTamilUpright-Bold.ttf'
   font 'KarlaTamilUpright-Regular.ttf'

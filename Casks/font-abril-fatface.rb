@@ -4,6 +4,7 @@ class FontAbrilFatface < Cask
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/abrilfatface/AbrilFatface-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Abril%20Fatface'
+  license :ofl
 
   font 'AbrilFatface-Regular.ttf'
 end

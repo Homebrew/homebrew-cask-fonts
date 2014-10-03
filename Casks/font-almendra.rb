@@ -8,6 +8,7 @@ class FontAlmendra < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Almendra'
+  license :ofl
 
   font 'Almendra-Bold.ttf'
   font 'Almendra-BoldItalic.ttf'

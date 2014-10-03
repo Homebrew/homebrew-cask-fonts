@@ -8,6 +8,7 @@ class FontCrimsonText < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Crimson%20Text'
+  license :ofl
 
   font 'CrimsonText-Bold.ttf'
   font 'CrimsonText-BoldItalic.ttf'

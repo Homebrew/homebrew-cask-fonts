@@ -8,6 +8,7 @@ class FontLindenHill < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Linden%20Hill'
+  license :ofl
 
   font 'LindenHill-Italic.ttf'
   font 'LindenHill-Regular.ttf'

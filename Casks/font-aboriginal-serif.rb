@@ -6,6 +6,7 @@ class FontAboriginalSerif < Cask
 
   url 'http://www.languagegeek.com/font/AboriginalSerif.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'AboriginalSerifREGULAR.ttf'
   font 'AboriginalSerifBOLD.ttf'

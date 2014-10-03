@@ -8,6 +8,7 @@ class FontStoke < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Stoke'
+  license :ofl
 
   font 'Stoke-Light.ttf'
   font 'Stoke-Regular.ttf'

@@ -8,6 +8,7 @@ class FontOleoScriptSwashCaps < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Oleo%20Script%20Swash%20Caps'
+  license :ofl
 
   font 'OleoScriptSwashCaps-Bold.ttf'
   font 'OleoScriptSwashCaps-Regular.ttf'

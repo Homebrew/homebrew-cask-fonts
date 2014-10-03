@@ -4,6 +4,7 @@ class FontAboriginalSans < Cask
 
   url 'http://www.languagegeek.com/font/AboriginalSans.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'AboriginalSansREGULAR.ttf'
   font 'AboriginalSansBOLD.ttf'

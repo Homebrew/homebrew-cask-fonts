@@ -6,6 +6,7 @@ class FontQataban < Cask
 
   url 'http://www.alanwood.net/downloads/qataban.zip'
   homepage 'http://www.alanwood.net/downloads/index.html'
+  license :unknown
 
   font 'Qataban 1_0.ttf'
 end

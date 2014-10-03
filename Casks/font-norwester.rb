@@ -4,6 +4,7 @@ class FontNorwester < Cask
 
   url 'http://jamiewilson.io/norwester/assets/norwester.zip'
   homepage 'http://jamiewilson.io/norwester/'
+  license :unknown
 
   font 'norwester-v1.2/norwester.otf'
 end

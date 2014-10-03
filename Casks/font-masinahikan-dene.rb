@@ -6,6 +6,7 @@ class FontMasinahikanDene < Cask
 
   url 'http://www.languagegeek.com/font/MasinahikanDene.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  license :unknown
 
   font 'MasinahikanDene_h.ttf'
   font 'MasinahikanDene_h_Bold.ttf'

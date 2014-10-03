@@ -8,6 +8,7 @@ class FontExo2 < Cask
       :revision   => '50',
       :trust_cert => true
   homepage 'http://www.google.com/fonts/specimen/Exo%202'
+  license :oss
 
   font 'Exo2-Black.ttf'
   font 'Exo2-BlackItalic.ttf'
