@@ -76,6 +76,17 @@ this time.  However, even freely-distributable fonts may have limitations
 (for instance, if you use them in a commercial enterprise).  It is the
 responsibility of the user to know and respect the license of each font.
 
+The currently used licenses:
+
+    :apache
+    :closed
+    :commercial
+    :gratis
+    :ofl
+    :oss
+    :ubuntu_font
+    :unknown
+
 ## Caskroom-fonts License
 
 Code is under the [BSD 2 Clause (NetBSD) license](https://github.com/caskroom/homebrew-fonts/blob/master/LICENSE)
