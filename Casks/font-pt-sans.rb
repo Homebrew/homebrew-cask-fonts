@@ -1,8 +1,8 @@
 class FontPtSans < Cask
-  version '2.004'
-  sha256 'c70b683ab35d28cc65367f6b9ef5f04d6d83b1217f2e727648bbaeb12dc140e7'
+  version '2.005'
+  sha256 '65c3352a864ac711e5381d56dc76ca4edfb511b5293f5560bca877e8f19a2fc9'
 
-  url 'http://www.fontstock.com/public/PTSans.zip'
+  url 'http://www.paratype.com/uni/public/PTSans.zip'
   homepage 'http://www.paratype.com/public/'
   license :ofl
 

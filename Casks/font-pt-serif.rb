@@ -1,8 +1,8 @@
 class FontPtSerif < Cask
-  version '1.001'
-  sha256 '74eec886edb58899018448e69cfab7032dd2ce8ff69a44c18f88a7d2a7bf3b26'
+  version '1.002'
+  sha256 '7a6f5fd596307a3f1b145c2383f7ae61abc417e7f8d5ba068295ef1c182a7474'
 
-  url 'http://www.fontstock.com/public/PTSerif.zip'
+  url 'http://www.paratype.com/uni/public/PTSerif.zip'
   homepage 'http://www.paratype.com/public/'
   license :ofl
 
