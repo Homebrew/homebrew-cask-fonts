@@ -1,4 +1,4 @@
-class FontNotoSansEgyptianHieroglyphs < Cask
+cask :v1 => 'font-noto-sans-egyptian-hieroglyphs' do
   version :latest
   sha256 :no_check
 
