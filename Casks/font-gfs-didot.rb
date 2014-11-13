@@ -1,4 +1,4 @@
-class FontGfsDidot < Cask
+cask :v1 => 'font-gfs-didot' do
   version '1.0'
   sha256 '4fc784ab824e8866eeef8ad55976b93e7e170fb1b8237fd4f8781b5b4dd297f9'
 
