@@ -1,4 +1,4 @@
-class FontImFellDoublePica < Cask
+cask :v1 => 'font-im-fell-double-pica' do
   # version '3.00'
   version :latest
   sha256 :no_check
