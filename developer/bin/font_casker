@@ -5,7 +5,6 @@
 # TODO:
 #   font_cask_namer
 #     cask name - relevant code is in cask_namer
-#     class name - relevant code is in cask_namer
 #   font version
 #     report/resolve version conflicts
 #   cask generation
@@ -128,7 +127,7 @@ end
 # todo: named parameters, after switching to Ruby 2.x
 def caskify(family, klass, version, sha, url, homepage, paths)
   output = ["FAMILY: #{family}"]
-  output << 'class FIXME < Cask'
+  output << %q{cask :v1 => 'FIXME' do}
   output << stanzify('version', version)
   output << stanzify('sha256', sha)
   output << ''
