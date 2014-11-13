@@ -1,4 +1,4 @@
-class FontCourgette < Cask
+cask :v1 => 'font-courgette' do
   version '1.002'
   sha256 '099739d22e66ee2b80656bba63847f9ed419ad7e3969ba2c1d3c437c0d08f3e3'
 
