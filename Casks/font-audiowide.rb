@@ -1,4 +1,4 @@
-class FontAudiowide < Cask
+cask :v1 => 'font-audiowide' do
   version '1.002'
   sha256 '977421788d493b4fb87fc25e66a5a4ef98b532b2fa7d35a736cc453d0e038c92'
 
