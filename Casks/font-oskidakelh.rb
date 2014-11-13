@@ -1,4 +1,4 @@
-class FontOskidakelh < Cask
+cask :v1 => 'font-oskidakelh' do
   version :latest
   sha256 :no_check
   # version '1.000'
