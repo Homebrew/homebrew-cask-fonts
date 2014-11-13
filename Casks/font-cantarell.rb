@@ -1,4 +1,4 @@
-class FontCantarell < Cask
+cask :v1 => 'font-cantarell' do
   # version '001.001'
   version :latest
   sha256 :no_check
