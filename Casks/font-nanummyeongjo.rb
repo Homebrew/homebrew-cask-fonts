@@ -1,4 +1,4 @@
-class FontNanummyeongjo < Cask
+cask :v1 => 'font-nanummyeongjo' do
   # version '2.030'
   version :latest
   sha256 :no_check
