@@ -1,4 +1,4 @@
-class FontLohitOriya < Cask
+cask :v1 => 'font-lohit-oriya' do
   version '2.5.4.1'
   sha256 '96cd1c0c2f13d286907235763b253a65589899ebd124defd6003e9ec9d9d8841'
 
