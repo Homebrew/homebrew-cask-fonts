@@ -1,4 +1,4 @@
-class FontConstructium < Cask
+cask :v1 => 'font-constructium' do
   version :latest
   sha256 :no_check
 
