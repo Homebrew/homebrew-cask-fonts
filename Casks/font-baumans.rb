@@ -1,4 +1,4 @@
-class FontBaumans < Cask
+cask :v1 => 'font-baumans' do
   version '001.001'
   sha256 '46d4196124065aadec02c628583fbca1abb28ab00255dbe9e5b28437bd85c797'
 
