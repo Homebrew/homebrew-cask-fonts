@@ -1,4 +1,4 @@
-class FontOrienta < Cask
+cask :v1 => 'font-orienta' do
   version '1.001'
   sha256 'a5abf818a4fdfcdeea109e3bb8b4bd1c94e4c914dca76ab04d01183fba2179da'
 
