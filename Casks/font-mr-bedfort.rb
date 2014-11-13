@@ -1,4 +1,4 @@
-class FontMrBedfort < Cask
+cask :v1 => 'font-mr-bedfort' do
   version '1.000'
   sha256 '1551321151a818cfc5f9f16302e76b8ca86f16bef8fe7478ffeac69211bbdcc9'
 
