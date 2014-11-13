@@ -1,4 +1,4 @@
-class FontNotoSansSaurashtra < Cask
+cask :v1 => 'font-noto-sans-saurashtra' do
   version :latest
   sha256 :no_check
 
