@@ -13,7 +13,7 @@ Making a Font Cask is easy: a Cask is a small Ruby file.
 
 Here's a Cask for the font [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) as an example:
 ```ruby
-class FontInconsolata < Cask
+cask :v1 => 'font-inconsolata' do
   version :latest
   sha256 :no_check
 
@@ -29,7 +29,7 @@ Note that you may repeat the `font` stanza as many times as you need to, if mult
 be installed from the same package:
 
 ```ruby
-class FontFantasqueSansMono < Cask
+cask :v1 => 'font-fantasque-sans-mono' do
   version '1.6.4'
   sha256 'da5a7f84ac0e1c02b49334690d7451d936691718fb1332f863eacc521816dccd'
 
@@ -105,22 +105,12 @@ To get from the Font's canonical name to the Cask name:
 Casks are stored in a Ruby file matching their name.  That is, the "cask
 name" derived above, followed by the `.rb` file extension.
 
-### Class Names
-
-Casks are implemented as Ruby classes, so a Font Cask's "class" needs to be
-a valid Ruby class name.
-
-To get from a Cask name to a Class name:
-
-  * convert to UpperCamelCased form
-  * wherever a hyphen occurs in the __Cask name__, the __Class name__ has a case change
-
 ### Font Name Examples
 
-Canonical Font Name | Cask Name            | Cask Class
---------------------|----------------------|------------------------
-Anonymous Pro       | `font-anonymous-pro` | `FontAnonymousPro`
-FreeSans            | `font-freesans`      | `FontFreesans`
+Canonical Font Name | Cask Name
+--------------------|----------------------
+Anonymous Pro       | `font-anonymous-pro`
+FreeSans            | `font-freesans`
 
 ## Multiple Fonts per Cask
 
