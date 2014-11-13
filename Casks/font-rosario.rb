@@ -1,4 +1,4 @@
-class FontRosario < Cask
+cask :v1 => 'font-rosario' do
   # version '1.003'
   version :latest
   sha256 :no_check
