@@ -1,4 +1,4 @@
-class FontCyprominoan < Cask
+cask :v1 => 'font-cyprominoan' do
   version :latest
   sha256 :no_check
 
