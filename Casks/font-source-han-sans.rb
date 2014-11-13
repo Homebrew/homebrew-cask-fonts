@@ -1,4 +1,4 @@
-class FontSourceHanSans < Cask
+cask :v1 => 'font-source-han-sans' do
   version '1.001'
   sha256 '294eb130b2f4819d722670fde88969f3765104060dcb16875026a9a54c51d9ed'
 
