@@ -1,4 +1,4 @@
-class FontMuktinarrow < Cask
+cask :v1 => 'font-muktinarrow' do
   version :latest
   sha256 :no_check
 
