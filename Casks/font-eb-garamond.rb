@@ -1,4 +1,4 @@
-class FontEbGaramond < Cask
+cask :v1 => 'font-eb-garamond' do
   version '000.012g'
   sha256 'f8aea3b0e99ad02233c23eaf3bfdf6c97e9e60ca8c38fce70c02a7305424ef45'
 
