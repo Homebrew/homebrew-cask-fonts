@@ -1,4 +1,4 @@
-class FontNotoSansCham < Cask
+cask :v1 => 'font-noto-sans-cham' do
   version :latest
   sha256 :no_check
 
