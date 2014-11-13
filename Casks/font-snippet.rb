@@ -1,4 +1,4 @@
-class FontSnippet < Cask
+cask :v1 => 'font-snippet' do
   version '1.000'
   sha256 '66acef67275368057085d747e688e5dcd48807d98fb6a3ca9a9424734bda1353'
 
