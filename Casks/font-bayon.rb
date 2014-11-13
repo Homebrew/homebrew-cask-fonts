@@ -1,4 +1,4 @@
-class FontBayon < Cask
+cask :v1 => 'font-bayon' do
   version '6.00'
   sha256 'e79c5b8522d05ea5e8f05191b764fa147afe86bade5fd85550b4ecd8520a73ff'
 
