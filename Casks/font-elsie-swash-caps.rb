@@ -1,4 +1,4 @@
-class FontElsieSwashCaps < Cask
+cask :v1 => 'font-elsie-swash-caps' do
   # version '1.001'
   version :latest
   sha256 :no_check
