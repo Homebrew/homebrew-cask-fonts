@@ -1,4 +1,4 @@
-class FontCraftyGirls < Cask
+cask :v1 => 'font-crafty-girls' do
   version '1.000'
   sha256 '1e7e4897ac7aacf7d00be3651fa620840fda0ff2779f990a22bb1336834deb05'
 
