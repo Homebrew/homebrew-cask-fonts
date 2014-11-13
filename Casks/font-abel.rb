@@ -1,4 +1,4 @@
-class FontAbel < Cask
+cask :v1 => 'font-abel' do
   version '1.002'
   sha256 'b4d45fad9f393994446add8b0a73fd56b947f6088e145234d3e66b9c333c4cae'
 
