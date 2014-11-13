@@ -1,4 +1,4 @@
-class FontAegean < Cask
+cask :v1 => 'font-aegean' do
   version :latest
   sha256 :no_check
 
