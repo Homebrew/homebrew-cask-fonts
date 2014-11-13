@@ -1,4 +1,4 @@
-class FontSalsa < Cask
+cask :v1 => 'font-salsa' do
   version '1.002'
   sha256 '3e69c0731a5104d4f25477aa2cdf9d7e9c54b201c60e99c37380ebd05097930c'
 
