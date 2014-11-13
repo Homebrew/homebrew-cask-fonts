@@ -1,4 +1,4 @@
-class FontDosis < Cask
+cask :v1 => 'font-dosis' do
   # version '1.007'
   version :latest
   sha256 :no_check
