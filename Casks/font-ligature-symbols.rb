@@ -1,4 +1,4 @@
-class FontLigatureSymbols < Cask
+cask :v1 => 'font-ligature-symbols' do
   version :latest
   sha256 :no_check
 
