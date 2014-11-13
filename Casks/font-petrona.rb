@@ -1,4 +1,4 @@
-class FontPetrona < Cask
+cask :v1 => 'font-petrona' do
   version '1.001'
   sha256 '5ff9703955f6059f123d3272589b03bb95238a1d05a4efc1429e2347b42521e7'
 
