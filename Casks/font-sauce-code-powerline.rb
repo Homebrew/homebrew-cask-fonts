@@ -1,4 +1,4 @@
-class FontSauceCodePowerline < Cask
+cask :v1 => 'font-sauce-code-powerline' do
   # version '1.017'
   version :latest
   sha256 :no_check
