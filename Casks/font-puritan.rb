@@ -1,4 +1,4 @@
-class FontPuritan < Cask
+cask :v1 => 'font-puritan' do
   # version '2.1'
   version :latest
   sha256 :no_check
