@@ -1,4 +1,4 @@
-class FontZeyada < Cask
+cask :v1 => 'font-zeyada' do
   version '1.002'
   sha256 '09f23d0d78b6e166ddb8480793bb550ab4c2aaf6602eda47a394fee93d2a9667'
 

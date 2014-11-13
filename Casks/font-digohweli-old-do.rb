@@ -1,4 +1,4 @@
-class FontDigohweliOldDo < Cask
+cask :v1 => 'font-digohweli-old-do' do
   version :latest
   sha256 :no_check
   # version '1.615'

@@ -1,4 +1,4 @@
-class FontRaleway < Cask
+cask :v1 => 'font-raleway' do
   # version '2.001'
   version :latest
   sha256 :no_check

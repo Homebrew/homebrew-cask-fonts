@@ -1,4 +1,4 @@
-class FontCretan < Cask
+cask :v1 => 'font-cretan' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-class FontBebasNeue < Cask
+cask :v1 => 'font-bebas-neue' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-class FontSourceSansPro < Cask
+cask :v1 => 'font-source-sans-pro' do
   version '2.010'
   sha256 '82a6a8658db708fe56b3280832154c3db28283d1c72dd443c5c3dd5bee703c7c'
 

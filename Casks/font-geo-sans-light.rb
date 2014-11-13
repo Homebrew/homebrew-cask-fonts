@@ -1,4 +1,4 @@
-class FontGeoSansLight < Cask
+cask :v1 => 'font-geo-sans-light' do
   version :latest
   sha256 :no_check
 

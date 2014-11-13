@@ -1,4 +1,4 @@
-class FontBitter < Cask
+cask :v1 => 'font-bitter' do
   version :latest
   sha256 :no_check
 

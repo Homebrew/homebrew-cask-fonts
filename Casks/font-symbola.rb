@@ -1,4 +1,4 @@
-class FontSymbola < Cask
+cask :v1 => 'font-symbola' do
   # version '7.17'
   version :latest
   sha256 :no_check

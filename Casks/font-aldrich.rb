@@ -1,4 +1,4 @@
-class FontAldrich < Cask
+cask :v1 => 'font-aldrich' do
   version '1.001'
   sha256 '38c2138e642f70184a29a02a58c362a9fb12b5ef6e7716bf4b685197b4399c75'
 

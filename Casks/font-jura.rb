@@ -1,4 +1,4 @@
-class FontJura < Cask
+cask :v1 => 'font-jura' do
   # version '2.5.1'
   version :latest
   sha256 :no_check

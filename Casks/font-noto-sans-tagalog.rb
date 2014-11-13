@@ -1,4 +1,4 @@
-class FontNotoSansTagalog < Cask
+cask :v1 => 'font-noto-sans-tagalog' do
   version :latest
   sha256 :no_check
 

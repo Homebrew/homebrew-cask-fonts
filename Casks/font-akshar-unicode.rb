@@ -1,4 +1,4 @@
-class FontAksharUnicode < Cask
+cask :v1 => 'font-akshar-unicode' do
   version :latest
   sha256 :no_check
 

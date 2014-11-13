@@ -1,4 +1,4 @@
-class FontAegyptus < Cask
+cask :v1 => 'font-aegyptus' do
   version :latest
   sha256 :no_check
 

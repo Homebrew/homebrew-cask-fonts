@@ -1,4 +1,4 @@
-class FontNotoSansInscriptionalPahlavi < Cask
+cask :v1 => 'font-noto-sans-inscriptional-pahlavi' do
   version :latest
   sha256 :no_check
 

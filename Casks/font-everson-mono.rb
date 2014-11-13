@@ -1,4 +1,4 @@
-class FontEversonMono < Cask
+cask :v1 => 'font-everson-mono' do
   version :latest
   sha256 :no_check
   # version '6.201'

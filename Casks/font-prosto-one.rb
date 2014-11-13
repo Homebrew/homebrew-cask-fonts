@@ -1,4 +1,4 @@
-class FontProstoOne < Cask
+cask :v1 => 'font-prosto-one' do
   version '1.001'
   sha256 'bc6ffae8b9a4115461767edfc40ef5702c7c73370b333d9d24f9651c52d8d8b5'
 

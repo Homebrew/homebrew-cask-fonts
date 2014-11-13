@@ -1,4 +1,4 @@
-class FontMerriweather < Cask
+cask :v1 => 'font-merriweather' do
   # version '1.003'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-class FontProfontx < Cask
+cask :v1 => 'font-profontx' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-class FontInputMonoForPowerline < Cask
+cask :v1 => 'font-input-mono-for-powerline' do
   version :latest
   sha256 :no_check
 

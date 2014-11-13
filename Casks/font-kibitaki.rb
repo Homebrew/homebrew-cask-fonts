@@ -1,4 +1,4 @@
-class FontKibitaki < Cask
+cask :v1 => 'font-kibitaki' do
   version :latest
   sha256 :no_check
 

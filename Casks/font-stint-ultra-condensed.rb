@@ -1,4 +1,4 @@
-class FontStintUltraCondensed < Cask
+cask :v1 => 'font-stint-ultra-condensed' do
   version '1.000'
   sha256 '1c32b77a50e960f9e88e29e1c65a0a15ffe277681ace0dbf207fafa7be23591e'
 

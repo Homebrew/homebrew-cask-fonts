@@ -1,4 +1,4 @@
-class FontAboriginalSerif < Cask
+cask :v1 => 'font-aboriginal-serif' do
   version :latest
   sha256 :no_check
   # version '9.606'

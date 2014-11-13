@@ -1,4 +1,4 @@
-class FontPenuturesu < Cask
+cask :v1 => 'font-penuturesu' do
   version :latest
   sha256 :no_check
 

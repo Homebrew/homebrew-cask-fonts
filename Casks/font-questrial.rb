@@ -1,4 +1,4 @@
-class FontQuestrial < Cask
+cask :v1 => 'font-questrial' do
   version '1.002'
   sha256 '7939901e928aaa8aa17a5eb509133410ea0b40e92ac49fd035bfc191d549ed9e'
 

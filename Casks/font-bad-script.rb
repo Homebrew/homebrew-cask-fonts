@@ -1,4 +1,4 @@
-class FontBadScript < Cask
+cask :v1 => 'font-bad-script' do
   version '1.003'
   sha256 'cdc176b6f89afc4a01fdb15a880c6e9888ccbe224a95e84eda657076d991f934'
 

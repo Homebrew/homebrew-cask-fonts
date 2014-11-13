@@ -1,4 +1,4 @@
-class FontCorben < Cask
+cask :v1 => 'font-corben' do
   # version '1.100'
   version :latest
   sha256 :no_check

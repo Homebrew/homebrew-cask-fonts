@@ -1,4 +1,4 @@
-class FontScheherazade < Cask
+cask :v1 => 'font-scheherazade' do
   version '1.005'
   sha256 'e7a6ac89d6049175ada1d2de1c11fc20259deb26461387e6e69b38e878491579'
 

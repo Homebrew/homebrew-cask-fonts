@@ -1,4 +1,4 @@
-class FontNotoSansLycian < Cask
+cask :v1 => 'font-noto-sans-lycian' do
   version :latest
   sha256 :no_check
 

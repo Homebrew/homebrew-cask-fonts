@@ -1,4 +1,4 @@
-class FontNotoSansArmenian < Cask
+cask :v1 => 'font-noto-sans-armenian' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-class FontComicNeue < Cask
+cask :v1 => 'font-comic-neue' do
   version '1.1'
   sha256 'f9442fc42252db62ea788bd0247ae0e74571678d1dbd3e3edc229389050d6923'
 

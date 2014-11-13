@@ -1,4 +1,4 @@
-class FontMiaoUnicode < Cask
+cask :v1 => 'font-miao-unicode' do
   version :latest
   sha256 :no_check
 

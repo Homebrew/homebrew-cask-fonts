@@ -1,4 +1,4 @@
-class FontBigelowRules < Cask
+cask :v1 => 'font-bigelow-rules' do
   version '1.000'
   sha256 '43333f35b219079e661a882b373ad462c42e657a017a60cb52af256b6f138342'
 

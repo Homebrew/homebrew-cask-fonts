@@ -1,4 +1,4 @@
-class FontAmaticSc < Cask
+cask :v1 => 'font-amatic-sc' do
   # version '1.002'
   version :latest
   sha256 :no_check

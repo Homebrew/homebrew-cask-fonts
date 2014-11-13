@@ -1,4 +1,4 @@
-class FontDeliusUnicase < Cask
+cask :v1 => 'font-delius-unicase' do
   # version '1.002'
   version :latest
   sha256 :no_check

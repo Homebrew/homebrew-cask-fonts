@@ -1,4 +1,4 @@
-class FontNotoSansLinearB < Cask
+cask :v1 => 'font-noto-sans-linear-b' do
   version :latest
   sha256 :no_check
 

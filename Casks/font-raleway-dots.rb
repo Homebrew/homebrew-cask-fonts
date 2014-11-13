@@ -1,4 +1,4 @@
-class FontRalewayDots < Cask
+cask :v1 => 'font-raleway-dots' do
   version '1.000'
   sha256 'cd3956043e1ee880bdf1670b7d0720bf25def80453528127d03332811c45e486'
 

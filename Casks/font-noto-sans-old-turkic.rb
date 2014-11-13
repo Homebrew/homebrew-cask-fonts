@@ -1,4 +1,4 @@
-class FontNotoSansOldTurkic < Cask
+cask :v1 => 'font-noto-sans-old-turkic' do
   version :latest
   sha256 :no_check
 

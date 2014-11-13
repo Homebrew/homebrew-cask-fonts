@@ -1,4 +1,4 @@
-class FontAleo < Cask
+cask :v1 => 'font-aleo' do
   version :latest
   sha256 :no_check
 

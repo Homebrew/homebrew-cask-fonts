@@ -1,4 +1,4 @@
-class FontMusica < Cask
+cask :v1 => 'font-musica' do
   # version '3.12'
   version :latest
   sha256 :no_check

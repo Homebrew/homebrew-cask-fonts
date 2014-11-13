@@ -1,4 +1,4 @@
-class FontNotoSansInscriptionalParthian < Cask
+cask :v1 => 'font-noto-sans-inscriptional-parthian' do
   version :latest
   sha256 :no_check
 

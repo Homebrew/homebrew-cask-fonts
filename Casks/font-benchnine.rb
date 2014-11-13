@@ -1,4 +1,4 @@
-class FontBenchnine < Cask
+cask :v1 => 'font-benchnine' do
   # version '1'
   version :latest
   sha256 :no_check

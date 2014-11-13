@@ -1,4 +1,4 @@
-class FontFiraSans < Cask
+cask :v1 => 'font-fira-sans' do
   version '3.111'
   sha256 '3ced3df236b0b0eec1b390885c53ac02f3e3f830e9449414230717334a0b2457'
 

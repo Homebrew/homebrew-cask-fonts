@@ -1,4 +1,4 @@
-class FontNotoSansCherokee < Cask
+cask :v1 => 'font-noto-sans-cherokee' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-class FontOpenSans < Cask
+cask :v1 => 'font-open-sans' do
   # version '1.10'
   version :latest
   sha256 :no_check

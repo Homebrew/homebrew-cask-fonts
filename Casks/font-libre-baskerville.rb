@@ -1,4 +1,4 @@
-class FontLibreBaskerville < Cask
+cask :v1 => 'font-libre-baskerville' do
   # version '1.000'
   version :latest
   sha256 :no_check

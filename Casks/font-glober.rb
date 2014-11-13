@@ -1,4 +1,4 @@
-class FontGlober < Cask
+cask :v1 => 'font-glober' do
   version :latest
   sha256 :no_check
 

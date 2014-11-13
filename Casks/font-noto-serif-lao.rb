@@ -1,4 +1,4 @@
-class FontNotoSerifLao < Cask
+cask :v1 => 'font-noto-serif-lao' do
   version :latest
   sha256 :no_check
 

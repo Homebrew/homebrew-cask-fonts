@@ -1,4 +1,4 @@
-class FontGentiumBookBasic < Cask
+cask :v1 => 'font-gentium-book-basic' do
   # version '1.100'
   version :latest
   sha256 :no_check

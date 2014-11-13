@@ -1,4 +1,4 @@
-class FontStardosStencil < Cask
+cask :v1 => 'font-stardos-stencil' do
   # version '1.000'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-class FontPollerOne < Cask
+cask :v1 => 'font-poller-one' do
   version '1.002'
   sha256 '49c5128cb550156e9384453906b869b830aafacfc3a9332ccf989c8ed146d773'
 

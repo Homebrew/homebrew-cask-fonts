@@ -1,4 +1,4 @@
-class FontNunito < Cask
+cask :v1 => 'font-nunito' do
   # version '1.001'
   version :latest
   sha256 :no_check

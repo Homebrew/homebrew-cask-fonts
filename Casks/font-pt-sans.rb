@@ -1,4 +1,4 @@
-class FontPtSans < Cask
+cask :v1 => 'font-pt-sans' do
   version '2.005'
   sha256 '65c3352a864ac711e5381d56dc76ca4edfb511b5293f5560bca877e8f19a2fc9'
 

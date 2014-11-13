@@ -1,4 +1,4 @@
-class FontCaudex < Cask
+cask :v1 => 'font-caudex' do
   # version '1.01'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-class FontNotoSansKorean < Cask
+cask :v1 => 'font-noto-sans-korean' do
   version :latest
   sha256 :no_check
 

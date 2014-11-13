@@ -1,4 +1,4 @@
-class FontNotoSansSyriacWestern < Cask
+cask :v1 => 'font-noto-sans-syriac-western' do
   version :latest
   sha256 :no_check
 

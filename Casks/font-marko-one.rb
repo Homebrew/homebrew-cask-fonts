@@ -1,4 +1,4 @@
-class FontMarkoOne < Cask
+cask :v1 => 'font-marko-one' do
   version '1.003'
   sha256 '6514019373dabdb5d91ab3d3d7e97d96a656738c634fbae047dbb8143815395d'
 

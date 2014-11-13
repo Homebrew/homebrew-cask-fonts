@@ -1,4 +1,4 @@
-class FontNotoKufiArabic < Cask
+cask :v1 => 'font-noto-kufi-arabic' do
   version :latest
   sha256 :no_check
 

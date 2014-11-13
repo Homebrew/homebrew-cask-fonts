@@ -1,4 +1,4 @@
-class FontCabinCondensed < Cask
+cask :v1 => 'font-cabin-condensed' do
   # version '1.006'
   version :latest
   sha256 :no_check

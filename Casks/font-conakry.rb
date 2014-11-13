@@ -1,4 +1,4 @@
-class FontConakry < Cask
+cask :v1 => 'font-conakry' do
   version :latest
   sha256 :no_check
 

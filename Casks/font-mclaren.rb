@@ -1,4 +1,4 @@
-class FontMclaren < Cask
+cask :v1 => 'font-mclaren' do
   version '1.000'
   sha256 '3164e0dbdaa761e9a6bc1dff3532a3b3f631b6f2137c09847b2a7514e4bdc4ef'
 

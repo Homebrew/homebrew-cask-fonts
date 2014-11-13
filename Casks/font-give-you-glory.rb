@@ -1,4 +1,4 @@
-class FontGiveYouGlory < Cask
+cask :v1 => 'font-give-you-glory' do
   version '1.002'
   sha256 'fb71f9a46a3234c2d98dbbe44e711f65654368031c57b927bf7679a46e278c80'
 

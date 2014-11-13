@@ -1,4 +1,4 @@
-class FontAmiri < Cask
+cask :v1 => 'font-amiri' do
   # version '000.104'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-class FontJacquesFrancoisShadow < Cask
+cask :v1 => 'font-jacques-francois-shadow' do
   version '1.003'
   sha256 '3947827a196a3c12ceb471ed589168a9b57285db7258eb468a83f4c17945784c'
 

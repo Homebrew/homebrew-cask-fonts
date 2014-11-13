@@ -1,4 +1,4 @@
-class FontNotoSansBalinese < Cask
+cask :v1 => 'font-noto-sans-balinese' do
   version :latest
   sha256 :no_check
 

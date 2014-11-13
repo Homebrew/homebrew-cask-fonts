@@ -1,4 +1,4 @@
-class FontCanter < Cask
+cask :v1 => 'font-canter' do
   version :latest
   sha256 :no_check
 

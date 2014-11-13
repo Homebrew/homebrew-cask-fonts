@@ -1,4 +1,4 @@
-class FontMilonga < Cask
+cask :v1 => 'font-milonga' do
   version '1.000'
   sha256 '202ce337fad18b3d542af04e6dbd76a19b47c00c88d15b7555cef54e1818e383'
 

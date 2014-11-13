@@ -1,4 +1,4 @@
-class FontNotoSansSundanese < Cask
+cask :v1 => 'font-noto-sans-sundanese' do
   version :latest
   sha256 :no_check
 

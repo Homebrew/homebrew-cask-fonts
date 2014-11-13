@@ -1,4 +1,4 @@
-class FontInconsolata < Cask
+cask :v1 => 'font-inconsolata' do
   # version '001.010'
   version :latest
   sha256 :no_check

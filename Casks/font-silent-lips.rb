@@ -1,4 +1,4 @@
-class FontSilentLips < Cask
+cask :v1 => 'font-silent-lips' do
   version :latest
   sha256 :no_check
 

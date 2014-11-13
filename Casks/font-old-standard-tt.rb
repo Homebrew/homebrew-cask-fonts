@@ -1,4 +1,4 @@
-class FontOldStandardTt < Cask
+cask :v1 => 'font-old-standard-tt' do
   # version '2.0.2'
   version :latest
   sha256 :no_check

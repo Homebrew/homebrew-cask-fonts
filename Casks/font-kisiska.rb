@@ -1,4 +1,4 @@
-class FontKisiska < Cask
+cask :v1 => 'font-kisiska' do
   version :latest
   sha256 :no_check
 

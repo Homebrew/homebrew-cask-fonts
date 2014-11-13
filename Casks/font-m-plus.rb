@@ -1,4 +1,4 @@
-class FontMPlus < Cask
+cask :v1 => 'font-m-plus' do
   version '1.050'
   sha256 'd3db85b8b7a0aac83ac621b3a816edaad3f37fe0aaee3782697dcf674ccc5d7d'
 

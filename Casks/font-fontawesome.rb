@@ -1,4 +1,4 @@
-class FontFontawesome < Cask
+cask :v1 => 'font-fontawesome' do
   version '4.2.0'
   sha256 'b0f2792a2a096ccebe72cfcf1880671658a1f18d5356c5f991b2b54d8f6bf704'
 

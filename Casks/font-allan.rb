@@ -1,4 +1,4 @@
-class FontAllan < Cask
+cask :v1 => 'font-allan' do
   # version '1.004'
   version :latest
   sha256 :no_check

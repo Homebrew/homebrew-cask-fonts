@@ -1,4 +1,4 @@
-class FontCarme < Cask
+cask :v1 => 'font-carme' do
   version '1.000'
   sha256 '2be32ebe8f62944b1df0f1bf0c76957bda369567b99454d749e51192a393db90'
 

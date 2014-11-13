@@ -1,4 +1,4 @@
-class FontAlegreyaSc < Cask
+cask :v1 => 'font-alegreya-sc' do
   # version '1.003'
   version :latest
   sha256 :no_check

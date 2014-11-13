@@ -1,4 +1,4 @@
-class FontSniglet < Cask
+cask :v1 => 'font-sniglet' do
   # version '2.000'
   version :latest
   sha256 :no_check

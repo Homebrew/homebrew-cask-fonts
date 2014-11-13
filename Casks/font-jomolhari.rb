@@ -1,4 +1,4 @@
-class FontJomolhari < Cask
+cask :v1 => 'font-jomolhari' do
   version :latest
   sha256 :no_check
 

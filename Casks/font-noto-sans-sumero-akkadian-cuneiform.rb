@@ -1,4 +1,4 @@
-class FontNotoSansSumeroAkkadianCuneiform < Cask
+cask :v1 => 'font-noto-sans-sumero-akkadian-cuneiform' do
   version :latest
   sha256 :no_check
 
