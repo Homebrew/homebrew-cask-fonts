@@ -1,4 +1,4 @@
-class FontJudson < Cask
+cask :v1 => 'font-judson' do
   # version '20110429'
   version :latest
   sha256 :no_check
