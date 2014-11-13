@@ -1,4 +1,4 @@
-class FontRoboto < Cask
+cask :v1 => 'font-roboto' do
   version '1.200311'
   sha256 '5101b5bdb3b7b14cc922a771ba068bfcae8634467c1f446bc89bc2b4f8b4f1b5'
 
