@@ -1,4 +1,4 @@
-class FontSourceSerifPro < Cask
+cask :v1 => 'font-source-serif-pro' do
   version '1.014'
   sha256 '50e3cdf3499967daf2ba72bc1063568f90c76d7246bd0ac52318cb92c264eaa9'
 
