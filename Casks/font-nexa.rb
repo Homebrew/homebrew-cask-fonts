@@ -1,4 +1,4 @@
-class FontNexa < Cask
+cask :v1 => 'font-nexa' do
   version :latest
   sha256 :no_check
 
