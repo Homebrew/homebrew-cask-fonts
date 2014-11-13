@@ -1,4 +1,4 @@
-class FontNotoSansTChinese < Cask
+cask :v1 => 'font-noto-sans-t-chinese' do
   version :latest
   sha256 :no_check
 
