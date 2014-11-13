@@ -1,4 +1,4 @@
-class FontBasic < Cask
+cask :v1 => 'font-basic' do
   version '1.001'
   sha256 '57492f31f1ce7259910dfd9d5ba07e678760c507e788a311a2e0d0b05a1525b2'
 
