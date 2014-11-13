@@ -1,4 +1,4 @@
-class FontFrijole < Cask
+cask :v1 => 'font-frijole' do
   version '1.000'
   sha256 'e182bbad0e1ba7eb06d93edb1c97a71f5b7d56e27433fb375f5f7138399ab72c'
 
