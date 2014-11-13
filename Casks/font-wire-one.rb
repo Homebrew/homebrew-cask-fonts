@@ -1,4 +1,4 @@
-class FontWireOne < Cask
+cask :v1 => 'font-wire-one' do
   version '1.000'
   sha256 '1cf739c8fc17663059c2544be19cf590404e17fc9ec1778a080e13de5282e9fc'
 
