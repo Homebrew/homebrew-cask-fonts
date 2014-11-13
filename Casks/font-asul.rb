@@ -1,4 +1,4 @@
-class FontAsul < Cask
+cask :v1 => 'font-asul' do
   # version '1.001'
   version :latest
   sha256 :no_check
