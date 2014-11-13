@@ -1,4 +1,4 @@
-class FontSortsMillGoudy < Cask
+cask :v1 => 'font-sorts-mill-goudy' do
   # version '003.101'
   version :latest
   sha256 :no_check
