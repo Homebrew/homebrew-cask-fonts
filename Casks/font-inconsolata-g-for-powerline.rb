@@ -1,4 +1,4 @@
-class FontInconsolataGForPowerline < Cask
+cask :v1 => 'font-inconsolata-g-for-powerline' do
   version :latest
   sha256 :no_check
 
