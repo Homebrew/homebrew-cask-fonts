@@ -1,4 +1,4 @@
-class FontNotoSansTaiLe < Cask
+cask :v1 => 'font-noto-sans-tai-le' do
   version :latest
   sha256 :no_check
 
