@@ -1,4 +1,4 @@
-class FontRobotoSlab < Cask
+cask :v1 => 'font-roboto-slab' do
   # version '1.100263'
   version :latest
   sha256 :no_check
