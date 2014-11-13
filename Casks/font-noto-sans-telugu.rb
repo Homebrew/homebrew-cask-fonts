@@ -1,4 +1,4 @@
-class FontNotoSansTelugu < Cask
+cask :v1 => 'font-noto-sans-telugu' do
   version :latest
   sha256 :no_check
 
