@@ -1,4 +1,4 @@
-class FontGruppo < Cask
+cask :v1 => 'font-gruppo' do
   version '1.000'
   sha256 '2bf89b4b10d8d4a08aec9f6ed124bca48adb10a8bba02d080559195e39dffb80'
 
