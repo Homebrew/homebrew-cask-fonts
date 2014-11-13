@@ -1,4 +1,4 @@
-class FontArimo < Cask
+cask :v1 => 'font-arimo' do
   # version '1.23'
   version :latest
   sha256 :no_check
