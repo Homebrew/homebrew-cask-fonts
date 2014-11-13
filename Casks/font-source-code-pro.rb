@@ -1,4 +1,4 @@
-class FontSourceCodePro < Cask
+cask :v1 => 'font-source-code-pro' do
   version '1.017'
   sha256 '8136b4686309c428ef073356ab178c2f7e8f7b6fadd5a6c61b6a20646377b21f'
 
