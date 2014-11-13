@@ -1,4 +1,4 @@
-class FontAsea < Cask
+cask :v1 => 'font-asea' do
   version :latest
   sha256 :no_check
 
