@@ -1,4 +1,4 @@
-class FontJosefinSans < Cask
+cask :v1 => 'font-josefin-sans' do
   # version '0'
   version :latest
   sha256 :no_check
