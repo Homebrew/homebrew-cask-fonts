@@ -1,4 +1,4 @@
-class FontDroidArabicNaskh < Cask
+cask :v1 => 'font-droid-arabic-naskh' do
   # version '1.00'
   version :latest
   sha256 :no_check
