@@ -1,4 +1,4 @@
-class FontAlfaSlabOne < Cask
+cask :v1 => 'font-alfa-slab-one' do
   version '1.001'
   sha256 '29aeb77fd08fb77315e0d1dc92ee64b3660c910f9f48755124c7765bf575bdad'
 
