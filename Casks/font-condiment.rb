@@ -1,4 +1,4 @@
-class FontCondiment < Cask
+cask :v1 => 'font-condiment' do
   version '1.001'
   sha256 'fb12978739fe3824e95b3e5f739ae623f888f715fe44481117fb3436be9a4b5d'
 
