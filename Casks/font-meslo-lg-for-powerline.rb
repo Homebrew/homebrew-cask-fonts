@@ -1,4 +1,4 @@
-class FontMesloLgForPowerline < Cask
+cask :v1 => 'font-meslo-lg-for-powerline' do
   version :latest
   sha256 :no_check
 
