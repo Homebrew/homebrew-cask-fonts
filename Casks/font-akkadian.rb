@@ -1,4 +1,4 @@
-class FontAkkadian < Cask
+cask :v1 => 'font-akkadian' do
   version :latest
   sha256 :no_check
 
