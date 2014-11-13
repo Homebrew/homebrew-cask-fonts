@@ -1,4 +1,4 @@
-class FontTelex < Cask
+cask :v1 => 'font-telex' do
   version '1.001'
   sha256 'eda41fa42005d3cfefae76b3b9de8f72e8f369f1368a90775cdd4c8557ec07b7'
 
