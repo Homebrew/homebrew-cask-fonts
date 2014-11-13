@@ -1,4 +1,4 @@
-class FontGaldeano < Cask
+cask :v1 => 'font-galdeano' do
   version '1.001'
   sha256 'ec2379e6ae1192420eb7a633c170890cf85944abc73e6ef6c68371d1c05c6652'
 
