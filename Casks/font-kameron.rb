@@ -1,4 +1,4 @@
-class FontKameron < Cask
+cask :v1 => 'font-kameron' do
   # version '1.000'
   version :latest
   sha256 :no_check
