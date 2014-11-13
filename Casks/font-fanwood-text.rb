@@ -1,4 +1,4 @@
-class FontFanwoodText < Cask
+cask :v1 => 'font-fanwood-text' do
   # version '1.101'
   version :latest
   sha256 :no_check
