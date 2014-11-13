@@ -1,4 +1,4 @@
-class FontKoruri < Cask
+cask :v1 => 'font-koruri' do
   version :latest
   sha256 :no_check
 
