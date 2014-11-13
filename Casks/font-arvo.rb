@@ -1,4 +1,4 @@
-class FontArvo < Cask
+cask :v1 => 'font-arvo' do
   # version '2.001'
   version :latest
   sha256 :no_check
