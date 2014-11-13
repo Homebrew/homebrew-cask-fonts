@@ -1,4 +1,4 @@
-class FontExo < Cask
+cask :v1 => 'font-exo' do
   # version '1.00'
   version :latest
   sha256 :no_check
