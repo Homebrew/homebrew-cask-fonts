@@ -1,4 +1,4 @@
-class FontSignikaNegative < Cask
+cask :v1 => 'font-signika-negative' do
   # version '1.001'
   version :latest
   sha256 :no_check
