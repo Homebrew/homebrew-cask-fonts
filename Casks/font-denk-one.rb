@@ -1,4 +1,4 @@
-class FontDenkOne < Cask
+cask :v1 => 'font-denk-one' do
   version '1.002'
   sha256 '0d2efbe8916c14f7ce30afed5cd09a503fd6b3b1498bfaad436ee47d3bde8ec0'
 
