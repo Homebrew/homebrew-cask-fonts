@@ -1,4 +1,4 @@
-class FontSofia < Cask
+cask :v1 => 'font-sofia' do
   version '1.001'
   sha256 '5634c4ecf066fba2fa11645a3c5b41e830ca240e1eeab81e10b9d476101b1eea'
 
