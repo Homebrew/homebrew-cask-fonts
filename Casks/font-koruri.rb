@@ -2,13 +2,13 @@ cask :v1 => 'font-koruri' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/Koruri/Koruri/archive/master.zip'
+  url 'http://sourceforge.jp/projects/koruri/downloads/61919/Koruri-20140904.tar.xz/'
   homepage 'http://koruri.lindwurm.biz/'
-  license :oss
+  license :apache
 
-  font 'Koruri-master/Koruri-Bold.ttf'
-  font 'Koruri-master/Koruri-Extrabold.ttf'
-  font 'Koruri-master/Koruri-Light.ttf'
-  font 'Koruri-master/Koruri-Regular.ttf'
-  font 'Koruri-master/Koruri-Semibold.ttf'
+  font 'Koruri-20140904/Koruri-Bold.ttf'
+  font 'Koruri-20140904/Koruri-Extrabold.ttf'
+  font 'Koruri-20140904/Koruri-Light.ttf'
+  font 'Koruri-20140904/Koruri-Regular.ttf'
+  font 'Koruri-20140904/Koruri-Semibold.ttf'
 end
