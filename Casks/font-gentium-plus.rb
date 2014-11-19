@@ -1,9 +1,8 @@
-class FontGentiumPlus < Cask
-  # version '5.000'
-  version :latest
-  sha256 :no_check
+cask :v1 => 'font-gentium-plus' do
+  version '5.000'
+  sha256 '335911f17bd2de4e43742e1d0367cfeff19a90abf7ed604f100a42705042e154'
 
-  url 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=GentiumPlus-5.000.zip&filename=GentiumPlus-5.000.zip'
+  url "http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=GentiumPlus-#{version}.zip&filename=GentiumPlus-#{version}.zip"
   homepage 'http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium'
   license :ofl
 
