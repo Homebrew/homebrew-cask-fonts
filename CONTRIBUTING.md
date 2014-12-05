@@ -85,32 +85,36 @@ If there is more than one family in the distribution, use your judgment to
 choose the "most famous" one.  If there is more than one style, choose the
 "Regular" variant.
 
+Convert the font name to ASCII by transliteration or decomposition.
 Translate the name into English if necessary.
 
-### Font Cask Names
+## Converting the Canonical Name To a Token
 
-A "Cask name" is the primary identifier for a package in our project. It's
-the string people will use to interact with this Cask on their system.
+The token is the primary identifier for a package in our project. It's
+the unique string users refer to when operating on the Cask.
 
-To get from the Font's canonical name to the Cask name:
+To get from the Font's canonical name to a Cask token:
 
   * prepend the string `font-` to the canonical name, to prevent clashes
-    with Application names
+    with Application tokens
+  * expand the `+` symbol into a separated English word: `-plus-`
   * convert all letters to lower case
-  * hyphens stay hyphens
   * spaces become hyphens
+  * hyphens stay hyphens
   * digits stay digits
   * delete any characters which are not alphanumeric or hyphens
+  * collapse a series of multiple hyphens into one hyphen
+  * delete a leading or trailing hyphen
 
-Casks are stored in a Ruby file matching their name.  That is, the "cask
-name" derived above, followed by the `.rb` file extension.
+Casks are stored in a Ruby file matching their token, followed by the `.rb`
+file extension.
 
-### Font Name Examples
+### Font Token Examples
 
-Canonical Font Name | Cask Name
---------------------|----------------------
-Anonymous Pro       | `font-anonymous-pro`
-FreeSans            | `font-freesans`
+Canonical Font Name | Cask Token            | Filename
+--------------------|---------------------- |------------------------
+Anonymous Pro       | `font-anonymous-pro`  | `font-anonymous-pro.rb`
+FreeSans            | `font-freesans`       | `font-freesans.rb`
 
 ## Multiple Fonts per Cask
 

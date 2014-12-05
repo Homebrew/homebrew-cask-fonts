@@ -3,8 +3,8 @@
 # font_casker
 #
 # TODO:
-#   font_cask_namer
-#     cask name - relevant code is in cask_namer
+#   generate_font_cask_token
+#     relevant code is in generate_cask_token
 #   font version
 #     report/resolve version conflicts
 #   cask generation
