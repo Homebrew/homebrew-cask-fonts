@@ -1,12 +1,15 @@
 cask :v1 => 'font-source-serif-pro' do
-  version '1.014'
-  sha256 '50e3cdf3499967daf2ba72bc1063568f90c76d7246bd0ac52318cb92c264eaa9'
+  version '1.017R'
+  sha256 'bec4adae1e138ea947eb97a5ddda6413ef683313490b33e53aaba81f37c20725'
 
-  url "http://downloads.sourceforge.net/sourceforge/sourceserifpro.adobe/SourceSerifPro_FontsOnly-#{version}.zip"
+  url "https://github.com/adobe-fonts/source-serif-pro/archive/#{version}.zip"
   homepage 'http://adobe.github.io/source-serif-pro/'
   license :ofl
 
-  font "source-serif-pro-#{version}R/OTF/SourceSerifPro-Bold.otf"
-  font "source-serif-pro-#{version}R/OTF/SourceSerifPro-Regular.otf"
-  font "source-serif-pro-#{version}R/OTF/SourceSerifPro-Semibold.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Black.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Bold.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-ExtraLight.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Light.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Regular.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Semibold.otf"
 end
