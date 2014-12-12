@@ -5,7 +5,7 @@ Homebrew-style CLI workflow for the administration of binary font files on
 your Mac.
 
 Here is where you can find or submit font Casks for the
-[homebrew-cask](https://github.com/phinze/homebrew-cask) project.
+[homebrew-cask](https://github.com/caskroom/homebrew-cask) project.
 
 ## Pre-release
 
@@ -42,8 +42,8 @@ Want to contribute a Font Cask? Awesome! Please do! See
 
 ## Learn More
 
- * Find basic documentation on using homebrew-cask in [USAGE.md](https://github.com/phinze/homebrew-cask/blob/master/USAGE.md)
- * Want to hack on our Ruby code? Super awesome! See [HACKING.md](https://github.com/phinze/homebrew-cask/blob/master/HACKING.md)
+ * Find basic documentation on using homebrew-cask in [USAGE.md](https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md)
+ * Want to hack on our Ruby code? Super awesome! See [HACKING.md](https://github.com/caskroom/homebrew-cask/blob/master/doc/hacking.md)
 
 ## Questions? Wanna chat?
 
