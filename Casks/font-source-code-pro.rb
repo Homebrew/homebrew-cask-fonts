@@ -1,16 +1,16 @@
 cask :v1 => 'font-source-code-pro' do
-  version '1.017'
-  sha256 '8136b4686309c428ef073356ab178c2f7e8f7b6fadd5a6c61b6a20646377b21f'
+  version '1.017R'
+  sha256 '0c3065b2f411a117e85a2a0e8d66f9276821cd1e2a6853063f7e9a213bc9ec45'
 
-  url "http://downloads.sourceforge.net/sourceforge/sourcecodepro.adobe/SourceCodePro_FontsOnly-#{version}.zip"
-  homepage 'http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1960'
+  url "https://github.com/adobe-fonts/source-code-pro/archive/#{version}.zip"
+  homepage 'http://adobe-fonts.github.io/source-code-pro/'
   license :ofl
 
-  font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-Black.otf"
-  font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-Bold.otf"
-  font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-ExtraLight.otf"
-  font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-Light.otf"
-  font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-Medium.otf"
-  font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-Regular.otf"
-  font "SourceCodePro_FontsOnly-#{version}/OTF/SourceCodePro-Semibold.otf"
+  font "source-code-pro-#{version}/OTF/SourceCodePro-Black.otf"
+  font "source-code-pro-#{version}/OTF/SourceCodePro-Bold.otf"
+  font "source-code-pro-#{version}/OTF/SourceCodePro-ExtraLight.otf"
+  font "source-code-pro-#{version}/OTF/SourceCodePro-Light.otf"
+  font "source-code-pro-#{version}/OTF/SourceCodePro-Medium.otf"
+  font "source-code-pro-#{version}/OTF/SourceCodePro-Regular.otf"
+  font "source-code-pro-#{version}/OTF/SourceCodePro-Semibold.otf"
 end
