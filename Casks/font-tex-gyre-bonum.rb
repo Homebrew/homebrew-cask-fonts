@@ -4,7 +4,7 @@ cask :v1 => 'font-tex-gyre-bonum' do
 
   url 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum/qbk#{version}otf.zip'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum/index_html'
-  license :unknown
+  license :lppl
 
   font 'qbk#{version}otf/texgyrebonum-bold.otf'
   font 'qbk#{version}otf/texgyrebonum-bolditalic.otf'

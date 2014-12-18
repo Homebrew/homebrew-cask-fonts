@@ -4,7 +4,7 @@ cask :v1 => 'font-tex-gyre-cursor' do
 
   url 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/cursor/qcr#{version}otf.zip'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/cursor/index_html'
-  license :unknown
+  license :lppl
 
   font 'qcr#{version}otf/texgyrecursor-bold.otf'
   font 'qcr#{version}otf/texgyrecursor-bolditalic.otf'

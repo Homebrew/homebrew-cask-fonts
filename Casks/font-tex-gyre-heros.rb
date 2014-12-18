@@ -4,7 +4,7 @@ cask :v1 => 'font-tex-gyre-heros' do
 
   url 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv#{version}otf.zip'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/index_html'
-  license :unknown
+  license :lppl
 
   font 'qhv#{version}otf/texgyreheros-bold.otf'
   font 'qhv#{version}otf/texgyreheros-bolditalic.otf'

@@ -4,7 +4,7 @@ cask :v1 => 'font-tex-gyre-termes' do
 
   url 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/termes/qtm#{version}otf.zip'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/termes/index_html'
-  license :unknown
+  license :lppl
 
   font 'qtm#{version}otf/texgyretermes-bold.otf'
   font 'qtm#{version}otf/texgyretermes-bolditalic.otf'

@@ -4,7 +4,7 @@ cask :v1 => 'font-tex-gyre-pagella' do
 
   url 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella/qpl#{version}otf.zip'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella/index_html'
-  license :unknown
+  license :lppl
 
   font 'qpl#{version}otf/texgyrepagella-bold.otf'
   font 'qpl#{version}otf/texgyrepagella-bolditalic.otf'

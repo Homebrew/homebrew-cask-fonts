@@ -4,7 +4,7 @@ cask :v1 => 'font-tex-gyre-chorus' do
 
   url 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/chorus/qzc#{version}otf.zip'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/chorus/index_html'
-  license :unknown
+  license :lppl
 
   font 'texgyrechorus-mediumitalic.otf'
 end

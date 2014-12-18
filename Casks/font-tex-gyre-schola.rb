@@ -4,7 +4,7 @@ cask :v1 => 'font-tex-gyre-schola' do
 
   url 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/schola/qcs#{version}otf.zip'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/schola/index_html'
-  license :unknown
+  license :lppl
 
   font 'qcs#{version}otf/texgyreschola-bold.otf'
   font 'qcs#{version}otf/texgyreschola-bolditalic.otf'
