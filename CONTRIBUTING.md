@@ -19,6 +19,7 @@ cask :v1 => 'font-inconsolata' do
 
   url 'http://levien.com/type/myfonts/Inconsolata.otf'
   homepage 'http://levien.com/type/myfonts/inconsolata.html'
+  license :ofl
 
   font 'Inconsolata.otf'
 end
@@ -35,6 +36,7 @@ cask :v1 => 'font-fantasque-sans-mono' do
 
   url 'https://github.com/belluzj/fantasque-sans/releases/download/1.6.4/FantasqueSansMono.zip'
   homepage 'https://github.com/belluzj/fantasque-sans'
+  license :oss
 
   font 'OTF/FantasqueSansMono-Bold.otf'
   font 'OTF/FantasqueSansMono-BoldItalic.otf'
