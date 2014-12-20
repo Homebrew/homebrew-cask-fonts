@@ -4,14 +4,15 @@ require 'bundler/setup'
 homebrew_path = Pathname(`brew --prefix`.chomp)
 homebrew_path = Pathname('/usr/local') unless homebrew_path.exist?
 
-# add cask lib to load path
+# add homebrew-cask lib to load path
 brew_cask_path = homebrew_path.join('Library', 'Taps', 'caskroom', 'homebrew-cask')
 lib_path = brew_cask_path.join('lib')
 
 $:.push(lib_path)
 
-# add homebrew to load path
-$:.push(homebrew_path.join('Library', 'Homebrew'))
+# add our homebrew fork to load path
+# todo: removeme, this is transitional
+$:.push(lib_path.join('homebrew-fork', 'Library', 'Homebrew'))
 
 # require homebrew testing env
 require 'test/testing_env'
