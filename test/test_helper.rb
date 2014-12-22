@@ -1,6 +1,11 @@
 require 'bundler'
 require 'bundler/setup'
 
+# just in case
+if RUBY_VERSION.to_i < 2
+  raise 'brew-cask: Ruby 2.0 or greater is required.'
+end
+
 homebrew_path = Pathname(`brew --prefix`.chomp)
 homebrew_path = Pathname('/usr/local') unless homebrew_path.exist?
 
