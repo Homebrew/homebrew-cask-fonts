@@ -6,6 +6,6 @@ cask :v1 => 'font-gentium-plus' do
   homepage 'http://scripts.sil.org/cms/scripts/page.php?item_id=Gentium'
   license :ofl
 
-  font 'GentiumPlus-I.ttf'
-  font 'GentiumPlus-R.ttf'
+  font 'GentiumPlus-5.000/GentiumPlus-I.ttf'
+  font 'GentiumPlus-5.000/GentiumPlus-R.ttf'
 end
