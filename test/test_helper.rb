@@ -32,10 +32,10 @@ require 'cask'
 
 # pretend like we installed the cask tap
 project_root = Pathname.new(File.expand_path("#{File.dirname(__FILE__)}/../"))
-taps_dest = HOMEBREW_LIBRARY/"Taps/caskroom"
+taps_dest = HOMEBREW_LIBRARY.join('Taps/caskroom')
 
 # create directories
 FileUtils.mkdir_p taps_dest
 HOMEBREW_PREFIX.join('bin').mkdir
 
-FileUtils.ln_s project_root, taps_dest/"homebrew-cask"
+FileUtils.ln_s project_root, taps_dest.join('homebrew-cask')
