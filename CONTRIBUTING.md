@@ -100,6 +100,7 @@ To get from the Font's canonical name to a Cask token:
   * prepend the string `font-` to the canonical name, to prevent clashes
     with Application tokens
   * expand the `+` symbol into a separated English word: `-plus-`
+  * expand the `@` symbol into a separated English word: `-at-`
   * convert all letters to lower case
   * spaces become hyphens
   * hyphens stay hyphens
