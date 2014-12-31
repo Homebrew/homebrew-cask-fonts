@@ -12,15 +12,11 @@ homebrew_path = Pathname('/usr/local') unless homebrew_path.exist?
 # add homebrew-cask lib to load path
 brew_cask_path = homebrew_path.join('Library', 'Taps', 'caskroom', 'homebrew-cask')
 lib_path = brew_cask_path.join('lib')
-
 $:.push(lib_path)
 
-# add our homebrew fork to load path
-# todo: removeme, this is transitional
-$:.push(lib_path.join('homebrew-fork', 'Library', 'Homebrew'))
-
 # require homebrew testing env
-require 'test/testing_env'
+# todo: removeme, this is transitional
+require 'vendor/homebrew-fork/testing_env'
 
 # must be called after testing_env so at_exit hooks are in proper order
 require 'minitest/autorun'
