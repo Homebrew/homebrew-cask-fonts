@@ -2,10 +2,10 @@ cask :v1 => 'font-anonymous-pro-for-powerline' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/Lokaltog/powerline-fonts/trunk/AnonymousPro',
+  url 'https://github.com/powerline/fonts/trunk/AnonymousPro',
       :using => :svn,
       :trust_cert => true
-  homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/AnonymousPro'
+  homepage 'https://github.com/powerline/fonts/tree/master/AnonymousPro'
   license :oss
 
   font 'Anonymice Powerline Bold Italic.ttf'

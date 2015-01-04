@@ -3,11 +3,11 @@ cask :v1 => 'font-sauce-code-powerline' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/Lokaltog/powerline-fonts/trunk/SourceCodePro',
+  url 'https://github.com/powerline/fonts/trunk/SourceCodePro',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
-  homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/SourceCodePro'
+  homepage 'https://github.com/powerline/fonts/tree/master/SourceCodePro'
   license :oss
 
   font 'Sauce Code Powerline Black.otf'
