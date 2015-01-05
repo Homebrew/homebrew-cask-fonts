@@ -24,7 +24,7 @@ require 'minitest/autorun'
 # require 'minitest-colorize'
 
 # our baby
-require 'cask'
+require 'hbc'
 
 # pretend like we installed the cask tap
 project_root = Pathname.new(File.expand_path("#{File.dirname(__FILE__)}/../"))
