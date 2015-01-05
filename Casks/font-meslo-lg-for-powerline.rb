@@ -2,10 +2,10 @@ cask :v1 => 'font-meslo-lg-for-powerline' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/Lokaltog/powerline-fonts/trunk/Meslo',
+  url 'https://github.com/powerline/fonts/trunk/Meslo',
       :using => :svn,
       :trust_cert => true
-  homepage 'https://github.com/Lokaltog/powerline-fonts/tree/master/Meslo'
+  homepage 'https://github.com/powerline/fonts/tree/master/Meslo'
   license :oss
 
   font 'Meslo LG L DZ Regular for Powerline.otf'
