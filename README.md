@@ -28,7 +28,7 @@ $ brew cask install font-inconsolata
 
 ## Search For a Font
 
-Font searching is temporarily disabled per phinze/homebrew-cask#3025.  While
+Font searching is temporarily disabled per [caskroom/homebrew-cask#3025](https://github.com/caskroom/homebrew-cask/pull/3025).  While
 this is being fixed, one workaround is to use a regular expression search:
 
 ```bash
