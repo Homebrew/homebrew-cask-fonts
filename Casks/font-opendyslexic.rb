@@ -5,7 +5,7 @@ cask :v1 => 'font-opendyslexic' do
 
   url 'https://github.com/antijingoist/open-dyslexic/archive/f4b5ba89018b44d633608907e15f93fb3fabbabc.zip'
   homepage 'https://github.com/antijingoist/open-dyslexic'
-  license :bvl
+  license :oss
 
   font 'open-dyslexic-f4b5ba89018b44d633608907e15f93fb3fabbabc/otf/OpenDyslexic-Bold.otf'
   font 'open-dyslexic-f4b5ba89018b44d633608907e15f93fb3fabbabc/otf/OpenDyslexic-BoldItalic.otf'
