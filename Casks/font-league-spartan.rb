@@ -6,5 +6,5 @@ cask :v1 => 'font-league-spartan' do
   homepage 'https://www.theleagueofmoveabletype.com/league-spartan'
   license :ofl
 
-  font 'league-spartan-#{version}/LeagueSpartan-Bold.otf'
+  font "league-spartan-#{version}/LeagueSpartan-Bold.otf"
 end
