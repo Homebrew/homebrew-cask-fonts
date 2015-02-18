@@ -6,17 +6,17 @@ cask :v1 => 'font-comic-neue' do
   homepage 'http://comicneue.com/'
   license :ofl
 
-  font 'comic-neue-#{version}/OTF/ComicNeue-Angular-Regular.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue-Angular_Bold.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue-Angular_Bold_Oblique.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue-Angular_Light.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue-Angular_Light_Oblique.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue-Angular_Oblique.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue-Regular.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue_Bold.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue_Bold_Oblique.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue_Light.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue_Light_Oblique.otf'
-  font 'comic-neue-#{version}/OTF/ComicNeue_Oblique.otf'
+  font "comic-neue-#{version}/OTF/ComicNeue-Angular-Regular.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue-Angular_Bold.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue-Angular_Bold_Oblique.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue-Angular_Light.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue-Angular_Light_Oblique.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue-Angular_Oblique.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue-Regular.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue_Bold.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue_Bold_Oblique.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue_Light.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue_Light_Oblique.otf"
+  font "comic-neue-#{version}/OTF/ComicNeue_Oblique.otf"
 
 end
