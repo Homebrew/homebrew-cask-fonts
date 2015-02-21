@@ -4,6 +4,7 @@ cask :v1 => 'font-myrica' do
 
   url 'https://github.com/tomokuni/Myrica/archive/master.zip'
   homepage 'https://github.com/tomokuni/Myrica'
+  license :oss
 
   font 'Myrica-master/Work/MyricaM.ttf'
   font 'Myrica-master/Work/MyricaM_NoHint.ttf'
