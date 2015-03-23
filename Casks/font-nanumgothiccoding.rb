@@ -3,7 +3,7 @@ cask :v1 => 'font-nanumgothiccoding' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/nanumgothiccoding',
+  url 'https://github.com/google/fonts/trunk/apache/nanumgothiccoding',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
