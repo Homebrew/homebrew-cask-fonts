@@ -3,7 +3,7 @@ cask :v1 => 'font-gentium-basic' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/gentiumbasic',
+  url 'https://github.com/google/fonts/trunk/ofl/gentiumbasic',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
