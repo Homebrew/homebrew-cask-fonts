@@ -3,7 +3,7 @@ cask :v1 => 'font-cantarell' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/cantarell',
+  url 'https://github.com/google/fonts/trunk/ofl/cantarell',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
