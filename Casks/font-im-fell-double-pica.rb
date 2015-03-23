@@ -3,7 +3,7 @@ cask :v1 => 'font-im-fell-double-pica' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/imfelldoublepica',
+  url 'https://github.com/google/fonts/trunk/ofl/imfelldoublepica',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
