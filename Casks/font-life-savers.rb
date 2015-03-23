@@ -3,7 +3,7 @@ cask :v1 => 'font-life-savers' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/lifesavers',
+  url 'https://github.com/google/fonts/trunk/ofl/lifesavers',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
