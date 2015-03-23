@@ -3,7 +3,7 @@ cask :v1 => 'font-averia-sans-libre' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/averiasanslibre',
+  url 'https://github.com/google/fonts/trunk/ofl/averiasanslibre',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
