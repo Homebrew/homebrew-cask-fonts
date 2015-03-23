@@ -3,7 +3,7 @@ cask :v1 => 'font-linden-hill' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/lindenhill',
+  url 'https://github.com/google/fonts/trunk/ofl/lindenhill',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
