@@ -3,7 +3,7 @@ cask :v1 => 'font-sorts-mill-goudy' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/sortsmillgoudy',
+  url 'https://github.com/google/fonts/trunk/ofl/sortsmillgoudy',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
