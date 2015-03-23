@@ -3,7 +3,7 @@ cask :v1 => 'font-merriweather' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/merriweather',
+  url 'https://github.com/google/fonts/trunk/ofl/merriweather',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
