@@ -3,13 +3,10 @@ cask :v1 => 'font-alef' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/google/fonts/trunk/ofl/alef',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
-  homepage 'http://www.google.com/fonts/specimen/Alef'
+  url 'http://alef.hagilda.com/Alef.zip'
+  homepage 'http://alef.hagilda.com/'
   license :ofl
 
-  font 'Alef-Bold.ttf'
-  font 'Alef-Regular.ttf'
+  font 'TTF/Alef-Bold.ttf'
+  font 'TTF/Alef-Regular.ttf'
 end
