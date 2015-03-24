@@ -3,7 +3,7 @@ cask :v1 => 'font-droid-sans' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/droidsans',
+  url 'https://github.com/google/fonts/trunk/apache/droidsans',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

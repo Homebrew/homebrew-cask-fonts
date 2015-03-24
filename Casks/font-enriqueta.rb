@@ -3,7 +3,7 @@ cask :v1 => 'font-enriqueta' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/enriqueta',
+  url 'https://github.com/google/fonts/trunk/ofl/enriqueta',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

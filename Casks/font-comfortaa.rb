@@ -3,7 +3,7 @@ cask :v1 => 'font-comfortaa' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/comfortaa',
+  url 'https://github.com/google/fonts/trunk/ofl/comfortaa',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

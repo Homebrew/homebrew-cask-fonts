@@ -3,7 +3,7 @@ cask :v1 => 'font-monda' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/monda',
+  url 'https://github.com/google/fonts/trunk/ofl/monda',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

@@ -3,7 +3,7 @@ cask :v1 => 'font-arvo' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/arvo',
+  url 'https://github.com/google/fonts/trunk/ofl/arvo',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

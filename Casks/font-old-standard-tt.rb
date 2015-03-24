@@ -3,7 +3,7 @@ cask :v1 => 'font-old-standard-tt' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/oldstandardtt',
+  url 'https://github.com/google/fonts/trunk/ofl/oldstandardtt',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

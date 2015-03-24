@@ -3,7 +3,7 @@ cask :v1 => 'font-open-sans' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/opensans',
+  url 'https://github.com/google/fonts/trunk/apache/opensans',
       :using      => :svn,
       :revision   => '48',
       :trust_cert => true

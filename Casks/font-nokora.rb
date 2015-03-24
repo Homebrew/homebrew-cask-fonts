@@ -3,7 +3,7 @@ cask :v1 => 'font-nokora' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/nokora',
+  url 'https://github.com/google/fonts/trunk/apache/nokora',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

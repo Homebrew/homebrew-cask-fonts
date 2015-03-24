@@ -3,7 +3,7 @@ cask :v1 => 'font-puritan' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/puritan',
+  url 'https://github.com/google/fonts/trunk/ofl/puritan',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

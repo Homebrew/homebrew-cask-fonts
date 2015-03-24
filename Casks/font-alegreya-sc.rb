@@ -3,7 +3,7 @@ cask :v1 => 'font-alegreya-sc' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/alegreyasc',
+  url 'https://github.com/google/fonts/trunk/ofl/alegreyasc',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

@@ -3,7 +3,7 @@ cask :v1 => 'font-fanwood-text' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/fanwoodtext',
+  url 'https://github.com/google/fonts/trunk/ofl/fanwoodtext',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

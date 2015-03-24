@@ -3,7 +3,7 @@ cask :v1 => 'font-gfs-neohellenic' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/gfsneohellenic',
+  url 'https://github.com/google/fonts/trunk/ofl/gfsneohellenic',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

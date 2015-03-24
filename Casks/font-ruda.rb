@@ -3,7 +3,7 @@ cask :v1 => 'font-ruda' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/ruda',
+  url 'https://github.com/google/fonts/trunk/ofl/ruda',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

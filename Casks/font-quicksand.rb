@@ -3,7 +3,7 @@ cask :v1 => 'font-quicksand' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/quicksand',
+  url 'https://github.com/google/fonts/trunk/ofl/quicksand',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true

@@ -3,7 +3,7 @@ cask :v1 => 'font-droid-serif-thai' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/w0ng/googlefontdirectory/trunk/fonts/droidserifthai',
+  url 'https://github.com/google/fonts/trunk/apache/droidserifthai',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
