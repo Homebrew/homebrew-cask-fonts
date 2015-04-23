@@ -2,7 +2,7 @@ cask :v1 => 'font-noto-sans-korean' do
   version :latest
   sha256 :no_check
 
-  url 'http://www.google.com/get/noto/pkgs/NotoSansKorean-hinted.zip'
+  url 'http://www.google.com/get/noto/pkgs/NotoSansCJKKR-hinted.zip'
   homepage 'http://www.google.com/get/noto/#/family/noto-sans-kore'
   license :apache
 
