@@ -1,5 +1,5 @@
 cask :v1 => 'font-raleway' do
-  # version '2.001'
+  # version '3.000'
   version :latest
   sha256 :no_check
 
@@ -10,13 +10,22 @@ cask :v1 => 'font-raleway' do
   homepage 'http://www.google.com/fonts/specimen/Raleway'
   license :ofl
 
+  font 'Raleway-Black.ttf'
+  font 'Raleway-BlackItalic.ttf'
   font 'Raleway-Bold.ttf'
+  font 'Raleway-BoldItalic.ttf'
   font 'Raleway-ExtraBold.ttf'
+  font 'Raleway-ExtraBoldItalic.ttf'
   font 'Raleway-ExtraLight.ttf'
-  font 'Raleway-Heavy.ttf'
+  font 'Raleway-ExtraLightItalic.ttf'
+  font 'Raleway-Italic.ttf'
   font 'Raleway-Light.ttf'
+  font 'Raleway-LightItalic.ttf'
   font 'Raleway-Medium.ttf'
+  font 'Raleway-MediumItalic.ttf'
   font 'Raleway-Regular.ttf'
   font 'Raleway-SemiBold.ttf'
+  font 'Raleway-SemiBoldItalic.ttf'
   font 'Raleway-Thin.ttf'
+  font 'Raleway-ThinItalic.ttf'
 end
