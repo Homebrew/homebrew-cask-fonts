@@ -6,11 +6,11 @@ cask :v1 => 'font-noto-sans-japanese' do
   homepage 'http://www.google.com/get/noto/#/family/noto-sans-jpan'
   license :apache
 
-  font 'NotoSansJP-Black.otf'
-  font 'NotoSansJP-Bold.otf'
-  font 'NotoSansJP-DemiLight.otf'
-  font 'NotoSansJP-Light.otf'
-  font 'NotoSansJP-Medium.otf'
-  font 'NotoSansJP-Regular.otf'
-  font 'NotoSansJP-Thin.otf'
+  font 'NotoSansCJKjp-Black.otf'
+  font 'NotoSansCJKjp-Bold.otf'
+  font 'NotoSansCJKjp-DemiLight.otf'
+  font 'NotoSansCJKjp-Light.otf'
+  font 'NotoSansCJKjp-Medium.otf'
+  font 'NotoSansCJKjp-Regular.otf'
+  font 'NotoSansCJKjp-Thin.otf'
 end
