@@ -6,11 +6,11 @@ cask :v1 => 'font-noto-sans-s-chinese' do
   homepage 'http://www.google.com/get/noto/#/family/noto-sans-hans'
   license :apache
 
-  font 'NotoSansHans-Black.otf'
-  font 'NotoSansHans-Bold.otf'
-  font 'NotoSansHans-DemiLight.otf'
-  font 'NotoSansHans-Light.otf'
-  font 'NotoSansHans-Medium.otf'
-  font 'NotoSansHans-Regular.otf'
-  font 'NotoSansHans-Thin.otf'
+  font 'NotoSansCJKsc-Black.otf'
+  font 'NotoSansCJKsc-Bold.otf'
+  font 'NotoSansCJKsc-DemiLight.otf'
+  font 'NotoSansCJKsc-Light.otf'
+  font 'NotoSansCJKsc-Medium.otf'
+  font 'NotoSansCJKsc-Regular.otf'
+  font 'NotoSansCJKsc-Thin.otf'
 end
