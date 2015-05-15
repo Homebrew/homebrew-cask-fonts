@@ -8,7 +8,7 @@ cask :v1 => 'font-padauk' do
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :oss
+  license :ofl
 
   font 'Padauk-Bold.ttf'
   font 'Padauk-Regular.ttf'
