@@ -8,7 +8,7 @@ cask :v1 => 'font-nanumgothiccoding' do
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :oss
+  license :ofl
 
   font 'NanumGothicCoding-Bold.ttf'
   font 'NanumGothicCoding-Regular.ttf'
