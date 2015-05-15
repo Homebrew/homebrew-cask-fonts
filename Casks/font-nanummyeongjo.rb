@@ -8,7 +8,7 @@ cask :v1 => 'font-nanummyeongjo' do
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :oss
+  license :ofl
 
   font 'NanumMyeongjo-Bold.ttf'
   font 'NanumMyeongjo-ExtraBold.ttf'
