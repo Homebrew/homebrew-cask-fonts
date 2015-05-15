@@ -133,6 +133,12 @@ Cask.
 This constraint may change in the future, when the backend Ruby code becomes
 more sophisticated.
 
+### Multiple Font Formats
+
+If a distribution provides multiple file formats for the same font, for example both TTF and OTF files, only include one kind. OTF is preferred over TTF.
+
+Note that `font_casker` generates font stanzas for all files, so its output should be edited as needed.
+
 ## Check Your Font Licenses
 
 At this time, homebrew-fonts is only accepting Casks for fonts which are
