@@ -3,7 +3,7 @@ cask :v1 => 'font-exo2' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/google/fonts/trunk/apache/exo2',
+  url 'https://github.com/google/fonts/trunk/ofl/exo2',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
