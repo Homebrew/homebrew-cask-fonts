@@ -14,12 +14,4 @@ cask :v1 => 'font-office-code-pro' do
   font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-MediumD.otf'
   font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-Regular.otf'
   font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-RegularD.otf'
-  font 'Office-Code-Pro-master/Fonts/TTF/OfficeCodePro-Bold.ttf'
-  font 'Office-Code-Pro-master/Fonts/TTF/OfficeCodePro-BoldD.ttf'
-  font 'Office-Code-Pro-master/Fonts/TTF/OfficeCodePro-Light.ttf'
-  font 'Office-Code-Pro-master/Fonts/TTF/OfficeCodePro-LightD.ttf'
-  font 'Office-Code-Pro-master/Fonts/TTF/OfficeCodePro-Medium.ttf'
-  font 'Office-Code-Pro-master/Fonts/TTF/OfficeCodePro-MediumD.ttf'
-  font 'Office-Code-Pro-master/Fonts/TTF/OfficeCodePro-Regular.ttf'
-  font 'Office-Code-Pro-master/Fonts/TTF/OfficeCodePro-RegularD.ttf'
 end
