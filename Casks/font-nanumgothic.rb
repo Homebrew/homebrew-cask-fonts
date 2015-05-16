@@ -3,12 +3,12 @@ cask :v1 => 'font-nanumgothic' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/google/fonts/trunk/apache/nanumgothic',
+  url 'https://github.com/google/fonts/trunk/ofl/nanumgothic',
       :using      => :svn,
       :revision   => '50',
       :trust_cert => true
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :oss
+  license :ofl
 
   font 'NanumGothic-Bold.ttf'
   font 'NanumGothic-ExtraBold.ttf'
