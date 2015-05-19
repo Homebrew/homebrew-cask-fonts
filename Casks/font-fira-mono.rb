@@ -1,12 +1,12 @@
 cask :v1 => 'font-fira-mono' do
-  version '3.2'
-  sha256 'f7e490dd815c8d8943a77245bfb2172ad0630517466af5a8dfc37d863029713c'
+  version '3.202'
+  sha256 'c15c85431d764966a0adb31689542f4d18209620bac2051bbc8c437d5dce619a'
 
-  url 'http://www.carrois.com/downloads/fira_mono_3_2/FiraMonoFonts3200.zip'
+  url 'http://www.carrois.com/downloads/fira_mono_3_2/FiraMonoFonts3202.zip'
   homepage 'http://www.carrois.com/fira-4-1/'
   license :ofl
 
-  font 'FiraMonoFonts3200/FiraMono3200/OTF/FiraMono-Bold.otf'
-  font 'FiraMonoFonts3200/FiraMono3200/OTF/FiraMono-Medium.otf'
-  font 'FiraMonoFonts3200/FiraMono3200/OTF/FiraMono-Regular.otf'
+  font 'FiraMonoFonts3202/OTF/FiraMono-Bold.otf'
+  font 'FiraMonoFonts3202/OTF/FiraMono-Medium.otf'
+  font 'FiraMonoFonts3202/OTF/FiraMono-Regular.otf'
 end
