@@ -1,6 +1,6 @@
 cask :v1 => 'font-source-serif-pro' do
   version '1.017R'
-  sha256 'bec4adae1e138ea947eb97a5ddda6413ef683313490b33e53aaba81f37c20725'
+  sha256 '778d74156b58bc1a7c7313cad2e1c35f33fb84e8674074339f5723bcc5c301d9'
 
   url "https://github.com/adobe-fonts/source-serif-pro/archive/#{version}.zip"
   homepage 'http://adobe.github.io/source-serif-pro/'

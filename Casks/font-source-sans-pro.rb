@@ -1,6 +1,6 @@
 cask :v1 => 'font-source-sans-pro' do
   version '2.010'
-  sha256 '845285e4bf9f3f0aa2e77dec53b2be66c0acdd3096452638750a9ae3423039bc'
+  sha256 '98c3bb8fb61037eafe70873f0bf3e95685efe506d7974c23ecce06156f808843'
 
   url "https://github.com/adobe-fonts/source-sans-pro/archive/#{version}R-ro/1.065R-it.zip"
   homepage 'http://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-US&event=displayFontPackage&code=1959'
