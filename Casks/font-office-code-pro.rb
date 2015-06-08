@@ -6,12 +6,12 @@ cask :v1 => 'font-office-code-pro' do
   homepage 'https://github.com/nathco/Office-Code-Pro'
   license :ofl
 
-  font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-Bold.otf'
-  font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-BoldD.otf'
-  font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-Light.otf'
-  font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-LightD.otf'
-  font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-Medium.otf'
-  font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-MediumD.otf'
-  font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-Regular.otf'
-  font 'Office-Code-Pro-master/Fonts/OTF/OfficeCodePro-RegularD.otf'
+  font 'Office-Code-Pro-master/Fonts/Office Code Pro/OTF/OfficeCodePro-Bold.otf'
+  font 'Office-Code-Pro-master/Fonts/Office Code Pro/OTF/OfficeCodePro-BoldD.otf'
+  font 'Office-Code-Pro-master/Fonts/Office Code Pro/OTF/OfficeCodePro-Light.otf'
+  font 'Office-Code-Pro-master/Fonts/Office Code Pro/OTF/OfficeCodePro-LightD.otf'
+  font 'Office-Code-Pro-master/Fonts/Office Code Pro/OTF/OfficeCodePro-Medium.otf'
+  font 'Office-Code-Pro-master/Fonts/Office Code Pro/OTF/OfficeCodePro-MediumD.otf'
+  font 'Office-Code-Pro-master/Fonts/Office Code Pro/OTF/OfficeCodePro-Regular.otf'
+  font 'Office-Code-Pro-master/Fonts/Office Code Pro/OTF/OfficeCodePro-RegularD.otf'
 end
