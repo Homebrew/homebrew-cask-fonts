@@ -13,7 +13,7 @@ cask :v1 => 'font-crimson-text' do
   font 'CrimsonText-Bold.ttf'
   font 'CrimsonText-BoldItalic.ttf'
   font 'CrimsonText-Italic.ttf'
-  font 'CrimsonText-Roman.ttf'
+  font 'CrimsonText-Regular.ttf'
   font 'CrimsonText-Semibold.ttf'
   font 'CrimsonText-SemiboldItalic.ttf'
 end
