@@ -16,7 +16,6 @@ cask :v1 => 'font-montserrat' do
   font 'Montserrat-Regular.otf'
   font 'MontserratAlternates-Black.otf'
   font 'MontserratAlternates-Bold.otf'
-  font 'MontserratAlternates-Hairline.otf'
   font 'MontserratAlternates-Light.otf'
   font 'MontserratAlternates-Regular.otf'
 end
