@@ -1,9 +1,10 @@
 cask :v1 => 'font-koruri' do
-  version '20141224'
-  sha256 '2de09d84d05955018dd2b053ec912a94edb6320579bacfb96347d5fe8eb13872'
+  version '20150701'
+  sha256 '8a5ae87ffccc6c6a30312e82a9f3bdd7f1cdc6f84ab5113f45c32573a3a1d307'
 
-  # sourceforge.jp is the official download host per the vendor homepage
-  url "http://dl.sourceforge.jp/koruri/62469/Koruri-#{version}.tar.xz"
+  # github.com is the official download host per the vendor homepage
+  url "https://github.com/Koruri/Koruri/releases/download/Koruri-#{version}/Koruri-#{version}.tar.xz"
+  appcast 'https://github.com/Koruri/Koruri/releases.atom'
   homepage 'http://koruri.lindwurm.biz/'
   license :apache
 
