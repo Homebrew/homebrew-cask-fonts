@@ -1,10 +1,10 @@
 cask :v1 => 'font-scheherazade' do
-  version '1.005'
-  sha256 'e7a6ac89d6049175ada1d2de1c11fc20259deb26461387e6e69b38e878491579'
+  version '2.020'
+  sha256 'd8bb12997507937347efba4e59550a9655350563d1df662f0651e04ba916aff1'
 
-  url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/scheherazade/ScheherazadeRegOT.ttf'
-  homepage 'https://www.google.com/fonts/earlyaccess'
+  url 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=Scheherazade-2.020.zip&filename=Scheherazade-2.020.zip'
+  homepage 'http://scripts.sil.org/Scheherazade'
   license :ofl
 
-  font 'ScheherazadeRegOT.ttf'
+  font 'Scheherazade-2.020/Scheherazade-R.ttf'
 end
