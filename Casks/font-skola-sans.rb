@@ -3,7 +3,7 @@ cask :v1 => 'font-skola-sans' do
   sha256 :no_check
 
   # mediafire.com is the official download host per the vendor homepage
-  url 'http://download1001.mediafire.com/b61raazyg9cg/5cbb1kb41ypzm3v/SkolaSansPro.zip'
+  url 'http://download1001.mediafire.com/ec6ebo88eb5g/5cbb1kb41ypzm3v/SkolaSansPro.zip'
   homepage 'https://www.behance.net/gallery/17504367/Free-font-family-SkolaSans'
   license :unknown
 
