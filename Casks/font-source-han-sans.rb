@@ -1,6 +1,6 @@
 cask :v1 => 'font-source-han-sans' do
-  version '1.001'
-  sha256 '294eb130b2f4819d722670fde88969f3765104060dcb16875026a9a54c51d9ed'
+  version '1.004'
+  sha256 '3581236fd7a59bbc95e1bc2fa7fabbf7c47b05f0363d170b5bf08098de33007c'
 
   url "https://github.com/adobe-fonts/source-han-sans/archive/#{version}R.zip"
   homepage 'https://github.com/adobe-fonts/source-han-sans'
