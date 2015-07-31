@@ -8,7 +8,7 @@ cask :v1 => 'font-monoid' do
   license :ofl
 
   font 'Monoid-Bold.ttf'
-  font 'Monoid-Oblique.ttf'
+  font 'Monoid-Italic.ttf'
   font 'Monoid-Regular.ttf'
   font 'Monoid-Retina.ttf'
 
