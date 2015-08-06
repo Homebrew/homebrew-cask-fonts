@@ -161,6 +161,6 @@ please do: we consider that an upgrade.
 
 For some fonts, Google Web Font Directory is the only current source.  Writing
 the `url` stanza for those cases may require using some unusual features of the
-Cask language.  See example [lekton.rb](../Casks/lekton.rb), consult [CASK_LANGUAGE_REFERENCE](https://github.com/phinze/homebrew-cask/blob/master/doc/CASK_LANGUAGE_REFERENCE.md), or contact the maintainers.
+Cask language.  See example [font-lekton.rb](Casks/font-lekton.rb), consult [CASK_LANGUAGE_REFERENCE](https://github.com/phinze/homebrew-cask/blob/master/doc/CASK_LANGUAGE_REFERENCE.md), or contact the maintainers.
 
 **<3 THANK YOU TO ALL CONTRIBUTORS! <3**
