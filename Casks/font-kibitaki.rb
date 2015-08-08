@@ -1,6 +1,6 @@
 cask :v1 => 'font-kibitaki' do
   version '20140621'
-  sha256 '8766502f4f6547c2373bb7b54a0395e6e2da354a21fe4797cbeb795d2d10ddb4'
+  sha256 '4172eab159a30764ef1dc69593faa6d13229423225496d2b9593e8efb5571720'
 
   url "https://github.com/Koruri/kibitaki/archive/Kibitaki-#{version}.zip"
   homepage 'http://kibitaki.lindwurm.biz/'
