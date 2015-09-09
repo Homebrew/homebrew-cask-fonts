@@ -6,6 +6,6 @@ cask :v1 => 'font-glober' do
   homepage 'http://fontfabric.com/glober-free-font/'
   license :unknown
 
-  font 'Glober Bold Free.otf'
+  font 'Glober SemiBold Free.otf'
   font 'Glober Thin Free.otf'
 end
