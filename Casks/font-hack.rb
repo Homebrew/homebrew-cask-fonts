@@ -1,13 +1,15 @@
 cask :v1 => 'font-hack' do
-  version '2.010'
-  sha256 '99d1ac91598531cc28135cca3b324737aabec5b78f4a2a140364261b13611df4'
+  version '2.013'
+  sha256 'e3749dcd9187c11c5fed6570c3976390368230b0363186187fb5e6a0c46f4a36'
 
+  # github.com is the official download host per the vendor homepage
   url "https://github.com/chrissimpkins/Hack/archive/v#{version}.zip"
-  homepage 'https://github.com/chrissimpkins/Hack'
+  appcast 'https://github.com/chrissimpkins/Hack/releases.atom'
+  homepage 'http://sourcefoundry.org/hack/'
   license :ofl
 
   font "Hack-#{version}/build/otf/Hack-Regular.otf"
-  font "Hack-#{version}/build/otf/Hack-RegularOblique.otf"
+  font "Hack-#{version}/build/otf/Hack-Italic.otf"
   font "Hack-#{version}/build/otf/Hack-Bold.otf"
-  font "Hack-#{version}/build/otf/Hack-BoldOblique.otf"
+  font "Hack-#{version}/build/otf/Hack-BoldItalic.otf"
 end
