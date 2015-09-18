@@ -2,8 +2,8 @@ cask :v1 => 'font-noto-sans-old-italic' do
   version :latest
   sha256 :no_check
 
-  url 'https://www.google.com/get/noto/pkgs/NotoSansOldItalic-unhinted.zip'
-  homepage 'http://www.google.com/get/noto'
+  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansOldItalic-unhinted.zip'
+  homepage 'https://www.google.com/get/noto'
   license :apache
 
   font 'NotoSansOldItalic-Regular.ttf'

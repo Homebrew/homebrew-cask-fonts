@@ -2,8 +2,8 @@ cask :v1 => 'font-noto-sans-telugu' do
   version :latest
   sha256 :no_check
 
-  url 'https://www.google.com/get/noto/pkgs/NotoSansTelugu-hinted.zip'
-  homepage 'http://www.google.com/get/noto'
+  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansTelugu-hinted.zip'
+  homepage 'https://www.google.com/get/noto'
   license :apache
 
   font 'NotoSansTelugu-Regular.ttf'
