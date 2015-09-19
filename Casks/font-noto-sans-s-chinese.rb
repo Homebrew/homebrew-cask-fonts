@@ -2,8 +2,8 @@ cask :v1 => 'font-noto-sans-s-chinese' do
   version :latest
   sha256 :no_check
 
-  url 'http://www.google.com/get/noto/pkgs/NotoSansCJKSC-hinted.zip'
-  homepage 'http://www.google.com/get/noto/#/family/noto-sans-hans'
+  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansCJKSC-hinted.zip'
+  homepage 'https://www.google.com/get/noto'
   license :apache
 
   font 'NotoSansCJKsc-Black.otf'
