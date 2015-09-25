@@ -1,6 +1,6 @@
 cask :v1 => 'font-source-code-pro' do
   version '2.010R-ro-1.030R-it'
-  sha256 'a5c011502ad3bc628bb4fc3646cd387482819bd2a7182162cf15095fdce3d18c'
+  sha256 '3bed70c2eac576d85673204919ae4b16fadf4a70c65f80360e0dc0eb820ff4a4'
 
   url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.sub('ro-', 'ro/')}.zip"
   homepage 'http://adobe-fonts.github.io/source-code-pro/'
