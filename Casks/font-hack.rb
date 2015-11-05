@@ -1,6 +1,6 @@
 cask :v1 => 'font-hack' do
-  version '2.015'
-  sha256 '3a49cf4756364058c664db8ab62ec4ca7cd98d312a0edd228b8c03d4239a33de'
+  version '2.018'
+  sha256 'f4a610ae049073845736cbee2c2cd1e87982a2af582839398caab8edd11e4fa0'
 
   # github.com is the official download host per the vendor homepage
   url "https://github.com/chrissimpkins/Hack/archive/v#{version}.zip"
