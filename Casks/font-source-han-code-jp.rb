@@ -1,17 +1,24 @@
 cask :v1 => 'font-source-han-code-jp' do
-  version '1.004'
-  sha256 '7b444392453a4344175c54424e9ac70d8a5ebb050f3b6c31b47d71d97c9eb03e'
+  version '2.000'
+  sha256 '44fd60c59052d0a10d1b48ab1f340ae96e28d363c164993525b515085d13d5ba'
 
-  url 'https://github.com/adobe-fonts/source-han-code-jp/archive/1.004R.zip'
+  url "https://github.com/adobe-fonts/source-han-code-jp/archive/#{version}R.zip"
   homepage 'https://github.com/adobe-fonts/source-han-code-jp'
   license :ofl
 
-  font 'source-han-code-jp-1.004R/OTF/SourceHanCodeJP/SourceHanCodeJP-Bold.otf'
-  font 'source-han-code-jp-1.004R/OTF/SourceHanCodeJP/SourceHanCodeJP-ExtraLight.otf'
-  font 'source-han-code-jp-1.004R/OTF/SourceHanCodeJP/SourceHanCodeJP-Heavy.otf'
-  font 'source-han-code-jp-1.004R/OTF/SourceHanCodeJP/SourceHanCodeJP-Light.otf'
-  font 'source-han-code-jp-1.004R/OTF/SourceHanCodeJP/SourceHanCodeJP-Medium.otf'
-  font 'source-han-code-jp-1.004R/OTF/SourceHanCodeJP/SourceHanCodeJP-Normal.otf'
-  font 'source-han-code-jp-1.004R/OTF/SourceHanCodeJP/SourceHanCodeJP-Regular.otf'
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Bold.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-BoldIt.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-ExtraLight.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-ExtraLightIt.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Heavy.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-HeavyIt.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Light.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-LightIt.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Medium.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-MediumIt.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Normal.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-NormalIt.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Regular.otf"
+  font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-RegularIt.otf"
 
 end
