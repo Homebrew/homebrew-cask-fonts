@@ -6,5 +6,5 @@ cask :v1 => 'font-fontawesome' do
   homepage 'http://fortawesome.github.io/Font-Awesome/'
   license :oss
 
-  font "font-awesome-#{version}/fonts/FontAwesome.otf"
+  font "Font-Awesome-#{version}/fonts/FontAwesome.otf"
 end
