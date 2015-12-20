@@ -1,10 +1,13 @@
 cask :v1 => 'font-fira-code' do
-  version '0.6'
-  sha256 '0ae8324527fbcbaf93eaf7be1171b5fa039b8444154a7262a914f75c6da78aae'
+  version '1.100'
+  sha256 '7d003a4b0e55b44135cad4d9c87fc87b96a3fbfaebcba03cb3e92ce49dcff9ba'
 
-  url 'https://github.com/tonsky/FiraCode/releases/download/0.6/FiraCode-Regular.otf'
+  url "https://github.com/tonsky/FiraCode/releases/download/#{version}/FiraCode_#{version}.zip"
   homepage 'https://github.com/tonsky/FiraCode'
   license :ofl
 
   font 'FiraCode-Regular.otf'
+  font 'FiraCode-Bold.otf'
+  font 'FiraCode-Medium.otf'
+  font 'FiraCode-Retina.otf'
 end
