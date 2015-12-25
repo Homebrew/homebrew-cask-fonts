@@ -35,15 +35,12 @@ before_install:
   - echo ls_ruby_bindir; ls "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin"
 
 # install steps
-# * brew Formulae and Casks without which some tests will be skipped
 # * bundler gem
 # * Ruby gems required for brew-cask
 install:
-  - brew install cabextract
-  - brew install unar
-  - cmd/brew-cask.rb install Casks/adobe-air.rb
   - echo gem_install_bundler; sudo "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/gem" install bundler --bindir="/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin"
   - echo bundle; sudo "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/bundle" --system
+  - brew install caskroom/cask/brew-cask
 
 # informational feedback
 before_script:
@@ -58,13 +55,11 @@ before_script:
 
 # the test itself
 # path-quoting is different here due to YAML constraints
-# @@@ todo: setting the --seed here is an ugly temporary hack, to remain only until test-suite glitches are fixed.
 script:
-  - /System/Library/Frameworks/Ruby.framework/Versions/"${CASK_RUBY_TEST_VERSION}"/usr/bin/bundle exec "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/rake" test TESTOPTS="--seed=14830"
-  - /System/Library/Frameworks/Ruby.framework/Versions/"${CASK_RUBY_TEST_VERSION}"/usr/bin/bundle exec "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/rake" rubocop
-  - developer/bin/audit_modified_casks "${TRAVIS_BRANCH}..${TRAVIS_COMMIT}"
+  - /System/Library/Frameworks/Ruby.framework/Versions/"${CASK_RUBY_TEST_VERSION}"/usr/bin/bundle exec "/System/Library/Frameworks/Ruby.framework/Versions/${CASK_RUBY_TEST_VERSION}/usr/bin/rake" test
 
 notifications:
+  email: false
   irc:
     channels:
       - "chat.freenode.net#homebrew-cask"
@@ -72,4 +67,3 @@ notifications:
       - "(%{repository_name}) %{build_number}: %{branch}@%{commit} %{author} -> %{message} %{build_url}"
     use_notice: true
     skip_join: true
-  email: false
