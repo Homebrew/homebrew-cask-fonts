@@ -4,7 +4,8 @@ cask :v1 => 'font-amiri' do
 
   # github.com is the official download host per the vendor homepage
   url 'https://github.com/khaledhosny/amiri-font/releases/download/0.107/amiri-0.107.zip'
-  appcast 'https://github.com/khaledhosny/amiri-font/releases.atom'
+  appcast 'https://github.com/khaledhosny/amiri-font/releases.atom',
+          :sha256 => 'b04d8b1e4ee31bdda5987d1c6f7f4bba332a27b971966d455da32d9cc1f20dfb'
   homepage 'http://www.amirifont.org/'
   license :ofl
 
