@@ -3,7 +3,8 @@ cask :v1 => 'font-sarpanch' do
   sha256 '5da058f7a7686ea5ad9d2811b2063343a580bf4da3d415a947d2c37d6c5bcf07'
 
   url 'https://github.com/itfoundry/sarpanch/releases/download/v2.000/sarpanch-2_000.zip'
-  appcast 'https://github.com/itfoundry/sarpanch/releases.atom'
+  appcast 'https://github.com/itfoundry/sarpanch/releases.atom',
+          :sha256 => 'b7624a74f2a8275919bffed357df87385a5b32de8bc69e43ca072791e7993ba4'
   homepage 'https://github.com/itfoundry/sarpanch'
   license :ofl
 

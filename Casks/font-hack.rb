@@ -4,7 +4,8 @@ cask :v1 => 'font-hack' do
 
   # github.com is the official download host per the vendor homepage
   url "https://github.com/chrissimpkins/Hack/archive/v#{version}.zip"
-  appcast 'https://github.com/chrissimpkins/Hack/releases.atom'
+  appcast 'https://github.com/chrissimpkins/Hack/releases.atom',
+          :sha256 => '6eef53a835e4dd76231c1c8d58b469669d61cf5db74dde95ec77fb2f17f7cb39'
   homepage 'http://sourcefoundry.org/hack/'
   license :ofl
 

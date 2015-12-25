@@ -3,7 +3,8 @@ cask :v1 => 'font-khand' do
   sha256 '668910b4cd3487a5bbf93f6dd7259914c1596eec7fef28b08877abdbb7775226'
 
   url 'https://github.com/itfoundry/khand/releases/download/v2.000/khand-2_000.zip'
-  appcast 'https://github.com/itfoundry/khand/releases.atom'
+  appcast 'https://github.com/itfoundry/khand/releases.atom',
+          :sha256 => '7ffb8f16e434382ed985ceea0992822e2ea95ce4ce3c291f00f11e1ed0081e66'
   homepage 'https://github.com/itfoundry/khand'
   license :ofl
 

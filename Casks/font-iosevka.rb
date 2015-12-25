@@ -3,7 +3,8 @@ cask :v1 => 'font-iosevka' do
   sha256 '7e80d71207449d9316650424362441aea6c99367f6915d7f55ced3e7d7172755'
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/iosevka-#{version}.zip"
-  appcast 'https://github.com/be5invis/Iosevka/releases.atom'
+  appcast 'https://github.com/be5invis/Iosevka/releases.atom',
+          :sha256 => '14deed2491d152d97facefcded9aa182e74745521e23514989dde24f3f36363e'
   name 'Iosevka'
   homepage 'https://github.com/be5invis/Iosevka/'
   license :ofl
