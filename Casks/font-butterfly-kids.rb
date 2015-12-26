@@ -1,4 +1,4 @@
-cask :v1 => 'font-butterfly-kids' do
+cask 'font-butterfly-kids' do
   version '1.000'
   sha256 '178e37881231be18cd842ce7108d469271dd1a6e287998296ddaa197ac9d1da5'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-koulen' do
+cask 'font-koulen' do
   version '6.00'
   sha256 '3dafea7b3be54b04f5a5df716f9b74e4a28c43593c3ecc8ce99a984bce20e230'
 

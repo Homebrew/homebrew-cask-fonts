@@ -1,4 +1,4 @@
-cask :v1 => 'font-press-start2p' do
+cask 'font-press-start2p' do
   version '2.14'
   sha256 '17ec7d250ff590971a6d966b4fdc5aa04d5e39a7694f4a0becb515b6a70a7228'
 

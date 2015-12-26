@@ -1,4 +1,4 @@
-cask :v1 => 'font-fairfax' do
+cask 'font-fairfax' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-quivira' do
+cask 'font-quivira' do
   # version '4.0'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-cask :v1 => 'font-expletus-sans' do
+cask 'font-expletus-sans' do
   # version '7.029'
   version :latest
   sha256 :no_check

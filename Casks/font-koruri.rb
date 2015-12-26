@@ -1,4 +1,4 @@
-cask :v1 => 'font-koruri' do
+cask 'font-koruri' do
   version '20151021'
   sha256 '6627a5a9532efb6c6c26ae5eb9127d2bbb43db0f5decf0b9d2c77a044d4fba85'
 

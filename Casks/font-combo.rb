@@ -1,4 +1,4 @@
-cask :v1 => 'font-combo' do
+cask 'font-combo' do
   version '1.001'
   sha256 'e714674117c2864bf7407e2ebfafb11e581e97480286fa01b419adda94d08686'
 

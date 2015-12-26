@@ -1,4 +1,4 @@
-cask :v1 => 'font-stroke' do
+cask 'font-stroke' do
   version :latest
   sha256 :no_check
 

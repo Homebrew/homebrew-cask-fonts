@@ -1,4 +1,4 @@
-cask :v1 => 'font-rouge-script' do
+cask 'font-rouge-script' do
   version '1.003'
   sha256 '99de0ca969d9898687305a36f7e6dde6d30806ab7a463ebb4068dd9dd2a54fd6'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-jacques-francois' do
+cask 'font-jacques-francois' do
   version '1.003'
   sha256 '33aa3d742ee62f235016dd63f7e1ed6a3450e0d527a0e951bb1d410a47ac68cd'
 

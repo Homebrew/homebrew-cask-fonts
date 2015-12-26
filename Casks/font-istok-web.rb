@@ -1,4 +1,4 @@
-cask :v1 => 'font-istok-web' do
+cask 'font-istok-web' do
   # version '1.0'
   version :latest
   sha256 :no_check

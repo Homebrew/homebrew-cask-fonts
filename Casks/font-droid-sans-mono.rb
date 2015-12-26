@@ -1,4 +1,4 @@
-cask :v1 => 'font-droid-sans-mono' do
+cask 'font-droid-sans-mono' do
   # version '1.00'
   version :latest
   sha256 :no_check

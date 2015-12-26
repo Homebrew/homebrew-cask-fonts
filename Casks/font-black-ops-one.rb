@@ -1,4 +1,4 @@
-cask :v1 => 'font-black-ops-one' do
+cask 'font-black-ops-one' do
   version '1.002'
   sha256 '6b8f73e53eb8608c35c36c6c73d7831e68400fd5105ec363c72caf7cfc46512c'
 

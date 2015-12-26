@@ -1,4 +1,4 @@
-cask :v1 => 'font-spicy-rice' do
+cask 'font-spicy-rice' do
   version '1.000'
   sha256 'f339f9b0b3d585974ec22a374d7e0938b429c229dc0f3b3b16f34c650ab08068'
 

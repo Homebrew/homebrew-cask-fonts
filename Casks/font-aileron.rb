@@ -1,4 +1,4 @@
-cask :v1 => 'font-aileron' do
+cask 'font-aileron' do
   version :latest
   sha256 :no_check
 

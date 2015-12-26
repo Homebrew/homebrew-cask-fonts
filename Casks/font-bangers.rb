@@ -1,4 +1,4 @@
-cask :v1 => 'font-bangers' do
+cask 'font-bangers' do
   version '1.000'
   sha256 '26b97eb58096d7a7e1cf09fbb1572f80a1de2fd70e414260617974b3292489e9'
 

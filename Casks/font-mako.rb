@@ -1,4 +1,4 @@
-cask :v1 => 'font-mako' do
+cask 'font-mako' do
   version '1.000'
   sha256 'fc000a21aad2f3c7d68369a3f7ac825c897d2191149a9f916f9a936c9fffe91b'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-brawler' do
+cask 'font-brawler' do
   version '1.000'
   sha256 '69d344be8dfd2b6bb2d240f5dd4fbe916d8083497e62d5a31092665d1d98d25e'
 

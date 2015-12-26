@@ -1,4 +1,4 @@
-cask :v1 => 'font-averia-gruesa-libre' do
+cask 'font-averia-gruesa-libre' do
   version '1.001'
   sha256 '3b7a37bb73f85750b015358593baefb50a95d24635b8ca3201d018990658ce6d'
 

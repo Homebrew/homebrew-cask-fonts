@@ -1,4 +1,4 @@
-cask :v1 => 'font-ribeye' do
+cask 'font-ribeye' do
   version '1.000'
   sha256 'c384b009dba7b9c973402427716ccf2a57dc5e44b30cfda45fc0ecc5cf238bcb'
 

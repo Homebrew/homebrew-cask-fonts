@@ -1,4 +1,4 @@
-cask :v1 => 'font-noto-serif-khmer' do
+cask 'font-noto-serif-khmer' do
   version :latest
   sha256 :no_check
 

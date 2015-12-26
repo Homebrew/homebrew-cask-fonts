@@ -1,4 +1,4 @@
-cask :v1 => 'font-khmer' do
+cask 'font-khmer' do
   version '2.00'
   sha256 'cc88eae47fe7875f6a0ad2135e01e5910dacebed03445c4f8d1951f9cf69e3d1'
 

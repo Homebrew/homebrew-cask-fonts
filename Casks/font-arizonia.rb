@@ -1,4 +1,4 @@
-cask :v1 => 'font-arizonia' do
+cask 'font-arizonia' do
   version '1.003'
   sha256 '0d8968345851804a7c397c0b2042ed9f9f4d2637a73618646a2205f5e99f4a71'
 

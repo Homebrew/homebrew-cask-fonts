@@ -1,4 +1,4 @@
-cask :v1 => 'font-merriweather-sans' do
+cask 'font-merriweather-sans' do
   # version '1.003'
   version :latest
   sha256 :no_check

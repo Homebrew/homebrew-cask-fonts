@@ -1,4 +1,4 @@
-cask :v1 => 'font-ranchers' do
+cask 'font-ranchers' do
   version '1.000'
   sha256 '19568aba8965664d1bc6f5a48c24d269c97501eed87af26b912f42b6e6f22adc'
 

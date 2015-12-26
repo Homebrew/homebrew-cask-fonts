@@ -1,4 +1,4 @@
-cask :v1 => 'font-monoid' do
+cask 'font-monoid' do
   version :latest
   sha256 :no_check
 

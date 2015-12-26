@@ -1,4 +1,4 @@
-cask :v1 => 'font-mr-dafoe' do
+cask 'font-mr-dafoe' do
   version '1.000'
   sha256 'a42a3c66a709927f358243fdfcbc437bd8eb188e2ee6a680c52f5be12c670fd2'
 

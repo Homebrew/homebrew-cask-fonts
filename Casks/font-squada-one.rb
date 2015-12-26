@@ -1,4 +1,4 @@
-cask :v1 => 'font-squada-one' do
+cask 'font-squada-one' do
   version '1.001'
   sha256 '5b34a1633dbc48db3835d8a847bc475e6e0267121d3435854729ba4b407a05df'
 

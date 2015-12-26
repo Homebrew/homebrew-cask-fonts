@@ -1,4 +1,4 @@
-cask :v1 => 'font-liberation-sans' do
+cask 'font-liberation-sans' do
   version '2.00.1'
   sha256 '7890278a6cd17873c57d9cd785c2d230d9abdea837e96516019c5885dd271504'
 

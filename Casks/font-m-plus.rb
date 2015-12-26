@@ -1,4 +1,4 @@
-cask :v1 => 'font-m-plus' do
+cask 'font-m-plus' do
   version '1.059'
   sha256 '7862e113e04986646117267c4baee30aea163d43a382c14693f15287f16bbf25'
 

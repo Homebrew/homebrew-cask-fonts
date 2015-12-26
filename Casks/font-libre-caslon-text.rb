@@ -1,4 +1,4 @@
-cask :v1 => 'font-libre-caslon-text' do
+cask 'font-libre-caslon-text' do
   version '1.000'
   sha256 '491f478905d9591f6858d865bdc653798c9204d01ab1fbc03477e5f7adc09a74'
 

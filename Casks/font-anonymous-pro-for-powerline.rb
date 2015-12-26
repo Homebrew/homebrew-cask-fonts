@@ -1,4 +1,4 @@
-cask :v1 => 'font-anonymous-pro-for-powerline' do
+cask 'font-anonymous-pro-for-powerline' do
   version :latest
   sha256 :no_check
 

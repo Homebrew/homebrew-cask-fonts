@@ -1,4 +1,4 @@
-cask :v1 => 'font-kdam-thmor' do
+cask 'font-kdam-thmor' do
   version '1.10'
   sha256 'adf234c417f867e6083569b0eedcdafe68762f1bfc1233bdc6125ad5adde7dcd'
 

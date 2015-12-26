@@ -1,4 +1,4 @@
-cask :v1 => 'font-economica' do
+cask 'font-economica' do
   # version '1.101'
   version :latest
   sha256 :no_check

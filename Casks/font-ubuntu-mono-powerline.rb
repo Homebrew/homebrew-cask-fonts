@@ -1,4 +1,4 @@
-cask :v1 => 'font-ubuntu-mono-powerline' do
+cask 'font-ubuntu-mono-powerline' do
   # version '0.80'
   version :latest
   sha256 :no_check

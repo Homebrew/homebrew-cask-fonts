@@ -1,4 +1,4 @@
-cask :v1 => 'font-russo-one' do
+cask 'font-russo-one' do
   version '1.001'
   sha256 '9b1bf7208dff3aed3a893e688f46ae93eec25b7a99fc4636799120f6a0a802bb'
 

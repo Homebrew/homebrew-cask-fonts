@@ -1,4 +1,4 @@
-cask :v1 => 'font-mrs-saint-delafield' do
+cask 'font-mrs-saint-delafield' do
   version '1.001'
   sha256 '67a7abc298ce9d368b2c00fcbff52ec54be948889b8a59032ae80ca3322e5b34'
 

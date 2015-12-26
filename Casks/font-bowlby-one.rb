@@ -1,4 +1,4 @@
-cask :v1 => 'font-bowlby-one' do
+cask 'font-bowlby-one' do
   version '1.000'
   sha256 'f126ffc989945ec678659d054b5ecdd9ca2d14a768c5f25ac5c891316da3a8b3'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-tex-gyre-cursor' do
+cask 'font-tex-gyre-cursor' do
   version '2.004'
   sha256 'ae8db1c134ec5c1b8c3999116b0610a5ad1c6f47520c3b4712b9bc914458dce9'
 

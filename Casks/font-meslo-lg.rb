@@ -1,4 +1,4 @@
-cask :v1 => 'font-meslo-lg' do
+cask 'font-meslo-lg' do
   version '1.21'
   sha256 'd0bcb7668dda8fa1a0f8162d626adb434c32854e243b5bd52a717cf569af08d0'
 

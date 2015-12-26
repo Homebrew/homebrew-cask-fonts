@@ -1,4 +1,4 @@
-cask :v1 => 'font-metrophobic' do
+cask 'font-metrophobic' do
   version '1.000'
   sha256 '16c23436bdf68771702ed0adcbf2bfa33c43e51c0f15a4bfa08cd4d3832535d1'
 

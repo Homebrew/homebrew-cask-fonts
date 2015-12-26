@@ -1,4 +1,4 @@
-cask :v1 => 'font-days-one' do
+cask 'font-days-one' do
   version '1.002'
   sha256 '7b5a0e6d88696e43e95f6320613908e53d36ad854b4a18e4a1b8d1c19fdbf1fe'
 

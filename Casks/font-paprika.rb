@@ -1,4 +1,4 @@
-cask :v1 => 'font-paprika' do
+cask 'font-paprika' do
   version '1.001'
   sha256 '9d531f94e4b4ba2e9ccf79026cb2905923a369af8bf14637e1c1436d3854aca8'
 

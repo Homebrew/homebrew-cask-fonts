@@ -1,4 +1,4 @@
-cask :v1 => 'font-dukor' do
+cask 'font-dukor' do
   version '1.007'
   sha256 '15933e2f71c4db80f55189ee05957e87af26e517333b33df7b2c4b528a2848f4'
 

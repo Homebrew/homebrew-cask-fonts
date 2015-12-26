@@ -1,4 +1,4 @@
-cask :v1 => 'font-african-sans' do
+cask 'font-african-sans' do
   version '9.380'
   sha256 '66176e5517ace047affc23ca7b7137018c907eee00b113666a671f31254ac7a4'
 

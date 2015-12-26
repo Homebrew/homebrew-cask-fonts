@@ -1,4 +1,4 @@
-cask :v1 => 'font-sue-ellen-francisco' do
+cask 'font-sue-ellen-francisco' do
   version '1.002'
   sha256 '71790cdeb69ec4081bea5ca4721c5510f31fd441afcd66e83bdd881b14ddd3e8'
 

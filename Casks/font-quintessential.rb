@@ -1,4 +1,4 @@
-cask :v1 => 'font-quintessential' do
+cask 'font-quintessential' do
   version '1.000'
   sha256 '73d192f10dbfc716214aae282afb93036f12415d16adc9d6d0e981f34d829d32'
 

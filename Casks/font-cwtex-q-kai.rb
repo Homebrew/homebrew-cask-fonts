@@ -1,4 +1,4 @@
-cask :v1 => 'font-cwtex-q-kai' do
+cask 'font-cwtex-q-kai' do
   version '0.1'
   sha256 'c48063a3ff6834a8e68167438f560ce8cfd73fcd8c350addec0fdcabad2df6d5'
 

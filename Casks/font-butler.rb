@@ -1,4 +1,4 @@
-cask :v1 => 'font-butler' do
+cask 'font-butler' do
   version :latest
   sha256 :no_check
 

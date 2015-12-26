@@ -1,4 +1,4 @@
-cask :v1 => 'font-noto-sans-tagbanwa' do
+cask 'font-noto-sans-tagbanwa' do
   version :latest
   sha256 :no_check
 

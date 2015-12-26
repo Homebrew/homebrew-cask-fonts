@@ -1,4 +1,4 @@
-cask :v1 => 'font-han-nom-a' do
+cask 'font-han-nom-a' do
   version '2.0'
   sha256 '428a31ff62e26dc33080789f8d49c39ac529dbfdbcfd50825f78cbd0903a3936'
 

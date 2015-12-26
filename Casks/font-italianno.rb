@@ -1,4 +1,4 @@
-cask :v1 => 'font-italianno' do
+cask 'font-italianno' do
   version '1.003'
   sha256 'd5987ea9f323bafd7e35282e0ee938aca0a2986ca56100e657cce3a0c7f23755'
 

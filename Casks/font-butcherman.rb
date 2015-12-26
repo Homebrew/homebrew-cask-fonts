@@ -1,4 +1,4 @@
-cask :v1 => 'font-butcherman' do
+cask 'font-butcherman' do
   version '001.003'
   sha256 '318ede30dfc470680e7a8cc3cbd366de19c258dd1100c1217a35ee99d7e15457'
 

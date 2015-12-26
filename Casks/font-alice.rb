@@ -1,4 +1,4 @@
-cask :v1 => 'font-alice' do
+cask 'font-alice' do
   version '1.010'
   sha256 '8412b3b90ccac933ca63e1b9281db33d85f0deda8cfac80d7657d4a4fd3d7c3a'
 

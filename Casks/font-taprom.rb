@@ -1,4 +1,4 @@
-cask :v1 => 'font-taprom' do
+cask 'font-taprom' do
   version '3.10'
   sha256 'e3f9956715ab5c3d759921571b07a0e8cbc454e5f405c456b0482867e2b146d9'
 

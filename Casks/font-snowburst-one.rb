@@ -1,4 +1,4 @@
-cask :v1 => 'font-snowburst-one' do
+cask 'font-snowburst-one' do
   version '1.001'
   sha256 'ede8110b5922b718c9b80717a4c5dcc2b4a862767d8319877983773c900bb00f'
 

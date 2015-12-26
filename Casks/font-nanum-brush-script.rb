@@ -1,4 +1,4 @@
-cask :v1 => 'font-nanum-brush-script' do
+cask 'font-nanum-brush-script' do
   version '1.100'
   sha256 '5fe0e02f74c58aa25ba49908fb6775bcb7d00d19ddd68b480b51a926f5ca12ec'
 

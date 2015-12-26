@@ -1,4 +1,4 @@
-cask :v1 => 'font-molle' do
+cask 'font-molle' do
   version '1.001'
   sha256 '4b42e36460f03b7538e8bc3533f1e807e23bfb782beb983a8bff0d38e6ffa2b8'
 

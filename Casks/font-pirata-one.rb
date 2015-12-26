@@ -1,4 +1,4 @@
-cask :v1 => 'font-pirata-one' do
+cask 'font-pirata-one' do
   version '1.001'
   sha256 '5347a2e155589ecf667d4b766613c8ee003edde9f83717fd24c09599a4b1ecc0'
 

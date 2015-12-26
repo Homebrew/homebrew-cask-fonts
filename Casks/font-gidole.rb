@@ -1,4 +1,4 @@
-cask :v1 => 'font-gidole' do
+cask 'font-gidole' do
   version :latest
   sha256 :no_check
 

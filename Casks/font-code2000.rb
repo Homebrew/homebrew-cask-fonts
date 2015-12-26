@@ -1,4 +1,4 @@
-cask :v1 => 'font-code2000' do
+cask 'font-code2000' do
   version '1.171'
   sha256 'af00db49179aaea66494a6b9cad3ae7f2b822bf650df3133c07f9c3209cbc8e2'
 

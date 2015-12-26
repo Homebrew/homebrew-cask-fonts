@@ -1,4 +1,4 @@
-cask :v1 => 'font-masinahikan-dene' do
+cask 'font-masinahikan-dene' do
   version :latest
   sha256 :no_check
   # version '1.000'

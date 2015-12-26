@@ -1,4 +1,4 @@
-cask :v1 => 'font-scada' do
+cask 'font-scada' do
   # version '3.005'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-cask :v1 => 'font-parisienne' do
+cask 'font-parisienne' do
   version '1.000'
   sha256 'bc9ee17f022e20bc700797e5f557d14bfa43af0c98d9e6c9c5c1ca4ec7aacd57'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-eeyek-unicode' do
+cask 'font-eeyek-unicode' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-wallpoet' do
+cask 'font-wallpoet' do
   version '1.000'
   sha256 'a49f7ea2459103a76f5437944a0148566b1ed3776513de94c3293b586610ec0c'
 

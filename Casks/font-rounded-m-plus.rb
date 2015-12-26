@@ -1,4 +1,4 @@
-cask :v1 => 'font-rounded-m-plus' do
+cask 'font-rounded-m-plus' do
   version '20140812'
   sha256 'c61d54bfdd99315d871fc672246318efd65759ecde2ea7dfdf25b85d2f032bf5'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-battambang' do
+cask 'font-battambang' do
   # version '2.00'
   version :latest
   sha256 :no_check

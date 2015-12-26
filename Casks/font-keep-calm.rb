@@ -1,4 +1,4 @@
-cask :v1 => 'font-keep-calm' do
+cask 'font-keep-calm' do
   version :latest
   sha256 :no_check
 

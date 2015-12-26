@@ -1,4 +1,4 @@
-cask :v1 => 'font-playfair-display' do
+cask 'font-playfair-display' do
   # version '1.004'
   version :latest
   sha256 :no_check

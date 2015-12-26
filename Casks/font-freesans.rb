@@ -1,4 +1,4 @@
-cask :v1 => 'font-freesans' do
+cask 'font-freesans' do
   version '0412.2268'
   sha256 '3a6c51868c71b006c33c4bcde63d90927e6fcca8f51c965b8ad62d021614a860'
 

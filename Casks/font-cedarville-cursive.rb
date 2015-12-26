@@ -1,4 +1,4 @@
-cask :v1 => 'font-cedarville-cursive' do
+cask 'font-cedarville-cursive' do
   version '1.001'
   sha256 '9c4bcd3d515b5325bc922df3ae2932a58558a36e88818ac0297d46c51772df46'
 

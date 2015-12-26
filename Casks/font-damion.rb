@@ -1,4 +1,4 @@
-cask :v1 => 'font-damion' do
+cask 'font-damion' do
   version '1.000'
   sha256 '9de51427297db717072b0d3adb07b7f90b8fa4d31a0463ad1ea674fa60e67666'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-padauk' do
+cask 'font-padauk' do
   # version '2.8'
   version :latest
   sha256 :no_check

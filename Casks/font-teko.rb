@@ -1,4 +1,4 @@
-cask :v1 => 'font-teko' do
+cask 'font-teko' do
   version '2.000'
   sha256 '189cfd7d5f75ef206da039795574a0e66cf2daa3d1b31405c0fda7d70e6ac802'
 

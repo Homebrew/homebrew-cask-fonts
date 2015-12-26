@@ -1,4 +1,4 @@
-cask :v1 => 'font-porter-sans-block' do
+cask 'font-porter-sans-block' do
   version '1.000'
   sha256 '4ee2175bfeca80bb4a6c20d07b598bfae0972f052bfc6616a18497c60b24abb8'
 

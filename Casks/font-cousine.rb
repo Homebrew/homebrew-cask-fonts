@@ -1,4 +1,4 @@
-cask :v1 => 'font-cousine' do
+cask 'font-cousine' do
   # version '1.21'
   version :latest
   sha256 :no_check

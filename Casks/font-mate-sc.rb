@@ -1,4 +1,4 @@
-cask :v1 => 'font-mate-sc' do
+cask 'font-mate-sc' do
   version '1.002'
   sha256 '34b45aaf5e62836b14daef5867aadf3d378e1665f3bfe50e99be20284e1c5875'
 

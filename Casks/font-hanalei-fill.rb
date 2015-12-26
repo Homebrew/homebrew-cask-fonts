@@ -1,4 +1,4 @@
-cask :v1 => 'font-hanalei-fill' do
+cask 'font-hanalei-fill' do
   version '1.000'
   sha256 '1916f208a0e8c2d1b9535e26f8f77e45b641e98f9bf16e809cdd478367b641db'
 

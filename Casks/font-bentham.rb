@@ -1,4 +1,4 @@
-cask :v1 => 'font-bentham' do
+cask 'font-bentham' do
   version '002.001'
   sha256 '40e607c31bbd253acc04a7f0772d2a4c1cbd693771f5c3585ce255522057a524'
 

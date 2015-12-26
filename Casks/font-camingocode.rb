@@ -1,4 +1,4 @@
-cask :v1 => 'font-camingocode' do
+cask 'font-camingocode' do
   version '1.000'
   sha256 '13b188ca8d1b5fe2c3ba880771f20a6faac550405ae98d12edd46240f8896714'
 

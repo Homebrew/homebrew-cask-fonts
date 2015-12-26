@@ -1,4 +1,4 @@
-cask :v1 => 'font-inconsolata-dz' do
+cask 'font-inconsolata-dz' do
   version :latest
   sha256 :no_check
 

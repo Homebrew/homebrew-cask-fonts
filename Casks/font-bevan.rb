@@ -1,4 +1,4 @@
-cask :v1 => 'font-bevan' do
+cask 'font-bevan' do
   version '1.000'
   sha256 '98cce652180706f654801d591295fa0f9013c676f1d49c98ccd70d8965a86cdf'
 

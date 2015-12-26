@@ -1,4 +1,4 @@
-cask :v1 => 'font-rupakara' do
+cask 'font-rupakara' do
   version '1.004'
   sha256 'd6ad49842444846ad0ef2ea40d471533993a3137a7aceacbb28b5a8d89aaddc0'
 

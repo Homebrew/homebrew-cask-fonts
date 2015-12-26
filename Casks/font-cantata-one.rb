@@ -1,4 +1,4 @@
-cask :v1 => 'font-cantata-one' do
+cask 'font-cantata-one' do
   version '1.002'
   sha256 'e12df35ae88a3e0898422110301e0b7ff4c54a4c129b92077ae7f456f45ba3db'
 

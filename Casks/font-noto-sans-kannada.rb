@@ -1,4 +1,4 @@
-cask :v1 => 'font-noto-sans-kannada' do
+cask 'font-noto-sans-kannada' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-passion-one' do
+cask 'font-passion-one' do
   # version '1.001'
   version :latest
   sha256 :no_check

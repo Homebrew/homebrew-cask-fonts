@@ -1,4 +1,4 @@
-cask :v1 => 'font-tauri' do
+cask 'font-tauri' do
   version '1.003'
   sha256 'fca89fc675b89363e550b1308eeede7fa0f5f4e1eb2bf9b9bb5d432c01817a39'
 

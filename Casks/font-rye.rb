@@ -1,4 +1,4 @@
-cask :v1 => 'font-rye' do
+cask 'font-rye' do
   version '1.001'
   sha256 'b7edee5e615ae1b6b07e9d030c1309152bf3672a0e8a2a46293e273730f5adba'
 

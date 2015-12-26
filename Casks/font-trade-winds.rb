@@ -1,4 +1,4 @@
-cask :v1 => 'font-trade-winds' do
+cask 'font-trade-winds' do
   version '1.000'
   sha256 'b8d8ac0be4a262e8473b25b8b7f90d5909c8780648285b3edc44b5dff6341bb0'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-smythe' do
+cask 'font-smythe' do
   version '1.000'
   sha256 '51207abbe4ef2d576b3033e95fc5bd30282c0db766807e1b8ae3f19d2540e11c'
 

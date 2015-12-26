@@ -1,4 +1,4 @@
-cask :v1 => 'font-dorsa' do
+cask 'font-dorsa' do
   version '1.002'
   sha256 'd204db5ceb2d028529f9701fab1bf99a7f6b1f555cda5bffe51072ec1409e3c7'
 

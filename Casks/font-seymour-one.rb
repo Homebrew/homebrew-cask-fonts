@@ -1,4 +1,4 @@
-cask :v1 => 'font-seymour-one' do
+cask 'font-seymour-one' do
   version '1.000'
   sha256 '6383dc12a972ecbc64efc60d9576c8d671eac4dd8c98d0b237082e0ef0cda49e'
 

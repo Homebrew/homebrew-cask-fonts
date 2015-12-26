@@ -1,4 +1,4 @@
-cask :v1 => 'font-romanesco' do
+cask 'font-romanesco' do
   version '1.000'
   sha256 '2af822e2e972a6552572667f73fee23adb4f146db97f89edfe6ad722d0c16076'
 

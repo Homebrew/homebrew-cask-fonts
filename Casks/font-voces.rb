@@ -1,4 +1,4 @@
-cask :v1 => 'font-voces' do
+cask 'font-voces' do
   version '1.001'
   sha256 '47246f5c1d5104a2c9775a1e20b48a83d37f13cf2cd3c4a380414d85a572f1d1'
 

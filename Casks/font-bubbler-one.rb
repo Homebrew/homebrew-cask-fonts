@@ -1,4 +1,4 @@
-cask :v1 => 'font-bubbler-one' do
+cask 'font-bubbler-one' do
   version '1.001'
   sha256 'edac030414f2886208051882025f32327de07620552239c3e5e8cbe7128d876b'
 

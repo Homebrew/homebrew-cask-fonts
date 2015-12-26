@@ -1,4 +1,4 @@
-cask :v1 => 'font-kayases' do
+cask 'font-kayases' do
   version :latest
   sha256 :no_check
   # version '001.000'

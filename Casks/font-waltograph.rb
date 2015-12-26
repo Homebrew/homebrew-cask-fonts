@@ -1,4 +1,4 @@
-cask :v1 => 'font-waltograph' do
+cask 'font-waltograph' do
   # version '4.2'
   version :latest
   sha256 :no_check

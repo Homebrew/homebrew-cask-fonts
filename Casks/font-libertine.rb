@@ -1,4 +1,4 @@
-cask :v1 => 'font-libertine' do
+cask 'font-libertine' do
   version :latest
   sha256 :no_check
 

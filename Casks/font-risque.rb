@@ -1,4 +1,4 @@
-cask :v1 => 'font-risque' do
+cask 'font-risque' do
   version '1.000'
   sha256 '84b3d76741a27e63c66af80c24dee25ed58172751d0fcb3a5f4bd582676bfabd'
 

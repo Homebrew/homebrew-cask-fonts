@@ -1,4 +1,4 @@
-cask :v1 => 'font-bokor' do
+cask 'font-bokor' do
   version '6.00'
   sha256 '38cdf211841f75b4e35ed40a017ef46f389b7e87260dc79ef7fcbce448940d53'
 

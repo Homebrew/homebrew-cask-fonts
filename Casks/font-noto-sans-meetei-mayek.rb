@@ -1,4 +1,4 @@
-cask :v1 => 'font-noto-sans-meetei-mayek' do
+cask 'font-noto-sans-meetei-mayek' do
   version :latest
   sha256 :no_check
 

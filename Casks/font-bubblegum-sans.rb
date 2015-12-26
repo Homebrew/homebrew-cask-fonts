@@ -1,4 +1,4 @@
-cask :v1 => 'font-bubblegum-sans' do
+cask 'font-bubblegum-sans' do
   version '1.001'
   sha256 '36998d80f145a3c2949c042ba7e66813cda11a339f33b956d5ae195850afd924'
 

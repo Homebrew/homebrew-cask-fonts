@@ -1,4 +1,4 @@
-cask :v1 => 'font-sacramento' do
+cask 'font-sacramento' do
   version '1.000'
   sha256 '9341fda10adbfeb7efc94302b34507a3e227d7e7f5c432df3f5ac8753ff73d24'
 

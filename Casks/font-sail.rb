@@ -1,4 +1,4 @@
-cask :v1 => 'font-sail' do
+cask 'font-sail' do
   version '1.002'
   sha256 '0ec9a9e84f5570258d319a26bce92adadc4998ceacc4d95b63687c9da4164f65'
 

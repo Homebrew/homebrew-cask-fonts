@@ -1,4 +1,4 @@
-cask :v1 => 'font-maven-pro' do
+cask 'font-maven-pro' do
   # version '1.003'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-cask :v1 => 'font-montaga' do
+cask 'font-montaga' do
   version '1.001'
   sha256 '2f84c4a9ee4921dd629ad55c0003e5f15448737884dea1c3ffd9aacaf3b476a0'
 

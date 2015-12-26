@@ -1,4 +1,4 @@
-cask :v1 => 'font-satisfy' do
+cask 'font-satisfy' do
   version '1.000'
   sha256 'db0fc4a5d91d36a522c1deaa4e286ff9889960404d600756476f7c7deb1c9b7c'
 

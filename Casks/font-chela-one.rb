@@ -1,4 +1,4 @@
-cask :v1 => 'font-chela-one' do
+cask 'font-chela-one' do
   version '1.001'
   sha256 '499f6372a051296bf2cf5848c269bec52b06f7b3897a79a9cab91a0a3355fe19'
 

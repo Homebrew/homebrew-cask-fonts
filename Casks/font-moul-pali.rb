@@ -1,4 +1,4 @@
-cask :v1 => 'font-moul-pali' do
+cask 'font-moul-pali' do
   version '6.00'
   sha256 '729290c19670f6d26570420271dbc8b7e39be540b30e3a27fc7fd09b65d841f6'
 

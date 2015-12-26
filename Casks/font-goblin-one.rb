@@ -1,4 +1,4 @@
-cask :v1 => 'font-goblin-one' do
+cask 'font-goblin-one' do
   version '1.001'
   sha256 '26a15eafd8911f547e846066a1eea0521af2d870d6f17b8ecf0741768b99d099'
 

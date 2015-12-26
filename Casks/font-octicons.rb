@@ -1,4 +1,4 @@
-cask :v1 => 'font-octicons' do
+cask 'font-octicons' do
   version :latest
   sha256 :no_check
 

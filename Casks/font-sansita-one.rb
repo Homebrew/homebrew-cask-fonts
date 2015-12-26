@@ -1,4 +1,4 @@
-cask :v1 => 'font-sansita-one' do
+cask 'font-sansita-one' do
   version '1.001'
   sha256 '54348a413f7689d40f4505daa093fc8ef1bba9bede83e95760631f72ed33c253'
 

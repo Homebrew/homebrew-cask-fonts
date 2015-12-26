@@ -1,4 +1,4 @@
-cask :v1 => 'font-atomic-age' do
+cask 'font-atomic-age' do
   version '1.002'
   sha256 'cd442d3f9819d9b9d5b89fbbf5a212039783491ad820200bef1cd7518ff63774'
 

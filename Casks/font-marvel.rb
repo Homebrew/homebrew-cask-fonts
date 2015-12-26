@@ -1,4 +1,4 @@
-cask :v1 => 'font-marvel' do
+cask 'font-marvel' do
   # version '1.001'
   version :latest
   sha256 :no_check

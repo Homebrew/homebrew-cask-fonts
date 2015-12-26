@@ -1,4 +1,4 @@
-cask :v1 => 'font-dr-sugiyama' do
+cask 'font-dr-sugiyama' do
   version '1.000'
   sha256 '8436c1eae3a06126a6e0aa85b1dffb1b507d39eab7b6512a9bb1adc5d514d9b9'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-swanky-and-moo-moo' do
+cask 'font-swanky-and-moo-moo' do
   version '1.002'
   sha256 'a745effa8961790717966f7c69d96756a7abe2d334a08be333a656b7c54b627f'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-trykker' do
+cask 'font-trykker' do
   version '1.001'
   sha256 'bb5601709cfa4c0b28725afd45025afc79310738886d89ced9caa36164bd217a'
 

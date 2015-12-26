@@ -1,4 +1,4 @@
-cask :v1 => 'font-adinatha-tamil-brahmi' do
+cask 'font-adinatha-tamil-brahmi' do
   version :latest
   sha256 :no_check
 

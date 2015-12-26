@@ -1,4 +1,4 @@
-cask :v1 => 'font-vampiro-one' do
+cask 'font-vampiro-one' do
   version '1.000'
   sha256 '2a1941f6a2e63c8399cfeb9bea82bfb23caf632636d46552e651ba5803f6cd62'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-cherry-cream-soda' do
+cask 'font-cherry-cream-soda' do
   version '1.000'
   sha256 'b73095102defba4686605019a0d05444ce922b2db6338963f047de3541b16e86'
 

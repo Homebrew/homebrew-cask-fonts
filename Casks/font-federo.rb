@@ -1,4 +1,4 @@
-cask :v1 => 'font-federo' do
+cask 'font-federo' do
   version '1.000'
   sha256 '5284628c38309ec5046a6bf231e038eaf84c46df03602690607af56cac2b9bc7'
 

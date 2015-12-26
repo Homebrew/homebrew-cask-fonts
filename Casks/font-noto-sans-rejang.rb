@@ -1,4 +1,4 @@
-cask :v1 => 'font-noto-sans-rejang' do
+cask 'font-noto-sans-rejang' do
   version :latest
   sha256 :no_check
 

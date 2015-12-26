@@ -1,4 +1,4 @@
-cask :v1 => 'font-carter-one' do
+cask 'font-carter-one' do
   version '1.000'
   sha256 '9267b32e571924b5977a3bfb068726603a1eecf2af8dadbc4262e943b53959c8'
 

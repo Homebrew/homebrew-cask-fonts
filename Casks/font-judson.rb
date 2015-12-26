@@ -1,4 +1,4 @@
-cask :v1 => 'font-judson' do
+cask 'font-judson' do
   # version '20110429'
   version :latest
   sha256 :no_check

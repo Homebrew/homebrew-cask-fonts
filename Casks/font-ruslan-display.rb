@@ -1,4 +1,4 @@
-cask :v1 => 'font-ruslan-display' do
+cask 'font-ruslan-display' do
   version '1.000'
   sha256 '6d123f70ba14be9997fd6dcc05d5c0b6ea12d6141de35618de7aa6af970bd4c4'
 

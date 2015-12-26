@@ -1,4 +1,4 @@
-cask :v1 => 'font-league-script' do
+cask 'font-league-script' do
   version '1.0'
   sha256 '59c5ec3f328710bf5e87e13187747ee0eae046075f347de4e7ea9bdae0ba1a2b'
 

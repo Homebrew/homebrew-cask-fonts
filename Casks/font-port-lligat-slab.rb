@@ -1,4 +1,4 @@
-cask :v1 => 'font-port-lligat-slab' do
+cask 'font-port-lligat-slab' do
   version '1.002'
   sha256 '70edb02d7c38cde09b379f9101322fb93189a35276e79eb15c240780bd3b4af7'
 

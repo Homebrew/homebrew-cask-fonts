@@ -1,4 +1,4 @@
-cask :v1 => 'font-finger-paint' do
+cask 'font-finger-paint' do
   version '1.001'
   sha256 '56740a7e370e2d111d300bd4f740964a0b17e2f1930029ee216f15c8d67935f5'
 

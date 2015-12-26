@@ -1,4 +1,4 @@
-cask :v1 => 'font-tharlon' do
+cask 'font-tharlon' do
   version '1.002'
   sha256 'e07315f6fe0df481f4dfbddf276d7962ea0738aae7916c206ec37adc2ecb94d7'
 

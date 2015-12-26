@@ -1,4 +1,4 @@
-cask :v1 => 'font-souliyo-unicode' do
+cask 'font-souliyo-unicode' do
   version '1.00'
   sha256 '670b32212a405c987e8f0a31bac7b51ed73fa43f1a2d5750bc833c00d5b352cc'
 

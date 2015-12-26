@@ -1,4 +1,4 @@
-cask :v1 => 'font-francois-one' do
+cask 'font-francois-one' do
   version '1.000'
   sha256 'e23503bc0d85fe629f8470d3a4333aa832167378ee1338cc614bf6b9b1b3f997'
 

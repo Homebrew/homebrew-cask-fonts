@@ -1,4 +1,4 @@
-cask :v1 => 'font-balthazar' do
+cask 'font-balthazar' do
   version '1.000'
   sha256 '4aa52d4d4a747b7688bdba35c764a7006d4d2915e6159aa1b8c979c9f4dc7b2d'
 

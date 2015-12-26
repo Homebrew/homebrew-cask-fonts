@@ -1,4 +1,4 @@
-cask :v1 => 'font-fontdiner-swanky' do
+cask 'font-fontdiner-swanky' do
   version '1.000'
   sha256 'bc56285ce814a8d119e89d1f669b743702088e816b274a830f411b358d4fd10b'
 

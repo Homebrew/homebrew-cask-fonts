@@ -1,4 +1,4 @@
-cask :v1 => 'font-ovo' do
+cask 'font-ovo' do
   version '1.001'
   sha256 '8d4f113ada748f44d005371bee5692e58950a84e6068b74f54710e280a29f389'
 

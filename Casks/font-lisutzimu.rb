@@ -1,4 +1,4 @@
-cask :v1 => 'font-lisutzimu' do
+cask 'font-lisutzimu' do
   version '1.0'
   sha256 '15948eaee1c56b88e04fd17d8520cfe2cd4112a3b4dc2961e2adbc5a4e616ebd'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-unica-one' do
+cask 'font-unica-one' do
   version '1.001'
   sha256 'b61df83878f3bb84956eae118c870aea30b88e7508ce419c00f79e65e4da1add'
 

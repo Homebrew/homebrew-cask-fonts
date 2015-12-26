@@ -1,4 +1,4 @@
-cask :v1 => 'font-chelsea-market' do
+cask 'font-chelsea-market' do
   version '1.001'
   sha256 '7243be29a2d74e6a826e1091f74c89e58cc8010047c6db8de13f616e81b1f5f2'
 

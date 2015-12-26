@@ -1,4 +1,4 @@
-cask :v1 => 'font-odormeanchey' do
+cask 'font-odormeanchey' do
   version '6.00'
   sha256 'd6f88861db4db30dc7ed15251610bc992a27839c86bd559bf5ec9a9c9518c013'
 

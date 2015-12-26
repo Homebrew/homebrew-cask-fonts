@@ -1,4 +1,4 @@
-cask :v1 => 'font-doppio-one' do
+cask 'font-doppio-one' do
   version '1.002'
   sha256 '2686a4eadfad03961f63e8474798a8b591d531aaa1bde6923481565830b19d9e'
 

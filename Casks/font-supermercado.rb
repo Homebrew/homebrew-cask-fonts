@@ -1,4 +1,4 @@
-cask :v1 => 'font-supermercado' do
+cask 'font-supermercado' do
   version '1.002'
   sha256 '73e1f6c46e4f94949df8394a5dc207a5ae4c75b94d19b012c7b8eaa67dca3750'
 

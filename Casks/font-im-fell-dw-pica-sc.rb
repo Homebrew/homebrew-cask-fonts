@@ -1,4 +1,4 @@
-cask :v1 => 'font-im-fell-dw-pica-sc' do
+cask 'font-im-fell-dw-pica-sc' do
   version '3.00'
   sha256 '7fc01c056b20956bf2e84375340a6274332b67f7845cbbb479fe0b90b41f845d'
 

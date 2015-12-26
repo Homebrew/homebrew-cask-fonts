@@ -1,4 +1,4 @@
-cask :v1 => 'font-stalemate' do
+cask 'font-stalemate' do
   version '001.000'
   sha256 '36b8c2f2777cfcca17815e63636f749b398062310c089e6c9fe2a65290c7e579'
 
