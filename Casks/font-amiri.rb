@@ -1,4 +1,4 @@
-cask :v1 => 'font-amiri' do
+cask 'font-amiri' do
   version '0.107'
   sha256 '7e81fa2844ded0d7839dc8eedcc4f7ece3688b9cd9ac9b3fd806340cdcef5463'
 

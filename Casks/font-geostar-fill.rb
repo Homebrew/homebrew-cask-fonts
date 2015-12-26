@@ -1,4 +1,4 @@
-cask :v1 => 'font-geostar-fill' do
+cask 'font-geostar-fill' do
   version '1.002'
   sha256 'f09acdc20fa02f320e97046f618cb5e424d12d97a19d4746f05ea15371de12a8'
 

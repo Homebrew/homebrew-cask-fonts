@@ -1,4 +1,4 @@
-cask :v1 => 'font-pt-serif' do
+cask 'font-pt-serif' do
   version '1.002'
   sha256 '7a6f5fd596307a3f1b145c2383f7ae61abc417e7f8d5ba068295ef1c182a7474'
 

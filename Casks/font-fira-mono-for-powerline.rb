@@ -1,4 +1,4 @@
-cask :v1 => 'font-fira-mono-for-powerline' do
+cask 'font-fira-mono-for-powerline' do
   version :latest
   sha256 :no_check
 

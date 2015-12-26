@@ -1,4 +1,4 @@
-cask :v1 => 'font-joti-one' do
+cask 'font-joti-one' do
   version '1.001'
   sha256 '6d31399c9aca62e6bf47d7f2949e1a77249500ba0157037346bd61ddb5bcbf00'
 

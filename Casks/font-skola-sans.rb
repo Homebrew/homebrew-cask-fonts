@@ -1,4 +1,4 @@
-cask :v1 => 'font-skola-sans' do
+cask 'font-skola-sans' do
   version :latest
   sha256 :no_check
 

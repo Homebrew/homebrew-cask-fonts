@@ -1,4 +1,4 @@
-cask :v1 => 'font-work-sans' do
+cask 'font-work-sans' do
   version '1.32'
   sha256 'fae62ccbed372d1e1834fbc12644f2b8db6e5e6dee8612fd17191967ac68ef9b'
 

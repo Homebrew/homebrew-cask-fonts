@@ -1,4 +1,4 @@
-cask :v1 => 'font-over-the-rainbow' do
+cask 'font-over-the-rainbow' do
   version '1.002'
   sha256 '62a232ccaa3f1a0b575947a88d1355c5e4c55f5e0ce65307ab91ea958915c3d3'
 

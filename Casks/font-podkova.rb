@@ -1,4 +1,4 @@
-cask :v1 => 'font-podkova' do
+cask 'font-podkova' do
   # version '1.002'
   version :latest
   sha256 :no_check

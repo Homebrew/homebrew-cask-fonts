@@ -1,4 +1,4 @@
-cask :v1 => 'font-myricam' do
+cask 'font-myricam' do
   version :latest
   sha256 :no_check
 

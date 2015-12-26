@@ -1,4 +1,4 @@
-cask :v1 => 'font-graduate' do
+cask 'font-graduate' do
   version '1.001'
   sha256 '20f76f4193a1dc20ce64d7291ec0b88ebfdfdd2cf3e8cb87a9a3fbe530735d57'
 

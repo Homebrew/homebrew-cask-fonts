@@ -1,4 +1,4 @@
-cask :v1 => 'font-skiplegday' do
+cask 'font-skiplegday' do
   version :latest
   sha256 :no_check
 

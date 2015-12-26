@@ -1,4 +1,4 @@
-cask :v1 => 'font-roboto-condensed' do
+cask 'font-roboto-condensed' do
   version :latest
   sha256 :no_check
 

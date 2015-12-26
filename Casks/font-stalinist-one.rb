@@ -1,4 +1,4 @@
-cask :v1 => 'font-stalinist-one' do
+cask 'font-stalinist-one' do
   version '3.002'
   sha256 '186cd0cb9aeb4dd1ae07b54d3a6f14410f58b7a8f3933de5ceb857ad1db6184c'
 

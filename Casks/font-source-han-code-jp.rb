@@ -1,4 +1,4 @@
-cask :v1 => 'font-source-han-code-jp' do
+cask 'font-source-han-code-jp' do
   version '2.000'
   sha256 '44fd60c59052d0a10d1b48ab1f340ae96e28d363c164993525b515085d13d5ba'
 

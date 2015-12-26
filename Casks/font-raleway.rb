@@ -1,4 +1,4 @@
-cask :v1 => 'font-raleway' do
+cask 'font-raleway' do
   # version '3.000'
   version :latest
   sha256 :no_check

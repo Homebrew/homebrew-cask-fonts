@@ -1,4 +1,4 @@
-cask :v1 => 'font-alegreya-sans' do
+cask 'font-alegreya-sans' do
   # version '1.000'
   version :latest
   sha256 :no_check

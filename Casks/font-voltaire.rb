@@ -1,4 +1,4 @@
-cask :v1 => 'font-voltaire' do
+cask 'font-voltaire' do
   version '1.003'
   sha256 '5764e3b5853a61ab69005f24e7105adccfb77b8b7dee115ca2cf34042916ef32'
 

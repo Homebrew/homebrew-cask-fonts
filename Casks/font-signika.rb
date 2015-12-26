@@ -1,4 +1,4 @@
-cask :v1 => 'font-signika' do
+cask 'font-signika' do
   version :latest
   sha256 :no_check
 

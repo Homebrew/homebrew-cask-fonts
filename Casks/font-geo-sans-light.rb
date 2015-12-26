@@ -1,4 +1,4 @@
-cask :v1 => 'font-geo-sans-light' do
+cask 'font-geo-sans-light' do
   version :latest
   sha256 :no_check
 

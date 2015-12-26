@@ -1,4 +1,4 @@
-cask :v1 => 'font-faster-one' do
+cask 'font-faster-one' do
   version '1.001'
   sha256 'bf1fc9be65aad5c5cb3fe2ac8617897d6d9d5a449748cc7a2460c200998f4ef1'
 

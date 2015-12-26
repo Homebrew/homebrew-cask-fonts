@@ -1,4 +1,4 @@
-cask :v1 => 'font-stint-ultra-expanded' do
+cask 'font-stint-ultra-expanded' do
   version '1.000'
   sha256 '82b0ec50644e8824100a32085c7136aeb79b2dc9a81804aefc82c3c9337f8a6f'
 

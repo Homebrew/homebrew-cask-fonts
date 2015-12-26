@@ -1,4 +1,4 @@
-cask :v1 => 'font-happy-monkey' do
+cask 'font-happy-monkey' do
   version '1.001'
   sha256 '154d17efd5043e9f76ea4b8a15743fe19634c7adbe3531d6af68bec8a0c7fad3'
 

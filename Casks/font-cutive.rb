@@ -1,4 +1,4 @@
-cask :v1 => 'font-cutive' do
+cask 'font-cutive' do
   version '1.002'
   sha256 '56a2225b8562fe2ef80fa43018d7ffeea9c063fdf6d7e8d2a7eb92c67440737c'
 

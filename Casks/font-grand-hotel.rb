@@ -1,4 +1,4 @@
-cask :v1 => 'font-grand-hotel' do
+cask 'font-grand-hotel' do
   version '001.000'
   sha256 'ec7ae65d49c936cb5ed32534ab74dbd40c56733de5145ac3aae9da362e02b50f'
 

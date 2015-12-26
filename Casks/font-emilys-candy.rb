@@ -1,4 +1,4 @@
-cask :v1 => 'font-emilys-candy' do
+cask 'font-emilys-candy' do
   version '1.000'
   sha256 '0cf3ca9dbe71b33596e8a1eb12b40deac2e6414fe5616dda50c554580b6e0c68'
 

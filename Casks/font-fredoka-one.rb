@@ -1,4 +1,4 @@
-cask :v1 => 'font-fredoka-one' do
+cask 'font-fredoka-one' do
   version '1.001'
   sha256 'a2fbb1416510efe20330272bc182d667efe1507db5faecde893084fb15953973'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-tuffy' do
+cask 'font-tuffy' do
   version '1.28'
   sha256 'c6f9eb7a878e270b96fbb5dae7783be29710b4405c76e856de60dcfc96386e0b'
 

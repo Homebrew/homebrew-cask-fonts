@@ -1,4 +1,4 @@
-cask :v1 => 'font-petit-formal-script' do
+cask 'font-petit-formal-script' do
   version '1.001'
   sha256 '9b80a05170bac7f372b7e00bc762fe14bafd4abdeb013747b189f66525cffe89'
 

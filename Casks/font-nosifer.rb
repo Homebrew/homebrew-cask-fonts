@@ -1,4 +1,4 @@
-cask :v1 => 'font-nosifer' do
+cask 'font-nosifer' do
   version '001.002'
   sha256 '09c5ac35e34dc7a397d5f698b703c5640b59cf93d4d343ebae4f16f3859d09b8'
 

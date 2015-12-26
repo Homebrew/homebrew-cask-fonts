@@ -1,4 +1,4 @@
-cask :v1 => 'font-ledger' do
+cask 'font-ledger' do
   version '1.001'
   sha256 '4d0df6f0a3c259ca3afd3027d28d46c4cd171270f22c8c69836e5cd1f250197d'
 

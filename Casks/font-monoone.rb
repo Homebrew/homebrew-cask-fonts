@@ -1,4 +1,4 @@
-cask :v1 => 'font-monoone' do
+cask 'font-monoone' do
   # version '1.000'
   version :latest
   sha256 :no_check

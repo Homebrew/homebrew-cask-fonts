@@ -1,4 +1,4 @@
-cask :v1 => 'font-thabit' do
+cask 'font-thabit' do
   # version '0.01'
   version :latest
   sha256 :no_check

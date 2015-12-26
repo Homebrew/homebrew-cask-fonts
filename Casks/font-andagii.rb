@@ -1,4 +1,4 @@
-cask :v1 => 'font-andagii' do
+cask 'font-andagii' do
   version :latest
   sha256 :no_check
 

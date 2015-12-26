@@ -1,4 +1,4 @@
-cask :v1 => 'font-tenor-sans' do
+cask 'font-tenor-sans' do
   version '1.1'
   sha256 '350c882fa9f19927ed108371691d393d5dc1c209edde8472cab8aa8013241366'
 

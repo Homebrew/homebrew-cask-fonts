@@ -1,4 +1,4 @@
-cask :v1 => 'font-homenaje' do
+cask 'font-homenaje' do
   version '1.002'
   sha256 '053269d097fe57a9c15b8d0033573d13148873653ccd350c064c918f278289f6'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-galindo' do
+cask 'font-galindo' do
   version '1.000'
   sha256 '335a73def6a890d38e8793a81077a8e15987b1a4e5366847e138b5beb13bf0fe'
 

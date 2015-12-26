@@ -1,4 +1,4 @@
-cask :v1 => 'font-schoolbell' do
+cask 'font-schoolbell' do
   version '1.000'
   sha256 '1a3ae62329871c20600217f19f3472ba8f253c11a7df6cb9a9e6e88ced95ee0a'
 

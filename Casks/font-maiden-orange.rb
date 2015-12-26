@@ -1,4 +1,4 @@
-cask :v1 => 'font-maiden-orange' do
+cask 'font-maiden-orange' do
   version '1.000'
   sha256 'c0bddef94723070ebf184bee678f21f2edf1e7befaddb3d8495425629f237fc7'
 

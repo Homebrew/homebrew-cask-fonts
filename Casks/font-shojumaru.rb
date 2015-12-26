@@ -1,4 +1,4 @@
-cask :v1 => 'font-shojumaru' do
+cask 'font-shojumaru' do
   version '1.001'
   sha256 '8607110ef45da664861c72d95fb804c3609169ebfd2a380cb47b353a7b241c75'
 

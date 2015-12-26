@@ -1,4 +1,4 @@
-cask :v1 => 'font-seoulhangang' do
+cask 'font-seoulhangang' do
   version '1.06'
   sha256 '8b8a10a28dc628e9812fafb0533d662565ffc14387e6852da4c653ff7c11ce64'
 

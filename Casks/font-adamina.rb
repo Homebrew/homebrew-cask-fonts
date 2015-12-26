@@ -1,4 +1,4 @@
-cask :v1 => 'font-adamina' do
+cask 'font-adamina' do
   version '1.010'
   sha256 '9617e85f5b40f4a45b5fc77e74fe83197bd2805fd1f129420af4cdf669b3b436'
 

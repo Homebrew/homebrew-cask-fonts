@@ -1,4 +1,4 @@
-cask :v1 => 'font-crimson-text' do
+cask 'font-crimson-text' do
   # version '0.13'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-cask :v1 => 'font-miama' do
+cask 'font-miama' do
   version '0.32'
   sha256 '2dfff84eb0d46ac727e99438417e244d3a92e4d09b26c3039b40d640f07aba6b'
 

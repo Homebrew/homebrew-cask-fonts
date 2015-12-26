@@ -1,4 +1,4 @@
-cask :v1 => 'font-lily-script-one' do
+cask 'font-lily-script-one' do
   version '1.002'
   sha256 '191c8e3bfd653ae020cf23cd5b4c5a6a2de7412464a290e51461dd084aa62765'
 

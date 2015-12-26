@@ -1,4 +1,4 @@
-cask :v1 => 'font-oskiblackfoot' do
+cask 'font-oskiblackfoot' do
   version :latest
   sha256 :no_check
   # version '1.000'

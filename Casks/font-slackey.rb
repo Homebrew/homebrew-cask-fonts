@@ -1,4 +1,4 @@
-cask :v1 => 'font-slackey' do
+cask 'font-slackey' do
   version '1.000'
   sha256 '4dc46e960979d38e27622258f8f9a23fb1e0ba284d56666808986d598ffc380f'
 

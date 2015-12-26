@@ -1,4 +1,4 @@
-cask :v1 => 'font-peralta' do
+cask 'font-peralta' do
   version '1.000'
   sha256 '2bbd48b64ff49ca19148bbc3d6d8595f0262d8cf39809f443528754295c56c2b'
 

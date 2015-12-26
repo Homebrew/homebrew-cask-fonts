@@ -1,4 +1,4 @@
-cask :v1 => 'font-noto-sans-lepcha' do
+cask 'font-noto-sans-lepcha' do
   version :latest
   sha256 :no_check
 

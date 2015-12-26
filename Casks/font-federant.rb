@@ -1,4 +1,4 @@
-cask :v1 => 'font-federant' do
+cask 'font-federant' do
   version '1.010'
   sha256 '290b0791be935e58ea24c368ba81e683bc7bece71dc6318e4fee6a491734a9d5'
 

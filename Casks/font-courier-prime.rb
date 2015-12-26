@@ -1,4 +1,4 @@
-cask :v1 => 'font-courier-prime' do
+cask 'font-courier-prime' do
   version :latest
   sha256 :no_check
 

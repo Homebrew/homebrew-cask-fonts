@@ -1,4 +1,4 @@
-cask :v1 => 'font-noto-serif' do
+cask 'font-noto-serif' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-batak-unicode' do
+cask 'font-batak-unicode' do
   version :latest
   sha256 :no_check
 

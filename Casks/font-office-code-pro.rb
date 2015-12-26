@@ -1,4 +1,4 @@
-cask :v1 => 'font-office-code-pro' do
+cask 'font-office-code-pro' do
   version '1.004'
   sha256 '9e24d15309ead8c523ec3f0444ed9c171bba535e109c43b1dde8abfa9d359150'
 

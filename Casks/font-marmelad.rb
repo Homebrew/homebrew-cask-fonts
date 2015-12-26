@@ -1,4 +1,4 @@
-cask :v1 => 'font-marmelad' do
+cask 'font-marmelad' do
   version '1.000'
   sha256 '71238dd1a45f35b91db284d87247e42fbd19788d3ccc46b0a9c5b883ee6c7706'
 

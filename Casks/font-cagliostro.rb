@@ -1,4 +1,4 @@
-cask :v1 => 'font-cagliostro' do
+cask 'font-cagliostro' do
   version '0'
   sha256 '0d205e9a9b34691dca50064ea681404157f1747e39b592fce978b2a32bd5fb61'
 

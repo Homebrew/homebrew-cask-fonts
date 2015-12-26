@@ -1,4 +1,4 @@
-cask :v1 => 'font-mrs-sheppards' do
+cask 'font-mrs-sheppards' do
   version '1.000'
   sha256 '0fa5f282a2ad512d3d5d276fc6d4796fe4fda0fc0612d8687113d5423c8c33d8'
 

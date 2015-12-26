@@ -1,4 +1,4 @@
-cask :v1 => 'font-asset' do
+cask 'font-asset' do
   version '1.001'
   sha256 'f33dba8aace4fc69e0a98750feaf01b336f7dd5acbd7e4833fee7295fa06e1b3'
 

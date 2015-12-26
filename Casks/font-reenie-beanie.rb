@@ -1,4 +1,4 @@
-cask :v1 => 'font-reenie-beanie' do
+cask 'font-reenie-beanie' do
   version '1.000'
   sha256 '9bdbb4afa5560a7e386de9fd25f7cc172fa1c275f7f0d59699dc60841677ced9'
 

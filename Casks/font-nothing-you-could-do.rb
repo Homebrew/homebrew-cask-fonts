@@ -1,4 +1,4 @@
-cask :v1 => 'font-nothing-you-could-do' do
+cask 'font-nothing-you-could-do' do
   version '1.005'
   sha256 '1daf8cf79076bf59c5a9117b5efd6ecea35e57a05ef127fe4f95b072b8a5245d'
 

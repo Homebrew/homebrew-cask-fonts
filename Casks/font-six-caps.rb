@@ -1,4 +1,4 @@
-cask :v1 => 'font-six-caps' do
+cask 'font-six-caps' do
   version '001.000'
   sha256 '7b54a46671722fb670647c9c3951e6e618b6a9d876fc5d9ae34dfd311628ae5a'
 

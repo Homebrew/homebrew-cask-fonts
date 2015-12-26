@@ -1,4 +1,4 @@
-cask :v1 => 'font-josefin-slab' do
+cask 'font-josefin-slab' do
   # version '1.000'
   version :latest
   sha256 :no_check

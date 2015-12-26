@@ -1,4 +1,4 @@
-cask :v1 => 'font-merienda-one' do
+cask 'font-merienda-one' do
   version '1.001'
   sha256 '6fa8eb256e03872f0f8b41b317eb3ebb008abaabbad9e83e0cd1234d899c5543'
 

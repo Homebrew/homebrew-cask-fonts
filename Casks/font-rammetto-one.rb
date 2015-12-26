@@ -1,4 +1,4 @@
-cask :v1 => 'font-rammetto-one' do
+cask 'font-rammetto-one' do
   version '1.001'
   sha256 '2e42c03b2df082392e5dfe3fcb74d25b6b415eedc83794d61a97e4377208db9d'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-nova-slim' do
+cask 'font-nova-slim' do
   version '2.000'
   sha256 '78cf188017f211f64ea14fd1c946cc15dcfdec867f4759a50aff0b4350e38eed'
 

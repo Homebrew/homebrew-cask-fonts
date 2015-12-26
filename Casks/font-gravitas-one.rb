@@ -1,4 +1,4 @@
-cask :v1 => 'font-gravitas-one' do
+cask 'font-gravitas-one' do
   version '1.001'
   sha256 'b40dc45f3354f282107286acf1542072d258c717c8edf1d118ef0105f25e627b'
 

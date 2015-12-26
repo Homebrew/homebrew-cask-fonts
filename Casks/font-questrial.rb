@@ -1,4 +1,4 @@
-cask :v1 => 'font-questrial' do
+cask 'font-questrial' do
   version :latest
   sha256 :no_check
 

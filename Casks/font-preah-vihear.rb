@@ -1,4 +1,4 @@
-cask :v1 => 'font-preah-vihear' do
+cask 'font-preah-vihear' do
   version '6.00'
   sha256 'c4b725aa149e48d130cf6de5a64ef78d7a1309832b7425f6f9c4a888a0b65482'
 

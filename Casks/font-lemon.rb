@@ -1,4 +1,4 @@
-cask :v1 => 'font-lemon' do
+cask 'font-lemon' do
   version '1.002'
   sha256 '7ded93fde4589c3cc32052da187d0bcbf023dfb53af1a8b4ce847d47ad9add33'
 

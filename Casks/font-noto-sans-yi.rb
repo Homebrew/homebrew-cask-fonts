@@ -1,4 +1,4 @@
-cask :v1 => 'font-noto-sans-yi' do
+cask 'font-noto-sans-yi' do
   version :latest
   sha256 :no_check
 

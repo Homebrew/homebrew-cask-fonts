@@ -1,4 +1,4 @@
-cask :v1 => 'font-piedra' do
+cask 'font-piedra' do
   version '1.000'
   sha256 '2e9d00f94d3d78f38618250d03d3e8bccca541c956d5e0a437c62d708ef6c1da'
 

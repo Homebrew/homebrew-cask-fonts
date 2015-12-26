@@ -1,4 +1,4 @@
-cask :v1 => 'font-redressed' do
+cask 'font-redressed' do
   version '1.000'
   sha256 'a67a35787539e717c683bc92c301481eb0e64373597d7b1b3fbbe07c9144322d'
 

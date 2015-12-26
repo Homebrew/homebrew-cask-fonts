@@ -1,4 +1,4 @@
-cask :v1 => 'font-terminus' do
+cask 'font-terminus' do
   version '4.39'
   sha256 '5d8a7075757fd1a66012fafc6bd761e5b758573ea66bc1197025f1d4eb343383'
 

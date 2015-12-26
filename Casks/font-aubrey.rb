@@ -1,4 +1,4 @@
-cask :v1 => 'font-aubrey' do
+cask 'font-aubrey' do
   version '1.000'
   sha256 '0ec62a132f0f6617a75ff345b23f9741ec1f66bfd0a35694896b9a982943d74c'
 

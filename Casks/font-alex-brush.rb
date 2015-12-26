@@ -1,4 +1,4 @@
-cask :v1 => 'font-alex-brush' do
+cask 'font-alex-brush' do
   version '1.003'
   sha256 '88172fefeaea85c523d1d8c3ec8202efa8ee978cc9bcd76749aa186fa642d91e'
 

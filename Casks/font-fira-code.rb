@@ -1,4 +1,4 @@
-cask :v1 => 'font-fira-code' do
+cask 'font-fira-code' do
   version '1.101'
   sha256 'bbe851dcd681506dc44e86c425f917614016b43ad5f22de7b9d2afe819997271'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-metal-mania' do
+cask 'font-metal-mania' do
   version '1.002'
   sha256 '4b95f0e55b291990c26a7b68818b20c1b728a8be05a34982b7bb4736c46c19ea'
 

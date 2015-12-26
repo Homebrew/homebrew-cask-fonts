@@ -1,4 +1,4 @@
-cask :v1 => 'font-droid-serif-thai' do
+cask 'font-droid-serif-thai' do
   # version '1.00'
   version :latest
   sha256 :no_check

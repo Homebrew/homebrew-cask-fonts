@@ -1,4 +1,4 @@
-cask :v1 => 'font-sarina' do
+cask 'font-sarina' do
   version '1.001'
   sha256 '89c6e14d7638e48463cc6c61b2e463e3dcc5780a26197bcf7f4412d70048a4a6'
 

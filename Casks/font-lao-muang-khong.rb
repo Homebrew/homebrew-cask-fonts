@@ -1,4 +1,4 @@
-cask :v1 => 'font-lao-muang-khong' do
+cask 'font-lao-muang-khong' do
   version '1.038'
   sha256 'b5fb9f70c817f644be6e321fa556e1ad391c2c8f69f37cc826359ab9928c5f3b'
 

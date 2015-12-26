@@ -1,4 +1,4 @@
-cask :v1 => 'font-concert-one' do
+cask 'font-concert-one' do
   version '1.003'
   sha256 '1651e05fba9a75b10a5c5c5bd83de642cbd47e820a9639a3f1592c8eb5d0342c'
 

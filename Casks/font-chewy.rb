@@ -1,4 +1,4 @@
-cask :v1 => 'font-chewy' do
+cask 'font-chewy' do
   version '1.000'
   sha256 '2691bd94090be7f97b0f71b4c5198a89b6c29338f4cfe4ec8fcb3d138ac5e43f'
 

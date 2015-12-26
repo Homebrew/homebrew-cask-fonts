@@ -1,4 +1,4 @@
-cask :v1 => 'font-wendy-one' do
+cask 'font-wendy-one' do
   version '1.001'
   sha256 '2e2da0e8bb0a593656d38fc8e265c5b09b2c45b294bd23f39f135c2e36c89daf'
 

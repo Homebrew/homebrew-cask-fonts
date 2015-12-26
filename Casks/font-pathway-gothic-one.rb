@@ -1,4 +1,4 @@
-cask :v1 => 'font-pathway-gothic-one' do
+cask 'font-pathway-gothic-one' do
   version '1.001'
   sha256 '6d5673f8f12bc49599a01a7b5ad14d6f3c7a75e2cc9de1614a91ce43312b21a3'
 

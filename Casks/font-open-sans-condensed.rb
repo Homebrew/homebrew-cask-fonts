@@ -1,4 +1,4 @@
-cask :v1 => 'font-open-sans-condensed' do
+cask 'font-open-sans-condensed' do
   # version '1.11'
   version :latest
   sha256 :no_check

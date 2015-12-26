@@ -1,4 +1,4 @@
-cask :v1 => 'font-disclaimer' do
+cask 'font-disclaimer' do
   version :latest
   sha256 :no_check
 

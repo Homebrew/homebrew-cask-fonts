@@ -1,4 +1,4 @@
-cask :v1 => 'font-just-me-again-down-here' do
+cask 'font-just-me-again-down-here' do
   version '1.002'
   sha256 '0412aa1e460666d339738991b48e9f4bd51e10b6f04e2e1341fce4d2b3244c31'
 

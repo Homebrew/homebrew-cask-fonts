@@ -1,4 +1,4 @@
-cask :v1 => 'font-prociono' do
+cask 'font-prociono' do
   version '2.301'
   sha256 'cfc641117fe748d9958d9891702692da61bf86917de5039a0b31d30f78ce427a'
 

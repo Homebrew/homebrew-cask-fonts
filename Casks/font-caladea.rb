@@ -1,4 +1,4 @@
-cask :v1 => 'font-caladea' do
+cask 'font-caladea' do
   version :latest
   sha256 :no_check
 

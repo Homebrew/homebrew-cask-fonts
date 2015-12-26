@@ -1,4 +1,4 @@
-cask :v1 => 'font-n-gage' do
+cask 'font-n-gage' do
   version :latest
   sha256 :no_check
 

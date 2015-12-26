@@ -1,4 +1,4 @@
-cask :v1 => 'font-phetsarath' do
+cask 'font-phetsarath' do
   # version '1.01'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-cask :v1 => 'font-fantasque-sans-mono' do
+cask 'font-fantasque-sans-mono' do
   version '1.6.4'
   sha256 'da5a7f84ac0e1c02b49334690d7451d936691718fb1332f863eacc521816dccd'
 

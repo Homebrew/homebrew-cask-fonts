@@ -1,4 +1,4 @@
-cask :v1 => 'font-emblema-one' do
+cask 'font-emblema-one' do
   version '1.003'
   sha256 '068ab584fb9868c299776adb871cf693b21123ccfb6ed5fab98ff861d1d42bee'
 

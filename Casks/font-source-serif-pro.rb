@@ -1,4 +1,4 @@
-cask :v1 => 'font-source-serif-pro' do
+cask 'font-source-serif-pro' do
   version '1.017R'
   sha256 '778d74156b58bc1a7c7313cad2e1c35f33fb84e8674074339f5723bcc5c301d9'
 

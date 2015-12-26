@@ -1,4 +1,4 @@
-cask :v1 => 'font-fontawesome' do
+cask 'font-fontawesome' do
   version '4.5.0'
   sha256 'c6379a0215a298d11c3f55ed574c7f8c3bc5af196ebe0dac5b885d1e47105712'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-neucha' do
+cask 'font-neucha' do
   version '001.001'
   sha256 '2b7599f389460eac786cce3a348d349eba191705a95654401b0248a67a668207'
 

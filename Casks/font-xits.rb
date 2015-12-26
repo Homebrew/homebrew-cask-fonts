@@ -1,4 +1,4 @@
-cask :v1 => 'font-xits' do
+cask 'font-xits' do
   version '1.108'
   sha256 'af5e3eee5c81578810a7f2ffbf4c985d25e879e0128ea1dd6c1389a06eb36347'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-erica-one' do
+cask 'font-erica-one' do
   version '1.003'
   sha256 '4b135f75996959d65d425b7175f0944243fabe8e9d62238555ad9c9b19a17d93'
 

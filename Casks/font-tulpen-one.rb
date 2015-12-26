@@ -1,4 +1,4 @@
-cask :v1 => 'font-tulpen-one' do
+cask 'font-tulpen-one' do
   version '1.002'
   sha256 'b773d2fd30f5ef174560ce0fe05b05c6fa901e710236c4e9eea4c3f669580005'
 

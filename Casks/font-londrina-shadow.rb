@@ -1,4 +1,4 @@
-cask :v1 => 'font-londrina-shadow' do
+cask 'font-londrina-shadow' do
   version '1.001'
   sha256 '8e8fcd9dfb9dccc934ac9930ebc83a452c3c2049ffbce351b68622fe8308b10a'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-oleo-script' do
+cask 'font-oleo-script' do
   # version '1.002'
   version :latest
   sha256 :no_check

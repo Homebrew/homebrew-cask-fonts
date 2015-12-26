@@ -1,4 +1,4 @@
-cask :v1 => 'font-aboriginal-sans' do
+cask 'font-aboriginal-sans' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-jsmath' do
+cask 'font-jsmath' do
   version :latest
   sha256 :no_check
 

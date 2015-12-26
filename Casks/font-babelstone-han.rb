@@ -1,4 +1,4 @@
-cask :v1 => 'font-babelstone-han' do
+cask 'font-babelstone-han' do
   # version '1.11'
   version :latest
   sha256 :no_check

@@ -1,4 +1,4 @@
-cask :v1 => 'font-forum' do
+cask 'font-forum' do
   version '1.000'
   sha256 '5c9fbe9c4ce76d0269f5088d921d57e58082fd9c28433eacb6de95baf938adf8'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-medula-one' do
+cask 'font-medula-one' do
   version '1.002'
   sha256 'ec96fcb6468878d6ce17334214421f4c01bb97ebe0a89bee6e22352929f60f2a'
 

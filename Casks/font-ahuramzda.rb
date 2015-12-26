@@ -1,4 +1,4 @@
-cask :v1 => 'font-ahuramzda' do
+cask 'font-ahuramzda' do
   version '1.000'
   sha256 '5a8afb0b24ceeb98f1ef121406ceecb124f2a300c5ee7877a7ff6abdd697b160'
 

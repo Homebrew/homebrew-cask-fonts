@@ -1,4 +1,4 @@
-cask :v1 => 'font-modern-antiqua' do
+cask 'font-modern-antiqua' do
   version '1.0'
   sha256 '36ce0d70604b58915a29189065a1b8383d5197ba117994c87cbfd4f360831efd'
 

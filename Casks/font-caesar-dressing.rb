@@ -1,4 +1,4 @@
-cask :v1 => 'font-caesar-dressing' do
+cask 'font-caesar-dressing' do
   version '1.000'
   sha256 '009dea24a4d4a3a7e02d683087babb1738acc0b949cce38c485fab325c9e9295'
 

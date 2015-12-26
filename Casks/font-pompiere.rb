@@ -1,4 +1,4 @@
-cask :v1 => 'font-pompiere' do
+cask 'font-pompiere' do
   version '1.002'
   sha256 'e983b7f9f2d57779855a6e571fd7c335c335c4256d64d6551efea3bfb486ca6e'
 

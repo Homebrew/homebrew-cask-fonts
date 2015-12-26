@@ -1,4 +1,4 @@
-cask :v1 => 'font-walter-turncoat' do
+cask 'font-walter-turncoat' do
   version '1.000'
   sha256 'bc1ba3fcc40fd78281ba47897dc79a333dc5794b160a4c093405a7af0c6d15ff'
 

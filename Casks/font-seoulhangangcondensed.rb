@@ -1,4 +1,4 @@
-cask :v1 => 'font-seoulhangangcondensed' do
+cask 'font-seoulhangangcondensed' do
   url 'http://www.seoul.go.kr/v2012/seoul/symbol/download.php?div=Zm9udDEw'
   homepage 'http://www.seoul.go.kr/v2012/seoul/symbol/font.html'
   license :unknown

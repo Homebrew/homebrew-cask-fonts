@@ -1,4 +1,4 @@
-cask :v1 => 'font-imprima' do
+cask 'font-imprima' do
   version '1.001'
   sha256 '069f3d0c87bae5d21be3b86f1b59aad3180121a26f8db6f58e7f37d9c20b6c32'
 

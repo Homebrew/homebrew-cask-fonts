@@ -1,4 +1,4 @@
-cask :v1 => 'font-rajdhani' do
+cask 'font-rajdhani' do
   version '2.000'
   sha256 '2dd0b14ed9989319fde8518e4b596467ae635571ffe7733d7968201d8cdeb9cf'
 

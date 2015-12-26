@@ -1,4 +1,4 @@
-cask :v1 => 'font-lateef' do
+cask 'font-lateef' do
   version '1.001'
   sha256 '864ebe4b24bee6c88cb02a6169830b51b786a59a7b395fe5beccaf9f2c3f19c4'
 

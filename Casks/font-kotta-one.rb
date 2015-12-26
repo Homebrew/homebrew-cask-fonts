@@ -1,4 +1,4 @@
-cask :v1 => 'font-kotta-one' do
+cask 'font-kotta-one' do
   version '1.001'
   sha256 '17b1dd75c9ebd632b5df2b052fe5ae83139516a56e8367c5027dbbfd4ac5b184'
 

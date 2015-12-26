@@ -1,4 +1,4 @@
-cask :v1 => 'font-bitstream-vera' do
+cask 'font-bitstream-vera' do
   version '1.10'
   sha256 '1b0ba0f7af2e1d05f64e259d351965a2cb2673104a057ce715a06969c478f6cc'
 

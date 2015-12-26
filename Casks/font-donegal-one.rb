@@ -1,4 +1,4 @@
-cask :v1 => 'font-donegal-one' do
+cask 'font-donegal-one' do
   version '1.004'
   sha256 '1f9b07bbaf3813103281848f782fae74499f5dfc3b3b9f4e90ebea4aa42fbc75'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-unna' do
+cask 'font-unna' do
   version '2.003'
   sha256 'ac424ce81a707d98a87bbb304273f35d29018e9abb199af0fb76f8989f5ae8a8'
 

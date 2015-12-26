@@ -1,4 +1,4 @@
-cask :v1 => 'font-underdog' do
+cask 'font-underdog' do
   version '1.001'
   sha256 '33f9aee5b2aaeb85e1f433fb21916d0c6dbae74e23b94d978b8131bdbddc40c6'
 

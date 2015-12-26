@@ -1,4 +1,4 @@
-cask :v1 => 'font-luculent' do
+cask 'font-luculent' do
   version '1.0.0-845fa02f9341'
   sha256 'ebb1cab6fef7ec6dc27a12be48c537ab83f95928503553acef3798c9e608566a'
 

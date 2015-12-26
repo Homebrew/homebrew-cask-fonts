@@ -1,4 +1,4 @@
-cask :v1 => 'font-angkor' do
+cask 'font-angkor' do
   version '3.10'
   sha256 '9435dde7754d90813e017217c7143b92b9cfd7906926cc7c7ee6bd7a0ebb4ea1'
 

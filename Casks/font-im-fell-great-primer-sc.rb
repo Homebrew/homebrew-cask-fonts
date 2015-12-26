@@ -1,4 +1,4 @@
-cask :v1 => 'font-im-fell-great-primer-sc' do
+cask 'font-im-fell-great-primer-sc' do
   version '3.00'
   sha256 '78952e5990c83116ef01ad7402f4384b1b9bc5c6c38690d2048f16a5317ff0c4'
 

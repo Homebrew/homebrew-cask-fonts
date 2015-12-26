@@ -1,4 +1,4 @@
-cask :v1 => 'font-kavoon' do
+cask 'font-kavoon' do
   version '1.002'
   sha256 'ca39db198843f47ec04b47de4482a76e98430a974a17a958991d9cff1d0b2b35'
 

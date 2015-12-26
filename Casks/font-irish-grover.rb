@@ -1,4 +1,4 @@
-cask :v1 => 'font-irish-grover' do
+cask 'font-irish-grover' do
   version '1.000'
   sha256 'b69769714c9479443e794877117d4888dd6fe71e3a8e58184c7f4550571eef73'
 

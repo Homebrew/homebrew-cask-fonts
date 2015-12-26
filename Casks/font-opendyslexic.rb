@@ -1,4 +1,4 @@
-cask :v1 => 'font-opendyslexic' do
+cask 'font-opendyslexic' do
   version '20130616'
   sha256 'cd5e7e72832a5fd9f53abaee8188b889b1e039f39039dd641c2671ebf93f07b4'
 

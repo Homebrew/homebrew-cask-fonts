@@ -1,4 +1,4 @@
-cask :v1 => 'font-unifrakturcook' do
+cask 'font-unifrakturcook' do
   version '2011-09-01'
   sha256 'ea002fa9c65f1a612af100e00d87ab65f16381f450020ec3d021f3dbf79a6dcd'
 

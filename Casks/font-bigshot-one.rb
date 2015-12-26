@@ -1,4 +1,4 @@
-cask :v1 => 'font-bigshot-one' do
+cask 'font-bigshot-one' do
   version '1.000'
   sha256 '9684e36be27e1a8463bd044bb67b6e438d4c14bd8b5f05c308c53fe8eb5b1ee8'
 

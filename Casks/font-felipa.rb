@@ -1,4 +1,4 @@
-cask :v1 => 'font-felipa' do
+cask 'font-felipa' do
   version '1.001'
   sha256 'd3f07e2669e046acc1030139a4b08046d7eca87c0b477a8cc99ac1c46af84edc'
 

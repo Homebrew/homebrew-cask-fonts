@@ -1,4 +1,4 @@
-cask :v1 => 'font-freehand' do
+cask 'font-freehand' do
   version '6.00'
   sha256 '4aa5ef81b02248628fc7bb43cb1d07b2c6bb21a1b8729b6fd4cbc0caa5354045'
 

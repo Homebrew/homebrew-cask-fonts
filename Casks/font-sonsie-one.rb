@@ -1,4 +1,4 @@
-cask :v1 => 'font-sonsie-one' do
+cask 'font-sonsie-one' do
   version '1.003'
   sha256 'af927e627f54066390d6433631106defec38541255083ea36e4c4da27dad7525'
 

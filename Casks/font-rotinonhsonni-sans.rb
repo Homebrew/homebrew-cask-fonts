@@ -1,4 +1,4 @@
-cask :v1 => 'font-rotinonhsonni-sans' do
+cask 'font-rotinonhsonni-sans' do
   version '8.722'
   sha256 'c1edbe62bca1e33b6835073610b2a39e1bc41b41eeb438aa918941cd12d3785c'
 

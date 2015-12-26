@@ -1,4 +1,4 @@
-cask :v1 => 'font-tibetan-machine-uni' do
+cask 'font-tibetan-machine-uni' do
   version '1.901'
   sha256 '1c3c7bcd1d5846942b449bca1cfabd26cb723f69d14933f06e66da2aa7069c81'
 

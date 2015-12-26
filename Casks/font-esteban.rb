@@ -1,4 +1,4 @@
-cask :v1 => 'font-esteban' do
+cask 'font-esteban' do
   version '1.002'
   sha256 '117f80a823d1899df85708a59e39ef0f0d974a7407a845543288612f8214e68f'
 

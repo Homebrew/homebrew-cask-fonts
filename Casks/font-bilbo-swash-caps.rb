@@ -1,4 +1,4 @@
-cask :v1 => 'font-bilbo-swash-caps' do
+cask 'font-bilbo-swash-caps' do
   version '1.002'
   sha256 '882e19185209074faaa7d4ba4dcec492630c1744ea82277e3f3611b29de21ec9'
 

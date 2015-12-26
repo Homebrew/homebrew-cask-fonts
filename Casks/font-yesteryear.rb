@@ -1,4 +1,4 @@
-cask :v1 => 'font-yesteryear' do
+cask 'font-yesteryear' do
   version '1.000'
   sha256 '17d1b2c57ec648ff9b13d2000bdd9b5c1c326ba14acff4597afe3a730d0a2c94'
 

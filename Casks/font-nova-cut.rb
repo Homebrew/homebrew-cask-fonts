@@ -1,4 +1,4 @@
-cask :v1 => 'font-nova-cut' do
+cask 'font-nova-cut' do
   version '2.000'
   sha256 '09b4238312770fb6a4405027dc33feef1bb1c9283d3c907fe7282960da4eb5f7'
 

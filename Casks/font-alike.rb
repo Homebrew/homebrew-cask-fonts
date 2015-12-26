@@ -1,4 +1,4 @@
-cask :v1 => 'font-alike' do
+cask 'font-alike' do
   version '1.210'
   sha256 'c9f714870dbc29930a718b68961a4cb9d930b3f5b180343ba4b7ab0bdb3a1d59'
 

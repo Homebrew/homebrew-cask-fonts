@@ -1,4 +1,4 @@
-cask :v1 => 'font-average' do
+cask 'font-average' do
   version '1.001'
   sha256 '6f532df394ff7ed5908240ae7c2d5f31dc8ad89b309a7f0dbd707afab6f2222b'
 

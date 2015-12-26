@@ -1,4 +1,4 @@
-cask :v1 => 'font-d2coding' do
+cask 'font-d2coding' do
   version '1.1'
   sha256 '62c8f3766769bfc435dee6f8adadb1e9820515d330bd495f74d0f876909f8daf'
 

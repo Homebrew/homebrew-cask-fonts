@@ -1,4 +1,4 @@
-cask :v1 => 'font-nanumgothic' do
+cask 'font-nanumgothic' do
   # version '2.030'
   version :latest
   sha256 :no_check

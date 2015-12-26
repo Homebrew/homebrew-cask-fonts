@@ -1,4 +1,4 @@
-cask :v1 => 'font-hammersmithone' do
+cask 'font-hammersmithone' do
   version '1.003'
   sha256 '5c8da79fd5bd09fc38c391c4026f0bd4032d2f88f14c523b265a21c96c2cec64'
 

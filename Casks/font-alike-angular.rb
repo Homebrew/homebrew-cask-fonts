@@ -1,4 +1,4 @@
-cask :v1 => 'font-alike-angular' do
+cask 'font-alike-angular' do
   version '1.210'
   sha256 '3456d8d7d0e9eba2ab40e0a512ecba04d0f0f7ebcb13c041235567f48bc78fb2'
 

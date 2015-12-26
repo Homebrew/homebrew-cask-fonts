@@ -1,4 +1,4 @@
-cask :v1 => 'font-comic-sans-ms' do
+cask 'font-comic-sans-ms' do
   version '2.10'
   sha256 '9c6df3feefde26d4e41d4a4fe5db2a89f9123a772594d7f59afd062625cd204e'
 

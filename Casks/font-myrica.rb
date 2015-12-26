@@ -1,4 +1,4 @@
-cask :v1 => 'font-myrica' do
+cask 'font-myrica' do
   version :latest
   sha256 :no_check
 

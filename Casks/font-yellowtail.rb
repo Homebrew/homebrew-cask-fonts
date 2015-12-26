@@ -1,4 +1,4 @@
-cask :v1 => 'font-yellowtail' do
+cask 'font-yellowtail' do
   version '001.001'
   sha256 'a8d138d330049598e4730599ef32c018e2f99897ce7d9a98eff0b1612011f8b1'
 

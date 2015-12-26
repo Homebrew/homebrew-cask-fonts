@@ -1,4 +1,4 @@
-cask :v1 => 'font-rum-raisin' do
+cask 'font-rum-raisin' do
   version '1.000'
   sha256 '1fb741013c05995ea48aab1c16bcd141c004ea5c8f9466df9a0e1317d057412e'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'font-khand' do
+cask 'font-khand' do
   version '2.000'
   sha256 '668910b4cd3487a5bbf93f6dd7259914c1596eec7fef28b08877abdbb7775226'
 
