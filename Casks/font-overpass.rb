@@ -7,12 +7,12 @@ cask 'font-overpass' do
   homepage 'http://overpassfont.org/'
   license :ofl
 
-  font 'Overpass-Bold-Italic.ttf'
-  font 'Overpass-Bold.ttf'
-  font 'Overpass-ExtraLight Italic.ttf'
-  font 'Overpass-ExtraLight.ttf'
-  font 'Overpass-Light-Italic.ttf'
-  font 'Overpass-Light.ttf'
-  font 'Overpass-Regular-Italic.ttf'
-  font 'Overpass-Regular.ttf'
+  font "overpass-fonts-ttf-#{version}/Overpass-Bold-Italic.ttf"
+  font "overpass-fonts-ttf-#{version}/Overpass-Bold.ttf"
+  font "overpass-fonts-ttf-#{version}/Overpass-ExtraLight Italic.ttf"
+  font "overpass-fonts-ttf-#{version}/Overpass-ExtraLight.ttf"
+  font "overpass-fonts-ttf-#{version}/Overpass-Light-Italic.ttf"
+  font "overpass-fonts-ttf-#{version}/Overpass-Light.ttf"
+  font "overpass-fonts-ttf-#{version}/Overpass-Regular-Italic.ttf"
+  font "overpass-fonts-ttf-#{version}/Overpass-Regular.ttf"
 end
