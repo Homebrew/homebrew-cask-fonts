@@ -13,7 +13,7 @@ Making a Font Cask is easy: a Cask is a small Ruby file.
 
 Here's a Cask for the font [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) as an example:
 ```ruby
-cask :v1 => 'font-inconsolata' do
+cask 'font-inconsolata' do
   version :latest
   sha256 :no_check
 
@@ -30,7 +30,7 @@ Note that you may repeat the `font` stanza as many times as you need to, if mult
 be installed from the same package:
 
 ```ruby
-cask :v1 => 'font-fantasque-sans-mono' do
+cask 'font-fantasque-sans-mono' do
   version '1.6.4'
   sha256 'da5a7f84ac0e1c02b49334690d7451d936691718fb1332f863eacc521816dccd'
 
