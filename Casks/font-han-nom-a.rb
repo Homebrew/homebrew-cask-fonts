@@ -1,4 +1,5 @@
 cask 'font-han-nom-a' do
+  name 'han nom-a'
   version '2.0'
   sha256 '428a31ff62e26dc33080789f8d49c39ac529dbfdbcfd50825f78cbd0903a3936'
 

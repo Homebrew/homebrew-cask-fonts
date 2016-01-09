@@ -1,4 +1,5 @@
 cask 'font-noto-sans-gurmukhi' do
+  name 'noto sans-gurmukhi'
   version :latest
   sha256 :no_check
 

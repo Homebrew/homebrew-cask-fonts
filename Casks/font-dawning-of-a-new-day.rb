@@ -1,4 +1,5 @@
 cask 'font-dawning-of-a-new-day' do
+  name 'dawning of-a-new-day'
   version '1.002'
   sha256 '2b2afa623dbb1926e3b026603287b4d15ee05778106e26a7b33ef94d4be29dcb'
 

@@ -1,4 +1,5 @@
 cask 'font-pontano-sans' do
+  name 'pontano sans'
   version '1.001'
   sha256 'd82dab3318176d696707ddf6687bb5ca7e9702b5429ecd2f304087c6fbd3f9b4'
 

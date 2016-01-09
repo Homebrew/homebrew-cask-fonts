@@ -1,4 +1,5 @@
 cask 'font-amaranth' do
+  name 'amaranth'
   # version '1.000'
   version :latest
   sha256 :no_check

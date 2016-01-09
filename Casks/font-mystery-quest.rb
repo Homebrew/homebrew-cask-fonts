@@ -1,4 +1,5 @@
 cask 'font-mystery-quest' do
+  name 'mystery quest'
   version '1.000'
   sha256 'fc3fba61be98d7de03964b41175ee5629bcc6958b251f8037ef13eabb5431eb2'
 

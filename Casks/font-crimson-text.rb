@@ -1,4 +1,5 @@
 cask 'font-crimson-text' do
+  name 'crimson text'
   # version '0.13'
   version :latest
   sha256 :no_check

@@ -1,4 +1,5 @@
 cask 'font-meslo-lg-for-powerline' do
+  name 'meslo lg-for-powerline'
   version :latest
   sha256 :no_check
 

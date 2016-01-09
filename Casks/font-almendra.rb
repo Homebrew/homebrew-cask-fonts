@@ -1,4 +1,5 @@
 cask 'font-almendra' do
+  name 'almendra'
   # version '1.003'
   version :latest
   sha256 :no_check

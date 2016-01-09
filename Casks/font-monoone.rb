@@ -1,4 +1,5 @@
 cask 'font-monoone' do
+  name 'monoone'
   # version '1.000'
   version :latest
   sha256 :no_check

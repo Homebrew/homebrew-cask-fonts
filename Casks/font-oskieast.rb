@@ -1,4 +1,5 @@
 cask 'font-oskieast' do
+  name 'oskieast'
   version :latest
   sha256 :no_check
   # version '2.200'

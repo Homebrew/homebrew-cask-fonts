@@ -1,4 +1,5 @@
 cask 'font-monofett' do
+  name 'monofett'
   version '1.000'
   sha256 '05c225ab2653d62e9aeef6a78693d6c990383d3253daece8bedc5964231d5c52'
 

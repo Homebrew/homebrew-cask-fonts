@@ -1,4 +1,5 @@
 cask 'font-monda' do
+  name 'monda'
   # version '1.000'
   version :latest
   sha256 :no_check

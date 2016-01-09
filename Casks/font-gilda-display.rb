@@ -1,4 +1,5 @@
 cask 'font-gilda-display' do
+  name 'gilda display'
   version '1.001'
   sha256 '9b4b509e6c4a39c610631723b84fe75f7262b03501ffaa032ae575dda628444b'
 

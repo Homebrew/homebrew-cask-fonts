@@ -1,4 +1,5 @@
 cask 'font-lohit-nepali' do
+  name 'lohit nepali'
   version '2.93.0'
   sha256 '3af10e60c21d5277d1c65c6d6ae2ba6effce8eacbcfd0033edeac408ea6fb9f3'
 

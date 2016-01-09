@@ -1,4 +1,5 @@
 cask 'font-droid-sans-tamil' do
+  name 'droid sans-tamil'
   # version '1.02'
   version :latest
   sha256 :no_check

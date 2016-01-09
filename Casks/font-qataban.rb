@@ -1,4 +1,5 @@
 cask 'font-qataban' do
+  name 'qataban'
   version :latest
   sha256 :no_check
   # version '1.0'

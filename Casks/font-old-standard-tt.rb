@@ -1,4 +1,5 @@
 cask 'font-old-standard-tt' do
+  name 'old standard-tt'
   # version '2.0.2'
   version :latest
   sha256 :no_check

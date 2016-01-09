@@ -1,4 +1,5 @@
 cask 'font-tai-le-valentinium' do
+  name 'tai le-valentinium'
   version :latest
   sha256 :no_check
   # version '1.11'

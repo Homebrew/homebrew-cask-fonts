@@ -1,4 +1,5 @@
 cask 'font-playball' do
+  name 'playball'
   version '1.001'
   sha256 '3985700143687aa5d575b736abec8ef82170127494760393d826d7490f25e46b'
 

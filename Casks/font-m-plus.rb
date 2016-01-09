@@ -1,4 +1,5 @@
 cask 'font-m-plus' do
+  name 'm plus'
   version '1.060'
   sha256 'b6914650caa86b9a8cfd682ae643bfb174690513a5aa01b3d75830a6761ae753'
 

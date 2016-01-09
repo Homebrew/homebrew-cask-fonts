@@ -1,4 +1,5 @@
 cask 'font-lohit-bengali' do
+  name 'lohit bengali'
   version '2.5.3'
   sha256 'c5d8dc45b903175e7ab0047062acb1ee1ebae38ebea0f0b066fa6f1755fdbeaf'
 

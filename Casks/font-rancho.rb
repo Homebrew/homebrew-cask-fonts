@@ -1,4 +1,5 @@
 cask 'font-rancho' do
+  name 'rancho'
   version '1.000'
   sha256 'b743fa9fef7c558762bd10d637794666bcf2bdff0249a2ee6fabfa8991347f7a'
 

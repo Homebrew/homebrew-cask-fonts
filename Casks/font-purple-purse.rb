@@ -1,4 +1,5 @@
 cask 'font-purple-purse' do
+  name 'purple purse'
   version '1.000'
   sha256 '9c5d7289f22bdb1ef20ae0c47fb896c00f8b35bbf9e114ad6fd2528485380deb'
 

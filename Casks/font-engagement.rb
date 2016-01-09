@@ -1,4 +1,5 @@
 cask 'font-engagement' do
+  name 'engagement'
   version '1.000'
   sha256 '0bfb666005c0f37e9c51265ca5dff812b2fc4929ed324f359caa92f80c25e01a'
 

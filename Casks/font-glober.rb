@@ -1,4 +1,5 @@
 cask 'font-glober' do
+  name 'glober'
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,5 @@
 cask 'font-noto-kufi-arabic' do
+  name 'noto kufi-arabic'
   version :latest
   sha256 :no_check
 

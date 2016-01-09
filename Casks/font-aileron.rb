@@ -1,4 +1,5 @@
 cask 'font-aileron' do
+  name 'aileron'
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,5 @@
 cask 'font-tex-gyre-chorus' do
+  name 'tex gyre-chorus'
   version '2.003'
   sha256 'fbd905a504e6f86df9c38b42c6ed58681a10e6debae6afa6308bc031695cdbd8'
 

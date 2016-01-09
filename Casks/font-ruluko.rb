@@ -1,4 +1,5 @@
 cask 'font-ruluko' do
+  name 'ruluko'
   version '1.001'
   sha256 'c426db1373755d3ba00456dece5cf5ad1c8023978f60cbfe7b7e256ab1c89c3f'
 

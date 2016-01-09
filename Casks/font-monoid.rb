@@ -1,4 +1,5 @@
 cask 'font-monoid' do
+  name 'monoid'
   version :latest
   sha256 :no_check
 

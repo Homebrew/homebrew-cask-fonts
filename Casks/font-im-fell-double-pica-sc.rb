@@ -1,4 +1,5 @@
-cask 'font-im-fell-double-pica-sc' do
+cask 'font-im-fell-do
+  name 'im fell-double-pica-sc'uble-pica-sc' do
   version '3.00'
   sha256 'cde1b1e206b36ef2f74ea4b2bf19786d99e93e1c65775b926701e1141726de81'
 

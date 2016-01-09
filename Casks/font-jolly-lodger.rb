@@ -1,4 +1,5 @@
 cask 'font-jolly-lodger' do
+  name 'jolly lodger'
   version '1.000'
   sha256 '64d3e628ae2f3ebcb34eed029e90cb6674e9e74ed4e76e72effbf53b93b2dbf9'
 

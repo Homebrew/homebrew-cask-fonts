@@ -1,4 +1,5 @@
 cask 'font-bonbon' do
+  name 'bonbon'
   version '1.000'
   sha256 'eb1fd687b29fc686447a8985160bb0743078ae3ed8d8bd5b592479d82aac035d'
 

@@ -1,4 +1,5 @@
 cask 'font-noto-sans-inscriptional-parthian' do
+  name 'noto sans-inscriptional-parthian'
   version :latest
   sha256 :no_check
 

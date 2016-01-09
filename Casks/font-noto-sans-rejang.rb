@@ -1,4 +1,5 @@
 cask 'font-noto-sans-rejang' do
+  name 'noto sans-rejang'
   version :latest
   sha256 :no_check
 

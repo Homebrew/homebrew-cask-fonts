@@ -1,4 +1,5 @@
 cask 'font-allerta-stencil' do
+  name 'allerta stencil'
   version '1.02'
   sha256 '8c504d1be20768941ab04251a389ad82d5782d647fa1c4029c811dc5bc2abd59'
 

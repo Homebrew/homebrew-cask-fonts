@@ -1,4 +1,5 @@
 cask 'font-lekton' do
+  name 'lekton'
   # version '34.000'
   version :latest
   sha256 :no_check

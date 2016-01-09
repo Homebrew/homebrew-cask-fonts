@@ -1,4 +1,5 @@
 cask 'font-khand' do
+  name 'khand'
   version '2.000'
   sha256 '668910b4cd3487a5bbf93f6dd7259914c1596eec7fef28b08877abdbb7775226'
 

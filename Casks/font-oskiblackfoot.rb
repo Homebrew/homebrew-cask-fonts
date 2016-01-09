@@ -1,4 +1,5 @@
 cask 'font-oskiblackfoot' do
+  name 'oskiblackfoot'
   version :latest
   sha256 :no_check
   # version '1.000'

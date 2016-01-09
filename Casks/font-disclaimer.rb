@@ -1,4 +1,5 @@
 cask 'font-disclaimer' do
+  name 'disclaimer'
   version :latest
   sha256 :no_check
 

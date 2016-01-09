@@ -1,4 +1,5 @@
 cask 'font-la-belle-aurore' do
+  name 'la belle-aurore'
   version '1.001'
   sha256 '508b4a4e86b019f78b90f809e0f1c8ff00cd369e1ab78f2b8757f16d1dd4f13b'
 

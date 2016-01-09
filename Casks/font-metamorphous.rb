@@ -1,4 +1,5 @@
 cask 'font-metamorphous' do
+  name 'metamorphous'
   version '1.001'
   sha256 '55939a5664e06807e87fa4af64f52039ead12f002dda8317393fdce2f7ff57fe'
 

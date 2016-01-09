@@ -1,4 +1,5 @@
 cask 'font-rationale' do
+  name 'rationale'
   version '1.011'
   sha256 '744e163c734a06bd20da3737d0cc4ceb8dc5a8c09fdfd4e9feacbeddd2081c5c'
 

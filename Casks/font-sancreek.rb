@@ -1,4 +1,5 @@
 cask 'font-sancreek' do
+  name 'sancreek'
   version '1.002'
   sha256 'e6044ed733dc0d5b000cfa35cead2b800bc1f850e5a92bb3f532b28f8281ee8d'
 

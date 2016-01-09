@@ -1,4 +1,5 @@
 cask 'font-goudy-bookletter1911' do
+  name 'goudy bookletter1911'
   version '2010.07.03'
   sha256 '62d219942d2e4a3a8473c116254966d308820ae1729e2fac3730e66c073a5548'
 

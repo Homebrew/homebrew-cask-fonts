@@ -1,4 +1,5 @@
 cask 'font-mr-bedfort' do
+  name 'mr bedfort'
   version '1.000'
   sha256 '1551321151a818cfc5f9f16302e76b8ca86f16bef8fe7478ffeac69211bbdcc9'
 

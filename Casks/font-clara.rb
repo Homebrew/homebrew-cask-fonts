@@ -1,4 +1,5 @@
 cask 'font-clara' do
+  name 'clara'
   version '1.002'
   sha256 'beae951ded1f33e3bb13274438f5e84e00873b006e2fb8f71d104bcf7b94dbf5'
 

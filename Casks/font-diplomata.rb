@@ -1,4 +1,5 @@
 cask 'font-diplomata' do
+  name 'diplomata'
   version '1.001'
   sha256 'a02adc3d8790dfac28e3ff841a63529024c93233fd6acdede0b044ce1a425477'
 

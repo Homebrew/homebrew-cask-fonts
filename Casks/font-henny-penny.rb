@@ -1,4 +1,5 @@
 cask 'font-henny-penny' do
+  name 'henny penny'
   version '1.001'
   sha256 '9c8550665827dbd341e5d54ea2e686fa4f4a9de3f8b2ed202b96a41e27ab4e19'
 

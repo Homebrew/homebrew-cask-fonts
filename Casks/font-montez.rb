@@ -1,4 +1,5 @@
 cask 'font-montez' do
+  name 'montez'
   version '1.000'
   sha256 '1d5dedd2803404c4571d8d46c76bc31030aeaffa1fb45b265b29053aa2d6c68f'
 

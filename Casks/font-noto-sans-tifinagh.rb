@@ -1,4 +1,5 @@
 cask 'font-noto-sans-tifinagh' do
+  name 'noto sans-tifinagh'
   version :latest
   sha256 :no_check
 

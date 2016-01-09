@@ -1,4 +1,5 @@
 cask 'font-ricty-diminished' do
+  name 'ricty diminished'
   version '3.2.4'
   sha256 '028f2b40faed8417fcc80a7b51592e9115a2c5af901aced833032df2983fdcf4'
 

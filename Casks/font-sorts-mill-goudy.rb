@@ -1,4 +1,5 @@
 cask 'font-sorts-mill-goudy' do
+  name 'sorts mill-goudy'
   # version '003.101'
   version :latest
   sha256 :no_check

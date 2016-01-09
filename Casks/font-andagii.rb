@@ -1,4 +1,5 @@
 cask 'font-andagii' do
+  name 'andagii'
   version :latest
   sha256 :no_check
 

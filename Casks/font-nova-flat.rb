@@ -1,4 +1,5 @@
 cask 'font-nova-flat' do
+  name 'nova flat'
   version '2.000'
   sha256 'de302932cdca6d274f7f791b9805d6e0f84ec44ae6ed630f1b1e8c616fc04c42'
 

@@ -1,4 +1,5 @@
 cask 'font-noto-sans-lydian' do
+  name 'noto sans-lydian'
   version :latest
   sha256 :no_check
 

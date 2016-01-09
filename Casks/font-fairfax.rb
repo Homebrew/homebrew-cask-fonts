@@ -1,4 +1,5 @@
 cask 'font-fairfax' do
+  name 'fairfax'
   version :latest
   sha256 :no_check
 

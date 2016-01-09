@@ -1,4 +1,5 @@
 cask 'font-oranienbaum' do
+  name 'oranienbaum'
   version '1.001'
   sha256 '6f884e8b6c0d57180016a50d1cbb4e58ea136250dfbb8617dac393e338e2209d'
 

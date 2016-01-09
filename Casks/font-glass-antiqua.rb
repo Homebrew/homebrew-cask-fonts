@@ -1,4 +1,5 @@
 cask 'font-glass-antiqua' do
+  name 'glass antiqua'
   version '1.001'
   sha256 'af93faedd95bd2ea55fd6f6ca62136933b641497693f15b19fc3642d54b5b44e'
 

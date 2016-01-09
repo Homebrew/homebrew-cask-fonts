@@ -1,4 +1,5 @@
 cask 'font-noto-sans-devanagari' do
+  name 'noto sans-devanagari'
   version :latest
   sha256 :no_check
 

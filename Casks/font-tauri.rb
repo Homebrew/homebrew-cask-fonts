@@ -1,4 +1,5 @@
 cask 'font-tauri' do
+  name 'tauri'
   version '1.003'
   sha256 'fca89fc675b89363e550b1308eeede7fa0f5f4e1eb2bf9b9bb5d432c01817a39'
 

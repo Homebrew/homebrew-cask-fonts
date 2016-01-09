@@ -1,4 +1,5 @@
 cask 'font-lohit-malayalam' do
+  name 'lohit malayalam'
   version '2.5.4'
   sha256 '8c230bbe4cee42d55caa3e548f52dc5f54bae42a35b8eefe575297bd23b2fde4'
 

@@ -1,4 +1,5 @@
 cask 'font-wellfleet' do
+  name 'wellfleet'
   version '1.002'
   sha256 '347f3918762c7b61c3b98d57071b03295485bc97b6bfb6c7627bcf365cc3c9e7'
 

@@ -1,4 +1,5 @@
 cask 'font-love-ya-like-a-sister' do
+  name 'love ya-like-a-sister'
   version '1.002'
   sha256 '4fbe2c1fa647de5a415acac7b2b6491542fe9767b6199719a3bd77a7cf35eb0d'
 

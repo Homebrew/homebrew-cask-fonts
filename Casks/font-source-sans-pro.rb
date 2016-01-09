@@ -1,4 +1,5 @@
 cask 'font-source-sans-pro' do
+  name 'source sans-pro'
   version '2.020R-ro-1.075R-it'
   sha256 'cb2da9c80acef9234e0b95ed2f80694e9af49c2d353a85d71c1ca485a85a5ca9'
 

@@ -1,4 +1,5 @@
 cask 'font-junge' do
+  name 'junge'
   version '1.002'
   sha256 '4671c65a0e6c02c866362938e968e083d171744e4c90fa2cfa8b809cc9f7207e'
 

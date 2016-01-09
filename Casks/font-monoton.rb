@@ -1,4 +1,5 @@
 cask 'font-monoton' do
+  name 'monoton'
   version '1.000'
   sha256 '951c4cea65ffede784a7c9672feec5d329a7e1e12216c42d53ecf36c90d04dea'
 

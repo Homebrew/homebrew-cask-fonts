@@ -1,4 +1,5 @@
 cask 'font-smokum' do
+  name 'smokum'
   version '1.000'
   sha256 'bd8e372e289df15eb499d77a6334a5933ff2225ac6f5020707a61d070f147c2d'
 

@@ -1,4 +1,5 @@
 cask 'font-vidaloka' do
+  name 'vidaloka'
   version '1.011'
   sha256 '56d8210544636152b1f34d6cfca3cf22eaaaa141a010112aca3196d75e5b6ff0'
 

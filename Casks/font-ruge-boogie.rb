@@ -1,4 +1,5 @@
 cask 'font-ruge-boogie' do
+  name 'ruge boogie'
   version '1.003'
   sha256 'b72d7c8b9355a1b282207dc19d85b5728e004e1f0d37f2af28ba6092f79369c6'
 

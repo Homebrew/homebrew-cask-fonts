@@ -1,4 +1,5 @@
 cask 'font-molengo' do
+  name 'molengo'
   version '0.11'
   sha256 '179b2472bbc83c90ffe3a64e31e7ce6915d22173ee5073cc4e786e9fc7792d76'
 

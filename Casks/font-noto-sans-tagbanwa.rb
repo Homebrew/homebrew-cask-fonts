@@ -1,4 +1,5 @@
 cask 'font-noto-sans-tagbanwa' do
+  name 'noto sans-tagbanwa'
   version :latest
   sha256 :no_check
 

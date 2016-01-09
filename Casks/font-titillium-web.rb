@@ -1,4 +1,5 @@
 cask 'font-titillium-web' do
+  name 'titillium web'
   # version '1.001'
   version :latest
   sha256 :no_check

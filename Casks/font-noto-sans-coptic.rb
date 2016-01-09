@@ -1,4 +1,5 @@
 cask 'font-noto-sans-coptic' do
+  name 'noto sans-coptic'
   version :latest
   sha256 :no_check
 

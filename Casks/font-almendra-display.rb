@@ -1,4 +1,5 @@
 cask 'font-almendra-display' do
+  name 'almendra display'
   version '1.003'
   sha256 '787aab8504db249dba5e3efacc10781c7203309bab59edeb34792899a2b56590'
 

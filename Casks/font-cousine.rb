@@ -1,4 +1,5 @@
 cask 'font-cousine' do
+  name 'cousine'
   # version '1.21'
   version :latest
   sha256 :no_check

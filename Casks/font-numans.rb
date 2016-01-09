@@ -1,4 +1,5 @@
 cask 'font-numans' do
+  name 'numans'
   version '001.001'
   sha256 'd331ef3473572f5eb0dd05b6de238b65b4d875eb1c5296e18225a7b4e64436f3'
 

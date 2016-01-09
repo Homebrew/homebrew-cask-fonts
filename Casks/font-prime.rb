@@ -1,4 +1,5 @@
 cask 'font-prime' do
+  name 'prime'
   version :latest
   sha256 :no_check
 

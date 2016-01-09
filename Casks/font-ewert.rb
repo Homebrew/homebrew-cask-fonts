@@ -1,4 +1,5 @@
 cask 'font-ewert' do
+  name 'ewert'
   version '1.001'
   sha256 '8a7eb23adce5193b61bc1843d752f37c208c163dd6db2fc1b64791791969f4ab'
 

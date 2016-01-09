@@ -1,4 +1,5 @@
 cask 'font-webdings' do
+  name 'webdings'
   version '1.03'
   sha256 '64595b5abc1080fba8610c5c34fab5863408e806aafe84653ca8575bed17d75a'
 

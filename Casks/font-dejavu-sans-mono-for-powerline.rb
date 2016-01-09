@@ -1,4 +1,5 @@
 cask 'font-dejavu-sans-mono-for-powerline' do
+  name 'dejavu sans-mono-for-powerline'
   version :latest
   sha256 :no_check
 

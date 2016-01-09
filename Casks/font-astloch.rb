@@ -1,4 +1,5 @@
 cask 'font-astloch' do
+  name 'astloch'
   # version '1.000'
   version :latest
   sha256 :no_check

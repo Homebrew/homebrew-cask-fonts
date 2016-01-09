@@ -1,4 +1,5 @@
 cask 'font-niconne' do
+  name 'niconne'
   version '1.002'
   sha256 'dc70580a25914aeec39a9460b7858ee08eb4ad0bbbcd1d7c9cb888a6ea989a27'
 

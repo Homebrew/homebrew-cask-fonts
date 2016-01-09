@@ -1,4 +1,5 @@
 cask 'font-eater' do
+  name 'eater'
   version '001.002'
   sha256 'df2744af0f58592c4ff13e8205e62a56f7bdf915b3e31c9def075668c42a2b3f'
 

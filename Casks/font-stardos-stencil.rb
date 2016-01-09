@@ -1,4 +1,5 @@
-cask 'font-stardos-stencil' do
+cask 'font-stardo
+  name 'stardos stencil's-stencil' do
   # version '1.000'
   version :latest
   sha256 :no_check

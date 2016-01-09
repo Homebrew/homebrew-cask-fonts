@@ -1,4 +1,5 @@
 cask 'font-cwtex-q-hei' do
+  name 'cwtex q-hei'
   version '0.2'
   sha256 '3909b65b66f3099768bb08513db9efe2e90cb21575f5b5398817a29bd12474f6'
 

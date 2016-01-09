@@ -1,4 +1,5 @@
 cask 'font-anton' do
+  name 'anton'
   version '1.000'
   sha256 'a6f0063651145f32bc55c59372e42f93283a7ff9a3f5bf7a924c50d0bfdb81d3'
 

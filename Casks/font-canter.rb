@@ -1,4 +1,5 @@
 cask 'font-canter' do
+  name 'canter'
   version :latest
   sha256 :no_check
 

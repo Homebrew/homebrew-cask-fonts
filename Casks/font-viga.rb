@@ -1,4 +1,5 @@
 cask 'font-viga' do
+  name 'viga'
   version '1.001'
   sha256 '730ad2a38691ce19ee5aa9dd9ec84ae8737b2084b06eef13435a4facad9b063c'
 

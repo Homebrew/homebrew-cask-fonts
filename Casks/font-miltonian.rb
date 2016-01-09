@@ -1,4 +1,5 @@
 cask 'font-miltonian' do
+  name 'miltonian'
   version '1.005'
   sha256 '532610500b71c639e2f6b26efb0ea9ac348c09882721dfa44699fff693f23ad1'
 

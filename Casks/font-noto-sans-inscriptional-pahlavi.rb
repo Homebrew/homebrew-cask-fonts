@@ -1,4 +1,5 @@
 cask 'font-noto-sans-inscriptional-pahlavi' do
+  name 'noto sans-inscriptional-pahlavi'
   version :latest
   sha256 :no_check
 

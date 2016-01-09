@@ -1,4 +1,5 @@
 cask 'font-noto-serif' do
+  name 'noto serif'
   version :latest
   sha256 :no_check
 

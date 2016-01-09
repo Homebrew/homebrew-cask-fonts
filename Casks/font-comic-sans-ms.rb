@@ -1,4 +1,5 @@
 cask 'font-comic-sans-ms' do
+  name 'comic sans-ms'
   version '2.10'
   sha256 '9c6df3feefde26d4e41d4a4fe5db2a89f9123a772594d7f59afd062625cd204e'
 

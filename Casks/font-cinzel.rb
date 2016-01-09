@@ -1,4 +1,5 @@
 cask 'font-cinzel' do
+  name 'cinzel'
   # version '1.001'
   version :latest
   sha256 :no_check

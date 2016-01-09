@@ -1,4 +1,5 @@
 cask 'font-fruktur' do
+  name 'fruktur'
   version '1.003'
   sha256 '95579e8aab6891e5e93516e3edeb280e6f32609335705a15b13208a284ba04f1'
 

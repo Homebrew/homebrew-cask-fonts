@@ -1,4 +1,5 @@
 cask 'font-sigmar-one' do
+  name 'sigmar one'
   version '1.000'
   sha256 'e0864b5c0af70f9cdd368be6e8033c24de9cd718b2fba27c1917b11748862358'
 

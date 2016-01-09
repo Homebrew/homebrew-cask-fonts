@@ -1,4 +1,5 @@
 cask 'font-noto-sans-old-south-arabian' do
+  name 'noto sans-old-south-arabian'
   version :latest
   sha256 :no_check
 

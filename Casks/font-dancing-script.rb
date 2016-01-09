@@ -1,4 +1,5 @@
 cask 'font-dancing-script' do
+  name 'dancing script'
   # version '1.002'
   version :latest
   sha256 :no_check

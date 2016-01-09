@@ -1,4 +1,5 @@
 cask 'font-original-surfer' do
+  name 'original surfer'
   version '1.001'
   sha256 'ee4a42820b224a1934f2ba0997958d7965ad34762d88244fbffddb0b0ae488e4'
 

@@ -1,4 +1,5 @@
 cask 'font-ceviche-one' do
+  name 'ceviche one'
   version '1.002'
   sha256 '2995bc37d708fbd59ee73e94e8ccab8b076d32a17b1bfbcea79564cebc583dba'
 

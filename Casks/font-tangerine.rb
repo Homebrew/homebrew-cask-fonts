@@ -1,4 +1,5 @@
 cask 'font-tangerine' do
+  name 'tangerine'
   # version '1.3'
   version :latest
   sha256 :no_check

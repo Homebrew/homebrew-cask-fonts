@@ -1,4 +1,5 @@
 cask 'font-miao-unicode' do
+  name 'miao unicode'
   version :latest
   sha256 :no_check
 

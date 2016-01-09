@@ -1,4 +1,5 @@
 cask 'font-medievalsharp' do
+  name 'medievalsharp'
   version '1.0'
   sha256 '74cb2e6738bd7703adf120802f68fba0c9ddb9147a08e6847f1005b1e55df5a5'
 

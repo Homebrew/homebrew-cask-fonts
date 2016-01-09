@@ -1,4 +1,5 @@
 cask 'font-share-tech' do
+  name 'share tech'
   version '1.002'
   sha256 '59bc26a1c7783052927b84c98c757d1c81a2d93b1c5259a0f669ec873397415c'
 

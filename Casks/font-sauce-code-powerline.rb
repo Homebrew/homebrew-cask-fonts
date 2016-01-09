@@ -1,4 +1,5 @@
 cask 'font-sauce-code-powerline' do
+  name 'sauce code-powerline'
   # version '1.017'
   version :latest
   sha256 :no_check

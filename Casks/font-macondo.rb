@@ -1,4 +1,5 @@
-cask 'font-macondo' do
+cask 'font-macondo
+  name 'macondo'' do
   version '2.001'
   sha256 '1910fe29b60588799474ea6281b59e131e33e96c77bfb80722a4c7f8133db4aa'
 

@@ -1,4 +1,5 @@
 cask 'font-handlee' do
+  name 'handlee'
   version '1.001'
   sha256 '7b99c0f291b5d52e06c66498a1d0dd6dff45a32e32d13be089c60d2d8dc00445'
 

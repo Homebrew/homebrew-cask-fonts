@@ -1,4 +1,5 @@
 cask 'font-fjalla-one' do
+  name 'fjalla one'
   version '1.001'
   sha256 '2c4a287ae4d7e6dbf6e45b6264612d02130147dcd5434cf168a1ba83055225bf'
 

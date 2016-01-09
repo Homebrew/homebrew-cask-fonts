@@ -1,4 +1,5 @@
 cask 'font-just-another-hand' do
+  name 'just another-hand'
   version '1.000'
   sha256 'c57c963070d69c8d11167651169610127e3a3db7569b8362b8e985a23560d19a'
 

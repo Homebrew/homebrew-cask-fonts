@@ -1,4 +1,5 @@
 cask 'font-ubuntu-mono-powerline' do
+  name 'ubuntu mono-powerline'
   # version '0.80'
   version :latest
   sha256 :no_check

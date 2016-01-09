@@ -1,4 +1,5 @@
 cask 'font-aladin' do
+  name 'aladin'
   version '1.000'
   sha256 '06229c4ccf2a1267210c39a7073e206da16fd9edadf84e9c96a7aa998899f9fa'
 

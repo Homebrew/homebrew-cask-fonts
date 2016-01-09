@@ -1,4 +1,5 @@
 cask 'font-armata' do
+  name 'armata'
   version '1.002'
   sha256 '3b2b6e3bf1257ba4f9f36b5153f2ac6b036553eda2244883dabafaa5628d4187'
 

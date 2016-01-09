@@ -1,4 +1,5 @@
 cask 'font-noto-sans-meetei-mayek' do
+  name 'noto sans-meetei-mayek'
   version :latest
   sha256 :no_check
 

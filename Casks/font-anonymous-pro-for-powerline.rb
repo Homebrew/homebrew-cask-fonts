@@ -1,4 +1,5 @@
 cask 'font-anonymous-pro-for-powerline' do
+  name 'anonymous pro-for-powerline'
   version :latest
   sha256 :no_check
 

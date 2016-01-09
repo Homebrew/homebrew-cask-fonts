@@ -1,4 +1,5 @@
 cask 'font-tex-gyre-adventor' do
+  name 'tex gyre-adventor'
   version '2.003'
   sha256 '7c115d00ff2b498fdad6ab787b4401b1e6ffe9e2f05e03614c47bb0cf0c47266'
 

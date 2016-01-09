@@ -1,4 +1,5 @@
 cask 'font-quantico' do
+  name 'quantico'
   # version '2.002'
   version :latest
   sha256 :no_check

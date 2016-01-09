@@ -1,4 +1,5 @@
 cask 'font-overlock' do
+  name 'overlock'
   # version '1.001'
   version :latest
   sha256 :no_check

@@ -1,4 +1,5 @@
 cask 'font-economica' do
+  name 'economica'
   # version '1.101'
   version :latest
   sha256 :no_check

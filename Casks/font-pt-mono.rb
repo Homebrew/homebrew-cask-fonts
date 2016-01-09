@@ -1,4 +1,5 @@
 cask 'font-pt-mono' do
+  name 'pt mono'
   version '1.003'
   sha256 '741b1457066d69f045ac5196a512c2c1ca7900645b97bcb7280576d34e540af3'
 

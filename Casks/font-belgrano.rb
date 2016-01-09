@@ -1,4 +1,5 @@
 cask 'font-belgrano' do
+  name 'belgrano'
   version '1.002'
   sha256 '0e33cdbcc7c8f3431301ded4bceca1d6c3fe458a9b0b08505ce4e372dfadd669'
 

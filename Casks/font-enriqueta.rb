@@ -1,4 +1,5 @@
 cask 'font-enriqueta' do
+  name 'enriqueta'
   # version '1.002'
   version :latest
   sha256 :no_check

@@ -1,4 +1,5 @@
 cask 'font-caladea' do
+  name 'caladea'
   version :latest
   sha256 :no_check
 

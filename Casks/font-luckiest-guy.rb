@@ -1,4 +1,5 @@
 cask 'font-luckiest-guy' do
+  name 'luckiest guy'
   version '1.000'
   sha256 '7753c26a6497377c3c41de662581d2093ea0411c09fa3960fc410278758d3318'
 

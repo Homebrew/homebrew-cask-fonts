@@ -1,4 +1,5 @@
-cask 'font-vast-shadow' do
+cask 'font-vast-shado
+  name 'vast shadow'w' do
   version '1.002'
   sha256 '98bdf7f93c2330697078ece27e48dea7d97b253a547d699bf7afc4bdfa641a93'
 

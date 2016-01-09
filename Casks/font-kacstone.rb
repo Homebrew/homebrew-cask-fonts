@@ -1,4 +1,5 @@
 cask 'font-kacstone' do
+  name 'kacstone'
   version '5.0'
   sha256 '1b016f49f99de16a65dcd990f229e729e6c4c6df02b23409771f6e27b69186a7'
 

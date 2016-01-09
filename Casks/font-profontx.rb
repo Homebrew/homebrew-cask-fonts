@@ -1,4 +1,5 @@
 cask 'font-profontx' do
+  name 'profontx'
   version :latest
   sha256 :no_check
 

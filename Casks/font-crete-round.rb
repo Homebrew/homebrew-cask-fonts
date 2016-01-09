@@ -1,4 +1,5 @@
 cask 'font-crete-round' do
+  name 'crete round'
   # version '1.001'
   version :latest
   sha256 :no_check

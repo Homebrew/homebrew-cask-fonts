@@ -1,4 +1,5 @@
 cask 'font-poppins' do
+  name 'poppins'
   version '2.000'
   sha256 '86f53a3d50baaadca0d7a1aaf4d69e4d8d3a3d8a9fe67bc3d9b0c0db000e0f39'
 

@@ -1,4 +1,5 @@
 cask 'font-glegoo' do
+  name 'glegoo'
   version '1.001'
   sha256 '2a82ec885df640e802ab7e596790b948cbdab9ba0043eed048a5877c91aba7b3'
 

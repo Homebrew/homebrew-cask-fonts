@@ -1,4 +1,5 @@
 cask 'font-hack' do
+  name 'hack'
   version '2.018'
   sha256 'f4a610ae049073845736cbee2c2cd1e87982a2af582839398caab8edd11e4fa0'
 

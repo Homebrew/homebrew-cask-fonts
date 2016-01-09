@@ -1,4 +1,5 @@
 cask 'font-exo' do
+  name 'exo'
   # version '1.00'
   version :latest
   sha256 :no_check

@@ -1,4 +1,5 @@
 cask 'font-siemreap' do
+  name 'siemreap'
   version '6.00'
   sha256 '464760c6d06fc3f153f2e005eb1b0d33d5bd67e75f2d1c633f584c24ac006588'
 

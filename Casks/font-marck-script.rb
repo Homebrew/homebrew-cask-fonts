@@ -1,4 +1,5 @@
 cask 'font-marck-script' do
+  name 'marck script'
   version '1.002'
   sha256 '504de8cc6f919163bc9afb67b9bc208d258230c5e8d00cb82ec52474f9fafc3b'
 

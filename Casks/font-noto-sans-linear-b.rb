@@ -1,4 +1,5 @@
 cask 'font-noto-sans-linear-b' do
+  name 'noto sans-linear-b'
   version :latest
   sha256 :no_check
 

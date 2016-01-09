@@ -1,4 +1,5 @@
 cask 'font-noto-sans-mongolian' do
+  name 'noto sans-mongolian'
   version :latest
   sha256 :no_check
 

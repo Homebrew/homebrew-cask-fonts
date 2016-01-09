@@ -1,4 +1,5 @@
 cask 'font-michroma' do
+  name 'michroma'
   version '1.000'
   sha256 'cd93ff5e3aa344514f35c2d1be9239268ae667f9835a3aa01de61a2096278b7c'
 

@@ -1,4 +1,5 @@
 cask 'font-squada-one' do
+  name 'squada one'
   version '1.001'
   sha256 '5b34a1633dbc48db3835d8a847bc475e6e0267121d3435854729ba4b407a05df'
 

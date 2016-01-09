@@ -1,4 +1,5 @@
 cask 'font-benchnine' do
+  name 'benchnine'
   # version '1'
   version :latest
   sha256 :no_check

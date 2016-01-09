@@ -1,4 +1,5 @@
 cask 'font-aguafina-script' do
+  name 'aguafina script'
   version '1.000'
   sha256 'aeb15c85cdf53fe9ad218279bdbc19ab481faa9de0523568b3aad77914086bd9'
 

@@ -1,4 +1,5 @@
 cask 'font-clicker-script' do
+  name 'clicker script'
   version '1.000'
   sha256 '0221d4376fc0a25795a32d7e309798b6693b56f65c5851f92529043b230a9117'
 

@@ -1,4 +1,5 @@
 cask 'font-boogaloo' do
+  name 'boogaloo'
   version '1.001'
   sha256 '624aca6f6157f3982182581eca9dcf52a5bdc8e7f291752277bd3c1bedc8ae66'
 

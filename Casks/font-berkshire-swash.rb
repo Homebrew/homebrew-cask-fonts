@@ -1,4 +1,5 @@
 cask 'font-berkshire-swash' do
+  name 'berkshire swash'
   version '1.000'
   sha256 'f92ce92f2c7c529c748ef969c2e0fa0a12f3abd718779a31965a10d340bdf563'
 

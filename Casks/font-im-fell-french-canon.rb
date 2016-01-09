@@ -1,4 +1,5 @@
 cask 'font-im-fell-french-canon' do
+  name 'im fell-french-canon'
   # version '3.00'
   version :latest
   sha256 :no_check

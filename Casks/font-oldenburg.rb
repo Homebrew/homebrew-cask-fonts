@@ -1,4 +1,5 @@
 cask 'font-oldenburg' do
+  name 'oldenburg'
   version '1.001'
   sha256 'b4f815de562b5fb7881b0338513bfffaf812f6b075d1ade01b75b4d746998823'
 

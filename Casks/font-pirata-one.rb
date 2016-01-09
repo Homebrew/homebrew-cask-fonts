@@ -1,4 +1,5 @@
 cask 'font-pirata-one' do
+  name 'pirata one'
   version '1.001'
   sha256 '5347a2e155589ecf667d4b766613c8ee003edde9f83717fd24c09599a4b1ecc0'
 

@@ -1,4 +1,5 @@
 cask 'font-risque' do
+  name 'risque'
   version '1.000'
   sha256 '84b3d76741a27e63c66af80c24dee25ed58172751d0fcb3a5f4bd582676bfabd'
 

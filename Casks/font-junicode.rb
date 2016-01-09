@@ -1,4 +1,5 @@
 cask 'font-junicode' do
+  name 'junicode'
   version '0.7.8'
   sha256 '7427c32a9383dd1ce485d202f4767b3baa79d4eae3a74b8ff2a10c2d8a84f3d1'
 

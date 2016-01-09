@@ -1,4 +1,5 @@
 cask 'font-noto-sans-brahmi' do
+  name 'noto sans-brahmi'
   version :latest
   sha256 :no_check
 

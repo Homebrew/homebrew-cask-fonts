@@ -1,4 +1,5 @@
 cask 'font-noto-sans-yi' do
+  name 'noto sans-yi'
   version :latest
   sha256 :no_check
 

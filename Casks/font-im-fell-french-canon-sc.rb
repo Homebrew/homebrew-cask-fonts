@@ -1,4 +1,5 @@
 cask 'font-im-fell-french-canon-sc' do
+  name 'im fell-french-canon-sc'
   version '3.00'
   sha256 '2eeab14e384b07fc27439fb992ba16c77a2996e2227e67e7627ec07c6fd01d9f'
 

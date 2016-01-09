@@ -1,4 +1,5 @@
 cask 'font-wakor' do
+  name 'wakor'
   version '4.007'
   sha256 '65bee72a3b3433492de20360532b35f17421b601d1cde52b116e666cd6924504'
 

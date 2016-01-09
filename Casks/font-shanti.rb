@@ -1,4 +1,5 @@
 cask 'font-shanti' do
+  name 'shanti'
   version '1.000'
   sha256 'c08c43d1d03cc84ee4151b239f43fcda0395964b34b7ac5cf9197bfd3c17854d'
 

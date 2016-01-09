@@ -1,4 +1,5 @@
 cask 'font-aleo' do
+  name 'aleo'
   version '1.2.2'
   sha256 '64e98e1063da945086b4685535f0b3d463efbc1409e18bddf925624bf27b7e57'
 

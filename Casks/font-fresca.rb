@@ -1,4 +1,5 @@
 cask 'font-fresca' do
+  name 'fresca'
   version '1.001'
   sha256 'f64340016a820093202ca6af533f232ee7fe4c3d8448601ac42b4091236b5777'
 

@@ -1,4 +1,5 @@
 cask 'font-courier-prime' do
+  name 'courier prime'
   version :latest
   sha256 :no_check
 

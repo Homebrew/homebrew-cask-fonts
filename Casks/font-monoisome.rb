@@ -1,4 +1,5 @@
 cask 'font-monoisome' do
+  name 'monoisome'
   version :latest
   sha256 :no_check
 

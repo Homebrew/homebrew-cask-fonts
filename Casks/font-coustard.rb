@@ -1,4 +1,5 @@
 cask 'font-coustard' do
+  name 'coustard'
   # version '1.000'
   version :latest
   sha256 :no_check

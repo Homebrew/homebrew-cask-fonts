@@ -1,4 +1,5 @@
 cask 'font-signika' do
+  name 'signika'
   version :latest
   sha256 :no_check
 

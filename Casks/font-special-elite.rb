@@ -1,4 +1,5 @@
 cask 'font-special-elite' do
+  name 'special elite'
   version '1.000'
   sha256 '9ebacf4e85df65a89db88a3ec38576969490f418890fc6478fb00c2fcbdb4f4c'
 

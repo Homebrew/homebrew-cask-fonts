@@ -1,4 +1,5 @@
 cask 'font-myricam' do
+  name 'myricam'
   version :latest
   sha256 :no_check
 

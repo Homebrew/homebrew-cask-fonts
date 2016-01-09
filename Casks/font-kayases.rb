@@ -1,4 +1,5 @@
 cask 'font-kayases' do
+  name 'kayases'
   version :latest
   sha256 :no_check
   # version '001.000'

@@ -1,4 +1,5 @@
 cask 'font-cantarell' do
+  name 'cantarell'
   # version '001.001'
   version :latest
   sha256 :no_check

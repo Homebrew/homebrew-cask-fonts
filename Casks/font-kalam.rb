@@ -1,4 +1,5 @@
 cask 'font-kalam' do
+  name 'kalam'
   version '2.000'
   sha256 '6b97c9719e7eaf3c069610059b548c2e130240d9996ec73ab61cfb17f1cbd1e6'
 

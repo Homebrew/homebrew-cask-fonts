@@ -1,4 +1,5 @@
 cask 'font-lustria' do
+  name 'lustria'
   version '001.001'
   sha256 '8b50753779d151674dcc74bdf9cdde1e788d8fb2b9ace8fb183a0def0f7361ce'
 

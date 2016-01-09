@@ -1,4 +1,5 @@
 cask 'font-unifrakturmaguntia' do
+  name 'unifrakturmaguntia'
   version '2010-11-24'
   sha256 'd64afc0547059dd2e4a78da48bda0aba0a9901be58c7f8c201a8b2b6b4492cc8'
 

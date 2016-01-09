@@ -1,4 +1,5 @@
 cask 'font-coda' do
+  name 'coda'
   # version '2.000'
   version :latest
   sha256 :no_check

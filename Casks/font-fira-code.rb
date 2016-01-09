@@ -1,4 +1,5 @@
 cask 'font-fira-code' do
+  name 'fira code'
   version '1.102'
   sha256 'fe3dc4af0c7e44d715b6f9a1bfc1adb5fee76a533016c0a2b0c3b3da8efb996d'
 

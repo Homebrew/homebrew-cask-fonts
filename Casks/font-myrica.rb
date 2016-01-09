@@ -1,4 +1,5 @@
 cask 'font-myrica' do
+  name 'myrica'
   version :latest
   sha256 :no_check
 

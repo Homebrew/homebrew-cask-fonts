@@ -1,4 +1,5 @@
 cask 'font-aboriginal-serif' do
+  name 'aboriginal serif'
   version :latest
   sha256 :no_check
   # version '9.606'

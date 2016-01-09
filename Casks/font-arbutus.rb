@@ -1,4 +1,5 @@
 cask 'font-arbutus' do
+  name 'arbutus'
   version '1.002'
   sha256 'bb0365451e8d111edc1466bab7cfc8decbdfe9c583ba021718bbae8bd06bc930'
 

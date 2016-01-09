@@ -1,4 +1,5 @@
 cask 'font-eeyek-unicode' do
+  name 'eeyek unicode'
   version :latest
   sha256 :no_check
 

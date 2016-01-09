@@ -1,4 +1,5 @@
 cask 'font-nova-square' do
+  name 'nova square'
   version '2.000'
   sha256 'bf7d8725e2fed1984cadbcb4e54d67cd898f042e11c14e9c30074b14dab6963f'
 

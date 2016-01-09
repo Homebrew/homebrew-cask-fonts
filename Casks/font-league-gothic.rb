@@ -1,4 +1,5 @@
 cask 'font-league-gothic' do
+  name 'league gothic'
   version '1.001'
   sha256 '2ba5f583d44e4880597812be5d0a81b616c01b4af3d2a1e39ae50c0df9d27c59'
 

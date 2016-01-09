@@ -1,4 +1,5 @@
 cask 'font-open-sans-hebrew-condensed' do
+  name 'open sans-hebrew-condensed'
   # version '2.001'
   version :latest
   sha256 :no_check

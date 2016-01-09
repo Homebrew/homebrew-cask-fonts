@@ -1,4 +1,5 @@
 cask 'font-babelstone-modern' do
+  name 'babelstone modern'
   version :latest
   sha256 :no_check
   # version '6.002'

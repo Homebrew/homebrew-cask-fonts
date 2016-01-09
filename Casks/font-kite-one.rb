@@ -1,4 +1,5 @@
 cask 'font-kite-one' do
+  name 'kite one'
   version '1.001'
   sha256 '656a36a211326dec6aaee28c376d0cb690aedb7583c37eb3f4967e36832d6a67'
 

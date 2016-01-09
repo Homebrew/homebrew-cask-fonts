@@ -1,4 +1,5 @@
 cask 'font-poiret-one' do
+  name 'poiret one'
   version '1.001'
   sha256 '7529dd3270b310bb6d6f16556765870c6cf7f601994e5ad1407305b08236ddeb'
 

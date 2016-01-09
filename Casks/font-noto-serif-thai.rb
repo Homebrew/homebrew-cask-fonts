@@ -1,4 +1,5 @@
 cask 'font-noto-serif-thai' do
+  name 'noto serif-thai'
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,5 @@
 cask 'font-moul' do
+  name 'moul'
   version '6.00'
   sha256 'e5020ad44384950707915226c0bf70adf865fb7631ae5b19ba2ed3c41402ddc1'
 

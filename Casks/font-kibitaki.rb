@@ -1,4 +1,5 @@
 cask 'font-kibitaki' do
+  name 'kibitaki'
   version '20140621'
   sha256 '4172eab159a30764ef1dc69593faa6d13229423225496d2b9593e8efb5571720'
 

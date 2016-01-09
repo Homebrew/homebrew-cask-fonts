@@ -1,4 +1,5 @@
 cask 'font-ocra' do
+  name 'ocra'
   version '2'
   sha256 '39289c641520265ecedbade99f01600f316f8196ec57f71c8402d3ba09438666'
 

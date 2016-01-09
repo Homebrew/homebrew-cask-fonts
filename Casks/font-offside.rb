@@ -1,4 +1,5 @@
 cask 'font-offside' do
+  name 'offside'
   version '1.001'
   sha256 '55e80cda97b26534ef66e8ec4374602bb73826a938f2c1b8b48476a2b3bd3436'
 

@@ -1,4 +1,5 @@
 cask 'font-eagle-lake' do
+  name 'eagle lake'
   version '1.000'
   sha256 '53a4e929c9ea3584f2432157fd549c7604e6be7e6c4b39873f34fae7f6823928'
 

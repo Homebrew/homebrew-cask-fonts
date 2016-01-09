@@ -1,4 +1,5 @@
 cask 'font-noto-sans-canadian-aboriginal' do
+  name 'noto sans-canadian-aboriginal'
   version :latest
   sha256 :no_check
 

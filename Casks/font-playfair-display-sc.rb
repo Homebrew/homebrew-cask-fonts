@@ -1,4 +1,5 @@
 cask 'font-playfair-display-sc' do
+  name 'playfair display-sc'
   # version '1.004'
   version :latest
   sha256 :no_check

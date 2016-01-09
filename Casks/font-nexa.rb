@@ -1,4 +1,5 @@
 cask 'font-nexa' do
+  name 'nexa'
   version :latest
   sha256 :no_check
 

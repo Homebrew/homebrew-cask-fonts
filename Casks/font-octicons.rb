@@ -1,4 +1,5 @@
 cask 'font-octicons' do
+  name 'octicons'
   version :latest
   sha256 :no_check
 

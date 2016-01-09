@@ -1,4 +1,5 @@
 cask 'font-skola-sans' do
+  name 'skola sans'
   version :latest
   sha256 :no_check
 

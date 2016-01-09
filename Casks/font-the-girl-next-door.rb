@@ -1,4 +1,5 @@
-cask 'font-the-girl-next-door' do
+cask 'font-the-girl-next-do
+  name 'the girl-next-door'or' do
   version '1.002'
   sha256 '35329e71258e48398643f1f94175aa0c9a8d18bd179918d9ac4f3d497b6557a1'
 

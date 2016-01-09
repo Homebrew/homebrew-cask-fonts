@@ -1,4 +1,5 @@
 cask 'font-jim-nightshade' do
+  name 'jim nightshade'
   version '1.000'
   sha256 'ad49a9f652cb1d7ce711d7ccdfb5922e3961f871705e88fb0e5d033e0e707103'
 

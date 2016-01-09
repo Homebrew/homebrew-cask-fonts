@@ -1,4 +1,5 @@
 cask 'font-duru-sans' do
+  name 'duru sans'
   version '1.002'
   sha256 'edd15a5596318ecc635484f7b4fcb34c6dcaa7be8f85c4d2e9273ad8db688ff0'
 

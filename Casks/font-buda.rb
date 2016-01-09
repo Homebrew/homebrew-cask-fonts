@@ -1,4 +1,5 @@
 cask 'font-buda' do
+  name 'buda'
   version '1.002'
   sha256 'e6ec5aff205dc2109d56a729b2f864ab6578b836715614c228c2bb0280988d81'
 
