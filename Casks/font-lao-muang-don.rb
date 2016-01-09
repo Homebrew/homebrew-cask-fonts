@@ -1,4 +1,5 @@
-cask 'font-lao-muang-don' do
+cask 'font-lao-muang-do
+  name 'lao muang-don'n' do
   version '1.038'
   sha256 '03947a9c64c0f27c2dfb1c6a4ecab09f79b2696b1a4d828a343dbb4207ef447f'
 

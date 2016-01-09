@@ -1,4 +1,5 @@
 cask 'font-herr-von-muellerhoff' do
+  name 'herr von-muellerhoff'
   version '1.000'
   sha256 'ba8ac10807a79462b7c8265b2eebb8419e5017fdc1a5828b1a071d9e8478772e'
 

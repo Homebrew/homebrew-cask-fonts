@@ -1,4 +1,5 @@
 cask 'font-ligature-symbols' do
+  name 'ligature symbols'
   version :latest
   sha256 :no_check
 

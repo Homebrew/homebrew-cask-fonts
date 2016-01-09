@@ -1,4 +1,5 @@
 cask 'font-annie-use-your-telescope' do
+  name 'annie use-your-telescope'
   version '1.002'
   sha256 '5e1aef7fbb82d53adf37dd39c82f0d54002a5421cede3469934ec646db50b34b'
 

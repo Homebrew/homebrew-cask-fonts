@@ -1,4 +1,5 @@
 cask 'font-conakry' do
+  name 'conakry'
   version :latest
   sha256 :no_check
 

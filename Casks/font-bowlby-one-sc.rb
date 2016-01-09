@@ -1,4 +1,5 @@
 cask 'font-bowlby-one-sc' do
+  name 'bowlby one-sc'
   version '1.2'
   sha256 'a6860487ab6b1229bb463a289890aa6e75fa12517ac035e2d8f00a1d534030d1'
 

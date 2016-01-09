@@ -1,4 +1,5 @@
 cask 'font-adinatha-tamil-brahmi' do
+  name 'adinatha tamil-brahmi'
   version :latest
   sha256 :no_check
 

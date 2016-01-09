@@ -1,4 +1,5 @@
 cask 'font-seaweed-script' do
+  name 'seaweed script'
   version '1.000'
   sha256 '48a7f01ce3f307b532c9c5f8582a8ed87883389933b311b8e3704e8798ba4bc7'
 

@@ -1,4 +1,5 @@
-cask 'font-macondo-swash-caps' do
+cask 'font-macondo
+  name 'macondo swash-caps'-swash-caps' do
   version '2.001'
   sha256 '776c95ad520e4776a45add8d8693e693b566be9f26cd20505256c8e944dc07ea'
 

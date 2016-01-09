@@ -1,4 +1,5 @@
 cask 'font-inconsolata-g-for-powerline' do
+  name 'inconsolata g-for-powerline'
   version :latest
   sha256 :no_check
 

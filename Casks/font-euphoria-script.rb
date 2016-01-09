@@ -1,4 +1,5 @@
 cask 'font-euphoria-script' do
+  name 'euphoria script'
   version '1.002'
   sha256 '1ca81517a450506290e2be25648e153ee4c9cf6acc44c1d610b1e6d7e0e67484'
 

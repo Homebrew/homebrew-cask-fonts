@@ -1,4 +1,5 @@
 cask 'font-comic-neue' do
+  name 'comic neue'
   version '2.2'
   sha256 'd67c7de093b3555a525a29db1999b7759723208f514f5fca117201d63b94b5b6'
 

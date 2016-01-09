@@ -1,4 +1,5 @@
 cask 'font-namdhinggo-sil' do
+  name 'namdhinggo sil'
   version '1.004'
   sha256 '8bd69ee93687f2b3fcb705b0c8867c8ff573edcaf9a5c51a08a8ca1c1ddc966b'
 

@@ -1,4 +1,5 @@
 cask 'font-spirax' do
+  name 'spirax'
   version '1.002'
   sha256 'e509975c0680e447e6be89467f7f0bebec6d4cb0a8b75d7b6bb6d6fd7e2d5b65'
 

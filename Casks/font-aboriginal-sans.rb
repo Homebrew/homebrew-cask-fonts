@@ -1,4 +1,5 @@
 cask 'font-aboriginal-sans' do
+  name 'aboriginal sans'
   version :latest
   sha256 :no_check
 

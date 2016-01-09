@@ -1,4 +1,5 @@
 cask 'font-delius-swash-caps' do
+  name 'delius swash-caps'
   version '1.002'
   sha256 '04c102448007265b8a0672590900919d35dfd26c624e543c8c3bfbab9535b642'
 

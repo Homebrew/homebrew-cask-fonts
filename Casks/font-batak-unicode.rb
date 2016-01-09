@@ -1,4 +1,5 @@
 cask 'font-batak-unicode' do
+  name 'batak unicode'
   version :latest
   sha256 :no_check
 

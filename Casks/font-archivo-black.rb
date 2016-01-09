@@ -1,4 +1,5 @@
 cask 'font-archivo-black' do
+  name 'archivo black'
   version '1.003'
   sha256 '45a02c7f6aed1ec04e73ae31fd8c8347e201ac04e5f3c0bacc1ff7a5ea0d6f3a'
 

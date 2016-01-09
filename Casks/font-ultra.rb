@@ -1,4 +1,5 @@
 cask 'font-ultra' do
+  name 'ultra'
   version '1.000'
   sha256 '9b08bad2eb86c803d7dbafef04db89b2bb505a26e383fb2f55b568b18a7efc86'
 

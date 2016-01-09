@@ -1,4 +1,5 @@
 cask 'font-russo-one' do
+  name 'russo one'
   version '1.001'
   sha256 '9b1bf7208dff3aed3a893e688f46ae93eec25b7a99fc4636799120f6a0a802bb'
 

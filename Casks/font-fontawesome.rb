@@ -1,4 +1,5 @@
 cask 'font-fontawesome' do
+  name 'fontawesome'
   version '4.5.0'
   sha256 'c6379a0215a298d11c3f55ed574c7f8c3bc5af196ebe0dac5b885d1e47105712'
 

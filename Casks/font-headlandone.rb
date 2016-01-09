@@ -1,4 +1,5 @@
-cask 'font-headlandone' do
+cask 'font-headlando
+  name 'headlandone'ne' do
   version '1.002'
   sha256 'b09ae2dd08b296e1e0d9af93f5c34899d6a04d6c57aff766409f8a96d085f3a4'
 

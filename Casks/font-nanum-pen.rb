@@ -1,4 +1,5 @@
 cask 'font-nanum-pen' do
+  name 'nanum pen'
   version '1.100'
   sha256 'a1a7540420dfcfa40fe57d55eb96e044e6d6cef99f6e8fd0335611cb897531c9'
 

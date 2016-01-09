@@ -1,4 +1,5 @@
 cask 'font-creepster' do
+  name 'creepster'
   version '1.002'
   sha256 '402aeb734586c74aecd3dbdc454589b1fb12e2e1c71f782fd019ae68066d9f44'
 

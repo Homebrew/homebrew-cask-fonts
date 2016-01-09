@@ -1,4 +1,5 @@
 cask 'font-karla-tamil-upright' do
+  name 'karla tamil-upright'
   # version '1.001'
   version :latest
   sha256 :no_check

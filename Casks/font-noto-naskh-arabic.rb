@@ -1,4 +1,5 @@
 cask 'font-noto-naskh-arabic' do
+  name 'noto naskh-arabic'
   version :latest
   sha256 :no_check
 

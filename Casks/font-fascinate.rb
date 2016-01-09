@@ -1,4 +1,5 @@
 cask 'font-fascinate' do
+  name 'fascinate'
   version '1.000'
   sha256 '2f3d4e1d3b1f58ba4700eba078c07d9f05d9f39513f6d29b0306ddc007bd7fec'
 

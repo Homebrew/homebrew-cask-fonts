@@ -1,4 +1,5 @@
 cask 'font-seymour-one' do
+  name 'seymour one'
   version '1.000'
   sha256 '6383dc12a972ecbc64efc60d9576c8d671eac4dd8c98d0b237082e0ef0cda49e'
 

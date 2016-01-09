@@ -1,4 +1,5 @@
 cask 'font-chango' do
+  name 'chango'
   version '1.001'
   sha256 '3e566f4b881f24198fe1b6525aae970f9200078136e3416abc7ba0272d2f80d9'
 

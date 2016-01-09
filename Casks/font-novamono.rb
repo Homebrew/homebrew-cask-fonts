@@ -1,4 +1,5 @@
 cask 'font-novamono' do
+  name 'novamono'
   version '1.2'
   sha256 '648eadb6648c0801b186d3dcef60ee6aa84a791b1e09c726935c0712508b4807'
 

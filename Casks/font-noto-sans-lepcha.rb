@@ -1,4 +1,5 @@
 cask 'font-noto-sans-lepcha' do
+  name 'noto sans-lepcha'
   version :latest
   sha256 :no_check
 

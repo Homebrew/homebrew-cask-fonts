@@ -1,4 +1,5 @@
 cask 'font-text-me-one' do
+  name 'text me-one'
   version '1.003'
   sha256 '9fe85023985715c05af121a2a76431ca651ab77e25e32d8fb3079c5f23818849'
 

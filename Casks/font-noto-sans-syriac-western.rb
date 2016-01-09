@@ -1,4 +1,5 @@
 cask 'font-noto-sans-syriac-western' do
+  name 'noto sans-syriac-western'
   version :latest
   sha256 :no_check
 

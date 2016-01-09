@@ -1,4 +1,5 @@
 cask 'font-warnes' do
+  name 'warnes'
   version '1.001'
   sha256 '2dc982bec57f86da62c214bfb279ffea2690ab97be8c0b4e83f32e7c508e4798'
 

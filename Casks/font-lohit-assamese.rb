@@ -1,4 +1,5 @@
 cask 'font-lohit-assamese' do
+  name 'lohit assamese'
   version '2.5.3'
   sha256 'ce8e510f4e78527eb4c514bf49ed69389b983cd8c4990f0a7b9b9f43b6bef9ce'
 

@@ -1,4 +1,5 @@
 cask 'font-sevillana' do
+  name 'sevillana'
   version '1.001'
   sha256 '2489af08e91d2a9befde3a3a2b6138749ff65dd74e2af0cb9bc3ff52d38fd20f'
 

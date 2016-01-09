@@ -1,4 +1,5 @@
 cask 'font-habibi' do
+  name 'habibi'
   version '1.001'
   sha256 '65ae905bf98ae8ca0ec67786d01cdc1add55759dbb8b99e7da0d368f9ea74671'
 

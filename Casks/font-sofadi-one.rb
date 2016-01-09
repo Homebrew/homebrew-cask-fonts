@@ -1,4 +1,5 @@
 cask 'font-sofadi-one' do
+  name 'sofadi one'
   version '1.001'
   sha256 'b21a7af460673883235d3920f2c67dd57da518ddb1d79cb228c786cc90de28f3'
 

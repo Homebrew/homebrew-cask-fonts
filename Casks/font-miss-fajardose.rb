@@ -1,4 +1,5 @@
-cask 'font-miss-fajardose' do
+cask 'font-miss-fajardo
+  name 'miss fajardose'se' do
   version '1.000'
   sha256 'f76e0f245e781a75ea9fa528706b417173f7741439369c07d1501276170ab709'
 

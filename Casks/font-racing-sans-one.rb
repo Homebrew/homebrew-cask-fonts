@@ -1,4 +1,5 @@
 cask 'font-racing-sans-one' do
+  name 'racing sans-one'
   version '1.001'
   sha256 '8b5cada83e3e4692f624f1b583a069b34e457e07a4210ceddbb1133b3383673e'
 

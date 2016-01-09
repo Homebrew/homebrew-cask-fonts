@@ -1,4 +1,5 @@
 cask 'font-fugaz-one' do
+  name 'fugaz one'
   version '1.002'
   sha256 '14fd5becce8b0ae987e44b3f9fa9e3e6c87463e9585ac15db6c8271462068a62'
 

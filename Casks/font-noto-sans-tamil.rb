@@ -1,4 +1,5 @@
 cask 'font-noto-sans-tamil' do
+  name 'noto sans-tamil'
   version :latest
   sha256 :no_check
 

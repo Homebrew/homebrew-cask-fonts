@@ -1,4 +1,5 @@
 cask 'font-goblin-one' do
+  name 'goblin one'
   version '1.001'
   sha256 '26a15eafd8911f547e846066a1eea0521af2d870d6f17b8ecf0741768b99d099'
 

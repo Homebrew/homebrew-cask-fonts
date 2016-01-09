@@ -1,4 +1,5 @@
 cask 'font-noto-serif-georgian' do
+  name 'noto serif-georgian'
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,5 @@
 cask 'font-italiana' do
+  name 'italiana'
   version '001.001'
   sha256 '0ad271d9cd42a57cd5c5fa483ae2406a8138b95acb2a43eb73a8d37b7291fee9'
 

@@ -1,4 +1,5 @@
 cask 'font-miltonian-tattoo' do
+  name 'miltonian tattoo'
   version '1.005'
   sha256 '85f6f41a5158294b195613f7e9977f3edc7a8e1abb9666a288591e01f0051ed0'
 

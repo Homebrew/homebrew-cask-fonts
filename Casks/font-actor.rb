@@ -1,4 +1,5 @@
 cask 'font-actor' do
+  name 'actor'
   version '1.001'
   sha256 'a7cf62975a5ecaa8a3be2e2913ffb4a335831315478b93bec722ad982308ea38'
 

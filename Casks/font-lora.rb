@@ -1,4 +1,5 @@
 cask 'font-lora' do
+  name 'lora'
   # version '1.014'
   version :latest
   sha256 :no_check

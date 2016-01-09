@@ -1,4 +1,5 @@
 cask 'font-penuturesu' do
+  name 'penuturesu'
   version :latest
   sha256 :no_check
 

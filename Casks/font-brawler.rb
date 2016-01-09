@@ -1,4 +1,5 @@
 cask 'font-brawler' do
+  name 'brawler'
   version '1.000'
   sha256 '69d344be8dfd2b6bb2d240f5dd4fbe916d8083497e62d5a31092665d1d98d25e'
 

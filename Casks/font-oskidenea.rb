@@ -1,4 +1,5 @@
 cask 'font-oskidenea' do
+  name 'oskidenea'
   version :latest
   sha256 :no_check
   # version '1.000'

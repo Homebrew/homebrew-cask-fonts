@@ -1,4 +1,5 @@
 cask 'font-halant' do
+  name 'halant'
   version '2.000'
   sha256 'd65e1077b7c3d3ca42cf41f8ee2db4f6da5cc8aa6f615d18a1bb497f8e37ca63'
 

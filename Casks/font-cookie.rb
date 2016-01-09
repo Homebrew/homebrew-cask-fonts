@@ -1,4 +1,5 @@
 cask 'font-cookie' do
+  name 'cookie'
   version '1.004'
   sha256 '9daf3cc9e5efe1b65094cdf1f14729ef6f07a70c27ee0679bf7f544a828b080e'
 

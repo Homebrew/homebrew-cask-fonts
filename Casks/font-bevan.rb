@@ -1,4 +1,5 @@
 cask 'font-bevan' do
+  name 'bevan'
   version '1.000'
   sha256 '98cce652180706f654801d591295fa0f9013c676f1d49c98ccd70d8965a86cdf'
 

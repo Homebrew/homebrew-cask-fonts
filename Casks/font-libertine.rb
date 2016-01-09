@@ -1,4 +1,5 @@
 cask 'font-libertine' do
+  name 'libertine'
   version :latest
   sha256 :no_check
 

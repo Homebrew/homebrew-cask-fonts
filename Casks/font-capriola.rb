@@ -1,4 +1,5 @@
 cask 'font-capriola' do
+  name 'capriola'
   version '1.007'
   sha256 '4a6e1a7b6b34852674ef0ffd2f7049a903e68b49d3533b6f651cad039df42288'
 

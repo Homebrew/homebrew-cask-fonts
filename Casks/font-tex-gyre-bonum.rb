@@ -1,4 +1,5 @@
 cask 'font-tex-gyre-bonum' do
+  name 'tex gyre-bonum'
   version '2.004'
   sha256 '30e7e9bf24b73709edff9916c95214a66b7fac38f78a11a19e4bc18ab019d398'
 

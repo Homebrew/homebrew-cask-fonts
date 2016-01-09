@@ -1,4 +1,5 @@
 cask 'font-roboto-mono' do
+  name 'roboto mono'
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,5 @@
 cask 'font-bebas-neue' do
+  name 'bebas neue'
   version :latest
   sha256 :no_check
 

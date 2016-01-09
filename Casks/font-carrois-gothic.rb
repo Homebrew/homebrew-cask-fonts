@@ -1,4 +1,5 @@
 cask 'font-carrois-gothic' do
+  name 'carrois gothic'
   version '1.001'
   sha256 'db39dbe94f8196742c30f5b6cbccd30a6c3276544715f75554766abf2ec68d4c'
 

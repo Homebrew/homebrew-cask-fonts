@@ -1,4 +1,5 @@
 cask 'font-candal' do
+  name 'candal'
   version '1.000'
   sha256 '2c9cc4b8ee8eed745ca19cc07de20bc635b312893c3440b437cf7766c36743d1'
 

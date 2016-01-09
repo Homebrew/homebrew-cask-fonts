@@ -1,4 +1,5 @@
 cask 'font-arimo' do
+  name 'arimo'
   # version '1.23'
   version :latest
   sha256 :no_check

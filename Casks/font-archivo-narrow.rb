@@ -1,4 +1,5 @@
 cask 'font-archivo-narrow' do
+  name 'archivo narrow'
   # version '1.002'
   version :latest
   sha256 :no_check

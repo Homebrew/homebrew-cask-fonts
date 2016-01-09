@@ -1,4 +1,5 @@
 cask 'font-autour-one' do
+  name 'autour one'
   version '1.006'
   sha256 '4117623c6664a55ac69dcb325b79bcdc30d29de771447c881146872dd865eb5b'
 

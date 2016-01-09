@@ -1,4 +1,5 @@
 cask 'font-noto-sans-buhid' do
+  name 'noto sans-buhid'
   version :latest
   sha256 :no_check
 

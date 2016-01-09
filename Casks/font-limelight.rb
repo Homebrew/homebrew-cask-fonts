@@ -1,4 +1,5 @@
 cask 'font-limelight' do
+  name 'limelight'
   version '1.002'
   sha256 'f5bf8a9159adfc5b9c756c85d812a4fd1299b8916fefdf39ad4b24ade6d8d0cf'
 

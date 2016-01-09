@@ -1,4 +1,5 @@
 cask 'font-megrim' do
+  name 'megrim'
   version '20110427'
   sha256 '88d30544a63121ab021f4cf60f57257c81caaeddeeb2eb4d6ec1a600ae779cfd'
 

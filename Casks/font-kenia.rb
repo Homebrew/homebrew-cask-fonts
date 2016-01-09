@@ -1,4 +1,5 @@
 cask 'font-kenia' do
+  name 'kenia'
   version '1.001'
   sha256 '4052e03cdabd35ef9f739fdf1462b1b26c16b2238ba27223238624a2bb5565b9'
 

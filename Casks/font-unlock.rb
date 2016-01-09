@@ -1,4 +1,5 @@
 cask 'font-unlock' do
+  name 'unlock'
   version '1.002'
   sha256 '408560b387d49cc5bdde72936531a6da3abd74abee117efcc77615822acba537'
 

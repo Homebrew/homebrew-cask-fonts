@@ -1,4 +1,5 @@
 cask 'font-allura' do
+  name 'allura'
   version '1.004'
   sha256 '6cd27c460940193cdf957129b9ef1316b49656a9a6e92d95aa21781567da4397'
 

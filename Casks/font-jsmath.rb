@@ -1,4 +1,5 @@
 cask 'font-jsmath' do
+  name 'jsmath'
   version :latest
   sha256 :no_check
 

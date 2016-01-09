@@ -1,4 +1,5 @@
 cask 'font-trocchi' do
+  name 'trocchi'
   version '1.0'
   sha256 '796b8651acbafdd5281cd255850e8f7c07e950e36ce246335dd73c1af72c63c8'
 

@@ -1,4 +1,5 @@
 cask 'font-devonshire' do
+  name 'devonshire'
   version '1.001'
   sha256 '4c00f003570e5a99361cc83017cb1314aa3170cfaa53be29a08c555bbb434657'
 

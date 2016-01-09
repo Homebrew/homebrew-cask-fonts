@@ -1,4 +1,5 @@
 cask 'font-amethysta' do
+  name 'amethysta'
   version '1.002'
   sha256 '0b8906cf3e2a839500b1c040e680754e0045c69abbfab03bc0034f1692aa231c'
 

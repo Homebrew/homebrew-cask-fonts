@@ -1,4 +1,5 @@
 cask 'font-tex-gyre-schola' do
+  name 'tex gyre-schola'
   version '2.005'
   sha256 '24063368bfdc1046439e290299157621a437294ecbb39a938d2ddb2afa3daaf8'
 

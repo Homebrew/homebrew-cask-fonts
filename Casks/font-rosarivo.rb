@@ -1,4 +1,5 @@
 cask 'font-rosarivo' do
+  name 'rosarivo'
   # version '1.003'
   version :latest
   sha256 :no_check

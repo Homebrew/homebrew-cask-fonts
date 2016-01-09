@@ -1,4 +1,5 @@
 cask 'font-babelstone-han' do
+  name 'babelstone han'
   # version '1.11'
   version :latest
   sha256 :no_check

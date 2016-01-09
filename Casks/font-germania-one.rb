@@ -1,4 +1,5 @@
 cask 'font-germania-one' do
+  name 'germania one'
   version '1.001'
   sha256 '3ee3d56584bab8c9e3f59cc3360aa8a36e219dcf0a9f3c8928e3da5a19277e3f'
 

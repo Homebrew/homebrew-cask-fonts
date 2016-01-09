@@ -1,4 +1,5 @@
 cask 'font-poller-one' do
+  name 'poller one'
   version '1.002'
   sha256 '49c5128cb550156e9384453906b869b830aafacfc3a9332ccf989c8ed146d773'
 

@@ -1,4 +1,5 @@
 cask 'font-nova-oval' do
+  name 'nova oval'
   version '2.000'
   sha256 '2ae90689c17afdcb69fd45325fc65cd98ca8d537a63ed2c33eed9827ac6a16f6'
 

@@ -1,4 +1,5 @@
 cask 'font-georgia' do
+  name 'georgia'
   version '2.05'
   sha256 '2c2c7dcda6606ea5cf08918fb7cd3f3359e9e84338dc690013f20cd42e930301'
 

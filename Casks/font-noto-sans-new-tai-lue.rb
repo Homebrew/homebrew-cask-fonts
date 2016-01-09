@@ -1,4 +1,5 @@
 cask 'font-noto-sans-new-tai-lue' do
+  name 'noto sans-new-tai-lue'
   version :latest
   sha256 :no_check
 

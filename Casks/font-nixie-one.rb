@@ -1,4 +1,5 @@
 cask 'font-nixie-one' do
+  name 'nixie one'
   version '1.004'
   sha256 '69030eb096d2590d00f4ac79fefa1e6e9c12f2d396a37527a1f7d6c047cd0f5d'
 

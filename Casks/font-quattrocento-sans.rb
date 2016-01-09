@@ -1,4 +1,5 @@
 cask 'font-quattrocento-sans' do
+  name 'quattrocento sans'
   # version '2.000'
   version :latest
   sha256 :no_check

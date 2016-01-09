@@ -1,4 +1,5 @@
 cask 'font-philosopher' do
+  name 'philosopher'
   # version '1.000'
   version :latest
   sha256 :no_check

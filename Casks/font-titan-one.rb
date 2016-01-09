@@ -1,4 +1,5 @@
 cask 'font-titan-one' do
+  name 'titan one'
   version '1.001'
   sha256 '563ff6de179bbd44bcd7d2a6c448d6dc3bf935834237cf1250e506e65cd86ff1'
 

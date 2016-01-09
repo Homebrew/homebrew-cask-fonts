@@ -1,4 +1,5 @@
 cask 'font-geo' do
+  name 'geo'
   # version '001.2'
   version :latest
   sha256 :no_check

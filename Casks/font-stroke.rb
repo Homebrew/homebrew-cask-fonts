@@ -1,4 +1,5 @@
 cask 'font-stroke' do
+  name 'stroke'
   version :latest
   sha256 :no_check
 

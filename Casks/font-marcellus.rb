@@ -1,4 +1,5 @@
 cask 'font-marcellus' do
+  name 'marcellus'
   version '1.000'
   sha256 '1cf0cd10b17d35e852729962cc1ffaffed94514895972458345e2df34abb2f81'
 

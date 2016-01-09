@@ -1,4 +1,5 @@
 cask 'font-spinnaker' do
+  name 'spinnaker'
   version '1.001'
   sha256 'f89852fb1cbf415eac1893d98978d77b934475d53d46838fd146924a4d2e13fc'
 

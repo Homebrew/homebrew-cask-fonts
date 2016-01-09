@@ -1,4 +1,5 @@
 cask 'font-lohit-tamil' do
+  name 'lohit tamil'
   version '2.5.3'
   sha256 '8511a31880f5e00fa19e8c8b1029943a99d17c45b3b7c186a391d8cc8edaa915'
 

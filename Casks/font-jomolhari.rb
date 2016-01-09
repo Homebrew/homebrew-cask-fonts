@@ -1,4 +1,5 @@
 cask 'font-jomolhari' do
+  name 'jomolhari'
   version :latest
   sha256 :no_check
 

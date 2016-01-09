@@ -1,4 +1,5 @@
 cask 'font-dejavu-sans' do
+  name 'dejavu sans'
   version '2.34'
   sha256 'f6b806b4aa0ea36a8d0f2c46dcd5afa6743773930024e562980c4cd0f9230792'
 

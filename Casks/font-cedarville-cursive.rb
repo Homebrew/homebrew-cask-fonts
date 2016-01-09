@@ -1,4 +1,5 @@
 cask 'font-cedarville-cursive' do
+  name 'cedarville cursive'
   version '1.001'
   sha256 '9c4bcd3d515b5325bc922df3ae2932a58558a36e88818ac0297d46c51772df46'
 

@@ -1,4 +1,5 @@
 cask 'font-inder' do
+  name 'inder'
   version '1.001'
   sha256 '7e9922756c6879c6aed60b1f880fcd3067c44c8f3328830909d1091b11168fc6'
 

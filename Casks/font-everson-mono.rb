@@ -1,4 +1,5 @@
 cask 'font-everson-mono' do
+  name 'everson mono'
   version :latest
   sha256 :no_check
   # version '7.0'

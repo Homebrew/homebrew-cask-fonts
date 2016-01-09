@@ -1,4 +1,5 @@
 cask 'font-quicksand' do
+  name 'quicksand'
   # version '001.001'
   version :latest
   sha256 :no_check

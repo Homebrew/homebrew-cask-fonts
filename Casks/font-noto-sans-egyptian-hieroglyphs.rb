@@ -1,4 +1,5 @@
 cask 'font-noto-sans-egyptian-hieroglyphs' do
+  name 'noto sans-egyptian-hieroglyphs'
   version :latest
   sha256 :no_check
 

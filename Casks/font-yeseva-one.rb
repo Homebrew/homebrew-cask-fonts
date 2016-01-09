@@ -1,4 +1,5 @@
 cask 'font-yeseva-one' do
+  name 'yeseva one'
   version '2.001'
   sha256 '55189caf70d80501e5befcbe7fec2b0479b876b3e63a81c280203955a744f8c9'
 

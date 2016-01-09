@@ -1,4 +1,5 @@
 cask 'font-im-fell-great-primer' do
+  name 'im fell-great-primer'
   # version '3.00'
   version :latest
   sha256 :no_check

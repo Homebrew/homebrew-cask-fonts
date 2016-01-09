@@ -1,4 +1,5 @@
 cask 'font-pinyon-script' do
+  name 'pinyon script'
   version '1.005'
   sha256 '26507b30d76ebdd4d2396c068c0ba1aec8c6d162dc10e2f1d21e57c0da0d36d1'
 

@@ -1,4 +1,5 @@
 cask 'font-akshar-unicode' do
+  name 'akshar unicode'
   version :latest
   sha256 :no_check
 

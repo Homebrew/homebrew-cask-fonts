@@ -1,4 +1,5 @@
 cask 'font-qwigley' do
+  name 'qwigley'
   version '1.003'
   sha256 '3445b20f9c93fe10123c0de60b0b8d0fe0fbf3c3e66d043a0eb25d46f15eac4d'
 

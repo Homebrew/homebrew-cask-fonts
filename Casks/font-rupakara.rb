@@ -1,4 +1,5 @@
 cask 'font-rupakara' do
+  name 'rupakara'
   version '1.004'
   sha256 'd6ad49842444846ad0ef2ea40d471533993a3137a7aceacbb28b5a8d89aaddc0'
 

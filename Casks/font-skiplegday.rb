@@ -1,4 +1,5 @@
 cask 'font-skiplegday' do
+  name 'skiplegday'
   version :latest
   sha256 :no_check
 

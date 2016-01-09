@@ -1,4 +1,5 @@
 cask 'font-patrick-hand' do
+  name 'patrick hand'
   version '1.003'
   sha256 '0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc'
 

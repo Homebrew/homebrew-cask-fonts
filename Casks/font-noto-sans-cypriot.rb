@@ -1,4 +1,5 @@
 cask 'font-noto-sans-cypriot' do
+  name 'noto sans-cypriot'
   version :latest
   sha256 :no_check
 

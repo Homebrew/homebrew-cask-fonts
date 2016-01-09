@@ -1,4 +1,5 @@
 cask 'font-bilbo' do
+  name 'bilbo'
   version '1.002'
   sha256 'b4e9efa3513654859d8afcd31d2d261ab293ef50a3e2cc3891a46d830c6ac451'
 

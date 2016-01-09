@@ -1,4 +1,5 @@
 cask 'font-julius-sans-one' do
+  name 'julius sans-one'
   version '1.001'
   sha256 'b9e0d5c8111315894a7d200686c64a0ee0e2670030efa3c4b5b099a6f79f5f1c'
 

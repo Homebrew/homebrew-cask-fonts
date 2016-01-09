@@ -1,4 +1,5 @@
 cask 'font-merriweather-sans' do
+  name 'merriweather sans'
   # version '1.003'
   version :latest
   sha256 :no_check

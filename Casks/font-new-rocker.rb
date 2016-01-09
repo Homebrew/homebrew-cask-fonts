@@ -1,4 +1,5 @@
 cask 'font-new-rocker' do
+  name 'new rocker'
   version '1.000'
   sha256 '28a499ce5b8bcf0652f8b2e25135183eaddf0c3c8c3e251259b075c71d1ef14c'
 

@@ -1,4 +1,5 @@
 cask 'font-idealist-sans' do
+  name 'idealist sans'
   version :latest
   sha256 :no_check
 

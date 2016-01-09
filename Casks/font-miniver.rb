@@ -1,4 +1,5 @@
 cask 'font-miniver' do
+  name 'miniver'
   version '1.000'
   sha256 '0637ff653a9113189d196434f2055388638083dde397964b83aa2c1800d5b5b7'
 

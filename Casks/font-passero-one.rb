@@ -1,4 +1,5 @@
 cask 'font-passero-one' do
+  name 'passero one'
   version '1.003'
   sha256 'b5170ecc855200d369f8a60fc8c0c351cc8cb5ec9fab9a838d5a27f34e01982d'
 

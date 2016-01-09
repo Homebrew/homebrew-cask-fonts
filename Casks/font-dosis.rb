@@ -1,4 +1,5 @@
-cask 'font-dosis' do
+cask 'font-do
+  name 'dosis'sis' do
   # version '1.007'
   version :latest
   sha256 :no_check

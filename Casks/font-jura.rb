@@ -1,4 +1,5 @@
 cask 'font-jura' do
+  name 'jura'
   # version '2.5.1'
   version :latest
   sha256 :no_check

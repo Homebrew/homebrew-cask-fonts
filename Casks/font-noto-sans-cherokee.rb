@@ -1,4 +1,5 @@
 cask 'font-noto-sans-cherokee' do
+  name 'noto sans-cherokee'
   version :latest
   sha256 :no_check
 

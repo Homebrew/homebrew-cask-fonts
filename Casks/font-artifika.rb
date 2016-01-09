@@ -1,4 +1,5 @@
 cask 'font-artifika' do
+  name 'artifika'
   version '1.000'
   sha256 'f07035c2a1df5a5e34dcb98005c8e9d957afdc558eaa026ef06644f3793e6965'
 

@@ -1,4 +1,5 @@
 cask 'font-abril-fatface' do
+  name 'abril fatface'
   version '1.001'
   sha256 '5971d4a3758a922a9fedc7f6fb825a96341a2e718c45a4b2c9a6b417c8c4dbe9'
 

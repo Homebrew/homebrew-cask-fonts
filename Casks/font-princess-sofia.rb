@@ -1,4 +1,5 @@
 cask 'font-princess-sofia' do
+  name 'princess sofia'
   version '1.000'
   sha256 '2b5df30a7b866cd764cc4ff586dc8c28e16967099d50ab582f003ffbc7228ee5'
 

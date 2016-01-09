@@ -1,4 +1,5 @@
 cask 'font-revalia' do
+  name 'revalia'
   version '1.001'
   sha256 'a9313fba7bbeb5f9de6572c3e15ca53f2f608babff40cfa9e9008fff0c1e3c80'
 

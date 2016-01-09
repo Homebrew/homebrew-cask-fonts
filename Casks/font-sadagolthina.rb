@@ -1,4 +1,5 @@
 cask 'font-sadagolthina' do
+  name 'sadagolthina'
   version :latest
   sha256 :no_check
   # version '1.002'

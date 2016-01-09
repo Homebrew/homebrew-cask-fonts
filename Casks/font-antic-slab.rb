@@ -1,4 +1,5 @@
 cask 'font-antic-slab' do
+  name 'antic slab'
   version '001.001'
   sha256 'b93cf749f7c228d1c61c2e09f338613faebe443b14d555c053d611a36def3dd7'
 

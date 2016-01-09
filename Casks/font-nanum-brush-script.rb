@@ -1,4 +1,5 @@
 cask 'font-nanum-brush-script' do
+  name 'nanum brush-script'
   version '1.100'
   sha256 '5fe0e02f74c58aa25ba49908fb6775bcb7d00d19ddd68b480b51a926f5ca12ec'
 

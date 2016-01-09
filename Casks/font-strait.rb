@@ -1,4 +1,5 @@
 cask 'font-strait' do
+  name 'strait'
   version '1.001'
   sha256 '648f84d4c594ee1c857ed52f28da94d33539dfdcc2fb03d4c1ca0af4b9e01c0e'
 

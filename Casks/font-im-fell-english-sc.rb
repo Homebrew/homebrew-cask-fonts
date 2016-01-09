@@ -1,4 +1,5 @@
 cask 'font-im-fell-english-sc' do
+  name 'im fell-english-sc'
   version '3.00'
   sha256 '102324fb5434bb5da7963533426b0ad44c85bbc9e7755067535c9d11464a176b'
 

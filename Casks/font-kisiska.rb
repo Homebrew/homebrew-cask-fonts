@@ -1,4 +1,5 @@
 cask 'font-kisiska' do
+  name 'kisiska'
   version :latest
   sha256 :no_check
 

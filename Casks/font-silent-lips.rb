@@ -1,4 +1,5 @@
 cask 'font-silent-lips' do
+  name 'silent lips'
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,5 @@
 cask 'font-noto-sans-glagolitic' do
+  name 'noto sans-glagolitic'
   version :latest
   sha256 :no_check
 

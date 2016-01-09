@@ -1,4 +1,5 @@
 cask 'font-gravitas-one' do
+  name 'gravitas one'
   version '1.001'
   sha256 'b40dc45f3354f282107286acf1542072d258c717c8edf1d118ef0105f25e627b'
 

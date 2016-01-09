@@ -1,4 +1,5 @@
 cask 'font-hanalei' do
+  name 'hanalei'
   version '1.000'
   sha256 '000ddd2a6be57f52aa41876c2ba71310e2a711f0343c1bdd71e43c9f137000f6'
 

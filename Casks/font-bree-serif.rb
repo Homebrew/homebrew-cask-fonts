@@ -1,4 +1,5 @@
 cask 'font-bree-serif' do
+  name 'bree serif'
   version '1.001'
   sha256 'e0716652097f9325f2311881fe902e85d0ea6ebbba891926d4246b85c2cd4bbf'
 

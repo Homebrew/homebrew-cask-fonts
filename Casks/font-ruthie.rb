@@ -1,4 +1,5 @@
 cask 'font-ruthie' do
+  name 'ruthie'
   version '1.003'
   sha256 '7c5a1bfbcd9b0bf6f709686bdcefa4b06305f60fecdd290c1c2782de31559232'
 

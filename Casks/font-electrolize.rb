@@ -1,4 +1,5 @@
 cask 'font-electrolize' do
+  name 'electrolize'
   version '1.002'
   sha256 'aa81ab9015fc0190bb5e68c50290565c7a4a723ddf32b88774aaff05cdd66bca'
 

@@ -1,4 +1,5 @@
 cask 'font-oleo-script-swash-caps' do
+  name 'oleo script-swash-caps'
   # version '1.002'
   version :latest
   sha256 :no_check

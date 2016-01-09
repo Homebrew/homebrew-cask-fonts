@@ -1,4 +1,5 @@
 cask 'font-rotinonhsonni-serif' do
+  name 'rotinonhsonni serif'
   version '4.002'
   sha256 'fd7f76b1043ec817b3fd109130eafd1db85a3249ca7d98014a16bd8c207488d2'
 

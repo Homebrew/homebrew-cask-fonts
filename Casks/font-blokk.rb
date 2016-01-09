@@ -1,4 +1,5 @@
 cask 'font-blokk' do
+  name 'blokk'
   version '1.0'
   sha256 '3b47fd12dac9731c2ef24b19057b452640a9ea45cee4879171a656016ded6169'
 

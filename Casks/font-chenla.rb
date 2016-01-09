@@ -1,4 +1,5 @@
 cask 'font-chenla' do
+  name 'chenla'
   version '6.00'
   sha256 'ebc79ffc924df0c0302a46322e0427b1a79da1a1b61267513fa1c286ba99f73c'
 

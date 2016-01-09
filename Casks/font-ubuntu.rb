@@ -1,4 +1,5 @@
 cask 'font-ubuntu' do
+  name 'ubuntu'
   version '0.80'
   sha256 '107170099bbc3beae8602b97a5c423525d363106c3c24f787d43e09811298e4c'
 

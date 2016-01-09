@@ -1,4 +1,5 @@
 cask 'font-sirinstencil' do
+  name 'sirinstencil'
   version '1.002'
   sha256 '0e231c6220787179588fe8b1c8921bff70207f1f556a6ef7e35e46ae04352b2d'
 

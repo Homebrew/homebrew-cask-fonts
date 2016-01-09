@@ -1,4 +1,5 @@
 cask 'font-oxygen' do
+  name 'oxygen'
   # version '0.2.3'
   version :latest
   sha256 :no_check

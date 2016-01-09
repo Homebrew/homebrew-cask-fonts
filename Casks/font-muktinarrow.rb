@@ -1,4 +1,5 @@
 cask 'font-muktinarrow' do
+  name 'muktinarrow'
   version :latest
   sha256 :no_check
 

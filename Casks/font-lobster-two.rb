@@ -1,4 +1,5 @@
 cask 'font-lobster-two' do
+  name 'lobster two'
   # version '1.006'
   version :latest
   sha256 :no_check

@@ -1,4 +1,5 @@
 cask 'font-trebuchet-ms' do
+  name 'trebuchet ms'
   version '1.22'
   sha256 '5a690d9bb8510be1b8b4fe49f1f2319651fe51bbe54775ddddd8ef0bd07fdac9'
 

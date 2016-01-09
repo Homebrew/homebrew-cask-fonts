@@ -1,4 +1,5 @@
 cask 'font-hermit' do
+  name 'hermit'
   version '1.21'
   sha256 '2966e83f012e6a31a861e3afdcb89d157f12b307f2367303d58be364d4308b85'
 

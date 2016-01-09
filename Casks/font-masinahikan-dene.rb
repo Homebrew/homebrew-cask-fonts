@@ -1,4 +1,5 @@
 cask 'font-masinahikan-dene' do
+  name 'masinahikan dene'
   version :latest
   sha256 :no_check
   # version '1.000'

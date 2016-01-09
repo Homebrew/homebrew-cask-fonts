@@ -1,4 +1,5 @@
 cask 'font-liberation-mono-for-powerline' do
+  name 'liberation mono-for-powerline'
   version :latest
   sha256 :no_check
 

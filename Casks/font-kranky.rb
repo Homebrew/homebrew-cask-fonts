@@ -1,4 +1,5 @@
 cask 'font-kranky' do
+  name 'kranky'
   version '1.000'
   sha256 '61f9d41fc078f68f5277fb773c81b55074c27c4ece1a6c2c2a2aa9cef689cb52'
 

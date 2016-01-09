@@ -1,4 +1,5 @@
-cask 'font-shadows-into-light' do
+cask 'font-shado
+  name 'shadows into-light'ws-into-light' do
   version '001.000'
   sha256 '1347863151acdc00fa281daaba1a3543dbce5870b55f9cf7479a15bb84007681'
 

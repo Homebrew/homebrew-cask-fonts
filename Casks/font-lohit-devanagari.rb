@@ -1,4 +1,5 @@
 cask 'font-lohit-devanagari' do
+  name 'lohit devanagari'
   version '2.93.0'
   sha256 '0ee1cc070c0f378d4d35046514712a72a2ec0da6b7ed6cdc00d5ef815a164708'
 

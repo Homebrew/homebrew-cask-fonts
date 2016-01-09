@@ -1,4 +1,5 @@
 cask 'font-waltograph' do
+  name 'waltograph'
   # version '4.2'
   version :latest
   sha256 :no_check

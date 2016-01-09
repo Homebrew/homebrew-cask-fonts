@@ -1,4 +1,5 @@
 cask 'font-fira-mono' do
+  name 'fira mono'
   version '3.204'
   sha256 '4a986f97f3ea9baee0f419042327a71941e2e9ef94783b01e6739718d6e1da5e'
 

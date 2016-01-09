@@ -1,4 +1,5 @@
 cask 'font-noto-sans-ugaritic' do
+  name 'noto sans-ugaritic'
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,5 @@
 cask 'font-noto-sans-gujarati' do
+  name 'noto sans-gujarati'
   version :latest
   sha256 :no_check
 

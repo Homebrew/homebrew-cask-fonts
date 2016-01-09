@@ -1,4 +1,5 @@
 cask 'font-n-gage' do
+  name 'n gage'
   version :latest
   sha256 :no_check
 

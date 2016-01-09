@@ -1,4 +1,5 @@
 cask 'font-battambang' do
+  name 'battambang'
   # version '2.00'
   version :latest
   sha256 :no_check

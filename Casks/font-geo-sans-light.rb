@@ -1,4 +1,5 @@
 cask 'font-geo-sans-light' do
+  name 'geo sans-light'
   version :latest
   sha256 :no_check
 

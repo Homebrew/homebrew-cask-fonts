@@ -1,4 +1,5 @@
 cask 'font-uncial-antiqua' do
+  name 'uncial antiqua'
   version '1.000'
   sha256 '33a5128b59d1c95d4f3788164f4ab3a1196f0a982263cb2cd278c47418366766'
 

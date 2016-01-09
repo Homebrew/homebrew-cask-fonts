@@ -1,4 +1,5 @@
 cask 'font-piedra' do
+  name 'piedra'
   version '1.000'
   sha256 '2e9d00f94d3d78f38618250d03d3e8bccca541c956d5e0a437c62d708ef6c1da'
 

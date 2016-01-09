@@ -1,4 +1,5 @@
 cask 'font-krona-one' do
+  name 'krona one'
   version '1.003'
   sha256 '273463916f96a4707e697e3013d955cde8154b4e6d635a55132e7a12f276534c'
 

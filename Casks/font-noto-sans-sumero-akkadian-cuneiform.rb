@@ -1,4 +1,5 @@
 cask 'font-noto-sans-sumero-akkadian-cuneiform' do
+  name 'noto sans-sumero-akkadian-cuneiform'
   version :latest
   sha256 :no_check
 

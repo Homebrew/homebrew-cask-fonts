@@ -1,4 +1,5 @@
 cask 'font-amatic-sc' do
+  name 'amatic sc'
   # version '1.002'
   version :latest
   sha256 :no_check

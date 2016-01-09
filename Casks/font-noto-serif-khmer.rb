@@ -1,4 +1,5 @@
 cask 'font-noto-serif-khmer' do
+  name 'noto serif-khmer'
   version :latest
   sha256 :no_check
 

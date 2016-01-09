@@ -1,4 +1,5 @@
 cask 'font-oswald' do
+  name 'oswald'
   # version '2.002'
   version :latest
   sha256 :no_check

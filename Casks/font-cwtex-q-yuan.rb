@@ -1,4 +1,5 @@
 cask 'font-cwtex-q-yuan' do
+  name 'cwtex q-yuan'
   version '0.2'
   sha256 'ff0d51e4efe124fb0ae13a923776bdaa81ea7426fb33a9c13bf0da9f3db38852'
 

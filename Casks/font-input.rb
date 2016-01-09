@@ -1,4 +1,5 @@
 cask 'font-input' do
+  name 'input'
   version :latest
   sha256 :no_check
 

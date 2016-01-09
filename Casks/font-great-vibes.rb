@@ -1,4 +1,5 @@
 cask 'font-great-vibes' do
+  name 'great vibes'
   version '1.001'
   sha256 '9b4de643c541cc8f85b8be33ea93f6131a7911bac9cb44015b49552e402b1b55'
 

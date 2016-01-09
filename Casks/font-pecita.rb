@@ -1,4 +1,5 @@
 cask 'font-pecita' do
+  name 'pecita'
   version '4.2'
   sha256 '942bfcd5a69abd22443c5ec099316314589e7fb8c343972f60fad2b9a1ef7f7e'
 

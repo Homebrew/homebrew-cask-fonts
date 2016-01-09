@@ -1,4 +1,5 @@
 cask 'font-code2002' do
+  name 'code2002'
   version '0.917'
   sha256 '081a5605e1620d1012781829cbee7eeda0c2d81c1fad42520305d6de2b3652f5'
 

@@ -1,4 +1,5 @@
 cask 'font-ribeye-marrow' do
+  name 'ribeye marrow'
   version '1.000'
   sha256 '4b19d54b86a068bb5b8a060938d87d1e6028d566c8efb68fa9c7debaa19987d0'
 

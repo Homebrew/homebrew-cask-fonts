@@ -1,4 +1,5 @@
 cask 'font-prata' do
+  name 'prata'
   version '1.010'
   sha256 '7f3570472f373b0745604587830c70fa5d571b0c0b0c2409295df7548401b4f8'
 

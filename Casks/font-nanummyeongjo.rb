@@ -1,4 +1,5 @@
 cask 'font-nanummyeongjo' do
+  name 'nanummyeongjo'
   # version '2.030'
   version :latest
   sha256 :no_check

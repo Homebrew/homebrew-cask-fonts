@@ -1,4 +1,5 @@
 cask 'font-acme' do
+  name 'acme'
   version '1.001'
   sha256 'c51ba84f4dfd70f0f7c212888121c0785db3ce130ff5cec4360014215852383b'
 

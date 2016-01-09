@@ -1,4 +1,5 @@
 cask 'font-raleway' do
+  name 'raleway'
   # version '3.000'
   version :latest
   sha256 :no_check

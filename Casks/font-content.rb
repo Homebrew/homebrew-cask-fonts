@@ -1,4 +1,5 @@
 cask 'font-content' do
+  name 'content'
   # version '6.00'
   version :latest
   sha256 :no_check

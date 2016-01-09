@@ -1,4 +1,5 @@
 cask 'font-metal' do
+  name 'metal'
   version '6.00'
   sha256 '270a7045adfbcc335e50b4fbb4c24f1c58f15393ded13a1d87bfbbbe57bfb8ae'
 

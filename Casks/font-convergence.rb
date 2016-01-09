@@ -1,4 +1,5 @@
 cask 'font-convergence' do
+  name 'convergence'
   version '1.002'
   sha256 '4e17355228610042e6922db7f19d9d87eb99b4f09ba3a12be8a2800bad0e9904'
 

@@ -1,4 +1,5 @@
 cask 'font-lobster' do
+  name 'lobster'
   version '1.004'
   sha256 '3214c9d6b387bbf241763649b0e0201f86895ff47d64e1a314a94725a687187d'
 

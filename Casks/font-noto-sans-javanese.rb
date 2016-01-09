@@ -1,4 +1,5 @@
 cask 'font-noto-sans-javanese' do
+  name 'noto sans-javanese'
   version :latest
   sha256 :no_check
 

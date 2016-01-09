@@ -1,4 +1,5 @@
 cask 'font-droid-sans-ethiopic' do
+  name 'droid sans-ethiopic'
   # version '1.03'
   version :latest
   sha256 :no_check

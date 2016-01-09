@@ -1,4 +1,5 @@
 cask 'font-englebert' do
+  name 'englebert'
   version '1.000'
   sha256 'e7c5cf4ffa49ba93289a0434f7db8bf784983a97734588871cd93965ce5efd33'
 

@@ -1,4 +1,5 @@
 cask 'font-judson' do
+  name 'judson'
   # version '20110429'
   version :latest
   sha256 :no_check

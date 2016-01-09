@@ -1,4 +1,5 @@
 cask 'font-keania-one' do
+  name 'keania one'
   version '1.003'
   sha256 '55c6be3d0cdc816c462bccbcc935ef20f560bd7aecbf1b38caed4752b52c14c0'
 

@@ -1,4 +1,5 @@
 cask 'font-source-han-sans' do
+  name 'source han-sans'
   version '1.004'
   sha256 '3581236fd7a59bbc95e1bc2fa7fabbf7c47b05f0363d170b5bf08098de33007c'
 

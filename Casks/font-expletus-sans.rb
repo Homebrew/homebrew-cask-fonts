@@ -1,4 +1,5 @@
 cask 'font-expletus-sans' do
+  name 'expletus sans'
   # version '7.029'
   version :latest
   sha256 :no_check

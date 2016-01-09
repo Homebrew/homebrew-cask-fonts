@@ -1,4 +1,5 @@
 cask 'font-varela' do
+  name 'varela'
   version '1.000'
   sha256 '87cf0ddd50cd297cd6facfaac8bf59bf8d0b1a3b8b6619957ba08e72043d1896'
 

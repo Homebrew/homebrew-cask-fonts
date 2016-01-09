@@ -1,4 +1,5 @@
 cask 'font-padauk' do
+  name 'padauk'
   # version '2.8'
   version :latest
   sha256 :no_check

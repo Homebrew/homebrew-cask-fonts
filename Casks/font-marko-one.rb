@@ -1,4 +1,5 @@
 cask 'font-marko-one' do
+  name 'marko one'
   version '1.003'
   sha256 '6514019373dabdb5d91ab3d3d7e97d96a656738c634fbae047dbb8143815395d'
 

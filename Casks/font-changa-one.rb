@@ -1,4 +1,5 @@
 cask 'font-changa-one' do
+  name 'changa one'
   # version '1.003'
   version :latest
   sha256 :no_check

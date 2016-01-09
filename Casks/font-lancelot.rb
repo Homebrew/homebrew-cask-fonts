@@ -1,4 +1,5 @@
 cask 'font-lancelot' do
+  name 'lancelot'
   version '1.004'
   sha256 'fb9fdde61a9e0cc18b85220f4cd5b35de7b4b9cadf387ddc02f78c2084c77d0c'
 

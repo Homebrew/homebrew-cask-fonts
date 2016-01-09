@@ -1,4 +1,5 @@
 cask 'font-delius-unicase' do
+  name 'delius unicase'
   # version '1.002'
   version :latest
   sha256 :no_check

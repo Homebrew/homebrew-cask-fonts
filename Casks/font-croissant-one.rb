@@ -1,4 +1,5 @@
 cask 'font-croissant-one' do
+  name 'croissant one'
   version '1.001'
   sha256 '55ccb462d07bab853281e9fd9646f0cc258bfb1ae8ff645f857ba1f921f7f69e'
 

@@ -1,4 +1,5 @@
 cask 'font-josefin-sans' do
+  name 'josefin sans'
   # version '0'
   version :latest
   sha256 :no_check

@@ -1,4 +1,5 @@
 cask 'font-symbola' do
+  name 'symbola'
   # version '8.00'
   version :latest
   sha256 :no_check

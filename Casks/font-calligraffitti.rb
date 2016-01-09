@@ -1,4 +1,5 @@
 cask 'font-calligraffitti' do
+  name 'calligraffitti'
   version '1.001'
   sha256 '97c508102499f08b8964d750ec1f455e19aa9c30adf51d7fb5d0d650d8e75399'
 

@@ -1,4 +1,5 @@
 cask 'font-andale-mono' do
+  name 'andale mono'
   version '2.00'
   sha256 '0524fe42951adc3a7eb870e32f0920313c71f170c859b5f770d82b4ee111e970'
 

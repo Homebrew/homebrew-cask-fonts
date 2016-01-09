@@ -1,4 +1,5 @@
 cask 'font-clear-sans' do
+  name 'clear sans'
   version '1.00'
   sha256 '41809a296870dd7b4753d6532b4093821d61f9806281e6c053ccb11083ad1190'
 

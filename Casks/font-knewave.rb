@@ -1,4 +1,5 @@
 cask 'font-knewave' do
+  name 'knewave'
   version '1.001'
   sha256 'ed3bac761d755b89ab3082c844d4a623d63c7d6eef85d22ba1fb6c680e6a4436'
 

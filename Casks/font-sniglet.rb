@@ -1,4 +1,5 @@
 cask 'font-sniglet' do
+  name 'sniglet'
   # version '2.000'
   version :latest
   sha256 :no_check

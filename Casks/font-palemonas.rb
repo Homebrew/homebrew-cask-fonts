@@ -1,4 +1,5 @@
 cask 'font-palemonas' do
+  name 'palemonas'
   version '3.0'
   sha256 'ad576fc82d1f67824cc10cde6c1778016ecf16702bcc2353f0d3884f2283a978'
 

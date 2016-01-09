@@ -1,4 +1,5 @@
 cask 'font-droid-sans-mono' do
+  name 'droid sans-mono'
   # version '1.00'
   version :latest
   sha256 :no_check

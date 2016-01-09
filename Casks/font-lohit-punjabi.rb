@@ -1,4 +1,5 @@
 cask 'font-lohit-punjabi' do
+  name 'lohit punjabi'
   version '2.5.3'
   sha256 'd14143d1cbb9d6a72385251875b5b903f95dfbfed9f69e93568f6ab6dfd557bd'
 

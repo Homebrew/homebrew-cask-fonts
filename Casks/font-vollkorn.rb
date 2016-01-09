@@ -1,4 +1,5 @@
 cask 'font-vollkorn' do
+  name 'vollkorn'
   version '3.005'
   sha256 '2ba29d185bcf943f844a88546fbc4ec668d53f2564d8aa1c5837ffb9a45f4fab'
 

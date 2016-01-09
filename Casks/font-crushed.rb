@@ -1,4 +1,5 @@
 cask 'font-crushed' do
+  name 'crushed'
   version '001.000'
   sha256 '1e621bfede7fb4e149ae9af2b67893a3e3be7f2615e69eef7eb53962dfcfee5a'
 

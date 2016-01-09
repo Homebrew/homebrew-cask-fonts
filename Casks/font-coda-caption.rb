@@ -1,4 +1,5 @@
 cask 'font-coda-caption' do
+  name 'coda caption'
   version '1.001'
   sha256 'de85b46b9c25f44bed74ccb48760c0197f320112e32beb739bdddabfca4fe119'
 

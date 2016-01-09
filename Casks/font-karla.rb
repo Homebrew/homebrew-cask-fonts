@@ -1,4 +1,5 @@
 cask 'font-karla' do
+  name 'karla'
   # version '1.000'
   version :latest
   sha256 :no_check

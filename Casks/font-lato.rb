@@ -1,4 +1,5 @@
 cask 'font-lato' do
+  name 'lato'
   version :latest
   sha256 :no_check
 

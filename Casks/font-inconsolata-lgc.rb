@@ -1,4 +1,5 @@
 cask 'font-inconsolata-lgc' do
+  name 'inconsolata lgc'
   # version '1.1.0'
   version :latest
   sha256 :no_check

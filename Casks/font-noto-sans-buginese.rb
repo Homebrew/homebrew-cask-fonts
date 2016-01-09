@@ -1,4 +1,5 @@
 cask 'font-noto-sans-buginese' do
+  name 'noto sans-buginese'
   version :latest
   sha256 :no_check
 

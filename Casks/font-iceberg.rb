@@ -1,4 +1,5 @@
 cask 'font-iceberg' do
+  name 'iceberg'
   version '1.002'
   sha256 'dbbe0c4fceebe2e1c966362e9d647104c74796e52d494554eeabf4d6104fb2ff'
 

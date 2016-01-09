@@ -1,4 +1,5 @@
 cask 'font-jockey-one' do
+  name 'jockey one'
   version '1.002'
   sha256 '6331a3e99e240c45e4b5eb99845f5724932157d6a4766f2b4836f7582891ac4a'
 

@@ -1,4 +1,5 @@
 cask 'font-holtwood-one-sc' do
+  name 'holtwood one-sc'
   version '1.000'
   sha256 'd733fb5df2cfa8bca5b1d9bdb258c7a772f77a9ee5b209573402ad1dfd8597aa'
 

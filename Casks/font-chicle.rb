@@ -1,4 +1,5 @@
 cask 'font-chicle' do
+  name 'chicle'
   version '1.000'
   sha256 '03372be8b03c688fac9cea5e7b6bcee5e5750ce2d61d87f1a55e6c61a201c578'
 

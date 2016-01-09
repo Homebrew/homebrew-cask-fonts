@@ -1,4 +1,5 @@
 cask 'font-scheherazade' do
+  name 'scheherazade'
   version '2.020'
   sha256 'd8bb12997507937347efba4e59550a9655350563d1df662f0651e04ba916aff1'
 

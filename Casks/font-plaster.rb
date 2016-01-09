@@ -1,4 +1,5 @@
 cask 'font-plaster' do
+  name 'plaster'
   version '1.007'
   sha256 'f8b2d7d1d56abd4f20ae962b9f0559e9072a0926b5963d9eed040929ca07dc2d'
 

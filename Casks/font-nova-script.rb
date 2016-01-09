@@ -1,4 +1,5 @@
 cask 'font-nova-script' do
+  name 'nova script'
   version '2.000'
   sha256 'c3ee4c832eee2e632d7d37876b97ffd4c28757057944426fdd35c4df68edb587'
 

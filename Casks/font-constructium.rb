@@ -1,4 +1,5 @@
 cask 'font-constructium' do
+  name 'constructium'
   version :latest
   sha256 :no_check
 

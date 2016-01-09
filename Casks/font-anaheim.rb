@@ -1,4 +1,5 @@
 cask 'font-anaheim' do
+  name 'anaheim'
   version '1.002'
   sha256 'ea5974ed8d4bec459ffc93bbdd5179d0a904096867382d0c58c05f8d4857c0a6'
 

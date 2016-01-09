@@ -1,4 +1,5 @@
 cask 'font-allerta' do
+  name 'allerta'
   version '1.0'
   sha256 '9c7a63f78f944353b422abbb641c479503f5292a39d1ea932dc4186fd82b974f'
 

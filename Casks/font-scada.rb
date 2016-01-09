@@ -1,4 +1,5 @@
 cask 'font-scada' do
+  name 'scada'
   # version '3.005'
   version :latest
   sha256 :no_check

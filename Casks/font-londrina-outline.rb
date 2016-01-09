@@ -1,4 +1,5 @@
 cask 'font-londrina-outline' do
+  name 'londrina outline'
   version '1.001'
   sha256 '133b384a3e9f241a73f504ff3d4d3e250ffcced95161c8e8fa41105ed628f75e'
 

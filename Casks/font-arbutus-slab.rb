@@ -1,4 +1,5 @@
 cask 'font-arbutus-slab' do
+  name 'arbutus slab'
   version '1.001'
   sha256 'c17514a190509a94d74c9e99427c44527ff8c7d7dbba5d3e67a35ebf0093bd89'
 

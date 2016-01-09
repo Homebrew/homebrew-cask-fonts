@@ -1,4 +1,5 @@
 cask 'font-edlo' do
+  name 'edlo'
   version :latest
   sha256 :no_check
 

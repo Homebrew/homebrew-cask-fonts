@@ -1,4 +1,5 @@
 cask 'font-dynalight' do
+  name 'dynalight'
   version '1.000'
   sha256 '360da5d767b48c849d06a608a4605d53c32a49fde127603aa83b096b6b43d0f1'
 
