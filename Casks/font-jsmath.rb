@@ -4,7 +4,7 @@ cask 'font-jsmath' do
 
   url 'http://www.math.union.edu/~dpvc/jsmath/download/TeX-fonts-10.zip'
   homepage 'http://www.math.union.edu/~dpvc/jsmath/download/jsmath-fonts.html'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'TeX-fonts-10/jsMath-cmbx10.ttf'
   font 'TeX-fonts-10/jsMath-cmex10.ttf'

@@ -5,7 +5,7 @@ cask 'font-butler' do
   url 'http://fabiandesmet.com/wp-content/uploads/Butler_and_ButlerStencil.zip'
   name 'Butler'
   homepage 'http://fabiandesmet.com/portfolio/butler-font/'
-  license :unknown    # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Butler_Black.otf'
   font 'Butler_Black_Stencil.otf'

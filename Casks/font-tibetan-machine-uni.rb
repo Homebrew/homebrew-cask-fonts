@@ -4,7 +4,7 @@ cask 'font-tibetan-machine-uni' do
 
   url 'https://collab.itc.virginia.edu/access/content/group/26a34146-33a6-48ce-001e-f16ce7908a6a/Tibetan%20fonts/Tibetan%20Unicode%20Fonts/TibetanMachineUnicodeFont.zip'
   homepage 'http://www.thlib.org/tools/scripts/wiki/tibetan%20machine%20uni.html'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font "TibetanMachineUnicodeFont/TibMachUni-#{version}b.ttf"
 end

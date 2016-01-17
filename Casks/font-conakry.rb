@@ -4,7 +4,7 @@ cask 'font-conakry' do
 
   url 'http://www.evertype.com/fonts/nko/ConakryFont.zip'
   homepage 'http://www.evertype.com/fonts/nko/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'ConakryFont/Conakry.ttf'
 end

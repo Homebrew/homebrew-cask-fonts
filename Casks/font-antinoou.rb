@@ -4,7 +4,7 @@ cask 'font-antinoou' do
 
   url 'http://www.evertype.com/fonts/coptic/AntinoouFont.zip'
   homepage 'http://www.evertype.com/fonts/coptic/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'AntinoouFont-1.0.6/Antinoou.ttf'
   font 'AntinoouFont-1.0.6/AntinoouItalic.ttf'

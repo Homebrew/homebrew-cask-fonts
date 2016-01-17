@@ -4,7 +4,7 @@ cask 'font-redacted' do
   sha256 :no_check
 
   url 'https://github.com/christiannaths/Redacted-Font/trunk/fonts',
-      :using => :svn,
+      :using      => :svn,
       :revision   => '41',
       :trust_cert => true
   homepage 'https://github.com/christiannaths/Redacted-Font'

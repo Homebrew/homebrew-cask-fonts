@@ -18,5 +18,4 @@ cask 'font-comic-neue' do
   font "comic-neue-#{version}/OTF/ComicNeue_Light.otf"
   font "comic-neue-#{version}/OTF/ComicNeue_Light_Oblique.otf"
   font "comic-neue-#{version}/OTF/ComicNeue_Oblique.otf"
-
 end

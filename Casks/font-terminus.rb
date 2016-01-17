@@ -4,7 +4,7 @@ cask 'font-terminus' do
 
   url "http://files.ax86.net/terminus-ttf/files/#{version}/terminus-ttf-#{version}.zip"
   homepage 'http://files.ax86.net/terminus-ttf/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font "terminus-ttf-#{version}/TerminusTTF-#{version}.ttf"
   font "terminus-ttf-#{version}/TerminusTTF-Bold-#{version}.ttf"

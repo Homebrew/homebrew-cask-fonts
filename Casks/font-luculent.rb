@@ -4,7 +4,8 @@ cask 'font-luculent' do
 
   url 'http://eastfarthing.com/luculent/luculent.tar.xz'
   homepage 'http://eastfarthing.com/luculent/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
+
   depends_on :formula => 'xz'
 
   font 'luculent/luculent.ttf'

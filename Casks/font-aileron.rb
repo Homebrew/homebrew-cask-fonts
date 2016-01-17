@@ -4,7 +4,7 @@ cask 'font-aileron' do
 
   url 'http://dotcolon.net/DL/font/aileron.zip'
   homepage 'http://dotcolon.net/font/aileron/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Aileron-Black.otf'
   font 'Aileron-BlackItalic.otf'

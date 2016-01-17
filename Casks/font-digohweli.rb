@@ -4,7 +4,7 @@ cask 'font-digohweli' do
 
   url 'http://www.languagegeek.com/font/Digohweli.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Digohweli_1_7.ttf'
 end

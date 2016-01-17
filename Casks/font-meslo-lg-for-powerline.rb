@@ -3,7 +3,7 @@ cask 'font-meslo-lg-for-powerline' do
   sha256 :no_check
 
   url 'https://github.com/powerline/fonts/trunk/Meslo',
-      :using => :svn,
+      :using      => :svn,
       :trust_cert => true
   homepage 'https://github.com/powerline/fonts/tree/master/Meslo'
   license :oss

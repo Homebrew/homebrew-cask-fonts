@@ -4,7 +4,7 @@ cask 'font-camingocode' do
 
   url 'http://janfromm.de/_data/downloads/CamingoCode-v1.0.zip'
   homepage 'http://www.janfromm.de/typefaces/camingomono/camingocode/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'CamingoCode-Bold.ttf'
   font 'CamingoCode-BoldItalic.ttf'
