@@ -4,9 +4,9 @@ cask 'font-delius-unicase' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/ofl/deliusunicase',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Delius%20Unicase'
   license :ofl
 

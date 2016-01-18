@@ -3,8 +3,8 @@ cask 'font-dejavu-sans-mono-for-powerline' do
   sha256 :no_check
 
   url 'https://github.com/powerline/fonts/trunk/DejaVuSansMono',
-      :using      => :svn,
-      :trust_cert => true
+      using:      :svn,
+      trust_cert: true
   homepage 'https://github.com/powerline/fonts/tree/master/DejaVuSansMono'
   license :oss
 

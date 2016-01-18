@@ -4,9 +4,9 @@ cask 'font-ubuntu-mono-powerline' do
   sha256 :no_check
 
   url 'https://github.com/powerline/fonts/trunk/UbuntuMono',
-      :using      => :svn,
-      :revision   => '53',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '53',
+      trust_cert: true
   homepage 'https://github.com/powerline/fonts/tree/master/UbuntuMono'
   license :ubuntu_font
 

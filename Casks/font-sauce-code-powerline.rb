@@ -4,9 +4,9 @@ cask 'font-sauce-code-powerline' do
   sha256 :no_check
 
   url 'https://github.com/powerline/fonts/trunk/SourceCodePro',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'https://github.com/powerline/fonts/tree/master/SourceCodePro'
   license :oss
 

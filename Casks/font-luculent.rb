@@ -6,7 +6,7 @@ cask 'font-luculent' do
   homepage 'http://eastfarthing.com/luculent/'
   license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
-  depends_on :formula => 'xz'
+  depends_on formula: 'xz'
 
   font 'luculent/luculent.ttf'
   font 'luculent/luculentb.ttf'

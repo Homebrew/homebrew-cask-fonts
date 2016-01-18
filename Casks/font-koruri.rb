@@ -5,7 +5,7 @@ cask 'font-koruri' do
   # github.com is the official download host per the vendor homepage
   url "https://github.com/Koruri/Koruri/releases/download/Koruri-#{version}/Koruri-#{version}.tar.xz"
   appcast 'https://github.com/Koruri/Koruri/releases.atom',
-          :sha256 => '26b1585b7c9c3c6a0fd9f0768c0fcba491bf37980e3cf428b858af65cbdc5d24'
+          sha256: '26b1585b7c9c3c6a0fd9f0768c0fcba491bf37980e3cf428b858af65cbdc5d24'
   homepage 'http://koruri.lindwurm.biz/'
   license :apache
 

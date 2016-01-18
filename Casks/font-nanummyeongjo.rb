@@ -4,9 +4,9 @@ cask 'font-nanummyeongjo' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/ofl/nanummyeongjo',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'https://www.google.com/fonts/earlyaccess'
   license :ofl
 

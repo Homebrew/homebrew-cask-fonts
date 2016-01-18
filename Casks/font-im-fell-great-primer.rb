@@ -4,9 +4,9 @@ cask 'font-im-fell-great-primer' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/ofl/imfellgreatprimer',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20Great%20Primer'
   license :ofl
 

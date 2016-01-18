@@ -4,9 +4,9 @@ cask 'font-alegreya-sans-sc' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/ofl/alegreyasanssc',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Alegreya%20Sans%20SC'
   license :ofl
 

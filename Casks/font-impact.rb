@@ -6,7 +6,7 @@ cask 'font-impact' do
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
   license :oss
 
-  depends_on :formula => 'cabextract'
+  depends_on formula: 'cabextract'
 
   font 'Impact.TTF'
 end

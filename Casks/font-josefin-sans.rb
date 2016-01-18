@@ -4,9 +4,9 @@ cask 'font-josefin-sans' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/ofl/josefinsans',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Josefin%20Sans'
   license :ofl
 

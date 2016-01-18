@@ -4,9 +4,9 @@ cask 'font-tangerine' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/ofl/tangerine',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Tangerine'
   license :ofl
 

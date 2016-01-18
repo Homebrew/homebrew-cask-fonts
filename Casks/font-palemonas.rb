@@ -6,7 +6,7 @@ cask 'font-palemonas' do
   homepage 'http://www.vlkk.lt/palemonas'
   license :gratis
 
-  container :type => :zip
+  container type: :zip
 
   font "Palemonas-#{version}/Palemonas-nm.ttf"
   font "Palemonas-#{version}/Palemonas-bd.ttf"

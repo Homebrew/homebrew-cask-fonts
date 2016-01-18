@@ -6,7 +6,7 @@ cask 'font-m-plus' do
   homepage 'https://mplus-fonts.osdn.jp/about-en.html'
   license :oss
 
-  depends_on :formula => 'xz'
+  depends_on formula: 'xz'
 
   font 'mplus-TESTFLIGHT-060/mplus-1c-black.ttf'
   font 'mplus-TESTFLIGHT-060/mplus-1c-bold.ttf'
