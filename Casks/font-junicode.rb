@@ -4,7 +4,7 @@ cask 'font-junicode' do
 
   url "http://downloads.sourceforge.net/project/junicode/junicode/junicode-#{version.gsub('.', '-')}/junicode-#{version.gsub('.', '-')}.zip"
   homepage 'http://junicode.sourceforge.net/'
-  license :unknown # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'junicode/fonts/Junicode-Bold.ttf'
   font 'junicode/fonts/Junicode-BoldItalic.ttf'

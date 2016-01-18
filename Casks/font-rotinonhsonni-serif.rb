@@ -4,7 +4,7 @@ cask 'font-rotinonhsonni-serif' do
 
   url 'http://www.languagegeek.com/font/RotinonhSerif.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'rotinonhSerif_4_2.ttf'
   font 'rotinonhSerifb_4_2.ttf'

@@ -4,7 +4,7 @@ cask 'font-skiplegday' do
 
   url 'http://dl.dafont.com/dl/?f=skiplegday'
   homepage 'https://www.behance.net/gallery/18515345/Skip-Leg-Day-Typeface'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'SkipLegDay.ttf'
 end

@@ -4,7 +4,7 @@ cask 'font-lohit-assamese' do
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-assamese-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font "lohit-assamese-ttf-#{version}/Lohit-Assamese.ttf"
 end

@@ -4,7 +4,7 @@ cask 'font-code2001' do
 
   url "http://distcache.freebsd.org/ports-distfiles/code2001-#{version}/CODE2001.ZIP"
   homepage "http://ftp.freebsd.org/pub/FreeBSD/ports/distfiles/code2001-#{version}/"
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'CODE2001.TTF'
 end

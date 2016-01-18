@@ -20,5 +20,4 @@ cask 'font-source-han-code-jp' do
   font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-NormalIt.otf"
   font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Regular.otf"
   font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-RegularIt.otf"
-
 end

@@ -4,7 +4,7 @@ cask 'font-clear-sans' do
 
   url "https://01.org/sites/default/files/downloads/clear-sans/clearsans-#{version}.zip"
   homepage 'https://01.org/clear-sans'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'TTF/ClearSans-Bold.ttf'
   font 'TTF/ClearSans-BoldItalic.ttf'

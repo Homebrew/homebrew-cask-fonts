@@ -5,7 +5,7 @@ cask 'font-skola-sans' do
   # mediafire.com is the official download host per the vendor homepage
   url 'http://download1001.mediafire.com/ec6ebo88eb5g/5cbb1kb41ypzm3v/SkolaSansPro.zip'
   homepage 'https://www.behance.net/gallery/17504367/Free-font-family-SkolaSans'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'SkolaSansPro/SkolaSansPro OTF/SkolaSans-Black.otf'
   font 'SkolaSansPro/SkolaSansPro OTF/SkolaSans-BlackItalic.otf'
@@ -17,7 +17,6 @@ cask 'font-skola-sans' do
   font 'SkolaSansPro/SkolaSansPro OTF/SkolaSans-MediumItalic.otf'
   font 'SkolaSansPro/SkolaSansPro OTF/SkolaSans-Regular.otf'
   font 'SkolaSansPro/SkolaSansPro OTF/SkolaSans-RegularItalic.otf'
-
   font 'SkolaSansPro/SkolaSansCn Pro OTF/SkolaSans-Black.otf'
   font 'SkolaSansPro/SkolaSansCn Pro OTF/SkolaSans-BlackItalic.otf'
   font 'SkolaSansPro/SkolaSansCn Pro OTF/SkolaSans-Bold.otf'

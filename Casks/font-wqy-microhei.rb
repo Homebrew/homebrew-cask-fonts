@@ -4,7 +4,7 @@ cask 'font-wqy-microhei' do
 
   url "http://downloads.sourceforge.net/wqy/wqy-microhei-#{version}.tar.gz"
   homepage 'http://wenq.org/wqy2/index.cgi?MicroHei'
-  license :oss #Apache 2.0 + GPLv3
+  license :oss # Apache 2.0 + GPLv3
 
   font 'wqy-microhei/wqy-microhei.ttc'
 end

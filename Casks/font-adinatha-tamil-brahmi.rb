@@ -4,7 +4,7 @@ cask 'font-adinatha-tamil-brahmi' do
 
   url 'http://www.virtualvinodh.com/download/Adinatha-Tamil-Brahmi.zip'
   homepage 'http://www.virtualvinodh.com/downloads'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Adinatha-Tamil-Brahmi.otf'
 end

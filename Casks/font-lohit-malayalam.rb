@@ -4,7 +4,7 @@ cask 'font-lohit-malayalam' do
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-malayalam-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font "lohit-malayalam-ttf-#{version}/Lohit-Malayalam.ttf"
 end

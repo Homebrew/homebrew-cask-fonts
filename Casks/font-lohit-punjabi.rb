@@ -4,7 +4,7 @@ cask 'font-lohit-punjabi' do
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-punjabi-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font "lohit-punjabi-ttf-#{version}/Lohit-Punjabi.ttf"
 end

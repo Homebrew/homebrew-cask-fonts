@@ -4,7 +4,7 @@ cask 'font-glober' do
 
   url 'http://fontfabric.com/downfont/glober.zip'
   homepage 'http://fontfabric.com/glober-free-font/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Glober SemiBold Free.otf'
   font 'Glober Thin Free.otf'
