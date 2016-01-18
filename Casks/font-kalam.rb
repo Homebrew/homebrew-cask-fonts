@@ -4,7 +4,7 @@ cask 'font-kalam' do
 
   url 'https://github.com/itfoundry/kalam/releases/download/v2.000/kalam-2_000.zip'
   appcast 'https://github.com/itfoundry/kalam/releases.atom',
-          :sha256 => '2ae5d72c3ec731407999c0dc22df8bb6e42cc544b708eabf148801d9b6fa339f'
+          sha256: '2ae5d72c3ec731407999c0dc22df8bb6e42cc544b708eabf148801d9b6fa339f'
   homepage 'https://github.com/itfoundry/kalam'
   license :ofl
 

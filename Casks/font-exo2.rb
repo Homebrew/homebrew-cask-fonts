@@ -4,9 +4,9 @@ cask 'font-exo2' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/ofl/exo2',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Exo%202'
   license :ofl
 

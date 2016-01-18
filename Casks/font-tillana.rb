@@ -4,7 +4,7 @@ cask 'font-tillana' do
 
   url 'https://github.com/itfoundry/tillana/releases/download/v2.000/tillana-2_000.zip'
   appcast 'https://github.com/itfoundry/tillana/releases.atom',
-          :sha256 => '8b22ba5ebe8499a7756b4454b89ee75019285c791347b535b763122d6c5d8979'
+          sha256: '8b22ba5ebe8499a7756b4454b89ee75019285c791347b535b763122d6c5d8979'
   homepage 'https://github.com/itfoundry/tillana'
   license :ofl
 

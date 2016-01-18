@@ -4,7 +4,7 @@ cask 'font-laila' do
 
   url 'https://github.com/itfoundry/laila/releases/download/v2.000/laila-2_000.zip'
   appcast 'https://github.com/itfoundry/laila/releases.atom',
-          :sha256 => '1a268b0686377b36db6e935f5fde881e6003194c09c30308fc4e9a4029a5c3eb'
+          sha256: '1a268b0686377b36db6e935f5fde881e6003194c09c30308fc4e9a4029a5c3eb'
   homepage 'https://github.com/itfoundry/laila'
   license :ofl
 

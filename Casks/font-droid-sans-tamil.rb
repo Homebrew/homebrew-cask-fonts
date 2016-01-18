@@ -4,9 +4,9 @@ cask 'font-droid-sans-tamil' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/apache/droidsanstamil',
-      :using      => :svn,
-      :revision   => '50',
-      :trust_cert => true
+      using:      :svn,
+      revision:   '50',
+      trust_cert: true
   homepage 'https://www.google.com/fonts/earlyaccess'
   license :oss
 

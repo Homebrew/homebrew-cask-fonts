@@ -4,8 +4,8 @@ cask 'font-inconsolata-lgc' do
   sha256 :no_check
 
   url 'https://github.com/DeLaGuardo/Inconsolata-LGC/trunk',
-      :using      => :svn,
-      :trust_cert => true
+      using:      :svn,
+      trust_cert: true
   homepage 'https://github.com/DeLaGuardo/Inconsolata-LGC'
   license :ofl
 

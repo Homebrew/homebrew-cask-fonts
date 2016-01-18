@@ -6,8 +6,8 @@ cask 'font-lisutzimu' do
   homepage 'http://www.alanwood.net/unicode/fonts-east-asian.html#lisu'
   license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
-  depends_on :formula => 'unar'
-  container :type => :seven_zip
+  depends_on formula: 'unar'
+  container type: :seven_zip
 
   # The garbled characters in the directory name are intentional,
   # including the NO-BREAK SPACE

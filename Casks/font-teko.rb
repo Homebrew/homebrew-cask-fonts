@@ -4,7 +4,7 @@ cask 'font-teko' do
 
   url 'https://github.com/itfoundry/teko/releases/download/v2.000/teko-2_000.zip'
   appcast 'https://github.com/itfoundry/teko/releases.atom',
-          :sha256 => 'dff9e6431404e2d4a20f4a2766e34efcf3f125a0a972e23e15b206fc4e2a077c'
+          sha256: 'dff9e6431404e2d4a20f4a2766e34efcf3f125a0a972e23e15b206fc4e2a077c'
   homepage 'https://github.com/itfoundry/teko'
   license :ofl
 

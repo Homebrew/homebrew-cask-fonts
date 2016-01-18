@@ -3,8 +3,8 @@ cask 'font-roboto-slab' do
   sha256 :no_check
 
   url 'https://github.com/google/fonts/trunk/apache/robotoslab',
-      :using      => :svn,
-      :trust_cert => true
+      using:      :svn,
+      trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Roboto%20Slab'
   license :apache
 
