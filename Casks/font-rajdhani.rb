@@ -4,7 +4,7 @@ cask 'font-rajdhani' do
 
   url 'https://github.com/itfoundry/rajdhani/releases/download/v2.000/rajdhani-2_000.zip'
   appcast 'https://github.com/itfoundry/rajdhani/releases.atom',
-          sha256: '83cb5df4b0a6b60138dabbe7c4a1ac8a262972c00cd9f6be757af73d147d8bb4'
+          checkpoint: '83cb5df4b0a6b60138dabbe7c4a1ac8a262972c00cd9f6be757af73d147d8bb4'
   homepage 'https://github.com/itfoundry/rajdhani'
   license :ofl
 

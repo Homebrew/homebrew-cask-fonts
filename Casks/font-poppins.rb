@@ -4,7 +4,7 @@ cask 'font-poppins' do
 
   url 'https://github.com/itfoundry/poppins/releases/download/v2.000/poppins-2_000.zip'
   appcast 'https://github.com/itfoundry/poppins/releases.atom',
-          sha256: '62c4b949034b414f6e3b04d8a1d71a4b360aa266708a3067e64527e288edf549'
+          checkpoint: '62c4b949034b414f6e3b04d8a1d71a4b360aa266708a3067e64527e288edf549'
   homepage 'https://github.com/itfoundry/poppins'
   license :ofl
 

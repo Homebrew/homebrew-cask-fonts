@@ -4,7 +4,7 @@ cask 'font-iosevka' do
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/iosevka-#{version}.zip"
   appcast 'https://github.com/be5invis/Iosevka/releases.atom',
-          sha256: '14deed2491d152d97facefcded9aa182e74745521e23514989dde24f3f36363e'
+          checkpoint: '14deed2491d152d97facefcded9aa182e74745521e23514989dde24f3f36363e'
   name 'Iosevka'
   homepage 'https://github.com/be5invis/Iosevka/'
   license :ofl

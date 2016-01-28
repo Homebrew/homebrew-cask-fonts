@@ -4,7 +4,7 @@ cask 'font-hind' do
 
   url 'https://github.com/itfoundry/hind/releases/download/v2.000/hind-2_000.zip'
   appcast 'https://github.com/itfoundry/hind/releases.atom',
-          sha256: '017f74f380a4da8c683f65c195a11e17b6454bd53fe5ab757aa6d3e03b6a0bf4'
+          checkpoint: '017f74f380a4da8c683f65c195a11e17b6454bd53fe5ab757aa6d3e03b6a0bf4'
   homepage 'https://github.com/itfoundry/hind'
   license :ofl
 

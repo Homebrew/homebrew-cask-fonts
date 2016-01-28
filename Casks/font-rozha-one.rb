@@ -4,7 +4,7 @@ cask 'font-rozha-one' do
 
   url 'https://github.com/itfoundry/rozhaone/releases/download/v2.000/rozhaone-2_000.zip'
   appcast 'https://github.com/itfoundry/rozhaone/releases.atom',
-          sha256: '0aa351b7077db379253573a21001e38630f4321bd7ee00b8e9bdbcb5ea14a8f6'
+          checkpoint: '0aa351b7077db379253573a21001e38630f4321bd7ee00b8e9bdbcb5ea14a8f6'
   homepage 'https://github.com/itfoundry/rozhaone'
   license :ofl
 

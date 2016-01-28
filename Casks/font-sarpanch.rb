@@ -4,7 +4,7 @@ cask 'font-sarpanch' do
 
   url 'https://github.com/itfoundry/sarpanch/releases/download/v2.000/sarpanch-2_000.zip'
   appcast 'https://github.com/itfoundry/sarpanch/releases.atom',
-          sha256: 'b7624a74f2a8275919bffed357df87385a5b32de8bc69e43ca072791e7993ba4'
+          checkpoint: 'b7624a74f2a8275919bffed357df87385a5b32de8bc69e43ca072791e7993ba4'
   homepage 'https://github.com/itfoundry/sarpanch'
   license :ofl
 
