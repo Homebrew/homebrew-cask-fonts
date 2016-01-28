@@ -3,11 +3,11 @@ cask 'font-tex-gyre-bonum' do
   sha256 '30e7e9bf24b73709edff9916c95214a66b7fac38f78a11a19e4bc18ab019d398'
 
   url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum/qbk#{version}otf.zip"
-  homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum/index_html'
+  homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum'
   license :lppl
 
-  font "qbk#{version}otf/texgyrebonum-bold.otf"
-  font "qbk#{version}otf/texgyrebonum-bolditalic.otf"
-  font "qbk#{version}otf/texgyrebonum-italic.otf"
-  font "qbk#{version}otf/texgyrebonum-regular.otf"
+  font 'texgyrebonum-bold.otf'
+  font 'texgyrebonum-bolditalic.otf'
+  font 'texgyrebonum-italic.otf'
+  font 'texgyrebonum-regular.otf'
 end

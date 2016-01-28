@@ -1,13 +1,13 @@
 cask 'font-tex-gyre-pagella' do
   version '2.004'
-  sha256 'ae8db1c134ec5c1b8c3999116b0610a5ad1c6f47520c3b4712b9bc914458dce9'
+  sha256 'e241b65216b0226ea787b5d7f9f06e9fd1e1013f6243ebc69aeb57c3ca006d78'
 
   url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella/qpl#{version}otf.zip"
-  homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella/index_html'
+  homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella'
   license :lppl
 
-  font "qpl#{version}otf/texgyrepagella-bold.otf"
-  font "qpl#{version}otf/texgyrepagella-bolditalic.otf"
-  font "qpl#{version}otf/texgyrepagella-italic.otf"
-  font "qpl#{version}otf/texgyrepagella-regular.otf"
+  font 'texgyrepagella-bold.otf'
+  font 'texgyrepagella-bolditalic.otf'
+  font 'texgyrepagella-italic.otf'
+  font 'texgyrepagella-regular.otf'
 end
