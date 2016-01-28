@@ -3,8 +3,8 @@ cask 'font-monoone' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/madmalik/monoOne/blob/master/monoOne.otf'
-  homepage 'https://github.com/madmalik/monoOne'
+  url 'https://github.com/madmalik/mononoki/raw/master/monoOne.otf'
+  homepage 'https://github.com/madmalik/mononoki'
   license :oss
 
   font 'monoOne.otf'
