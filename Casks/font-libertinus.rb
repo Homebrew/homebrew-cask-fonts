@@ -1,10 +1,10 @@
 cask 'font-libertinus' do
-  version '6.1'
-  sha256 '2c5a32e08d7601ffdc86e52d69dc1d19acfd118ec5bb549073a3cbeb969e74be'
+  version '6.2'
+  sha256 'f3c20cd0c07bc36467693611d9d520bacf36df35e8af7b8338aaf52064b6c6e3'
 
   url "https://github.com/khaledhosny/libertinus/archive/v#{version}.tar.gz"
   appcast 'https://github.com/khaledhosny/libertinus/releases.atom',
-          checkpoint: 'bf75faf5d43f2bb6324d38386cd14046fc372afc9ac8c27f3475f40c344f900f'
+          checkpoint: 'e8cc907dd473b2ebca71533b1c411831bde702f85ac500ee890daf7540c2555f'
   name 'Libertinus'
   homepage 'https://github.com/khaledhosny/libertinus'
   license :ofl
