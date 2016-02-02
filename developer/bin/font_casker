@@ -127,7 +127,7 @@ end
 # todo: named parameters, after switching to Ruby 2.x
 def caskify(family, klass, version, sha, url, homepage, paths)
   output = ["FAMILY: #{family}"]
-  output << %q{cask :v1 => 'FIXME' do}
+  output << %q{cask 'FIXME' do}
   output << stanzify('version', version)
   output << stanzify('sha256', sha)
   output << ''
