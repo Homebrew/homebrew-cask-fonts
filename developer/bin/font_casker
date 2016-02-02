@@ -132,6 +132,7 @@ def caskify(family, klass, version, sha, url, homepage, paths)
   output << stanzify('sha256', sha)
   output << ''
   output << stanzify('url', '')
+  output << stanzify('name', '')
   output << stanzify('homepage', '')
   output << ''
   output << stanzify('font', paths)
