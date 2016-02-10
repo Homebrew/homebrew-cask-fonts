@@ -2,8 +2,9 @@ cask 'font-skola-sans' do
   version :latest
   sha256 :no_check
 
-  # mediafire.com is the official download host per the vendor homepage
-  url 'http://download1001.mediafire.com/ec6ebo88eb5g/5cbb1kb41ypzm3v/SkolaSansPro.zip'
+  # mediafire.com/download/5cbb1kb41ypzm3v was verified as official when first introduced to the cask
+  url 'http://www.mediafire.com/download/5cbb1kb41ypzm3v/SkolaSansPro.zip'
+  name 'SkokalaSans'
   homepage 'https://www.behance.net/gallery/17504367/Free-font-family-SkolaSans'
   license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
