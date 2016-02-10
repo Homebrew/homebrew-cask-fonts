@@ -1,8 +1,9 @@
 cask 'font-fontawesome' do
   version '4.5.0'
-  sha256 'c6379a0215a298d11c3f55ed574c7f8c3bc5af196ebe0dac5b885d1e47105712'
+  sha256 'fb6936c0d9d181ead8c862269386fc46c4ae04dae34d08cd06af162c91867cd9'
 
-  url "https://github.com/FortAwesome/Font-Awesome/archive/v#{version}.zip"
+  url "https://fortawesome.github.io/Font-Awesome/assets/font-awesome-#{version}.zip"
+  name 'Font Awesome'
   homepage 'http://fortawesome.github.io/Font-Awesome/'
   license :oss
 
