@@ -1,8 +1,9 @@
 cask 'font-nova-script' do
-  version '2.000'
-  sha256 'c3ee4c832eee2e632d7d37876b97ffd4c28757057944426fdd35c4df68edb587'
+  version :latest
+  sha256 :no_check
 
-  url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/novascript/NovaScript.ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/novascript/NovaScript.ttf'
+  name 'Nova Script'
   homepage 'http://www.google.com/fonts/specimen/Nova%20Script'
   license :ofl
 
