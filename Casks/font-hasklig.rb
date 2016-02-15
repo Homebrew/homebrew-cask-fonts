@@ -1,10 +1,12 @@
 cask 'font-hasklig' do
-  version '0.4'
-  sha256 '2876403c16225f0f3f74cff127c3e2ade754a2e83b87ab6fe9461b7e95fb4092'
+  version '0.9'
+  sha256 '4d70cb0932ae8bea63d4b4aa5b1518a60a29d212856ffe24be6805695c295b65'
 
   url "https://github.com/i-tu/Hasklig/releases/download/#{version}/Hasklig-#{version}.zip"
+  appcast 'https://github.com/i-tu/Hasklig/releases.atom',
+          checkpoint: '6a2bc8622268336facbdfd092ee6c5b9b161dd5b7f39293130ba2f5c41007cd3'
   homepage 'https://github.com/i-tu/Hasklig'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
+  license :ofl
 
   font 'Hasklig-Black.otf'
   font 'Hasklig-Bold.otf'
