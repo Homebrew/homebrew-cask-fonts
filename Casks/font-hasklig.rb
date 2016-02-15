@@ -1,6 +1,6 @@
 cask 'font-hasklig' do
-  version '0.4'
-  sha256 '2876403c16225f0f3f74cff127c3e2ade754a2e83b87ab6fe9461b7e95fb4092'
+  version '0.9'
+  sha256 '4d70cb0932ae8bea63d4b4aa5b1518a60a29d212856ffe24be6805695c295b65'
 
   url "https://github.com/i-tu/Hasklig/releases/download/#{version}/Hasklig-#{version}.zip"
   homepage 'https://github.com/i-tu/Hasklig'
