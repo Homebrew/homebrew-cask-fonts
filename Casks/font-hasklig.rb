@@ -4,7 +4,7 @@ cask 'font-hasklig' do
 
   url "https://github.com/i-tu/Hasklig/releases/download/#{version}/Hasklig-#{version}.zip"
   homepage 'https://github.com/i-tu/Hasklig'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
+  license :ofl
 
   font 'Hasklig-Black.otf'
   font 'Hasklig-Bold.otf'
