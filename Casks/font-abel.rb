@@ -1,8 +1,9 @@
 cask 'font-abel' do
-  version '1.002'
-  sha256 'b4d45fad9f393994446add8b0a73fd56b947f6088e145234d3e66b9c333c4cae'
+  version :latest
+  sha256 :no_check
 
-  url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/abel/Abel-Regular.ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/abel/Abel-Regular.ttf'
+  name 'Abel'
   homepage 'http://www.google.com/fonts/specimen/Abel'
   license :ofl
 
