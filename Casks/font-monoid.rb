@@ -4,8 +4,8 @@ cask 'font-monoid' do
 
   # github.com/larsenwork/monoid was verified as official when first introduced to the cask
   url 'https://github.com/larsenwork/monoid/blob/release/Monoid.zip?raw=true'
-  appcast 'https://github.com/larsenwork/monoid/blob/releases.atom',
-          checkpoint: 'e94cd1ccc01488e99b07a372162ea9e555b6aef0e0911cbb198281f03b975467'
+  appcast 'https://github.com/larsenwork/monoid/releases.atom',
+          checkpoint: '7d81b051c97512e3973332b07fe3f2013384be867d46c85879117bacebaba111'
   name 'Monoid'
   homepage 'http://larsenwork.com/monoid/'
   license :ofl
