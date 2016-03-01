@@ -1,8 +1,9 @@
 cask 'font-dejavu-sans' do
-  version '2.34'
-  sha256 'f6b806b4aa0ea36a8d0f2c46dcd5afa6743773930024e562980c4cd0f9230792'
+  version '2.35'
+  sha256 '7e0d00f20080784c3a38a845d5858c161af14f0073d9474cdbfdedae883cc747'
 
   url "http://downloads.sourceforge.net/sourceforge/dejavu/dejavu-fonts-ttf-#{version}.zip"
+  name 'DejaVu'
   homepage 'http://dejavu-fonts.org/wiki/Main_Page'
   license :oss
 
