@@ -1,4 +1,4 @@
-cask 'font-texgyrepagella-math' do
+cask 'font-tex-gyre-pagella-math' do
   version '1.632'
   sha256 '4c32b3094d14ccdb649c1a668871a43ee17b3fdc34192c9f0cb8792d68148f4c'
 
