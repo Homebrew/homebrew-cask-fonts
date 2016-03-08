@@ -81,7 +81,7 @@ predictable.
 ### Start From the Font's Canonical Name
 
 The canonical font name is the font family name as returned by the command
-`otfinfo --family`.
+`fc-query --format='%{family}'`.
 
 If there is more than one family in the distribution, use your judgment to
 choose the "most famous" one.  If there is more than one style, choose the
@@ -97,6 +97,9 @@ the unique string users refer to when operating on the Cask.
 
 To get from the Font's canonical name to a Cask token:
 
+  * remove strings such as "font", "ttf", "otf", "true type", etc. from the
+    canonical name that don't add meaning not assumed in the context of a font
+    package
   * prepend the string `font-` to the canonical name, to prevent clashes
     with Application tokens
   * expand the `+` symbol into a separated English word: `-plus-`
