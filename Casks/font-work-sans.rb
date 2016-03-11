@@ -1,11 +1,11 @@
 cask 'font-work-sans' do
-  version '1.50'
-  sha256 'b66a866de658b410f39379fd819a8f4dd7207e879bfeec21908480ee08291c61'
+  version '1.51'
+  sha256 'dd0497530f520043c18707127c1c84dc7844b75f1105bd3a8830bcacaf294106'
 
   # github.com/weiweihuanghuang/Work-Sans was verified as official when first introduced to the cask
   url "https://github.com/weiweihuanghuang/Work-Sans/archive/v#{version}.zip"
   appcast 'https://github.com/weiweihuanghuang/Work-Sans/releases.atom',
-          checkpoint: '083ce50ee2ef3cb57d9d1b28a108b3c588fd646764c180ea79550d025b90c0f6'
+          checkpoint: '0f6b8a1b720afc05862550caa4e559247971971e862047a99aab41b08ebd268c'
   name 'Work Sans'
   homepage 'http://weiweihuanghuang.github.io/Work-Sans/'
   license :ofl
