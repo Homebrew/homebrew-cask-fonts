@@ -4,7 +4,7 @@ cask 'font-iosevka' do
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/iosevka-#{version}.zip"
   appcast 'https://github.com/be5invis/Iosevka/releases.atom',
-          checkpoint: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+          checkpoint: '34340cb1d18a1bf91dfec9a9746b5f2436a6dc58303b6c7a3ecd2630d960ac38'
   name 'Iosevka'
   homepage 'https://github.com/be5invis/Iosevka/'
   license :ofl
@@ -30,5 +30,4 @@ cask 'font-iosevka' do
   font 'iosevka/iosevka-thin.ttf'
   font 'iosevka/iosevka-thinitalic.ttf'
   font 'iosevka/iosevka-thinoblique.ttf'
-
 end
