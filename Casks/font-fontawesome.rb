@@ -9,5 +9,3 @@ cask 'font-fontawesome' do
 
   font "Font-Awesome-#{version}/fonts/FontAwesome.otf"
 end
-
-https://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.5.0.zip
