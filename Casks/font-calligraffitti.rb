@@ -4,6 +4,7 @@ cask 'font-calligraffitti' do
 
   url 'https://github.com/google/fonts/blob/master/apache/calligraffitti/Calligraffitti-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Calligraffitti'
+  name 'Calligraffitti-Regular'
   license :apache
 
   font 'Calligraffitti-Regular.ttf'
