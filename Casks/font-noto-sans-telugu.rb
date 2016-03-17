@@ -2,9 +2,10 @@ cask 'font-noto-sans-telugu' do
   version :latest
   sha256 :no_check
 
-  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansTelugu-hinted.zip'
-  homepage 'https://www.google.com/get/noto'
-  license :apache
+  url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansTelugu-unhinted.zip'
+  name 'Noto Sans Telugu'
+  homepage 'https://www.google.com/get/noto/#sans-telu'
+  license :ofl
 
   font 'NotoSansTelugu-Regular.ttf'
   font 'NotoSansTelugu-Bold.ttf'

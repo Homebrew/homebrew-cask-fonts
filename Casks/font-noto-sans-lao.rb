@@ -2,9 +2,10 @@ cask 'font-noto-sans-lao' do
   version :latest
   sha256 :no_check
 
-  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansLao-hinted.zip'
-  homepage 'https://www.google.com/get/noto'
-  license :apache
+  url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLao-unhinted.zip'
+  name 'Noto Sans Lao'
+  homepage 'https://www.google.com/get/noto/#sans-laoo'
+  license :ofl
 
   font 'NotoSansLao-Bold.ttf'
   font 'NotoSansLao-Regular.ttf'

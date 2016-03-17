@@ -3,9 +3,10 @@ cask 'font-noto-sans-armenian' do
   sha256 :no_check
 
   url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansArmenian-hinted.zip'
-  homepage 'https://www.google.com/get/noto'
-  license :apache
+  name 'Noto Sans Armenian'
+  homepage 'https://www.google.com/get/noto/#sans-armn'
+  license :ofl
 
-  font 'NotoSansArmenian-Regular.ttf'
   font 'NotoSansArmenian-Bold.ttf'
+  font 'NotoSansArmenian-Regular.ttf'
 end

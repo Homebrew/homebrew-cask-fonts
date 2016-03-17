@@ -2,9 +2,10 @@ cask 'font-noto-sans-kaithi' do
   version :latest
   sha256 :no_check
 
-  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansKaithi-unhinted.zip'
-  homepage 'https://www.google.com/get/noto'
-  license :apache
+  url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansKaithi-unhinted.zip'
+  name 'Noto Sans Kaithi'
+  homepage 'https://www.google.com/get/noto/#sans-kthi'
+  license :ofl
 
   font 'NotoSansKaithi-Regular.ttf'
 end
