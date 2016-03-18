@@ -2,9 +2,10 @@ cask 'font-noto-sans-yi' do
   version :latest
   sha256 :no_check
 
-  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansYi-unhinted.zip'
-  homepage 'https://www.google.com/get/noto'
-  license :apache
+  url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansYi-unhinted.zip'
+  name 'Noto Sans Yi'
+  homepage 'https://www.google.com/get/noto/#sans-yiii'
+  license :ofl
 
   font 'NotoSansYi-Regular.ttf'
 end

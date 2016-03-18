@@ -2,9 +2,10 @@ cask 'font-noto-sans-syloti-nagri' do
   version :latest
   sha256 :no_check
 
-  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansSylotiNagri-unhinted.zip'
-  homepage 'https://www.google.com/get/noto'
-  license :apache
+  url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSylotiNagri-unhinted.zip'
+  name 'Noto Sans Syloti Nagri'
+  homepage 'https://www.google.com/get/noto/#sans-sylo'
+  license :ofl
 
   font 'NotoSansSylotiNagri-Regular.ttf'
 end

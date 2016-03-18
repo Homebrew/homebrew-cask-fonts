@@ -2,9 +2,10 @@ cask 'font-noto-sans-devanagari' do
   version :latest
   sha256 :no_check
 
-  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansDevanagari-hinted.zip'
-  homepage 'https://www.google.com/get/noto'
-  license :apache
+  url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDevanagari-unhinted.zip'
+  name 'Noto Sans Devanagari'
+  homepage 'https://www.google.com/get/noto/#sans-deva'
+  license :ofl
 
   font 'NotoSansDevanagari-Bold.ttf'
   font 'NotoSansDevanagari-Regular.ttf'
