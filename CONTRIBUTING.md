@@ -5,7 +5,7 @@ all pretty happy about this.
 
 ## Getting Started
 
-See [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) in the main homebrew-cask repo for general info on how to get set up.
+See [CONTRIBUTING.md](https://github.com/caskroom/homebrew-cask/blob/master/CONTRIBUTING.md) in the main homebrew-cask repo for general info on how to get set up.
 
 ## Adding a Font Cask
 
@@ -47,7 +47,7 @@ end
 
 ## Font Cask Fields
 
-The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
+The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/caskroom/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
 Note that if the download `url` is not a versioned file, `sha256 <hexstring>`
 should be replaced with `sha256 :no_check`, and `version` should be set to
 `:latest`.
@@ -164,6 +164,6 @@ please do: we consider that an upgrade.
 
 For some fonts, Google Web Font Directory is the only current source.  Writing
 the `url` stanza for those cases may require using some unusual features of the
-Cask language.  See example [font-lekton.rb](Casks/font-lekton.rb), consult [CASK_LANGUAGE_REFERENCE](https://github.com/phinze/homebrew-cask/blob/master/doc/CASK_LANGUAGE_REFERENCE.md), or contact the maintainers.
+Cask language.  See example [font-lekton.rb](Casks/font-lekton.rb), consult [cask_language_reference](https://github.com/caskroom/homebrew-cask/tree/master/doc/cask_language_reference), or contact the maintainers.
 
 **<3 THANK YOU TO ALL CONTRIBUTORS! <3**
