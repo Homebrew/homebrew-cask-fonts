@@ -5,7 +5,7 @@ all pretty happy about this.
 
 ## Getting Started
 
-See [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) in the main homebrew-cask repo for general info on how to get set up.
+See [CONTRIBUTING.md](https://github.com/caskroom/homebrew-cask/blob/master/CONTRIBUTING.md) in the main homebrew-cask repo for general info on how to get set up.
 
 ## Adding a Font Cask
 
@@ -13,7 +13,7 @@ Making a Font Cask is easy: a Cask is a small Ruby file.
 
 Here's a Cask for the font [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) as an example:
 ```ruby
-cask :v1 => 'font-inconsolata' do
+cask 'font-inconsolata' do
   version :latest
   sha256 :no_check
 
@@ -30,7 +30,7 @@ Note that you may repeat the `font` stanza as many times as you need to, if mult
 be installed from the same package:
 
 ```ruby
-cask :v1 => 'font-fantasque-sans-mono' do
+cask 'font-fantasque-sans-mono' do
   version '1.6.4'
   sha256 'da5a7f84ac0e1c02b49334690d7451d936691718fb1332f863eacc521816dccd'
 
@@ -47,7 +47,7 @@ end
 
 ## Font Cask Fields
 
-The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/phinze/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
+The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/caskroom/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo.
 Note that if the download `url` is not a versioned file, `sha256 <hexstring>`
 should be replaced with `sha256 :no_check`, and `version` should be set to
 `:latest`.
@@ -81,7 +81,7 @@ predictable.
 ### Start From the Font's Canonical Name
 
 The canonical font name is the font family name as returned by the command
-`otfinfo --family`.
+`fc-query --format='%{family}'`.
 
 If there is more than one family in the distribution, use your judgment to
 choose the "most famous" one.  If there is more than one style, choose the
@@ -97,6 +97,9 @@ the unique string users refer to when operating on the Cask.
 
 To get from the Font's canonical name to a Cask token:
 
+  * remove strings such as "font", "ttf", "otf", "true type", etc. from the
+    canonical name that don't add meaning not assumed in the context of a font
+    package
   * prepend the string `font-` to the canonical name, to prevent clashes
     with Application tokens
   * expand the `+` symbol into a separated English word: `-plus-`
@@ -161,6 +164,6 @@ please do: we consider that an upgrade.
 
 For some fonts, Google Web Font Directory is the only current source.  Writing
 the `url` stanza for those cases may require using some unusual features of the
-Cask language.  See example [font-lekton.rb](Casks/font-lekton.rb), consult [CASK_LANGUAGE_REFERENCE](https://github.com/phinze/homebrew-cask/blob/master/doc/CASK_LANGUAGE_REFERENCE.md), or contact the maintainers.
+Cask language.  See example [font-lekton.rb](Casks/font-lekton.rb), consult [cask_language_reference](https://github.com/caskroom/homebrew-cask/tree/master/doc/cask_language_reference), or contact the maintainers.
 
 **<3 THANK YOU TO ALL CONTRIBUTORS! <3**
