@@ -8,6 +8,6 @@ cask 'font-fantasque-sans-mono' do
 
   font 'OTF/FantasqueSansMono-Bold.otf'
   font 'OTF/FantasqueSansMono-BoldItalic.otf'
-  font 'OTF/FantasqueSansMono-RegItalic.otf'
+  font 'OTF/FantasqueSansMono-Italic.otf'
   font 'OTF/FantasqueSansMono-Regular.otf'
 end
