@@ -1,10 +1,10 @@
 cask 'font-nika' do
-  version '0.1.0'
-  sha256 '82e98f0e9dbedbe5c416e7439b76cc0dc4f10a94d270126da2d12592097f930f'
+  version '0.1.1'
+  sha256 '46eb811abd261276cd7238a461ba37948ca56c736243fba98f831b405e54c747'
 
   url "https://github.com/font-store/font-nika/archive/v#{version}.zip"
   appcast 'https://github.com/font-store/font-nika/releases.atom',
-          checkpoint: '9db4dd0cb14dfed3200c18ae49f63ab34e60cda3f7cc4d8128d34db2d9efb590'
+          checkpoint: 'c6ecf084fe2e13e2bafe52629de582a17ab30cef971a4c6994e0fa2a4af23cdc'
   name 'Nika'
   homepage 'https://github.com/font-store/font-nika'
   license :ofl
