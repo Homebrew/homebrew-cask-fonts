@@ -1,8 +1,8 @@
 cask 'font-hanazono-mincho' do
-  version '2014-10-12'
-  sha256 '06a7285dcc5c8a22aa3a1b319f965d9d336b84af61fabd5d9d5ba6fa2d861208'
+  version '2016-02-01'
+  sha256 '2b89af892d969edbb47b5adf75663a76c2bec5961467e65557b623f6b2add139'
 
-  url 'http://dl.osdn.jp/hanazono-font/62072/hanazono-20141012.zip'
+  url 'http://dl.osdn.jp/hanazono-font/64385/hanazono-20160201.zip'
   homepage 'http://fonts.jp/hanazono/'
   license :oss
 
