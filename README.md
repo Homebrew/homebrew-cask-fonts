@@ -45,7 +45,7 @@ Want to contribute a Font Cask? Awesome! Please do! See
 ## Learn More
 
  * Find basic documentation on using homebrew-cask in [USAGE.md](https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md)
- * Want to hack on our Ruby code? Super awesome! See [HACKING.md](https://github.com/caskroom/homebrew-cask/blob/master/doc/hacking.md)
+ * Want to hack on our Ruby code? Super awesome! See [hacking.md](https://github.com/caskroom/homebrew-cask/blob/master/doc/development/hacking.md)
 
 ## Questions? Wanna chat?
 
