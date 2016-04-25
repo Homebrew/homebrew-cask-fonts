@@ -1,6 +1,6 @@
 cask 'font-fontawesome' do
   version '4.6.1'
-  sha256 '84b28c8bd1045040c2bf0a5e3fefdea42b160cf20091fa916c539531da9635ef'
+  sha256 '5d319b5f2494a4eb5fce412e22010a8364bba1d785abdf0192e3611e67286b3d'
 
   url "https://fortawesome.github.io/Font-Awesome/assets/font-awesome-#{version}.zip"
   appcast 'https://github.com/FortAwesome/Font-Awesome/releases.atom',
