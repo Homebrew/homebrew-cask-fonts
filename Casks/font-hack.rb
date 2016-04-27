@@ -1,6 +1,6 @@
 cask 'font-hack' do
-  version '2.019'
-  sha256 '9e847ad7afb327ca089c4b09d1368091ca0c98e64a2fe284755162e6650bfdd2'
+  version '2.020'
+  sha256 '88f7124c0aa8b0ba3e38142f16fae2d1fcab4f2b3fcc9152f403de325dc4876c'
 
   # github.com/chrissimpkins/Hack was verified as official when first introduced to the cask
   url "https://github.com/chrissimpkins/Hack/archive/v#{version}.zip"
