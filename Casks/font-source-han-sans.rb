@@ -1,4 +1,4 @@
-sk 'font-source-han-sans' do
+Cask 'font-source-han-sans' do
   version '1.004'
   sha256 'b684c9b659ec4998e72d22ff5ed3f531d31d506ae00a48ec72b9846be23e7c10'
 
