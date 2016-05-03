@@ -1,11 +1,11 @@
 cask 'font-material-icons' do
-  version '2.2.1'
-  sha256 'b5f77bff5af4fddd44bdba364670123f3438fa989c548660811e8caf677a9915'
+  version '2.2.3'
+  sha256 'c68797889b285abe51898defa209d1a1bd1d959c9f20e5ef486c1d3f0e08eac2'
 
   # github.com/google/material-design-icons was verified as official when first introduced to the cask
   url "https://github.com/google/material-design-icons/archive/#{version}.zip"
   appcast 'https://github.com/google/material-design-icons/releases.atom',
-          checkpoint: '953b1a7f5db7bb0660a2b6912a2f2cdcd028000c158603b5c8c567c305d2d1c3'
+          checkpoint: '904d2021b0453db73abe506f4756b53eb78aa372f0628d57c8226a132c97323d'
   name 'Material Icons'
   homepage 'http://google.github.io/material-design-icons/'
   license :oss
