@@ -1,11 +1,11 @@
 cask 'font-koruri' do
-  version '20151021'
-  sha256 '6627a5a9532efb6c6c26ae5eb9127d2bbb43db0f5decf0b9d2c77a044d4fba85'
+  version '20160506,65771'
+  sha256 '15b72c803af963f72c838053a10bea1ae608b36ac9acaf2b69f7d924ee38181f'
 
-  # github.com/Koruri/Koruri was verified as official when first introduced to the cask
-  url "https://github.com/Koruri/Koruri/releases/download/Koruri-#{version}/Koruri-#{version}.tar.xz"
+  # osdn.jp/koruri was verified as official when first introduced to the cask
+  url "http://dl.osdn.jp/koruri/#{version.after_comma}/Koruri-#{version.before_comma}.tar.xz"
   appcast 'https://github.com/Koruri/Koruri/releases.atom',
-          checkpoint: '26b1585b7c9c3c6a0fd9f0768c0fcba491bf37980e3cf428b858af65cbdc5d24'
+          checkpoint: 'af39d30f5b0ea590a879f63e7c34845bf57e1c555b69887af0e29f57e7e35729'
   name 'Koruri'
   homepage 'http://koruri.lindwurm.biz/'
   license :apache
