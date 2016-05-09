@@ -10,9 +10,9 @@ cask 'font-koruri' do
   homepage 'http://koruri.lindwurm.biz/'
   license :apache
 
-  font "Koruri-#{version}/Koruri-Bold.ttf"
-  font "Koruri-#{version}/Koruri-Extrabold.ttf"
-  font "Koruri-#{version}/Koruri-Light.ttf"
-  font "Koruri-#{version}/Koruri-Regular.ttf"
-  font "Koruri-#{version}/Koruri-Semibold.ttf"
+  font "Koruri-#{version.before_comma}/Koruri-Bold.ttf"
+  font "Koruri-#{version.before_comma}/Koruri-Extrabold.ttf"
+  font "Koruri-#{version.before_comma}/Koruri-Light.ttf"
+  font "Koruri-#{version.before_comma}/Koruri-Regular.ttf"
+  font "Koruri-#{version.before_comma}/Koruri-Semibold.ttf"
 end
