@@ -1,8 +1,8 @@
 cask 'font-iosevka' do
   version '1.8.4'
-  sha256 '81403d378f4c48de4625ea1bc37ec5d04d36885f423d46cad1fe552567571d11'
+  sha256 '71bc358394b58efea4f45a9ad7cb717f77af9ebc037809b09684426b50d321a6'
 
-  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/01.iosevka-#{version}.7z"
+  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/01.iosevka-#{version}.zip"
   appcast 'https://github.com/be5invis/Iosevka/releases.atom',
           checkpoint: 'a5b146d5e92cadc929f95ca8ea9b18e1284013a1e4f24eb3f8b4adf47d8deb58'
   name 'Iosevka'
@@ -30,5 +30,4 @@ cask 'font-iosevka' do
   font 'iosevka/iosevka-thin.ttf'
   font 'iosevka/iosevka-thinitalic.ttf'
   font 'iosevka/iosevka-thinoblique.ttf'
-
 end
