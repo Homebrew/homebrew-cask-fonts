@@ -9,25 +9,25 @@ cask 'font-iosevka' do
   homepage 'https://github.com/be5invis/Iosevka/'
   license :ofl
 
-  font 'iosevka/iosevka-bold.ttf'
-  font 'iosevka/iosevka-bolditalic.ttf'
-  font 'iosevka/iosevka-boldoblique.ttf'
-  font 'iosevka/iosevka-extralight.ttf'
-  font 'iosevka/iosevka-extralightitalic.ttf'
-  font 'iosevka/iosevka-extralightoblique.ttf'
-  font 'iosevka/iosevka-heavy.ttf'
-  font 'iosevka/iosevka-heavyitalic.ttf'
-  font 'iosevka/iosevka-heavyoblique.ttf'
-  font 'iosevka/iosevka-italic.ttf'
-  font 'iosevka/iosevka-light.ttf'
-  font 'iosevka/iosevka-lightitalic.ttf'
-  font 'iosevka/iosevka-lightoblique.ttf'
-  font 'iosevka/iosevka-medium.ttf'
-  font 'iosevka/iosevka-mediumitalic.ttf'
-  font 'iosevka/iosevka-mediumoblique.ttf'
-  font 'iosevka/iosevka-oblique.ttf'
-  font 'iosevka/iosevka-regular.ttf'
-  font 'iosevka/iosevka-thin.ttf'
-  font 'iosevka/iosevka-thinitalic.ttf'
-  font 'iosevka/iosevka-thinoblique.ttf'
+  font "font-iosevka-#{version}/iosevka-bold.ttf"
+  font "font-iosevka-#{version}/iosevka-bolditalic.ttf"
+  font "font-iosevka-#{version}/iosevka-boldoblique.ttf"
+  font "font-iosevka-#{version}/iosevka-extralight.ttf"
+  font "font-iosevka-#{version}/iosevka-extralightitalic.ttf"
+  font "font-iosevka-#{version}/iosevka-extralightoblique.ttf"
+  font "font-iosevka-#{version}/iosevka-heavy.ttf"
+  font "font-iosevka-#{version}/iosevka-heavyitalic.ttf"
+  font "font-iosevka-#{version}/iosevka-heavyoblique.ttf"
+  font "font-iosevka-#{version}/iosevka-italic.ttf"
+  font "font-iosevka-#{version}/iosevka-light.ttf"
+  font "font-iosevka-#{version}/iosevka-lightitalic.ttf"
+  font "font-iosevka-#{version}/iosevka-lightoblique.ttf"
+  font "font-iosevka-#{version}/iosevka-medium.ttf"
+  font "font-iosevka-#{version}/iosevka-mediumitalic.ttf"
+  font "font-iosevka-#{version}/iosevka-mediumoblique.ttf"
+  font "font-iosevka-#{version}/iosevka-oblique.ttf"
+  font "font-iosevka-#{version}/iosevka-regular.ttf"
+  font "font-iosevka-#{version}/iosevka-thin.ttf"
+  font "font-iosevka-#{version}/iosevka-thinitalic.ttf"
+  font "font-iosevka-#{version}/iosevka-thinoblique.ttf"
 end
