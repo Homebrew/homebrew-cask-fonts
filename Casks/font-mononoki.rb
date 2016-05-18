@@ -7,5 +7,5 @@ cask 'font-mononoki' do
   homepage 'https://madmalik.github.io/mononoki/'
   license :ofl
 
-  font 'mononoki-regular.ttf'
+  font 'mononoki-Regular.ttf'
 end
