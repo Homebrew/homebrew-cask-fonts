@@ -9,25 +9,25 @@ cask 'font-iosevka' do
   homepage 'https://github.com/be5invis/Iosevka/'
   license :ofl
 
-  font "01.font-iosevka-#{version}/iosevka-bold.ttf"
-  font "01.font-iosevka-#{version}/iosevka-bolditalic.ttf"
-  font "01.font-iosevka-#{version}/iosevka-boldoblique.ttf"
-  font "01.font-iosevka-#{version}/iosevka-extralight.ttf"
-  font "01.font-iosevka-#{version}/iosevka-extralightitalic.ttf"
-  font "01.font-iosevka-#{version}/iosevka-extralightoblique.ttf"
-  font "01.font-iosevka-#{version}/iosevka-heavy.ttf"
-  font "01.font-iosevka-#{version}/iosevka-heavyitalic.ttf"
-  font "01.font-iosevka-#{version}/iosevka-heavyoblique.ttf"
-  font "01.font-iosevka-#{version}/iosevka-italic.ttf"
-  font "01.font-iosevka-#{version}/iosevka-light.ttf"
-  font "01.font-iosevka-#{version}/iosevka-lightitalic.ttf"
-  font "01.font-iosevka-#{version}/iosevka-lightoblique.ttf"
-  font "01.font-iosevka-#{version}/iosevka-medium.ttf"
-  font "01.font-iosevka-#{version}/iosevka-mediumitalic.ttf"
-  font "01.font-iosevka-#{version}/iosevka-mediumoblique.ttf"
-  font "01.font-iosevka-#{version}/iosevka-oblique.ttf"
-  font "01.font-iosevka-#{version}/iosevka-regular.ttf"
-  font "01.font-iosevka-#{version}/iosevka-thin.ttf"
-  font "01.font-iosevka-#{version}/iosevka-thinitalic.ttf"
-  font "01.font-iosevka-#{version}/iosevka-thinoblique.ttf"
+  font 'iosevka-bold.ttf'
+  font 'iosevka-bolditalic.ttf'
+  font 'iosevka-boldoblique.ttf'
+  font 'iosevka-extralight.ttf'
+  font 'iosevka-extralightitalic.ttf'
+  font 'iosevka-extralightoblique.ttf'
+  font 'iosevka-heavy.ttf'
+  font 'iosevka-heavyitalic.ttf'
+  font 'iosevka-heavyoblique.ttf'
+  font 'iosevka-italic.ttf'
+  font 'iosevka-light.ttf'
+  font 'iosevka-lightitalic.ttf'
+  font 'iosevka-lightoblique.ttf'
+  font 'iosevka-medium.ttf'
+  font 'iosevka-mediumitalic.ttf'
+  font 'iosevka-mediumoblique.ttf'
+  font 'iosevka-oblique.ttf'
+  font 'iosevka-regular.ttf'
+  font 'iosevka-thin.ttf'
+  font 'iosevka-thinitalic.ttf'
+  font 'iosevka-thinoblique.ttf'
 end
