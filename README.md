@@ -65,12 +65,6 @@ When reporting bugs, remember that the [Caskroom family](http://caskroom.io) is 
 [Homebrew](http://brew.sh).  Do your best to direct bug reports to the appropriate project.  If
 your command-line started with `brew cask`, bring the bug to the Caskroom family first!
 
-### Known Limitations
-
-Due to a quirk in OS X, Font Casks must be managed via hard links.  For most
-users, the distinction between hard links and symbolic links is unimportant.
-System administrators may see the [FAQ.md](FAQ.md) for more information.
-
 ## Font Licenses
 
 Caskroom-fonts will only accept fonts which are freely-distributable at
