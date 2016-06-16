@@ -5,6 +5,7 @@ cask 'font-input' do
   # the served font is built dynamically, according to the query string;
   # we pass the default parameters, plus the required license agreement.
   url 'http://input.fontbureau.com/build/?basic=1&fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&lineHeight=1.2&accept=I+do'
+  name 'Input'
   homepage 'http://input.fontbureau.com/'
   license :closed
 
