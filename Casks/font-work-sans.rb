@@ -14,7 +14,6 @@ cask 'font-work-sans' do
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-Bold.otf"
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-ExtraBold.otf"
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-ExtraLight.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-Hairline.otf"
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-Light.otf"
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-Medium.otf"
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-Regular.otf"
