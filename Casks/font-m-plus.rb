@@ -1,8 +1,8 @@
 cask 'font-m-plus' do
-  version '1.061'
+  version '061'
   sha256 '0f8983267ae274b5c47d17db4aca193dfce3558c6561aa6e95c9212f68313bfb'
 
-  url 'http://dl.osdn.jp/mplus-fonts/62344/mplus-TESTFLIGHT-061.tar.xz'
+  url "http://dl.osdn.jp/mplus-fonts/62344/mplus-TESTFLIGHT-#{version}.tar.xz"
   name 'M+ FONTS'
   homepage 'https://mplus-fonts.osdn.jp/about-en.html'
   license :oss
