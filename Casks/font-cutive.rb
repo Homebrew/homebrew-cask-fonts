@@ -3,7 +3,7 @@ cask 'font-cutive' do
   sha256 '3995832e966644c404d0e9e815c258aab80961342c80731884bff27319b84e4b'
 
   url 'https://github.com/google/fonts/raw/master/ofl/cutive/Cutive-Regular.ttf'
-  name 'Cutive Mono'
+  name 'Cutive'
   homepage 'http://www.google.com/fonts/specimen/Cutive'
   license :ofl
 
