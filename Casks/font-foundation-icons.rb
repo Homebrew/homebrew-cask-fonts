@@ -3,6 +3,7 @@ cask 'font-foundation-icons' do
   sha256 :no_check
 
   url 'http://zurb.com/playground/uploads/upload/upload/288/foundation-icons.zip'
+  name 'Foundation Icons'
   homepage 'http://zurb.com/playground/foundation-icon-fonts-3'
   license :mit
 
