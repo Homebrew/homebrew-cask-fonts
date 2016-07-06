@@ -6,5 +6,5 @@ cask 'font-octicons' do
   homepage 'https://octicons.github.com'
   license :ofl
 
-  font 'octicons-master/octicons/octicons-local.ttf'
+  font 'octicons-master/build/font/octicons.ttf'
 end
