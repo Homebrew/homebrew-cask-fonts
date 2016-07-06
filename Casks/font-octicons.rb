@@ -3,8 +3,9 @@ cask 'font-octicons' do
   sha256 :no_check
 
   url 'https://github.com/github/octicons/archive/master.zip'
+  name 'octicons'
   homepage 'https://octicons.github.com'
   license :ofl
 
-  font 'octicons-master/octicons/octicons-local.ttf'
+  font 'octicons-master/build/font/octicons.ttf'
 end
