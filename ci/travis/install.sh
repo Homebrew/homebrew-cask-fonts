@@ -8,8 +8,6 @@
 # shellcheck disable=SC1090
 . "${TRAVIS_BUILD_DIR}/ci/travis/helpers.sh"
 
-enter_build_step
-
 header 'Running install.sh...'
 
 # install bundler and project dependencies in $GEM_HOME
@@ -17,5 +15,3 @@ run gem install --no-ri --no-rdoc bundler
 run which bundle
 run bundle --version
 run bundle install --path="${GEM_HOME%/*/*}"
-
-exit_build_step
