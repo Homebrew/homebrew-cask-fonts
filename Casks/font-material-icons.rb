@@ -10,5 +10,5 @@ cask 'font-material-icons' do
   homepage 'http://google.github.io/material-design-icons/'
   license :oss
 
-  font "material-design-icons-#{version.to_f}/iconfont/MaterialIcons-Regular.ttf"
+  font "material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
 end
