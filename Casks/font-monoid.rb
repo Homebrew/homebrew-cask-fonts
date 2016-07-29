@@ -1,11 +1,11 @@
 cask 'font-monoid' do
   version '0.61'
-  sha256 'a96d30efb12239d3b9203e68d8d96accaf306b19557889ad035c8e5c9d128402'
+  sha256 'c28acd76ae1f0244f7c869bf1ba3272da3eb900dd50fbbd368265468a1a34794'
 
   # github.com/larsenwork/monoid was verified as official when first introduced to the cask
   url 'https://github.com/larsenwork/monoid/blob/release/Monoid.zip?raw=true'
   appcast 'https://github.com/larsenwork/monoid/releases.atom',
-          checkpoint: 'e94cd1ccc01488e99b07a372162ea9e555b6aef0e0911cbb198281f03b975467'
+          checkpoint: '7d81b051c97512e3973332b07fe3f2013384be867d46c85879117bacebaba111'
   name 'Monoid'
   homepage 'http://larsenwork.com/monoid/'
   license :ofl
