@@ -3,10 +3,11 @@ cask 'font-montserrat' do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/JulietaUla/Montserrat/trunk/otf',
+  url 'https://github.com/JulietaUla/Montserrat/trunk/fonts/otf',
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Montserrat'
   homepage 'https://github.com/JulietaUla/Montserrat'
   license :ofl
 
