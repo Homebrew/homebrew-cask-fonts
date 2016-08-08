@@ -1,11 +1,11 @@
 cask 'font-source-code-pro' do
-  version '2.010R-ro-1.030R-it'
-  sha256 '3bed70c2eac576d85673204919ae4b16fadf4a70c65f80360e0dc0eb820ff4a4'
+  version '2.030R-ro-1.050R-it'
+  sha256 'da2ac159497d31b0c6d9daa8fc390fb8252e75b4a9805ace6a2c9cccaed4932e'
 
   # github.com/adobe-fonts/source-code-pro was verified as official when first introduced to the cask
   url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.sub('ro-', 'ro/')}.zip"
   appcast 'https://github.com/adobe-fonts/source-code-pro/releases.atom',
-          checkpoint: 'c0ca7b9cf1badb064e72ced71af5bc476009e7db38c7b284a5fa6f5aa22668e8'
+          checkpoint: '95ec40aff3a274db6b9b4f1fd334b39c211729ee17d6e1a16723649b560848f9'
   name 'Source Code Pro'
   homepage 'http://adobe-fonts.github.io/source-code-pro/'
   license :ofl
