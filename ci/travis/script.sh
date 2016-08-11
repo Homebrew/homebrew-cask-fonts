@@ -16,6 +16,7 @@ if any_casks_modified; then
   run brew cask style "${modified_casks[@]}"
 fi
 
-# Most fonts don't have a `name` stanza yet, so `audit` will fail.
-# TODO: Re-enable tests once `name` stanzas have been added to all fonts.
-# run bundle exec rake test
+# TODO: Re-enable tests once `name` stanzas and `url` comments have been added
+#       to all fonts that need them.
+# run brew cask audit Casks/*.rb
+# run brew cask style Casks/*.rb

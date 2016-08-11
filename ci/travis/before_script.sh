@@ -9,9 +9,3 @@
 . "${TRAVIS_BUILD_DIR}/ci/travis/helpers.sh"
 
 header 'Running before_script.sh...'
-
-run which bundle
-run bundle --version
-
-run which rake
-run rake --version
