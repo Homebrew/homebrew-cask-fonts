@@ -4,6 +4,7 @@ cask 'font-aboriginal-sans' do
 
   url 'http://www.languagegeek.com/font/AboriginalSans.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
+  name 'LanguageGeek Aboriginal Sans Serif'
   license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'AboriginalSansREGULAR.ttf'

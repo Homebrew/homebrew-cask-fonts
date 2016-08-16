@@ -7,6 +7,7 @@ cask 'font-tinos' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Tinos'
   homepage 'http://www.google.com/fonts/specimen/Tinos'
   license :apache
 

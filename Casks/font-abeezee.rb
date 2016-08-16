@@ -7,6 +7,7 @@ cask 'font-abeezee' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'ABeeZee'
   homepage 'http://www.google.com/fonts/specimen/ABeeZee'
   license :ofl
 
