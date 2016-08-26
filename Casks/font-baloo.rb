@@ -2,7 +2,7 @@ cask 'font-baloo' do
   version '1.100'
   sha256 'd3d7d7bc721ce512f286e3ea8f67aa98d2a0c21327306315ebddf51327b3135b'
 
-  url 'https://github.com/EkType/Baloo/releases/download/1.10/Baloo_1.100.zip'
+  url "https://github.com/EkType/Baloo/releases/download/1.10/Baloo_#{version}.zip"
   name 'Baloo'
   homepage 'https://github.com/EkType/Baloo'
   license :ofl
