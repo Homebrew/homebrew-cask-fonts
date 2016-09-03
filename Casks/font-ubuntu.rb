@@ -1,8 +1,9 @@
 cask 'font-ubuntu' do
-  version '0.80'
-  sha256 '107170099bbc3beae8602b97a5c423525d363106c3c24f787d43e09811298e4c'
+  version '0.83'
+  sha256 '456d7d42797febd0d7d4cf1b782a2e03680bb4a5ee43cc9d06bda172bac05b42'
 
   url "http://font.ubuntu.com/download/ubuntu-font-family-#{version}.zip"
+  name 'Ubuntu'
   homepage 'http://font.ubuntu.com/'
   license :ubuntu_font
 
