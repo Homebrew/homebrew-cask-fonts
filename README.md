@@ -9,12 +9,6 @@ your Mac.
 Here is where you can find or submit font Casks for the
 [homebrew-cask](https://github.com/caskroom/homebrew-cask) project.
 
-## Pre-release
-
-Caskroom-fonts is a pre-release.  You are welcome to use it and contribute,
-but be aware that some things do not work yet.  You can track our goal of
-first alpha release [here](https://github.com/caskroom/homebrew-fonts/issues/84).
-
 ## Prerequisites
 
 Fonts are available through homebrew-cask, which is an "external command"
