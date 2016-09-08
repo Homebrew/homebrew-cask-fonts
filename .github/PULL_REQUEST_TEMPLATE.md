@@ -14,6 +14,6 @@ Additionally, when **adding a new cask**:
 
 - [ ] Checked there are no open [pull requests](https://github.com/caskroom/homebrew-fonts/pulls) for the same cask.
 - [ ] Checked there are no closed [issues](https://github.com/caskroom/homebrew-fonts/issues) where that cask was already refused.
-- [ ] When naming the cask, followed the [token reference](https://github.com/caskroom/homebrew-fonts/blob/master/doc/cask_language_reference/token_reference.md).
+- [ ] When naming the cask, followed the [token reference](https://github.com/caskroom/homebrew-cask/blob/master/doc/cask_language_reference/token_reference.md).
 - [ ] `brew cask install {{cask_file}}` worked successfully.
 - [ ] `brew cask uninstall {{cask_file}}` worked successfully.
