@@ -10,11 +10,11 @@ env:
 
 matrix:
   include:
-    - env: OSX=10.11 HOMEBREW_RUBY=2.0.0 HOMEBREW_OSX_VERSION=$OSX
+    - env: OSX=10.11 HOMEBREW_RUBY=2.0.0
       os: osx
       osx_image: xcode7.3
       rvm: system
-    - env: OSX=10.10 HOMEBREW_RUBY=2.0.0 HOMEBREW_OSX_VERSION=$OSX
+    - env: OSX=10.10 HOMEBREW_RUBY=2.0.0
       os: osx
       osx_image: xcode7.1
       rvm: system
@@ -28,11 +28,7 @@ cache:
   directories:
     - $HOME/.gem
 
-before_install:
-  - . ci/travis/before_install.sh
-
-install:
-  - . ci/travis/install.sh
+install: true # skip install step
 
 before_script:
   - . ci/travis/before_script.sh
