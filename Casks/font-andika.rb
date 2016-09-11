@@ -1,9 +1,10 @@
 cask 'font-andika' do
-  version '1.000'
-  sha256 '551bea500bd53656c3e8c02e2ce4910c87c08ee84ecdda877293719d53917de7'
+  version '5.000'
+  sha256 '604b7a1194be099bdf311ef76cbce086a054fa16d2b101cfaedcf527c63df507'
 
-  url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/andika/Andika-R.ttf'
-  homepage 'http://www.google.com/fonts/specimen/Andika'
+  url 'http://software.sil.org/downloads/andika/Andika-5.000.zip'
+  name 'Andika'
+  homepage 'http://software.sil.org/andika/'
   license :ofl
 
   font 'Andika-R.ttf'
