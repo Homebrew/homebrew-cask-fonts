@@ -5,6 +5,7 @@ cask 'font-gentium-plus' do
   url "http://software.sil.org/downloads/gentium/GentiumPlus-5.000.zip"
   homepage 'http://software.sil.org/gentium/'
   license :ofl
+  name 'Gentium'
 
   font 'GentiumPlus-5.000/GentiumPlus-I.ttf'
   font 'GentiumPlus-5.000/GentiumPlus-R.ttf'
