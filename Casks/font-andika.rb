@@ -5,6 +5,7 @@ cask 'font-andika' do
   url 'http://software.sil.org/downloads/andika/Andika-5.000.zip'
   homepage 'http://software.sil.org/andika/'
   license :ofl
+  name 'Andika'
 
   font 'Andika-R.ttf'
 end
