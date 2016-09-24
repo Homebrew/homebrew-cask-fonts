@@ -7,5 +7,5 @@ cask 'font-andika' do
   homepage 'http://software.sil.org/andika/'
   license :ofl
 
-  font 'Andika-5.000/Andika-R.ttf'
+  font 'Andika-#{version}/Andika-R.ttf'
 end
