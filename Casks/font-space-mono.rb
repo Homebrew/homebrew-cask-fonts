@@ -1,6 +1,6 @@
 cask 'font-space-mono' do
-  version '1.0'
-  sha256 '6fd9e1f9fefd63c5b55d51cd400b66429d975ce0f400bb4140398a641cbe5265'
+  version :latest
+  sha256 :no_check
 
   url 'https://github.com/googlefonts/spacemono/archive/master.zip'
   name 'Space Mono'
