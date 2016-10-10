@@ -4,7 +4,6 @@ cask 'font-sirinstencil' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/sirinstencil/SirinStencil-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Sirin%20Stencil'
-  license :oss
 
   font 'SirinStencil-Regular.ttf'
 end

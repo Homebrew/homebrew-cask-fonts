@@ -4,7 +4,6 @@ cask 'font-aleo' do
 
   url 'http://fontfabric.com/downfont/aleo.zip'
   homepage 'http://fontfabric.com/aleo-free-font/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Aleo_font_v1.2.2/Desktop OTF/Aleo-Bold.otf'
   font 'Aleo_font_v1.2.2/Desktop OTF/Aleo-BoldItalic.otf'

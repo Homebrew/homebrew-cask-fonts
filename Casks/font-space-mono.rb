@@ -5,7 +5,6 @@ cask 'font-space-mono' do
   url 'https://github.com/googlefonts/spacemono/archive/master.zip'
   name 'Space Mono'
   homepage 'https://github.com/googlefonts/spacemono'
-  license :ofl
 
   font 'spacemono-master/fonts/SpaceMono-Bold.ttf'
   font 'spacemono-master/fonts/SpaceMono-BoldItalic.ttf'

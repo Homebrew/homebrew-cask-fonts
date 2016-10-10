@@ -4,7 +4,6 @@ cask 'font-d2coding' do
 
   url 'http://dev.naver.com/frs/download.php/11568/D2Coding-Ver1.1-TTC-20151103.zip'
   homepage 'http://dev.naver.com/projects/d2coding'
-  license :ofl
 
   font 'D2Coding.ttc'
 end

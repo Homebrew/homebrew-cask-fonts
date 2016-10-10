@@ -9,7 +9,6 @@ cask 'font-montserrat' do
       trust_cert: true
   name 'Montserrat'
   homepage 'https://github.com/JulietaUla/Montserrat'
-  license :ofl
 
   font 'Montserrat-Black.otf'
   font 'Montserrat-Bold.otf'

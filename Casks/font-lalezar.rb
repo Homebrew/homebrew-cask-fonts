@@ -7,7 +7,6 @@ cask 'font-lalezar' do
           checkpoint: '1b4c79049953bdba2e977e4975031a3f96459565107b688dd3654c40e1c55dce'
   name 'Lalezar'
   homepage 'https://github.com/BornaIz/Lalezar'
-  license :ofl
 
   font 'Lalezar-v1.000-fonts/Lalezar-Regular.otf'
 end

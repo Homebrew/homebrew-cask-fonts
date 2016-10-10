@@ -4,7 +4,6 @@ cask 'font-xits' do
 
   url "https://github.com/khaledhosny/xits-math/archive/v#{version}.zip"
   homepage 'https://github.com/khaledhosny/xits-math'
-  license :oss
 
   font "xits-math-#{version}/xits-bold.otf"
   font "xits-math-#{version}/xits-bolditalic.otf"

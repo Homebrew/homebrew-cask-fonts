@@ -8,7 +8,6 @@ cask 'font-elsie' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Elsie'
-  license :ofl
 
   font 'Elsie-Black.ttf'
   font 'Elsie-Regular.ttf'

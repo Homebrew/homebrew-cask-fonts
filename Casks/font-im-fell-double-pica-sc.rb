@@ -4,7 +4,6 @@ cask 'font-im-fell-double-pica-sc' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/imfelldoublepicasc/IMFeDPsc28P.ttf'
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20Double%20Pica%20SC'
-  license :ofl
 
   font 'IMFeDPsc28P.ttf'
 end

@@ -6,7 +6,6 @@ cask 'font-roboto-slab' do
       using:      :svn,
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Roboto%20Slab'
-  license :apache
 
   font 'RobotoSlab-Bold.ttf'
   font 'RobotoSlab-Light.ttf'

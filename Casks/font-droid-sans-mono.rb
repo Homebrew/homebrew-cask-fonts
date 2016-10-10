@@ -8,7 +8,6 @@ cask 'font-droid-sans-mono' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Droid%20Sans%20Mono'
-  license :apache
 
   font 'DroidSansMono.ttf'
 end

@@ -4,7 +4,6 @@ cask 'font-merienda-one' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/meriendaone/MeriendaOne-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Merienda%20One'
-  license :ofl
 
   font 'MeriendaOne-Regular.ttf'
 end

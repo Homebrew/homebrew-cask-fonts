@@ -6,7 +6,6 @@ cask 'font-dejavu-sans' do
   url "https://downloads.sourceforge.net/dejavu/dejavu-fonts-ttf-#{version}.zip"
   name 'DejaVu'
   homepage 'http://dejavu-fonts.org/wiki/Main_Page'
-  license :oss
 
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuMathTeXGyre.ttf"
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-Bold.ttf"

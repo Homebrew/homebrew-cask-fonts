@@ -8,7 +8,6 @@ cask 'font-arvo' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Arvo'
-  license :ofl
 
   font 'Arvo-Bold.ttf'
   font 'Arvo-BoldItalic.ttf'

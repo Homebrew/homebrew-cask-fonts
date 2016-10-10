@@ -8,7 +8,6 @@ cask 'font-mate' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Mate'
-  license :ofl
 
   font 'Mate-Italic.ttf'
   font 'Mate-Regular.ttf'

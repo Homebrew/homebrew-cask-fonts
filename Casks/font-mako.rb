@@ -4,7 +4,6 @@ cask 'font-mako' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/mako/Mako-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Mako'
-  license :ofl
 
   font 'Mako-Regular.ttf'
 end

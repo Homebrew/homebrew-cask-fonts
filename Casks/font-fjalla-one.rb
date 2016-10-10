@@ -5,7 +5,6 @@ cask 'font-fjalla-one' do
   url 'https://github.com/google/fonts/raw/a30ff88e1a02d70aaf2589dfc3cef18a4128c495/ofl/fjallaone/FjallaOne-Regular.ttf'
   name 'Fjalla One'
   homepage 'http://www.google.com/fonts/specimen/Fjalla%20One'
-  license :ofl
 
   font 'FjallaOne-Regular.ttf'
 end

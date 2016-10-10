@@ -5,7 +5,6 @@ cask 'font-nova-flat' do
   url 'https://github.com/google/fonts/raw/master/ofl/novaflat/NovaFlat.ttf'
   name 'Nova Flat'
   homepage 'http://www.google.com/fonts/specimen/Nova%20Flat'
-  license :ofl
 
   font 'NovaFlat.ttf'
 end

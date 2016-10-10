@@ -6,7 +6,6 @@ cask 'font-rozha-one' do
   appcast 'https://github.com/itfoundry/rozhaone/releases.atom',
           checkpoint: '0aa351b7077db379253573a21001e38630f4321bd7ee00b8e9bdbcb5ea14a8f6'
   homepage 'https://github.com/itfoundry/rozhaone'
-  license :ofl
 
   font 'RozhaOne-Regular.otf'
 end

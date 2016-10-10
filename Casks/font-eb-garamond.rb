@@ -4,7 +4,6 @@ cask 'font-eb-garamond' do
 
   url 'https://bitbucket.org/georgd/eb-garamond/downloads/EBGaramond-0.016.zip'
   homepage 'https://github.com/georgd/EB-Garamond'
-  license :ofl
 
   font 'EBGaramond-0.016/otf/EBGaramond-Initials.otf'
   font 'EBGaramond-0.016/otf/EBGaramond-InitialsF1.otf'

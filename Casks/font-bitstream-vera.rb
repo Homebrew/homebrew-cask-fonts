@@ -4,7 +4,6 @@ cask 'font-bitstream-vera' do
 
   url 'http://ftp.gnome.org/pub/GNOME/sources/ttf-bitstream-vera/1.10/ttf-bitstream-vera-1.10.zip'
   homepage 'https://www.gnome.org/fonts/'
-  license :oss
 
   font 'ttf-bitstream-vera-1.10/Vera.ttf'
   font 'ttf-bitstream-vera-1.10/VeraBI.ttf'

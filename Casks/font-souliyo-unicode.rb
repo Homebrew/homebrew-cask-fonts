@@ -4,7 +4,6 @@ cask 'font-souliyo-unicode' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/souliyo/Souliyo-Regular.ttf'
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :oss
 
   font 'Souliyo-Regular.ttf'
 end

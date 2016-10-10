@@ -4,7 +4,6 @@ cask 'font-sinkin-sans' do
 
   url 'http://www.fontsquirrel.com/fonts/download/sinkin-sans'
   homepage 'http://www.fontsquirrel.com/fonts/sinkin-sans'
-  license :apache
 
   font 'SinkinSans-100Thin.otf'
   font 'SinkinSans-100ThinItalic.otf'

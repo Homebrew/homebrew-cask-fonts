@@ -8,7 +8,6 @@ cask 'font-koruri' do
           checkpoint: 'af39d30f5b0ea590a879f63e7c34845bf57e1c555b69887af0e29f57e7e35729'
   name 'Koruri'
   homepage 'http://koruri.lindwurm.biz/'
-  license :apache
 
   font "Koruri-#{version.before_comma}/Koruri-Bold.ttf"
   font "Koruri-#{version.before_comma}/Koruri-Extrabold.ttf"

@@ -8,7 +8,6 @@ cask 'font-droid-serif' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Droid%20Serif'
-  license :apache
 
   font 'DroidSerif-Bold.ttf'
   font 'DroidSerif-BoldItalic.ttf'

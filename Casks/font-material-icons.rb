@@ -8,7 +8,6 @@ cask 'font-material-icons' do
           checkpoint: '601c6c9de3ef09cd7127abcde40947cafc38607cd5a6e971194781fa582c9e1c'
   name 'Material Icons'
   homepage 'http://google.github.io/material-design-icons/'
-  license :oss
 
   font "material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
 end

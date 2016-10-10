@@ -4,7 +4,6 @@ cask 'font-hermeneus-one' do
 
   url 'http://www.impallari.com/media/uploads/commentsources/comment-239-source.zip'
   homepage 'http://www.impallari.com/projects/overview/hermeneus'
-  license :ofl
 
   font 'HermeneusOne-v1.2/HermeneusOne-Regular.ttf'
 end

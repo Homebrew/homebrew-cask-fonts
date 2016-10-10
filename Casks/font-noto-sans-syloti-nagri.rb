@@ -5,7 +5,6 @@ cask 'font-noto-sans-syloti-nagri' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSylotiNagri-unhinted.zip'
   name 'Noto Sans Syloti Nagri'
   homepage 'https://www.google.com/get/noto/#sans-sylo'
-  license :ofl
 
   font 'NotoSansSylotiNagri-Regular.ttf'
 end

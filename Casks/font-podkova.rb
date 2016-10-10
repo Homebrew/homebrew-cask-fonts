@@ -8,7 +8,6 @@ cask 'font-podkova' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Podkova'
-  license :ofl
 
   font 'Podkova-Bold.ttf'
   font 'Podkova-Regular.ttf'

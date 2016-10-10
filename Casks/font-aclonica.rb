@@ -5,7 +5,6 @@ cask 'font-aclonica' do
   url 'https://github.com/google/fonts/blob/master/apache/aclonica/Aclonica.ttf'
   name 'Aclonica'
   homepage 'http://www.google.com/fonts/specimen/Aclonica'
-  license :apache
 
   font 'Aclonica.ttf'
 end

@@ -8,7 +8,6 @@ cask 'font-marvel' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Marvel'
-  license :ofl
 
   font 'Marvel-Bold.ttf'
   font 'Marvel-BoldItalic.ttf'

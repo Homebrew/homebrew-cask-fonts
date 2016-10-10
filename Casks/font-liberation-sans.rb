@@ -4,7 +4,6 @@ cask 'font-liberation-sans' do
 
   url "https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/liberation-fonts/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font "liberation-fonts-ttf-#{version}/LiberationMono-Bold.ttf"
   font "liberation-fonts-ttf-#{version}/LiberationMono-BoldItalic.ttf"

@@ -5,7 +5,6 @@ cask 'font-noto-sans-tifinagh' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansTifinagh-unhinted.zip'
   name 'Noto Sans Tifinagh'
   homepage 'https://www.google.com/get/noto/#sans-tfng'
-  license :ofl
 
   font 'NotoSansTifinagh-Regular.ttf'
 end

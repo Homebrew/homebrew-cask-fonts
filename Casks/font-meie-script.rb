@@ -4,7 +4,6 @@ cask 'font-meie-script' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/meiescript/MeieScript-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Meie%20Script'
-  license :ofl
 
   font 'MeieScript-Regular.ttf'
 end

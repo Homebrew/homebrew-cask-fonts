@@ -5,7 +5,6 @@ cask 'font-noto-sans-samaritan' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSamaritan-unhinted.zip'
   name 'Noto Sans Samaritan'
   homepage 'https://www.google.com/get/noto/#sans-samr'
-  license :ofl
 
   font 'NotoSansSamaritan-Regular.ttf'
 end

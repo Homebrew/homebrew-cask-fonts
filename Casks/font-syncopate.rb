@@ -8,7 +8,6 @@ cask 'font-syncopate' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Syncopate'
-  license :apache
 
   font 'Syncopate-Bold.ttf'
   font 'Syncopate-Regular.ttf'

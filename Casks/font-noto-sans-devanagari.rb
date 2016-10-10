@@ -5,7 +5,6 @@ cask 'font-noto-sans-devanagari' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDevanagari-unhinted.zip'
   name 'Noto Sans Devanagari'
   homepage 'https://www.google.com/get/noto/#sans-deva'
-  license :ofl
 
   font 'NotoSansDevanagari-Bold.ttf'
   font 'NotoSansDevanagari-Regular.ttf'

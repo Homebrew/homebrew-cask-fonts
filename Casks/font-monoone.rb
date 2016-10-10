@@ -5,7 +5,6 @@ cask 'font-monoone' do
 
   url 'https://github.com/madmalik/mononoki/raw/master/monoOne.otf'
   homepage 'https://github.com/madmalik/mononoki'
-  license :oss
 
   font 'monoOne.otf'
 end

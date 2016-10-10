@@ -5,7 +5,6 @@ cask 'font-noto-sans-meetei-mayek' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansMeeteiMayek-unhinted.zip'
   name 'Noto Sans Meetei Mayek'
   homepage 'https://www.google.com/get/noto/#sans-mtei'
-  license :ofl
 
   font 'NotoSansMeeteiMayek-Regular.ttf'
 end

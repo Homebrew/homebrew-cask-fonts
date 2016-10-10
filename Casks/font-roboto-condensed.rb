@@ -6,7 +6,6 @@ cask 'font-roboto-condensed' do
       using:      :svn,
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Roboto%20Condensed'
-  license :apache
 
   font 'RobotoCondensed-Bold.ttf'
   font 'RobotoCondensed-BoldItalic.ttf'

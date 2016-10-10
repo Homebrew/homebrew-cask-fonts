@@ -6,7 +6,6 @@ cask 'font-hasklig' do
   appcast 'https://github.com/i-tu/Hasklig/releases.atom',
           checkpoint: '6a2bc8622268336facbdfd092ee6c5b9b161dd5b7f39293130ba2f5c41007cd3'
   homepage 'https://github.com/i-tu/Hasklig'
-  license :ofl
 
   font 'Hasklig-Black.otf'
   font 'Hasklig-BlackIt.otf'

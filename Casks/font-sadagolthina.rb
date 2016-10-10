@@ -7,7 +7,6 @@ cask 'font-sadagolthina' do
 
   url 'http://www.evertype.com/fonts/gothic/sadagolthina.zip'
   homepage 'http://www.evertype.com/fonts/gothic/'
-  license :commercial # trial
 
   font 'sadagolthina-1.0.2/Sadagolthina.ttf'
 end

@@ -8,7 +8,6 @@ cask 'font-simonetta' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Simonetta'
-  license :ofl
 
   font 'Simonetta-Black.ttf'
   font 'Simonetta-BlackItalic.ttf'

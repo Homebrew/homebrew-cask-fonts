@@ -4,7 +4,6 @@ cask 'font-mouse-memoirs' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/mousememoirs/MouseMemoirs-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Mouse%20Memoirs'
-  license :ofl
 
   font 'MouseMemoirs-Regular.ttf'
 end

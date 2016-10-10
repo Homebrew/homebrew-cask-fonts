@@ -4,7 +4,6 @@ cask 'font-myricam' do
 
   url 'https://github.com/tomokuni/Myrica/raw/master/product/MyricaM.zip'
   homepage 'http://myrica.estable.jp/'
-  license :oss
 
   font 'MyricaM.TTC'
 end

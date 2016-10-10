@@ -8,7 +8,6 @@ cask 'font-quattrocento' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Quattrocento'
-  license :ofl
 
   font 'Quattrocento-Bold.ttf'
   font 'Quattrocento-Regular.ttf'

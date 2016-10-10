@@ -6,7 +6,6 @@ cask 'font-laila' do
   appcast 'https://github.com/itfoundry/laila/releases.atom',
           checkpoint: '1a268b0686377b36db6e935f5fde881e6003194c09c30308fc4e9a4029a5c3eb'
   homepage 'https://github.com/itfoundry/laila'
-  license :ofl
 
   font 'Laila-Bold.otf'
   font 'Laila-Light.otf'

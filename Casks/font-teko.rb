@@ -6,7 +6,6 @@ cask 'font-teko' do
   appcast 'https://github.com/itfoundry/teko/releases.atom',
           checkpoint: 'dff9e6431404e2d4a20f4a2766e34efcf3f125a0a972e23e15b206fc4e2a077c'
   homepage 'https://github.com/itfoundry/teko'
-  license :ofl
 
   font 'Teko-Bold.otf'
   font 'Teko-Light.otf'

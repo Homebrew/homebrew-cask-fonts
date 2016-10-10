@@ -8,7 +8,6 @@ cask 'font-im-fell-double-pica' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20Double%20Pica'
-  license :ofl
 
   font 'IMFeDPit28P.ttf'
   font 'IMFeDPrm28P.ttf'

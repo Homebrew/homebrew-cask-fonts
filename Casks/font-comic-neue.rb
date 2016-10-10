@@ -4,7 +4,6 @@ cask 'font-comic-neue' do
 
   url "http://comicneue.com/comic-neue-#{version}.zip"
   homepage 'http://comicneue.com/'
-  license :ofl
 
   font "comic-neue-#{version}/OTF/ComicNeue-Angular-Regular.otf"
   font "comic-neue-#{version}/OTF/ComicNeue-Angular_Bold.otf"

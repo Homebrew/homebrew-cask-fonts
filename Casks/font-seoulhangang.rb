@@ -4,7 +4,6 @@ cask 'font-seoulhangang' do
 
   url 'http://www.seoul.go.kr/v2012/seoul/symbol/download.php?div=Zm9udDA0'
   homepage 'http://www.seoul.go.kr/v2012/seoul/symbol/font.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'SeoulHangangB.otf'
   font 'SeoulHangangEB.otf'

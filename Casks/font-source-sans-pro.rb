@@ -8,7 +8,6 @@ cask 'font-source-sans-pro' do
           checkpoint: '42de4fab375306bb3a91d2514c41ca3c77815b53bb5bdc65f73585407a2a14e8'
   name 'Source Sans Pro'
   homepage 'http://adobe-fonts.github.io/source-sans-pro/'
-  license :ofl
 
   font "source-sans-pro-#{version}/OTF/SourceSansPro-Black.otf"
   font "source-sans-pro-#{version}/OTF/SourceSansPro-BlackIt.otf"

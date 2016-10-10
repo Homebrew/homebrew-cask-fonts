@@ -8,7 +8,6 @@ cask 'font-gidole' do
           checkpoint: '1df38a5178b492b9843b8bc31393e1bd7cb6f4b71e682a6144dea19d244aa9f0'
   name 'Gidole'
   homepage 'https://gidole.github.io'
-  license :ofl
 
   font 'Gidole-Regular.ttf'
   font 'Gidolinya-Regular.ttf'

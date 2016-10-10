@@ -8,7 +8,6 @@ cask 'font-comfortaa' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Comfortaa'
-  license :ofl
 
   font 'Comfortaa-Bold.ttf'
   font 'Comfortaa-Light.ttf'

@@ -8,7 +8,6 @@ cask 'font-cabin-condensed' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Cabin%20Condensed'
-  license :ofl
 
   font 'CabinCondensed-Bold.ttf'
   font 'CabinCondensed-Medium.ttf'

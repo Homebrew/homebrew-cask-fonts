@@ -5,7 +5,6 @@ cask 'font-fira-code' do
   url "https://github.com/tonsky/FiraCode/releases/download/#{version}/FiraCode_#{version}.zip"
   name 'Fira Code'
   homepage 'https://github.com/tonsky/FiraCode'
-  license :ofl
 
   font 'otf/FiraCode-Bold.otf'
   font 'otf/FiraCode-Light.otf'

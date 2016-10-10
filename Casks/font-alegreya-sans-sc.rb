@@ -8,7 +8,6 @@ cask 'font-alegreya-sans-sc' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Alegreya%20Sans%20SC'
-  license :ofl
 
   font 'AlegreyaSansSC-Black.ttf'
   font 'AlegreyaSansSC-BlackItalic.ttf'

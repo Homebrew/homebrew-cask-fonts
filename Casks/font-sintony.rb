@@ -8,7 +8,6 @@ cask 'font-sintony' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Sintony'
-  license :ofl
 
   font 'Sintony-Bold.ttf'
   font 'Sintony-Regular.ttf'

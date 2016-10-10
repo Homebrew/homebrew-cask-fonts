@@ -4,7 +4,6 @@ cask 'font-pt-sans' do
 
   url 'http://www.paratype.com/uni/public/PTSans.zip'
   homepage 'http://www.paratype.com/public/'
-  license :ofl
 
   font 'PTC55F.ttf'
   font 'PTC75F.ttf'

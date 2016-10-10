@@ -5,7 +5,6 @@ cask 'font-monofur' do
   url 'http://eurofurence.net/monof_tt.zip'
   name 'monofur'
   homepage 'http://eurofurence.net/monofur.html'
-  license :unknown
 
   font 'monof55.ttf'
   font 'monof56.ttf'

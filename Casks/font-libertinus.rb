@@ -7,7 +7,6 @@ cask 'font-libertinus' do
           checkpoint: 'e8cc907dd473b2ebca71533b1c411831bde702f85ac500ee890daf7540c2555f'
   name 'Libertinus'
   homepage 'https://github.com/khaledhosny/libertinus'
-  license :ofl
 
   font "libertinus-#{version}/libertinuskeyboard-regular.otf"
   font "libertinus-#{version}/libertinusmath-regular.otf"

@@ -8,7 +8,6 @@ cask 'font-scada' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Scada'
-  license :ofl
 
   font 'Scada-Bold.ttf'
   font 'Scada-BoldItalic.ttf'

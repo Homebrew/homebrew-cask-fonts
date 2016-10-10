@@ -4,7 +4,6 @@ cask 'font-wqy-zenhei' do
 
   url "http://downloads.sourceforge.net/wqy/wqy-zenhei-#{version}.tar.gz"
   homepage 'http://wenq.org/wqy2/index.cgi?ZenHei'
-  license :gpl # GPLv2
 
   font 'wqy-zenhei/wqy-zenhei.ttc'
 end

@@ -7,7 +7,6 @@ cask 'font-masinahikan-dene' do
 
   url 'http://www.languagegeek.com/font/MasinahikanDene.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'MasinahikanDene_h.ttf'
   font 'MasinahikanDene_h_Bold.ttf'

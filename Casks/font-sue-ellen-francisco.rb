@@ -5,7 +5,6 @@ cask 'font-sue-ellen-francisco' do
   url 'https://github.com/google/fonts/raw/master/ofl/sueellenfrancisco/SueEllenFrancisco.ttf'
   name 'Sue Ellen Francisco'
   homepage 'http://www.google.com/fonts/specimen/Sue%20Ellen%20Francisco'
-  license :ofl
 
   font 'SueEllenFrancisco.ttf'
 end

@@ -8,7 +8,6 @@ cask 'font-averia-sans-libre' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Averia%20Sans%20Libre'
-  license :ofl
 
   font 'AveriaSansLibre-Bold.ttf'
   font 'AveriaSansLibre-BoldItalic.ttf'

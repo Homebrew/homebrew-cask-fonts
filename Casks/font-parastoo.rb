@@ -7,7 +7,6 @@ cask 'font-parastoo' do
           checkpoint: 'f0df02e903f80808273a264743f64efdb4774ebb895f2e324b473ed851a998d0'
   name 'Parastoo'
   homepage 'http://rastikerdar.github.io/parastoo-font'
-  license :ofl
 
   font 'Parastoo.ttf'
   font 'Parastoo-Bold.ttf'

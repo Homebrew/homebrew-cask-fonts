@@ -8,7 +8,6 @@ cask 'font-lusitana' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Lusitana'
-  license :ofl
 
   font 'Lusitana-Bold.ttf'
   font 'Lusitana-Regular.ttf'

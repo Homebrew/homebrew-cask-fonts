@@ -6,7 +6,6 @@ cask 'font-tillana' do
   appcast 'https://github.com/itfoundry/tillana/releases.atom',
           checkpoint: '8b22ba5ebe8499a7756b4454b89ee75019285c791347b535b763122d6c5d8979'
   homepage 'https://github.com/itfoundry/tillana'
-  license :ofl
 
   font 'Tillana-Bold.otf'
   font 'Tillana-ExtraBold.otf'

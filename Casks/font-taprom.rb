@@ -4,7 +4,6 @@ cask 'font-taprom' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/taprom/Taprom.ttf'
   homepage 'http://www.google.com/fonts/specimen/Taprom'
-  license :ofl
 
   font 'Taprom.ttf'
 end

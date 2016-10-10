@@ -8,7 +8,6 @@ cask 'font-raleway' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Raleway'
-  license :ofl
 
   font 'Raleway-Black.ttf'
   font 'Raleway-BlackItalic.ttf'

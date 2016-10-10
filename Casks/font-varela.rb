@@ -9,7 +9,6 @@ cask 'font-varela' do
       trust_cert: true
   name 'Varela'
   homepage 'http://www.google.com/fonts/specimen/Varela'
-  license :ofl
 
   font 'Varela-Regular.ttf'
 end

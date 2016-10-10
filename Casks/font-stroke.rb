@@ -4,7 +4,6 @@ cask 'font-stroke' do
 
   url 'http://thekinetic.co.za/downloads/stroke.zip'
   homepage 'http://thekinetic.co.za/project.php?id=24'
-  license :ofl
 
   font 'Stroke-Regular.otf'
   font 'Stroke-Light.otf'

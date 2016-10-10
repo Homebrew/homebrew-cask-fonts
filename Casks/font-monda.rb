@@ -8,7 +8,6 @@ cask 'font-monda' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Monda'
-  license :ofl
 
   font 'Monda-Bold.ttf'
   font 'Monda-Regular.ttf'

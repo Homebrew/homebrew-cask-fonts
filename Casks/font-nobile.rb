@@ -8,7 +8,6 @@ cask 'font-nobile' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Nobile'
-  license :ofl
 
   font 'Nobile-Bold.ttf'
   font 'Nobile-BoldItalic.ttf'

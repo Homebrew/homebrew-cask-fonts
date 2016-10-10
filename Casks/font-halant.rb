@@ -6,7 +6,6 @@ cask 'font-halant' do
   appcast 'https://github.com/itfoundry/halant/releases.atom',
           checkpoint: 'c504ebfde438f9a78ec995033db2b6a5d9a6f0efcb67a88a4c62cf52c60b9e46'
   homepage 'https://github.com/itfoundry/halant'
-  license :ofl
 
   font 'Halant-Bold.otf'
   font 'Halant-Light.otf'

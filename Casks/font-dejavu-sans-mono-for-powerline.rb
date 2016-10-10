@@ -6,7 +6,6 @@ cask 'font-dejavu-sans-mono-for-powerline' do
       using:      :svn,
       trust_cert: true
   homepage 'https://github.com/powerline/fonts/tree/master/DejaVuSansMono'
-  license :oss
 
   font 'DejaVu Sans Mono for Powerline.ttf'
   font 'DejaVu Sans Mono Bold for Powerline.ttf'

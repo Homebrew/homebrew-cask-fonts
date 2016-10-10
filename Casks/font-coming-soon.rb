@@ -6,7 +6,6 @@ cask 'font-coming-soon' do
   url 'https://github.com/google/fonts/raw/master/apache/comingsoon/ComingSoon.ttf'
   name 'Coming Soon'
   homepage 'http://www.google.com/fonts/specimen/Coming%20Soon'
-  license :apache
 
   font 'ComingSoon.ttf'
 end

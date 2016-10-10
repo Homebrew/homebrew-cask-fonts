@@ -8,7 +8,6 @@ cask 'font-domine' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Domine'
-  license :ofl
 
   font 'Domine-Bold.ttf'
   font 'Domine-Regular.ttf'

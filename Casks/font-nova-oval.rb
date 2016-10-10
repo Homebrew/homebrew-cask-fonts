@@ -5,7 +5,6 @@ cask 'font-nova-oval' do
   url 'https://github.com/google/fonts/raw/master/ofl/novaoval/NovaOval.ttf'
   name 'Nova Oval'
   homepage 'http://www.google.com/fonts/specimen/Nova%20Oval'
-  license :ofl
 
   font 'NovaOval.ttf'
 end

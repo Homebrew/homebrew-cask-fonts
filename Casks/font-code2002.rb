@@ -4,7 +4,6 @@ cask 'font-code2002' do
 
   url 'http://www.ffonts.net/Code2002.font.zip'
   homepage 'http://www.ffonts.net/Code2002.font.download'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'CODE2002.TTF'
 end

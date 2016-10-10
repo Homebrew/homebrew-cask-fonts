@@ -8,7 +8,6 @@ cask 'font-hack' do
           checkpoint: 'fccba3ddfc4b50a011498f4a8f5956758421ae96725ce54f7f9fac97fd5161d1'
   name 'Hack'
   homepage 'http://sourcefoundry.org/hack/'
-  license :ofl
 
   font "Hack-#{version}/build/otf/Hack-Regular.otf"
   font "Hack-#{version}/build/otf/Hack-Italic.otf"

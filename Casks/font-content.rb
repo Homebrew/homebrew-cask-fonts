@@ -8,7 +8,6 @@ cask 'font-content' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Content'
-  license :ofl
 
   font 'Content-Bold.ttf'
   font 'Content-Regular.ttf'

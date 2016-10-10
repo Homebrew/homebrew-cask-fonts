@@ -4,7 +4,6 @@ cask 'font-wakor' do
 
   url 'http://www.evertype.com/fonts/vai/wakorfont.zip'
   homepage 'http://www.evertype.com/fonts/vai/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Wakor-4.0.7/Wakor.ttf'
   font 'Wakor-4.0.7/WakorOblique.ttf'

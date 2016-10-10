@@ -4,7 +4,6 @@ cask 'font-bitter' do
 
   url "http://www.huertatipografica.com/free_download/#{version}"
   homepage 'http://www.huertatipografica.com/fonts/bitter-ht'
-  license :ofl
 
   font 'Bitter-Bold.otf'
   font 'Bitter-BoldItalic.otf'

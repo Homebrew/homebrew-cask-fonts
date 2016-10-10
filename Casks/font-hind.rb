@@ -6,7 +6,6 @@ cask 'font-hind' do
   appcast 'https://github.com/itfoundry/hind/releases.atom',
           checkpoint: '017f74f380a4da8c683f65c195a11e17b6454bd53fe5ab757aa6d3e03b6a0bf4'
   homepage 'https://github.com/itfoundry/hind'
-  license :ofl
 
   font 'Hind-Bold.otf'
   font 'Hind-Light.otf'

@@ -6,7 +6,6 @@ cask 'font-karma' do
   appcast 'https://github.com/itfoundry/karma/releases.atom',
           checkpoint: '0e0ed7fb9d62b7b0e55601b00cefd8084aa91861957eb900201517ca1ec21e65'
   homepage 'https://github.com/itfoundry/karma'
-  license :ofl
 
   font 'Karma-Bold.otf'
   font 'Karma-Light.otf'

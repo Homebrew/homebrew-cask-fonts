@@ -5,7 +5,6 @@ cask 'font-underdog' do
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/underdog/Underdog-Regular.ttf'
   name 'Underdog'
   homepage 'http://www.google.com/fonts/specimen/Underdog'
-  license :ofl
 
   font 'Underdog-Regular.ttf'
 end

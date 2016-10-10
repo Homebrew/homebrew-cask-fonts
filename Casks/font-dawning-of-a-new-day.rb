@@ -4,7 +4,6 @@ cask 'font-dawning-of-a-new-day' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/dawningofanewday/DawningofaNewDay.ttf'
   homepage 'http://www.google.com/fonts/specimen/Dawning%20of%20a%20New%20Day'
-  license :ofl
 
   font 'DawningofaNewDay.ttf'
 end

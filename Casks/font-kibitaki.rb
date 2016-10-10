@@ -4,7 +4,6 @@ cask 'font-kibitaki' do
 
   url "https://github.com/Koruri/kibitaki/archive/Kibitaki-#{version}.zip"
   homepage 'http://kibitaki.lindwurm.biz/'
-  license :ofl
 
   font "kibitaki-Kibitaki-#{version}/Kibitaki-Bold.ttf"
   font "kibitaki-Kibitaki-#{version}/Kibitaki-Light.ttf"

@@ -4,7 +4,6 @@ cask 'font-norwester' do
 
   url 'http://jamiewilson.io/norwester/assets/norwester.zip'
   homepage 'http://jamiewilson.io/norwester/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'norwester-v1.2/norwester.otf'
 end

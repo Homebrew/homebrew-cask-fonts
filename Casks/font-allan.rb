@@ -8,7 +8,6 @@ cask 'font-allan' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Allan'
-  license :ofl
 
   font 'Allan-Bold.ttf'
   font 'Allan-Regular.ttf'

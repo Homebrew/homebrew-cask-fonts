@@ -4,7 +4,6 @@ cask 'font-office-code-pro' do
 
   url 'https://github.com/nathco/Office-Code-Pro/archive/1.004.zip'
   homepage 'https://github.com/nathco/Office-Code-Pro'
-  license :ofl
 
   font 'Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Bold.otf'
   font 'Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-BoldItalic.otf'

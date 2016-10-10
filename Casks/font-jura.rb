@@ -8,7 +8,6 @@ cask 'font-jura' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Jura'
-  license :ofl
 
   font 'Jura-DemiBold.ttf'
   font 'Jura-Light.ttf'

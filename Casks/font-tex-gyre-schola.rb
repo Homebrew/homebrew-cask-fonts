@@ -4,7 +4,6 @@ cask 'font-tex-gyre-schola' do
 
   url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/schola/qcs#{version}otf.zip"
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/schola'
-  license :lppl
 
   font 'texgyreschola-bold.otf'
   font 'texgyreschola-bolditalic.otf'

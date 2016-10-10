@@ -4,7 +4,6 @@ cask 'font-edlo' do
 
   url 'https://github.com/ehamiter/Edlo/raw/master/edlo.ttf'
   homepage 'http://erichamiter.com/Edlo/'
-  license :ofl
 
   font 'edlo.ttf'
 end

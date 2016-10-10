@@ -6,7 +6,6 @@ cask 'font-anonymous-pro-for-powerline' do
       using:      :svn,
       trust_cert: true
   homepage 'https://github.com/powerline/fonts/tree/master/AnonymousPro'
-  license :oss
 
   font 'Anonymice Powerline Bold Italic.ttf'
   font 'Anonymice Powerline Bold.ttf'

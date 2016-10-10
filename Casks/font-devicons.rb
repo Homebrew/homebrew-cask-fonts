@@ -8,7 +8,6 @@ cask 'font-devicons' do
           checkpoint: '58348b09a132c426965c2b7291528beace49246da2ac98c447ee58f7f6143da6'
   name 'Devicons'
   homepage 'http://vorillaz.github.io/devicons/'
-  license :oss
 
   font "devicons-#{version}/fonts/devicons.ttf"
 end

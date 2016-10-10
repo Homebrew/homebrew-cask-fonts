@@ -4,7 +4,6 @@ cask 'font-headlandone' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/headlandone/HeadlandOne-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Headland%20One'
-  license :oss
 
   font 'HeadlandOne-Regular.ttf'
 end

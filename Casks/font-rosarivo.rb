@@ -8,7 +8,6 @@ cask 'font-rosarivo' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Rosarivo'
-  license :ofl
 
   font 'Rosarivo-Italic.ttf'
   font 'Rosarivo-Regular.ttf'

@@ -8,7 +8,6 @@ cask 'font-quattrocento-sans' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Quattrocento%20Sans'
-  license :ofl
 
   font 'QuattrocentoSans-Bold.ttf'
   font 'QuattrocentoSans-BoldItalic.ttf'

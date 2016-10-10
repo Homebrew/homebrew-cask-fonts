@@ -8,7 +8,6 @@ cask 'font-karla' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Karla'
-  license :ofl
 
   font 'Karla-Bold.ttf'
   font 'Karla-BoldItalic.ttf'

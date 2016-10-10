@@ -5,7 +5,6 @@ cask 'font-charis-sil' do
   url "http://software.sil.org/downloads/charis/CharisSIL-#{version}.zip"
   name 'Charis SIL'
   homepage 'http://software.sil.org/charis/download/'
-  license :ofl
 
   font "CharisSIL-#{version}/CharisSIL-R.ttf"
   font "CharisSIL-#{version}/CharisSIL-B.ttf"

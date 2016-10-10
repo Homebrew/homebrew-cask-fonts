@@ -6,7 +6,6 @@ cask 'font-liberation-mono-for-powerline' do
       using:      :svn,
       trust_cert: true
   homepage 'https://github.com/powerline/fonts/tree/master/LiberationMono'
-  license :oss
 
   font 'Literation Mono Powerline Bold Italic.ttf'
   font 'Literation Mono Powerline Bold.ttf'

@@ -8,7 +8,6 @@ cask 'font-lobster-two' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Lobster%20Two'
-  license :ofl
 
   font 'LobsterTwo-Bold.ttf'
   font 'LobsterTwo-BoldItalic.ttf'

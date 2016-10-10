@@ -5,7 +5,6 @@ cask 'font-noto-sans-cjk-kr' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKkr-hinted.zip'
   name 'Noto Sans CJK KR'
   homepage 'https://www.google.com/get/noto/#sans-kore'
-  license :ofl
 
   font 'NotoSansCJKkr-Black.otf'
   font 'NotoSansCJKkr-Bold.otf'

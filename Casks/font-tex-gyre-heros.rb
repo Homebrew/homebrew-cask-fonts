@@ -4,7 +4,6 @@ cask 'font-tex-gyre-heros' do
 
   url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv#{version}otf.zip"
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros'
-  license :lppl
 
   font 'texgyreheros-bold.otf'
   font 'texgyreheros-bolditalic.otf'

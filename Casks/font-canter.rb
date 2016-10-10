@@ -4,7 +4,6 @@ cask 'font-canter' do
 
   url 'http://fontfabric.com/downfont/canter.zip'
   homepage 'http://fontfabric.com/canter-free-font/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Canter Bold.otf'
   font 'Canter Bold 3D.otf'

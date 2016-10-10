@@ -5,7 +5,6 @@ cask 'font-fira-mono' do
   url 'http://www.carrois.com/downloads/fira_mono_3_2/FiraMonoFonts3206.zip'
   name 'Fira Mono'
   homepage 'http://www.carrois.com/fira-4-1/'
-  license :ofl
 
   font 'FiraMonoFonts3206/OTF/FiraMono-Bold.otf'
   font 'FiraMonoFonts3206/OTF/FiraMono-Medium.otf'

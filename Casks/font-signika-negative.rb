@@ -8,7 +8,6 @@ cask 'font-signika-negative' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Signika%20Negative'
-  license :ofl
 
   font 'SignikaNegative-Bold.ttf'
   font 'SignikaNegative-Light.ttf'

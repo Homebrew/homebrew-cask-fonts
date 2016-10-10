@@ -7,7 +7,6 @@ cask 'font-oskidenec' do
 
   url 'http://www.languagegeek.com/font/OskiDeneC.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'oskidene_c.ttf'
   font 'oskidenebold_c.ttf'

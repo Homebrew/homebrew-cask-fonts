@@ -8,7 +8,6 @@ cask 'font-radley' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Radley'
-  license :ofl
 
   font 'Radley-Italic.ttf'
   font 'Radley-Regular.ttf'

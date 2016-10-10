@@ -4,7 +4,6 @@ cask 'font-linux-biolinum' do
 
   url 'http://downloads.sourceforge.net/project/linuxlibertine/linuxlibertine/5.3.0/LinLibertineTTF_5.3.0_2012_07_02.tgz'
   homepage 'http://linuxlibertine.org'
-  license :ofl
 
   font 'LinBiolinum_Kah.ttf'
   font 'LinBiolinum_RBah.ttf'

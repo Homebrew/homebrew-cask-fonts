@@ -8,7 +8,6 @@ cask 'font-cinzel-decorative' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Cinzel%20Decorative'
-  license :ofl
 
   font 'CinzelDecorative-Black.ttf'
   font 'CinzelDecorative-Bold.ttf'

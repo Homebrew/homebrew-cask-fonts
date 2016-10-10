@@ -7,7 +7,6 @@ cask 'font-shabnam' do
           checkpoint: '78de8bafd9b6940e36071b62859302abd054a5ba214bf2443fe780a74e10358f'
   name 'Shabnam'
   homepage 'http://rastikerdar.github.io/shabnam-font'
-  license :ofl
 
   font 'Shabnam.ttf'
   font 'Shabnam-Bold.ttf'

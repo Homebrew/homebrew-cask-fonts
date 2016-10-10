@@ -4,7 +4,6 @@ cask 'font-press-start2p' do
 
   url 'https://raw.github.com/google/fonts/master/ofl/pressstart2p/PressStart2P-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Press+Start+2P'
-  license :ofl
 
   font 'PressStart2P-Regular.ttf'
 end

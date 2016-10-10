@@ -8,7 +8,6 @@ cask 'font-open-sans-condensed' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Open%20Sans%20Condensed'
-  license :apache
 
   font 'OpenSans-CondBold.ttf'
   font 'OpenSans-CondLight.ttf'

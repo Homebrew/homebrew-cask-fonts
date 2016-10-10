@@ -4,7 +4,6 @@ cask 'font-blokk' do
 
   url 'http://blokkfont.com/download.php?src=homebrew-fonts'
   homepage 'http://blokkfont.com/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'BLOKKNeue-Regular/webfonts/BLOKKNeue-Regular.eot'
   font 'BLOKKNeue-Regular/webfonts/BLOKKNeue-Regular.svg'

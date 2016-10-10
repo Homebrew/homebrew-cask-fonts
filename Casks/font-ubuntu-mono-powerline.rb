@@ -8,7 +8,6 @@ cask 'font-ubuntu-mono-powerline' do
       revision:   '53',
       trust_cert: true
   homepage 'https://github.com/powerline/fonts/tree/master/UbuntuMono'
-  license :ubuntu_font
 
   font 'Ubuntu Mono derivative Powerline.ttf'
   font 'Ubuntu Mono derivative Powerline Bold.ttf'

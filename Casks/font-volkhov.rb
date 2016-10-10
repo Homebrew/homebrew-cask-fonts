@@ -8,7 +8,6 @@ cask 'font-volkhov' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Volkhov'
-  license :ofl
 
   font 'Volkhov-Bold.ttf'
   font 'Volkhov-BoldItalic.ttf'

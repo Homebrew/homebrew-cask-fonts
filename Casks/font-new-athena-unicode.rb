@@ -4,7 +4,6 @@ cask 'font-new-athena-unicode' do
 
   url 'http://apagreekkeys.org/fonts/NAU405styles.zip'
   homepage 'http://apagreekkeys.org/NAUdownload.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'NAU405styles/newathu405.ttf'
   font 'NAU405styles/newathuBold405.ttf'

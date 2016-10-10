@@ -4,7 +4,6 @@ cask 'font-ribeye-marrow' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/ribeyemarrow/RibeyeMarrow-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Ribeye%20Marrow'
-  license :ofl
 
   font 'RibeyeMarrow-Regular.ttf'
 end

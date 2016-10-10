@@ -8,7 +8,6 @@ cask 'font-chivo' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Chivo'
-  license :ofl
 
   font 'Chivo-Black.ttf'
   font 'Chivo-BlackItalic.ttf'

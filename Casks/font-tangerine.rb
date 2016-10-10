@@ -8,7 +8,6 @@ cask 'font-tangerine' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Tangerine'
-  license :ofl
 
   font 'Tangerine_Bold.ttf'
   font 'Tangerine_Regular.ttf'

@@ -5,7 +5,6 @@ cask 'font-noto-sans-malayalam' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansMalayalam-unhinted.zip'
   name 'Noto Sans Malayalam'
   homepage 'https://www.google.com/get/noto/#sans-mlym'
-  license :ofl
 
   font 'NotoSansMalayalam-Regular.ttf'
   font 'NotoSansMalayalam-Bold.ttf'

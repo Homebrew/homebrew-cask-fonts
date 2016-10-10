@@ -8,7 +8,6 @@ cask 'font-merriweather' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Merriweather'
-  license :ofl
 
   font 'Merriweather-Black.ttf'
   font 'Merriweather-Bold.ttf'

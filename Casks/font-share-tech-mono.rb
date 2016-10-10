@@ -5,7 +5,6 @@ cask 'font-share-tech-mono' do
   url 'https://github.com/google/fonts/raw/master/ofl/sharetechmono/ShareTechMono-Regular.ttf'
   name 'Share Tech Mono'
   homepage 'http://www.google.com/fonts/specimen/Share%20Tech%20Mono'
-  license :ofl
 
   font 'ShareTechMono-Regular.ttf'
 end

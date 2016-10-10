@@ -5,7 +5,6 @@ cask 'font-nyashi' do
   url 'http://marusexijaxs.web.fc2.com/nyashi_ote.zip'
   name 'Font Nyashi'
   homepage 'http://marusexijaxs.web.fc2.com/tegakifont.html'
-  license :cc # CC BY-ND
 
   font 'nyashi_ote/Nyashi.otf'
 end

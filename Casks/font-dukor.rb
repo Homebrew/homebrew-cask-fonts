@@ -4,7 +4,6 @@ cask 'font-dukor' do
 
   url 'http://www.evertype.com/fonts/vai/dukorfont.zip'
   homepage 'http://www.evertype.com/fonts/vai/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Dukor-1.0.7/Dukor.ttf'
   font 'Dukor-1.0.7/DukorItalic.ttf'

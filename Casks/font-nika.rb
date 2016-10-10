@@ -7,7 +7,6 @@ cask 'font-nika' do
           checkpoint: '8403f392225a67a1d7236060bf7d9424f23ada8a4a61b0b1f55b84ac00a31a00'
   name 'Nika'
   homepage 'https://github.com/font-store/font-nika'
-  license :ofl
 
   font "font-nika-#{version}/dist/Nika-Regular.otf"
 end

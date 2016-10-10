@@ -5,7 +5,6 @@ cask 'font-tex-gyre-pagella-math' do
   url 'http://www.gust.org.pl/projects/e-foundry/tg-math/download/texgyrepagella-math-1632.zip'
   name 'Pagella Math'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tg-math'
-  license :lppl
 
   font 'texgyrepagella-math-1632/opentype/texgyrepagella-math.otf'
 end

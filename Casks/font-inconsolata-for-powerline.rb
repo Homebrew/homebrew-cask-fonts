@@ -4,7 +4,6 @@ cask 'font-inconsolata-for-powerline' do
 
   url 'https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20for%20Powerline.otf'
   homepage 'https://github.com/powerline/fonts/tree/master/Inconsolata'
-  license :ofl
 
   font 'Inconsolata for Powerline.otf'
 end

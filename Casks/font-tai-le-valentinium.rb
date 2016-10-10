@@ -7,7 +7,6 @@ cask 'font-tai-le-valentinium' do
 
   url 'http://www.alanwood.net/downloads/tai-le-valentinium.zip'
   homepage 'http://www.alanwood.net/downloads/index.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'taileval.ttf'
 end

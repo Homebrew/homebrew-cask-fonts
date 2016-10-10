@@ -8,7 +8,6 @@ cask 'font-news-cycle' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/News%20Cycle'
-  license :ofl
 
   font 'NewsCycle-Bold.ttf'
   font 'NewsCycle-Regular.ttf'

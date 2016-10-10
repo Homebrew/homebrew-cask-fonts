@@ -8,7 +8,6 @@ cask 'font-dancing-script' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Dancing%20Script'
-  license :ofl
 
   font 'DancingScript-Bold.ttf'
   font 'DancingScript-Regular.ttf'

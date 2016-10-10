@@ -7,7 +7,6 @@ cask 'font-masinahikan' do
 
   url 'http://www.languagegeek.com/font/Masinahikan.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Masinahikan_h.ttf'
   font 'Masinahikan_h_Bold.ttf'

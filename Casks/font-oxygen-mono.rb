@@ -5,7 +5,6 @@ cask 'font-oxygen-mono' do
   url 'https://github.com/google/fonts/raw/master/ofl/oxygenmono/OxygenMono-Regular.ttf'
   name 'Oxygen Mono'
   homepage 'http://www.google.com/fonts/specimen/Oxygen%20Mono'
-  license :ofl
 
   font 'OxygenMono-Regular.ttf'
 end

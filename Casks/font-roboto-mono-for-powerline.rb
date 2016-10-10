@@ -7,7 +7,6 @@ cask 'font-roboto-mono-for-powerline' do
       trust_cert: true
   name 'Roboto Mono for Powerline'
   homepage 'https://github.com/powerline/fonts/tree/master/RobotoMono'
-  license :apache
 
   font 'Roboto Mono Bold Italic for Powerline.ttf'
   font 'Roboto Mono Bold for Powerline.ttf'

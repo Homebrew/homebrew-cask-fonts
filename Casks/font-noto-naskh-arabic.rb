@@ -5,7 +5,6 @@ cask 'font-noto-naskh-arabic' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoNaskhArabic-unhinted.zip'
   name 'Noto Naskh Arabic'
   homepage 'https://www.google.com/get/noto/#naskh-arab'
-  license :ofl
 
   font 'NotoNaskhArabic-Bold.ttf'
   font 'NotoNaskhArabic-Regular.ttf'

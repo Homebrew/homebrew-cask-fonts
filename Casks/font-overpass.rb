@@ -5,7 +5,6 @@ cask 'font-overpass' do
   url "https://github.com/RedHatBrand/overpass/releases/download/#{version}/overpass-fonts-ttf-#{version}.zip"
   name 'Overpass'
   homepage 'http://overpassfont.org/'
-  license :ofl
 
   font "overpass-fonts-ttf-#{version}/Overpass-Bold-Italic.ttf"
   font "overpass-fonts-ttf-#{version}/Overpass-Bold.ttf"

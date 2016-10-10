@@ -5,7 +5,6 @@ cask 'font-average' do
   url 'https://github.com/google/fonts/raw/master/ofl/average/Average-Regular.ttf'
   name 'Average'
   homepage 'http://www.google.com/fonts/specimen/Average'
-  license :ofl
 
   font 'Average-Regular.ttf'
 end

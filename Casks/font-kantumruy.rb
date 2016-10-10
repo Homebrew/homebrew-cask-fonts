@@ -8,7 +8,6 @@ cask 'font-kantumruy' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Kantumruy'
-  license :ofl
 
   font 'Kantumruy-Bold.ttf'
   font 'Kantumruy-Light.ttf'

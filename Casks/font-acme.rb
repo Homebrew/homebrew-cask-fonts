@@ -5,7 +5,6 @@ cask 'font-acme' do
   url 'https://github.com/google/fonts/raw/master/ofl/acme/Acme-Regular.ttf'
   name 'Acme'
   homepage 'http://www.google.com/fonts/specimen/Acme'
-  license :ofl
 
   font 'Acme-Regular.ttf'
 end

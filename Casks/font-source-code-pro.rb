@@ -8,7 +8,6 @@ cask 'font-source-code-pro' do
           checkpoint: '95ec40aff3a274db6b9b4f1fd334b39c211729ee17d6e1a16723649b560848f9'
   name 'Source Code Pro'
   homepage 'http://adobe-fonts.github.io/source-code-pro/'
-  license :ofl
 
   font "source-code-pro-#{version}/OTF/SourceCodePro-Black.otf"
   font "source-code-pro-#{version}/OTF/SourceCodePro-BlackIt.otf"

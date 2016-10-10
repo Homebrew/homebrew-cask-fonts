@@ -8,7 +8,6 @@ cask 'font-skranji' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Skranji'
-  license :ofl
 
   font 'Skranji-Bold.ttf'
   font 'Skranji-Regular.ttf'
