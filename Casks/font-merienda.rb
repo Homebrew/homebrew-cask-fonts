@@ -8,7 +8,6 @@ cask 'font-merienda' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Merienda'
-  license :ofl
 
   font 'Merienda-Bold.ttf'
   font 'Merienda-Regular.ttf'

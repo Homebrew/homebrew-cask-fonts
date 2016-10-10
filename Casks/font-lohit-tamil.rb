@@ -4,7 +4,6 @@ cask 'font-lohit-tamil' do
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-tamil-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
-  license :ofl
 
   font "lohit-tamil-ttf-#{version}/Lohit-Tamil.ttf"
 end

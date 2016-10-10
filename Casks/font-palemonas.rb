@@ -4,7 +4,6 @@ cask 'font-palemonas' do
 
   url "http://www.vlkk.lt/media/public/file/Palemonas/Palemonas-#{version.sub('.', '_')}.zip"
   homepage 'http://www.vlkk.lt/palemonas'
-  license :gratis
 
   container type: :zip
 

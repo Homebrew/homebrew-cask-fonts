@@ -8,7 +8,6 @@ cask 'font-gorditas' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Gorditas'
-  license :ofl
 
   font 'Gorditas-Bold.ttf'
   font 'Gorditas-Regular.ttf'

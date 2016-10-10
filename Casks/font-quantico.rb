@@ -8,7 +8,6 @@ cask 'font-quantico' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Quantico'
-  license :ofl
 
   font 'Quantico-Bold.ttf'
   font 'Quantico-BoldItalic.ttf'

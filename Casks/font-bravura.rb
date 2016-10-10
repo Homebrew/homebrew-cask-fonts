@@ -4,7 +4,6 @@ cask 'font-bravura' do
 
   url 'http://www.smufl.org/files/bravura-1.18.zip'
   homepage 'http://www.smufl.org/fonts/'
-  license :ofl
 
   font 'otf/Bravura.otf'
   font 'otf/BravuraText.otf'

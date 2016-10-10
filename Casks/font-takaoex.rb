@@ -4,7 +4,6 @@ cask 'font-takaoex' do
 
   url "https://launchpad.net/takao-fonts/trunk/15.03/+download/TakaoExFonts_#{version}.zip"
   homepage 'https://launchpad.net/takao-fonts'
-  license :oss
 
   font 'TakaoExGothic.ttf'
   font 'TakaoExMincho.ttf'

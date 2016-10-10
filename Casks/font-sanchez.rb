@@ -8,7 +8,6 @@ cask 'font-sanchez' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Sanchez'
-  license :ofl
 
   font 'Sanchez-Italic.ttf'
   font 'Sanchez-Regular.ttf'

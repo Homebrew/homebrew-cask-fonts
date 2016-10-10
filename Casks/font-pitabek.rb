@@ -7,7 +7,6 @@ cask 'font-pitabek' do
 
   url 'http://www.languagegeek.com/font/pitabek.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'pitabek.ttf'
 end

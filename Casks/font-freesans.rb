@@ -4,7 +4,6 @@ cask 'font-freesans' do
 
   url 'http://ftp.gnu.org/gnu/freefont/freefont-otf-20120503.tar.gz'
   homepage 'http://ftp.gnu.org/gnu/freefont/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'freefont-20120503/FreeMono.otf'
   font 'freefont-20120503/FreeMonoBold.otf'

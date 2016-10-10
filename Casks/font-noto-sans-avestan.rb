@@ -5,7 +5,6 @@ cask 'font-noto-sans-avestan' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansAvestan-unhinted.zip'
   name 'Noto Sans Avestan'
   homepage 'https://www.google.com/get/noto/#sans-avst'
-  license :ofl
 
   font 'NotoSansAvestan-Regular.ttf'
 end

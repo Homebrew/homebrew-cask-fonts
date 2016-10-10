@@ -4,7 +4,6 @@ cask 'font-hanazono-mincho' do
 
   url 'http://dl.osdn.jp/hanazono-font/64385/hanazono-20160201.zip'
   homepage 'http://fonts.jp/hanazono/'
-  license :oss
 
   font 'HanaMinA.ttf'
   font 'HanaMinB.ttf'

@@ -8,7 +8,6 @@ cask 'font-titillium-web' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Titillium%20Web'
-  license :ofl
 
   font 'TitilliumWeb-Black.ttf'
   font 'TitilliumWeb-Bold.ttf'

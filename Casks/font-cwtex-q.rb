@@ -7,7 +7,6 @@ cask 'font-cwtex-q' do
           checkpoint: '9dd6c810c9e953bc1f446768dc4c5e1492a029a74aca2a2cfd04c8ad76b566a3'
   name 'cwtex-q-fonts'
   homepage 'https://github.com/l10n-tw/cwtex-q-fonts'
-  license :oss
 
   font "cwtex-q-fonts-TTFs-#{version}/ttf/cwTeXQFangsong-Medium.ttf"
   font "cwtex-q-fonts-TTFs-#{version}/ttf/cwTeXQFangsongZH-Medium.ttf"

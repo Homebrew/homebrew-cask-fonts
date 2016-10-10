@@ -4,7 +4,6 @@ cask 'font-pt-serif' do
 
   url 'http://www.paratype.com/uni/public/PTSerif.zip'
   homepage 'http://www.paratype.com/public/'
-  license :ofl
 
   font 'PTF55F.ttf'
   font 'PTF56F.ttf'

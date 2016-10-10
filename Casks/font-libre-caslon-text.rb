@@ -4,7 +4,6 @@ cask 'font-libre-caslon-text' do
 
   url 'http://www.impallari.com/media/uploads/prosources/update-94-source.zip'
   homepage 'http://www.impallari.com/projects/overview/libre-caslon-display-and-text'
-  license :ofl
 
   font 'Libre Caslon Text v1.0/LibreCaslonText-Bold.ttf'
   font 'Libre Caslon Text v1.0/LibreCaslonText-Italic.ttf'

@@ -4,7 +4,6 @@ cask 'font-source-han-code-jp' do
 
   url "https://github.com/adobe-fonts/source-han-code-jp/archive/#{version}R.zip"
   homepage 'https://github.com/adobe-fonts/source-han-code-jp'
-  license :ofl
 
   font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Bold.otf"
   font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-BoldIt.otf"

@@ -5,7 +5,6 @@ cask 'font-cutive-mono' do
   url 'https://github.com/google/fonts/raw/master/ofl/cutivemono/CutiveMono-Regular.ttf'
   name 'Cutive Mono'
   homepage 'http://www.google.com/fonts/specimen/Cutive%20Mono'
-  license :ofl
 
   font 'CutiveMono-Regular.ttf'
 end

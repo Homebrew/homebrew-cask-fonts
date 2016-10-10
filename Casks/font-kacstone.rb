@@ -4,7 +4,6 @@ cask 'font-kacstone' do
 
   url "http://downloads.sourceforge.net/project/arabeyes/kacst_fonts/kacst_one_#{version}.tar.bz2"
   homepage 'http://projects.arabeyes.org/project.php?proj=Khotot'
-  license :oss
 
   font 'KacstOne.ttf'
   font 'KacstOne-Bold.ttf'

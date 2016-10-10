@@ -5,7 +5,6 @@ cask 'font-noto-sans-balinese' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBalinese-unhinted.zip'
   name 'Noto Sans Balinese'
   homepage 'https://www.google.com/get/noto/#sans-bali'
-  license :ofl
 
   font 'NotoSansBalinese-Regular.ttf'
 end

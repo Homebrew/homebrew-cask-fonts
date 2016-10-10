@@ -7,7 +7,6 @@ cask 'font-inconsolata-lgc' do
       using:      :svn,
       trust_cert: true
   homepage 'https://github.com/DeLaGuardo/Inconsolata-LGC'
-  license :ofl
 
   font 'inconsolatalgc.ttf'
   font 'inconsolatalgcbold.ttf'

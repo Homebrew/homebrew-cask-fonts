@@ -9,7 +9,6 @@ cask 'font-abeezee' do
       trust_cert: true
   name 'ABeeZee'
   homepage 'http://www.google.com/fonts/specimen/ABeeZee'
-  license :ofl
 
   font 'ABeeZee-Italic.ttf'
   font 'ABeeZee-Regular.ttf'

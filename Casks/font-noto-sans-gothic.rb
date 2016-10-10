@@ -5,7 +5,6 @@ cask 'font-noto-sans-gothic' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansGothic-unhinted.zip'
   name 'Noto Sans Gothic'
   homepage 'https://www.google.com/get/noto/#sans-goth'
-  license :ofl
 
   font 'NotoSansGothic-Regular.ttf'
 end

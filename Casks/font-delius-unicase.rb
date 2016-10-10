@@ -8,7 +8,6 @@ cask 'font-delius-unicase' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Delius%20Unicase'
-  license :ofl
 
   font 'DeliusUnicase-Bold.ttf'
   font 'DeliusUnicase-Regular.ttf'

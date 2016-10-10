@@ -4,7 +4,6 @@ cask 'font-archivo-black' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/archivoblack/ArchivoBlack-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Archivo%20Black'
-  license :ofl
 
   font 'ArchivoBlack-Regular.ttf'
 end

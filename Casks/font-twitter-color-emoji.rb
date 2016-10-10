@@ -7,7 +7,6 @@ cask 'font-twitter-color-emoji' do
           checkpoint: 'f2c41bc4189380471797296bb9c796282eab68e455b6c5bb2875c764d0288727'
   name 'Twitter Color Emoji'
   homepage 'https://github.com/eosrei/twemoji-color-font/'
-  license :mit
 
   font 'TwitterColorEmoji-SVGinOT.ttf'
 end

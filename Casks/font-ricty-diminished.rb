@@ -5,7 +5,6 @@ cask 'font-ricty-diminished' do
   url "http://www.rs.tus.ac.jp/yyusa/ricty_diminished/ricty_diminished-#{version}.tar.gz"
   name 'Ricty Diminished'
   homepage 'http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html'
-  license :ofl
 
   font 'RictyDiminished-Bold.ttf'
   font 'RictyDiminished-BoldOblique.ttf'

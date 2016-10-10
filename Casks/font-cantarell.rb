@@ -8,7 +8,6 @@ cask 'font-cantarell' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Cantarell'
-  license :ofl
 
   font 'Cantarell-Bold.ttf'
   font 'Cantarell-BoldOblique.ttf'

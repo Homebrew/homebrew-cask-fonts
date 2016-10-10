@@ -8,7 +8,6 @@ cask 'font-source-serif-pro' do
           checkpoint: 'e055b3a6fa107ab232c524e286996dd00debad4f45f595c126c1ce3988a4f3c7'
   name 'Source Serif Pro'
   homepage 'https://adobe-fonts.github.io/source-serif-pro/'
-  license :ofl
 
   font "source-serif-pro-#{version}/OTF/SourceSerifPro-Black.otf"
   font "source-serif-pro-#{version}/OTF/SourceSerifPro-Bold.otf"

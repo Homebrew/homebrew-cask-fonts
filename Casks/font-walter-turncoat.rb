@@ -4,7 +4,6 @@ cask 'font-walter-turncoat' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/apache/walterturncoat/WalterTurncoat.ttf'
   homepage 'http://www.google.com/fonts/specimen/Walter%20Turncoat'
-  license :apache
 
   font 'WalterTurncoat.ttf'
 end

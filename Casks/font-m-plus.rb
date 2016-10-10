@@ -5,7 +5,6 @@ cask 'font-m-plus' do
   url "http://dl.osdn.jp/mplus-fonts/62344/mplus-TESTFLIGHT-#{version}.tar.xz"
   name 'M+ FONTS'
   homepage 'https://mplus-fonts.osdn.jp/about-en.html'
-  license :oss
 
   depends_on formula: 'xz'
 

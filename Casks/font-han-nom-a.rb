@@ -6,7 +6,6 @@ cask 'font-han-nom-a' do
   # family name, and there is not yet a working 'conflicts_with' stanza
   url 'https://downloads.sourceforge.net/project/vietunicode/hannom/hannom%20v2005/hannomH.zip'
   homepage 'https://vietunicode.sourceforge.net/fonts/fonts_hannom.html'
-  license :oss
 
   font 'HAN NOM A.ttf'
   font 'HAN NOM B.ttf'

@@ -7,7 +7,6 @@ cask 'font-oskiblackfoot' do
 
   url 'http://www.languagegeek.com/font/oskiblackfoot.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'oskiblackfoot5.ttf'
   font 'oskiblackfootbold5.ttf'

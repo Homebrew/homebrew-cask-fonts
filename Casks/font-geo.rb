@@ -8,7 +8,6 @@ cask 'font-geo' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Geo'
-  license :ofl
 
   font 'Geo-Oblique.ttf'
   font 'Geo-Regular.ttf'

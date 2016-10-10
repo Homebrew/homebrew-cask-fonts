@@ -7,7 +7,6 @@ cask 'font-kawkab-mono' do
           checkpoint: 'fb7ace0d30c55a936845379123c74dcd4aded8d7619f2c73d0d862a1fcf29929'
   name 'Kawkab Mono'
   homepage 'http://makkuk.com/kawkab-mono'
-  license :ofl
 
   font "kawkab-mono-#{version}/KawkabMono-Bold.otf"
   font "kawkab-mono-#{version}/KawkabMono-Light.otf"

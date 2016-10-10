@@ -4,7 +4,6 @@ cask 'font-tharlon' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/tharlon/Tharlon-Regular.ttf'
   homepage 'https://code.google.com/p/tharlon-font/'
-  license :oss
 
   font 'Tharlon-Regular.ttf'
 end

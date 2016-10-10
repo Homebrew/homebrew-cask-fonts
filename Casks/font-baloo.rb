@@ -5,7 +5,6 @@ cask 'font-baloo' do
   url "https://github.com/EkType/Baloo/releases/download/1.10/Baloo_#{version}.zip"
   name 'Baloo'
   homepage 'https://github.com/EkType/Baloo'
-  license :ofl
 
   font 'Baloo-Regular.ttf'
   font 'BalooBhai-Regular.ttf'

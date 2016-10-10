@@ -5,7 +5,6 @@ cask 'font-noto-sans-cuneiform' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCuneiform-unhinted.zip'
   name 'Noto Sans Cuneiform'
   homepage 'https://www.google.com/get/noto/#sans-xsux'
-  license :ofl
 
   font 'NotoSansCypriot-Regular.ttf'
 end

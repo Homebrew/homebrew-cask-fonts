@@ -7,7 +7,6 @@ cask 'font-gandom' do
           checkpoint: '644c9b56d1a64cc7c0569740b8f209cc59d06a3dc21e2e5bba84e9cf79660bab'
   name 'Gandom'
   homepage 'http://rastikerdar.github.io/gandom-font'
-  license :ofl
 
   font 'Gandom.ttf'
   font 'Gandom-Bold.ttf'

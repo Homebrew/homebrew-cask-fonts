@@ -4,7 +4,6 @@ cask 'font-didact-gothic' do
 
   url 'https://github.com/google/fonts/raw/master/ofl/didactgothic/DidactGothic.ttf'
   homepage 'http://www.google.com/fonts/specimen/Didact%20Gothic'
-  license :ofl
 
   font 'DidactGothic.ttf'
 end

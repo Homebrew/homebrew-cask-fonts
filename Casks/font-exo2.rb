@@ -8,7 +8,6 @@ cask 'font-exo2' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Exo%202'
-  license :ofl
 
   font 'Exo2-Black.ttf'
   font 'Exo2-BlackItalic.ttf'

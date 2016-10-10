@@ -8,7 +8,6 @@ cask 'font-andada' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Andada'
-  license :ofl
 
   font 'Andada-Bold.ttf'
   font 'Andada-BoldItalic.ttf'

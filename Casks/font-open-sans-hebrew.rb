@@ -8,7 +8,6 @@ cask 'font-open-sans-hebrew' do
       revision:   '50',
       trust_cert: true
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :oss
 
   font 'OpenSansHebrew-Bold.ttf'
   font 'OpenSansHebrew-BoldItalic.ttf'

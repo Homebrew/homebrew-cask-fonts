@@ -4,7 +4,6 @@ cask 'font-mrs-sheppards' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/mrssheppards/MrsSheppards-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Mrs%20Sheppards'
-  license :ofl
 
   font 'MrsSheppards-Regular.ttf'
 end

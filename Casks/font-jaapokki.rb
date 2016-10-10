@@ -4,7 +4,6 @@ cask 'font-jaapokki' do
 
   url "http://mikkonuuttila.com/jaapokki/Jaapokki-font-package-#{version}.zip"
   homepage 'http://mikkonuuttila.com/jaapokki/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font "Jaapokki-font-package-#{version}/Regular/Jaapokki-Regular.otf"
   font "Jaapokki-font-package-#{version}/enchance/Jaapokkienchance-Regular.otf"

@@ -8,7 +8,6 @@ cask 'font-karla-tamil-inclined' do
       revision:   '50',
       trust_cert: true
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :ofl
 
   font 'KarlaTamilInclined-Bold.ttf'
   font 'KarlaTamilInclined-Regular.ttf'

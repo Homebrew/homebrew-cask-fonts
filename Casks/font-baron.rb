@@ -4,7 +4,6 @@ cask 'font-baron' do
 
   url 'http://www.fontfabric.com/downfont/baron.zip'
   homepage 'http://www.fontfabric.com/baron-free-font/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Baron Neue Black Italic.otf'
   font 'Baron Neue Black.otf'

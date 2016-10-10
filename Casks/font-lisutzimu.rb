@@ -4,7 +4,6 @@ cask 'font-lisutzimu' do
 
   url "http://download739.mediafire.com/5s5j5857bnsg/nng3ontzxrt/Lisu+Tzimu-#{version}.exe"
   homepage 'http://www.alanwood.net/unicode/fonts-east-asian.html#lisu'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   depends_on formula: 'unar'
   container type: :seven_zip

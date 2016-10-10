@@ -5,7 +5,6 @@ cask 'font-noto-sans-kaithi' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansKaithi-unhinted.zip'
   name 'Noto Sans Kaithi'
   homepage 'https://www.google.com/get/noto/#sans-kthi'
-  license :ofl
 
   font 'NotoSansKaithi-Regular.ttf'
 end

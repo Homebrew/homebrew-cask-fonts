@@ -4,7 +4,6 @@ cask 'font-tuffy' do
 
   url 'http://tulrich.com/fonts/tuffy-20120614.tar.gz'
   homepage 'http://tulrich.com/fonts/'
-  license :ofl
 
   font 'tuffy-20120614/Tuffy.otf'
   font 'tuffy-20120614/Tuffy_Bold.otf'

@@ -8,7 +8,6 @@ cask 'font-codystar' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Codystar'
-  license :ofl
 
   font 'Codystar-Light.ttf'
   font 'Codystar-Regular.ttf'

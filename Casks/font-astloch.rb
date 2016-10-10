@@ -8,7 +8,6 @@ cask 'font-astloch' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Astloch'
-  license :ofl
 
   font 'Astloch-Bold.ttf'
   font 'Astloch-Regular.ttf'

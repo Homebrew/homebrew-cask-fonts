@@ -8,7 +8,6 @@ cask 'font-flamenco' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Flamenco'
-  license :ofl
 
   font 'Flamenco-Light.ttf'
   font 'Flamenco-Regular.ttf'

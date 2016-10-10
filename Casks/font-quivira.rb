@@ -5,7 +5,6 @@ cask 'font-quivira' do
 
   url 'http://www.quivira-font.com/files/Quivira.otf'
   homepage 'http://www.quivira-font.com/downloads.php'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Quivira.otf'
 end

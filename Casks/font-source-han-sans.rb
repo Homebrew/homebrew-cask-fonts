@@ -5,7 +5,6 @@ cask 'font-source-han-sans' do
   url 'https://github.com/adobe-fonts/source-han-sans/raw/5f5311e71cb628321cc0cffb51fb38d862b726aa/SuperOTC/SourceHanSans.ttc.zip'
   homepage 'https://github.com/adobe-fonts/source-han-sans'
   name "Source Han Sans"
-  license :ofl
 
   font 'SourceHanSans.ttc'
 end

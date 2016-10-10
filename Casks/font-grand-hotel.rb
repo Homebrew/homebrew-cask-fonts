@@ -4,7 +4,6 @@ cask 'font-grand-hotel' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/grandhotel/GrandHotel-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Grand%20Hotel'
-  license :ofl
 
   font 'GrandHotel-Regular.ttf'
 end

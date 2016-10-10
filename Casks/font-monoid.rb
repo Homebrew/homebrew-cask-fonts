@@ -8,7 +8,6 @@ cask 'font-monoid' do
           checkpoint: '7d81b051c97512e3973332b07fe3f2013384be867d46c85879117bacebaba111'
   name 'Monoid'
   homepage 'http://larsenwork.com/monoid/'
-  license :ofl
 
   font 'Monoid-Bold.ttf'
   font 'Monoid-Italic.ttf'

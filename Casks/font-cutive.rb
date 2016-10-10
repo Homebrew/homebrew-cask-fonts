@@ -5,7 +5,6 @@ cask 'font-cutive' do
   url 'https://github.com/google/fonts/raw/master/ofl/cutive/Cutive-Regular.ttf'
   name 'Cutive'
   homepage 'http://www.google.com/fonts/specimen/Cutive'
-  license :ofl
 
   font 'Cutive-Regular.ttf'
 end

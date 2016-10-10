@@ -6,7 +6,6 @@ cask 'font-genjyuugothic-x' do
   url "http://osdn.dl.osdn.jp/users/#{version.after_comma.major}/#{version.after_comma.no_dots}/genjyuugothic-x-#{version.before_comma}.zip"
   name 'Gen Jyuu GothicX'
   homepage 'http://jikasei.me/font/genjyuu/'
-  license :ofl
 
   font 'GenJyuuGothicX-Bold.ttf'
   font 'GenJyuuGothicX-ExtraLight.ttf'

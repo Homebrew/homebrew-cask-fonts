@@ -8,7 +8,6 @@ cask 'font-coustard' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Coustard'
-  license :ofl
 
   font 'Coustard-Black.ttf'
   font 'Coustard-Regular.ttf'

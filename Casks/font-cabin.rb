@@ -8,7 +8,6 @@ cask 'font-cabin' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Cabin'
-  license :ofl
 
   font 'Cabin-Bold.ttf'
   font 'Cabin-BoldItalic.ttf'

@@ -5,7 +5,6 @@ cask 'font-noto-sans-linear-b' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLinearB-unhinted.zip'
   name 'Noto Sans Linear B'
   homepage 'https://www.google.com/get/noto/#sans-linb'
-  license :ofl
 
   font 'NotoSansLinearB-Regular.ttf'
 end

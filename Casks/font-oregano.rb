@@ -8,7 +8,6 @@ cask 'font-oregano' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Oregano'
-  license :ofl
 
   font 'Oregano-Italic.ttf'
   font 'Oregano-Regular.ttf'

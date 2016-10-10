@@ -5,7 +5,6 @@ cask 'font-inconsolata' do
 
   url 'http://levien.com/type/myfonts/Inconsolata.otf'
   homepage 'http://levien.com/type/myfonts/inconsolata.html'
-  license :ofl
 
   font 'Inconsolata.otf'
 end

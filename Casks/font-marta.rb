@@ -4,7 +4,6 @@ cask 'font-marta' do
 
   url 'http://fontfabric.com/downfont/marta.zip'
   homepage 'http://fontfabric.com/marta-free-font/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Marta_Bold.otf'
   font 'Marta_Italic.otf'

@@ -5,7 +5,6 @@ cask 'font-noto-sans-cjk-sc' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKsc-hinted.zip'
   name 'Noto Sans CJK SC'
   homepage 'https://www.google.com/get/noto/#sans-hans'
-  license :ofl
 
   font 'NotoSansCJKsc-Black.otf'
   font 'NotoSansCJKsc-Bold.otf'

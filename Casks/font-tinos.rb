@@ -9,7 +9,6 @@ cask 'font-tinos' do
       trust_cert: true
   name 'Tinos'
   homepage 'http://www.google.com/fonts/specimen/Tinos'
-  license :apache
 
   font 'Tinos-Bold.ttf'
   font 'Tinos-BoldItalic.ttf'

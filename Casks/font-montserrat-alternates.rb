@@ -8,7 +8,6 @@ cask 'font-montserrat-alternates' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Montserrat%20Alternates'
-  license :ofl
 
   font 'MontserratAlternates-Bold.ttf'
   font 'MontserratAlternates-Regular.ttf'

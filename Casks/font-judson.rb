@@ -8,7 +8,6 @@ cask 'font-judson' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Judson'
-  license :ofl
 
   font 'Judson-Bold.ttf'
   font 'Judson-Italic.ttf'

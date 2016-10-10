@@ -4,7 +4,6 @@ cask 'font-league-gothic' do
 
   url 'http://files.theleagueofmoveabletype.com/downloads/theleagueof-league-gothic-64c3ede.zip'
   homepage 'https://www.theleagueofmoveabletype.com/league-gothic'
-  license :ofl
 
   font 'theleagueof-league-gothic-64c3ede/LeagueGothic-CondensedItalic.otf'
   font 'theleagueof-league-gothic-64c3ede/LeagueGothic-CondensedRegular.otf'

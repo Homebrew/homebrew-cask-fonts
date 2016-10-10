@@ -5,7 +5,6 @@ cask 'font-alef' do
 
   url 'http://alef.hagilda.com/Alef.zip'
   homepage 'http://alef.hagilda.com/'
-  license :ofl
 
   font 'TTF/Alef-Bold.ttf'
   font 'TTF/Alef-Regular.ttf'

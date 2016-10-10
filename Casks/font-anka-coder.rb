@@ -4,7 +4,6 @@ cask 'font-anka-coder' do
 
   url "https://anka-coder-fonts.googlecode.com/files/AnkaCoder.#{version}.zip"
   homepage 'https://code.google.com/p/anka-coder-fonts/'
-  license :oss
 
   font 'AnkaCoder-b.ttf'
   font 'AnkaCoder-bi.ttf'

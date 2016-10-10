@@ -8,7 +8,6 @@ cask 'font-oxygen' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Oxygen'
-  license :ofl
 
   font 'Oxygen-Bold.ttf'
   font 'Oxygen-Light.ttf'

@@ -8,7 +8,6 @@ cask 'font-buenard' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Buenard'
-  license :ofl
 
   font 'Buenard-Bold.ttf'
   font 'Buenard-Regular.ttf'

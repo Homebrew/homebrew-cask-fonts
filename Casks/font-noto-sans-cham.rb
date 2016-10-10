@@ -5,7 +5,6 @@ cask 'font-noto-sans-cham' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCham-unhinted.zip'
   name 'Noto Sans Cham'
   homepage 'https://www.google.com/get/noto/#sans-cham'
-  license :ofl
 
   font 'NotoSansCham-Bold.ttf'
   font 'NotoSansCham-Regular.ttf'

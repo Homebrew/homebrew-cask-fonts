@@ -8,7 +8,6 @@ cask 'font-thabit' do
       revision:   '50',
       trust_cert: true
   homepage 'http://projects.arabeyes.org/project.php?proj=Khotot'
-  license :ofl
 
   font 'Thabit-Bold.ttf'
   font 'Thabit-BoldOblique.ttf'

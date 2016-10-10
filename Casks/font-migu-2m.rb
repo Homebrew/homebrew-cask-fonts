@@ -5,7 +5,6 @@ cask 'font-migu-2m' do
   url "http://dl.osdn.jp/mix-mplus-ipa/63545/migu-2m-#{version}.zip"
   name 'Migu 2M'
   homepage 'http://mix-mplus-ipa.osdn.jp/migu/#migu2m'
-  license :oss
 
   font "migu-2m-#{version}/migu-2m-bold.ttf"
   font "migu-2m-#{version}/migu-2m-regular.ttf"

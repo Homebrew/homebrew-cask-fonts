@@ -6,7 +6,6 @@ cask 'font-miao-unicode' do
   url 'https://github.com/phjamr/MiaoUnicode/blob/master/MiaoUnicode-Regular.ttf?raw=true'
   name 'MiaoUnicode'
   homepage 'http://phjamr.github.io/miao.html'
-  license :oss
 
   font 'MiaoUnicode-Regular.ttf'
 end

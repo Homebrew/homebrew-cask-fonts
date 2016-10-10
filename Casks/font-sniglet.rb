@@ -8,7 +8,6 @@ cask 'font-sniglet' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Sniglet'
-  license :ofl
 
   font 'Sniglet-ExtraBold.ttf'
   font 'Sniglet-Regular.ttf'

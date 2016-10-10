@@ -5,7 +5,6 @@ cask 'font-migmix-1m' do
   url "http://dl.osdn.jp/mix-mplus-ipa/63544/migmix-1m-#{version}.zip"
   name 'MigMix 1M'
   homepage 'http://mix-mplus-ipa.osdn.jp/migmix/#migmix1m'
-  license :oss
 
   font "migmix-1m-#{version}/migmix-1m-bold.ttf"
   font "migmix-1m-#{version}/migmix-1m-regular.ttf"

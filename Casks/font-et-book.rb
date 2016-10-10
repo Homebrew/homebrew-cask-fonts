@@ -11,7 +11,6 @@ cask 'font-et-book' do
   name 'ET Book'
   name 'Edward Tufte Book'
   homepage 'http://edwardtufte.github.io/et-book/'
-  license :mit
 
   font 'et-book-bold-line-figures/et-book-bold-line-figures.ttf'
   font 'et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf'

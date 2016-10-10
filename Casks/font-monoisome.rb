@@ -8,7 +8,6 @@ cask 'font-monoisome' do
           checkpoint: 'e94cd1ccc01488e99b07a372162ea9e555b6aef0e0911cbb198281f03b975467'
   name 'Monoisome'
   homepage 'http://larsenwork.com/monoid/'
-  license :ofl
 
   font 'Monoisome-Regular.ttf'
 end

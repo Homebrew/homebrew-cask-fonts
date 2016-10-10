@@ -8,7 +8,6 @@ cask 'font-kameron' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Kameron'
-  license :ofl
 
   font 'Kameron-Bold.ttf'
   font 'Kameron-Regular.ttf'

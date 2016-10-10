@@ -5,7 +5,6 @@ cask 'font-latin-modern' do
   url "http://www.gust.org.pl/projects/e-foundry/latin-modern/download/lm#{version}otf.zip"
   name "Latin Modern"
   homepage 'http://www.gust.org.pl/projects/e-foundry/latin-modern'
-  license :oss
 
   font 'lmmono10-italic.otf'
   font 'lmmono10-regular.otf'

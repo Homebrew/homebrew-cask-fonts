@@ -8,7 +8,6 @@ cask 'font-quicksand' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Quicksand'
-  license :ofl
 
   font 'Quicksand-Bold.ttf'
   font 'Quicksand-BoldItalic.ttf'

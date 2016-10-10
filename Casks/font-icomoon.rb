@@ -6,7 +6,6 @@ cask 'font-icomoon' do
   url 'https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip'
   name 'IcoMoon'
   homepage 'https://icomoon.io'
-  license :gpl
 
   font 'IcoMoon-Free-master/Font/IcoMoon-Free.ttf'
 end

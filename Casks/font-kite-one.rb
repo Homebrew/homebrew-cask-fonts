@@ -4,7 +4,6 @@ cask 'font-kite-one' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/kiteone/KiteOne-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Kite%20One'
-  license :ofl
 
   font 'KiteOne-Regular.ttf'
 end

@@ -8,7 +8,6 @@ cask 'font-mountains-of-christmas' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Mountains%20of%20Christmas'
-  license :apache
 
   font 'MountainsofChristmas-Bold.ttf'
   font 'MountainsofChristmas-Regular.ttf'

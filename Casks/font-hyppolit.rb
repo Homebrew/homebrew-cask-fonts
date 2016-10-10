@@ -5,7 +5,6 @@ cask 'font-hyppolit' do
   url 'http://dl.1001fonts.com/hyppolit.zip'
   name 'Hyppolit'
   homepage 'http://www.1001fonts.com/hyppolit-font.html'
-  license :unknown
 
   font 'Hyppolit.ttf'
 end

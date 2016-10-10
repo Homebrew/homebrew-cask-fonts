@@ -8,7 +8,6 @@ cask 'font-sauce-code-powerline' do
       revision:   '50',
       trust_cert: true
   homepage 'https://github.com/powerline/fonts/tree/master/SourceCodePro'
-  license :oss
 
   font 'Sauce Code Powerline Black.otf'
   font 'Sauce Code Powerline Bold.otf'

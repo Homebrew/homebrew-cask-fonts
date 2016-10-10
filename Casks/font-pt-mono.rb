@@ -4,7 +4,6 @@ cask 'font-pt-mono' do
 
   url 'http://www.paratype.com/uni/public/PTMono.zip'
   homepage 'http://www.paratype.com/public/'
-  license :ofl
 
   font 'PTM55F.ttf'
   font 'PTM75F.ttf'

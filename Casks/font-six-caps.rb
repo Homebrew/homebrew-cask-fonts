@@ -4,7 +4,6 @@ cask 'font-six-caps' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/sixcaps/SixCaps.ttf'
   homepage 'http://www.google.com/fonts/specimen/Six%20Caps'
-  license :ofl
 
   font 'SixCaps.ttf'
 end

@@ -6,7 +6,6 @@ cask 'font-poppins' do
   appcast 'https://github.com/itfoundry/poppins/releases.atom',
           checkpoint: '62c4b949034b414f6e3b04d8a1d71a4b360aa266708a3067e64527e288edf549'
   homepage 'https://github.com/itfoundry/poppins'
-  license :ofl
 
   font 'Poppins-Bold.otf'
   font 'Poppins-Light.otf'

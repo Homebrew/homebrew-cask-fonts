@@ -4,7 +4,6 @@ cask 'font-hermit' do
 
   url "https://pcaro.es/d/otf-hermit-#{version}.tar.gz"
   homepage 'https://pcaro.es/p/hermit/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Hermit-bold.otf'
   font 'Hermit-light.otf'

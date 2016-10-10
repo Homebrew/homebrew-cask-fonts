@@ -8,7 +8,6 @@ cask 'font-ruda' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Ruda'
-  license :ofl
 
   font 'Ruda-Black.ttf'
   font 'Ruda-Bold.ttf'

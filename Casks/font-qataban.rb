@@ -7,7 +7,6 @@ cask 'font-qataban' do
 
   url 'http://www.alanwood.net/downloads/qataban.zip'
   homepage 'http://www.alanwood.net/downloads/index.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'Qataban 1_0.ttf'
 end

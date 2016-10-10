@@ -5,7 +5,6 @@ cask 'font-gnu-unifont' do
   url "http://unifoundry.com/pub/unifont-#{version}/font-builds/unifont-#{version}.ttf"
   name 'GNU Unifont'
   homepage 'http://unifoundry.com/unifont.html'
-  license :gpl
 
   font "unifont-#{version}.ttf"
 end

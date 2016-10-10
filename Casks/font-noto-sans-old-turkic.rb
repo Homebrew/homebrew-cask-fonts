@@ -5,7 +5,6 @@ cask 'font-noto-sans-old-turkic' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldTurkic-unhinted.zip'
   name 'Noto Sans Old Turkic'
   homepage 'https://www.google.com/get/noto/#sans-orkh'
-  license :ofl
 
   font 'NotoSansOldTurkic-Regular.ttf'
 end

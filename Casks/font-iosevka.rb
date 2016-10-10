@@ -7,7 +7,6 @@ cask 'font-iosevka' do
           checkpoint: '5de739f39f944857a83da283ce76d41d28eb324e62ec120766a34409a8ace9c9'
   name 'Iosevka'
   homepage 'https://github.com/be5invis/Iosevka/'
-  license :ofl
 
   font 'iosevka-bold.ttf'
   font 'iosevka-bolditalic.ttf'

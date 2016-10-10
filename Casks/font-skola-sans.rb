@@ -6,7 +6,6 @@ cask 'font-skola-sans' do
   url 'http://www.mediafire.com/download/5cbb1kb41ypzm3v/SkolaSansPro.zip'
   name 'SkokalaSans'
   homepage 'https://www.behance.net/gallery/17504367/Free-font-family-SkolaSans'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'SkolaSansPro/SkolaSansPro OTF/SkolaSans-Black.otf'
   font 'SkolaSansPro/SkolaSansPro OTF/SkolaSans-BlackItalic.otf'

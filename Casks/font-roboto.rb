@@ -6,7 +6,6 @@ cask 'font-roboto' do
       using:      :svn,
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Roboto'
-  license :apache
 
   font 'Roboto-Black.ttf'
   font 'Roboto-BlackItalic.ttf'

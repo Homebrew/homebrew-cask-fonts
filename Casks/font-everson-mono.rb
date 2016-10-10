@@ -7,7 +7,6 @@ cask 'font-everson-mono' do
 
   url 'http://www.evertype.com/emono/evermono.zip'
   homepage 'http://www.evertype.com/emono/'
-  license :commercial # trial
 
   font 'evermono-7.0.0/Everson Mono.ttf'
   font 'evermono-7.0.0/Everson Mono Bold.ttf'

@@ -8,7 +8,6 @@ cask 'font-droid-arabic-naskh' do
       revision:   '50',
       trust_cert: true
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :apache
 
   font 'DroidNaskh-Bold.ttf'
   font 'DroidNaskh-Regular.ttf'

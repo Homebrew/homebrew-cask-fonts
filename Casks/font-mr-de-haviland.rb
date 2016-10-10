@@ -4,7 +4,6 @@ cask 'font-mr-de-haviland' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/mrdehaviland/MrDeHaviland-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Mr%20De%20Haviland'
-  license :ofl
 
   font 'MrDeHaviland-Regular.ttf'
 end

@@ -4,7 +4,6 @@ cask 'font-scheherazade' do
 
   url 'http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=Scheherazade-2.020.zip&filename=Scheherazade-2.020.zip'
   homepage 'http://scripts.sil.org/Scheherazade'
-  license :ofl
 
   font 'Scheherazade-2.020/Scheherazade-R.ttf'
 end

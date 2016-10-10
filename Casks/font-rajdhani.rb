@@ -6,7 +6,6 @@ cask 'font-rajdhani' do
   appcast 'https://github.com/itfoundry/rajdhani/releases.atom',
           checkpoint: '83cb5df4b0a6b60138dabbe7c4a1ac8a262972c00cd9f6be757af73d147d8bb4'
   homepage 'https://github.com/itfoundry/rajdhani'
-  license :ofl
 
   font 'Rajdhani-Bold.otf'
   font 'Rajdhani-Light.otf'

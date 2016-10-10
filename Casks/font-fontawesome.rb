@@ -7,7 +7,6 @@ cask 'font-fontawesome' do
           checkpoint: 'b0af6dbc646732b2f9a36945ebb1606e010ff43efa7b2df0af884d5408d89276'
   name 'Font Awesome'
   homepage 'http://fortawesome.github.io/Font-Awesome/'
-  license :oss
 
   font "font-awesome-#{version}/fonts/FontAwesome.otf"
 end

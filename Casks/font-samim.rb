@@ -6,7 +6,6 @@ cask 'font-samim' do
   appcast 'https://github.com/rastikerdar/samim-font/releases.atom',
           checkpoint: '57137fee1ff149ea258db67e69fd68685a8835f68660a7028500350387e42b43'
   homepage 'http://rastikerdar.github.io/samim-font'
-  license :ofl
 
   font 'Samim.ttf'
   font 'Samim-Bold.ttf'

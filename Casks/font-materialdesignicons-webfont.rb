@@ -10,7 +10,6 @@ cask 'font-materialdesignicons-webfont' do
       trust_cert: true
   name 'Material Design Icons Webfont'
   homepage 'https://materialdesignicons.com'
-  license :ofl
 
   font 'materialdesignicons-webfont.ttf'
 end

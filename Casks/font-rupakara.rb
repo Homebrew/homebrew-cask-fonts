@@ -4,7 +4,6 @@ cask 'font-rupakara' do
 
   url 'http://www.evertype.com/fonts/rupakara/rupakara.zip'
   homepage 'http://www.evertype.com/fonts/rupakara/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'rupakara-1.0.4/Rupakara-Bold.ttf'
   font 'rupakara-1.0.4/Rupakara-BoldOblique.ttf'

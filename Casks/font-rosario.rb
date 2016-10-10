@@ -8,7 +8,6 @@ cask 'font-rosario' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Rosario'
-  license :ofl
 
   font 'Rosario-Bold.ttf'
   font 'Rosario-BoldItalic.ttf'

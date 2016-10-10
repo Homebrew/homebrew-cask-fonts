@@ -4,7 +4,6 @@ cask 'font-charter' do
 
   url 'http://practicaltypography.com/fonts/charter.zip'
   homepage 'http://practicaltypography.com/charter.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'charter/otf/Charter Bold Italic.otf'
   font 'charter/otf/Charter Bold.otf'

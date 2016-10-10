@@ -5,7 +5,6 @@ cask 'font-fira-sans' do
   url 'http://www.carrois.com/downloads/fira_4_1/FiraFonts4106.zip'
   name 'Fira Sans'
   homepage 'http://www.carrois.com/fira-4-1/'
-  license :ofl
 
   font 'FiraFonts4106/OTF/FiraSans-Bold.otf'
   font 'FiraFonts4106/OTF/FiraSans-BoldItalic.otf'

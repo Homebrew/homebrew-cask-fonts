@@ -7,7 +7,6 @@ cask 'font-babelstone-modern' do
 
   url 'http://www.babelstone.co.uk/Fonts/BabelStoneModern.ttf'
   homepage 'http://www.babelstone.co.uk/Fonts/'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'BabelStoneModern.ttf'
 end

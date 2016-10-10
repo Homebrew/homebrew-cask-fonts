@@ -8,7 +8,6 @@ cask 'font-bungee' do
           checkpoint: '344b7d19c095589fcf158c7ab4cca696ef4377628aeb14027da0bc61fa40c4d3'
   name 'Bungee'
   homepage 'https://djr.com/bungee/'
-  license :ofl
 
   font 'Bungee-fonts/Bungee_Color_Fonts/BungeeColor-Regular_sbix_MacOS.ttf'
   font 'Bungee-fonts/Bungee_Color_Fonts/BungeeColor-Regular_svg.ttf'

@@ -5,7 +5,6 @@ cask 'font-vt323' do
   url 'https://github.com/google/fonts/raw/master/ofl/vt323/VT323-Regular.ttf'
   name 'VT323'
   homepage 'http://www.google.com/fonts/specimen/VT323'
-  license :ofl
 
   font 'VT323-Regular.ttf'
 end

@@ -7,7 +7,6 @@ cask 'font-vazir' do
           checkpoint: 'b42184ad4fddda5b4ae16825887a1872bb630fdc87381418a4cef879fdde2d36'
   name 'Vazir'
   homepage 'http://rastikerdar.github.io/vazir-font'
-  license :ofl
 
   font 'Vazir.ttf'
   font 'Vazir-Bold.ttf'

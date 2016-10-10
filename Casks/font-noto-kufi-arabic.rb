@@ -5,7 +5,6 @@ cask 'font-noto-kufi-arabic' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoKufiArabic-unhinted.zip'
   name 'Noto Kufi Arabic'
   homepage 'https://www.google.com/get/noto/#kufi-arab'
-  license :ofl
 
   font 'NotoKufiArabic-Bold.ttf'
   font 'NotoKufiArabic-Regular.ttf'

@@ -6,7 +6,6 @@ cask 'font-kalam' do
   appcast 'https://github.com/itfoundry/kalam/releases.atom',
           checkpoint: '2ae5d72c3ec731407999c0dc22df8bb6e42cc544b708eabf148801d9b6fa339f'
   homepage 'https://github.com/itfoundry/kalam'
-  license :ofl
 
   font 'Kalam-Bold.otf'
   font 'Kalam-Light.otf'

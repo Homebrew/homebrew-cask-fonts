@@ -8,7 +8,6 @@ cask 'font-nanumgothic' do
       revision:   '50',
       trust_cert: true
   homepage 'https://www.google.com/fonts/earlyaccess'
-  license :ofl
 
   font 'NanumGothic-Bold.ttf'
   font 'NanumGothic-ExtraBold.ttf'

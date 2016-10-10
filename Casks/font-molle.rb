@@ -4,7 +4,6 @@ cask 'font-molle' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/molle/Molle-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Molle'
-  license :ofl
 
   font 'Molle-Regular.ttf'
 end

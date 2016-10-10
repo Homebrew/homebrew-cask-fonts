@@ -4,7 +4,6 @@ cask 'font-lohit-bengali' do
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-bengali-ttf-#{version}.tar.gz"
   homepage 'https://fedorahosted.org/lohit/'
-  license :ofl
 
   font "lohit-bengali-ttf-#{version}/Lohit-Bengali.ttf"
 end

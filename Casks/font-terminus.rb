@@ -5,7 +5,6 @@ cask 'font-terminus' do
   url "http://files.ax86.net/terminus-ttf/files/#{version}/terminus-ttf-#{version}.zip"
   name 'Terminus TTF'
   homepage 'http://files.ax86.net/terminus-ttf/'
-  license :ofl
 
   font "terminus-ttf-#{version}/TerminusTTF-#{version}.ttf"
   font "terminus-ttf-#{version}/TerminusTTF-Bold-#{version}.ttf"

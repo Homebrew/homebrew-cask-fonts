@@ -4,7 +4,6 @@ cask 'font-tex-gyre-adventor' do
 
   url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/adventor/qag#{version}otf.zip"
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/adventor'
-  license :lppl
 
   font 'texgyreadventor-bold.otf'
   font 'texgyreadventor-bolditalic.otf'

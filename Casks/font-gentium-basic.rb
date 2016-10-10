@@ -8,7 +8,6 @@ cask 'font-gentium-basic' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Gentium%20Basic'
-  license :ofl
 
   font 'GenBasB.ttf'
   font 'GenBasBI.ttf'

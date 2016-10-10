@@ -7,7 +7,6 @@ cask 'font-oskidakelh' do
 
   url 'http://www.languagegeek.com/font/oskidakelh.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'oskidakelh1.ttf'
   font 'oskidakelhbold1.ttf'

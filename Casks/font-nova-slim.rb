@@ -5,7 +5,6 @@ cask 'font-nova-slim' do
   url 'https://github.com/google/fonts/raw/master/ofl/novaslim/NovaSlim.ttf'
   name 'Nova Slim'
   homepage 'http://www.google.com/fonts/specimen/Nova%20Slim'
-  license :ofl
 
   font 'NovaSlim.ttf'
 end

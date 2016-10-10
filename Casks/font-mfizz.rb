@@ -8,7 +8,6 @@ cask 'font-mfizz' do
           checkpoint: '6ca7f4d16161f126408ced1c78385fc07f5cdebbc7507cd1082ae0415f719317'
   name 'Font Mfizz'
   homepage 'http://fizzed.com/oss/font-mfizz'
-  license :mit
 
   font "font-mfizz-#{version}/font-mfizz.ttf"
 end

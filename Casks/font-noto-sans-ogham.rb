@@ -5,7 +5,6 @@ cask 'font-noto-sans-ogham' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOgham-unhinted.zip'
   name 'Noto Sans Ogham'
   homepage 'https://www.google.com/get/noto/#sans-ogam'
-  license :ofl
 
   font 'NotoSansOgham-Regular.ttf'
 end

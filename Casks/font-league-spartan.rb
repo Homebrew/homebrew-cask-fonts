@@ -5,7 +5,6 @@ cask 'font-league-spartan' do
   url "http://files.theleagueofmoveabletype.com/downloads/league-spartan-#{version}.zip"
   name 'League Spartan'
   homepage 'https://www.theleagueofmoveabletype.com/league-spartan'
-  license :ofl
 
   font 'league-spartan-master/LeagueSpartan-Bold.otf'
 end

@@ -4,7 +4,6 @@ cask 'font-fantasque-sans-mono' do
 
   url "https://github.com/belluzj/fantasque-sans/releases/download/#{version}/FantasqueSansMono.zip"
   homepage 'https://github.com/belluzj/fantasque-sans'
-  license :oss
 
   font 'OTF/FantasqueSansMono-Bold.otf'
   font 'OTF/FantasqueSansMono-BoldItalic.otf'

@@ -6,7 +6,6 @@ cask 'font-genshingothic' do
   url "http://osdn.dl.osdn.jp/users/#{version.after_comma.major}/#{version.after_comma.no_dots}/genshingothic-#{version.before_comma}.zip"
   name 'Gen Shin Gothic'
   homepage 'http://jikasei.me/font/genshin/'
-  license :ofl
 
   font 'GenShinGothic-Bold.ttf'
   font 'GenShinGothic-ExtraLight.ttf'

@@ -5,7 +5,6 @@ cask 'font-noto-sans-syriac-western' do
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSyriacWestern-unhinted.zip'
   name 'Noto Sans Syriac Western'
   homepage 'https://www.google.com/get/noto/#sans-syrc-western'
-  license :ofl
 
   font 'NotoSansSyriacWestern-Regular.ttf'
 end

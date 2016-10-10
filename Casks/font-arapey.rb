@@ -8,7 +8,6 @@ cask 'font-arapey' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Arapey'
-  license :ofl
 
   font 'Arapey-Italic.ttf'
   font 'Arapey-Regular.ttf'

@@ -4,7 +4,6 @@ cask 'font-kdam-thmor' do
 
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/kdamthmor/KdamThmor-Regular.ttf'
   homepage 'http://www.google.com/fonts/specimen/Kdam%20Thmor'
-  license :ofl
 
   font 'KdamThmor-Regular.ttf'
 end

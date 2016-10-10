@@ -8,7 +8,6 @@ cask 'font-work-sans' do
           checkpoint: '0f6b8a1b720afc05862550caa4e559247971971e862047a99aab41b08ebd268c'
   name 'Work Sans'
   homepage 'http://weiweihuanghuang.github.io/Work-Sans/'
-  license :ofl
 
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-Black.otf"
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-Bold.otf"

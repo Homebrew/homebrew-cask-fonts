@@ -8,7 +8,6 @@ cask 'font-amiri' do
           checkpoint: 'b04d8b1e4ee31bdda5987d1c6f7f4bba332a27b971966d455da32d9cc1f20dfb'
   name 'Amiri'
   homepage 'http://www.amirifont.org/'
-  license :ofl
 
   font "amiri-#{version}/amiri-bold.ttf"
   font "amiri-#{version}/amiri-boldslanted.ttf"

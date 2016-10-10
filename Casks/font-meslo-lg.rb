@@ -4,7 +4,6 @@ cask 'font-meslo-lg' do
 
   url 'https://github.com/andreberg/Meslo-Font/raw/master/dist/v1.2.1/Meslo%20LG%20v1.2.1.zip'
   homepage 'https://github.com/andreberg/Meslo-Font'
-  license :oss
 
   font 'Meslo LG v1.2.1/MesloLGL-Bold.ttf'
   font 'Meslo LG v1.2.1/MesloLGL-BoldItalic.ttf'

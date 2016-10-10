@@ -8,7 +8,6 @@ cask 'font-almendra-sc' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Almendra%20SC'
-  license :ofl
 
   font 'AlmendraSC-Bold.ttf'
   font 'AlmendraSC-BoldItalic.ttf'

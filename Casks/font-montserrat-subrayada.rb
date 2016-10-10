@@ -8,7 +8,6 @@ cask 'font-montserrat-subrayada' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Montserrat%20Subrayada'
-  license :ofl
 
   font 'MontserratSubrayada-Bold.ttf'
   font 'MontserratSubrayada-Regular.ttf'

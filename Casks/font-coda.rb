@@ -8,7 +8,6 @@ cask 'font-coda' do
       revision:   '50',
       trust_cert: true
   homepage 'http://www.google.com/fonts/specimen/Coda'
-  license :ofl
 
   font 'Coda-Heavy.ttf'
   font 'Coda-Regular.ttf'

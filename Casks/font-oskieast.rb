@@ -7,7 +7,6 @@ cask 'font-oskieast' do
 
   url 'http://www.languagegeek.com/font/oskieast.zip'
   homepage 'http://www.languagegeek.com/font/fontdownload.html'
-  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   font 'oskie.ttf'
   font 'oskiebold.ttf'

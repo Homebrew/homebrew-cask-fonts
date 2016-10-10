@@ -10,7 +10,6 @@ cask 'font-gravitas-one' do
       trust_cert: true
   name 'Gravitas One'
   homepage 'http://www.google.com/fonts/specimen/Gravitas%20One'
-  license :ofl
 
   font 'GravitasOne.ttf'
 end

@@ -4,7 +4,6 @@ cask 'font-rounded-m-plus' do
 
   url 'http://jaist.dl.sourceforge.jp/users/6/6596/rounded-mplus-20140812.zip'
   homepage 'http://jikasei.me/font/rounded-mplus/'
-  license :oss
 
   font 'rounded-mplus-1c-black.ttf'
   font 'rounded-mplus-1c-bold.ttf'

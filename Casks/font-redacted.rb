@@ -8,7 +8,6 @@ cask 'font-redacted' do
       revision:   '41',
       trust_cert: true
   homepage 'https://github.com/christiannaths/Redacted-Font'
-  license :ofl
 
   font 'redacted-regular.ttf'
   font 'redacted-script-bold.ttf'
