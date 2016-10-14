@@ -3,8 +3,8 @@ cask 'font-aboriginal-sans' do
   sha256 :no_check
 
   url 'http://www.languagegeek.com/font/AboriginalSans.zip'
-  homepage 'http://www.languagegeek.com/font/fontdownload.html'
   name 'LanguageGeek Aboriginal Sans Serif'
+  homepage 'http://www.languagegeek.com/font/fontdownload.html'
 
   font 'AboriginalSansREGULAR.ttf'
   font 'AboriginalSansBOLD.ttf'
