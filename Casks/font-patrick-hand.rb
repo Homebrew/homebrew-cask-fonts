@@ -1,8 +1,9 @@
 cask 'font-patrick-hand' do
   version '1.003'
-  sha256 '0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc'
+  sha256 '5a6b0d0afa277bb5b8b813af83741c15e16b350a42ef61126a940b7d398c62bf'
 
-  url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/patrickhand/PatrickHand-Regular.ttf'
+  url 'https://fonts.google.com/download?family=Patrick%20Hand'
+  name 'Patrick Hand'
   homepage 'http://www.google.com/fonts/specimen/Patrick%20Hand'
 
   font 'PatrickHand-Regular.ttf'
