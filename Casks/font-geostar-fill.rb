@@ -4,6 +4,7 @@ cask 'font-geostar-fill' do
 
   # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/geostarfill/GeostarFill-Regular.ttf'
+  name 'Geostar Fill'
   homepage 'http://www.google.com/fonts/specimen/Geostar%20Fill'
 
   font 'GeostarFill-Regular.ttf'

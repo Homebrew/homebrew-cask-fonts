@@ -8,6 +8,7 @@ cask 'font-marvel' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Marvel'
   homepage 'http://www.google.com/fonts/specimen/Marvel'
 
   font 'Marvel-Bold.ttf'

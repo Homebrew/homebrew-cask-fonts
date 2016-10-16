@@ -8,6 +8,7 @@ cask 'font-coda' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Coda'
   homepage 'http://www.google.com/fonts/specimen/Coda'
 
   font 'Coda-Heavy.ttf'

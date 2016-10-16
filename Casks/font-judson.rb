@@ -8,6 +8,7 @@ cask 'font-judson' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Judson'
   homepage 'http://www.google.com/fonts/specimen/Judson'
 
   font 'Judson-Bold.ttf'

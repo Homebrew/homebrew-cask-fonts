@@ -8,6 +8,7 @@ cask 'font-arimo' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Arimo'
   homepage 'http://www.google.com/fonts/specimen/Arimo'
 
   font 'Arimo-Bold.ttf'

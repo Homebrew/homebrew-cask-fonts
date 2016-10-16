@@ -8,6 +8,7 @@ cask 'font-rosarivo' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Rosarivo'
   homepage 'http://www.google.com/fonts/specimen/Rosarivo'
 
   font 'Rosarivo-Italic.ttf'

@@ -6,6 +6,7 @@ cask 'font-roboto-mono' do
   url 'https://github.com/google/fonts/trunk/apache/robotomono',
       using:      :svn,
       trust_cert: true
+  name 'Roboto Mono'
   homepage 'http://www.google.com/fonts/specimen/Roboto%20Mono'
 
   font 'RobotoMono-Bold.ttf'

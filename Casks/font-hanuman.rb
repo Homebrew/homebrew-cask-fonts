@@ -8,6 +8,7 @@ cask 'font-hanuman' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Hanuman'
   homepage 'http://www.google.com/fonts/specimen/Hanuman'
 
   font 'Hanuman.ttf'

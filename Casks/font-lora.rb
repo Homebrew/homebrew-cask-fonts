@@ -8,6 +8,7 @@ cask 'font-lora' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Lora'
   homepage 'http://www.google.com/fonts/specimen/Lora'
 
   font 'Lora-Bold.ttf'

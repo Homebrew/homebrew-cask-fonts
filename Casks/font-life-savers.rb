@@ -8,6 +8,7 @@ cask 'font-life-savers' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Life Savers'
   homepage 'http://www.google.com/fonts/specimen/Life%20Savers'
 
   font 'LifeSavers-Bold.ttf'

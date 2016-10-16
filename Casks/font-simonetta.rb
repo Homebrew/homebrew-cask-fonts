@@ -8,6 +8,7 @@ cask 'font-simonetta' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Simonetta'
   homepage 'http://www.google.com/fonts/specimen/Simonetta'
 
   font 'Simonetta-Black.ttf'

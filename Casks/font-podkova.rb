@@ -8,6 +8,7 @@ cask 'font-podkova' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Podkova'
   homepage 'http://www.google.com/fonts/specimen/Podkova'
 
   font 'Podkova-Bold.ttf'

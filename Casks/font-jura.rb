@@ -8,6 +8,7 @@ cask 'font-jura' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Jura'
   homepage 'http://www.google.com/fonts/specimen/Jura'
 
   font 'Jura-DemiBold.ttf'

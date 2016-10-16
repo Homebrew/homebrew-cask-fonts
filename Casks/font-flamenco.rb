@@ -8,6 +8,7 @@ cask 'font-flamenco' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Flamenco'
   homepage 'http://www.google.com/fonts/specimen/Flamenco'
 
   font 'Flamenco-Light.ttf'

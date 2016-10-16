@@ -8,6 +8,7 @@ cask 'font-unkempt' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Unkempt'
   homepage 'http://www.google.com/fonts/specimen/Unkempt'
 
   font 'Unkempt-Bold.ttf'

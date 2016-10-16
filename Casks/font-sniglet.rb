@@ -8,6 +8,7 @@ cask 'font-sniglet' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Sniglet'
   homepage 'http://www.google.com/fonts/specimen/Sniglet'
 
   font 'Sniglet-ExtraBold.ttf'

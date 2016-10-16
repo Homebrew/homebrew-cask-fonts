@@ -4,6 +4,7 @@ cask 'font-text-me-one' do
 
   # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/textmeone/TextMeOne-Regular.ttf'
+  name 'Text Me One'
   homepage 'http://www.google.com/fonts/specimen/Text%20Me%20One'
 
   font 'TextMeOne-Regular.ttf'

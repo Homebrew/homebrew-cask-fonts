@@ -8,6 +8,7 @@ cask 'font-open-sans-condensed' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Open Sans Condensed'
   homepage 'http://www.google.com/fonts/specimen/Open%20Sans%20Condensed'
 
   font 'OpenSans-CondBold.ttf'

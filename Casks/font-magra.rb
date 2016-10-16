@@ -8,6 +8,7 @@ cask 'font-magra' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Magra'
   homepage 'http://www.google.com/fonts/specimen/Magra'
 
   font 'Magra-Bold.ttf'

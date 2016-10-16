@@ -8,6 +8,7 @@ cask 'font-rufina' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Rufina'
   homepage 'http://www.google.com/fonts/specimen/Rufina'
 
   font 'Rufina-Bold.ttf'

@@ -8,6 +8,7 @@ cask 'font-oregano' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Oregano'
   homepage 'http://www.google.com/fonts/specimen/Oregano'
 
   font 'Oregano-Italic.ttf'

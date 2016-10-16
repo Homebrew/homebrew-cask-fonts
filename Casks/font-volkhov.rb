@@ -8,6 +8,7 @@ cask 'font-volkhov' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Volkhov'
   homepage 'http://www.google.com/fonts/specimen/Volkhov'
 
   font 'Volkhov-Bold.ttf'

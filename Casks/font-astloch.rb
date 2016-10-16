@@ -8,6 +8,7 @@ cask 'font-astloch' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Astloch'
   homepage 'http://www.google.com/fonts/specimen/Astloch'
 
   font 'Astloch-Bold.ttf'

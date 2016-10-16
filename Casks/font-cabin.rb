@@ -8,6 +8,7 @@ cask 'font-cabin' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Cabin'
   homepage 'http://www.google.com/fonts/specimen/Cabin'
 
   font 'Cabin-Bold.ttf'

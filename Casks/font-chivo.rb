@@ -8,6 +8,7 @@ cask 'font-chivo' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Chivo'
   homepage 'http://www.google.com/fonts/specimen/Chivo'
 
   font 'Chivo-Black.ttf'

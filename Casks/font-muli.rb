@@ -8,6 +8,7 @@ cask 'font-muli' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Muli'
   homepage 'http://www.google.com/fonts/specimen/Muli'
 
   font 'Muli-Italic.ttf'

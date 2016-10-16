@@ -8,6 +8,7 @@ cask 'font-economica' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Economica'
   homepage 'http://www.google.com/fonts/specimen/Economica'
 
   font 'Economica-Bold.ttf'

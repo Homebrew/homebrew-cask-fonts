@@ -8,6 +8,7 @@ cask 'font-fanwood-text' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Fanwood Text'
   homepage 'http://www.google.com/fonts/specimen/Fanwood%20Text'
 
   font 'FanwoodText-Italic.ttf'

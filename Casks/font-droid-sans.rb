@@ -8,6 +8,7 @@ cask 'font-droid-sans' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Droid Sans'
   homepage 'http://www.google.com/fonts/specimen/Droid%20Sans'
 
   font 'DroidSans-Bold.ttf'

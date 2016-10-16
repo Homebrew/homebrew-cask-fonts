@@ -8,6 +8,7 @@ cask 'font-montserrat-subrayada' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Montserrat Subrayada'
   homepage 'http://www.google.com/fonts/specimen/Montserrat%20Subrayada'
 
   font 'MontserratSubrayada-Bold.ttf'

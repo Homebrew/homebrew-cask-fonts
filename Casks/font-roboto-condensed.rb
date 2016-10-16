@@ -6,6 +6,7 @@ cask 'font-roboto-condensed' do
   url 'https://github.com/google/fonts/trunk/apache/robotocondensed',
       using:      :svn,
       trust_cert: true
+  name 'Roboto Condensed'
   homepage 'http://www.google.com/fonts/specimen/Roboto%20Condensed'
 
   font 'RobotoCondensed-Bold.ttf'

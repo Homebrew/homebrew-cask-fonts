@@ -8,6 +8,7 @@ cask 'font-titillium-web' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Titillium Web'
   homepage 'http://www.google.com/fonts/specimen/Titillium%20Web'
 
   font 'TitilliumWeb-Black.ttf'

@@ -4,6 +4,7 @@ cask 'font-shadows-into-light-two' do
 
   # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/shadowsintolighttwo/ShadowsIntoLightTwo-Regular.ttf'
+  name 'Shadows Into Light Two'
   homepage 'http://www.google.com/fonts/specimen/Shadows%20Into%20Light%20Two'
 
   font 'ShadowsIntoLightTwo-Regular.ttf'

@@ -8,6 +8,7 @@ cask 'font-elsie-swash-caps' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Elsie Swash Caps'
   homepage 'http://www.google.com/fonts/specimen/Elsie%20Swash%20Caps'
 
   font 'ElsieSwashCaps-Black.ttf'

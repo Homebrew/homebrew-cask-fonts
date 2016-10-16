@@ -8,6 +8,7 @@ cask 'font-cantarell' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Cantarell'
   homepage 'http://www.google.com/fonts/specimen/Cantarell'
 
   font 'Cantarell-Bold.ttf'

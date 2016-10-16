@@ -8,6 +8,7 @@ cask 'font-puritan' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Puritan'
   homepage 'http://www.google.com/fonts/specimen/Puritan'
 
   font 'Puritan-Bold.ttf'

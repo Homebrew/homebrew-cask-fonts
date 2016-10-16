@@ -8,6 +8,7 @@ cask 'font-coustard' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Coustard'
   homepage 'http://www.google.com/fonts/specimen/Coustard'
 
   font 'Coustard-Black.ttf'

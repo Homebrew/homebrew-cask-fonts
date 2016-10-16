@@ -8,6 +8,7 @@ cask 'font-radley' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Radley'
   homepage 'http://www.google.com/fonts/specimen/Radley'
 
   font 'Radley-Italic.ttf'

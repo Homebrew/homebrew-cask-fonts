@@ -8,6 +8,7 @@ cask 'font-ropa-sans' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Ropa Sans'
   homepage 'http://www.google.com/fonts/specimen/Ropa%20Sans'
 
   font 'RopaSans-Italic.ttf'

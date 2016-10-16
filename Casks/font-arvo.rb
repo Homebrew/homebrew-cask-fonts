@@ -8,6 +8,7 @@ cask 'font-arvo' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Arvo'
   homepage 'http://www.google.com/fonts/specimen/Arvo'
 
   font 'Arvo-Bold.ttf'

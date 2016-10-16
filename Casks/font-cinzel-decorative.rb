@@ -8,6 +8,7 @@ cask 'font-cinzel-decorative' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Cinzel Decorative'
   homepage 'http://www.google.com/fonts/specimen/Cinzel%20Decorative'
 
   font 'CinzelDecorative-Black.ttf'

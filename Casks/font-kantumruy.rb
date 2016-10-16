@@ -8,6 +8,7 @@ cask 'font-kantumruy' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Kantumruy'
   homepage 'http://www.google.com/fonts/specimen/Kantumruy'
 
   font 'Kantumruy-Bold.ttf'

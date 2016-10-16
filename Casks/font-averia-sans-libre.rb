@@ -8,6 +8,7 @@ cask 'font-averia-sans-libre' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Averia Sans Libre'
   homepage 'http://www.google.com/fonts/specimen/Averia%20Sans%20Libre'
 
   font 'AveriaSansLibre-Bold.ttf'

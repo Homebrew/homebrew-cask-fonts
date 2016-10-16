@@ -8,6 +8,7 @@ cask 'font-im-fell-english' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'IM Fell English'
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20English'
 
   font 'IMFeENit28P.ttf'

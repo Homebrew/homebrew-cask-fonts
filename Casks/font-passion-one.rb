@@ -8,6 +8,7 @@ cask 'font-passion-one' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Passion One'
   homepage 'http://www.google.com/fonts/specimen/Passion%20One'
 
   font 'PassionOne-Black.ttf'

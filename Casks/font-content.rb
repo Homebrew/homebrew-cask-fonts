@@ -8,6 +8,7 @@ cask 'font-content' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Content'
   homepage 'http://www.google.com/fonts/specimen/Content'
 
   font 'Content-Bold.ttf'

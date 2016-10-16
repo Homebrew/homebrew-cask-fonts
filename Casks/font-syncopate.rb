@@ -8,6 +8,7 @@ cask 'font-syncopate' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Syncopate'
   homepage 'http://www.google.com/fonts/specimen/Syncopate'
 
   font 'Syncopate-Bold.ttf'

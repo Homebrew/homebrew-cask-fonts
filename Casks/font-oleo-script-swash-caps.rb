@@ -8,6 +8,7 @@ cask 'font-oleo-script-swash-caps' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Oleo Script Swash Caps'
   homepage 'http://www.google.com/fonts/specimen/Oleo%20Script%20Swash%20Caps'
 
   font 'OleoScriptSwashCaps-Bold.ttf'

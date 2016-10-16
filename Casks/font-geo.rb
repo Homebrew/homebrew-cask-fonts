@@ -8,6 +8,7 @@ cask 'font-geo' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Geo'
   homepage 'http://www.google.com/fonts/specimen/Geo'
 
   font 'Geo-Oblique.ttf'

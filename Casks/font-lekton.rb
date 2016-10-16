@@ -8,6 +8,7 @@ cask 'font-lekton' do
       using:      :svn,
       revision:   '47',
       trust_cert: true
+  name 'Lekton'
   homepage 'http://www.google.com/fonts/specimen/Lekton'
 
   font 'Lekton-Bold.ttf'

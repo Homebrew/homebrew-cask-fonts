@@ -8,6 +8,7 @@ cask 'font-nobile' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Nobile'
   homepage 'http://www.google.com/fonts/specimen/Nobile'
 
   font 'Nobile-Bold.ttf'

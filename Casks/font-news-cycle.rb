@@ -8,6 +8,7 @@ cask 'font-news-cycle' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'News Cycle'
   homepage 'http://www.google.com/fonts/specimen/News%20Cycle'
 
   font 'NewsCycle-Bold.ttf'

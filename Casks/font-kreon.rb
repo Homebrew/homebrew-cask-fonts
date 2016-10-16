@@ -8,6 +8,7 @@ cask 'font-kreon' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Kreon'
   homepage 'http://www.google.com/fonts/specimen/Kreon'
 
   font 'Kreon-Bold.ttf'

@@ -8,6 +8,7 @@ cask 'font-changa-one' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Changa One'
   homepage 'http://www.google.com/fonts/specimen/Changa%20One'
 
   font 'ChangaOne-Italic.ttf'

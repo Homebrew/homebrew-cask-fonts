@@ -8,6 +8,7 @@ cask 'font-trochut' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Trochut'
   homepage 'http://www.google.com/fonts/specimen/Trochut'
 
   font 'Trochut-Bold.ttf'

@@ -8,6 +8,7 @@ cask 'font-gentium-basic' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Gentium Basic'
   homepage 'http://www.google.com/fonts/specimen/Gentium%20Basic'
 
   font 'GenBasB.ttf'

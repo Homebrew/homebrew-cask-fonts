@@ -8,6 +8,7 @@ cask 'font-alegreya' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Alegreya'
   homepage 'http://www.google.com/fonts/specimen/Alegreya'
 
   font 'Alegreya-Black.ttf'

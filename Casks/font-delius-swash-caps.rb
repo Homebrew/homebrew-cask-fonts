@@ -4,6 +4,7 @@ cask 'font-delius-swash-caps' do
 
   # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/deliusswashcaps/DeliusSwashCaps-Regular.ttf'
+  name 'Delius Swash Caps'
   homepage 'http://www.google.com/fonts/specimen/Delius%20Swash%20Caps'
 
   font 'DeliusSwashCaps-Regular.ttf'

@@ -8,6 +8,7 @@ cask 'font-skranji' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Skranji'
   homepage 'http://www.google.com/fonts/specimen/Skranji'
 
   font 'Skranji-Bold.ttf'

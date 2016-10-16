@@ -8,6 +8,7 @@ cask 'font-dosis' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Dosis'
   homepage 'http://www.google.com/fonts/specimen/Dosis'
 
   font 'Dosis-Bold.ttf'

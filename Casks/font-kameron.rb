@@ -8,6 +8,7 @@ cask 'font-kameron' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Kameron'
   homepage 'http://www.google.com/fonts/specimen/Kameron'
 
   font 'Kameron-Bold.ttf'

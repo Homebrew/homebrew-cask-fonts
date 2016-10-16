@@ -8,6 +8,7 @@ cask 'font-ruda' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Ruda'
   homepage 'http://www.google.com/fonts/specimen/Ruda'
 
   font 'Ruda-Black.ttf'

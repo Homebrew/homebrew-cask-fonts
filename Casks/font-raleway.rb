@@ -8,6 +8,7 @@ cask 'font-raleway' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Raleway'
   homepage 'http://www.google.com/fonts/specimen/Raleway'
 
   font 'Raleway-Black.ttf'

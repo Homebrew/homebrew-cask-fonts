@@ -8,6 +8,7 @@ cask 'font-mountains-of-christmas' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Mountains of Christmas'
   homepage 'http://www.google.com/fonts/specimen/Mountains%20of%20Christmas'
 
   font 'MountainsofChristmas-Bold.ttf'

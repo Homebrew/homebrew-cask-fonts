@@ -4,6 +4,7 @@ cask 'font-petit-formal-script' do
 
   # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/petitformalscript/PetitFormalScript-Regular.ttf'
+  name 'Petit Formal Script'
   homepage 'http://www.google.com/fonts/specimen/Petit%20Formal%20Script'
 
   font 'PetitFormalScript-Regular.ttf'

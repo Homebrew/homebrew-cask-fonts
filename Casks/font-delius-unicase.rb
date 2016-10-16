@@ -8,6 +8,7 @@ cask 'font-delius-unicase' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Delius Unicase'
   homepage 'http://www.google.com/fonts/specimen/Delius%20Unicase'
 
   font 'DeliusUnicase-Bold.ttf'

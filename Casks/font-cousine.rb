@@ -8,6 +8,7 @@ cask 'font-cousine' do
       using:      :svn,
       revision:   '47',
       trust_cert: true
+  name 'Cousine'
   homepage 'http://www.google.com/fonts/specimen/Cousine'
 
   font 'Cousine-Regular.ttf'

@@ -8,6 +8,7 @@ cask 'font-oxygen' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Oxygen'
   homepage 'http://www.google.com/fonts/specimen/Oxygen'
 
   font 'Oxygen-Bold.ttf'

@@ -8,6 +8,7 @@ cask 'font-neuton' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Neuton'
   homepage 'http://www.google.com/fonts/specimen/Neuton'
 
   font 'Neuton-Bold.ttf'

@@ -8,6 +8,7 @@ cask 'font-old-standard-tt' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Old Standard TT'
   homepage 'http://www.google.com/fonts/specimen/Old%20Standard%20TT'
 
   font 'OldStandard-Bold.ttf'

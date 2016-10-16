@@ -8,6 +8,7 @@ cask 'font-playfair-display-sc' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Playfair Display SC'
   homepage 'http://www.google.com/fonts/specimen/Playfair%20Display%20SC'
 
   font 'PlayfairDisplaySC-Black.ttf'

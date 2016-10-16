@@ -8,6 +8,7 @@ cask 'font-poly' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Poly'
   homepage 'http://www.google.com/fonts/specimen/Poly'
 
   font 'Poly-Italic.ttf'

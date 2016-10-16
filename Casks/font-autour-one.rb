@@ -4,6 +4,7 @@ cask 'font-autour-one' do
 
   # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/autourone/AutourOne-Regular.ttf'
+  name 'Autour One'
   homepage 'http://www.google.com/fonts/specimen/Autour%20One'
 
   font 'AutourOne-Regular.ttf'

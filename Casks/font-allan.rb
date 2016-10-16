@@ -8,6 +8,7 @@ cask 'font-allan' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Allan'
   homepage 'http://www.google.com/fonts/specimen/Allan'
 
   font 'Allan-Bold.ttf'

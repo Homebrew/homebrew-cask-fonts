@@ -8,6 +8,7 @@ cask 'font-quattrocento' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Quattrocento'
   homepage 'http://www.google.com/fonts/specimen/Quattrocento'
 
   font 'Quattrocento-Bold.ttf'

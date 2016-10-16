@@ -8,6 +8,7 @@ cask 'font-merienda' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Merienda'
   homepage 'http://www.google.com/fonts/specimen/Merienda'
 
   font 'Merienda-Bold.ttf'

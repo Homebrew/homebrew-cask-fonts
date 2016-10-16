@@ -8,6 +8,7 @@ cask 'font-stoke' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Stoke'
   homepage 'http://www.google.com/fonts/specimen/Stoke'
 
   font 'Stoke-Light.ttf'

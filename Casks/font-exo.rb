@@ -8,6 +8,7 @@ cask 'font-exo' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Exo'
   homepage 'http://www.google.com/fonts/specimen/Exo'
 
   font 'Exo-Black.ttf'

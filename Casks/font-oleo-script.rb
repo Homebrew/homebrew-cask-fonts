@@ -8,6 +8,7 @@ cask 'font-oleo-script' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Oleo Script'
   homepage 'http://www.google.com/fonts/specimen/Oleo%20Script'
 
   font 'OleoScript-Bold.ttf'

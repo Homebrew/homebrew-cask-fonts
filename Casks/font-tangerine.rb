@@ -8,6 +8,7 @@ cask 'font-tangerine' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Tangerine'
   homepage 'http://www.google.com/fonts/specimen/Tangerine'
 
   font 'Tangerine_Bold.ttf'

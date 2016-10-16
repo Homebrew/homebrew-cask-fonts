@@ -4,6 +4,7 @@ cask 'font-swanky-and-moo-moo' do
 
   # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/swankyandmoomoo/SwankyandMooMoo.ttf'
+  name 'Swanky and Moo Moo'
   homepage 'http://www.google.com/fonts/specimen/Swanky%20and%20Moo%20Moo'
 
   font 'SwankyandMooMoo.ttf'

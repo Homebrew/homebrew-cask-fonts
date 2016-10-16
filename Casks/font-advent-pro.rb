@@ -8,6 +8,7 @@ cask 'font-advent-pro' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Advent Pro'
   homepage 'http://www.google.com/fonts/specimen/Advent%20Pro'
 
   font 'AdventPro-Bold.ttf'

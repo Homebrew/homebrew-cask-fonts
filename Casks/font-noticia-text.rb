@@ -8,6 +8,7 @@ cask 'font-noticia-text' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Noticia Text'
   homepage 'http://www.google.com/fonts/specimen/Noticia%20Text'
 
   font 'NoticiaText-Bold.ttf'

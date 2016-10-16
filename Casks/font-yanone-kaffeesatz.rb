@@ -8,6 +8,7 @@ cask 'font-yanone-kaffeesatz' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Yanone Kaffeesatz'
   homepage 'http://www.google.com/fonts/specimen/Yanone%20Kaffeesatz'
 
   font 'YanoneKaffeesatz-Bold.ttf'

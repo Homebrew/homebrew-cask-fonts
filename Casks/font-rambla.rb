@@ -8,6 +8,7 @@ cask 'font-rambla' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Rambla'
   homepage 'http://www.google.com/fonts/specimen/Rambla'
 
   font 'Rambla-Bold.ttf'

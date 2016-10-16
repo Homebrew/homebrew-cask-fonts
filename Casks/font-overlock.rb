@@ -8,6 +8,7 @@ cask 'font-overlock' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Overlock'
   homepage 'http://www.google.com/fonts/specimen/Overlock'
 
   font 'Overlock-Black.ttf'

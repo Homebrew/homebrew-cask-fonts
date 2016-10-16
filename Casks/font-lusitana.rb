@@ -8,6 +8,7 @@ cask 'font-lusitana' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Lusitana'
   homepage 'http://www.google.com/fonts/specimen/Lusitana'
 
   font 'Lusitana-Bold.ttf'

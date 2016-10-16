@@ -8,6 +8,7 @@ cask 'font-codystar' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Codystar'
   homepage 'http://www.google.com/fonts/specimen/Codystar'
 
   font 'Codystar-Light.ttf'

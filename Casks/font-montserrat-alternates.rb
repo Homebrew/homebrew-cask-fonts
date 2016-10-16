@@ -8,6 +8,7 @@ cask 'font-montserrat-alternates' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Montserrat Alternates'
   homepage 'http://www.google.com/fonts/specimen/Montserrat%20Alternates'
 
   font 'MontserratAlternates-Bold.ttf'

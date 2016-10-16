@@ -8,6 +8,7 @@ cask 'font-sintony' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Sintony'
   homepage 'http://www.google.com/fonts/specimen/Sintony'
 
   font 'Sintony-Bold.ttf'

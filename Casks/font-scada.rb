@@ -8,6 +8,7 @@ cask 'font-scada' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Scada'
   homepage 'http://www.google.com/fonts/specimen/Scada'
 
   font 'Scada-Bold.ttf'

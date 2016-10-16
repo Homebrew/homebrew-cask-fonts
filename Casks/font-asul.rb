@@ -8,6 +8,7 @@ cask 'font-asul' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Asul'
   homepage 'http://www.google.com/fonts/specimen/Asul'
 
   font 'Asul-Bold.ttf'

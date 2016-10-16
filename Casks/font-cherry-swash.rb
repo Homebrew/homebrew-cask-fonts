@@ -8,6 +8,7 @@ cask 'font-cherry-swash' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Cherry Swash'
   homepage 'http://www.google.com/fonts/specimen/Cherry%20Swash'
 
   font 'CherrySwash-Bold.ttf'

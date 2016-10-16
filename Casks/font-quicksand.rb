@@ -8,6 +8,7 @@ cask 'font-quicksand' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Quicksand'
   homepage 'http://www.google.com/fonts/specimen/Quicksand'
 
   font 'Quicksand-Bold.ttf'

@@ -6,6 +6,7 @@ cask 'font-roboto-slab' do
   url 'https://github.com/google/fonts/trunk/apache/robotoslab',
       using:      :svn,
       trust_cert: true
+  name 'Roboto Slab'
   homepage 'http://www.google.com/fonts/specimen/Roboto%20Slab'
 
   font 'RobotoSlab-Bold.ttf'

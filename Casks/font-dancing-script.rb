@@ -8,6 +8,7 @@ cask 'font-dancing-script' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Dancing Script'
   homepage 'http://www.google.com/fonts/specimen/Dancing%20Script'
 
   font 'DancingScript-Bold.ttf'

@@ -8,6 +8,7 @@ cask 'font-oswald' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Oswald'
   homepage 'http://www.google.com/fonts/specimen/Oswald'
 
   font 'Oswald-Bold.ttf'

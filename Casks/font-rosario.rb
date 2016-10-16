@@ -8,6 +8,7 @@ cask 'font-rosario' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Rosario'
   homepage 'http://www.google.com/fonts/specimen/Rosario'
 
   font 'Rosario-Bold.ttf'

@@ -8,6 +8,7 @@ cask 'font-gfs-neohellenic' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'GFS Neohellenic'
   homepage 'http://www.google.com/fonts/specimen/GFS%20Neohellenic'
 
   font 'GFSNeohellenic.ttf'

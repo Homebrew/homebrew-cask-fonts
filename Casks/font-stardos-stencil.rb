@@ -8,6 +8,7 @@ cask 'font-stardos-stencil' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Stardos Stencil'
   homepage 'http://www.google.com/fonts/specimen/Stardos%20Stencil'
 
   font 'StardosStencil-Bold.ttf'

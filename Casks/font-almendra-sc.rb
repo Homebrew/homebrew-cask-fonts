@@ -8,6 +8,7 @@ cask 'font-almendra-sc' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Almendra SC'
   homepage 'http://www.google.com/fonts/specimen/Almendra%20SC'
 
   font 'AlmendraSC-Bold.ttf'

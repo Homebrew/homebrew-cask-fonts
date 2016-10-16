@@ -8,6 +8,7 @@ cask 'font-amaranth' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Amaranth'
   homepage 'http://www.google.com/fonts/specimen/Amaranth'
 
   font 'Amaranth-Bold.ttf'

@@ -8,6 +8,7 @@ cask 'font-buenard' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Buenard'
   homepage 'http://www.google.com/fonts/specimen/Buenard'
 
   font 'Buenard-Bold.ttf'

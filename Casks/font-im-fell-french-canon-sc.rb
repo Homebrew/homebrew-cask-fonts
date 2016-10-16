@@ -4,6 +4,7 @@ cask 'font-im-fell-french-canon-sc' do
 
   # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/imfellfrenchcanonsc/IMFeFCsc28P.ttf'
+  name 'IM Fell French Canon SC'
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20French%20Canon%20SC'
 
   font 'IMFeFCsc28P.ttf'

@@ -8,6 +8,7 @@ cask 'font-im-fell-great-primer' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'IM Fell Great Primer'
   homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20Great%20Primer'
 
   font 'IMFeGPit28P.ttf'

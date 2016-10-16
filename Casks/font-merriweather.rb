@@ -8,6 +8,7 @@ cask 'font-merriweather' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Merriweather'
   homepage 'http://www.google.com/fonts/specimen/Merriweather'
 
   font 'Merriweather-Black.ttf'

@@ -8,6 +8,7 @@ cask 'font-benchnine' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'BenchNine'
   homepage 'http://www.google.com/fonts/specimen/BenchNine'
 
   font 'BenchNine-Bold.ttf'

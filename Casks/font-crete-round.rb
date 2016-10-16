@@ -8,6 +8,7 @@ cask 'font-crete-round' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Crete Round'
   homepage 'http://www.google.com/fonts/specimen/Crete%20Round'
 
   font 'CreteRound-Italic.ttf'

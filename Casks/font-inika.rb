@@ -8,6 +8,7 @@ cask 'font-inika' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Inika'
   homepage 'http://www.google.com/fonts/specimen/Inika'
 
   font 'Inika-Bold.ttf'

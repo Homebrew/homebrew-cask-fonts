@@ -8,6 +8,7 @@ cask 'font-gorditas' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Gorditas'
   homepage 'http://www.google.com/fonts/specimen/Gorditas'
 
   font 'Gorditas-Bold.ttf'

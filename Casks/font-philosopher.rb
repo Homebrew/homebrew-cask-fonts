@@ -8,6 +8,7 @@ cask 'font-philosopher' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Philosopher'
   homepage 'http://www.google.com/fonts/specimen/Philosopher'
 
   font 'Philosopher-Bold.ttf'

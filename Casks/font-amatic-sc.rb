@@ -8,6 +8,7 @@ cask 'font-amatic-sc' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Amatic SC'
   homepage 'http://www.google.com/fonts/specimen/Amatic%20SC'
 
   font 'AmaticSC-Bold.ttf'

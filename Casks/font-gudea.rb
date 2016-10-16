@@ -8,6 +8,7 @@ cask 'font-gudea' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Gudea'
   homepage 'http://www.google.com/fonts/specimen/Gudea'
 
   font 'Gudea-Bold.ttf'

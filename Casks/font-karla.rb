@@ -8,6 +8,7 @@ cask 'font-karla' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Karla'
   homepage 'http://www.google.com/fonts/specimen/Karla'
 
   font 'Karla-Bold.ttf'
