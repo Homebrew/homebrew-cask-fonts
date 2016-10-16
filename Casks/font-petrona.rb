@@ -2,7 +2,9 @@ cask 'font-petrona' do
   version '1.001'
   sha256 '5ff9703955f6059f123d3272589b03bb95238a1d05a4efc1429e2347b42521e7'
 
+  # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/ofl/petrona/Petrona-Regular.ttf'
+  name 'Petrona'
   homepage 'http://www.google.com/fonts/specimen/Petrona'
 
   font 'Petrona-Regular.ttf'

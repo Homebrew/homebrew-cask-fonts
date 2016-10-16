@@ -2,7 +2,9 @@ cask 'font-montez' do
   version '1.000'
   sha256 '1d5dedd2803404c4571d8d46c76bc31030aeaffa1fb45b265b29053aa2d6c68f'
 
+  # googlefontdirectory.googlecode.com was verified as official when first introduced to the cask
   url 'https://googlefontdirectory.googlecode.com/hg-history/67342bc472599b4c32201ee4a002fe59a6447a42/apache/montez/Montez-Regular.ttf'
+  name 'Montez'
   homepage 'http://www.google.com/fonts/specimen/Montez'
 
   font 'Montez-Regular.ttf'
