@@ -3,6 +3,7 @@ cask 'font-disclaimer' do
   sha256 :no_check
 
   url 'http://fontfabric.com/downfont/disclaimer.zip'
+  name 'Disclaimer'
   homepage 'http://fontfabric.com/disclaimer-free-font/'
 
   font 'Disclaimer-Plain.otf'
