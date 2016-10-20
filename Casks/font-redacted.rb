@@ -1,5 +1,4 @@
 cask 'font-redacted' do
-  # version '1.001'
   version :latest
   sha256 :no_check
 
@@ -7,6 +6,7 @@ cask 'font-redacted' do
       using:      :svn,
       revision:   '41',
       trust_cert: true
+  name 'Redacted'
   homepage 'https://github.com/christiannaths/Redacted-Font'
 
   font 'redacted-regular.ttf'
