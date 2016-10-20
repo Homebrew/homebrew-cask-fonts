@@ -7,7 +7,7 @@ cask 'font-padauk' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
-  name 'Padauk '
+  name 'Padauk'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'Padauk-Bold.ttf'
