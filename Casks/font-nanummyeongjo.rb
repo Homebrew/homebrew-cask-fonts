@@ -1,5 +1,4 @@
 cask 'font-nanummyeongjo' do
-  # version '2.030'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-nanummyeongjo' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Nanum Myeongjo'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'NanumMyeongjo-Bold.ttf'
