@@ -1,5 +1,4 @@
 cask 'font-droid-arabic-naskh' do
-  # version '1.00'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-droid-arabic-naskh' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Droid Arabic Naskh'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'DroidNaskh-Bold.ttf'
