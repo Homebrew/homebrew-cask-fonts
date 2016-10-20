@@ -1,5 +1,4 @@
 cask 'font-open-sans-hebrew-condensed' do
-  # version '2.001'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-open-sans-hebrew-condensed' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Open Sans Hebrew Condensed'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'OpenSansHebrewCondensed-Bold.ttf'
