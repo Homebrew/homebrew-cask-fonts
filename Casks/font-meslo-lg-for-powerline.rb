@@ -5,6 +5,7 @@ cask 'font-meslo-lg-for-powerline' do
   url 'https://github.com/powerline/fonts/trunk/Meslo',
       using:      :svn,
       trust_cert: true
+  name 'Meslo for Powerline'
   homepage 'https://github.com/powerline/fonts/tree/master/Meslo'
 
   font 'Meslo LG L DZ Regular for Powerline.otf'
