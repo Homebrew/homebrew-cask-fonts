@@ -1,5 +1,4 @@
 cask 'font-droid-sans-tamil' do
-  # version '1.02'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-droid-sans-tamil' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Droid Sans Tamil'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'DroidSansTamil-Bold.ttf'
