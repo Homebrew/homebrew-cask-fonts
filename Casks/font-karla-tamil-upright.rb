@@ -8,6 +8,7 @@ cask 'font-karla-tamil-upright' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Karla Tamil Upright'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'KarlaTamilUpright-Bold.ttf'
