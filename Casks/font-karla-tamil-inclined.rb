@@ -1,5 +1,4 @@
 cask 'font-karla-tamil-inclined' do
-  # version '1.001'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-karla-tamil-inclined' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Karla Tamil Inclined'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'KarlaTamilInclined-Bold.ttf'
