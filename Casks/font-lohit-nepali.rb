@@ -3,6 +3,7 @@ cask 'font-lohit-nepali' do
   sha256 '3af10e60c21d5277d1c65c6d6ae2ba6effce8eacbcfd0033edeac408ea6fb9f3'
 
   url "https://fedorahosted.org/releases/l/o/lohit/lohit-nepali-ttf-#{version}.tar.gz"
+  name 'Lohit Nepali'
   homepage 'https://fedorahosted.org/lohit/'
 
   font "lohit-nepali-ttf-#{version}/Lohit-Nepali.ttf"
