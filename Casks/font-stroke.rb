@@ -3,6 +3,7 @@ cask 'font-stroke' do
   sha256 :no_check
 
   url 'http://thekinetic.co.za/downloads/stroke.zip'
+  name 'Stroke'
   homepage 'http://thekinetic.co.za/project.php?id=24'
 
   font 'Stroke-Regular.otf'
