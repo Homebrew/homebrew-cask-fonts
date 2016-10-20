@@ -1,5 +1,4 @@
-cask 'font-ubuntu-mono-powerline' do
-  # version '0.80'
+cask 'font-ubuntu-mono-derivative-powerline' do
   version :latest
   sha256 :no_check
 
@@ -7,6 +6,7 @@ cask 'font-ubuntu-mono-powerline' do
       using:      :svn,
       revision:   '53',
       trust_cert: true
+  name 'Ubuntu Mono derivative Powerline'
   homepage 'https://github.com/powerline/fonts/tree/master/UbuntuMono'
 
   font 'Ubuntu Mono derivative Powerline.ttf'
