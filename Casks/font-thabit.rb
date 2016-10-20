@@ -1,5 +1,4 @@
 cask 'font-thabit' do
-  # version '0.01'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-thabit' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Thabit'
   homepage 'http://projects.arabeyes.org/project.php?proj=Khotot'
 
   font 'Thabit-Bold.ttf'
