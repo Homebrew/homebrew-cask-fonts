@@ -1,8 +1,9 @@
 cask 'font-seoulhangang' do
-  version '1.06'
-  sha256 '8b8a10a28dc628e9812fafb0533d662565ffc14387e6852da4c653ff7c11ce64'
+  version :latest
+  sha256 :no_check
 
   url 'http://www.seoul.go.kr/v2012/seoul/symbol/download.php?div=Zm9udDA0'
+  name 'SeoulHangang'
   homepage 'http://www.seoul.go.kr/v2012/seoul/symbol/font.html'
 
   font 'SeoulHangangB.otf'
