@@ -3,6 +3,7 @@ cask 'font-lato' do
   sha256 :no_check
 
   url 'http://www.latofonts.com/download/Lato2OFL.zip'
+  name 'Lato'
   homepage 'http://www.latofonts.com/'
 
   font 'Lato2OFL/Lato-Black.ttf'
