@@ -1,8 +1,9 @@
 cask 'font-verdana' do
-  version '2.35'
-  sha256 'c1cb61255e363166794e47664e2f21af8e3a26cb6346eb8d2ae2fa85dd5aad96'
+  version :latest
+  sha256 :no_check
 
-  url 'http://downloads.sourceforge.net/sourceforge/corefonts/verdan32.exe'
+  url 'https://downloads.sourceforge.net/corefonts/verdan32.exe'
+  name 'Verdana'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   depends_on formula: 'cabextract'
