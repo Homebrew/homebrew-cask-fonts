@@ -1,5 +1,4 @@
 cask 'font-phetsarath' do
-  # version '1.01'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-phetsarath' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Phetsarath'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'Phetsarath-Bold.ttf'
