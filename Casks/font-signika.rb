@@ -3,6 +3,7 @@ cask 'font-signika' do
   sha256 :no_check
 
   url 'http://fontfabric.com/downfont/signika.zip'
+  name 'Signika'
   homepage 'http://fontfabric.com/signika-font/'
 
   font 'Signika/Signika-Bold.ttf'
