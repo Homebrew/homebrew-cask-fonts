@@ -1,8 +1,9 @@
 cask 'font-webdings' do
-  version '1.03'
-  sha256 '64595b5abc1080fba8610c5c34fab5863408e806aafe84653ca8575bed17d75a'
+  version :latest
+  sha256 :no_check
 
-  url 'http://downloads.sourceforge.net/sourceforge/corefonts/webdin32.exe'
+  url 'https://downloads.sourceforge.net/corefonts/webdin32.exe'
+  name 'Webdings'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   depends_on formula: 'cabextract'
