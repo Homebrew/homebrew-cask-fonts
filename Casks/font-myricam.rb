@@ -1,8 +1,12 @@
 cask 'font-myricam' do
-  version :latest
-  sha256 :no_check
+  version '2.006.20150301'
+  sha256 'ac85d476a7a8cc809be015b9593afff2d998e7cea3b9fd9aee7d9d9a05ba449b'
 
-  url 'https://github.com/tomokuni/Myrica/raw/master/product/MyricaM.zip'
+  # codeload.github.com/tomokuni/Myrica was verified as official when first introduced to the cask
+  url "https://codeload.github.com/tomokuni/Myrica/zip/#{version}"
+  appcast 'https://github.com/tomokuni/Myrica/releases',
+          checkpoint: '9a90f6381dbc2ba12a033ec3c33b35f1db8135078a7c48a7590dea12314080c5'
+  name 'MyricaM'
   homepage 'http://myrica.estable.jp/'
 
   font 'MyricaM.TTC'
