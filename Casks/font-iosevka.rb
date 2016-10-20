@@ -1,10 +1,10 @@
 cask 'font-iosevka' do
-  version '1.9.1'
-  sha256 'aa75fc2365fe302ade7a4bf2eb575519e60b61dbccc94c46983f4fa62f1c2ad7'
+  version '1.9.4'
+  sha256 'b4a8bd19ce9a02b8b47c24811d6d2da8eaa97ec4324ffc91e6469de85bdb6a01'
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/01.iosevka-#{version}.zip"
   appcast 'https://github.com/be5invis/Iosevka/releases.atom',
-          checkpoint: '5de739f39f944857a83da283ce76d41d28eb324e62ec120766a34409a8ace9c9'
+          checkpoint: '90ebc5ccaf3c01bdd1aea6a54a3250dc1f994c15841036d591b987399d0fcb0b'
   name 'Iosevka'
   homepage 'https://github.com/be5invis/Iosevka/'
 
