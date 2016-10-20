@@ -1,5 +1,4 @@
-cask 'font-sauce-code-powerline' do
-  # version '1.017'
+cask 'font-source-code-pro-for-powerline' do
   version :latest
   sha256 :no_check
 
@@ -7,6 +6,7 @@ cask 'font-sauce-code-powerline' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Source Code Pro for Powerline'
   homepage 'https://github.com/powerline/fonts/tree/master/SourceCodePro'
 
   font 'Sauce Code Powerline Black.otf'
