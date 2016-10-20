@@ -3,6 +3,7 @@ cask 'font-liberation-sans' do
   sha256 '7890278a6cd17873c57d9cd785c2d230d9abdea837e96516019c5885dd271504'
 
   url "https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-#{version}.tar.gz"
+  name 'Liberation Sans'
   homepage 'https://fedorahosted.org/liberation-fonts/'
 
   font "liberation-fonts-ttf-#{version}/LiberationMono-Bold.ttf"
