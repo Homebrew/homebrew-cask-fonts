@@ -3,6 +3,7 @@ cask 'font-profontx' do
   sha256 :no_check
 
   url 'http://faisal.com/software/profontx/ProFontX.zip'
+  name 'ProFontX'
   homepage 'http://faisal.com/software/profontx/'
 
   font 'ProFontX/ProFontX'
