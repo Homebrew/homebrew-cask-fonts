@@ -3,6 +3,7 @@ cask 'font-fairfax' do
   sha256 :no_check
 
   url 'http://www.kreativekorp.com/swdownload/fonts/xlang/fairfax.zip'
+  name 'Fairfax'
   homepage 'http://www.kreativekorp.com/software/fonts/constructium.shtml'
 
   font 'Fairfax.ttf'
