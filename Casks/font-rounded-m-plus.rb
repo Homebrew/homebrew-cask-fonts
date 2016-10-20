@@ -1,8 +1,10 @@
 cask 'font-rounded-m-plus' do
-  version '20140812'
-  sha256 'c61d54bfdd99315d871fc672246318efd65759ecde2ea7dfdf25b85d2f032bf5'
+  version '20150529'
+  sha256 'e746736c8ded99fe9a9dd72a241ec59435eaa282a18e7ac33a26dc0578c06ff7'
 
-  url 'http://jaist.dl.sourceforge.jp/users/6/6596/rounded-mplus-20140812.zip'
+  # cznic.dl.osdn.jp/users/8/8569 was verified as official when first introduced to the cask
+  url "http://cznic.dl.osdn.jp/users/8/8569/rounded-mplus-#{version}.7z"
+  name 'Rounded M+'
   homepage 'http://jikasei.me/font/rounded-mplus/'
 
   font 'rounded-mplus-1c-black.ttf'
