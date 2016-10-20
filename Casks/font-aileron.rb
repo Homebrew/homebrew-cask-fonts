@@ -3,6 +3,7 @@ cask 'font-aileron' do
   sha256 :no_check
 
   url 'http://dotcolon.net/DL/font/aileron.zip'
+  name 'Aileron'
   homepage 'http://dotcolon.net/font/aileron/'
 
   font 'Aileron-Black.otf'
