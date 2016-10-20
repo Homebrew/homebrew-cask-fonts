@@ -1,8 +1,9 @@
 cask 'font-pecita' do
-  version '4.2'
-  sha256 '942bfcd5a69abd22443c5ec099316314589e7fb8c343972f60fad2b9a1ef7f7e'
+  version :latest
+  sha256 :no_check
 
   url 'http://pecita.eu/b/Pecita.otf'
+  name 'Pecita'
   homepage 'http://pecita.eu/police-en.php'
 
   font 'Pecita.otf'
