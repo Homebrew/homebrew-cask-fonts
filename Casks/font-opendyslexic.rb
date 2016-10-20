@@ -1,17 +1,20 @@
 cask 'font-opendyslexic' do
-  version '20130616'
-  sha256 'cd5e7e72832a5fd9f53abaee8188b889b1e039f39039dd641c2671ebf93f07b4'
+  version '20160623-Stable'
+  sha256 '3b4a84f573d3f5d75e198bbf362ff6fa812b33d6559dce651e44df455be929cc'
 
-  url "https://github.com/antijingoist/open-dyslexic/archive/#{version}-Stable.zip"
+  url "https://codeload.github.com/antijingoist/open-dyslexic/zip/#{version}"
+  appcast 'https://github.com/antijingoist/open-dyslexic/releases.atom',
+          checkpoint: '2f5063b340279cb09e90e0d23f9eeb026cbf373e0b6a62e07619d068b018d552'
+  name 'OpenDyslexic'
   homepage 'https://github.com/antijingoist/open-dyslexic'
 
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexic-Bold.otf"
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexic-BoldItalic.otf"
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexic-Italic.otf"
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexic-Regular.otf"
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexicAlta-Bold.otf"
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexicAlta-BoldItalic.otf"
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexicAlta-Italic.otf"
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexicAlta-Regular.otf"
-  font "open-dyslexic-#{version}-Stable/otf/OpenDyslexicMono-Regular.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexic-Bold.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexic-BoldItalic.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexic-Italic.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexic-Regular.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexicAlta-Bold.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexicAlta-BoldItalic.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexicAlta-Italic.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexicAlta-Regular.otf"
+  font "open-dyslexic-#{version}/otf/OpenDyslexicMono-Regular.otf"
 end
