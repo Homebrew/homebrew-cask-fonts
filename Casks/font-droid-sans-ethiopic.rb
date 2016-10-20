@@ -1,5 +1,4 @@
 cask 'font-droid-sans-ethiopic' do
-  # version '1.03'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-droid-sans-ethiopic' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Droid Sans Ethiopic'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'DroidSansEthiopic-Bold.ttf'
