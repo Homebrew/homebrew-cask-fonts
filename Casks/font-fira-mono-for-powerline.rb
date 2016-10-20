@@ -5,6 +5,7 @@ cask 'font-fira-mono-for-powerline' do
   url 'https://github.com/powerline/fonts/trunk/FiraMono',
       using:      :svn,
       trust_cert: true
+  name 'Fira Mono for Poweline'
   homepage 'https://github.com/powerline/fonts/tree/master/FiraMono'
 
   font 'FuraMono-Bold Powerline.otf'
