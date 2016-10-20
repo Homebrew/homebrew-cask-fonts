@@ -1,10 +1,10 @@
 cask 'font-octicons' do
-  version :latest
+  version "4.4.0"
   sha256 :no_check
 
-  url 'https://github.com/github/octicons/archive/master.zip'
+  url "https://github.com/primer/octicons/archive/v#{version}.zip"
   name 'Octicons'
   homepage 'https://octicons.github.com'
 
-  font 'octicons-master/build/font/octicons.ttf'
+  font "octicons-#{version}/build/font/octicons.ttf"
 end
