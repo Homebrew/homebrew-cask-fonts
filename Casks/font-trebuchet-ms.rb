@@ -1,8 +1,9 @@
 cask 'font-trebuchet-ms' do
-  version '1.22'
-  sha256 '5a690d9bb8510be1b8b4fe49f1f2319651fe51bbe54775ddddd8ef0bd07fdac9'
+  version :latest
+  sha256 :no_check
 
-  url 'http://downloads.sourceforge.net/sourceforge/corefonts/trebuc32.exe'
+  url 'https://downloads.sourceforge.net/corefonts/trebuc32.exe'
+  name 'Trebuchet MS'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   depends_on formula: 'cabextract'
