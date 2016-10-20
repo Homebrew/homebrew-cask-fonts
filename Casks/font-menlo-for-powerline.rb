@@ -3,6 +3,7 @@ cask 'font-menlo-for-powerline' do
   sha256 :no_check
 
   url 'https://github.com/abertsch/Menlo-for-Powerline/archive/master.zip'
+  name 'Menlo for Powerline'
   homepage 'https://github.com/abertsch/Menlo-for-Powerline'
 
   font 'Menlo-for-Powerline-master/Menlo for Powerline.ttf'
