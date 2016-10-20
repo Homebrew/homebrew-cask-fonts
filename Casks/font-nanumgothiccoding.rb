@@ -1,5 +1,4 @@
 cask 'font-nanumgothiccoding' do
-  # version '2.000'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-nanumgothiccoding' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Nanum Gothic Coding'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'NanumGothicCoding-Bold.ttf'
