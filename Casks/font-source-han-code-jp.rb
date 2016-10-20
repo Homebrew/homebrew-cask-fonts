@@ -3,6 +3,7 @@ cask 'font-source-han-code-jp' do
   sha256 '44fd60c59052d0a10d1b48ab1f340ae96e28d363c164993525b515085d13d5ba'
 
   url "https://github.com/adobe-fonts/source-han-code-jp/archive/#{version}R.zip"
+  name 'Source Han Code JP'
   homepage 'https://github.com/adobe-fonts/source-han-code-jp'
 
   font "source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Bold.otf"
