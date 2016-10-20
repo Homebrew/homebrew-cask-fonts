@@ -3,6 +3,7 @@ cask 'font-bebas-neue' do
   sha256 :no_check
 
   url 'http://fontfabric.com/downfont/bebas.zip'
+  name 'Bebas Neue'
   homepage 'http://fontfabric.com/bebas-neue/'
 
   font 'BebasNeue Bold.otf'
