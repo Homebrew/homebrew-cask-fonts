@@ -1,8 +1,9 @@
 cask 'font-seoulhangangcondensed' do
-  version '1.00'
-  sha256 '474a658fe169fd97c9ec5c816d094e221a5aa8e9cf83250c82625718544e1817'
+  version :latest
+  sha256 :no_check
 
   url 'http://www.seoul.go.kr/v2012/seoul/symbol/download.php?div=Zm9udDEw'
+  name 'SeoulHangangCondensed'
   homepage 'http://www.seoul.go.kr/v2012/seoul/symbol/font.html'
 
   # These mangled filenames appear to be due to a limitation in /usr/bin/unzip.
