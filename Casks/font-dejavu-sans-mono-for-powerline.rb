@@ -5,6 +5,7 @@ cask 'font-dejavu-sans-mono-for-powerline' do
   url 'https://github.com/powerline/fonts/trunk/DejaVuSansMono',
       using:      :svn,
       trust_cert: true
+  name 'DejaVu Sans Mono for Powerline'
   homepage 'https://github.com/powerline/fonts/tree/master/DejaVuSansMono'
 
   font 'DejaVu Sans Mono for Powerline.ttf'
