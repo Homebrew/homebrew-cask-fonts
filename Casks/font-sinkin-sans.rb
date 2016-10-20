@@ -1,8 +1,9 @@
 cask 'font-sinkin-sans' do
-  version '1.000'
-  sha256 '65a681a573b6af4d173466a14a9b39c93eb45f6878e1c1132b861b12f6166135'
+  version :latest
+  sha256 :no_check
 
   url 'http://www.fontsquirrel.com/fonts/download/sinkin-sans'
+  name 'Sinkin Sans'
   homepage 'http://www.fontsquirrel.com/fonts/sinkin-sans'
 
   font 'SinkinSans-100Thin.otf'
