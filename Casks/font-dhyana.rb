@@ -1,5 +1,4 @@
 cask 'font-dhyana' do
-  # version '1.002'
   version :latest
   sha256 :no_check
 
@@ -8,6 +7,7 @@ cask 'font-dhyana' do
       using:      :svn,
       revision:   '50',
       trust_cert: true
+  name 'Dhyana'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
   font 'Dhyana-Bold.ttf'
