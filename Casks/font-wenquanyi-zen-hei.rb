@@ -3,7 +3,7 @@ cask 'font-wenquanyi-zen-hei' do
   sha256 'e4b7e306475bf9427d1757578f0e4528930c84c44eaa3f167d4c42f110ee75d6'
 
   # downloads.sourceforge.net/wqy was verified as official when first introduced to the cask
-  url "http://downloads.sourceforge.net/wqy/wqy-zenhei-#{version}.tar.gz"
+  url "https://downloads.sourceforge.net/wqy/wqy-zenhei-#{version}.tar.gz"
   name 'WenQuanYi Zen Hei'
   homepage 'http://wenq.org/wqy2/index.cgi?ZenHei'
 
