@@ -5,7 +5,7 @@ cask 'font-hack' do
   # github.com/chrissimpkins/Hack was verified as official when first introduced to the cask
   url "https://github.com/chrissimpkins/Hack/archive/v#{version}.zip"
   appcast 'https://github.com/chrissimpkins/Hack/releases.atom',
-          checkpoint: 'fccba3ddfc4b50a011498f4a8f5956758421ae96725ce54f7f9fac97fd5161d1'
+          checkpoint: '5a435a84e7b51fabaed899da5da5cdd9b293717779623b778f14a8f3126dd0ea'
   name 'Hack'
   homepage 'http://sourcefoundry.org/hack/'
 
