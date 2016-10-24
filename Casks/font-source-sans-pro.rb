@@ -5,7 +5,7 @@ cask 'font-source-sans-pro' do
   # github.com/adobe-fonts/source-sans-pro was verified as official when first introduced to the cask
   url "https://github.com/adobe-fonts/source-sans-pro/archive/#{version.sub('ro-', 'ro/')}.zip"
   appcast 'https://github.com/adobe-fonts/source-sans-pro/releases.atom',
-          checkpoint: '42de4fab375306bb3a91d2514c41ca3c77815b53bb5bdc65f73585407a2a14e8'
+          checkpoint: '292fcfb8048f40c090fa4088dcbc0649bb0bf6fe08782bc95d2f393a367cf3c5'
   name 'Source Sans Pro'
   homepage 'http://adobe-fonts.github.io/source-sans-pro/'
 
