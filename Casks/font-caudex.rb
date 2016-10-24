@@ -1,5 +1,4 @@
 cask 'font-caudex' do
-  # version '1.01'
   version :latest
   sha256 :no_check
 

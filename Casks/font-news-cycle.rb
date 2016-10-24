@@ -1,5 +1,4 @@
 cask 'font-news-cycle' do
-  # version '0.5'
   version :latest
   sha256 :no_check
 

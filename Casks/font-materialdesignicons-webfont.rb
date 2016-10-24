@@ -1,5 +1,4 @@
 cask 'font-materialdesignicons-webfont' do
-  # version '1.6.50'
   version :latest
   sha256 :no_check
 

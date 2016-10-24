@@ -1,5 +1,4 @@
 cask 'font-gfs-neohellenic' do
-  # version '1.0'
   version :latest
   sha256 :no_check
 
