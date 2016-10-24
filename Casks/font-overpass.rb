@@ -2,6 +2,7 @@ cask 'font-overpass' do
   version '2.1'
   sha256 '8eb3d835eb01bdafe4993f1b4fb68fdbd526559ffd933b2442a95ce7f0daa7cd'
 
+  # github.com/RedHatBrand/overpass was verified as official when first introduced to the cask
   url "https://github.com/RedHatBrand/overpass/releases/download/#{version}/overpass-fonts-ttf-#{version}.zip"
   name 'Overpass'
   homepage 'http://overpassfont.org/'
