@@ -4,7 +4,7 @@ cask 'font-twitter-color-emoji' do
 
   url "https://github.com/eosrei/twemoji-color-font/releases/download/v#{version}/TwitterColorEmoji-SVGinOT-#{version}.zip"
   appcast 'https://github.com/eosrei/twemoji-color-font/releases',
-          checkpoint: 'b632532dafc739d25bdd3c515e6f6b2a48aea03e42dbeedb313d46346f2ac19e'
+          checkpoint: 'd18e5fae1348653a1cb6c3be5bc1d5086ff32ec7c82fbf7a27e3bf1aba33ce04'
   name 'Twitter Color Emoji'
   homepage 'https://github.com/eosrei/twemoji-color-font/'
 
