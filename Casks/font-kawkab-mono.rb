@@ -2,6 +2,7 @@ cask 'font-kawkab-mono' do
   version '0.501'
   sha256 '11c06f57dddefaf0166d74caaa072865ab6ff8d34076e7ec5d2c20edda145666'
 
+  # github.com/aiaf/kawkab-mono was verified as official when first introduced to the cask
   url "https://github.com/aiaf/kawkab-mono/releases/download/v#{version}/kawkab-mono-#{version}.zip"
   appcast 'https://github.com/aiaf/kawkab-mono/releases.atom',
           checkpoint: 'fb7ace0d30c55a936845379123c74dcd4aded8d7619f2c73d0d862a1fcf29929'
