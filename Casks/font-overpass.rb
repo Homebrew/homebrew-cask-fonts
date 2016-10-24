@@ -4,6 +4,8 @@ cask 'font-overpass' do
 
   # github.com/RedHatBrand/overpass was verified as official when first introduced to the cask
   url "https://github.com/RedHatBrand/overpass/releases/download/#{version}/overpass-fonts-ttf-#{version}.zip"
+  appcast 'https://github.com/RedHatBrand/overpass/releases.atom',
+          checkpoint: 'eb0d8ea794e3c97467d4fd6c8cb78127df8b863ac3c65923a0a2dfcb9afaba0b'
   name 'Overpass'
   homepage 'http://overpassfont.org/'
 
