@@ -1,5 +1,4 @@
 cask 'font-life-savers' do
-  # version '2.001'
   version :latest
   sha256 :no_check
 

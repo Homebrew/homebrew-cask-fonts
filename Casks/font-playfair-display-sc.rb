@@ -1,5 +1,4 @@
 cask 'font-playfair-display-sc' do
-  # version '1.004'
   version :latest
   sha256 :no_check
 

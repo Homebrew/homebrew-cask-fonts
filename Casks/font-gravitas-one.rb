@@ -1,5 +1,4 @@
 cask 'font-gravitas-one' do
-  # version '3.000'
   version :latest
   sha256 :no_check
 

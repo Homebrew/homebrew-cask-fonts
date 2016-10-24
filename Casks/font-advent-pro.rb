@@ -1,5 +1,4 @@
 cask 'font-advent-pro' do
-  # version '2.003'
   version :latest
   sha256 :no_check
 

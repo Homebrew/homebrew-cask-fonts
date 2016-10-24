@@ -1,5 +1,4 @@
 cask 'font-kantumruy' do
-  # version '1.20'
   version :latest
   sha256 :no_check
 

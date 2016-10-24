@@ -1,5 +1,4 @@
 cask 'font-gorditas' do
-  # version '001.001'
   version :latest
   sha256 :no_check
 

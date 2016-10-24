@@ -1,5 +1,4 @@
 cask 'font-droid-serif' do
-  # version '1.00'
   version :latest
   sha256 :no_check
 

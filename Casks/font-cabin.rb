@@ -1,5 +1,4 @@
 cask 'font-cabin' do
-  # version '1.006'
   version :latest
   sha256 :no_check
 

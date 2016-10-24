@@ -1,5 +1,4 @@
 cask 'font-volkhov' do
-  # version '1.010'
   version :latest
   sha256 :no_check
 

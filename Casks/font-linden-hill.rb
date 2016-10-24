@@ -1,5 +1,4 @@
 cask 'font-linden-hill' do
-  # version '1.202'
   version :latest
   sha256 :no_check
 
