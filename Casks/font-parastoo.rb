@@ -1,11 +1,11 @@
 cask 'font-parastoo' do
-  version '0.11.1'
-  sha256 '31a7e7d96f1077860c3d3ace00984f32830b605efc9091265816a2cde6b51c3c'
+  version '0.12.1'
+  sha256 '03cd39d8f73698d85a488b37a5edb40750b87e3a9ba6f1e8e17d1ee1198d92f6'
 
   # github.com/rastikerdar was verified as official when first introduced to the cask
   url "https://github.com/rastikerdar/parastoo-font/releases/download/v#{version}/parastoo-font-v#{version}.zip"
   appcast 'https://github.com/rastikerdar/parastoo-font/releases.atom',
-          checkpoint: 'f0df02e903f80808273a264743f64efdb4774ebb895f2e324b473ed851a998d0'
+          checkpoint: '460686441568187829d4158fca2066320da3d2dc37743dc9bfa490201f3bf902'
   name 'Parastoo'
   homepage 'http://rastikerdar.github.io/parastoo-font'
 
