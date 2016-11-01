@@ -17,8 +17,8 @@ cask 'font-inconsolata' do
   sha256 :no_check
 
   url 'http://levien.com/type/myfonts/Inconsolata.otf'
+  name 'Inconsolata'
   homepage 'http://levien.com/type/myfonts/inconsolata.html'
-  license :ofl
 
   font 'Inconsolata.otf'
 end
@@ -28,16 +28,18 @@ Here’s a more complex Cask for the font [Fantasque Sans Mono](https://github.c
 
 ```ruby
 cask 'font-fantasque-sans-mono' do
-  version '1.6.4'
-  sha256 'da5a7f84ac0e1c02b49334690d7451d936691718fb1332f863eacc521816dccd'
+  version '1.7.1'
+  sha256 '6bb3b24413b78eed19ffa9bd233ae555982e3b185bd303e57dd1e05bebf17352'
 
-  url 'https://github.com/belluzj/fantasque-sans/releases/download/1.6.4/FantasqueSansMono.zip'
+  url "https://github.com/belluzj/fantasque-sans/releases/download/v#{version}/FantasqueSansMono.zip"
+  appcast 'https://github.com/belluzj/fantasque-sans/releases.atom',
+          checkpoint: '8085c3dff43a9dbf3201ca790c57800a089d1b69fec91226a600c04d9c681e36'
+  name 'Fantasque Sans Mono'
   homepage 'https://github.com/belluzj/fantasque-sans'
-  license :oss
 
   font 'OTF/FantasqueSansMono-Bold.otf'
   font 'OTF/FantasqueSansMono-BoldItalic.otf'
-  font 'OTF/FantasqueSansMono-RegItalic.otf'
+  font 'OTF/FantasqueSansMono-Italic.otf'
   font 'OTF/FantasqueSansMono-Regular.otf'
 end
 ```
