@@ -1,0 +1,11 @@
+cask 'font-antic-slab' do
+  version :latest
+  sha256 :no_check
+
+  # github.com/google/fonts was verified as official when first introduced to the cask
+  url 'https://github.com/google/fonts/raw/master/ofl/anticslab/AnticSlab-Regular.ttf'
+  name 'Antic Slab'
+  homepage 'http://www.google.com/fonts/specimen/Antic+Slab'
+
+  font 'AnticSlab-Regular.ttf'
+end
