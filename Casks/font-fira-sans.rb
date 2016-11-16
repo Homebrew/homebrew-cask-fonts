@@ -4,7 +4,7 @@ cask 'font-fira-sans' do
 
   url 'https://carrois.com/downloads/Fira/Fira_Sans_4_2.zip'
   name 'Fira Sans'
-  homepage 'https://carrois.com/typefaces/FiraSans'
+  homepage 'https://carrois.com/projects/Fira/'
 
   font 'Fira_Sans_4_2/Fonts/FiraSans_OTF_4203/Compressed/Italic/FiraSansCompressed-BoldItalic.otf'
   font 'Fira_Sans_4_2/Fonts/FiraSans_OTF_4203/Compressed/Italic/FiraSansCompressed-BookItalic.otf'
