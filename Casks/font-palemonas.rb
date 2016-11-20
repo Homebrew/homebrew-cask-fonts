@@ -1,15 +1,15 @@
 cask 'font-palemonas' do
-  version '3.0'
-  sha256 'ad576fc82d1f67824cc10cde6c1778016ecf16702bcc2353f0d3884f2283a978'
+  version '3.1'
+  sha256 '342dbc5c62787c0a966a43f9da4dbc06171d1dc72925f8a0f355441a8b9ca2b6'
 
-  url "http://www.vlkk.lt/media/public/file/Palemonas/Palemonas-#{version.dots_to_underscores}.zip"
+  url "http://www.vlkk.lt/media/public/file/Palemonas/Palemonas-#{version}.zip"
   name 'Palemonas'
   homepage 'http://www.vlkk.lt/palemonas'
 
   container type: :zip
 
-  font "Palemonas-#{version}/Palemonas-nm.ttf"
-  font "Palemonas-#{version}/Palemonas-bd.ttf"
-  font "Palemonas-#{version}/Palemonas-it.ttf"
-  font "Palemonas-#{version}/Palemonas-bi.ttf"
+  font "Palemonas-#{version}/Palem#{version}-nm.ttf"
+  font "Palemonas-#{version}/Palem#{version}-bd.ttf"
+  font "Palemonas-#{version}/Palem#{version}-it.ttf"
+  font "Palemonas-#{version}/Palem#{version}-bi.ttf"
 end
