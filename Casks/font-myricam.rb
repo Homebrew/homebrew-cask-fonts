@@ -9,5 +9,5 @@ cask 'font-myricam' do
   name 'MyricaM'
   homepage 'http://myrica.estable.jp/'
 
-  font 'MyricaM.TTC'
+  font "Myrica-#{version}/MyricaM.TTC"
 end
