@@ -1,9 +1,9 @@
 cask 'font-mononoki' do
-  version :latest
-  sha256 :no_check
+  version '1.2'
+  sha256 'cf29ea7663dbfe94feaedaf5c0be4f4ae6a5b98c1293e0e772e69c28ac5dc658'
 
   # github.com/madmalik/mononoki was verified as official when first introduced to the cask
-  url 'https://github.com/madmalik/mononoki/raw/master/export/mononoki.zip'
+  url "https://github.com/madmalik/mononoki/releases/download/#{version}/mononoki.zip"
   name 'Mononoki'
   homepage 'https://madmalik.github.io/mononoki/'
 
