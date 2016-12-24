@@ -7,7 +7,5 @@ cask 'font-bf-tiny-hand' do
   name 'BF Tiny Hand'
   homepage 'https://www.buzzfeed.com/benking/tiny-hand-will-be-your-new-comic-sans'
 
-  container type: :zip
-
   font 'BFTinyHand-Regular.otf'
 end
