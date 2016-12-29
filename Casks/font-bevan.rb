@@ -3,9 +3,9 @@ cask 'font-bevan' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/bevan/Bevan.ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/bevan/Bevan-Regular.ttf'
   name 'Bevan'
   homepage 'http://www.google.com/fonts/specimen/Bevan'
 
-  font 'Bevan.ttf'
+  font 'Bevan-Regular.ttf'
 end
