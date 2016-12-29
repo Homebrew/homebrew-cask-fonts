@@ -7,6 +7,6 @@ cask 'font-kacstone' do
   name 'KacstOne'
   homepage 'http://projects.arabeyes.org/project.php?proj=Khotot'
 
-  font 'KacstOne.ttf'
-  font 'KacstOne-Bold.ttf'
+  font "kacst_one_#{version}/KacstOne.ttf"
+  font "kacst_one_#{version}/KacstOne-Bold.ttf"
 end
