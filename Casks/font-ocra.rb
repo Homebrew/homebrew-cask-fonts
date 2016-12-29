@@ -7,11 +7,8 @@ cask 'font-ocra' do
   name 'OCRA'
   homepage 'http://ansuz.sooke.bc.ca/page/fonts#ocra'
 
-  font "ocr-#{version}/OCRA.otf"
-  font "ocr-#{version}/OCRB.otf"
-  font "ocr-#{version}/OCRBE.otf"
-  font "ocr-#{version}/OCRBF.otf"
-  font "ocr-#{version}/OCRBL.otf"
-  font "ocr-#{version}/OCRBS.otf"
-  font "ocr-#{version}/OCRBX.otf"
+  font "TsukurimashouKaku.otf"
+  font "TsukurimashouKakuPS.otf"
+  font "TsukurimashouMincho.otf"
+  font "TsukurimashouMinchoPS.otf"
 end
