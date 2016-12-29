@@ -3,9 +3,9 @@ cask 'font-sigmar-one' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/sigmarone/SigmarOne.ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/sigmarone/SigmarOne-Regular.ttf'
   name 'Sigmar One'
   homepage 'http://www.google.com/fonts/specimen/Sigmar+One'
 
-  font 'SigmarOne.ttf'
+  font 'SigmarOne-Regular.ttf'
 end
