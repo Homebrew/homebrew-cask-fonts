@@ -3,12 +3,12 @@ cask 'font-gidole' do
   sha256 :no_check
 
   # github.com/gidole was verified as official when first introduced to the cask
-  url 'https://github.com/gidole/sans/blob/master/gidole.zip?raw=true'
+  url 'https://github.com/andreaslarsen/Gidole/blob/master/gidole.zip?raw=true'
   appcast 'https://github.com/larsenwork/Gidole/releases.atom',
-          checkpoint: '1df38a5178b492b9843b8bc31393e1bd7cb6f4b71e682a6144dea19d244aa9f0'
+          checkpoint: '4e4eff702b684544677877d723125b669243b2f3468179a62772dcb3b529e70d'
   name 'Gidole'
   homepage 'https://gidole.github.io'
 
-  font 'Gidole-Regular.ttf'
-  font 'Gidolinya-Regular.ttf'
+  font 'GidoleFont/Gidole-Regular.ttf'
+  font 'GidoleFont/Gidolinya-Regular.otf'
 end
