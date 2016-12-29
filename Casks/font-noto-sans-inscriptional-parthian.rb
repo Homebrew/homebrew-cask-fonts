@@ -7,5 +7,5 @@ cask 'font-noto-sans-inscriptional-parthian' do
   name 'Noto Sans Inscriptional Parthian'
   homepage 'https://www.google.com/get/noto/#sans-prti'
 
-  font 'NotoSansParthian-Regular.ttf'
+  font 'NotoSansInscriptionalParthian-Regular.ttf'
 end

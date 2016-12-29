@@ -7,5 +7,5 @@ cask 'font-noto-sans-cuneiform' do
   name 'Noto Sans Cuneiform'
   homepage 'https://www.google.com/get/noto/#sans-xsux'
 
-  font 'NotoSansCypriot-Regular.ttf'
+  font 'NotoSansCuneiform-Regular.ttf'
 end
