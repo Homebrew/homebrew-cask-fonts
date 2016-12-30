@@ -4,7 +4,7 @@ cask 'font-nika' do
 
   url "https://github.com/font-store/NikaFont/releases/download/v#{version}/nika.v#{version}.zip"
   appcast 'https://github.com/font-store/font-nika/releases.atom',
-          checkpoint: '6a4efdd5658653cc8b20a6fa03350f4225e796efbbea5a96c2f4b4e61cb9327b'
+          checkpoint: '9c2bba39e9b30c65f708a26a4aa3bec03ef276f0c878115cc6252dd86756e4f1'
   name 'Nika'
   homepage 'https://github.com/font-store/font-nika'
 

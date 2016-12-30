@@ -5,7 +5,7 @@ cask 'font-gandom' do
   # github.com/rastikerdar was verified as official when first introduced to the cask
   url "https://github.com/rastikerdar/gandom-font/releases/download/v#{version}/gandom-font-v#{version}.zip"
   appcast 'https://github.com/rastikerdar/gandom-font/releases.atom',
-          checkpoint: '3752706138e6ce47c9c3470ee86ecd6e8841ddec24f00783602bf578f8697a24'
+          checkpoint: 'ad2a2478a782726dd4f8629cff19c36f83e3dff204ec3aeafc19ce3feaf9876b'
   name 'Gandom'
   homepage 'http://rastikerdar.github.io/gandom-font'
 
