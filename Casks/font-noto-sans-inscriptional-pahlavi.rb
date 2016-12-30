@@ -7,5 +7,5 @@ cask 'font-noto-sans-inscriptional-pahlavi' do
   name 'Noto Sans Inscriptional Pahlavi'
   homepage 'https://www.google.com/get/noto/#sans-phli'
 
-  font 'NotoSansPahlavi-Regular.ttf'
+  font 'NotoSansInscriptionalPahlavi-Regular.ttf'
 end

@@ -6,6 +6,6 @@ cask 'font-takaoex' do
   name 'TakaoEx'
   homepage 'https://launchpad.net/takao-fonts'
 
-  font 'TakaoExGothic.ttf'
-  font 'TakaoExMincho.ttf'
+  font "TakaoExFonts_#{version}/TakaoExGothic.ttf"
+  font "TakaoExFonts_#{version}/TakaoExMincho.ttf"
 end

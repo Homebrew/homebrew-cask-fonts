@@ -1,6 +1,6 @@
 cask 'font-share-tech' do
-  version '1.002'
-  sha256 '59bc26a1c7783052927b84c98c757d1c81a2d93b1c5259a0f669ec873397415c'
+  version :latest
+  sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/sharetech/ShareTech-Regular.ttf'

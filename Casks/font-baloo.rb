@@ -1,6 +1,6 @@
 cask 'font-baloo' do
   version '1.100'
-  sha256 'd3d7d7bc721ce512f286e3ea8f67aa98d2a0c21327306315ebddf51327b3135b'
+  sha256 'b94636ce261ca2f532791fa167c5cfe98dcca1f434996c69b5354ab700faa0d7'
 
   url "https://github.com/EkType/Baloo/releases/download/1.10/Baloo_#{version}.zip"
   name 'Baloo'
@@ -8,6 +8,7 @@ cask 'font-baloo' do
 
   font 'Baloo-Regular.ttf'
   font 'BalooBhai-Regular.ttf'
+  font 'BalooBhaijaan-Regular.ttf'
   font 'BalooBhaina-Regular.ttf'
   font 'BalooChettan-Regular.ttf'
   font 'BalooDa-Regular.ttf'

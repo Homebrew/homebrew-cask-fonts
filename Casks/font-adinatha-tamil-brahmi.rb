@@ -6,5 +6,5 @@ cask 'font-adinatha-tamil-brahmi' do
   name 'Adinatha Tamil Brahmi'
   homepage 'http://www.virtualvinodh.com/wp/tamil-brahmi-font/'
 
-  font 'Adinatha-Tamil-Brahmi.otf'
+  font 'Adinatha-Tamil-Brahmi/Adinatha-Tamil-Brahmi.otf'
 end

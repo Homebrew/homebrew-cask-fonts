@@ -3,9 +3,9 @@ cask 'font-bangers' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/bangers/Bangers.ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/bangers/Bangers-Regular.ttf'
   name 'Bangers'
   homepage 'http://www.google.com/fonts/specimen/Bangers'
 
-  font 'Bangers.ttf'
+  font 'Bangers-Regular.ttf'
 end

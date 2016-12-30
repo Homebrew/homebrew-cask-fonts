@@ -8,5 +8,5 @@ cask 'font-twitter-color-emoji' do
   name 'Twitter Color Emoji'
   homepage 'https://github.com/eosrei/twemoji-color-font/'
 
-  font 'TwitterColorEmoji-SVGinOT-#{version}/TwitterColorEmoji-SVGinOT.ttf'
+  font "TwitterColorEmoji-SVGinOT-#{version}/TwitterColorEmoji-SVGinOT.ttf"
 end

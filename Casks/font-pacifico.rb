@@ -3,9 +3,9 @@ cask 'font-pacifico' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/pacifico/Pacifico.ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/pacifico/Pacifico-Regular.ttf'
   name 'Pacifico'
   homepage 'http://www.google.com/fonts/specimen/Pacifico'
 
-  font 'Pacifico.ttf'
+  font 'Pacifico-Regular.ttf'
 end
