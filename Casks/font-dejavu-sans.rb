@@ -5,7 +5,7 @@ cask 'font-dejavu-sans' do
   # sourceforge.net/dejavu was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/dejavu/dejavu-fonts-ttf-#{version}.zip"
   name 'DejaVu'
-  homepage 'http://dejavu-fonts.org/wiki/Main_Page'
+  homepage 'https://sourceforge.net/projects/dejavu/'
 
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuMathTeXGyre.ttf"
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-Bold.ttf"
