@@ -2,10 +2,9 @@ cask 'font-dejavu-sans' do
   version '2.37'
   sha256 '7576310b219e04159d35ff61dd4a4ec4cdba4f35c00e002a136f00e96a908b0a'
 
-  # sourceforge.net/dejavu was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/dejavu/dejavu-fonts-ttf-#{version}.zip"
   name 'DejaVu'
-  homepage 'http://dejavu-fonts.org/wiki/Main_Page'
+  homepage 'https://sourceforge.net/projects/dejavu/'
 
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuMathTeXGyre.ttf"
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-Bold.ttf"
