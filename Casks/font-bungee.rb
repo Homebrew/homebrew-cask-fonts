@@ -3,7 +3,7 @@ cask 'font-bungee' do
   sha256 'd012a9e6293201c3165feba64342d29c42bb4e67b1cc66e07509c12bab760a6f'
 
   # github.com/djrrb/bungee was verified as official when first introduced to the cask
-  url "https://github.com/djrrb/Bungee/releases/download/#{version}/Bungee-fonts.zip"
+  url "https://github.com/djrrb/bungee/releases/download/#{version}/Bungee-fonts.zip"
   appcast 'https://github.com/djrrb/bungee/releases.atom',
           checkpoint: '5f9133d0ed5ba7461c6d3aba4e7d2706951ce25121a8c43ab4bf5f971d1d3f96'
   name 'Bungee'

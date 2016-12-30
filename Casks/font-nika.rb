@@ -8,5 +8,5 @@ cask 'font-nika' do
   name 'Nika'
   homepage 'https://github.com/font-store/font-nika'
 
-  font "fonts/Nika-Regular.otf"
+  font 'fonts/Nika-Regular.otf'
 end
