@@ -1,10 +1,10 @@
 cask 'font-langdon' do
   version :latest
-  sha256 '4c90115dbc4f82f037bae60a73d204a4d876de6d93b9d7f166cbd38d078d7f2d'
+  sha256 :no_check
 
   url 'http://www.ffonts.net/Langdon.font.zip'
   name 'Langdon'
-  homepage 'https://www.behance.net/gallery/7814505/Langdon'
+  homepage 'http://www.ffonts.net/Langdon.font'
 
   font 'Langdon.otf'
 end
