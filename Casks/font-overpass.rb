@@ -1,20 +1,32 @@
 cask 'font-overpass' do
-  version '2.1'
-  sha256 '8eb3d835eb01bdafe4993f1b4fb68fdbd526559ffd933b2442a95ce7f0daa7cd'
+  version '3.0.2'
+  sha256 '10d2186ad1e1e628122f2e4ea0bbde16438e34a0068c35190d41626d89bb64e4'
 
-  # github.com/RedHatBrand/overpass was verified as official when first introduced to the cask
-  url "https://github.com/RedHatBrand/overpass/releases/download/#{version}/overpass-fonts-ttf-#{version}.zip"
+  # github.com/RedHatBrand/Overpass was verified as official when first introduced to the cask
+  url "https://github.com/RedHatBrand/Overpass/releases/download/#{version}/overpass-desktop-fonts.zip"
   appcast 'https://github.com/RedHatBrand/overpass/releases.atom',
-          checkpoint: 'eb0d8ea794e3c97467d4fd6c8cb78127df8b863ac3c65923a0a2dfcb9afaba0b'
+          checkpoint: 'ece7145e6fb6c97e52f6416b1baba97f32e954fee54aa71f7b3655359b8e44d0'
   name 'Overpass'
   homepage 'http://overpassfont.org/'
 
-  font "overpass-fonts-ttf-#{version}/Overpass-Bold-Italic.ttf"
-  font "overpass-fonts-ttf-#{version}/Overpass-Bold.ttf"
-  font "overpass-fonts-ttf-#{version}/Overpass-ExtraLight Italic.ttf"
-  font "overpass-fonts-ttf-#{version}/Overpass-ExtraLight.ttf"
-  font "overpass-fonts-ttf-#{version}/Overpass-Light-Italic.ttf"
-  font "overpass-fonts-ttf-#{version}/Overpass-Light.ttf"
-  font "overpass-fonts-ttf-#{version}/Overpass-Regular-Italic.ttf"
-  font "overpass-fonts-ttf-#{version}/Overpass-Regular.ttf"
+  font 'overpass/overpass-bold-italic.otf'
+  font 'overpass/overpass-bold.otf'
+  font 'overpass/overpass-extrabold-italic.otf'
+  font 'overpass/overpass-extrabold.otf'
+  font 'overpass/overpass-extralight-italic.otf'
+  font 'overpass/overpass-extralight.otf'
+  font 'overpass/overpass-heavy-italic.otf'
+  font 'overpass/overpass-heavy.otf'
+  font 'overpass/overpass-italic.otf'
+  font 'overpass/overpass-light-italic.otf'
+  font 'overpass/overpass-light.otf'
+  font 'overpass/overpass-regular.otf'
+  font 'overpass/overpass-semibold-italic.otf'
+  font 'overpass/overpass-semibold.otf'
+  font 'overpass/overpass-thin-italic.otf'
+  font 'overpass/overpass-thin.otf'
+  font 'overpass-mono/overpass-mono-bold.otf'
+  font 'overpass-mono/overpass-mono-light.otf'
+  font 'overpass-mono/overpass-mono-regular.otf'
+  font 'overpass-mono/overpass-mono-semibold.otf'
 end
