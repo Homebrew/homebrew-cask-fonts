@@ -1,16 +1,16 @@
 cask 'font-firacode-nerd-font-mono' do
-  version '0.8.0'
-  sha256 '1b49d11b5021d65178d6eea075decec9b05b017da311878596ce48f40db9550d'
+  version '1.0.0'
+  sha256 'f3ff14fd1719a23f4c07b9071bca4b89e5b466bcad5a5b75c1f3ece9171229bf'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraCode.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'ef06052e06ea6b843bc733c57d72041f750f7d021a7ae9723a790ba740e3a3cb'
+          checkpoint: '5677b051ebf92449af603ba6f1837c1bba529a881fd41fe0ec5dea830e1f7867'
   name 'FuraCode Nerd Font (FiraCode)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Fura Code Regular Nerd Font Complete Mono.otf'
   font 'Fura Code Bold Nerd Font Complete Mono.otf'
-  font 'Fura Code Light Nerd Font Complete Mono.otf'
-  font 'Fura Code Retina Nerd Font Complete Mono.otf'
   font 'Fura Code Medium Nerd Font Complete Mono.otf'
+  font 'Fura Code Retina Nerd Font Complete Mono.otf'
+  font 'Fura Code Regular Nerd Font Complete Mono.otf'
+  font 'Fura Code Light Nerd Font Complete Mono.otf'
 end

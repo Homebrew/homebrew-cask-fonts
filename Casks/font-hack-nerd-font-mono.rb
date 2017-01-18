@@ -1,4 +1,4 @@
-cask 'font-hack-nerd-font' do
+cask 'font-hack-nerd-font-mono' do
   version '1.0.0'
   sha256 '987eadbdaa11c4091a518a7d78c37f5f9bf2279b7c2aa6504907faf23e9673e5'
 
@@ -8,8 +8,8 @@ cask 'font-hack-nerd-font' do
   name 'Knack Nerd Font (Hack)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Knack Bold Nerd Font Complete.ttf'
-  font 'Knack Bold Italic Nerd Font Complete.ttf'
-  font 'Knack Regular Nerd Font Complete.ttf'
-  font 'Knack Italic Nerd Font Complete.ttf'
+  font 'Knack Bold Nerd Font Complete Mono.ttf'
+  font 'Knack Bold Italic Nerd Font Complete Mono.ttf'
+  font 'Knack Regular Nerd Font Complete Mono.ttf'
+  font 'Knack Italic Nerd Font Complete Mono.ttf'
 end
