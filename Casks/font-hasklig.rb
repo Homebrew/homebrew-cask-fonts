@@ -1,10 +1,10 @@
 cask 'font-hasklig' do
-  version '0.9'
-  sha256 '4d70cb0932ae8bea63d4b4aa5b1518a60a29d212856ffe24be6805695c295b65'
+  version '1.1'
+  sha256 '98eccec22bc0ae3838a099a911230f62197e681b6a6c30e5149c52f5fc6a95c3'
 
   url "https://github.com/i-tu/Hasklig/releases/download/#{version}/Hasklig-#{version}.zip"
   appcast 'https://github.com/i-tu/Hasklig/releases.atom',
-          checkpoint: '6a2bc8622268336facbdfd092ee6c5b9b161dd5b7f39293130ba2f5c41007cd3'
+          checkpoint: '91b1d5bcc2c9d5d3cb1f45a819b6d16f2f7a2fda7ed14045c920829dfabce1c9'
   name 'Hasklig'
   homepage 'https://github.com/i-tu/Hasklig'
 
