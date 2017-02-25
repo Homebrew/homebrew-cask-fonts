@@ -8,7 +8,7 @@ Here is where you can find or submit font Casks for the [homebrew-cask](https://
 
 ## Prerequisites
 
-Fonts are available through homebrew-cask, which is an “external command” of Homebrew. So, first you must install [Homebrew](http://brew.sh) and [homebrew-cask](http://caskroom.io).
+Fonts are available through homebrew-cask, which is an “external command” of Homebrew. So, first you must install [Homebrew](http://brew.sh) and [homebrew-cask](https://caskroom.github.io).
 
 ## Let’s try it!
 
@@ -47,7 +47,7 @@ We’re really rather friendly! Here are the best places to talk about the proje
 
 We still have bugs -- and we are busy fixing them! If you have a problem, don’t be shy about reporting it on our [GitHub issues page](https://github.com/caskroom/homebrew-fonts/issues?state=open).
 
-When reporting bugs, remember that the [Caskroom family](http://caskroom.io) is an independent project from [Homebrew](http://brew.sh). Do your best to direct bug reports to the appropriate project. If your command-line started with `brew cask`, bring the bug to the Caskroom family first!
+When reporting bugs, remember that the [Caskroom family](https://caskroom.github.io) is an independent project from [Homebrew](http://brew.sh). Do your best to direct bug reports to the appropriate project. If your command-line started with `brew cask`, bring the bug to the Caskroom family first!
 
 ## Font Licenses
 
