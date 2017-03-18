@@ -2,9 +2,9 @@ cask 'font-liberation-sans' do
   version '2.00.1'
   sha256 '7890278a6cd17873c57d9cd785c2d230d9abdea837e96516019c5885dd271504'
 
-  url "https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-#{version}.tar.gz"
+  url "https://releases.pagure.org/liberation-fonts/liberation-fonts-ttf-#{version}.tar.gz"
   name 'Liberation Sans'
-  homepage 'https://fedorahosted.org/liberation-fonts/'
+  homepage 'https://pagure.io/liberation-fonts/'
 
   font "liberation-fonts-ttf-#{version}/LiberationMono-Bold.ttf"
   font "liberation-fonts-ttf-#{version}/LiberationMono-BoldItalic.ttf"
