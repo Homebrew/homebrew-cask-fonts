@@ -1,11 +1,11 @@
-cask 'font-noto-sans-cjk' do
+cask 'font-noto-serif-cjk' do
   version :latest
   sha256 :no_check
 
   # noto-website.storage.googleapis.com was verified as official when first introduced to the cask
-  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSansCJK.ttc.zip'
-  name 'Noto Sans CJK'
+  url 'https://noto-website.storage.googleapis.com/pkgs/NotoSerifCJK.ttc.zip'
+  name 'Noto Serif CJK'
   homepage 'https://www.google.com/get/noto/help/cjk/'
 
-  font 'NotoSansCJK.ttc'
+  font 'NotoSerifCJK.ttc'
 end
