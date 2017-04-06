@@ -14,7 +14,7 @@ cask 'font-source-han-serif-sb-h' do
 
   caveats <<-EOS.undent
     #{token} only installs the SemiBold, Bold, and Heavy weights.
-    To get ExtraLight, Light, Regular, and Medium:
+    To install ExtraLight, Light, Regular, and Medium:
 
       brew cask install font-source-han-serif-sb-h
   EOS
