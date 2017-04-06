@@ -13,7 +13,7 @@ cask 'font-source-han-serif-sb-h' do
   font 'SourceHanSerifOTC_SB-H/SourceHanSerif-Heavy.ttc'
 
   caveats <<-EOS.undent
-    #{token} only installs the SemiBold, Bold and Heavy weights. To get other weight
+    #{token} only installs the SemiBold, Bold and Heavy weights. To get the other weights
 
       brew cask install font-source-han-serif-sb-h
   EOS
