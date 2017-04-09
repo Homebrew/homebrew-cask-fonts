@@ -1,10 +1,10 @@
 cask 'font-iosevka' do
-  version '1.12.3'
-  sha256 '457c68f765542b6b1d982bec23d3ad03034eefc6ca4ab7257c11733227494318'
+  version '1.12.4'
+  sha256 'e94a63a961ea1e3c6c872c92f70528cbdfced34da25a1df8e97fdc16f9941c6a'
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/iosevka-pack-#{version}.zip"
   appcast 'https://github.com/be5invis/Iosevka/releases.atom',
-          checkpoint: '7c22f461de2ace7ea241e048b90a382f5b16e9a374a4bcfb3ca3321984a458ee'
+          checkpoint: 'c90ea3c0939815884bf81fabf3e770166fea7b5eac002972331ad7380f191651'
   name 'Iosevka'
   homepage 'https://github.com/be5invis/Iosevka/'
 
@@ -26,9 +26,6 @@ cask 'font-iosevka' do
   font 'iosevka-mediumoblique.ttc'
   font 'iosevka-oblique.ttc'
   font 'iosevka-regular.ttc'
-  font 'iosevka-thin.ttc'
-  font 'iosevka-thinitalic.ttc'
-  font 'iosevka-thinoblique.ttc'
   font 'iosevka-slab-bold.ttc'
   font 'iosevka-slab-bolditalic.ttc'
   font 'iosevka-slab-boldoblique.ttc'
@@ -50,4 +47,7 @@ cask 'font-iosevka' do
   font 'iosevka-slab-thin.ttc'
   font 'iosevka-slab-thinitalic.ttc'
   font 'iosevka-slab-thinoblique.ttc'
+  font 'iosevka-thin.ttc'
+  font 'iosevka-thinitalic.ttc'
+  font 'iosevka-thinoblique.ttc'
 end
