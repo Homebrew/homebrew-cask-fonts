@@ -1,12 +1,12 @@
 cask 'font-octicons' do
-  version '4.4.0'
-  sha256 '1d3b27b1096c57edb4d391a6b1ec1e672e64b250bec4c86662f11baba988db3a'
+  version '5.0.1'
+  sha256 'dc5201131cc2a813abbdd864d4c4547d04144b3f5658c96a8caca06ae9e594bf'
 
   url "https://github.com/primer/octicons/archive/v#{version}.zip"
   appcast 'https://github.com/primer/octicons/releases.atom',
-          checkpoint: 'af35fc21e4adb5ed1798748d12db7a1ba1d68f486bbbe30841af3d1319b7fbfb'
+          checkpoint: '81c794a4cb9500d9a2380341d9e6a2864267f3001a2aa3f70d2181fc7642a907'
   name 'Octicons'
-  homepage 'https://octicons.github.com'
+  homepage 'https://octicons.github.com/'
 
   font "octicons-#{version}/build/font/octicons.ttf"
 end
