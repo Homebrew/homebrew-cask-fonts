@@ -4,7 +4,7 @@ cask 'font-computer-modern' do
 
   url "https://downloads.sourceforge.net/cm-unicode/cm-unicode-#{version}-ttf.tar.xz"
   name 'Computer Modern'
-  homepage 'http://cm-unicode.sourceforge.net'
+  homepage 'http://cm-unicode.sourceforge.net/'
 
   font "cm-unicode-#{version}/cmunbbx.ttf"
   font "cm-unicode-#{version}/cmunbi.ttf"
