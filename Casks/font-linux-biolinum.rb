@@ -5,7 +5,7 @@ cask 'font-linux-biolinum' do
   # downloads.sourceforge.net/linuxlibertine was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_#{version}.tgz"
   name 'Linux Biolinum'
-  homepage 'http://linuxlibertine.org'
+  homepage 'http://linuxlibertine.org/'
 
   font 'LinBiolinum_Kah.ttf'
   font 'LinBiolinum_RBah.ttf'
