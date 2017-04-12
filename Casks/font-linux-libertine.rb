@@ -5,7 +5,7 @@ cask 'font-linux-libertine' do
   # downloads.sourceforge.net/linuxlibertine was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_#{version}.tgz"
   name 'Linux Libertine'
-  homepage 'http://linuxlibertine.org'
+  homepage 'http://linuxlibertine.org/'
 
   font 'LinLibertine_DRah.ttf'
   font 'LinLibertine_I.ttf'
