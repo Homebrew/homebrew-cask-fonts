@@ -7,7 +7,7 @@ cask 'font-gidole' do
   appcast 'https://github.com/gidole/Gidole-Typefaces/releases.atom',
           checkpoint: '1df38a5178b492b9843b8bc31393e1bd7cb6f4b71e682a6144dea19d244aa9f0'
   name 'Gidole'
-  homepage 'https://gidole.github.io'
+  homepage 'https://gidole.github.io/'
 
   font 'GidoleFont/Gidole-Regular.ttf'
   font 'GidoleFont/Gidolinya-Regular.otf'
