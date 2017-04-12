@@ -8,7 +8,7 @@ cask 'font-materialdesignicons-webfont' do
       revision:   '50',
       trust_cert: true
   name 'Material Design Icons Webfont'
-  homepage 'https://materialdesignicons.com'
+  homepage 'https://materialdesignicons.com/'
 
   font 'materialdesignicons-webfont.ttf'
 end
