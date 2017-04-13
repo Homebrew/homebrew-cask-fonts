@@ -1,0 +1,205 @@
+#!/usr/bin/env ruby
+#
+# font_casker
+#
+# TODO:
+#   generate_font_cask_token
+#     relevant code is in generate_cask_token
+#   font version
+#     report/resolve version conflicts
+#   cask generation
+#     templating
+#   constants
+#     abbreviations
+#   URL
+#     from file metadata as in list_url_attributes_on_file
+#   homepage
+#     from "Vendor URL" field in otfinfo -i output
+#
+
+###
+### system dependencies:
+###     lcdf-typetools / other `otfinfo` with identical interface
+###
+
+require 'open3'
+require 'digest'
+
+
+###
+### Arguments
+###
+
+ARCHIVE_PATH = ARGV.first
+
+
+###
+### Constants
+###
+
+FONT_EXT_PATTERN = %r{.(otf|ttf)\Z}i
+
+# Font files typically denote their weight, style, and width in the filename.
+# Note that these patterns capture regardless of additional modifiers,
+# e.g. "semibold", "extralight".
+FONT_WEIGHTS = [
+                %r{black}i,
+                %r{bold}i,
+                %r{book}i,
+                %r{hairline}i,
+                %r{heavy}i,
+                %r{light}i,
+                %r{medium}i,
+                %r{normal}i,
+                %r{regular}i,
+                %r{roman}i,
+                %r{thin}i,
+                %r{ultra}i
+               ]
+
+FONT_STYLES = [
+              %r{italic}i,
+              %r{oblique}i,
+              %r{roman}i,
+              %r{slanted}i,
+              %r{upright}i
+              ]
+
+FONT_WIDTHS = [
+              %r{compressed}i,
+              %r{condensed}i,
+              %r{extended}i,
+              %r{narrow}i,
+              %r{wide}i
+              ]
+
+
+###
+### Utilia
+###
+
+def mce(enum)
+  enum.group_by { |x| x }
+      .values
+      .max_by(&:size)
+      .first
+end
+
+def eval_bin_cmd(cmd, blob)
+  IO.popen(cmd, 'r+b') do | io |
+    io.print(blob)
+    io.close_write
+    io.read
+  end
+end
+
+def font_paths(archive)
+  cmd = ['zipinfo', '-1', archive]
+
+  archived_paths = IO.popen(cmd, 'r') { | io | io.read.chomp }
+
+  fontfile_paths = archived_paths.split("\n")
+                                 .grep(FONT_EXT_PATTERN)
+                                 .reject { |x| %r{\A__MACOSX}  =~ x }
+                                 .reject { |x| %r{(?:\A|/)\._} =~ x }
+                                 .sort
+end
+
+def font_blobs(archive, paths)
+  blobs = paths.map do |x|
+    IO.popen(['unzip', '-p', archive, x], 'rb') { |io| io.read }
+  end
+end
+
+
+###
+### Templating
+###
+
+def stanzify(stanza_name, val = "")
+  if val.respond_to?(:map)
+    val.map { |x| "  #{stanza_name} '#{x}'" }
+  else
+    "  #{stanza_name} '#{val}'"
+  end
+end
+
+# todo: named parameters, after switching to Ruby 2.x
+def caskify(family, klass, version, sha, url, homepage, paths)
+  output = ["FAMILY: #{family}"]
+  output << %q{cask 'FIXME' do}
+  output << stanzify('version', version)
+  output << stanzify('sha256', sha)
+  output << ''
+  output << stanzify('url', '')
+  output << stanzify('name', '')
+  output << stanzify('homepage', '')
+  output << ''
+  output << stanzify('font', paths)
+  output << 'end'
+end
+
+###
+### Values
+###
+
+def shasum(archive)
+  sha256 = Digest::SHA256.file archive
+end
+
+def font_version(fontblobs)
+  cmd = ['otfinfo', '-v']
+  versions = fontblobs.map { |x| eval_bin_cmd(cmd, x) }
+                      .map { |x| %r{\A(?:Version\s+)?(\d[^\s,;]*)}i.match(x) ? $1 : x.gsub("\n", '') }
+
+  # assumption: the main version is the most common one
+  presumed_main =  mce(versions)
+end
+
+
+def font_family(fontblobs)
+  cmd = ['otfinfo', '-a']
+  families = fontblobs.map { |x| eval_bin_cmd(cmd, x) }
+                      .map { |x| x.gsub("\n", '')}
+
+  # assumption: the main family is the most common one
+  presumed_main = mce(families)
+end
+
+def cask
+  paths = font_paths(ARCHIVE_PATH)
+  blobs = font_blobs(ARCHIVE_PATH, paths)
+
+  caskify(font_family(blobs),
+          nil,                  # class
+          font_version(blobs),
+          shasum(ARCHIVE_PATH),
+          nil,                  # url
+          nil,                  # homepage
+          paths)
+end
+
+
+###
+### main
+###
+
+usage = <<-EOS
+Usage: font_casker <font_archive.zip>
+
+Generates cask stanzas from OTF/TTF files within <font_archive>.
+Currently covers: version, sha, font.
+
+EOS
+
+if ARGV.first =~ %r{^-+h(elp)?$}i
+  puts usage
+  exit 0
+end
+
+unless ARGV.length == 1
+  puts usage
+  exit 1
+end
+
+puts cask

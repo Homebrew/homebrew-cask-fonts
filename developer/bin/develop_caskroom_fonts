@@ -1,0 +1,112 @@
+#!/bin/bash
+#
+# develop_caskroom_fonts
+#
+
+###
+### settings
+###
+
+set -e               # exit on any uncaught error
+set +o histexpand    # don't expand history expressions
+shopt -s nocasematch # case-insensitive regular expressions
+
+###
+### configurable global variables
+###
+
+tap_subdir="Library/Taps/caskroom/homebrew-fonts"
+
+###
+### functions
+###
+
+warn () {
+    local message="$@"
+    if ! [[ $message =~ "\n"$ ]]; then
+        message="${message}\n"
+    fi
+    printf "$message" 1>&2
+}
+
+die () {
+    warn "$@"
+    exit 1
+}
+
+cd_to_project_root () {
+    local script_dir="$(/usr/bin/dirname $0)"
+    cd "$script_dir"
+    local git_root="$(git rev-parse --show-toplevel)"
+    if [[ -z "$git_root" ]]; then
+        die "ERROR: Could not find git project root"
+    fi
+    cd "$git_root"
+}
+
+not_inside_homebrew () {
+    local tap_dir="$1"
+    local git_root="$2"
+    if [[ "$(/usr/bin/stat -L -f '%i' "$tap_dir")" -eq "$(/usr/bin/stat -L -f '%i' "$git_root")" ]]; then
+        die "\nERROR: Run this script in your private repo, not inside Homebrew.\n"
+    fi
+}
+ 
+create_dev_links () {
+    local tap_dir="$1"
+    local git_root="$2"
+    /bin/mv    --            Casks   production_Casks
+    /bin/ln -s -- "$git_root/Casks"  .
+    printf "Caskroom-fonts is now in development mode\n"
+    printf "Note: it is not safe to run 'brew update' while in development mode\n"
+}
+
+###
+### main
+###
+
+_develop_caskroom_fonts () {
+
+    # initialization
+    cd_to_project_root
+    local git_root="$(/bin/pwd)"
+    local brew_prefix="$(brew --prefix)"
+    local tap_dir="$brew_prefix/$tap_subdir"
+
+    # sanity check
+    not_inside_homebrew "$tap_dir" "$git_root"
+
+    # action
+    cd "$tap_dir"
+    if [[ -e "production_Casks" ]]; then
+        die "Caskroom-fonts is already set up for development"
+    else
+        create_dev_links "$tap_dir" "$git_root"
+    fi
+
+}
+
+# process args
+if [[ $1 =~ ^-+h(elp)?$ ]]; then
+    printf "develop_caskroom_fonts
+
+Symlink private Caskroom-fonts repo directories into Homebrew's
+Cellar, so that the 'brew cask' command will use the current
+Caskroom-fonts development branch from your private repo.
+
+Saves the production Homebrew font Cask directories under new
+names.
+
+You can reverse this operation with 'production_caskroom_fonts'.
+
+Note: it is not safe to run 'brew update' while development
+mode is in effect.
+
+"
+    exit
+fi
+
+# dispatch main
+_develop_caskroom_fonts "${@}"
+
+#
