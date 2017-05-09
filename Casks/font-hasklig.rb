@@ -4,7 +4,7 @@ cask 'font-hasklig' do
 
   url "https://github.com/i-tu/Hasklig/releases/download/#{version}/Hasklig-#{version}.zip"
   appcast 'https://github.com/i-tu/Hasklig/releases.atom',
-          checkpoint: '91b1d5bcc2c9d5d3cb1f45a819b6d16f2f7a2fda7ed14045c920829dfabce1c9'
+          checkpoint: 'a567dc1f31c50d90d72ff8134a56c5c51a9456286b0fcaac14a570e88c025fbc'
   name 'Hasklig'
   homepage 'https://github.com/i-tu/Hasklig'
 
