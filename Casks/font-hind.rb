@@ -4,7 +4,7 @@ cask 'font-hind' do
 
   url "https://github.com/itfoundry/hind/releases/download/v2.000/hind-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/hind/releases.atom',
-          checkpoint: '017f74f380a4da8c683f65c195a11e17b6454bd53fe5ab757aa6d3e03b6a0bf4'
+          checkpoint: '65d472c31dd5c81bd30b68b7cb2b90aacd4ac07eefdfc03a99fd45c22d7dd7ae'
   name 'Hind'
   homepage 'https://github.com/itfoundry/hind'
 
