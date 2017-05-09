@@ -4,7 +4,7 @@ cask 'font-heavydata-nerd-font' do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/HeavyData.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '5677b051ebf92449af603ba6f1837c1bba529a881fd41fe0ec5dea830e1f7867'
+          checkpoint: '034cdfeb4f6a152086231f8388940cd9de7d8190aecbb26ec94e7a381bf7a3b7'
   name 'HeavyData Nerd Font (HeavyData)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
