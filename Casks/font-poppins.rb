@@ -1,10 +1,10 @@
 cask 'font-poppins' do
-  version '2.000'
-  sha256 '86f53a3d50baaadca0d7a1aaf4d69e4d8d3a3d8a9fe67bc3d9b0c0db000e0f39'
+  version '2.110'
+  sha256 '68024f4489d1e15c141b0253f1504d7f89c9652bad8b4dab67cd31063cd53085'
 
-  url "https://github.com/itfoundry/poppins/releases/download/v#{version}/poppins-#{version.dots_to_underscores}.zip"
+  url "https://github.com/itfoundry/Poppins/releases/download/v#{version}/Poppins-#{version.no_dots}-OTF.zip"
   appcast 'https://github.com/itfoundry/poppins/releases.atom',
-          checkpoint: 'fc011af4ab788e754a052159d7c811132f042811aa8ad8773cebaa7b8d60e3d7'
+          checkpoint: '0798ba39039a7bc56234dc145008333c746a4c700a4731f612c4ddf9297f610e'
   name 'Poppins'
   homepage 'https://github.com/itfoundry/poppins'
 
