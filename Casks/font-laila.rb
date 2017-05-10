@@ -4,7 +4,7 @@ cask 'font-laila' do
 
   url "https://github.com/itfoundry/laila/releases/download/v#{version}/laila-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/laila/releases.atom',
-          checkpoint: '1a268b0686377b36db6e935f5fde881e6003194c09c30308fc4e9a4029a5c3eb'
+          checkpoint: 'a74ea2dd8a2cac9f43b7891bc425a805e6f06a4a3b14a5ae74365705efcfc4a1'
   name 'Laila'
   homepage 'https://github.com/itfoundry/laila'
 
