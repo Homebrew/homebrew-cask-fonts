@@ -5,7 +5,7 @@ cask 'font-material-icons' do
   # github.com/google/material-design-icons was verified as official when first introduced to the cask
   url "https://github.com/google/material-design-icons/archive/#{version}.zip"
   appcast 'https://github.com/google/material-design-icons/releases.atom',
-          checkpoint: '601c6c9de3ef09cd7127abcde40947cafc38607cd5a6e971194781fa582c9e1c'
+          checkpoint: '1a2afb3d184a8e227aab60ae40443ff253a10eea1276ae475629d121c50bde14'
   name 'Material Icons'
   homepage 'http://google.github.io/material-design-icons/'
 
