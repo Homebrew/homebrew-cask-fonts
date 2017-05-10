@@ -4,7 +4,7 @@ cask 'font-lalezar' do
 
   url "https://github.com/BornaIz/Lalezar/archive/#{version}.zip"
   appcast 'https://github.com/BornaIz/Lalezar/releases.atom',
-          checkpoint: '66aba340c111d02166d12a98bbaf7a8d0dee693afbae54e56be4799804cd2144'
+          checkpoint: 'd7cab39eaabf016a264240a2da18bae33c789d697a2e93ac1c70e104402eb05f'
   name 'Lalezar'
   homepage 'https://github.com/BornaIz/Lalezar'
 
