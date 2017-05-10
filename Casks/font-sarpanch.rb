@@ -4,7 +4,7 @@ cask 'font-sarpanch' do
 
   url "https://github.com/itfoundry/sarpanch/releases/download/v#{version}/sarpanch-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/sarpanch/releases.atom',
-          checkpoint: 'b7624a74f2a8275919bffed357df87385a5b32de8bc69e43ca072791e7993ba4'
+          checkpoint: '77561e629d96a0c4cd0fcdbfb96b755cd595ed1a9d8a251aaf8f5ded8779c3c8'
   name 'Sarpanch'
   homepage 'https://github.com/itfoundry/sarpanch'
 
