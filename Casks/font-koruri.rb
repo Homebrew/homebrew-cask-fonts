@@ -5,7 +5,7 @@ cask 'font-koruri' do
   # osdn.jp/koruri was verified as official when first introduced to the cask
   url "http://dl.osdn.jp/koruri/#{version.after_comma}/Koruri-#{version.before_comma}.tar.xz"
   appcast 'https://github.com/Koruri/Koruri/releases.atom',
-          checkpoint: '745c593054d000272c9d15734b290cf564987b146df7a6c2294f98470a1b2105'
+          checkpoint: 'd41f6f05089049c518a410f963514422003caebed4a4992c1a9207e5cf9c8ad9'
   name 'Koruri'
   homepage 'http://koruri.lindwurm.biz/'
 
