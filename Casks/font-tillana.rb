@@ -1,10 +1,10 @@
 cask 'font-tillana' do
-  version '2.000'
-  sha256 '26e3926523f8bc63ee344a4d1957b8bbbed55c721103a88fa9b1a678f4761e08'
+  version '2.002'
+  sha256 '0a7965cffee3765ac59dd3beae43f30ace6f1e5cbd9806d86aa26fd90a5ac7c4'
 
   url "https://github.com/itfoundry/tillana/releases/download/v#{version}/tillana-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/tillana/releases.atom',
-          checkpoint: '8b22ba5ebe8499a7756b4454b89ee75019285c791347b535b763122d6c5d8979'
+          checkpoint: '56d1afedf9aa8d365141ab4e9f3e446651e570d378ec8852e2871dc5867fda9a'
   name 'Tillana'
   homepage 'https://github.com/itfoundry/tillana'
 
