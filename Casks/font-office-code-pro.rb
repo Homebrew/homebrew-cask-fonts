@@ -4,7 +4,7 @@ cask 'font-office-code-pro' do
 
   url "https://github.com/nathco/Office-Code-Pro/archive/#{version}.zip"
   appcast 'https://github.com/nathco/Office-Code-Pro/releases.atom',
-          checkpoint: '07f1f6b80696d887148d5999ecffc7112467e7e3d86511c91a9ebf8e485fe0a2'
+          checkpoint: '2d64b92f60b8ea2e38bdd230f27990e391bf121449c68bcf2a48ef07c610b2d2'
   name 'Office Code Pro'
   homepage 'https://github.com/nathco/Office-Code-Pro'
 
