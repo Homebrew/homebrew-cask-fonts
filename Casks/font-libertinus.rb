@@ -4,7 +4,7 @@ cask 'font-libertinus' do
 
   url "https://github.com/khaledhosny/libertinus/archive/v#{version}.tar.gz"
   appcast 'https://github.com/khaledhosny/libertinus/releases.atom',
-          checkpoint: 'e8cc907dd473b2ebca71533b1c411831bde702f85ac500ee890daf7540c2555f'
+          checkpoint: '24a313083ba9e05ae2d14a10f0b62192c0d7e755c7ada97c61e140226f032b40'
   name 'Libertinus'
   homepage 'https://github.com/khaledhosny/libertinus'
 
