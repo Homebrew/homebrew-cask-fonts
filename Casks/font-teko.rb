@@ -4,7 +4,7 @@ cask 'font-teko' do
 
   url "https://github.com/itfoundry/teko/releases/download/v#{version}/teko-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/teko/releases.atom',
-          checkpoint: 'dff9e6431404e2d4a20f4a2766e34efcf3f125a0a972e23e15b206fc4e2a077c'
+          checkpoint: '7d0bb91529c23e06718129ecaa838fed5d828f324adc8161dc6cf067fe0781ce'
   name 'Teko'
   homepage 'https://github.com/itfoundry/teko'
 
