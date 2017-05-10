@@ -4,7 +4,7 @@ cask 'font-halant' do
 
   url "https://github.com/itfoundry/halant/releases/download/v#{version}/halant-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/halant/releases.atom',
-          checkpoint: 'c504ebfde438f9a78ec995033db2b6a5d9a6f0efcb67a88a4c62cf52c60b9e46'
+          checkpoint: '87eff9819049004334b1e37c201b2d0ee7d7256e606fc4da2d7f541ffe1570b5'
   name 'Halant'
   homepage 'https://github.com/itfoundry/halant'
 
