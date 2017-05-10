@@ -4,7 +4,7 @@ cask 'font-karma' do
 
   url 'https://github.com/itfoundry/karma/releases/download/v2.000/karma-2_000.zip'
   appcast 'https://github.com/itfoundry/karma/releases.atom',
-          checkpoint: '0e0ed7fb9d62b7b0e55601b00cefd8084aa91861957eb900201517ca1ec21e65'
+          checkpoint: '87f0ffa5e598524768f77b83886e45b410b9268f2bd5607ef524d6060f122984'
   name 'Karma'
   homepage 'https://github.com/itfoundry/karma'
 
