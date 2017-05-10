@@ -4,7 +4,7 @@ cask 'font-rajdhani' do
 
   url "https://github.com/itfoundry/rajdhani/releases/download/v#{version}/rajdhani-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/rajdhani/releases.atom',
-          checkpoint: '83cb5df4b0a6b60138dabbe7c4a1ac8a262972c00cd9f6be757af73d147d8bb4'
+          checkpoint: '7398088c8944508086004e189b1b1f104fc0d67c2f40ef7970fc2af6c75e8da0'
   name 'Rajdhani'
   homepage 'https://github.com/itfoundry/rajdhani'
 
