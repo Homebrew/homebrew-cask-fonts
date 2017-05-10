@@ -4,7 +4,7 @@ cask 'font-ionicons' do
 
   url "https://github.com/driftyco/ionicons/archive/v#{version}.zip"
   appcast 'https://github.com/driftyco/ionicons/releases.atom',
-          checkpoint: 'ba246633d7d553275db1a7d7892f22750644f66578fd7e16e32f4ad9cf5dcfba'
+          checkpoint: '3b4af4ca1eb9b498b480c6f6a0fb39f25d7f70538d720110e758c18dd10a1b0a'
   name 'Ionicons'
   homepage 'https://github.com/driftyco/ionicons'
 
