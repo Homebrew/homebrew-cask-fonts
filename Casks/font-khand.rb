@@ -4,7 +4,7 @@ cask 'font-khand' do
 
   url "https://github.com/itfoundry/khand/releases/download/v#{version}/khand-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/khand/releases.atom',
-          checkpoint: '7ffb8f16e434382ed985ceea0992822e2ea95ce4ce3c291f00f11e1ed0081e66'
+          checkpoint: '5b65c2e5d45ef200b8b82e21f9ee888ebd843d5e36f5dbb29fa6050f2665e765'
   name 'Khand'
   homepage 'https://github.com/itfoundry/khand'
 
