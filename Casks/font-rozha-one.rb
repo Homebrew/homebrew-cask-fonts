@@ -4,7 +4,7 @@ cask 'font-rozha-one' do
 
   url "https://github.com/itfoundry/rozhaone/releases/download/v#{version}/rozhaone-#{version.dots_to_underscores}.zip"
   appcast 'https://github.com/itfoundry/rozhaone/releases.atom',
-          checkpoint: '0aa351b7077db379253573a21001e38630f4321bd7ee00b8e9bdbcb5ea14a8f6'
+          checkpoint: '28aa1348e3009c23c4e915922dadb2fe6359a760c54f188ec1769e48c00f62ff'
   name 'Rozha One'
   homepage 'https://github.com/itfoundry/rozhaone'
 
