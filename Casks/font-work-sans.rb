@@ -5,7 +5,7 @@ cask 'font-work-sans' do
   # github.com/weiweihuanghuang/Work-Sans was verified as official when first introduced to the cask
   url "https://github.com/weiweihuanghuang/Work-Sans/archive/v#{version}.zip"
   appcast 'https://github.com/weiweihuanghuang/Work-Sans/releases.atom',
-          checkpoint: '0f6b8a1b720afc05862550caa4e559247971971e862047a99aab41b08ebd268c'
+          checkpoint: '07a5a033d6c1e6da0dc559fd7c96ebce1933ce4d75fc016543b740a0f4d084ee'
   name 'Work Sans'
   homepage 'http://weiweihuanghuang.github.io/Work-Sans/'
 
