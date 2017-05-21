@@ -8,7 +8,7 @@ cask 'font-thabit' do
       revision:   '50',
       trust_cert: true
   name 'Thabit'
-  homepage 'http://projects.arabeyes.org/project.php?proj=Khotot'
+  homepage 'https://www.arabeyes.org/'
 
   font 'Thabit-Bold.ttf'
   font 'Thabit-BoldOblique.ttf'
