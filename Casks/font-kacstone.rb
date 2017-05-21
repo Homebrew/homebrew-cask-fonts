@@ -7,7 +7,7 @@ cask 'font-kacstone' do
   appcast 'https://sourceforge.net/projects/arabeyes/rss',
           checkpoint: 'bc0a6a205d626e20896adb51f0cdc3e06e5c13808b471712d01fb0b342afa357'
   name 'KacstOne'
-  homepage 'http://projects.arabeyes.org/project.php?proj=Khotot'
+  homepage 'https://www.arabeyes.org/'
 
   font "kacst_one_#{version}/KacstOne.ttf"
   font "kacst_one_#{version}/KacstOne-Bold.ttf"
