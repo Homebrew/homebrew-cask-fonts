@@ -17,14 +17,6 @@ $ brew tap caskroom/fonts                  # you only have to do this once!
 $ brew cask install font-inconsolata
 ```
 
-## Search For a Font
-
-Font searching is temporarily disbled per [caskroom/homebrew-cask#3025](https://github.com/caskroom/homebrew-cask/pull/3025). While this is being fixed, one workaround is to use a regular expression search:
-
-```bash
-$ brew cask search /symbola/
-```
-
 ## Submitting a Font Cask
 
 Want to contribute a Font Cask? Awesome! Please do! See [CONTRIBUTING.md](CONTRIBUTING.md)
