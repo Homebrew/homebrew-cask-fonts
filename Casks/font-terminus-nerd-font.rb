@@ -4,7 +4,7 @@ cask 'font-terminus-nerd-font' do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Terminus.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '034cdfeb4f6a152086231f8388940cd9de7d8190aecbb26ec94e7a381bf7a3b7'
+          checkpoint: 'dbe84e88af08eb844f7f21de92a1fc57e8df10d3028055aff03e0441598806df'
   name 'TerminessTTF Nerd Font (Terminus)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
