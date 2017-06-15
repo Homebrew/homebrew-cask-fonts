@@ -4,7 +4,7 @@ cask 'font-fantasque-sans-mono' do
 
   url "https://github.com/belluzj/fantasque-sans/releases/download/v#{version}/FantasqueSansMono.zip"
   appcast 'https://github.com/belluzj/fantasque-sans/releases.atom',
-          checkpoint: '8085c3dff43a9dbf3201ca790c57800a089d1b69fec91226a600c04d9c681e36'
+          checkpoint: 'c2194a85e1a4985ebb6b40f0ed2564fd47f8c933348ae3d02cb7e06071eda6bc'
   name 'Fantasque Sans Mono'
   homepage 'https://github.com/belluzj/fantasque-sans'
 
