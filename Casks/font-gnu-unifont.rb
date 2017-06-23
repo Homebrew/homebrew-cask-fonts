@@ -1,8 +1,9 @@
 cask 'font-gnu-unifont' do
-  version '9.0.06'
-  sha256 'e217fbf24ac1ba3f028ed937b30b6c27f31fd1288857ca0fb0b11100637c2665'
+  version '10.0.01'
+  sha256 '7ec094a19f0e7c6f972088f44d6cd31701d42b80689aad998167b5b8892fdf79'
 
-  url "http://unifoundry.com/pub/unifont-#{version}/font-builds/unifont-#{version}.ttf"
+  # ftpmirror.gnu.org/unifont was verified as official when first introduced to the cask
+  url "http://ftpmirror.gnu.org/unifont/unifont-#{version}/unifont-#{version}.ttf"
   name 'GNU Unifont'
   homepage 'http://unifoundry.com/unifont.html'
 
