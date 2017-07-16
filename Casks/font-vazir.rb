@@ -1,11 +1,11 @@
 cask 'font-vazir' do
-  version '11.0.1'
-  sha256 '4181de7939e24d2fadedd92faadd25971e0af9076fa569125c2079cf1b28dd93'
+  version '13.0.1'
+  sha256 '00dee07c4ec18d250c2d8196913ec92df2298b5c5b5d155645ee37a0cf71226d'
 
   # github.com/rastikerdar was verified as official when first introduced to the cask
   url "https://github.com/rastikerdar/vazir-font/releases/download/v#{version}/vazir-font-v#{version}.zip"
   appcast 'https://github.com/rastikerdar/vazir-font/releases.atom',
-          checkpoint: '0e5df32d86a95a8e9222be11ef5d01289f15403258bbf068a43d14724c9ccbb5'
+          checkpoint: '9ea805b022057c745846d95d5bd9216933cd1d8d6d505643f38e1351e82c0a9f'
   name 'Vazir'
   homepage 'https://rastikerdar.github.io/vazir-font/'
 
