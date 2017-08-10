@@ -1,10 +1,10 @@
 cask 'font-inconsolata-nerd-font' do
-  version '1.0.0'
-  sha256 '5edfa11f7d06d97bc3d79cd84b9e2fe39189ddc9859e0e4d23369fab079b1034'
+  version '1.1.0'
+  sha256 '869bdc6c23483a5de77f772ebd462daace203ff77cb03f3a6d476026e1c1a988'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Inconsolata.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'dbe84e88af08eb844f7f21de92a1fc57e8df10d3028055aff03e0441598806df'
+          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
   name 'InconsolataForPowerline Nerd Font (Inconsolata)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
