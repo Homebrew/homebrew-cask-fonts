@@ -1,10 +1,10 @@
-cask 'font-dana-yad' do
-  version '1.000'
-  sha256 'd0115c1227f97c1f6c8b6f507adc32ef390dea245ed1b53042f3df99dee08d2e'
+cask 'font-yiddishkeit' do
+  version :latest
+  sha256 :no_check
 
-  url 'https://alefalefalef.co.il/wp-content/themes/aaa/fonts/free/dana-yad-alefalefalef.zip'
-  name 'Dana Yad'
+  url 'https://alefalefalef.co.il/wp-content/themes/aaa/fonts/free/YiddishkeitAlefAlefAlef-Bold.zip'
+  name 'Yiddishkeit'
   homepage 'https://alefalefalef.co.il/resources/פונטים-בחינם/'
 
-  font 'DanaYadAlefAlefAlef-Normal.otf'
+  font 'YiddishkeitAlefAlefAlef-Bold.otf'
 end
