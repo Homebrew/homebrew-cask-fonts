@@ -8,22 +8,22 @@ cask 'font-metropolis' do
   name 'Metropolis'
   homepage 'https://github.com/chrismsimpson/Metropolis'
 
-  font 'Metropolis-r9/Metropolis-Black.otf'
-  font 'Metropolis-r9/Metropolis-BlackItalic.otf'
-  font 'Metropolis-r9/Metropolis-Bold.otf'
-  font 'Metropolis-r9/Metropolis-BoldItalic.otf'
-  font 'Metropolis-r9/Metropolis-ExtraBold.otf'
-  font 'Metropolis-r9/Metropolis-ExtraBoldItalic.otf'
-  font 'Metropolis-r9/Metropolis-ExtraLight.otf'
-  font 'Metropolis-r9/Metropolis-ExtraLightItalic.otf'
-  font 'Metropolis-r9/Metropolis-Light.otf'
-  font 'Metropolis-r9/Metropolis-LightItalic.otf'
-  font 'Metropolis-r9/Metropolis-Medium.otf'
-  font 'Metropolis-r9/Metropolis-MediumItalic.otf'
-  font 'Metropolis-r9/Metropolis-Regular.otf'
-  font 'Metropolis-r9/Metropolis-RegularItalic.otf'
-  font 'Metropolis-r9/Metropolis-SemiBold.otf'
-  font 'Metropolis-r9/Metropolis-SemiBoldItalic.otf'
-  font 'Metropolis-r9/Metropolis-Thin.otf'
-  font 'Metropolis-r9/Metropolis-ThinItalic.otf'
+  font "Metropolis-r#{version}/Metropolis-Black.otf"
+  font "Metropolis-r#{version}/Metropolis-BlackItalic.otf"
+  font "Metropolis-r#{version}/Metropolis-Bold.otf"
+  font "Metropolis-r#{version}/Metropolis-BoldItalic.otf"
+  font "Metropolis-r#{version}/Metropolis-ExtraBold.otf"
+  font "Metropolis-r#{version}/Metropolis-ExtraBoldItalic.otf"
+  font "Metropolis-r#{version}/Metropolis-ExtraLight.otf"
+  font "Metropolis-r#{version}/Metropolis-ExtraLightItalic.otf"
+  font "Metropolis-r#{version}/Metropolis-Light.otf"
+  font "Metropolis-r#{version}/Metropolis-LightItalic.otf"
+  font "Metropolis-r#{version}/Metropolis-Medium.otf"
+  font "Metropolis-r#{version}/Metropolis-MediumItalic.otf"
+  font "Metropolis-r#{version}/Metropolis-Regular.otf"
+  font "Metropolis-r#{version}/Metropolis-RegularItalic.otf"
+  font "Metropolis-r#{version}/Metropolis-SemiBold.otf"
+  font "Metropolis-r#{version}/Metropolis-SemiBoldItalic.otf"
+  font "Metropolis-r#{version}/Metropolis-Thin.otf"
+  font "Metropolis-r#{version}/Metropolis-ThinItalic.otf"
 end
