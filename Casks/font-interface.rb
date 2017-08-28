@@ -1,11 +1,11 @@
 cask 'font-interface' do
-  version '1.3'
-  sha256 '4360516fb5d1bf0d64d86a5e03f6ec23e8c951078152197772c8a11d32eaa821'
+  version '1.4'
+  sha256 '5473405101e09c5cc22b21b6f7b150068c70e9873889dca7b4f6dad1b43ee4d4'
 
   # github.com/rsms/interface was verified as official when first introduced to the cask
   url "https://github.com/rsms/interface/releases/download/v#{version}/Interface-#{version}.zip"
   appcast 'https://github.com/rsms/interface/releases.atom',
-          checkpoint: '5b62094bf654e76d4d2b3d564c9e7599e1e8a489f4b2bc647aab1155b894c209'
+          checkpoint: 'de5783977983aab7c163ff2bbb96fee558c7db11646cb6c5e7246619c3a37ddd'
   name 'Interface'
   homepage 'https://rsms.me/interface/'
 
