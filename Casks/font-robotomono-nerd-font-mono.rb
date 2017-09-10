@@ -1,10 +1,10 @@
 cask 'font-robotomono-nerd-font-mono' do
-  version '1.0.0'
-  sha256 '1426a6dc8b4c17fd978db6f74fa3ad6524b1e4dd362a2f9f50b1f9923eff1567'
+  version '1.1.0'
+  sha256 '5f020b8ef4aa2d78dbc2f3471127a4e6cfc8d238084e094f2009c0c35486a53d'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/RobotoMono.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'dbe84e88af08eb844f7f21de92a1fc57e8df10d3028055aff03e0441598806df'
+          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
   name 'RobotoMono Nerd Font (RobotoMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
