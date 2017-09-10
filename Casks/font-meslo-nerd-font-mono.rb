@@ -1,10 +1,10 @@
 cask 'font-meslo-nerd-font-mono' do
-  version '1.0.0'
-  sha256 '30998d2d4c430c6421d51d52c57cdb5c67c53988e551e07cc198fb645cfa9c56'
+  version '1.1.0'
+  sha256 '981a4c456faa7e7fc9f3946caeb95b5ffa8ed99e3f98ec1a56df3d5a19c7d75f'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Meslo.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'dbe84e88af08eb844f7f21de92a1fc57e8df10d3028055aff03e0441598806df'
+          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
   name 'MesloLGM Nerd Font (Meslo)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
