@@ -2,10 +2,10 @@ cask 'font-hack' do
   version '2.020'
   sha256 '88f7124c0aa8b0ba3e38142f16fae2d1fcab4f2b3fcc9152f403de325dc4876c'
 
-  # github.com/chrissimpkins/Hack was verified as official when first introduced to the cask
-  url "https://github.com/chrissimpkins/Hack/archive/v#{version}.zip"
-  appcast 'https://github.com/chrissimpkins/Hack/releases.atom',
-          checkpoint: 'f7edfa7d10341adaeff44bfe1e0987163acc3be9fd2f8854b241966ebc5e6e20'
+  # github.com/source-foundry/Hack was verified as official when first introduced to the cask
+  url "https://github.com/source-foundry/Hack/archive/v#{version}.zip"
+  appcast 'https://github.com/source-foundry/Hack/releases.atom',
+          checkpoint: '44d03c4888ecd2f697c3a14b2002753e0486ab13880b4f0121a68b5f15da63cb'
   name 'Hack'
   homepage 'http://sourcefoundry.org/hack/'
 
