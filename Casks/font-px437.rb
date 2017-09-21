@@ -1,9 +1,11 @@
-cask 'the-ultimate-oldschool-pc-font-pack' do
-  version 'v1.0'
+cask 'font-px437' do
+  version '1.0'
   sha256 '7666cf23176e34ea03a218b5c1500f4ad729d97150ab7bdb7cf2adf4c99a9a7a'
 
-  url 'http://int10h.org/oldschool-pc-fonts/download/ultimate_oldschool_pc_font_pack_v1.0.zip'
-  name 'The Ultimate Oldschool PC Font Pack'
+  url "http://int10h.org/oldschool-pc-fonts/download/ultimate_oldschool_pc_font_pack_v#{version}.zip"
+  name 'Px437'
+  name 'PxPlus'
+  name 'Ultimate Oldschool PC Font Pack'
   homepage 'http://int10h.org/oldschool-pc-fonts/'
 
   font 'Px437 (TrueType - DOS charset)/Px437_AMI_BIOS-2y.ttf'
