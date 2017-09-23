@@ -7,5 +7,5 @@ cask 'font-luckiest-guy' do
   name 'Luckiest Guy'
   homepage 'http://www.google.com/fonts/specimen/Luckiest+Guy'
 
-  font 'LuckiestGuy.ttf'
+  font 'LuckiestGuy-Regular.ttf'
 end
