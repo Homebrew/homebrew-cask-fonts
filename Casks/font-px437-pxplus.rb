@@ -1,4 +1,4 @@
-cask 'font-px437' do
+cask 'font-px437-pxplus' do
   version '1.0'
   sha256 '7666cf23176e34ea03a218b5c1500f4ad729d97150ab7bdb7cf2adf4c99a9a7a'
 
