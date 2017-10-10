@@ -1,7 +1,5 @@
 # Caskroom-fonts
 
-[![Build Status](https://travis-ci.org/caskroom/homebrew-fonts.svg?branch=master)](https://travis-ci.org/caskroom/homebrew-fonts)
-
 Caskroom-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Mac.
 
 Here is where you can find or submit font Casks for the [homebrew-cask](https://github.com/caskroom/homebrew-cask) project.
