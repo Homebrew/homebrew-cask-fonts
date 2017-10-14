@@ -1,6 +1,6 @@
 cask 'font-hanamina' do
-  version '2016.02.01'
-  sha256 '2b89af892d969edbb47b5adf75663a76c2bec5961467e65557b623f6b2add139'
+  version '2017.09.04'
+  sha256 '571cd4a09ae7da0c642d640fc2442c050aa450ebb0587a95cdd097d41a9c9572'
 
   # dl.osdn.jp/hanazono-font was verified as official when first introduced to the cask
   url "http://dl.osdn.jp/hanazono-font/64385/hanazono-#{version.no_dots}.zip"
