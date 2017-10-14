@@ -3,9 +3,9 @@ cask 'font-ultra' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/apache/ultra/Ultra.ttf'
+  url 'https://github.com/google/fonts/raw/master/apache/ultra/Ultra-Regular.ttf'
   name 'Ultra'
   homepage 'http://www.google.com/fonts/specimen/Ultra'
 
-  font 'Ultra.ttf'
+  font 'Ultra-Regular.ttf'
 end
