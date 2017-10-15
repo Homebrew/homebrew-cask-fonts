@@ -3,7 +3,7 @@ cask 'font-et-book' do
   sha256 :no_check
 
   # github.com/edwardtufte/et-book was verified as official when first introduced to the cask
-  url 'https://github.com/edwardtufte/et-book/trunk/et-book',
+  url 'http://edwardtufte.github.io/et-book/et-book',
       using:      :svn,
       revision:   '50',
       trust_cert: true
