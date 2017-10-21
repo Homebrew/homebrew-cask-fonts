@@ -1,16 +1,16 @@
 cask 'font-hack' do
-  version '2.020'
-  sha256 '88f7124c0aa8b0ba3e38142f16fae2d1fcab4f2b3fcc9152f403de325dc4876c'
+  version '3.000'
+  sha256 '238765b81e88dd207d241a6ae46abeab37346d850566334fc1cca8221ea6da40'
 
   # github.com/source-foundry/Hack was verified as official when first introduced to the cask
-  url "https://github.com/source-foundry/Hack/archive/v#{version}.zip"
+  url "https://github.com/source-foundry/Hack/releases/download/v#{version}/Hack-v#{version}-ttf.zip"
   appcast 'https://github.com/source-foundry/Hack/releases.atom',
-          checkpoint: '44d03c4888ecd2f697c3a14b2002753e0486ab13880b4f0121a68b5f15da63cb'
+          checkpoint: 'faf7232c5570d40cd2b95d73ddafe6d405f3badb19f72a914821ec748d63fd22'
   name 'Hack'
   homepage 'http://sourcefoundry.org/hack/'
 
-  font "Hack-#{version}/build/otf/Hack-Regular.otf"
-  font "Hack-#{version}/build/otf/Hack-Italic.otf"
-  font "Hack-#{version}/build/otf/Hack-Bold.otf"
-  font "Hack-#{version}/build/otf/Hack-BoldItalic.otf"
+  font 'ttf/Hack-Regular.ttf'
+  font 'ttf/Hack-Italic.ttf'
+  font 'ttf/Hack-Bold.ttf'
+  font 'ttf/Hack-BoldItalic.ttf'
 end
