@@ -13,8 +13,8 @@ cask 'font-inter-ui' do
   font 'Inter UI (OTF)/Inter-UI-BlackItalic.otf'
   font 'Inter UI (OTF)/Inter-UI-Bold.otf'
   font 'Inter UI (OTF)/Inter-UI-BoldItalic.otf'
+  font 'Inter UI (OTF)/Inter-UI-Italic.otf'
   font 'Inter UI (OTF)/Inter-UI-Medium.otf'
   font 'Inter UI (OTF)/Inter-UI-MediumItalic.otf'
   font 'Inter UI (OTF)/Inter-UI-Regular.otf'
-  font 'Inter UI (OTF)/Inter-UI-RegularItalic.otf'
 end
