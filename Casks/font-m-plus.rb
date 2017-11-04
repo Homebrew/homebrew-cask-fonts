@@ -1,6 +1,6 @@
 cask 'font-m-plus' do
-  version '062'
-  sha256 '0ac2b66f814129dcf327061944b6b409b6dae9e22f94f1a383d216556ddd84b8'
+  version '063'
+  sha256 '149a5c97c35624d79ffb3cbbdd56559319085229acaf72b49b56adc5ede0979c'
 
   url "http://dl.osdn.jp/mplus-fonts/62344/mplus-TESTFLIGHT-#{version}.tar.xz"
   name 'M+ FONTS'
