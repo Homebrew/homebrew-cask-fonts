@@ -1,6 +1,6 @@
 cask 'font-cherry-cream-soda' do
-  version :latest
-  sha256 :no_check
+  version '1.001'
+  sha256 '158577b383ce9798384580bd41c35cd0fb4ed550a32fe4a2e41f4f2594337385'
 
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/cherrycreamsoda/CherryCreamSoda.ttf'
