@@ -1,4 +1,4 @@
-cask 'ia-writer-duospace' do
+cask 'font-ia-writer-duospace' do
   version :latest
   sha256 :no_check
 
