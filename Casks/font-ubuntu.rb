@@ -2,7 +2,7 @@ cask 'font-ubuntu' do
   version '0.83'
   sha256 '456d7d42797febd0d7d4cf1b782a2e03680bb4a5ee43cc9d06bda172bac05b42'
 
-  url "http://font.ubuntu.com/download/ubuntu-font-family-#{version}.zip"
+  url 'https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip'
   name 'Ubuntu'
   homepage 'http://font.ubuntu.com/'
 
