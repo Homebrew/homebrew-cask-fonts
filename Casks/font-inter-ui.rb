@@ -1,11 +1,11 @@
 cask 'font-inter-ui' do
-  version '2.2'
-  sha256 '6c09f26d252be17db4243cf7b9136fef5f5e2011c22865de5bfd6ada7430895c'
+  version '2.3'
+  sha256 'fdf9c0c0641f1ba2d71a92dcb5d580c0ebd251fe5bfb57d78757fd21c6f237fd'
 
   # github.com/rsms/inter was verified as official when first introduced to the cask
   url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-UI-#{version}.zip"
   appcast 'https://github.com/rsms/inter/releases.atom',
-          checkpoint: '74b54e95c064c6ef90dc21adaf909c3deb8335bc7645bd015a010d8d9a0e5299'
+          checkpoint: 'c3e175fb17e43f27e53e81932988c2d10b9fedd5faf2ee01a08a8a50113ec91a'
   name 'Inter UI'
   homepage 'https://rsms.me/inter/'
 
