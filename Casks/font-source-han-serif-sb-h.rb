@@ -12,7 +12,7 @@ cask 'font-source-han-serif-sb-h' do
   font 'SourceHanSerifOTC_SB-H/SourceHanSerif-Bold.ttc'
   font 'SourceHanSerifOTC_SB-H/SourceHanSerif-Heavy.ttc'
 
-  caveats <<-EOS.undent
+  caveats <<~EOS
     #{token} only installs the SemiBold, Bold, and Heavy weights.
     To install ExtraLight, Light, Regular, and Medium:
 
