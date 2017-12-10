@@ -8,7 +8,7 @@ cask 'font-karla' do
       revision:   '50',
       trust_cert: true
   name 'Karla'
-  homepage 'http://www.google.com/fonts/specimen/Karla'
+  homepage 'https://www.google.com/fonts/specimen/Karla'
 
   font 'Karla-Bold.ttf'
   font 'Karla-BoldItalic.ttf'

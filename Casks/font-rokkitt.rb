@@ -8,7 +8,7 @@ cask 'font-rokkitt' do
       revision:   '50',
       trust_cert: true
   name 'Rokkitt'
-  homepage 'http://www.google.com/fonts/specimen/Rokkitt'
+  homepage 'https://www.google.com/fonts/specimen/Rokkitt'
 
   font 'Rokkitt-Bold.ttf'
   font 'Rokkitt-Light.ttf'

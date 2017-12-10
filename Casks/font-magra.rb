@@ -8,7 +8,7 @@ cask 'font-magra' do
       revision:   '50',
       trust_cert: true
   name 'Magra'
-  homepage 'http://www.google.com/fonts/specimen/Magra'
+  homepage 'https://www.google.com/fonts/specimen/Magra'
 
   font 'Magra-Bold.ttf'
   font 'Magra-Regular.ttf'

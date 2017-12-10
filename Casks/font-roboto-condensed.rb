@@ -7,7 +7,7 @@ cask 'font-roboto-condensed' do
       using:      :svn,
       trust_cert: true
   name 'Roboto Condensed'
-  homepage 'http://www.google.com/fonts/specimen/Roboto%20Condensed'
+  homepage 'https://www.google.com/fonts/specimen/Roboto%20Condensed'
 
   font 'RobotoCondensed-Bold.ttf'
   font 'RobotoCondensed-BoldItalic.ttf'

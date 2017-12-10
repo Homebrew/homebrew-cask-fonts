@@ -8,7 +8,7 @@ cask 'font-delius-unicase' do
       revision:   '50',
       trust_cert: true
   name 'Delius Unicase'
-  homepage 'http://www.google.com/fonts/specimen/Delius%20Unicase'
+  homepage 'https://www.google.com/fonts/specimen/Delius%20Unicase'
 
   font 'DeliusUnicase-Bold.ttf'
   font 'DeliusUnicase-Regular.ttf'

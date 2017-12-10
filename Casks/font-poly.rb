@@ -8,7 +8,7 @@ cask 'font-poly' do
       revision:   '50',
       trust_cert: true
   name 'Poly'
-  homepage 'http://www.google.com/fonts/specimen/Poly'
+  homepage 'https://www.google.com/fonts/specimen/Poly'
 
   font 'Poly-Italic.ttf'
   font 'Poly-Regular.ttf'

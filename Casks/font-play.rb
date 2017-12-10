@@ -8,7 +8,7 @@ cask 'font-play' do
       revision:   '50',
       trust_cert: true
   name 'Play'
-  homepage 'http://www.google.com/fonts/specimen/Play'
+  homepage 'https://www.google.com/fonts/specimen/Play'
 
   font 'Play-Bold.ttf'
   font 'Play-Regular.ttf'

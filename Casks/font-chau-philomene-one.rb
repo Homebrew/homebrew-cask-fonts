@@ -8,7 +8,7 @@ cask 'font-chau-philomene-one' do
       revision:   '50',
       trust_cert: true
   name 'Chau Philomene One'
-  homepage 'http://www.google.com/fonts/specimen/Chau%20Philomene%20One'
+  homepage 'https://www.google.com/fonts/specimen/Chau%20Philomene%20One'
 
   font 'ChauPhilomeneOne-Italic.ttf'
   font 'ChauPhilomeneOne-Regular.ttf'

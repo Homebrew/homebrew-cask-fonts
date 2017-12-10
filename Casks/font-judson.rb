@@ -8,7 +8,7 @@ cask 'font-judson' do
       revision:   '50',
       trust_cert: true
   name 'Judson'
-  homepage 'http://www.google.com/fonts/specimen/Judson'
+  homepage 'https://www.google.com/fonts/specimen/Judson'
 
   font 'Judson-Bold.ttf'
   font 'Judson-Italic.ttf'

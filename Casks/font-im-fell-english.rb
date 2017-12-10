@@ -8,7 +8,7 @@ cask 'font-im-fell-english' do
       revision:   '50',
       trust_cert: true
   name 'IM Fell English'
-  homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20English'
+  homepage 'https://www.google.com/fonts/specimen/IM%20Fell%20English'
 
   font 'IMFeENit28P.ttf'
   font 'IMFeENrm28P.ttf'

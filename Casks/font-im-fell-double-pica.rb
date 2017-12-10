@@ -8,7 +8,7 @@ cask 'font-im-fell-double-pica' do
       revision:   '50',
       trust_cert: true
   name 'IM Fell Double Pica'
-  homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20Double%20Pica'
+  homepage 'https://www.google.com/fonts/specimen/IM%20Fell%20Double%20Pica'
 
   font 'IMFeDPit28P.ttf'
   font 'IMFeDPrm28P.ttf'

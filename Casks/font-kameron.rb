@@ -8,7 +8,7 @@ cask 'font-kameron' do
       revision:   '50',
       trust_cert: true
   name 'Kameron'
-  homepage 'http://www.google.com/fonts/specimen/Kameron'
+  homepage 'https://www.google.com/fonts/specimen/Kameron'
 
   font 'Kameron-Bold.ttf'
   font 'Kameron-Regular.ttf'

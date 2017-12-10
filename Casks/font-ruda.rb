@@ -8,7 +8,7 @@ cask 'font-ruda' do
       revision:   '50',
       trust_cert: true
   name 'Ruda'
-  homepage 'http://www.google.com/fonts/specimen/Ruda'
+  homepage 'https://www.google.com/fonts/specimen/Ruda'
 
   font 'Ruda-Black.ttf'
   font 'Ruda-Bold.ttf'

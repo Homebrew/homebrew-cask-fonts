@@ -8,7 +8,7 @@ cask 'font-josefin-slab' do
       revision:   '50',
       trust_cert: true
   name 'Josefin Slab'
-  homepage 'http://www.google.com/fonts/specimen/Josefin%20Slab'
+  homepage 'https://www.google.com/fonts/specimen/Josefin%20Slab'
 
   font 'JosefinSlab-Bold.ttf'
   font 'JosefinSlab-BoldItalic.ttf'

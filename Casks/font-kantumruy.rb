@@ -8,7 +8,7 @@ cask 'font-kantumruy' do
       revision:   '50',
       trust_cert: true
   name 'Kantumruy'
-  homepage 'http://www.google.com/fonts/specimen/Kantumruy'
+  homepage 'https://www.google.com/fonts/specimen/Kantumruy'
 
   font 'Kantumruy-Bold.ttf'
   font 'Kantumruy-Light.ttf'

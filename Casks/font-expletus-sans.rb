@@ -8,7 +8,7 @@ cask 'font-expletus-sans' do
       revision:   '50',
       trust_cert: true
   name 'Expletus Sans'
-  homepage 'http://www.google.com/fonts/specimen/Expletus%20Sans'
+  homepage 'https://www.google.com/fonts/specimen/Expletus%20Sans'
 
   font 'ExpletusSans-Bold.ttf'
   font 'ExpletusSans-BoldItalic.ttf'

@@ -8,7 +8,7 @@ cask 'font-gfs-neohellenic' do
       revision:   '50',
       trust_cert: true
   name 'GFS Neohellenic'
-  homepage 'http://www.google.com/fonts/specimen/GFS%20Neohellenic'
+  homepage 'https://www.google.com/fonts/specimen/GFS%20Neohellenic'
 
   font 'GFSNeohellenic.ttf'
   font 'GFSNeohellenicBold.ttf'

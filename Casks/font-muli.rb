@@ -8,7 +8,7 @@ cask 'font-muli' do
       revision:   '50',
       trust_cert: true
   name 'Muli'
-  homepage 'http://www.google.com/fonts/specimen/Muli'
+  homepage 'https://www.google.com/fonts/specimen/Muli'
 
   font 'Muli-Italic.ttf'
   font 'Muli-Light.ttf'

@@ -8,7 +8,7 @@ cask 'font-istok-web' do
       revision:   '50',
       trust_cert: true
   name 'Istok Web'
-  homepage 'http://www.google.com/fonts/specimen/Istok%20Web'
+  homepage 'https://www.google.com/fonts/specimen/Istok%20Web'
 
   font 'IstokWeb-Bold.ttf'
   font 'IstokWeb-BoldItalic.ttf'

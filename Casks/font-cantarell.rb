@@ -8,7 +8,7 @@ cask 'font-cantarell' do
       revision:   '50',
       trust_cert: true
   name 'Cantarell'
-  homepage 'http://www.google.com/fonts/specimen/Cantarell'
+  homepage 'https://www.google.com/fonts/specimen/Cantarell'
 
   font 'Cantarell-Bold.ttf'
   font 'Cantarell-BoldOblique.ttf'

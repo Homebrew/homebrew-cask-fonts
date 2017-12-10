@@ -8,7 +8,7 @@ cask 'font-merriweather' do
       revision:   '1208',
       trust_cert: true
   name 'Merriweather'
-  homepage 'http://www.google.com/fonts/specimen/Merriweather'
+  homepage 'https://www.google.com/fonts/specimen/Merriweather'
 
   font 'Merriweather-Black.ttf'
   font 'Merriweather-BlackItalic.ttf'

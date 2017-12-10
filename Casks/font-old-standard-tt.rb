@@ -8,7 +8,7 @@ cask 'font-old-standard-tt' do
       revision:   '50',
       trust_cert: true
   name 'Old Standard TT'
-  homepage 'http://www.google.com/fonts/specimen/Old%20Standard%20TT'
+  homepage 'https://www.google.com/fonts/specimen/Old%20Standard%20TT'
 
   font 'OldStandard-Bold.ttf'
   font 'OldStandard-Italic.ttf'

@@ -8,7 +8,7 @@ cask 'font-almendra' do
       revision:   '50',
       trust_cert: true
   name 'Almendra'
-  homepage 'http://www.google.com/fonts/specimen/Almendra'
+  homepage 'https://www.google.com/fonts/specimen/Almendra'
 
   font 'Almendra-Bold.ttf'
   font 'Almendra-BoldItalic.ttf'

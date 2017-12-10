@@ -8,7 +8,7 @@ cask 'font-raleway' do
       revision:   '50',
       trust_cert: true
   name 'Raleway'
-  homepage 'http://www.google.com/fonts/specimen/Raleway'
+  homepage 'https://www.google.com/fonts/specimen/Raleway'
 
   font 'Raleway-Black.ttf'
   font 'Raleway-BlackItalic.ttf'
