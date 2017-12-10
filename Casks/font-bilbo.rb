@@ -5,7 +5,7 @@ cask 'font-bilbo' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/bilbo/Bilbo-Regular.ttf'
   name 'Bilbo'
-  homepage 'http://www.google.com/fonts/specimen/Bilbo'
+  homepage 'https://www.google.com/fonts/specimen/Bilbo'
 
   font 'Bilbo-Regular.ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-caesar-dressing' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/caesardressing/CaesarDressing-Regular.ttf'
   name 'Caesar Dressing'
-  homepage 'http://www.google.com/fonts/specimen/Caesar+Dressing'
+  homepage 'https://www.google.com/fonts/specimen/Caesar+Dressing'
 
   font 'CaesarDressing-Regular.ttf'
 end
