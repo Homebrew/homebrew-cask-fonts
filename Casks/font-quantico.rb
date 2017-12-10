@@ -8,7 +8,7 @@ cask 'font-quantico' do
       revision:   '50',
       trust_cert: true
   name 'Quantico'
-  homepage 'http://www.google.com/fonts/specimen/Quantico'
+  homepage 'https://www.google.com/fonts/specimen/Quantico'
 
   font 'Quantico-Bold.ttf'
   font 'Quantico-BoldItalic.ttf'

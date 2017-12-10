@@ -8,7 +8,7 @@ cask 'font-sniglet' do
       revision:   '50',
       trust_cert: true
   name 'Sniglet'
-  homepage 'http://www.google.com/fonts/specimen/Sniglet'
+  homepage 'https://www.google.com/fonts/specimen/Sniglet'
 
   font 'Sniglet-ExtraBold.ttf'
   font 'Sniglet-Regular.ttf'

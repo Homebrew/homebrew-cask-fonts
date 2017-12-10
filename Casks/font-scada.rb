@@ -8,7 +8,7 @@ cask 'font-scada' do
       revision:   '50',
       trust_cert: true
   name 'Scada'
-  homepage 'http://www.google.com/fonts/specimen/Scada'
+  homepage 'https://www.google.com/fonts/specimen/Scada'
 
   font 'Scada-Bold.ttf'
   font 'Scada-BoldItalic.ttf'

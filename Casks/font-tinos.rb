@@ -8,7 +8,7 @@ cask 'font-tinos' do
       revision:   '50',
       trust_cert: true
   name 'Tinos'
-  homepage 'http://www.google.com/fonts/specimen/Tinos'
+  homepage 'https://www.google.com/fonts/specimen/Tinos'
 
   font 'Tinos-Bold.ttf'
   font 'Tinos-BoldItalic.ttf'

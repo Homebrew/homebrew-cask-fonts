@@ -8,7 +8,7 @@ cask 'font-tangerine' do
       revision:   '50',
       trust_cert: true
   name 'Tangerine'
-  homepage 'http://www.google.com/fonts/specimen/Tangerine'
+  homepage 'https://www.google.com/fonts/specimen/Tangerine'
 
   font 'Tangerine_Bold.ttf'
   font 'Tangerine_Regular.ttf'

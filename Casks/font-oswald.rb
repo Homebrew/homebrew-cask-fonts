@@ -8,7 +8,7 @@ cask 'font-oswald' do
       revision:   '1208',
       trust_cert: true
   name 'Oswald'
-  homepage 'http://www.google.com/fonts/specimen/Oswald'
+  homepage 'https://www.google.com/fonts/specimen/Oswald'
 
   font 'Oswald-Bold.ttf'
   font 'Oswald-ExtraLight.ttf'

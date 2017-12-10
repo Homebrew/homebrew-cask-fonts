@@ -8,7 +8,7 @@ cask 'font-rosario' do
       revision:   '50',
       trust_cert: true
   name 'Rosario'
-  homepage 'http://www.google.com/fonts/specimen/Rosario'
+  homepage 'https://www.google.com/fonts/specimen/Rosario'
 
   font 'Rosario-Bold.ttf'
   font 'Rosario-BoldItalic.ttf'

@@ -8,7 +8,7 @@ cask 'font-quicksand' do
       revision:   '50',
       trust_cert: true
   name 'Quicksand'
-  homepage 'http://www.google.com/fonts/specimen/Quicksand'
+  homepage 'https://www.google.com/fonts/specimen/Quicksand'
 
   font 'Quicksand-Bold.ttf'
   font 'Quicksand-BoldItalic.ttf'

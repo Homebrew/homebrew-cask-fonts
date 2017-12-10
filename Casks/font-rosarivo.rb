@@ -8,7 +8,7 @@ cask 'font-rosarivo' do
       revision:   '50',
       trust_cert: true
   name 'Rosarivo'
-  homepage 'http://www.google.com/fonts/specimen/Rosarivo'
+  homepage 'https://www.google.com/fonts/specimen/Rosarivo'
 
   font 'Rosarivo-Italic.ttf'
   font 'Rosarivo-Regular.ttf'

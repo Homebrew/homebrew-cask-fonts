@@ -8,7 +8,7 @@ cask 'font-skranji' do
       revision:   '50',
       trust_cert: true
   name 'Skranji'
-  homepage 'http://www.google.com/fonts/specimen/Skranji'
+  homepage 'https://www.google.com/fonts/specimen/Skranji'
 
   font 'Skranji-Bold.ttf'
   font 'Skranji-Regular.ttf'

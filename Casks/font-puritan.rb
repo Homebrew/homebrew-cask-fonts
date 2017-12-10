@@ -8,7 +8,7 @@ cask 'font-puritan' do
       revision:   '50',
       trust_cert: true
   name 'Puritan'
-  homepage 'http://www.google.com/fonts/specimen/Puritan'
+  homepage 'https://www.google.com/fonts/specimen/Puritan'
 
   font 'Puritan-Bold.ttf'
   font 'Puritan-BoldItalic.ttf'

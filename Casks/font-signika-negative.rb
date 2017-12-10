@@ -8,7 +8,7 @@ cask 'font-signika-negative' do
       revision:   '50',
       trust_cert: true
   name 'Signika Negative'
-  homepage 'http://www.google.com/fonts/specimen/Signika%20Negative'
+  homepage 'https://www.google.com/fonts/specimen/Signika%20Negative'
 
   font 'SignikaNegative-Bold.ttf'
   font 'SignikaNegative-Light.ttf'

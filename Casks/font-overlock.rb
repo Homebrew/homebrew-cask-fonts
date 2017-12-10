@@ -8,7 +8,7 @@ cask 'font-overlock' do
       revision:   '50',
       trust_cert: true
   name 'Overlock'
-  homepage 'http://www.google.com/fonts/specimen/Overlock'
+  homepage 'https://www.google.com/fonts/specimen/Overlock'
 
   font 'Overlock-Black.ttf'
   font 'Overlock-BlackItalic.ttf'

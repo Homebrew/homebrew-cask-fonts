@@ -8,7 +8,7 @@ cask 'font-varela' do
       revision:   '796',
       trust_cert: true
   name 'Varela'
-  homepage 'http://www.google.com/fonts/specimen/Varela'
+  homepage 'https://www.google.com/fonts/specimen/Varela'
 
   font 'Varela-Regular.ttf'
 end

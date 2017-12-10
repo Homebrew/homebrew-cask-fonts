@@ -8,7 +8,7 @@ cask 'font-syncopate' do
       revision:   '50',
       trust_cert: true
   name 'Syncopate'
-  homepage 'http://www.google.com/fonts/specimen/Syncopate'
+  homepage 'https://www.google.com/fonts/specimen/Syncopate'
 
   font 'Syncopate-Bold.ttf'
   font 'Syncopate-Regular.ttf'
