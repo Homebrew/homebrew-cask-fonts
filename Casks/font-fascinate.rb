@@ -5,7 +5,7 @@ cask 'font-fascinate' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/fascinate/Fascinate-Regular.ttf'
   name 'Fascinate'
-  homepage 'http://www.google.com/fonts/specimen/Fascinate'
+  homepage 'https://www.google.com/fonts/specimen/Fascinate'
 
   font 'Fascinate-Regular.ttf'
 end

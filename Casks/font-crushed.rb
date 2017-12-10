@@ -5,7 +5,7 @@ cask 'font-crushed' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/crushed/Crushed-Regular.ttf'
   name 'Crushed'
-  homepage 'http://www.google.com/fonts/specimen/Crushed'
+  homepage 'https://www.google.com/fonts/specimen/Crushed'
 
   font 'Crushed-Regular.ttf'
 end

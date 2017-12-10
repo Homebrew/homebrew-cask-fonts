@@ -5,7 +5,7 @@ cask 'font-cutive' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/cutive/Cutive-Regular.ttf'
   name 'Cutive'
-  homepage 'http://www.google.com/fonts/specimen/Cutive'
+  homepage 'https://www.google.com/fonts/specimen/Cutive'
 
   font 'Cutive-Regular.ttf'
 end
