@@ -5,7 +5,7 @@ cask 'font-montez' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/montez/Montez-Regular.ttf'
   name 'Montez'
-  homepage 'http://www.google.com/fonts/specimen/Montez'
+  homepage 'https://www.google.com/fonts/specimen/Montez'
 
   font 'Montez-Regular.ttf'
 end
