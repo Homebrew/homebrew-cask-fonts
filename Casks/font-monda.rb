@@ -8,7 +8,7 @@ cask 'font-monda' do
       revision:   '50',
       trust_cert: true
   name 'Monda'
-  homepage 'http://www.google.com/fonts/specimen/Monda'
+  homepage 'https://www.google.com/fonts/specimen/Monda'
 
   font 'Monda-Bold.ttf'
   font 'Monda-Regular.ttf'

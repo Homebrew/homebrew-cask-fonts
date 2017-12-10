@@ -8,7 +8,7 @@ cask 'font-nobile' do
       revision:   '50',
       trust_cert: true
   name 'Nobile'
-  homepage 'http://www.google.com/fonts/specimen/Nobile'
+  homepage 'https://www.google.com/fonts/specimen/Nobile'
 
   font 'Nobile-Bold.ttf'
   font 'Nobile-BoldItalic.ttf'

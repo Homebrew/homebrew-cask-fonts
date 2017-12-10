@@ -8,7 +8,7 @@ cask 'font-marvel' do
       revision:   '50',
       trust_cert: true
   name 'Marvel'
-  homepage 'http://www.google.com/fonts/specimen/Marvel'
+  homepage 'https://www.google.com/fonts/specimen/Marvel'
 
   font 'Marvel-Bold.ttf'
   font 'Marvel-BoldItalic.ttf'

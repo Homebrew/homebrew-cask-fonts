@@ -8,7 +8,7 @@ cask 'font-lusitana' do
       revision:   '50',
       trust_cert: true
   name 'Lusitana'
-  homepage 'http://www.google.com/fonts/specimen/Lusitana'
+  homepage 'https://www.google.com/fonts/specimen/Lusitana'
 
   font 'Lusitana-Bold.ttf'
   font 'Lusitana-Regular.ttf'
