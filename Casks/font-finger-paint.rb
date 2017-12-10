@@ -5,7 +5,7 @@ cask 'font-finger-paint' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/fingerpaint/FingerPaint-Regular.ttf'
   name 'Finger Paint'
-  homepage 'http://www.google.com/fonts/specimen/Finger+Paint'
+  homepage 'https://www.google.com/fonts/specimen/Finger+Paint'
 
   font 'FingerPaint-Regular.ttf'
 end

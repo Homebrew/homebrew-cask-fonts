@@ -5,7 +5,7 @@ cask 'font-aubrey' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/aubrey/Aubrey-Regular.ttf'
   name 'Aubrey'
-  homepage 'http://www.google.com/fonts/specimen/Aubrey'
+  homepage 'https://www.google.com/fonts/specimen/Aubrey'
 
   font 'Aubrey-Regular.ttf'
 end

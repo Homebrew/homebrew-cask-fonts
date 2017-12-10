@@ -5,7 +5,7 @@ cask 'font-architects-daughter' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/architectsdaughter/ArchitectsDaughter-Regular.ttf'
   name 'Architects Daughter'
-  homepage 'http://www.google.com/fonts/specimen/Architects+Daughter'
+  homepage 'https://www.google.com/fonts/specimen/Architects+Daughter'
 
   font 'ArchitectsDaughter-Regular.ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-basic' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/basic/Basic-Regular.ttf'
   name 'Basic'
-  homepage 'http://www.google.com/fonts/specimen/Basic'
+  homepage 'https://www.google.com/fonts/specimen/Basic'
 
   font 'Basic-Regular.ttf'
 end
