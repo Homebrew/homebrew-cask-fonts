@@ -5,7 +5,7 @@ cask 'font-oldenburg' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/oldenburg/Oldenburg-Regular.ttf'
   name 'Oldenburg'
-  homepage 'http://www.google.com/fonts/specimen/Oldenburg'
+  homepage 'https://www.google.com/fonts/specimen/Oldenburg'
 
   font 'Oldenburg-Regular.ttf'
 end

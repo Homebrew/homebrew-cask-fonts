@@ -5,7 +5,7 @@ cask 'font-overlock-sc' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/overlocksc/OverlockSC-Regular.ttf'
   name 'Overlock SC'
-  homepage 'http://www.google.com/fonts/specimen/Overlock+SC'
+  homepage 'https://www.google.com/fonts/specimen/Overlock+SC'
 
   font 'OverlockSC-Regular.ttf'
 end

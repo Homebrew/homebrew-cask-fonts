@@ -5,7 +5,7 @@ cask 'font-pinyon-script' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/pinyonscript/PinyonScript-Regular.ttf'
   name 'Pinyon Script'
-  homepage 'http://www.google.com/fonts/specimen/Pinyon+Script'
+  homepage 'https://www.google.com/fonts/specimen/Pinyon+Script'
 
   font 'PinyonScript-Regular.ttf'
 end
