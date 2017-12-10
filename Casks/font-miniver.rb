@@ -5,7 +5,7 @@ cask 'font-miniver' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/miniver/Miniver-Regular.ttf'
   name 'Miniver'
-  homepage 'http://www.google.com/fonts/specimen/Miniver'
+  homepage 'https://www.google.com/fonts/specimen/Miniver'
 
   font 'Miniver-Regular.ttf'
 end

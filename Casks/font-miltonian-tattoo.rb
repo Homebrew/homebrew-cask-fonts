@@ -5,7 +5,7 @@ cask 'font-miltonian-tattoo' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/miltoniantattoo/MiltonianTattoo-Regular.ttf'
   name 'Miltonian Tattoo'
-  homepage 'http://www.google.com/fonts/specimen/Miltonian+Tattoo'
+  homepage 'https://www.google.com/fonts/specimen/Miltonian+Tattoo'
 
   font 'MiltonianTattoo-Regular.ttf'
 end

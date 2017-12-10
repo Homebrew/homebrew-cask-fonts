@@ -5,7 +5,7 @@ cask 'font-metrophobic' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/metrophobic/Metrophobic-Regular.ttf'
   name 'Metrophobic'
-  homepage 'http://www.google.com/fonts/specimen/Metrophobic'
+  homepage 'https://www.google.com/fonts/specimen/Metrophobic'
 
   font 'Metrophobic-Regular.ttf'
 end

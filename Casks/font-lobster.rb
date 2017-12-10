@@ -5,7 +5,7 @@ cask 'font-lobster' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/lobster/Lobster-Regular.ttf'
   name 'Lobster'
-  homepage 'http://www.google.com/fonts/specimen/Lobster'
+  homepage 'https://www.google.com/fonts/specimen/Lobster'
 
   font 'Lobster-Regular.ttf'
 end

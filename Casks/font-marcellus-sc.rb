@@ -5,7 +5,7 @@ cask 'font-marcellus-sc' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/marcellussc/MarcellusSC-Regular.ttf'
   name 'Marcellus SC'
-  homepage 'http://www.google.com/fonts/specimen/Marcellus+SC'
+  homepage 'https://www.google.com/fonts/specimen/Marcellus+SC'
 
   font 'MarcellusSC-Regular.ttf'
 end

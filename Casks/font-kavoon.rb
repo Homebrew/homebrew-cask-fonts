@@ -5,7 +5,7 @@ cask 'font-kavoon' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/kavoon/Kavoon-Regular.ttf'
   name 'Kavoon'
-  homepage 'http://www.google.com/fonts/specimen/Kavoon'
+  homepage 'https://www.google.com/fonts/specimen/Kavoon'
 
   font 'Kavoon-Regular.ttf'
 end

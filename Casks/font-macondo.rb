@@ -5,7 +5,7 @@ cask 'font-macondo' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/macondo/Macondo-Regular.ttf'
   name 'Macondo'
-  homepage 'http://www.google.com/fonts/specimen/Macondo'
+  homepage 'https://www.google.com/fonts/specimen/Macondo'
 
   font 'Macondo-Regular.ttf'
 end

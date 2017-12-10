@@ -5,7 +5,7 @@ cask 'font-iceland' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/iceland/Iceland-Regular.ttf'
   name 'Iceland'
-  homepage 'http://www.google.com/fonts/specimen/Iceland'
+  homepage 'https://www.google.com/fonts/specimen/Iceland'
 
   font 'Iceland-Regular.ttf'
 end

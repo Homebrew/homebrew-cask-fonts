@@ -5,7 +5,7 @@ cask 'font-geostar-fill' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/geostarfill/GeostarFill-Regular.ttf'
   name 'Geostar Fill'
-  homepage 'http://www.google.com/fonts/specimen/Geostar+Fill'
+  homepage 'https://www.google.com/fonts/specimen/Geostar+Fill'
 
   font 'GeostarFill-Regular.ttf'
 end

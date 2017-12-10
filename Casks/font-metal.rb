@@ -5,7 +5,7 @@ cask 'font-metal' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/metal/Metal.ttf'
   name 'Metal'
-  homepage 'http://www.google.com/fonts/specimen/Metal'
+  homepage 'https://www.google.com/fonts/specimen/Metal'
 
   font 'Metal.ttf'
 end
