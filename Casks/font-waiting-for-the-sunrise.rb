@@ -5,7 +5,7 @@ cask 'font-waiting-for-the-sunrise' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/waitingforthesunrise/WaitingfortheSunrise.ttf'
   name 'Waiting for the Sunrise'
-  homepage 'http://www.google.com/fonts/specimen/Waiting+for+the+Sunrise'
+  homepage 'https://www.google.com/fonts/specimen/Waiting+for+the+Sunrise'
 
   font 'WaitingfortheSunrise.ttf'
 end

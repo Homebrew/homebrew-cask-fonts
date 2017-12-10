@@ -5,7 +5,7 @@ cask 'font-yellowtail' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/yellowtail/Yellowtail-Regular.ttf'
   name 'Yellowtail'
-  homepage 'http://www.google.com/fonts/specimen/Yellowtail'
+  homepage 'https://www.google.com/fonts/specimen/Yellowtail'
 
   font 'Yellowtail-Regular.ttf'
 end
