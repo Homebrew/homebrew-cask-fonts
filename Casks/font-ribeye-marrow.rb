@@ -5,7 +5,7 @@ cask 'font-ribeye-marrow' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/ribeyemarrow/RibeyeMarrow-Regular.ttf'
   name 'Ribeye Marrow'
-  homepage 'http://www.google.com/fonts/specimen/Ribeye+Marrow'
+  homepage 'https://www.google.com/fonts/specimen/Ribeye+Marrow'
 
   font 'RibeyeMarrow-Regular.ttf'
 end

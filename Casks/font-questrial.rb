@@ -5,7 +5,7 @@ cask 'font-questrial' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/questrial/Questrial-Regular.ttf'
   name 'Questrial'
-  homepage 'http://www.google.com/fonts/specimen/Questrial'
+  homepage 'https://www.google.com/fonts/specimen/Questrial'
 
   font 'Questrial-Regular.ttf'
 end

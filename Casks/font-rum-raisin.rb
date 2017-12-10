@@ -5,7 +5,7 @@ cask 'font-rum-raisin' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/rumraisin/RumRaisin-Regular.ttf'
   name 'Rum Raisin'
-  homepage 'http://www.google.com/fonts/specimen/Rum+Raisin'
+  homepage 'https://www.google.com/fonts/specimen/Rum+Raisin'
 
   font 'RumRaisin-Regular.ttf'
 end
