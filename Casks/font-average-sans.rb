@@ -5,7 +5,7 @@ cask 'font-average-sans' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/averagesans/AverageSans-Regular.ttf'
   name 'Average Sans'
-  homepage 'http://www.google.com/fonts/specimen/Average%20Sans'
+  homepage 'https://www.google.com/fonts/specimen/Average%20Sans'
 
   font 'AverageSans-Regular.ttf'
 end
