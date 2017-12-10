@@ -5,7 +5,7 @@ cask 'font-titan-one' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/titanone/TitanOne-Regular.ttf'
   name 'Titan One'
-  homepage 'http://www.google.com/fonts/specimen/Titan+One'
+  homepage 'https://www.google.com/fonts/specimen/Titan+One'
 
   font 'TitanOne-Regular.ttf'
 end

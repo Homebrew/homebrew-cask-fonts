@@ -5,7 +5,7 @@ cask 'font-unlock' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/unlock/Unlock-Regular.ttf'
   name 'Unlock'
-  homepage 'http://www.google.com/fonts/specimen/Unlock'
+  homepage 'https://www.google.com/fonts/specimen/Unlock'
 
   font 'Unlock-Regular.ttf'
 end

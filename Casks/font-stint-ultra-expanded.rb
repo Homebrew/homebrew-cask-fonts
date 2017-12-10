@@ -5,7 +5,7 @@ cask 'font-stint-ultra-expanded' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/stintultraexpanded/StintUltraExpanded-Regular.ttf'
   name 'Stint Ultra Expanded'
-  homepage 'http://www.google.com/fonts/specimen/Stint+Ultra+Expanded'
+  homepage 'https://www.google.com/fonts/specimen/Stint+Ultra+Expanded'
 
   font 'StintUltraExpanded-Regular.ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-snippet' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/snippet/Snippet.ttf'
   name 'Snippet'
-  homepage 'http://www.google.com/fonts/specimen/Snippet'
+  homepage 'https://www.google.com/fonts/specimen/Snippet'
 
   font 'Snippet.ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-smokum' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/smokum/Smokum-Regular.ttf'
   name 'Smokum'
-  homepage 'http://www.google.com/fonts/specimen/Smokum'
+  homepage 'https://www.google.com/fonts/specimen/Smokum'
 
   font 'Smokum-Regular.ttf'
 end

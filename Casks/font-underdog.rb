@@ -5,7 +5,7 @@ cask 'font-underdog' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/underdog/Underdog-Regular.ttf'
   name 'Underdog'
-  homepage 'http://www.google.com/fonts/specimen/Underdog'
+  homepage 'https://www.google.com/fonts/specimen/Underdog'
 
   font 'Underdog-Regular.ttf'
 end

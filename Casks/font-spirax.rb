@@ -5,7 +5,7 @@ cask 'font-spirax' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/spirax/Spirax-Regular.ttf'
   name 'Spirax'
-  homepage 'http://www.google.com/fonts/specimen/Spirax'
+  homepage 'https://www.google.com/fonts/specimen/Spirax'
 
   font 'Spirax-Regular.ttf'
 end

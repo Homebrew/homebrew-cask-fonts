@@ -5,7 +5,7 @@ cask 'font-sofia' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/sofia/Sofia-Regular.ttf'
   name 'Sofia'
-  homepage 'http://www.google.com/fonts/specimen/Sofia'
+  homepage 'https://www.google.com/fonts/specimen/Sofia'
 
   font 'Sofia-Regular.ttf'
 end
