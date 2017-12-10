@@ -5,7 +5,7 @@ cask 'font-wallpoet' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/wallpoet/Wallpoet-Regular.ttf'
   name 'Wallpoet'
-  homepage 'http://www.google.com/fonts/specimen/Wallpoet'
+  homepage 'https://www.google.com/fonts/specimen/Wallpoet'
 
   font 'Wallpoet-Regular.ttf'
 end

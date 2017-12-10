@@ -5,7 +5,7 @@ cask 'font-unifrakturcook' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/unifrakturcook/UnifrakturCook-Bold.ttf'
   name 'UnifrakturCook'
-  homepage 'http://www.google.com/fonts/specimen/UnifrakturCook'
+  homepage 'https://www.google.com/fonts/specimen/UnifrakturCook'
 
   font 'UnifrakturCook-Bold.ttf'
 end

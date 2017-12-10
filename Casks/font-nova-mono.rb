@@ -5,7 +5,7 @@ cask 'font-nova-mono' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/novamono/NovaMono.ttf'
   name 'Nova Mono'
-  homepage 'http://www.google.com/fonts/specimen/Nova%20Mono'
+  homepage 'https://www.google.com/fonts/specimen/Nova%20Mono'
 
   font 'NovaMono.ttf'
 end

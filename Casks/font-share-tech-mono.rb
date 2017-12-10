@@ -5,7 +5,7 @@ cask 'font-share-tech-mono' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/sharetechmono/ShareTechMono-Regular.ttf'
   name 'Share Tech Mono'
-  homepage 'http://www.google.com/fonts/specimen/Share%20Tech%20Mono'
+  homepage 'https://www.google.com/fonts/specimen/Share%20Tech%20Mono'
 
   font 'ShareTechMono-Regular.ttf'
 end

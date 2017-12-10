@@ -5,7 +5,7 @@ cask 'font-smythe' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/smythe/Smythe-Regular.ttf'
   name 'Smythe'
-  homepage 'http://www.google.com/fonts/specimen/Smythe'
+  homepage 'https://www.google.com/fonts/specimen/Smythe'
 
   font 'Smythe-Regular.ttf'
 end

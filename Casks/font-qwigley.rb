@@ -5,7 +5,7 @@ cask 'font-qwigley' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/qwigley/Qwigley-Regular.ttf'
   name 'Qwigley'
-  homepage 'http://www.google.com/fonts/specimen/Qwigley'
+  homepage 'https://www.google.com/fonts/specimen/Qwigley'
 
   font 'Qwigley-Regular.ttf'
 end

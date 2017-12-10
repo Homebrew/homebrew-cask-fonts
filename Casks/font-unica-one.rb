@@ -5,7 +5,7 @@ cask 'font-unica-one' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/unicaone/UnicaOne-Regular.ttf'
   name 'Unica One'
-  homepage 'http://www.google.com/fonts/specimen/Unica+One'
+  homepage 'https://www.google.com/fonts/specimen/Unica+One'
 
   font 'UnicaOne-Regular.ttf'
 end

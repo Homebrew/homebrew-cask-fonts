@@ -5,7 +5,7 @@ cask 'font-trocchi' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/trocchi/Trocchi-Regular.ttf'
   name 'Trocchi'
-  homepage 'http://www.google.com/fonts/specimen/Trocchi'
+  homepage 'https://www.google.com/fonts/specimen/Trocchi'
 
   font 'Trocchi-Regular.ttf'
 end

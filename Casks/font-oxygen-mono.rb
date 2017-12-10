@@ -5,7 +5,7 @@ cask 'font-oxygen-mono' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/oxygenmono/OxygenMono-Regular.ttf'
   name 'Oxygen Mono'
-  homepage 'http://www.google.com/fonts/specimen/Oxygen%20Mono'
+  homepage 'https://www.google.com/fonts/specimen/Oxygen%20Mono'
 
   font 'OxygenMono-Regular.ttf'
 end
