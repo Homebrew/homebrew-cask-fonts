@@ -5,7 +5,7 @@ cask 'font-kelly-slab' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/kellyslab/KellySlab-Regular.ttf'
   name 'Kelly Slab'
-  homepage 'http://www.google.com/fonts/specimen/Kelly+Slab'
+  homepage 'https://www.google.com/fonts/specimen/Kelly+Slab'
 
   font 'KellySlab-Regular.ttf'
 end

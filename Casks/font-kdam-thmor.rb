@@ -5,7 +5,7 @@ cask 'font-kdam-thmor' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/kdamthmor/KdamThmor-Regular.ttf'
   name 'Kdam Thmor'
-  homepage 'http://www.google.com/fonts/specimen/Kdam+Thmor'
+  homepage 'https://www.google.com/fonts/specimen/Kdam+Thmor'
 
   font 'KdamThmor-Regular.ttf'
 end
