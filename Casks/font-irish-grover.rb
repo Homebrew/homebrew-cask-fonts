@@ -3,9 +3,9 @@ cask 'font-irish-grover' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/apache/irishgrover/IrishGrover.ttf'
+  url 'https://github.com/google/fonts/raw/master/apache/irishgrover/IrishGrover-Regular.ttf'
   name 'Irish Grover'
-  homepage 'http://www.google.com/fonts/specimen/Irish+Grover'
+  homepage 'https://www.google.com/fonts/specimen/Irish+Grover'
 
-  font 'IrishGrover.ttf'
+  font 'IrishGrover-Regular.ttf'
 end
