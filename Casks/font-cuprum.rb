@@ -8,7 +8,7 @@ cask 'font-cuprum' do
       revision:   '50',
       trust_cert: true
   name 'Cuprum'
-  homepage 'http://www.google.com/fonts/specimen/Cuprum'
+  homepage 'https://www.google.com/fonts/specimen/Cuprum'
 
   font 'Cuprum-Bold.ttf'
   font 'Cuprum-BoldItalic.ttf'

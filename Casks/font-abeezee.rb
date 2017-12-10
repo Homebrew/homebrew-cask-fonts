@@ -8,7 +8,7 @@ cask 'font-abeezee' do
       revision:   '50',
       trust_cert: true
   name 'ABeeZee'
-  homepage 'http://www.google.com/fonts/specimen/ABeeZee'
+  homepage 'https://www.google.com/fonts/specimen/ABeeZee'
 
   font 'ABeeZee-Italic.ttf'
   font 'ABeeZee-Regular.ttf'

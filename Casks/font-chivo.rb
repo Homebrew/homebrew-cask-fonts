@@ -8,7 +8,7 @@ cask 'font-chivo' do
       revision:   '50',
       trust_cert: true
   name 'Chivo'
-  homepage 'http://www.google.com/fonts/specimen/Chivo'
+  homepage 'https://www.google.com/fonts/specimen/Chivo'
 
   font 'Chivo-Black.ttf'
   font 'Chivo-BlackItalic.ttf'

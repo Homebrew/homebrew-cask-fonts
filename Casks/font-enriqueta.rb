@@ -8,7 +8,7 @@ cask 'font-enriqueta' do
       revision:   '50',
       trust_cert: true
   name 'Enriqueta'
-  homepage 'http://www.google.com/fonts/specimen/Enriqueta'
+  homepage 'https://www.google.com/fonts/specimen/Enriqueta'
 
   font 'Enriqueta-Bold.ttf'
   font 'Enriqueta-Regular.ttf'

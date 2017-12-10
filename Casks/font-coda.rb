@@ -8,7 +8,7 @@ cask 'font-coda' do
       revision:   '50',
       trust_cert: true
   name 'Coda'
-  homepage 'http://www.google.com/fonts/specimen/Coda'
+  homepage 'https://www.google.com/fonts/specimen/Coda'
 
   font 'Coda-Heavy.ttf'
   font 'Coda-Regular.ttf'

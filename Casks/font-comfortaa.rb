@@ -8,7 +8,7 @@ cask 'font-comfortaa' do
       revision:   '50',
       trust_cert: true
   name 'Comfortaa'
-  homepage 'http://www.google.com/fonts/specimen/Comfortaa'
+  homepage 'https://www.google.com/fonts/specimen/Comfortaa'
 
   font 'Comfortaa-Bold.ttf'
   font 'Comfortaa-Light.ttf'

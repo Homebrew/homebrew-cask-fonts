@@ -8,7 +8,7 @@ cask 'font-cabin-sketch' do
       revision:   '50',
       trust_cert: true
   name 'Cabin Sketch'
-  homepage 'http://www.google.com/fonts/specimen/Cabin%20Sketch'
+  homepage 'https://www.google.com/fonts/specimen/Cabin%20Sketch'
 
   font 'CabinSketch-Bold.ttf'
   font 'CabinSketch-Regular.ttf'

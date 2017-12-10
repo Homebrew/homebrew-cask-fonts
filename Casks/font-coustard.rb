@@ -8,7 +8,7 @@ cask 'font-coustard' do
       revision:   '50',
       trust_cert: true
   name 'Coustard'
-  homepage 'http://www.google.com/fonts/specimen/Coustard'
+  homepage 'https://www.google.com/fonts/specimen/Coustard'
 
   font 'Coustard-Black.ttf'
   font 'Coustard-Regular.ttf'

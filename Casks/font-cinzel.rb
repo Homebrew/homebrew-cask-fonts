@@ -8,7 +8,7 @@ cask 'font-cinzel' do
       revision:   '50',
       trust_cert: true
   name 'Cinzel'
-  homepage 'http://www.google.com/fonts/specimen/Cinzel'
+  homepage 'https://www.google.com/fonts/specimen/Cinzel'
 
   font 'Cinzel-Black.ttf'
   font 'Cinzel-Bold.ttf'

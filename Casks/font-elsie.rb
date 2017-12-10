@@ -8,7 +8,7 @@ cask 'font-elsie' do
       revision:   '50',
       trust_cert: true
   name 'Elsie'
-  homepage 'http://www.google.com/fonts/specimen/Elsie'
+  homepage 'https://www.google.com/fonts/specimen/Elsie'
 
   font 'Elsie-Black.ttf'
   font 'Elsie-Regular.ttf'

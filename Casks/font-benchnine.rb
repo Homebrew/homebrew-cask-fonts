@@ -8,7 +8,7 @@ cask 'font-benchnine' do
       revision:   '50',
       trust_cert: true
   name 'BenchNine'
-  homepage 'http://www.google.com/fonts/specimen/BenchNine'
+  homepage 'https://www.google.com/fonts/specimen/BenchNine'
 
   font 'BenchNine-Bold.ttf'
   font 'BenchNine-Light.ttf'

@@ -8,7 +8,7 @@ cask 'font-andada' do
       revision:   '50',
       trust_cert: true
   name 'Andada'
-  homepage 'http://www.google.com/fonts/specimen/Andada'
+  homepage 'https://www.google.com/fonts/specimen/Andada'
 
   font 'Andada-Bold.ttf'
   font 'Andada-BoldItalic.ttf'

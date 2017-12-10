@@ -8,7 +8,7 @@ cask 'font-astloch' do
       revision:   '50',
       trust_cert: true
   name 'Astloch'
-  homepage 'http://www.google.com/fonts/specimen/Astloch'
+  homepage 'https://www.google.com/fonts/specimen/Astloch'
 
   font 'Astloch-Bold.ttf'
   font 'Astloch-Regular.ttf'

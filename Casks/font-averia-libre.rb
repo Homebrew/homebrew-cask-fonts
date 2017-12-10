@@ -8,7 +8,7 @@ cask 'font-averia-libre' do
       revision:   '50',
       trust_cert: true
   name 'Averia Libre'
-  homepage 'http://www.google.com/fonts/specimen/Averia%20Libre'
+  homepage 'https://www.google.com/fonts/specimen/Averia%20Libre'
 
   font 'AveriaLibre-Bold.ttf'
   font 'AveriaLibre-BoldItalic.ttf'

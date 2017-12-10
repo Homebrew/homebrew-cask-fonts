@@ -8,7 +8,7 @@ cask 'font-dosis' do
       revision:   '50',
       trust_cert: true
   name 'Dosis'
-  homepage 'http://www.google.com/fonts/specimen/Dosis'
+  homepage 'https://www.google.com/fonts/specimen/Dosis'
 
   font 'Dosis-Bold.ttf'
   font 'Dosis-ExtraBold.ttf'

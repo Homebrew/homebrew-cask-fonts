@@ -8,7 +8,7 @@ cask 'font-cherry-swash' do
       revision:   '50',
       trust_cert: true
   name 'Cherry Swash'
-  homepage 'http://www.google.com/fonts/specimen/Cherry%20Swash'
+  homepage 'https://www.google.com/fonts/specimen/Cherry%20Swash'
 
   font 'CherrySwash-Bold.ttf'
   font 'CherrySwash-Regular.ttf'
