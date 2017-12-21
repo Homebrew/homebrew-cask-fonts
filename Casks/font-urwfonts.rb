@@ -4,7 +4,7 @@ cask 'font-urwfonts' do
 
   # URL_SECTION was verified as official when first introduced to the cask
   url "http://ftp.gwdg.de/pub/misc/ghostscript/AFPL/GhostPCL/urwfonts-#{version}.tar.bz2"
-  name "urwfonts-#{version}"
+  name "urwfonts"
   homepage 'https://www.ghostscript.com/GhostPCL.html'
 
   font 'urwfonts-8.71/A028-Ext.ttf'
