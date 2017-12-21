@@ -1,4 +1,4 @@
-cask 'urwfonts-8.71' do
+cask 'font-urwfonts' do
   version '1.05'
   sha256 '8e5eb990d6b21e700747591f99754145213753446bcfff2881e08da5eb8d0027'
 
