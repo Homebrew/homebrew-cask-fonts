@@ -2,7 +2,6 @@ cask 'font-urwfonts' do
   version '8.71'
   sha256 '8e5eb990d6b21e700747591f99754145213753446bcfff2881e08da5eb8d0027'
 
-  # URL_SECTION was verified as official when first introduced to the cask
   url "http://ftp.gwdg.de/pub/misc/ghostscript/AFPL/GhostPCL/urwfonts-#{version}.tar.bz2"
   name "urwfonts-#{version}"
   homepage 'https://www.ghostscript.com/GhostPCL.html'
