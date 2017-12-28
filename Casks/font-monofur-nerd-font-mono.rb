@@ -1,10 +1,10 @@
 cask 'font-monofur-nerd-font-mono' do
-  version '1.1.0'
-  sha256 '0c9944fc8dd35b868350a668440929aee8f2cea35e295986d172c3b9f7fecadc'
+  version '1.2.0'
+  sha256 '002ae1e8f7a1f6027202f0dd71e72674c9afdee157442ca8207313f363499d4c'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monofur.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
+          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
   name 'MonofurboldForPowerline Nerd Font (Monofur)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
