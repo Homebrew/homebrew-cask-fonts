@@ -6,8 +6,6 @@ cask 'font-luculent' do
   name 'Luculent'
   homepage 'http://eastfarthing.com/luculent/'
 
-  depends_on formula: 'xz'
-
   font 'luculent/luculent.ttf'
   font 'luculent/luculentb.ttf'
   font 'luculent/luculentbi.ttf'

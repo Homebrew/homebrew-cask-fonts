@@ -6,8 +6,6 @@ cask 'font-m-plus' do
   name 'M+ FONTS'
   homepage 'https://mplus-fonts.osdn.jp/about-en.html'
 
-  depends_on formula: 'xz'
-
   font "mplus-TESTFLIGHT-#{version}/mplus-1c-black.ttf"
   font "mplus-TESTFLIGHT-#{version}/mplus-1c-bold.ttf"
   font "mplus-TESTFLIGHT-#{version}/mplus-1c-heavy.ttf"
