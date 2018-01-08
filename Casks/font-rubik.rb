@@ -2,22 +2,19 @@ cask 'font-rubik' do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/rubik',
-      using:      :svn,
-      revision:   '50',
-      trust_cert: true
+  # github.com/googlefonts/rubik/archive/master.zip was verified as official when first introduced to the cask
+  url 'https://github.com/googlefonts/rubik/archive/master.zip'
   name 'Rubik'
   homepage 'https://www.google.com/fonts/specimen/Rubik'
 
-  font 'Rubik-Black.ttf'
-  font 'Rubik-BlackItalic.ttf'
-  font 'Rubik-Bold.ttf'
-  font 'Rubik-BoldItalic.ttf'
-  font 'Rubik-Italic.ttf'
-  font 'Rubik-Light.ttf'
-  font 'Rubik-LightItalic.ttf'
-  font 'Rubik-Medium.ttf'
-  font 'Rubik-MediumItalic.ttf'
-  font 'Rubik-Regular.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-Black.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-BlackItalic.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-Bold.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-BoldItalic.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-Italic.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-Light.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-LightItalic.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-Medium.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-MediumItalic.ttf'
+  font 'rubik-master/fonts/ttf/Rubik-Regular.ttf'
 end
