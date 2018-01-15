@@ -21,7 +21,7 @@ if [[ ${#casks_wrong_dir[@]} -gt 0 ]]; then
 elif [[ ${#modified_casks[@]} -gt 0 ]]; then
   run brew cask _audit_modified_casks "${TRAVIS_COMMIT_RANGE}"
   run brew cask style "${modified_casks[@]}"
-  if [[ ${#modified_casks[@]} -le 3 ]]; then
+  if [[ ${#modified_casks[@]} -le 15 ]]; then
     for cask in "${modified_casks[@]}"; do
       run brew cask reinstall --verbose "${cask}"
       run brew cask uninstall --verbose "${cask}"
