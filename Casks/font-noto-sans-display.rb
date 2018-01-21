@@ -1,4 +1,4 @@
-cask 'font-noto-serif-display' do
+cask 'font-noto-sans-display' do
   version :latest
   sha256 :no_check
 
