@@ -4,7 +4,7 @@ cask 'font-mplus-nerd-font' do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/MPlus.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: '4dd605bbd98f6b49538aaf84e3306f3c4abfbc4dbc5c4591f7b5da04ecfd3ade'
   name 'mplus Nerd Font (MPlus)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
