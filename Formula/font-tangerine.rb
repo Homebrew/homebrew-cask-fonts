@@ -1,0 +1,15 @@
+class FontTangerine < Formula
+  desc "Tangerine"
+  homepage "https://www.google.com/fonts/specimen/Tangerine"
+  head "https://github.com/google/fonts/trunk/ofl/tangerine", using: :svn, revision: "50", trust_cert: true
+
+  bottle :unneeded
+
+  def install
+    (share/"fonts").install "Tangerine_Bold.ttf"
+    (share/"fonts").install "Tangerine_Regular.ttf"
+  end
+
+  test do
+  end
+end
