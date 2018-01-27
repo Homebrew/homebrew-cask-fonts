@@ -1,0 +1,58 @@
+class FontRoundedMPlus < Formula
+  desc "Rounded M+"
+  homepage "http://jikasei.me/font/rounded-mplus/"
+  url "http://cznic.dl.osdn.jp/users/8/8569/rounded-mplus-#{version}.7z"
+  version "20150529"
+  sha256 "e746736c8ded99fe9a9dd72a241ec59435eaa282a18e7ac33a26dc0578c06ff7"
+
+  bottle :unneeded
+
+  def install
+    (share/"fonts").install "rounded-mplus-1c-black.ttf"
+    (share/"fonts").install "rounded-mplus-1c-bold.ttf"
+    (share/"fonts").install "rounded-mplus-1c-heavy.ttf"
+    (share/"fonts").install "rounded-mplus-1c-light.ttf"
+    (share/"fonts").install "rounded-mplus-1c-medium.ttf"
+    (share/"fonts").install "rounded-mplus-1c-regular.ttf"
+    (share/"fonts").install "rounded-mplus-1c-thin.ttf"
+    (share/"fonts").install "rounded-mplus-1m-bold.ttf"
+    (share/"fonts").install "rounded-mplus-1m-light.ttf"
+    (share/"fonts").install "rounded-mplus-1m-medium.ttf"
+    (share/"fonts").install "rounded-mplus-1m-regular.ttf"
+    (share/"fonts").install "rounded-mplus-1m-thin.ttf"
+    (share/"fonts").install "rounded-mplus-1mn-bold.ttf"
+    (share/"fonts").install "rounded-mplus-1mn-light.ttf"
+    (share/"fonts").install "rounded-mplus-1mn-medium.ttf"
+    (share/"fonts").install "rounded-mplus-1mn-regular.ttf"
+    (share/"fonts").install "rounded-mplus-1mn-thin.ttf"
+    (share/"fonts").install "rounded-mplus-1p-black.ttf"
+    (share/"fonts").install "rounded-mplus-1p-bold.ttf"
+    (share/"fonts").install "rounded-mplus-1p-heavy.ttf"
+    (share/"fonts").install "rounded-mplus-1p-light.ttf"
+    (share/"fonts").install "rounded-mplus-1p-medium.ttf"
+    (share/"fonts").install "rounded-mplus-1p-regular.ttf"
+    (share/"fonts").install "rounded-mplus-1p-thin.ttf"
+    (share/"fonts").install "rounded-mplus-2c-black.ttf"
+    (share/"fonts").install "rounded-mplus-2c-bold.ttf"
+    (share/"fonts").install "rounded-mplus-2c-heavy.ttf"
+    (share/"fonts").install "rounded-mplus-2c-light.ttf"
+    (share/"fonts").install "rounded-mplus-2c-medium.ttf"
+    (share/"fonts").install "rounded-mplus-2c-regular.ttf"
+    (share/"fonts").install "rounded-mplus-2c-thin.ttf"
+    (share/"fonts").install "rounded-mplus-2m-bold.ttf"
+    (share/"fonts").install "rounded-mplus-2m-light.ttf"
+    (share/"fonts").install "rounded-mplus-2m-medium.ttf"
+    (share/"fonts").install "rounded-mplus-2m-regular.ttf"
+    (share/"fonts").install "rounded-mplus-2m-thin.ttf"
+    (share/"fonts").install "rounded-mplus-2p-black.ttf"
+    (share/"fonts").install "rounded-mplus-2p-bold.ttf"
+    (share/"fonts").install "rounded-mplus-2p-heavy.ttf"
+    (share/"fonts").install "rounded-mplus-2p-light.ttf"
+    (share/"fonts").install "rounded-mplus-2p-medium.ttf"
+    (share/"fonts").install "rounded-mplus-2p-regular.ttf"
+    (share/"fonts").install "rounded-mplus-2p-thin.ttf"
+  end
+
+  test do
+  end
+end
