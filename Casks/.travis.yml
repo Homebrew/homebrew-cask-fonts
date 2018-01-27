@@ -1,0 +1,108 @@
+language: ruby
+rvm: system
+sudo: required
+dist: trusty
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y libc6-dbg libxml-parser-perl libxml-sax-perl
+  - DEBIAN_FRONTEND=noninteractive sudo apt-get autoremove -y --purge
+      bison
+      comerr-dev
+      erlang-dev
+      flex
+      libblas-dev
+      libbz2-dev
+      libdrm-dev
+      libexpat1-dev
+      libffi-dev
+      libfl-dev
+      libfontconfig1-dev
+      libfreetype6-dev
+      libgcrypt11-dev
+      libgdbm-dev
+      libgeos-dev
+      libgl1-mesa-dev
+      libgmp-dev
+      libice-dev
+      libicu-dev
+      libidn11-dev
+      libjack-dev
+      libjack-jackd2-0
+      libjack-jackd2-dev
+      libjack0
+      libjasper-dev
+      libjbig-dev
+      libjpeg8-dev
+      libkrb5-dev
+      libldap2-dev
+      libltdl-dev
+      liblzma-dev
+      liblzo2-dev
+      libmagic-dev
+      libmemcached-dev
+      libncurses5-dev
+      libossp-uuid-dev
+      libpcre3-dev
+      libpq-dev
+      libqt4-dev
+      libqtwebkit-dev
+      libsasl2-dev
+      libsm-dev
+      libsqlite0-dev
+      libsqlite3-dev
+      libtinfo-dev
+      libwebp-dev
+      libwmf-dev
+      libx11-dev
+      libxau-dev
+      libxcb1-dev
+      libxml2-dev
+      libyaml-dev
+      llvm-3.4
+      mysql-common
+      unixodbc-dev
+      x11proto-core-dev
+      x11proto-input-dev
+      x11proto-kb-dev
+      x11proto-xext-dev
+      zlib1g-dev
+  - export TRAVIS_COMMIT="$(git rev-parse --verify -q HEAD)"
+  - if [ -f ".git/shallow" ]; then
+      travis_retry git fetch --unshallow;
+    fi
+  - HOME=/home/linuxbrew
+  - sudo mkdir $HOME
+  - sudo chown "$USER:" $HOME
+  - LINUXBREW=$HOME/.linuxbrew
+  - mkdir -p $LINUXBREW/bin
+  - git clone --depth=1 https://github.com/Linuxbrew/brew "$LINUXBREW/Homebrew"
+  - ln -s ../Homebrew/bin/brew /home/linuxbrew/.linuxbrew/bin/
+  - export PATH="$LINUXBREW/bin:$LINUXBREW/sbin:$PATH"
+  - export HOMEBREW_DEVELOPER=1
+  - export HOMEBREW_FORCE_VENDOR_RUBY=1
+  - export HOMEBREW_NO_AUTO_UPDATE=1
+  - HOMEBREW_TAP_DIR="$(brew --repo "$TRAVIS_REPO_SLUG")"
+  - rm -rf "$HOMEBREW_TAP_DIR"
+  - mkdir -p "$(dirname "$HOMEBREW_TAP_DIR")"
+  - ln -s "$PWD" "$HOMEBREW_TAP_DIR"
+  # Fix error: Incorrect file permissions (664)
+  - chmod 0644 Formula/*.rb
+  - umask 022
+  - env | grep TRAVIS | tee /tmp/travis.env
+  - ulimit -n 1024
+  - brew tap linuxbrew/extra
+  - brew tap linuxbrew/xorg
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - os: linux
+
+script:
+  - make test
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
