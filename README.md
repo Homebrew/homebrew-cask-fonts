@@ -12,7 +12,7 @@ Fonts are available through homebrew and linuxbrew, which is an “external comm
 
 ```bash
 $ brew tap asciian/fonts                  # you only have to do this once!
-$ brew cask install font-inconsolata
+$ brew install font-inconsolata
 ```
 
 ## Submitting a Font Cask or Bugs
