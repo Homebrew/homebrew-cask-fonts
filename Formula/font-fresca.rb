@@ -1,0 +1,14 @@
+class FontFresca < Formula
+  desc "Fresca"
+  homepage "https://www.google.com/fonts/specimen/Fresca"
+  head "https://github.com/google/fonts/raw/master/ofl/fresca/Fresca-Regular.ttf"
+
+  bottle :unneeded
+
+  def install
+    (share/"fonts").install "Fresca-Regular.ttf"
+  end
+
+  test do
+  end
+end

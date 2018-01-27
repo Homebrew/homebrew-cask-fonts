@@ -1,0 +1,14 @@
+class FontSpinnaker < Formula
+  desc "Spinnaker"
+  homepage "https://www.google.com/fonts/specimen/Spinnaker"
+  head "https://github.com/google/fonts/raw/master/ofl/spinnaker/Spinnaker-Regular.ttf"
+
+  bottle :unneeded
+
+  def install
+    (share/"fonts").install "Spinnaker-Regular.ttf"
+  end
+
+  test do
+  end
+end

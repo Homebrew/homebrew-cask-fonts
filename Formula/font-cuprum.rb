@@ -1,0 +1,17 @@
+class FontCuprum < Formula
+  desc "Cuprum"
+  homepage "https://www.google.com/fonts/specimen/Cuprum"
+  head "https://github.com/google/fonts/trunk/ofl/cuprum", using: :svn, revision: "50", trust_cert: true
+
+  bottle :unneeded
+
+  def install
+    (share/"fonts").install "Cuprum-Bold.ttf"
+    (share/"fonts").install "Cuprum-BoldItalic.ttf"
+    (share/"fonts").install "Cuprum-Italic.ttf"
+    (share/"fonts").install "Cuprum-Regular.ttf"
+  end
+
+  test do
+  end
+end
