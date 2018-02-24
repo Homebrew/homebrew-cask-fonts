@@ -7,6 +7,8 @@ cask 'font-rounded-m-plus' do
   name 'Rounded M+'
   homepage 'http://jikasei.me/font/rounded-mplus/'
 
+  depends_on formula: 'unar'
+
   font 'rounded-mplus-1c-black.ttf'
   font 'rounded-mplus-1c-bold.ttf'
   font 'rounded-mplus-1c-heavy.ttf'
