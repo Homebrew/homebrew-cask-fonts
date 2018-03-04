@@ -9,5 +9,7 @@ cask 'font-fontawesome' do
   name 'Font Awesome'
   homepage 'http://fontawesome.io/'
 
-  font "Font-Awesome-#{version}/fonts/FontAwesome.otf"
+  font "Font-Awesome-#{version}/use-on-desktop/Font Awesome #{version.major} Brands-Regular-400.otf"
+  font "Font-Awesome-#{version}/use-on-desktop/Font Awesome #{version.major} Free-Regular-400.otf"
+  font "Font-Awesome-#{version}/use-on-desktop/Font Awesome #{version.major} Free-Solid-900.otf"
 end
