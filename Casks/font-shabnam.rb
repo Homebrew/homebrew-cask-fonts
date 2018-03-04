@@ -1,11 +1,11 @@
 cask 'font-shabnam' do
-  version '2.3.0'
-  sha256 '47317a0562e3ab032ebd46a8134b482e2f0c6b21881906ec2865604eda371a9a'
+  version '3.0.0'
+  sha256 'a0afc92b1a6bb5abc2f76c832344b6dc8be976b686c5d17eaa2c51b021012340'
 
   # github.com/rastikerdar was verified as official when first introduced to the cask
   url "https://github.com/rastikerdar/shabnam-font/releases/download/v#{version}/shabnam-font-v#{version}.zip"
   appcast 'https://github.com/rastikerdar/shabnam-font/releases.atom',
-          checkpoint: '1a25ddae25693615114c03542e10acf997fddf5d56395b815ef7d1477b75cb64'
+          checkpoint: '4c29fad8db37ee8fcaf1e9ecc563d855f8e5db1006a18d3a694e12b465391b58'
   name 'Shabnam'
   homepage 'http://rastikerdar.github.io/shabnam-font'
 
