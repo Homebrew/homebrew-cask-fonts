@@ -1,11 +1,11 @@
 cask 'font-hack' do
-  version '3.002'
-  sha256 '1dc0acdbf790bd6143248cbe672bccea066031c07d5e9cede3ae67213f53d7a1'
+  version '3.003'
+  sha256 '0c2604631b1f055041c68a0e09ae4801acab6c5072ba2db6a822f53c3f8290ac'
 
   # github.com/source-foundry/Hack was verified as official when first introduced to the cask
   url "https://github.com/source-foundry/Hack/releases/download/v#{version}/Hack-v#{version}-ttf.zip"
   appcast 'https://github.com/source-foundry/Hack/releases.atom',
-          checkpoint: 'f023893751e9b66172e9f4498568609ac4a3dae173f8a8944c83263af714cc22'
+          checkpoint: '3d31ceb7d126c8b796727ce533127c09203b7e5c6685e8158094f84a94989ec1'
   name 'Hack'
   homepage 'http://sourcefoundry.org/hack/'
 
