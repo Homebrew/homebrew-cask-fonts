@@ -1,10 +1,10 @@
 cask 'font-droidsansmono-nerd-font' do
-  version '2.0.0'
-  sha256 '7b9bb25683bd7eb00316a0abdc09510988d7b326b7d9745de7dde7edb03d4087'
+  version '1.2.0'
+  sha256 'c01bd116d1d828d6e55fdc2cfd55e3e0874f53c8a3ca1c1e4d359acd0dd9171b'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DroidSansMono.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '722a75922628bdd6138fdd43bbf5f21d2ceeb711768fa1839942636dc1dd6e83'
+          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
   name 'DroidSansMonoForPowerline Nerd Font (DroidSansMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

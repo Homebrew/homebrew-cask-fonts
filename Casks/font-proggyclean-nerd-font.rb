@@ -1,10 +1,10 @@
 cask 'font-proggyclean-nerd-font' do
-  version '2.0.0'
-  sha256 'e92bdb2d6d279322ad1ac0cca62c4c456d85efb51d6437dd2c830083587df9bb'
+  version '1.2.0'
+  sha256 '81accf645939031c23dadb79eae8fef8a1b0851cb121353ab20f0405ca5da905'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProggyClean.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '722a75922628bdd6138fdd43bbf5f21d2ceeb711768fa1839942636dc1dd6e83'
+          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
   name 'ProggyCleanTTCE Nerd Font,ProggyCleanTT CE (ProggyClean)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
