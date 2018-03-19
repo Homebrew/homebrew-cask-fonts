@@ -1,10 +1,10 @@
 cask 'font-sourcecodepro-nerd-font-mono' do
-  version '2.0.0'
-  sha256 '247c2d465e17a9a9dfcae24ff19afc2ab89b24a5814c31a14e9ccc470ef403bb'
+  version '1.2.0'
+  sha256 'b8b453ecf554b475491e922721e99d4ecc77eeb916653332d512a6dca8e9c176'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SourceCodePro.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '722a75922628bdd6138fdd43bbf5f21d2ceeb711768fa1839942636dc1dd6e83'
+          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
   name 'SauceCodePro Nerd Font (SourceCodePro)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
