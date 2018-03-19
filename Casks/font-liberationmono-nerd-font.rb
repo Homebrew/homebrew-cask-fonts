@@ -1,10 +1,10 @@
 cask 'font-liberationmono-nerd-font' do
-  version '2.0.0'
-  sha256 '09a6f5e571993318d123932d05c2da9dd0b612f294bc3575e50c644fba014b9e'
+  version '1.2.0'
+  sha256 '8eb8f93c4a4ea15044790ddc1dfd50c5acaf883a2f2e6cb148a5e0a2e0224547'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/LiberationMono.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '722a75922628bdd6138fdd43bbf5f21d2ceeb711768fa1839942636dc1dd6e83'
+          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
   name 'LiterationMonoPowerline Nerd Font (LiberationMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
