@@ -1,10 +1,10 @@
 cask 'font-inconsolatago-nerd-font' do
-  version '2.0.0'
-  sha256 '56fda38217ee04b28203c4320cddd33beb239df6b14fc1432244e30eca96cbbc'
+  version '1.2.0'
+  sha256 'ef29ebe90bbb54b2d2e81a2f22acc423f8ece2d0910a24c428fd3220635ba9fc'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/InconsolataGo.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '722a75922628bdd6138fdd43bbf5f21d2ceeb711768fa1839942636dc1dd6e83'
+          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
   name 'InconsolataGo Nerd Font (InconsolataGo)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
