@@ -1,10 +1,10 @@
 cask 'font-mononoki-nerd-font-mono' do
-  version '1.2.0'
-  sha256 'c06fd6193ab463cb76ec1712a2a7d1b505bebac7918db22f3c111435c19525b5'
+  version '2.0.0'
+  sha256 'a9cc20820335fcbd44f939814f99e7a8145ee20fecdbc9bb9b257399eb4e6b43'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Mononoki.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: '722a75922628bdd6138fdd43bbf5f21d2ceeb711768fa1839942636dc1dd6e83'
   name 'mononoki Nerd Font (Mononoki)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
