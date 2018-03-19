@@ -1,10 +1,10 @@
 cask 'font-ubuntumono-nerd-font-mono' do
-  version '1.2.0'
-  sha256 '9b8bacbabf4b7486fd68068507b208f6d2a017a6909521d19aeeb6f3026f3f6d'
+  version '2.0.0'
+  sha256 'a3edd6deb552ffaeea94b2d42f9f06f79f8da99419c35f8c70405580772ffc17'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/UbuntuMono.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: '722a75922628bdd6138fdd43bbf5f21d2ceeb711768fa1839942636dc1dd6e83'
   name 'UbuntuMono Nerd Font (UbuntuMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
