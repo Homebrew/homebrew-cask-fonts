@@ -1,10 +1,10 @@
 cask 'font-profont-nerd-font-mono' do
-  version '2.0.0'
-  sha256 '3473f24e60b00234ea4f22d57d189d8c39e8f934b69dedcf75c0781f846cbf9d'
+  version '1.2.0'
+  sha256 '18c12f8b6d58c65a66a7ed5b94a57bf527b940e8924d5e6f9a48cf447a3067ff'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProFont.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '722a75922628bdd6138fdd43bbf5f21d2ceeb711768fa1839942636dc1dd6e83'
+          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
   name 'ProFontIIx Nerd Font (ProFont)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
