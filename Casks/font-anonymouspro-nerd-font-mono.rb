@@ -8,5 +8,5 @@ cask 'font-anonymouspro-nerd-font-mono' do
   name 'AnonymicePowerline Nerd Font (AnonymousPro)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Anonymice Powerline Nerd Font Complete Mono.ttf'
+  font 'Anonymice Nerd Font Complete Mono.ttf'
 end
