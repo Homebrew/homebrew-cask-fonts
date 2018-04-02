@@ -1,10 +1,10 @@
 cask 'font-lekton-nerd-font' do
-  version '1.2.0'
-  sha256 '7a31875cdb2bbbe9f5ad1da342adec745cbaed22a677510e313d9a6bbab4c46d'
+  version '2.0.0'
+  sha256 '07ef874e46462524c53c1923ffc98aa53f7c2544303e326f218edd101f775ea0'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Lekton.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
   name 'Lekton Nerd Font (Lekton)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

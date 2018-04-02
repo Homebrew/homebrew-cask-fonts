@@ -1,10 +1,10 @@
 cask 'font-terminus-nerd-font-mono' do
-  version '1.2.0'
-  sha256 '3beef1d5ae482a3273cd5331cc643a57202bfab4c4fde793a024c0233a42901d'
+  version '2.0.0'
+  sha256 '3dd17846e4749415ab2ff06e6af254cfde627feda202cda14efc93e87adc4e9b'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Terminus.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
   name 'TerminessTTF Nerd Font (Terminus)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

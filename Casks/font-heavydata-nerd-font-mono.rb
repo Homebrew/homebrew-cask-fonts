@@ -1,10 +1,10 @@
 cask 'font-heavydata-nerd-font-mono' do
-  version '1.2.0'
-  sha256 '101310c911cc41e159e100a9afc2df3bc5d2e212475c9a53eec785904d9135cf'
+  version '2.0.0'
+  sha256 'f39181014c5b65a9aa0a850fa0d4de94f7ebf406fa8c6dad8f5aadb3d74c98d8'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/HeavyData.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
   name 'HeavyData Nerd Font (HeavyData)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

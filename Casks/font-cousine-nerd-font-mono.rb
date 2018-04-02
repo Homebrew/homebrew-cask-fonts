@@ -1,10 +1,10 @@
 cask 'font-cousine-nerd-font-mono' do
-  version '1.2.0'
-  sha256 'ee8576c433de415fc52ee59985e46eb510c3dd8e6ab516c409804d0e05ae77e7'
+  version '2.0.0'
+  sha256 'dae2a0a363b03ef2adaf9cd341e9e5210b23daef7dea617bdf79c375ced50c4e'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Cousine.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
   name 'Cousine Nerd Font Mono (Cousine)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

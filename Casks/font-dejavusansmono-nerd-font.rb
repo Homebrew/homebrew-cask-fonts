@@ -1,10 +1,10 @@
 cask 'font-dejavusansmono-nerd-font' do
-  version '1.2.0'
-  sha256 'e0e8becdf376561063a804bc82ae3234595cc1a7c7ca035c3555cb04b619b03f'
+  version '2.0.0'
+  sha256 '0a3a0f67e94bb6fdeb08215eef67afe4b9e01cee3df509b05eb9a3c31f4eb31b'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DejaVuSansMono.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
   name 'DejaVuSansMonoForPowerline Nerd Font (DejaVuSansMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

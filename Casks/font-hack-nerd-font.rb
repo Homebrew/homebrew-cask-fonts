@@ -1,15 +1,15 @@
 cask 'font-hack-nerd-font' do
-  version '1.2.0'
-  sha256 'f1c2b5864903a2f2803da73be13541dd4e48d0fcf4cac5631112bfdf7577ee43'
+  version '2.0.0'
+  sha256 'd1147483fd0310fa6bfce6799f47654e3f435010fdc709877b15a23f090ed41c'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hack.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
-  name 'Knack Nerd Font (Hack)'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
+  name 'Hack Nerd Font (Hack)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Knack Bold Nerd Font Complete.ttf'
-  font 'Knack Bold Italic Nerd Font Complete.ttf'
-  font 'Knack Regular Nerd Font Complete.ttf'
-  font 'Knack Italic Nerd Font Complete.ttf'
+  font 'Hack Bold Nerd Font Complete.ttf'
+  font 'Hack Bold Italic Nerd Font Complete.ttf'
+  font 'Hack Regular Nerd Font Complete.ttf'
+  font 'Hack Italic Nerd Font Complete.ttf'
 end
