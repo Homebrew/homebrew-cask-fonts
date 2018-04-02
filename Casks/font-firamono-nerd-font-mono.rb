@@ -5,10 +5,10 @@ cask 'font-firamono-nerd-font-mono' do
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraMono.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
           checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
-  name 'FuraMonoForPowerline Nerd Font (FiraMono)'
+  name 'FuraMono Nerd Font (FiraMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Fura Mono Bold for Powerline Nerd Font Complete Mono.otf'
-  font 'Fura Mono Medium for Powerline Nerd Font Complete Mono.otf'
-  font 'Fura Mono Regular for Powerline Nerd Font Complete Mono.otf'
+  font 'Fura Mono Bold Nerd Font Complete Mono.otf'
+  font 'Fura Mono Medium Nerd Font Complete Mono.otf'
+  font 'Fura Mono Regular Nerd Font Complete Mono.otf'
 end
