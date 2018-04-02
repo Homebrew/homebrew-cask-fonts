@@ -9,5 +9,4 @@ cask 'font-ubuntumono-nerd-font' do
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
   font 'Ubuntu Mono Nerd Font Complete.ttf'
-  font 'Ubuntu Mono derivative Powerline Nerd Font Complete.ttf'
 end
