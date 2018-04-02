@@ -1,10 +1,10 @@
 cask 'font-firacode-nerd-font-mono' do
-  version '1.2.0'
-  sha256 '54f1ade117e2efcc7386d3578da27b13c58b0e7e6afc2212b858ce0716d9d915'
+  version '2.0.0'
+  sha256 '09894d24bf3d61493dba052187a9200497135a4b885cb837bcb637ad2e62070f'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraCode.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
   name 'FuraCode Nerd Font (FiraCode)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
