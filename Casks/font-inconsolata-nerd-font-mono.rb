@@ -5,8 +5,8 @@ cask 'font-inconsolata-nerd-font-mono' do
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Inconsolata.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
           checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
-  name 'InconsolataForPowerline Nerd Font (Inconsolata)'
+  name 'Inconsolata Nerd Font (Inconsolata)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Inconsolata for Powerline Nerd Font Complete Mono.otf'
+  font 'Inconsolata Nerd Font Complete Mono.otf'
 end
