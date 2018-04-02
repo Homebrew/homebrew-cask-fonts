@@ -9,11 +9,7 @@ cask 'font-dejavusansmono-nerd-font-mono' do
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
   font 'DejaVu Sans Mono Bold Nerd Font Complete Mono.ttf'
-  font 'DejaVu Sans Mono Bold for Powerline Nerd Font Complete Mono.ttf'
   font 'DejaVu Sans Mono Bold Oblique Nerd Font Complete Mono.ttf'
-  font 'DejaVu Sans Mono Bold Oblique for Powerline Nerd Font Complete Mono.ttf'
-  font 'DejaVu Sans Mono for Powerline Nerd Font Complete Mono.ttf'
   font 'DejaVu Sans Mono Nerd Font Complete Mono.ttf'
   font 'DejaVu Sans Mono Oblique Nerd Font Complete Mono.ttf'
-  font 'DejaVu Sans Mono Oblique for Powerline Nerd Font Complete Mono.ttf'
 end
