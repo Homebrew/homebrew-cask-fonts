@@ -1,10 +1,10 @@
 cask 'font-inconsolatalgc-nerd-font-mono' do
-  version '1.2.0'
-  sha256 '0fd2492b0c5c4140718120ae97517efb0236694b1a3e10252492addfc38fffda'
+  version '2.0.0'
+  sha256 'e764c3fc484088dd12d93688f4be8efa7e89b8e87ff5be2e9473ab2f37a60c40'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/InconsolataLGC.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
   name 'InconsolataLGC Nerd Font Mono (InconsolataLGC)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
