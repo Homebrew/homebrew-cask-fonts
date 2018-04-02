@@ -10,7 +10,7 @@ cask 'font-mplus-nerd-font-mono' do
 
   font 'M+ 1m bold Nerd Font Complete Mono.ttf'
   font 'M+ 1m medium Nerd Font Complete Mono.ttf'
-  font 'M+ 1m regular Nerd Font Complete Mono.ttf'
+  font 'M+ 1m Nerd Font Complete Mono.ttf'
   font 'M+ 1m thin Nerd Font Complete Mono.ttf'
   font 'M+ 1m light Nerd Font Complete Mono.ttf'
 end
