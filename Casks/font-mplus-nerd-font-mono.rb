@@ -1,10 +1,10 @@
 cask 'font-mplus-nerd-font-mono' do
-  version '1.2.0'
-  sha256 'acd1401bfd0de8804db02c782e01e03ccf9fc9fe78d056d73f7f352b07269230'
+  version '2.0.0'
+  sha256 'dc3aa81b0274d5feb36e86c68c79e25c44cbafee1b1a10dcc01acedb45a0403e'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/MPlus.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '7dedec17cde17542418131f94e739265707a4abe9d0773287d14f175c02325f7'
+          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
   name 'mplus Nerd Font (MPlus)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
