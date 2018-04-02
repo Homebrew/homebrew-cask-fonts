@@ -5,10 +5,10 @@ cask 'font-monofur-nerd-font-mono' do
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monofur.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
           checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
-  name 'MonofurboldForPowerline Nerd Font (Monofur)'
+  name 'Monofurbold Nerd Font (Monofur)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'monofur   bold for Powerline Nerd Font Complete Mono.ttf'
-  font 'monofur for Powerline Nerd Font Complete Mono.ttf'
-  font 'monofur   italic for Powerline Nerd Font Complete Mono.ttf'
+  font 'monofur bold Nerd Font Complete Mono.ttf'
+  font 'monofur Nerd Font Complete Mono.ttf'
+  font 'monofur italic Nerd Font Complete Mono.ttf'
 end
