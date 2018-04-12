@@ -4,15 +4,21 @@ cask 'font-sourcecodepro-nerd-font' do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SourceCodePro.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
+          checkpoint: '9f5824afb5ed43113f1b58a45f050d6fe27c7c3435343775b7a3c3313c154397'
   name 'SauceCodePro Nerd Font (SourceCodePro)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
   font 'Sauce Code Pro Bold Nerd Font Complete.ttf'
+  font 'Sauce Code Pro Bold Italic Nerd Font Complete.ttf'
   font 'Sauce Code Pro Medium Nerd Font Complete.ttf'
+  font 'Sauce Code Pro Medium Italic Nerd Font Complete.ttf'
   font 'Sauce Code Pro ExtraLight Nerd Font Complete.ttf'
+  font 'Sauce Code Pro ExtraLight Italic Nerd Font Complete.ttf'
   font 'Sauce Code Pro Black Nerd Font Complete.ttf'
+  font 'Sauce Code Pro Black Italic Nerd Font Complete.ttf'
   font 'Sauce Code Pro Nerd Font Complete.ttf'
   font 'Sauce Code Pro Semibold Nerd Font Complete.ttf'
+  font 'Sauce Code Pro Semibold Italic Nerd Font Complete.ttf'
   font 'Sauce Code Pro Light Nerd Font Complete.ttf'
+  font 'Sauce Code Pro Light Italic Nerd Font Complete.ttf'
 end
