@@ -1,10 +1,10 @@
 cask 'font-ibm-plex' do
-  version '1.0.1'
-  sha256 '259ddebf91ca320b41aac6c9c3069acb8dc88cc81e115115d53d2a6e7ee2fd5b'
+  version '1.0.2'
+  sha256 '4153e07273f068e8fa4b65304bbac2ba3ce3b4d59d841eaba4cb374931967e00'
 
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
   appcast 'https://github.com/IBM/plex/releases.atom',
-          checkpoint: '35f7b42113cb542b5fa817482788d11ade842cc0bb8b22888bfba66d1cc2e470'
+          checkpoint: '6c704f575ecc35be3f532b55482974f3b7465cb2220a897acd69f3f2238c9fd8'
   name 'IBM Plex'
   homepage 'https://github.com/IBM/plex'
 
