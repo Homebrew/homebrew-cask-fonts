@@ -1,10 +1,10 @@
 cask 'font-alegreya-sans' do
-  version '2.007'
-  sha256 '6da911075ac10862ca986afc790f4d0f347887635d18fe76ae95aa9d76cc8062'
+  version '2.008'
+  sha256 'ff8d1290eae47df0d1f710083690aa7f46508acfb2f1d6bce04b1355ac56dbab'
 
   url "https://github.com/huertatipografica/Alegreya-Sans/archive/v#{version}.zip"
   appcast 'https://github.com/huertatipografica/Alegreya-Sans/releases.atom',
-          checkpoint: '52641055de24b42ff3a7f51a7dc9c0c1f6f249ce47230b8989439dc1b3aba8b1'
+          checkpoint: 'fdd1d0e34808934d8854287089addd87547733b1ba12b416ad5e400b67a4d14f'
   name 'Alegreya-Sans'
   homepage 'https://github.com/huertatipografica/Alegreya-Sans'
 
