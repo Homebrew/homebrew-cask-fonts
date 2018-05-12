@@ -1,11 +1,11 @@
 cask 'font-fontawesome' do
-  version '5.0.10'
-  sha256 'cc20eb8bf5a2eb73926605246abc25560a88bb5956439d9e3aadfe79ad2dacda'
+  version '5.0.13'
+  sha256 '79f59af3a08a1356a700e23d802758fcb40dd2446bf7fe0424600afb98e07906'
 
   # github.com/FortAwesome/Font-Awesome was verified as official when first introduced to the cask
   url "https://github.com/FortAwesome/Font-Awesome/archive/#{version}.zip"
   appcast 'https://github.com/FortAwesome/Font-Awesome/releases.atom',
-          checkpoint: '9eb4235ca134c5dbde88dac67dcb6eae6a88fea5fa830ef7060b69cb264faf0d'
+          checkpoint: 'a4f40788f023f557e5b1b31f0ec4293f286ce4ddac05fba1e597c1ecf2af358a'
   name 'Font Awesome'
   homepage 'http://fontawesome.io/'
 
