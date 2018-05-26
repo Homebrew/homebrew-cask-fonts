@@ -1,6 +1,6 @@
 cask 'font-kopub' do
-  version '1.0.1'
-  sha256 'ec82c77a037c159a8835a46698b270157fea216465afa64e4398f420f1f1f95e'
+  version :latest
+  sha256 :no_check
 
   url 'http://www.kopus.org/Download_font.aspx?font_id=4&name=KOPUB_OTF_FONTS.zip'
   name 'KoPub'
