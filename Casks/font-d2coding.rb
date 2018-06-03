@@ -8,5 +8,5 @@ cask 'font-d2coding' do
   name 'D2 Coding'
   homepage 'https://github.com/naver/d2codingfont'
 
-  font "D2Coding-Ver#{version.before_comma}-#{version.after_comma}/D2Coding/D2Coding-Ver#{version.before_comma}-#{version.after_comma}.ttc"
+  font "D2Coding/D2Coding-Ver#{version.before_comma}-#{version.after_comma}.ttc"
 end
