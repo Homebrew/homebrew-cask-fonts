@@ -3,8 +3,7 @@ cask 'font-dejavusansmono-nerd-font-mono' do
   sha256 '0a3a0f67e94bb6fdeb08215eef67afe4b9e01cee3df509b05eb9a3c31f4eb31b'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DejaVuSansMono.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'DejaVuSansMono Nerd Font (DejaVuSansMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

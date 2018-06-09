@@ -4,8 +4,7 @@ cask 'font-fira-mono' do
 
   # github.com/mozilla/Fira was verified as official when first introduced to the cask
   url "https://github.com/mozilla/Fira/archive/#{version.after_comma}.tar.gz"
-  appcast 'https://github.com/mozilla/Fira/releases.atom',
-          checkpoint: 'e9adcc031c4192b0568b7aeca92bd87c1ab8dc14b25cb9a57c43e89dc95efaa5'
+  appcast 'https://github.com/mozilla/Fira/releases.atom'
   name 'Fira Mono'
   homepage 'https://mozilla.github.io/Fira/'
 

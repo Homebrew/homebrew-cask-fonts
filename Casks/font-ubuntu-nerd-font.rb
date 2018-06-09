@@ -3,8 +3,7 @@ cask 'font-ubuntu-nerd-font' do
   sha256 '1c63e03728d89bbc6df6d357d156b5adb1c90bde247933c7cb429e6482ad22bb'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Ubuntu.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'Ubuntu Nerd Font (Ubuntu)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

@@ -3,8 +3,7 @@ cask 'font-iosevka-nerd-font-mono' do
   sha256 'a67d9e2d66146e7f38ef0d19cda5d7f81cb769ea1e6716b545b30412ae8823a0'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Iosevka.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'Iosevka Nerd Font (Iosevka)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

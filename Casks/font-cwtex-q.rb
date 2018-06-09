@@ -3,8 +3,7 @@ cask 'font-cwtex-q' do
   sha256 'c336e028cccf86121694e5c534566741994569701ddea194697932e6e992b8a2'
 
   url "https://github.com/l10n-tw/cwtex-q-fonts-TTFs/archive/v#{version}.tar.gz"
-  appcast 'https://github.com/l10n-tw/cwtex-q-fonts-TTFs/releases.atom',
-          checkpoint: '9dd6c810c9e953bc1f446768dc4c5e1492a029a74aca2a2cfd04c8ad76b566a3'
+  appcast 'https://github.com/l10n-tw/cwtex-q-fonts-TTFs/releases.atom'
   name 'cwtex-q-fonts'
   homepage 'https://github.com/l10n-tw/cwtex-q-fonts'
 

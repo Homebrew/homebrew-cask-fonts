@@ -3,8 +3,7 @@ cask 'font-hermit-nerd-font-mono' do
   sha256 '5c656e844dfaf14355e5e607c738dabc903e1985a375bb907f1a200956774a18'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hermit.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: 'fc41f3d5a5b0df76caa2586a08c53a4571f05adb0fe0a6e30897f43899ee6ea2'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'Hurmit Nerd Font (Hermit)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

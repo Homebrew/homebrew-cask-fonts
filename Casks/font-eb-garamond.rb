@@ -4,8 +4,7 @@ cask 'font-eb-garamond' do
 
   # bitbucket.org/georgd/eb-garamond was verified as official when first introduced to the cask
   url "https://bitbucket.org/georgd/eb-garamond/downloads/EBGaramond-#{version}.zip"
-  appcast 'https://github.com/georgd/EB-Garamond/releases.atom',
-          checkpoint: '05663636d3d9b6c714c4a377326248ffd7f4f68d3b133ffbb638aeddd3d8f097'
+  appcast 'https://github.com/georgd/EB-Garamond/releases.atom'
   name 'EB Garamond'
   homepage 'https://github.com/georgd/EB-Garamond'
 

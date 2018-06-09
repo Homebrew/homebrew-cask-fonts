@@ -4,8 +4,7 @@ cask 'font-kawkab-mono' do
 
   # github.com/aiaf/kawkab-mono was verified as official when first introduced to the cask
   url "https://github.com/aiaf/kawkab-mono/releases/download/v#{version}/kawkab-mono-#{version}.zip"
-  appcast 'https://github.com/aiaf/kawkab-mono/releases.atom',
-          checkpoint: '99863bc98b4b9751be2d0385ef2fb1a23122a880f400e5666124eb2cdf6f0572'
+  appcast 'https://github.com/aiaf/kawkab-mono/releases.atom'
   name 'Kawkab Mono'
   homepage 'http://makkuk.com/kawkab-mono'
 

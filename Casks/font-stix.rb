@@ -4,8 +4,7 @@ cask 'font-stix' do
 
   # downloads.sourceforge.net/stixfonts was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/stixfonts/Current%20Release/STIXv#{version}.zip"
-  appcast 'https://sourceforge.net/projects/stixfonts/rss?path=/Current%20Release/',
-          checkpoint: 'cd919aa82fecc23debfdf0220d7c640d52b44f84377cd2c417212f70a418f7b3'
+  appcast 'https://sourceforge.net/projects/stixfonts/rss?path=/Current%20Release/'
   name 'STIX'
   homepage 'http://stixfonts.org/'
 

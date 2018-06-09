@@ -4,8 +4,7 @@ cask 'font-wenquanyi-micro-hei-lite' do
 
   # downloads.sourceforge.net/wqy was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/wqy/wqy-microhei-lite-#{version}.tar.gz"
-  appcast 'https://sourceforge.net/projects/wqy/rss',
-          checkpoint: 'f875126c1e4217ccc84be627b119ed5ed746aea001f0a1acfd08a7f277d159b5'
+  appcast 'https://sourceforge.net/projects/wqy/rss'
   name 'WenQuanYi Micro Hei Lite'
   homepage 'http://wenq.org/wqy2/index.cgi?MicroHei'
 

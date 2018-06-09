@@ -4,8 +4,7 @@ cask 'font-bungee' do
 
   # github.com/djrrb/bungee was verified as official when first introduced to the cask
   url "https://github.com/djrrb/bungee/releases/download/#{version}/Bungee-fonts.zip"
-  appcast 'https://github.com/djrrb/bungee/releases.atom',
-          checkpoint: '93cc2dd7788c322a7dd3b997404c0a1a2b133b84ed4d719758da148a7e55e73d'
+  appcast 'https://github.com/djrrb/bungee/releases.atom'
   name 'Bungee'
   homepage 'https://djr.com/bungee/'
 

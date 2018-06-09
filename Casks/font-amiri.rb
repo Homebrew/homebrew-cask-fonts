@@ -4,8 +4,7 @@ cask 'font-amiri' do
 
   # github.com/alif-type/amiri-font was verified as official when first introduced to the cask
   url "https://github.com/alif-type/amiri-font/releases/download/#{version}/amiri-#{version}.zip"
-  appcast 'https://github.com/alif-type/amiri/releases.atom',
-          checkpoint: '8a2b9100d45a0b6501b16fa61ec40284cf4d6f671671da4ded3030948a2f6b89'
+  appcast 'https://github.com/alif-type/amiri/releases.atom'
   name 'Amiri'
   homepage 'http://www.amirifont.org/'
 

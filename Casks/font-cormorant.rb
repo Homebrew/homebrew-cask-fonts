@@ -3,8 +3,7 @@ cask 'font-cormorant' do
   sha256 '0915ccd7d396a50c2f4e83846717c0fe3afda1a0da8e6800d5382b24647c5f45'
 
   url "https://github.com/CatharsisFonts/Cormorant/releases/download/v#{version}/Cormorant_Install_v#{version}.zip"
-  appcast 'https://github.com/CatharsisFonts/Cormorant/releases.atom',
-          checkpoint: 'd007ef931e050b40c5af03746fe8d7bdb4bc7ec4239eefc8ec457275720922c4'
+  appcast 'https://github.com/CatharsisFonts/Cormorant/releases.atom'
   name 'Cormorant'
   homepage 'https://github.com/CatharsisFonts/Cormorant/'
 
