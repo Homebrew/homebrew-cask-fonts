@@ -5,7 +5,7 @@ cask 'peppercarrot-fonts' do
   # peppercarrot.com was verified as official when first introduced to the cask
   url "https://www.peppercarrot.com/0_sources/0ther/tools/zip/peppercarrot-fonts-#{version}.zip"
   name 'Pepper&Carrot fonts'
-  homepage 'https://framagit.org/peppercarrot/webcomics/raw/master/fonts/'
+  homepage 'https://framagit.org/peppercarrot/webcomics/tree/master/fonts'
 
   font 'fonts/Arabic/ae_AlHor.ttf'
   font 'fonts/Arabic/ae_Tholoth.ttf'
