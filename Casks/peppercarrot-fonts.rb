@@ -50,15 +50,4 @@ cask 'peppercarrot-fonts' do
   # Renamed for disambiguation between the Japanese and Vietnamese versions.
   font 'fonts/Vietnamese/rounded-mplus-1c-medium.ttf', target: 'rounded-mplus-1c-medium-vietnamese.ttf'
   font 'fonts/Web-ComicSpice/ComicSpice.ttf'
-
-  caveats <<~EOS
-    We tried to do proper attribution for each of the fonts. Check out the files
-    fontname.LICENSE and fontname.COPYRIGHT in this Cask's Caskroom folder.
-    For some fonts our source had incomplete information, such as unknown
-    author or inconsistent license information.
-    We believe that our use and inclusion here of these fonts is
-    authorized. If you know more about these fonts, or are the author,
-    do not hesitate to contact us by opening an issue at the following URL:
-      https://framagit.org/peppercarrot/webcomics/issues
-    EOS
 end
