@@ -1,25 +1,25 @@
 cask 'peppercarrot-fonts' do
-  version '3.0'
-  sha256 '81cc7e146de4f83db3145e63e865377fdb22208737ea32b5f305da2cb393a45d'
+  version '3.1'
+  sha256 '1b164f14d0e7db8c4e2559a34c9773c53941027bd601ba05b24f049d70292d9d'
 
   # peppercarrot.com was verified as official when first introduced to the cask
   url "https://www.peppercarrot.com/0_sources/0ther/tools/zip/peppercarrot-fonts-#{version}.zip"
   name 'Pepper&Carrot fonts'
   homepage 'https://framagit.org/peppercarrot/webcomics/tree/master/fonts'
 
-  font 'fonts/Arabic/ae_AlHor.ttf'
-  font 'fonts/Arabic/ae_Tholoth.ttf'
   font 'fonts/Arabic/DroidKufi-Regular.ttf'
   # Renamed for disambiguation between the Arabic and Farsi versions.
   font 'fonts/Arabic/Midan-Black.ttf', target: 'Midan-Black-Arabic.ttf'
   font 'fonts/Arabic/Midan.ttf', target: 'Midan-Arabic.ttf'
+  font 'fonts/Arabic/ae_AlHor.ttf'
+  font 'fonts/Arabic/ae_Tholoth.ttf'
   font 'fonts/Bengali/lohit_bn.ttf'
   font 'fonts/Cyrillic/Lobster-Regular.ttf'
   font 'fonts/Cyrillic/Neucha.ttf'
   font 'fonts/Cyrillic/RuslanDisplay.ttf'
-  # Renamed for disambiguation between the Arabic and Farsi versions.
   font 'fonts/Farsi/Midan-Black.ttf', target: 'Midan-Black-Farsi.ttf'
   font 'fonts/Farsi/Midan.ttf', target: 'Midan-Farsi.ttf'
+  font 'fonts/Farsi/Mj_Talat.TTF'
   font 'fonts/Farsi/XM Yermook.ttf'
   font 'fonts/Farsi/XP Vosta.ttf'
   font 'fonts/Farsi/XP VostaBd.ttf'
@@ -45,7 +45,7 @@ cask 'peppercarrot-fonts' do
   font 'fonts/Latin/YanoneKaffeesatz-Regular.otf'
   font 'fonts/Latin/YanoneKaffeesatz-Thin.otf'
   font 'fonts/Malayalam/Chilanka-Regular.ttf'
-  font 'fonts/Malayalam/Uroob.ttf'
+  font 'fonts/Malayalam/Suruma.ttf'
   font 'fonts/Sinhalese/BhashitaComplexBold.ttf'
   # Renamed for disambiguation between the Japanese and Vietnamese versions.
   font 'fonts/Vietnamese/rounded-mplus-1c-medium.ttf', target: 'rounded-mplus-1c-medium-vietnamese.ttf'
