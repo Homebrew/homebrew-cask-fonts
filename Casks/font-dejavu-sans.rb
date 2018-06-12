@@ -3,8 +3,7 @@ cask 'font-dejavu-sans' do
   sha256 '7576310b219e04159d35ff61dd4a4ec4cdba4f35c00e002a136f00e96a908b0a'
 
   url "https://downloads.sourceforge.net/dejavu/dejavu-fonts-ttf-#{version}.zip"
-  appcast 'https://sourceforge.net/projects/dejavu/rss',
-          checkpoint: 'bc0b3295dee28550f9c2e5d71d5394a9afdddb0a9186db2790b260ae57fdc83a'
+  appcast 'https://sourceforge.net/projects/dejavu/rss'
   name 'DejaVu'
   homepage 'https://sourceforge.net/projects/dejavu/'
 

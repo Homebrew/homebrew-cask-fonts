@@ -4,8 +4,7 @@ cask 'font-inter-ui' do
 
   # github.com/rsms/inter was verified as official when first introduced to the cask
   url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-UI-#{version}.zip"
-  appcast 'https://github.com/rsms/inter/releases.atom',
-          checkpoint: '187aa96736347b779f26f43ee93278f7585e70c5c669d047f079816f829f1482'
+  appcast 'https://github.com/rsms/inter/releases.atom'
   name 'Inter UI'
   homepage 'https://rsms.me/inter/'
 

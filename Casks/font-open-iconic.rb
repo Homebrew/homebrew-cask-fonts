@@ -4,8 +4,7 @@ cask 'font-open-iconic' do
 
   # codeload.github.com/iconic/open-iconic was verified as official when first introduced to the cask
   url "https://codeload.github.com/iconic/open-iconic/zip/#{version}"
-  appcast 'https://github.com/iconic/open-iconic/releases.atom',
-          checkpoint: '2a53b2e0b6f41a3cef48ddfb0b8421f66418f805ba11a9c59d138d477bf03616'
+  appcast 'https://github.com/iconic/open-iconic/releases.atom'
   name 'Open Iconic'
   homepage 'https://useiconic.com/open/'
 

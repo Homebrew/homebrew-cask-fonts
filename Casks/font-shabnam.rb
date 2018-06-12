@@ -4,8 +4,7 @@ cask 'font-shabnam' do
 
   # github.com/rastikerdar was verified as official when first introduced to the cask
   url "https://github.com/rastikerdar/shabnam-font/releases/download/v#{version}/shabnam-font-v#{version}.zip"
-  appcast 'https://github.com/rastikerdar/shabnam-font/releases.atom',
-          checkpoint: '2117f8a21d00baee2c0d7ababf6b531c27b1556e26bf80a2d78f537b49e1c884'
+  appcast 'https://github.com/rastikerdar/shabnam-font/releases.atom'
   name 'Shabnam'
   homepage 'http://rastikerdar.github.io/shabnam-font'
 

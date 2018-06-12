@@ -4,8 +4,7 @@ cask 'font-barlow' do
 
   # github.com/jpt/barlow was verified as official when first introduced to the cask
   url "https://github.com/jpt/barlow/archive/v#{version}.zip"
-  appcast 'https://github.com/jpt/barlow/releases.atom',
-          checkpoint: 'da838aefcf59ba8e47d30a70e3e6ec147be0ee1b84a095253bc3a4fdaae750a6'
+  appcast 'https://github.com/jpt/barlow/releases.atom'
   name 'Barlow'
   homepage 'https://tribby.com/fonts/barlow'
 

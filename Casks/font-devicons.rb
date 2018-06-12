@@ -4,8 +4,7 @@ cask 'font-devicons' do
 
   # github.com/vorillaz/devicons was verified as official when first introduced to the cask
   url "https://github.com/vorillaz/devicons/archive/#{version}.zip"
-  appcast 'https://github.com/vorillaz/devicons/releases.atom',
-          checkpoint: '63c8fbe42960d87afed8a74379c6c423861708f28831a82f1ab82df93c4d8112'
+  appcast 'https://github.com/vorillaz/devicons/releases.atom'
   name 'Devicons'
   homepage 'http://vorillaz.github.io/devicons/'
 

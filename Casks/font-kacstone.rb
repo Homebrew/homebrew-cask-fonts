@@ -4,8 +4,7 @@ cask 'font-kacstone' do
 
   # downloads.sourceforge.net/arabeyes was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/arabeyes/kacst_one_#{version}.tar.bz2"
-  appcast 'https://sourceforge.net/projects/arabeyes/rss',
-          checkpoint: 'bc0a6a205d626e20896adb51f0cdc3e06e5c13808b471712d01fb0b342afa357'
+  appcast 'https://sourceforge.net/projects/arabeyes/rss'
   name 'KacstOne'
   homepage 'https://www.arabeyes.org/'
 

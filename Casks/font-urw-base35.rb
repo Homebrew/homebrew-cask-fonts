@@ -4,8 +4,7 @@ cask 'font-urw-base35' do
   sha256 '4505042c8859166f5bff77e33907e244b66eb4e04b56646e14e0a97e5757cd21'
 
   url "https://github.com/ArtifexSoftware/urw-base35-fonts/archive/#{version}.zip"
-  appcast 'https://github.com/ArtifexSoftware/urw-base35-fonts/releases.atom',
-          checkpoint: '8959bea54204517533836c8693f68db7eea5009c6c1b898f477ed4e4b979049c'
+  appcast 'https://github.com/ArtifexSoftware/urw-base35-fonts/releases.atom'
   name 'URW++ base 35'
   homepage 'https://github.com/ArtifexSoftware/urw-base35-fonts'
 

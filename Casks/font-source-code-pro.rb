@@ -4,8 +4,7 @@ cask 'font-source-code-pro' do
 
   # github.com/adobe-fonts/source-code-pro was verified as official when first introduced to the cask
   url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.sub('ro-', 'ro/')}.zip"
-  appcast 'https://github.com/adobe-fonts/source-code-pro/releases.atom',
-          checkpoint: 'cff5bff963ec091ebfb153cc4058c8d274997e9801d25462f69a9852819536c1'
+  appcast 'https://github.com/adobe-fonts/source-code-pro/releases.atom'
   name 'Source Code Pro'
   homepage 'http://adobe-fonts.github.io/source-code-pro/'
 

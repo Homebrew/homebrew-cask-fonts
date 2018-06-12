@@ -4,8 +4,7 @@ cask 'font-fontawesome' do
 
   # github.com/FortAwesome/Font-Awesome was verified as official when first introduced to the cask
   url "https://github.com/FortAwesome/Font-Awesome/archive/#{version}.zip"
-  appcast 'https://github.com/FortAwesome/Font-Awesome/releases.atom',
-          checkpoint: 'a4f40788f023f557e5b1b31f0ec4293f286ce4ddac05fba1e597c1ecf2af358a'
+  appcast 'https://github.com/FortAwesome/Font-Awesome/releases.atom'
   name 'Font Awesome'
   homepage 'http://fontawesome.io/'
 

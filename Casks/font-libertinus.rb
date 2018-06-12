@@ -3,8 +3,7 @@ cask 'font-libertinus' do
   sha256 'ad772e5272f53a6f548ce1472651f4215eac0064e586fe7259001c634bdf0fb0'
 
   url "https://github.com/libertinus-fonts/libertinus/archive/v#{version}.tar.gz"
-  appcast 'https://github.com/libertinus-fonts/libertinus/releases.atom',
-          checkpoint: '014f1090058784411efbf3900951a3dc9c2ca35338154ad5babe759e5da3a6bf'
+  appcast 'https://github.com/libertinus-fonts/libertinus/releases.atom'
   name 'Libertinus'
   homepage 'https://github.com/libertinus-fonts/libertinus'
 

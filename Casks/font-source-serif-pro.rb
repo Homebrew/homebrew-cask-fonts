@@ -4,8 +4,7 @@ cask 'font-source-serif-pro' do
 
   # github.com/adobe-fonts/source-serif-pro was verified as official when first introduced to the cask
   url "https://github.com/adobe-fonts/source-serif-pro/archive/#{version}.zip"
-  appcast 'https://github.com/adobe-fonts/source-serif-pro/releases.atom',
-          checkpoint: '1caefcf0b3d20b05b64beb802e872ba535d7cc59ea007449eb4e1d25cfcc9edb'
+  appcast 'https://github.com/adobe-fonts/source-serif-pro/releases.atom'
   name 'Source Serif Pro'
   homepage 'https://adobe-fonts.github.io/source-serif-pro/'
 
