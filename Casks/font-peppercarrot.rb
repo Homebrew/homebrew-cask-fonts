@@ -1,4 +1,4 @@
-cask 'peppercarrot-fonts' do
+cask 'font-peppercarrot' do
   version '3.1'
   sha256 '1b164f14d0e7db8c4e2559a34c9773c53941027bd601ba05b24f049d70292d9d'
 
