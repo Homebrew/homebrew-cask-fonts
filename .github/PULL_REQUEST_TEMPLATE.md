@@ -16,7 +16,7 @@ Additionally, if **adding a new cask**:
 - [ ] Checked the cask is submitted to [the correct repo].
 
 [token reference]: https://github.com/caskroom/homebrew-cask/blob/master/doc/cask_language_reference/token_reference.md
-[open pull requests]: https://github.com/caskroom/homebrew-fonts/pulls
-[closed issues]: https://github.com/caskroom/homebrew-fonts/issues?q=is%3Aissue+is%3Aclosed
+[open pull requests]: https://github.com/caskroom/homebrew-cask-fonts/pulls
+[closed issues]: https://github.com/caskroom/homebrew-cask-fonts/issues?q=is%3Aissue+is%3Aclosed
 [the correct repo]: https://github.com/caskroom/homebrew-cask/blob/master/doc/development/adding_a_cask.md#finding-a-home-for-your-cask
 [version-checksum]: https://github.com/caskroom/homebrew-cask/blob/master/doc/cask_language_reference/stanzas/sha256.md#updating-the-sha256
