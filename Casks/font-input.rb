@@ -181,5 +181,5 @@ cask 'font-input' do
     To use the Input fonts, you must agree to the terms of the license.
 
       http://input.fontbureau.com/license/
-    EOS
+  EOS
 end
