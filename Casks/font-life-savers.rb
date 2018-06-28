@@ -10,6 +10,8 @@ cask 'font-life-savers' do
   name 'Life Savers'
   homepage 'https://www.google.com/fonts/specimen/Life%20Savers'
 
+  depends_on macos: '>= :sierra'
+
   font 'LifeSavers-Bold.ttf'
   font 'LifeSavers-Regular.ttf'
 end

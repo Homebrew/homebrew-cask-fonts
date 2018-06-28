@@ -10,6 +10,8 @@ cask 'font-im-fell-great-primer' do
   name 'IM Fell Great Primer'
   homepage 'https://www.google.com/fonts/specimen/IM%20Fell%20Great%20Primer'
 
+  depends_on macos: '>= :sierra'
+
   font 'IMFeGPit28P.ttf'
   font 'IMFeGPrm28P.ttf'
 end

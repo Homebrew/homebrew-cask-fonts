@@ -10,6 +10,8 @@ cask 'font-karla-tamil-inclined' do
   name 'Karla Tamil Inclined'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
+  depends_on macos: '>= :sierra'
+
   font 'KarlaTamilInclined-Bold.ttf'
   font 'KarlaTamilInclined-Regular.ttf'
 end

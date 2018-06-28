@@ -10,6 +10,8 @@ cask 'font-marvel' do
   name 'Marvel'
   homepage 'https://www.google.com/fonts/specimen/Marvel'
 
+  depends_on macos: '>= :sierra'
+
   font 'Marvel-Bold.ttf'
   font 'Marvel-BoldItalic.ttf'
   font 'Marvel-Italic.ttf'

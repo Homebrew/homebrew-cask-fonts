@@ -10,6 +10,8 @@ cask 'font-ruda' do
   name 'Ruda'
   homepage 'https://www.google.com/fonts/specimen/Ruda'
 
+  depends_on macos: '>= :sierra'
+
   font 'Ruda-Black.ttf'
   font 'Ruda-Bold.ttf'
   font 'Ruda-Regular.ttf'

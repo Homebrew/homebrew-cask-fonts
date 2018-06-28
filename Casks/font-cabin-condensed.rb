@@ -10,6 +10,8 @@ cask 'font-cabin-condensed' do
   name 'Cabin Condensed'
   homepage 'https://www.google.com/fonts/specimen/Cabin%20Condensed'
 
+  depends_on macos: '>= :sierra'
+
   font 'CabinCondensed-Bold.ttf'
   font 'CabinCondensed-Medium.ttf'
   font 'CabinCondensed-Regular.ttf'

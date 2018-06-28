@@ -10,6 +10,8 @@ cask 'font-skranji' do
   name 'Skranji'
   homepage 'https://www.google.com/fonts/specimen/Skranji'
 
+  depends_on macos: '>= :sierra'
+
   font 'Skranji-Bold.ttf'
   font 'Skranji-Regular.ttf'
 end

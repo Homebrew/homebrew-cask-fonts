@@ -10,6 +10,8 @@ cask 'font-chau-philomene-one' do
   name 'Chau Philomene One'
   homepage 'https://www.google.com/fonts/specimen/Chau%20Philomene%20One'
 
+  depends_on macos: '>= :sierra'
+
   font 'ChauPhilomeneOne-Italic.ttf'
   font 'ChauPhilomeneOne-Regular.ttf'
 end

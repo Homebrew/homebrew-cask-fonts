@@ -10,6 +10,8 @@ cask 'font-exo2' do
   name 'Exo 2'
   homepage 'https://www.google.com/fonts/specimen/Exo%202'
 
+  depends_on macos: '>= :sierra'
+
   font 'Exo2-Black.ttf'
   font 'Exo2-BlackItalic.ttf'
   font 'Exo2-Bold.ttf'

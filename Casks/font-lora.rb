@@ -10,6 +10,8 @@ cask 'font-lora' do
   name 'Lora'
   homepage 'https://www.google.com/fonts/specimen/Lora'
 
+  depends_on macos: '>= :sierra'
+
   font 'Lora-Bold.ttf'
   font 'Lora-BoldItalic.ttf'
   font 'Lora-Italic.ttf'

@@ -10,6 +10,8 @@ cask 'font-open-sans-condensed' do
   name 'Open Sans Condensed'
   homepage 'https://www.google.com/fonts/specimen/Open%20Sans%20Condensed'
 
+  depends_on macos: '>= :sierra'
+
   font 'OpenSans-CondBold.ttf'
   font 'OpenSans-CondLight.ttf'
   font 'OpenSans-CondLightItalic.ttf'

@@ -10,6 +10,8 @@ cask 'font-unkempt' do
   name 'Unkempt'
   homepage 'https://www.google.com/fonts/specimen/Unkempt'
 
+  depends_on macos: '>= :sierra'
+
   font 'Unkempt-Bold.ttf'
   font 'Unkempt-Regular.ttf'
 end

@@ -10,6 +10,8 @@ cask 'font-flamenco' do
   name 'Flamenco'
   homepage 'https://www.google.com/fonts/specimen/Flamenco'
 
+  depends_on macos: '>= :sierra'
+
   font 'Flamenco-Light.ttf'
   font 'Flamenco-Regular.ttf'
 end

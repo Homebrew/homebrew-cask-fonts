@@ -8,6 +8,8 @@ cask 'font-liberation-mono-for-powerline' do
   name 'Literation Mono for Powerline'
   homepage 'https://github.com/powerline/fonts/tree/master/LiberationMono'
 
+  depends_on macos: '>= :sierra'
+
   font 'Literation Mono Powerline Bold Italic.ttf'
   font 'Literation Mono Powerline Bold.ttf'
   font 'Literation Mono Powerline Italic.ttf'

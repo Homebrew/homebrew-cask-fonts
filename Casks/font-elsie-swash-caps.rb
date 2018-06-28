@@ -10,6 +10,8 @@ cask 'font-elsie-swash-caps' do
   name 'Elsie Swash Caps'
   homepage 'https://www.google.com/fonts/specimen/Elsie%20Swash%20Caps'
 
+  depends_on macos: '>= :sierra'
+
   font 'ElsieSwashCaps-Black.ttf'
   font 'ElsieSwashCaps-Regular.ttf'
 end

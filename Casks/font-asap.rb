@@ -10,6 +10,8 @@ cask 'font-asap' do
   name 'Asap'
   homepage 'https://www.google.com/fonts/specimen/Asap'
 
+  depends_on macos: '>= :sierra'
+
   font 'Asap-Bold.ttf'
   font 'Asap-BoldItalic.ttf'
   font 'Asap-Italic.ttf'

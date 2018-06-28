@@ -10,6 +10,8 @@ cask 'font-almendra-sc' do
   name 'Almendra SC'
   homepage 'https://www.google.com/fonts/specimen/Almendra%20SC'
 
+  depends_on macos: '>= :sierra'
+
   font 'AlmendraSC-Bold.ttf'
   font 'AlmendraSC-BoldItalic.ttf'
   font 'AlmendraSC-Italic.ttf'

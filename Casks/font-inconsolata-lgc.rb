@@ -8,6 +8,8 @@ cask 'font-inconsolata-lgc' do
   name 'Inconsolata LGC'
   homepage 'https://github.com/DeLaGuardo/Inconsolata-LGC'
 
+  depends_on macos: '>= :sierra'
+
   font 'inconsolatalgc.ttf'
   font 'inconsolatalgcbold.ttf'
   font 'inconsolatalgcbolditalic.ttf'

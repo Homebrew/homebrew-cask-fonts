@@ -10,6 +10,8 @@ cask 'font-phetsarath' do
   name 'Phetsarath'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
+  depends_on macos: '>= :sierra'
+
   font 'Phetsarath-Bold.ttf'
   font 'Phetsarath-Regular.ttf'
 end

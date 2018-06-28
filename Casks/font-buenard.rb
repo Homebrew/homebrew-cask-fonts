@@ -10,6 +10,8 @@ cask 'font-buenard' do
   name 'Buenard'
   homepage 'https://www.google.com/fonts/specimen/Buenard'
 
+  depends_on macos: '>= :sierra'
+
   font 'Buenard-Bold.ttf'
   font 'Buenard-Regular.ttf'
 end

@@ -10,6 +10,8 @@ cask 'font-monda' do
   name 'Monda'
   homepage 'https://www.google.com/fonts/specimen/Monda'
 
+  depends_on macos: '>= :sierra'
+
   font 'Monda-Bold.ttf'
   font 'Monda-Regular.ttf'
 end

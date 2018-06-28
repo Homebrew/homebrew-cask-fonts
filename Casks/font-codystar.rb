@@ -10,6 +10,8 @@ cask 'font-codystar' do
   name 'Codystar'
   homepage 'https://www.google.com/fonts/specimen/Codystar'
 
+  depends_on macos: '>= :sierra'
+
   font 'Codystar-Light.ttf'
   font 'Codystar-Regular.ttf'
 end

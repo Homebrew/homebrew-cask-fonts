@@ -10,6 +10,8 @@ cask 'font-raleway' do
   name 'Raleway'
   homepage 'https://www.google.com/fonts/specimen/Raleway'
 
+  depends_on macos: '>= :sierra'
+
   font 'Raleway-Black.ttf'
   font 'Raleway-BlackItalic.ttf'
   font 'Raleway-Bold.ttf'

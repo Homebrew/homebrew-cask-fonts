@@ -10,6 +10,8 @@ cask 'font-fanwood-text' do
   name 'Fanwood Text'
   homepage 'https://www.google.com/fonts/specimen/Fanwood%20Text'
 
+  depends_on macos: '>= :sierra'
+
   font 'FanwoodText-Italic.ttf'
   font 'FanwoodText-Regular.ttf'
 end

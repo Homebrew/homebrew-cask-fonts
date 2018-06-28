@@ -9,6 +9,8 @@ cask 'font-roboto-mono' do
   name 'Roboto Mono'
   homepage 'https://www.google.com/fonts/specimen/Roboto%20Mono'
 
+  depends_on macos: '>= :sierra'
+
   font 'RobotoMono-Bold.ttf'
   font 'RobotoMono-BoldItalic.ttf'
   font 'RobotoMono-Italic.ttf'

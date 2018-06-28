@@ -10,6 +10,8 @@ cask 'font-oswald' do
   name 'Oswald'
   homepage 'https://www.google.com/fonts/specimen/Oswald'
 
+  depends_on macos: '>= :sierra'
+
   font 'Oswald-Bold.ttf'
   font 'Oswald-ExtraLight.ttf'
   font 'Oswald-Light.ttf'

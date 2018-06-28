@@ -10,6 +10,8 @@ cask 'font-magra' do
   name 'Magra'
   homepage 'https://www.google.com/fonts/specimen/Magra'
 
+  depends_on macos: '>= :sierra'
+
   font 'Magra-Bold.ttf'
   font 'Magra-Regular.ttf'
 end

@@ -10,5 +10,7 @@ cask 'font-gravitas-one' do
   name 'Gravitas One'
   homepage 'https://www.google.com/fonts/specimen/Gravitas%20One'
 
+  depends_on macos: '>= :sierra'
+
   font 'GravitasOne.ttf'
 end

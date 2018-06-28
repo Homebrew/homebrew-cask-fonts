@@ -10,6 +10,8 @@ cask 'font-dosis' do
   name 'Dosis'
   homepage 'https://www.google.com/fonts/specimen/Dosis'
 
+  depends_on macos: '>= :sierra'
+
   font 'Dosis-Bold.ttf'
   font 'Dosis-ExtraBold.ttf'
   font 'Dosis-ExtraLight.ttf'

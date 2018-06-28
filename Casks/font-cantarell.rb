@@ -10,6 +10,8 @@ cask 'font-cantarell' do
   name 'Cantarell'
   homepage 'https://www.google.com/fonts/specimen/Cantarell'
 
+  depends_on macos: '>= :sierra'
+
   font 'Cantarell-Bold.ttf'
   font 'Cantarell-BoldOblique.ttf'
   font 'Cantarell-Oblique.ttf'

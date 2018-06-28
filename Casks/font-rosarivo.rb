@@ -10,6 +10,8 @@ cask 'font-rosarivo' do
   name 'Rosarivo'
   homepage 'https://www.google.com/fonts/specimen/Rosarivo'
 
+  depends_on macos: '>= :sierra'
+
   font 'Rosarivo-Italic.ttf'
   font 'Rosarivo-Regular.ttf'
 end
