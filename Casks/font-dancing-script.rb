@@ -10,6 +10,8 @@ cask 'font-dancing-script' do
   name 'Dancing Script'
   homepage 'https://www.google.com/fonts/specimen/Dancing%20Script'
 
+  depends_on macos: '>= :sierra'
+
   font 'DancingScript-Bold.ttf'
   font 'DancingScript-Regular.ttf'
 end

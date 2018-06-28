@@ -10,6 +10,8 @@ cask 'font-share' do
   name 'Share'
   homepage 'https://www.google.com/fonts/specimen/Share'
 
+  depends_on macos: '>= :sierra'
+
   font 'Share-Bold.ttf'
   font 'Share-BoldItalic.ttf'
   font 'Share-Italic.ttf'

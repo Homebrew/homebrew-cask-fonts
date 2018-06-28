@@ -8,6 +8,8 @@ cask 'font-fira-mono-for-powerline' do
   name 'Fira Mono for Poweline'
   homepage 'https://github.com/powerline/fonts/tree/master/FiraMono'
 
+  depends_on macos: '>= :sierra'
+
   font 'FuraMono-Bold Powerline.otf'
   font 'FuraMono-Medium Powerline.otf'
   font 'FuraMono-Regular Powerline.otf'

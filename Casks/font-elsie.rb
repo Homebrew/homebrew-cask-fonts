@@ -10,6 +10,8 @@ cask 'font-elsie' do
   name 'Elsie'
   homepage 'https://www.google.com/fonts/specimen/Elsie'
 
+  depends_on macos: '>= :sierra'
+
   font 'Elsie-Black.ttf'
   font 'Elsie-Regular.ttf'
 end

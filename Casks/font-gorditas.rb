@@ -10,6 +10,8 @@ cask 'font-gorditas' do
   name 'Gorditas'
   homepage 'https://www.google.com/fonts/specimen/Gorditas'
 
+  depends_on macos: '>= :sierra'
+
   font 'Gorditas-Bold.ttf'
   font 'Gorditas-Regular.ttf'
 end

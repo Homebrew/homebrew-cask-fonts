@@ -10,6 +10,8 @@ cask 'font-stoke' do
   name 'Stoke'
   homepage 'https://www.google.com/fonts/specimen/Stoke'
 
+  depends_on macos: '>= :sierra'
+
   font 'Stoke-Light.ttf'
   font 'Stoke-Regular.ttf'
 end

@@ -9,6 +9,8 @@ cask 'font-roboto-condensed' do
   name 'Roboto Condensed'
   homepage 'https://www.google.com/fonts/specimen/Roboto%20Condensed'
 
+  depends_on macos: '>= :sierra'
+
   font 'RobotoCondensed-Bold.ttf'
   font 'RobotoCondensed-BoldItalic.ttf'
   font 'RobotoCondensed-Italic.ttf'

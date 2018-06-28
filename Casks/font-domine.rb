@@ -10,6 +10,8 @@ cask 'font-domine' do
   name 'Domine'
   homepage 'https://www.google.com/fonts/specimen/Domine'
 
+  depends_on macos: '>= :sierra'
+
   font 'Domine-Bold.ttf'
   font 'Domine-Regular.ttf'
 end

@@ -10,6 +10,8 @@ cask 'font-andada-sc' do
   name 'Andada SC'
   homepage 'https://www.fontsquirrel.com/fonts/andada'
 
+  depends_on macos: '>= :sierra'
+
   font 'AndadaSC-Bold.ttf'
   font 'AndadaSC-BoldItalic.ttf'
   font 'AndadaSC-Italic.ttf'

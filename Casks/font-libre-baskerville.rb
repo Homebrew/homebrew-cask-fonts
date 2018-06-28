@@ -10,6 +10,8 @@ cask 'font-libre-baskerville' do
   name 'Libre Baskerville'
   homepage 'https://www.google.com/fonts/specimen/Libre%20Baskerville'
 
+  depends_on macos: '>= :sierra'
+
   font 'LibreBaskerville-Bold.ttf'
   font 'LibreBaskerville-Italic.ttf'
   font 'LibreBaskerville-Regular.ttf'

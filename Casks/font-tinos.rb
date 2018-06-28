@@ -10,6 +10,8 @@ cask 'font-tinos' do
   name 'Tinos'
   homepage 'https://www.google.com/fonts/specimen/Tinos'
 
+  depends_on macos: '>= :sierra'
+
   font 'Tinos-Bold.ttf'
   font 'Tinos-BoldItalic.ttf'
   font 'Tinos-Italic.ttf'

@@ -10,6 +10,8 @@ cask 'font-jura' do
   name 'Jura'
   homepage 'https://www.google.com/fonts/specimen/Jura'
 
+  depends_on macos: '>= :sierra'
+
   font 'Jura-DemiBold.ttf'
   font 'Jura-Light.ttf'
   font 'Jura-Medium.ttf'

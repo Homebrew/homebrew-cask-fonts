@@ -10,6 +10,8 @@ cask 'font-im-fell-french-canon' do
   name 'IM Fell French Canon'
   homepage 'https://www.google.com/fonts/specimen/IM%20Fell%20French%20Canon'
 
+  depends_on macos: '>= :sierra'
+
   font 'IMFeFCit28P.ttf'
   font 'IMFeFCrm28P.ttf'
 end

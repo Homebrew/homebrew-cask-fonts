@@ -10,6 +10,8 @@ cask 'font-nokora' do
   name 'Nokora'
   homepage 'https://www.google.com/fonts/specimen/Nokora'
 
+  depends_on macos: '>= :sierra'
+
   font 'Nokora-Bold.ttf'
   font 'Nokora-Regular.ttf'
 end

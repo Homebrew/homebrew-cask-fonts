@@ -10,6 +10,8 @@ cask 'font-podkova' do
   name 'Podkova'
   homepage 'https://www.google.com/fonts/specimen/Podkova'
 
+  depends_on macos: '>= :sierra'
+
   font 'Podkova-Bold.ttf'
   font 'Podkova-Regular.ttf'
 end

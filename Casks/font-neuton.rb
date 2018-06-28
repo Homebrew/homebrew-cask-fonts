@@ -10,6 +10,8 @@ cask 'font-neuton' do
   name 'Neuton'
   homepage 'https://www.google.com/fonts/specimen/Neuton'
 
+  depends_on macos: '>= :sierra'
+
   font 'Neuton-Bold.ttf'
   font 'Neuton-ExtraBold.ttf'
   font 'Neuton-ExtraLight.ttf'

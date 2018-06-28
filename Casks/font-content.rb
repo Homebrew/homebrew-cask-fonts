@@ -10,6 +10,8 @@ cask 'font-content' do
   name 'Content'
   homepage 'https://www.google.com/fonts/specimen/Content'
 
+  depends_on macos: '>= :sierra'
+
   font 'Content-Bold.ttf'
   font 'Content-Regular.ttf'
 end

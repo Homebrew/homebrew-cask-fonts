@@ -10,6 +10,8 @@ cask 'font-cherry-swash' do
   name 'Cherry Swash'
   homepage 'https://www.google.com/fonts/specimen/Cherry%20Swash'
 
+  depends_on macos: '>= :sierra'
+
   font 'CherrySwash-Bold.ttf'
   font 'CherrySwash-Regular.ttf'
 end

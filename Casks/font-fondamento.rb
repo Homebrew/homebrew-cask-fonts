@@ -10,6 +10,8 @@ cask 'font-fondamento' do
   name 'Fondamento'
   homepage 'https://www.google.com/fonts/specimen/Fondamento'
 
+  depends_on macos: '>= :sierra'
+
   font 'Fondamento-Italic.ttf'
   font 'Fondamento-Regular.ttf'
 end

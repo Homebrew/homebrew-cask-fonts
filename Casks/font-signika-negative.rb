@@ -10,6 +10,8 @@ cask 'font-signika-negative' do
   name 'Signika Negative'
   homepage 'https://www.google.com/fonts/specimen/Signika%20Negative'
 
+  depends_on macos: '>= :sierra'
+
   font 'SignikaNegative-Bold.ttf'
   font 'SignikaNegative-Light.ttf'
   font 'SignikaNegative-Regular.ttf'

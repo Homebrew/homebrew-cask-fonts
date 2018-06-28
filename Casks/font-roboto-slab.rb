@@ -9,6 +9,8 @@ cask 'font-roboto-slab' do
   name 'Roboto Slab'
   homepage 'https://www.google.com/fonts/specimen/Roboto%20Slab'
 
+  depends_on macos: '>= :sierra'
+
   font 'RobotoSlab-Bold.ttf'
   font 'RobotoSlab-Light.ttf'
   font 'RobotoSlab-Regular.ttf'

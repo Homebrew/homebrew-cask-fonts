@@ -10,6 +10,8 @@ cask 'font-nanumgothic' do
   name 'Nanum Gothic'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
+  depends_on macos: '>= :sierra'
+
   font 'NanumGothic-Bold.ttf'
   font 'NanumGothic-ExtraBold.ttf'
   font 'NanumGothic-Regular.ttf'

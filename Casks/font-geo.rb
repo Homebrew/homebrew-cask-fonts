@@ -10,6 +10,8 @@ cask 'font-geo' do
   name 'Geo'
   homepage 'https://www.google.com/fonts/specimen/Geo'
 
+  depends_on macos: '>= :sierra'
+
   font 'Geo-Oblique.ttf'
   font 'Geo-Regular.ttf'
 end

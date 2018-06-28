@@ -10,6 +10,8 @@ cask 'font-dhyana' do
   name 'Dhyana'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
+  depends_on macos: '>= :sierra'
+
   font 'Dhyana-Bold.ttf'
   font 'Dhyana-Regular.ttf'
 end

@@ -10,6 +10,8 @@ cask 'font-lekton' do
   name 'Lekton'
   homepage 'https://www.google.com/fonts/specimen/Lekton'
 
+  depends_on macos: '>= :sierra'
+
   font 'Lekton-Bold.ttf'
   font 'Lekton-Italic.ttf'
   font 'Lekton-Regular.ttf'

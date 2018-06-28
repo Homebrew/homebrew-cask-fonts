@@ -10,6 +10,8 @@ cask 'font-amaranth' do
   name 'Amaranth'
   homepage 'https://www.google.com/fonts/specimen/Amaranth'
 
+  depends_on macos: '>= :sierra'
+
   font 'Amaranth-Bold.ttf'
   font 'Amaranth-BoldItalic.ttf'
   font 'Amaranth-Italic.ttf'

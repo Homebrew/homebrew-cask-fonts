@@ -10,6 +10,8 @@ cask 'font-comfortaa' do
   name 'Comfortaa'
   homepage 'https://www.google.com/fonts/specimen/Comfortaa'
 
+  depends_on macos: '>= :sierra'
+
   font 'Comfortaa-Bold.ttf'
   font 'Comfortaa-Light.ttf'
   font 'Comfortaa-Regular.ttf'

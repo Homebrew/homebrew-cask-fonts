@@ -10,6 +10,8 @@ cask 'font-crimson-text' do
   name 'Crimson Text'
   homepage 'https://www.google.com/fonts/specimen/Crimson%20Text'
 
+  depends_on macos: '>= :sierra'
+
   font 'CrimsonText-Bold.ttf'
   font 'CrimsonText-BoldItalic.ttf'
   font 'CrimsonText-Italic.ttf'

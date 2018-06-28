@@ -10,6 +10,8 @@ cask 'font-kantumruy' do
   name 'Kantumruy'
   homepage 'https://www.google.com/fonts/specimen/Kantumruy'
 
+  depends_on macos: '>= :sierra'
+
   font 'Kantumruy-Bold.ttf'
   font 'Kantumruy-Light.ttf'
   font 'Kantumruy-Regular.ttf'

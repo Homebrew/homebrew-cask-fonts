@@ -10,6 +10,8 @@ cask 'font-cousine' do
   name 'Cousine'
   homepage 'https://www.google.com/fonts/specimen/Cousine'
 
+  depends_on macos: '>= :sierra'
+
   font 'Cousine-Regular.ttf'
   font 'Cousine-Bold.ttf'
   font 'Cousine-BoldItalic.ttf'

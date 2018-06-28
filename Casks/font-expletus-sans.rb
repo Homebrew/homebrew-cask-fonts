@@ -10,6 +10,8 @@ cask 'font-expletus-sans' do
   name 'Expletus Sans'
   homepage 'https://www.google.com/fonts/specimen/Expletus%20Sans'
 
+  depends_on macos: '>= :sierra'
+
   font 'ExpletusSans-Bold.ttf'
   font 'ExpletusSans-BoldItalic.ttf'
   font 'ExpletusSans-Italic.ttf'

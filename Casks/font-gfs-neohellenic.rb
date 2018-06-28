@@ -10,6 +10,8 @@ cask 'font-gfs-neohellenic' do
   name 'GFS Neohellenic'
   homepage 'https://www.google.com/fonts/specimen/GFS%20Neohellenic'
 
+  depends_on macos: '>= :sierra'
+
   font 'GFSNeohellenic.ttf'
   font 'GFSNeohellenicBold.ttf'
   font 'GFSNeohellenicBoldItalic.ttf'

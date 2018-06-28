@@ -10,6 +10,8 @@ cask 'font-rosario' do
   name 'Rosario'
   homepage 'https://www.google.com/fonts/specimen/Rosario'
 
+  depends_on macos: '>= :sierra'
+
   font 'Rosario-Bold.ttf'
   font 'Rosario-BoldItalic.ttf'
   font 'Rosario-Italic.ttf'

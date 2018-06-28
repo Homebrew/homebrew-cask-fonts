@@ -10,6 +10,8 @@ cask 'font-josefin-sans' do
   name 'Josefin Sans'
   homepage 'https://www.google.com/fonts/specimen/Josefin%20Sans'
 
+  depends_on macos: '>= :sierra'
+
   font 'JosefinSans-Bold.ttf'
   font 'JosefinSans-BoldItalic.ttf'
   font 'JosefinSans-Italic.ttf'

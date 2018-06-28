@@ -10,6 +10,8 @@ cask 'font-playfair-display' do
   name 'Playfair Display'
   homepage 'https://www.google.com/fonts/specimen/Playfair%20Display'
 
+  depends_on macos: '>= :sierra'
+
   font 'PlayfairDisplay-Black.ttf'
   font 'PlayfairDisplay-BlackItalic.ttf'
   font 'PlayfairDisplay-Bold.ttf'

@@ -10,5 +10,7 @@ cask 'font-varela' do
   name 'Varela'
   homepage 'https://www.google.com/fonts/specimen/Varela'
 
+  depends_on macos: '>= :sierra'
+
   font 'Varela-Regular.ttf'
 end
