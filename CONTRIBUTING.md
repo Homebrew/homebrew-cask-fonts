@@ -4,7 +4,7 @@ So you want to contribute to the project. **THIS IS GREAT NEWS!** Seriously. Weâ
 
 ## Getting Started
 
-See [CONTRIBUTING.md](https://github.com/caskroom/homebrew-cask/blob/master/CONTRIBUTING.md) in the main homebrew-cask repo for general info on how to get set up.
+See [CONTRIBUTING.md](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) in the main homebrew-cask repo for general info on how to get set up.
 
 ## Adding a Font Cask
 
@@ -32,8 +32,7 @@ cask 'font-fantasque-sans-mono' do
   sha256 '6bb3b24413b78eed19ffa9bd233ae555982e3b185bd303e57dd1e05bebf17352'
 
   url "https://github.com/belluzj/fantasque-sans/releases/download/v#{version}/FantasqueSansMono.zip"
-  appcast 'https://github.com/belluzj/fantasque-sans/releases.atom',
-          checkpoint: '8085c3dff43a9dbf3201ca790c57800a089d1b69fec91226a600c04d9c681e36'
+  appcast 'https://github.com/belluzj/fantasque-sans/releases.atom'
   name 'Fantasque Sans Mono'
   homepage 'https://github.com/belluzj/fantasque-sans'
 
@@ -46,7 +45,7 @@ end
 
 ## Font Cask Fields
 
-The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/caskroom/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo. Note that if the download `url` is not a versioned file, `sha256 <hexstring>` should be replaced with `sha256 :no_check`, and `version` should be set to `:latest`.
+The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo. Note that if the download `url` is not a versioned file, `sha256 <hexstring>` should be replaced with `sha256 :no_check`, and `version` should be set to `:latest`.
 
 The string which follows the `font` field is a relative path to the font file within the downloaded archive. That font will be linked into the userâ€™s `~/Library/Fonts` directory at install time.
 
@@ -55,7 +54,7 @@ The string which follows the `font` field is a relative path to the font file wi
 For OTF and TTF fonts, the easiest way to create a cask is to run the `font_casker` script on their containing archive.
 
 ```bash
-"$(brew --repository)/Library/Taps/caskroom/homebrew-fonts/developer/bin/font_casker" font_archive.zip
+"$(brew --repository)/Library/Taps/Homebrew/homebrew-cask-fonts/developer/bin/font_casker" font_archive.zip
 ```
 
 `font_casker` produces a preformatted cask including the values of `version`, `sha256`, and all `font` stanzas, and writes it to stdout.
@@ -132,4 +131,4 @@ We prefer to have the Casks point to font download links as high up the distribu
 
 This repository was seeded with fonts from Google Web Font Directory. If you wish to rewrite a Google Web Font Cask with a `url` pointing to the upstream type foundry, please do: we consider that an upgrade.
 
-For some fonts, Google Web Font Directory is the only current source. Writing the `url` stanza for those cases may require using some unusual features of the Cask language. See example [font-lekton.rb](https://github.com/caskroom/homebrew-fonts/blob/68bd19db46cc1b386eda3bcf72fbb70fcbf7a73b/Casks/font-lekton.rb), consult [cask_language_reference](https://github.com/caskroom/homebrew-cask/tree/master/doc/cask_language_reference), or contact the maintainers.
+For some fonts, Google Web Font Directory is the only current source. Writing the `url` stanza for those cases may require using some unusual features of the Cask language. See example [font-lekton.rb](https://github.com/Homebrew/homebrew-cask-fonts/blob/68bd19db46cc1b386eda3bcf72fbb70fcbf7a73b/Casks/font-lekton.rb), consult [cask_language_reference](https://github.com/Homebrew/homebrew-cask/tree/master/doc/cask_language_reference), or contact the maintainers.

@@ -8,7 +8,9 @@ cask 'font-open-sans-condensed' do
       revision:   '50',
       trust_cert: true
   name 'Open Sans Condensed'
-  homepage 'http://www.google.com/fonts/specimen/Open%20Sans%20Condensed'
+  homepage 'https://www.google.com/fonts/specimen/Open%20Sans%20Condensed'
+
+  depends_on macos: '>= :sierra'
 
   font 'OpenSans-CondBold.ttf'
   font 'OpenSans-CondLight.ttf'

@@ -5,7 +5,7 @@ cask 'font-iceberg' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/iceberg/Iceberg-Regular.ttf'
   name 'Iceberg'
-  homepage 'http://www.google.com/fonts/specimen/Iceberg'
+  homepage 'https://www.google.com/fonts/specimen/Iceberg'
 
   font 'Iceberg-Regular.ttf'
 end

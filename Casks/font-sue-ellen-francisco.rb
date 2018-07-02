@@ -5,7 +5,7 @@ cask 'font-sue-ellen-francisco' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/sueellenfrancisco/SueEllenFrancisco.ttf'
   name 'Sue Ellen Francisco'
-  homepage 'http://www.google.com/fonts/specimen/Sue%20Ellen%20Francisco'
+  homepage 'https://www.google.com/fonts/specimen/Sue%20Ellen%20Francisco'
 
   font 'SueEllenFrancisco.ttf'
 end

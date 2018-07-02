@@ -8,7 +8,9 @@ cask 'font-volkhov' do
       revision:   '50',
       trust_cert: true
   name 'Volkhov'
-  homepage 'http://www.google.com/fonts/specimen/Volkhov'
+  homepage 'https://www.google.com/fonts/specimen/Volkhov'
+
+  depends_on macos: '>= :sierra'
 
   font 'Volkhov-Bold.ttf'
   font 'Volkhov-BoldItalic.ttf'

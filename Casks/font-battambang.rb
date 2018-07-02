@@ -8,7 +8,9 @@ cask 'font-battambang' do
       revision:   '50',
       trust_cert: true
   name 'Battambang'
-  homepage 'http://www.google.com/fonts/specimen/Battambang'
+  homepage 'https://www.google.com/fonts/specimen/Battambang'
+
+  depends_on macos: '>= :sierra'
 
   font 'Battambang-Bold.ttf'
   font 'Battambang-Regular.ttf'

@@ -8,7 +8,9 @@ cask 'font-fondamento' do
       revision:   '50',
       trust_cert: true
   name 'Fondamento'
-  homepage 'http://www.google.com/fonts/specimen/Fondamento'
+  homepage 'https://www.google.com/fonts/specimen/Fondamento'
+
+  depends_on macos: '>= :sierra'
 
   font 'Fondamento-Italic.ttf'
   font 'Fondamento-Regular.ttf'

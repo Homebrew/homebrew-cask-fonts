@@ -8,7 +8,9 @@ cask 'font-arapey' do
       revision:   '50',
       trust_cert: true
   name 'Arapey'
-  homepage 'http://www.google.com/fonts/specimen/Arapey'
+  homepage 'https://www.google.com/fonts/specimen/Arapey'
+
+  depends_on macos: '>= :sierra'
 
   font 'Arapey-Italic.ttf'
   font 'Arapey-Regular.ttf'

@@ -8,7 +8,9 @@ cask 'font-kreon' do
       revision:   '50',
       trust_cert: true
   name 'Kreon'
-  homepage 'http://www.google.com/fonts/specimen/Kreon'
+  homepage 'https://www.google.com/fonts/specimen/Kreon'
+
+  depends_on macos: '>= :sierra'
 
   font 'Kreon-Bold.ttf'
   font 'Kreon-Light.ttf'

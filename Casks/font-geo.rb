@@ -8,7 +8,9 @@ cask 'font-geo' do
       revision:   '50',
       trust_cert: true
   name 'Geo'
-  homepage 'http://www.google.com/fonts/specimen/Geo'
+  homepage 'https://www.google.com/fonts/specimen/Geo'
+
+  depends_on macos: '>= :sierra'
 
   font 'Geo-Oblique.ttf'
   font 'Geo-Regular.ttf'

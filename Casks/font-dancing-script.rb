@@ -8,7 +8,9 @@ cask 'font-dancing-script' do
       revision:   '50',
       trust_cert: true
   name 'Dancing Script'
-  homepage 'http://www.google.com/fonts/specimen/Dancing%20Script'
+  homepage 'https://www.google.com/fonts/specimen/Dancing%20Script'
+
+  depends_on macos: '>= :sierra'
 
   font 'DancingScript-Bold.ttf'
   font 'DancingScript-Regular.ttf'

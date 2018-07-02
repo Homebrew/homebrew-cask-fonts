@@ -8,7 +8,9 @@ cask 'font-oleo-script' do
       revision:   '50',
       trust_cert: true
   name 'Oleo Script'
-  homepage 'http://www.google.com/fonts/specimen/Oleo%20Script'
+  homepage 'https://www.google.com/fonts/specimen/Oleo%20Script'
+
+  depends_on macos: '>= :sierra'
 
   font 'OleoScript-Bold.ttf'
   font 'OleoScript-Regular.ttf'

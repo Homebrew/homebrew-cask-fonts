@@ -4,8 +4,7 @@ cask 'font-mononoki' do
 
   # github.com/madmalik/mononoki was verified as official when first introduced to the cask
   url "https://github.com/madmalik/mononoki/releases/download/#{version}/mononoki.zip"
-  appcast 'https://github.com/madmalik/mononoki/releases.atom',
-          checkpoint: 'b32e98c9be92a1866cd13166f65040f84330ff12fd661939ad2a578f50358017'
+  appcast 'https://github.com/madmalik/mononoki/releases.atom'
   name 'Mononoki'
   homepage 'https://madmalik.github.io/mononoki/'
 

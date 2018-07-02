@@ -8,7 +8,9 @@ cask 'font-neuton' do
       revision:   '50',
       trust_cert: true
   name 'Neuton'
-  homepage 'http://www.google.com/fonts/specimen/Neuton'
+  homepage 'https://www.google.com/fonts/specimen/Neuton'
+
+  depends_on macos: '>= :sierra'
 
   font 'Neuton-Bold.ttf'
   font 'Neuton-ExtraBold.ttf'

@@ -8,7 +8,9 @@ cask 'font-simonetta' do
       revision:   '50',
       trust_cert: true
   name 'Simonetta'
-  homepage 'http://www.google.com/fonts/specimen/Simonetta'
+  homepage 'https://www.google.com/fonts/specimen/Simonetta'
+
+  depends_on macos: '>= :sierra'
 
   font 'Simonetta-Black.ttf'
   font 'Simonetta-BlackItalic.ttf'

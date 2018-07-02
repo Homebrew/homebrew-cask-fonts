@@ -5,7 +5,7 @@ cask 'font-ruslan-display' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/ruslandisplay/RuslanDisplay.ttf'
   name 'Ruslan Display'
-  homepage 'http://www.google.com/fonts/specimen/Ruslan+Display'
+  homepage 'https://www.google.com/fonts/specimen/Ruslan+Display'
 
   font 'RuslanDisplay.ttf'
 end

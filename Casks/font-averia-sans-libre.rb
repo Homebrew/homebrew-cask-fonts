@@ -8,7 +8,9 @@ cask 'font-averia-sans-libre' do
       revision:   '50',
       trust_cert: true
   name 'Averia Sans Libre'
-  homepage 'http://www.google.com/fonts/specimen/Averia%20Sans%20Libre'
+  homepage 'https://www.google.com/fonts/specimen/Averia%20Sans%20Libre'
+
+  depends_on macos: '>= :sierra'
 
   font 'AveriaSansLibre-Bold.ttf'
   font 'AveriaSansLibre-BoldItalic.ttf'

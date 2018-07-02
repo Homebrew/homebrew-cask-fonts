@@ -8,7 +8,9 @@ cask 'font-yanone-kaffeesatz' do
       revision:   '50',
       trust_cert: true
   name 'Yanone Kaffeesatz'
-  homepage 'http://www.google.com/fonts/specimen/Yanone%20Kaffeesatz'
+  homepage 'https://www.google.com/fonts/specimen/Yanone%20Kaffeesatz'
+
+  depends_on macos: '>= :sierra'
 
   font 'YanoneKaffeesatz-Bold.ttf'
   font 'YanoneKaffeesatz-ExtraLight.ttf'

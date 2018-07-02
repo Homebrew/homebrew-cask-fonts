@@ -8,7 +8,9 @@ cask 'font-philosopher' do
       revision:   '50',
       trust_cert: true
   name 'Philosopher'
-  homepage 'http://www.google.com/fonts/specimen/Philosopher'
+  homepage 'https://www.google.com/fonts/specimen/Philosopher'
+
+  depends_on macos: '>= :sierra'
 
   font 'Philosopher-Bold.ttf'
   font 'Philosopher-BoldItalic.ttf'

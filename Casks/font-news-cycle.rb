@@ -8,7 +8,9 @@ cask 'font-news-cycle' do
       revision:   '50',
       trust_cert: true
   name 'News Cycle'
-  homepage 'http://www.google.com/fonts/specimen/News%20Cycle'
+  homepage 'https://www.google.com/fonts/specimen/News%20Cycle'
+
+  depends_on macos: '>= :sierra'
 
   font 'NewsCycle-Bold.ttf'
   font 'NewsCycle-Regular.ttf'

@@ -8,7 +8,9 @@ cask 'font-inika' do
       revision:   '50',
       trust_cert: true
   name 'Inika'
-  homepage 'http://www.google.com/fonts/specimen/Inika'
+  homepage 'https://www.google.com/fonts/specimen/Inika'
+
+  depends_on macos: '>= :sierra'
 
   font 'Inika-Bold.ttf'
   font 'Inika-Regular.ttf'

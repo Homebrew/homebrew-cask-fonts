@@ -8,7 +8,9 @@ cask 'font-buenard' do
       revision:   '50',
       trust_cert: true
   name 'Buenard'
-  homepage 'http://www.google.com/fonts/specimen/Buenard'
+  homepage 'https://www.google.com/fonts/specimen/Buenard'
+
+  depends_on macos: '>= :sierra'
 
   font 'Buenard-Bold.ttf'
   font 'Buenard-Regular.ttf'

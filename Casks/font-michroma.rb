@@ -5,7 +5,7 @@ cask 'font-michroma' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/michroma/Michroma.ttf'
   name 'Michroma'
-  homepage 'http://www.google.com/fonts/specimen/Michroma'
+  homepage 'https://www.google.com/fonts/specimen/Michroma'
 
   font 'Michroma.ttf'
 end

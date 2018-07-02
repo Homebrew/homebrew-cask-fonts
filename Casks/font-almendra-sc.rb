@@ -8,7 +8,9 @@ cask 'font-almendra-sc' do
       revision:   '50',
       trust_cert: true
   name 'Almendra SC'
-  homepage 'http://www.google.com/fonts/specimen/Almendra%20SC'
+  homepage 'https://www.google.com/fonts/specimen/Almendra%20SC'
+
+  depends_on macos: '>= :sierra'
 
   font 'AlmendraSC-Bold.ttf'
   font 'AlmendraSC-BoldItalic.ttf'

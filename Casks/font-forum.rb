@@ -5,7 +5,7 @@ cask 'font-forum' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/forum/Forum-Regular.ttf'
   name 'Forum'
-  homepage 'http://www.google.com/fonts/specimen/Forum'
+  homepage 'https://www.google.com/fonts/specimen/Forum'
 
   font 'Forum-Regular.ttf'
 end

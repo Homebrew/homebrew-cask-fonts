@@ -8,7 +8,9 @@ cask 'font-stardos-stencil' do
       revision:   '50',
       trust_cert: true
   name 'Stardos Stencil'
-  homepage 'http://www.google.com/fonts/specimen/Stardos%20Stencil'
+  homepage 'https://www.google.com/fonts/specimen/Stardos%20Stencil'
+
+  depends_on macos: '>= :sierra'
 
   font 'StardosStencil-Bold.ttf'
   font 'StardosStencil-Regular.ttf'

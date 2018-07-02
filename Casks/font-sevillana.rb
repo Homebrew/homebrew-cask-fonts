@@ -5,7 +5,7 @@ cask 'font-sevillana' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/sevillana/Sevillana-Regular.ttf'
   name 'Sevillana'
-  homepage 'http://www.google.com/fonts/specimen/Sevillana'
+  homepage 'https://www.google.com/fonts/specimen/Sevillana'
 
   font 'Sevillana-Regular.ttf'
 end

@@ -8,7 +8,9 @@ cask 'font-crete-round' do
       revision:   '50',
       trust_cert: true
   name 'Crete Round'
-  homepage 'http://www.google.com/fonts/specimen/Crete%20Round'
+  homepage 'https://www.google.com/fonts/specimen/Crete%20Round'
+
+  depends_on macos: '>= :sierra'
 
   font 'CreteRound-Italic.ttf'
   font 'CreteRound-Regular.ttf'

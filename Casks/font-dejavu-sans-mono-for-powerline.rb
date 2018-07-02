@@ -8,6 +8,8 @@ cask 'font-dejavu-sans-mono-for-powerline' do
   name 'DejaVu Sans Mono for Powerline'
   homepage 'https://github.com/powerline/fonts/tree/master/DejaVuSansMono'
 
+  depends_on macos: '>= :sierra'
+
   font 'DejaVu Sans Mono for Powerline.ttf'
   font 'DejaVu Sans Mono Bold for Powerline.ttf'
   font 'DejaVu Sans Mono Oblique for Powerline.ttf'

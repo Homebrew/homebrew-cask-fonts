@@ -5,7 +5,7 @@ cask 'font-anaheim' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/anaheim/Anaheim-Regular.ttf'
   name 'Anaheim'
-  homepage 'http://www.google.com/fonts/specimen/Anaheim'
+  homepage 'https://www.google.com/fonts/specimen/Anaheim'
 
   font 'Anaheim-Regular.ttf'
 end

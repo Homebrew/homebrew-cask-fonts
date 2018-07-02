@@ -8,7 +8,9 @@ cask 'font-unkempt' do
       revision:   '50',
       trust_cert: true
   name 'Unkempt'
-  homepage 'http://www.google.com/fonts/specimen/Unkempt'
+  homepage 'https://www.google.com/fonts/specimen/Unkempt'
+
+  depends_on macos: '>= :sierra'
 
   font 'Unkempt-Bold.ttf'
   font 'Unkempt-Regular.ttf'

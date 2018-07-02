@@ -8,7 +8,9 @@ cask 'font-asul' do
       revision:   '50',
       trust_cert: true
   name 'Asul'
-  homepage 'http://www.google.com/fonts/specimen/Asul'
+  homepage 'https://www.google.com/fonts/specimen/Asul'
+
+  depends_on macos: '>= :sierra'
 
   font 'Asul-Bold.ttf'
   font 'Asul-Regular.ttf'

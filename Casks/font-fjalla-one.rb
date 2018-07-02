@@ -5,7 +5,7 @@ cask 'font-fjalla-one' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/a30ff88e1a02d70aaf2589dfc3cef18a4128c495/ofl/fjallaone/FjallaOne-Regular.ttf'
   name 'Fjalla One'
-  homepage 'http://www.google.com/fonts/specimen/Fjalla%20One'
+  homepage 'https://www.google.com/fonts/specimen/Fjalla%20One'
 
   font 'FjallaOne-Regular.ttf'
 end

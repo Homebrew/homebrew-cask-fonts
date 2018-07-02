@@ -8,7 +8,9 @@ cask 'font-sanchez' do
       revision:   '50',
       trust_cert: true
   name 'Sanchez'
-  homepage 'http://www.google.com/fonts/specimen/Sanchez'
+  homepage 'https://www.google.com/fonts/specimen/Sanchez'
+
+  depends_on macos: '>= :sierra'
 
   font 'Sanchez-Italic.ttf'
   font 'Sanchez-Regular.ttf'

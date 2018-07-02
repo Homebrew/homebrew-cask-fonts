@@ -4,8 +4,7 @@ cask 'font-myrica' do
 
   # codeload.github.com/tomokuni/Myrica was verified as official when first introduced to the cask
   url "https://codeload.github.com/tomokuni/Myrica/zip/#{version}"
-  appcast 'https://github.com/tomokuni/Myrica/releases.atom',
-          checkpoint: '6a94ff870981dd8239c762cea15eeb9d1e4df1e0b8c9d22c59c408779b195495'
+  appcast 'https://github.com/tomokuni/Myrica/releases.atom'
   name 'Myrica'
   homepage 'http://myrica.estable.jp/'
 

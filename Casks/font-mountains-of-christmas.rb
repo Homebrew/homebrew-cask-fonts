@@ -8,7 +8,9 @@ cask 'font-mountains-of-christmas' do
       revision:   '50',
       trust_cert: true
   name 'Mountains of Christmas'
-  homepage 'http://www.google.com/fonts/specimen/Mountains%20of%20Christmas'
+  homepage 'https://www.google.com/fonts/specimen/Mountains%20of%20Christmas'
+
+  depends_on macos: '>= :sierra'
 
   font 'MountainsofChristmas-Bold.ttf'
   font 'MountainsofChristmas-Regular.ttf'

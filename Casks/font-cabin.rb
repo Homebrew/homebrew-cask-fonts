@@ -8,7 +8,9 @@ cask 'font-cabin' do
       revision:   '50',
       trust_cert: true
   name 'Cabin'
-  homepage 'http://www.google.com/fonts/specimen/Cabin'
+  homepage 'https://www.google.com/fonts/specimen/Cabin'
+
+  depends_on macos: '>= :sierra'
 
   font 'Cabin-Bold.ttf'
   font 'Cabin-BoldItalic.ttf'

@@ -1,12 +1,11 @@
 cask 'font-d2coding' do
-  version '1.3,Ver1.3-20171129'
-  sha256 '3be175e6969852c6e7501c0a1afa387a6ac845e583c5c2510fa069551e567cdd'
+  version '1.3.2,20180524'
+  sha256 '0f1c9192eac7d56329dddc620f9f1666b707e9c8ed38fe1f988d0ae3e30b24e6'
 
-  url "https://github.com/naver/d2codingfont/releases/download/VER#{version.before_comma}/D2Coding-#{version.after_comma}.zip"
-  appcast 'https://github.com/naver/d2codingfont/releases.atom',
-          checkpoint: '63d857249403dd983c2a79e390f9f4c0b7706eded063d834d5daad7c5d801c50'
+  url "https://github.com/naver/d2codingfont/releases/download/VER#{version.before_comma}/D2Coding-Ver#{version.before_comma}-#{version.after_comma}.zip"
+  appcast 'https://github.com/naver/d2codingfont/releases.atom'
   name 'D2 Coding'
   homepage 'https://github.com/naver/d2codingfont'
 
-  font "D2Coding-#{version.after_comma}/D2Coding-#{version.after_comma}.ttc"
+  font "D2Coding/D2Coding-Ver#{version.before_comma}-#{version.after_comma}.ttc"
 end

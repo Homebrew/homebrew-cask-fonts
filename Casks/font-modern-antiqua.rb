@@ -5,7 +5,7 @@ cask 'font-modern-antiqua' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/modernantiqua/ModernAntiqua-Regular.ttf'
   name 'Modern Antiqua'
-  homepage 'http://www.google.com/fonts/specimen/Modern+Antiqua'
+  homepage 'https://www.google.com/fonts/specimen/Modern+Antiqua'
 
   font 'ModernAntiqua-Regular.ttf'
 end

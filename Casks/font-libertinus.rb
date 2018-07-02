@@ -1,12 +1,11 @@
 cask 'font-libertinus' do
-  version '6.4'
-  sha256 '4fa9f0139fd59769e7cd95180419510537517e76257937dcba957cb7b03cb51d'
+  version '6.6'
+  sha256 'ad772e5272f53a6f548ce1472651f4215eac0064e586fe7259001c634bdf0fb0'
 
-  url "https://github.com/khaledhosny/libertinus/archive/v#{version}.tar.gz"
-  appcast 'https://github.com/khaledhosny/libertinus/releases.atom',
-          checkpoint: '55d82372f595b146a5a360757ef1b294723226359eff6fef57663cd431a266b2'
+  url "https://github.com/libertinus-fonts/libertinus/archive/v#{version}.tar.gz"
+  appcast 'https://github.com/libertinus-fonts/libertinus/releases.atom'
   name 'Libertinus'
-  homepage 'https://github.com/khaledhosny/libertinus'
+  homepage 'https://github.com/libertinus-fonts/libertinus'
 
   font "libertinus-#{version}/libertinuskeyboard-regular.otf"
   font "libertinus-#{version}/libertinusmath-regular.otf"

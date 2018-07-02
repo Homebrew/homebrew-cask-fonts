@@ -1,10 +1,9 @@
 cask 'font-hasklig-nerd-font-mono' do
-  version '1.1.0'
-  sha256 '6b07b8b61791fbfe88735a44e119ad54a2535d816d1054895b04ca03e5dd9bc5'
+  version '2.0.0'
+  sha256 '1fd1d88f2ec48424654888e4c7afad7a423e4229f40b09be323dbf4a04600dbd'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hasklig.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'Hasklug Nerd Font (Hasklig)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

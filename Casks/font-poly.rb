@@ -8,7 +8,9 @@ cask 'font-poly' do
       revision:   '50',
       trust_cert: true
   name 'Poly'
-  homepage 'http://www.google.com/fonts/specimen/Poly'
+  homepage 'https://www.google.com/fonts/specimen/Poly'
+
+  depends_on macos: '>= :sierra'
 
   font 'Poly-Italic.ttf'
   font 'Poly-Regular.ttf'

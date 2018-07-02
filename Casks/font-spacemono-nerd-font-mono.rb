@@ -1,10 +1,9 @@
 cask 'font-spacemono-nerd-font-mono' do
-  version '1.1.0'
-  sha256 'bdc6bc3beaaf202f091d20a2872ab0b4db4ea3cbb5b9c2a12604f6088b8c34da'
+  version '2.0.0'
+  sha256 'c41c8b4d9a634a8662aaa70d4541a534e82a13fbcc40c14149a01cda32925648'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SpaceMono.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'SpaceMono Nerd Font (SpaceMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

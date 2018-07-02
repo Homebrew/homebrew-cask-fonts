@@ -5,7 +5,7 @@ cask 'font-voces' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/voces/Voces-Regular.ttf'
   name 'Voces'
-  homepage 'http://www.google.com/fonts/specimen/Voces'
+  homepage 'https://www.google.com/fonts/specimen/Voces'
 
   font 'Voces-Regular.ttf'
 end

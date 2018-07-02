@@ -8,7 +8,9 @@ cask 'font-lekton' do
       revision:   '47',
       trust_cert: true
   name 'Lekton'
-  homepage 'http://www.google.com/fonts/specimen/Lekton'
+  homepage 'https://www.google.com/fonts/specimen/Lekton'
+
+  depends_on macos: '>= :sierra'
 
   font 'Lekton-Bold.ttf'
   font 'Lekton-Italic.ttf'

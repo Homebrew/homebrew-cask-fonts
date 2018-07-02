@@ -5,7 +5,7 @@ cask 'font-chewy' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/chewy/Chewy-Regular.ttf'
   name 'Chewy'
-  homepage 'http://www.google.com/fonts/specimen/Chewy'
+  homepage 'https://www.google.com/fonts/specimen/Chewy'
 
   font 'Chewy-Regular.ttf'
 end

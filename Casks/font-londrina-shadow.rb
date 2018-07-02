@@ -5,7 +5,7 @@ cask 'font-londrina-shadow' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/londrinashadow/LondrinaShadow-Regular.ttf'
   name 'Londrina Shadow'
-  homepage 'http://www.google.com/fonts/specimen/Londrina+Shadow'
+  homepage 'https://www.google.com/fonts/specimen/Londrina+Shadow'
 
   font 'LondrinaShadow-Regular.ttf'
 end

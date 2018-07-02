@@ -8,7 +8,9 @@ cask 'font-fanwood-text' do
       revision:   '50',
       trust_cert: true
   name 'Fanwood Text'
-  homepage 'http://www.google.com/fonts/specimen/Fanwood%20Text'
+  homepage 'https://www.google.com/fonts/specimen/Fanwood%20Text'
+
+  depends_on macos: '>= :sierra'
 
   font 'FanwoodText-Italic.ttf'
   font 'FanwoodText-Regular.ttf'

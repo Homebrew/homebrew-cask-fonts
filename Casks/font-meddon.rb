@@ -5,7 +5,7 @@ cask 'font-meddon' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/meddon/Meddon.ttf'
   name 'Meddon'
-  homepage 'http://www.google.com/fonts/specimen/Meddon'
+  homepage 'https://www.google.com/fonts/specimen/Meddon'
 
   font 'Meddon.ttf'
 end

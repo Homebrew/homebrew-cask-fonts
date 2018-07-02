@@ -5,7 +5,7 @@ cask 'font-sacramento' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/sacramento/Sacramento-Regular.ttf'
   name 'Sacramento'
-  homepage 'http://www.google.com/fonts/specimen/Sacramento'
+  homepage 'https://www.google.com/fonts/specimen/Sacramento'
 
   font 'Sacramento-Regular.ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-kenia' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/kenia/Kenia-Regular.ttf'
   name 'Kenia'
-  homepage 'http://www.google.com/fonts/specimen/Kenia'
+  homepage 'https://www.google.com/fonts/specimen/Kenia'
 
   font 'Kenia-Regular.ttf'
 end

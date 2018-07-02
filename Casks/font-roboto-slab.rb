@@ -7,7 +7,9 @@ cask 'font-roboto-slab' do
       using:      :svn,
       trust_cert: true
   name 'Roboto Slab'
-  homepage 'http://www.google.com/fonts/specimen/Roboto%20Slab'
+  homepage 'https://www.google.com/fonts/specimen/Roboto%20Slab'
+
+  depends_on macos: '>= :sierra'
 
   font 'RobotoSlab-Bold.ttf'
   font 'RobotoSlab-Light.ttf'

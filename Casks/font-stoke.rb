@@ -8,7 +8,9 @@ cask 'font-stoke' do
       revision:   '50',
       trust_cert: true
   name 'Stoke'
-  homepage 'http://www.google.com/fonts/specimen/Stoke'
+  homepage 'https://www.google.com/fonts/specimen/Stoke'
+
+  depends_on macos: '>= :sierra'
 
   font 'Stoke-Light.ttf'
   font 'Stoke-Regular.ttf'

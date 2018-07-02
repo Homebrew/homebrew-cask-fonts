@@ -4,8 +4,7 @@ cask 'font-mfizz' do
 
   # github.com/fizzed/font-mfizz was verified as official when first introduced to the cask
   url "https://github.com/fizzed/font-mfizz/releases/download/v#{version}/font-mfizz-#{version}.zip"
-  appcast 'https://github.com/fizzed/font-mfizz/releases.atom',
-          checkpoint: '44080e750169f2958d4b54e6828a46dc9b72dcabdfe71f136b06ed2fcfe627d6'
+  appcast 'https://github.com/fizzed/font-mfizz/releases.atom'
   name 'Font Mfizz'
   homepage 'http://fizzed.com/oss/font-mfizz'
 

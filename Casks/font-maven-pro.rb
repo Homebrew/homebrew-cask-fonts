@@ -8,7 +8,9 @@ cask 'font-maven-pro' do
       revision:   '50',
       trust_cert: true
   name 'Maven Pro'
-  homepage 'http://www.google.com/fonts/specimen/Maven%20Pro'
+  homepage 'https://www.google.com/fonts/specimen/Maven%20Pro'
+
+  depends_on macos: '>= :sierra'
 
   font 'MavenPro-Black.ttf'
   font 'MavenPro-Bold.ttf'

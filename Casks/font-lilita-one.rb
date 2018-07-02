@@ -5,7 +5,7 @@ cask 'font-lilita-one' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/lilitaone/LilitaOne-Regular.ttf'
   name 'Lilita One'
-  homepage 'http://www.google.com/fonts/specimen/Lilita+One'
+  homepage 'https://www.google.com/fonts/specimen/Lilita+One'
 
   font 'LilitaOne-Regular.ttf'
 end

@@ -8,7 +8,9 @@ cask 'font-im-fell-french-canon' do
       revision:   '50',
       trust_cert: true
   name 'IM Fell French Canon'
-  homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20French%20Canon'
+  homepage 'https://www.google.com/fonts/specimen/IM%20Fell%20French%20Canon'
+
+  depends_on macos: '>= :sierra'
 
   font 'IMFeFCit28P.ttf'
   font 'IMFeFCrm28P.ttf'

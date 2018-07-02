@@ -8,7 +8,9 @@ cask 'font-content' do
       revision:   '50',
       trust_cert: true
   name 'Content'
-  homepage 'http://www.google.com/fonts/specimen/Content'
+  homepage 'https://www.google.com/fonts/specimen/Content'
+
+  depends_on macos: '>= :sierra'
 
   font 'Content-Bold.ttf'
   font 'Content-Regular.ttf'

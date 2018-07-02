@@ -5,7 +5,7 @@ cask 'font-belleza' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/belleza/Belleza-Regular.ttf'
   name 'Belleza'
-  homepage 'http://www.google.com/fonts/specimen/Belleza'
+  homepage 'https://www.google.com/fonts/specimen/Belleza'
 
   font 'Belleza-Regular.ttf'
 end

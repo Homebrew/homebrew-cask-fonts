@@ -8,7 +8,9 @@ cask 'font-trochut' do
       revision:   '50',
       trust_cert: true
   name 'Trochut'
-  homepage 'http://www.google.com/fonts/specimen/Trochut'
+  homepage 'https://www.google.com/fonts/specimen/Trochut'
+
+  depends_on macos: '>= :sierra'
 
   font 'Trochut-Bold.ttf'
   font 'Trochut-Italic.ttf'

@@ -5,7 +5,7 @@ cask 'font-allerta' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/allerta/Allerta-Regular.ttf'
   name 'Allerta'
-  homepage 'http://www.google.com/fonts/specimen/Allerta'
+  homepage 'https://www.google.com/fonts/specimen/Allerta'
 
   font 'Allerta-Regular.ttf'
 end

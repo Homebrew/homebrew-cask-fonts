@@ -10,6 +10,8 @@ cask 'font-open-sans-hebrew-condensed' do
   name 'Open Sans Hebrew Condensed'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
+  depends_on macos: '>= :sierra'
+
   font 'OpenSansHebrewCondensed-Bold.ttf'
   font 'OpenSansHebrewCondensed-BoldItalic.ttf'
   font 'OpenSansHebrewCondensed-ExtraBold.ttf'

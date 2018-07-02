@@ -3,9 +3,9 @@ cask 'font-homemade-apple' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/apache/homemadeapple/HomemadeApple.ttf'
+  url 'https://github.com/google/fonts/raw/master/apache/homemadeapple/HomemadeApple-Regular.ttf'
   name 'Homemade Apple'
-  homepage 'http://www.google.com/fonts/specimen/Homemade+Apple'
+  homepage 'https://www.google.com/fonts/specimen/Homemade+Apple'
 
-  font 'HomemadeApple.ttf'
+  font 'HomemadeApple-Regular.ttf'
 end

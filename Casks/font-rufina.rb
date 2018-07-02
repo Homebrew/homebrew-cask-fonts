@@ -8,7 +8,9 @@ cask 'font-rufina' do
       revision:   '50',
       trust_cert: true
   name 'Rufina'
-  homepage 'http://www.google.com/fonts/specimen/Rufina'
+  homepage 'https://www.google.com/fonts/specimen/Rufina'
+
+  depends_on macos: '>= :sierra'
 
   font 'Rufina-Bold.ttf'
   font 'Rufina-Regular.ttf'

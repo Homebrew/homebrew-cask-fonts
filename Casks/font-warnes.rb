@@ -5,7 +5,7 @@ cask 'font-warnes' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/warnes/Warnes-Regular.ttf'
   name 'Warnes'
-  homepage 'http://www.google.com/fonts/specimen/Warnes'
+  homepage 'https://www.google.com/fonts/specimen/Warnes'
 
   font 'Warnes-Regular.ttf'
 end

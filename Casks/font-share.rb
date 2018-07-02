@@ -8,7 +8,9 @@ cask 'font-share' do
       revision:   '50',
       trust_cert: true
   name 'Share'
-  homepage 'http://www.google.com/fonts/specimen/Share'
+  homepage 'https://www.google.com/fonts/specimen/Share'
+
+  depends_on macos: '>= :sierra'
 
   font 'Share-Bold.ttf'
   font 'Share-BoldItalic.ttf'

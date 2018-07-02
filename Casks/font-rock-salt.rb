@@ -5,7 +5,7 @@ cask 'font-rock-salt' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/rocksalt/RockSalt-Regular.ttf'
   name 'Rock Salt'
-  homepage 'http://www.google.com/fonts/specimen/Rock+Salt'
+  homepage 'https://www.google.com/fonts/specimen/Rock+Salt'
 
   font 'RockSalt-Regular.ttf'
 end

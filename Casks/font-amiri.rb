@@ -1,11 +1,10 @@
 cask 'font-amiri' do
-  version '0.109'
-  sha256 '97ee6e40d87f4b31de15d9a93bb30bf27bf308f0814f4ee9c47365b027402ad6'
+  version '0.111'
+  sha256 '1fbfccced6348b5db2c1c21d5b319cd488e14d055702fa817a0f6cb83d882166'
 
   # github.com/alif-type/amiri-font was verified as official when first introduced to the cask
   url "https://github.com/alif-type/amiri-font/releases/download/#{version}/amiri-#{version}.zip"
-  appcast 'https://github.com/alif-type/amiri/releases.atom',
-          checkpoint: '14d9f7389297cb9dc87490696dd57500cc7605da7f2936dde989fbe2ed7c3afb'
+  appcast 'https://github.com/alif-type/amiri/releases.atom'
   name 'Amiri'
   homepage 'http://www.amirifont.org/'
 

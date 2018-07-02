@@ -1,10 +1,9 @@
 cask 'font-fantasquesansmono-nerd-font' do
-  version '1.1.0'
-  sha256 '84a4814ec90dafa8271252b3dd278491815fe50a16835515f3fba9ac675dbacc'
+  version '2.0.0'
+  sha256 '7274bae9949a6f5100f6c5248c9b9649bd64ba3f9f1e9b9dd53a71f8fdd6d9c0'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FantasqueSansMono.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'FantasqueSansMono Nerd Font (FantasqueSansMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

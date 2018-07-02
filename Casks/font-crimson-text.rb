@@ -8,7 +8,9 @@ cask 'font-crimson-text' do
       revision:   '50',
       trust_cert: true
   name 'Crimson Text'
-  homepage 'http://www.google.com/fonts/specimen/Crimson%20Text'
+  homepage 'https://www.google.com/fonts/specimen/Crimson%20Text'
+
+  depends_on macos: '>= :sierra'
 
   font 'CrimsonText-Bold.ttf'
   font 'CrimsonText-BoldItalic.ttf'

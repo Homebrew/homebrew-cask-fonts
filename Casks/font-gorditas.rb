@@ -8,7 +8,9 @@ cask 'font-gorditas' do
       revision:   '50',
       trust_cert: true
   name 'Gorditas'
-  homepage 'http://www.google.com/fonts/specimen/Gorditas'
+  homepage 'https://www.google.com/fonts/specimen/Gorditas'
+
+  depends_on macos: '>= :sierra'
 
   font 'Gorditas-Bold.ttf'
   font 'Gorditas-Regular.ttf'

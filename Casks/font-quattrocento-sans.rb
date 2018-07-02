@@ -8,7 +8,9 @@ cask 'font-quattrocento-sans' do
       revision:   '50',
       trust_cert: true
   name 'Quattrocento Sans'
-  homepage 'http://www.google.com/fonts/specimen/Quattrocento%20Sans'
+  homepage 'https://www.google.com/fonts/specimen/Quattrocento%20Sans'
+
+  depends_on macos: '>= :sierra'
 
   font 'QuattrocentoSans-Bold.ttf'
   font 'QuattrocentoSans-BoldItalic.ttf'

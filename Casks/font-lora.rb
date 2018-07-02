@@ -8,7 +8,9 @@ cask 'font-lora' do
       revision:   '50',
       trust_cert: true
   name 'Lora'
-  homepage 'http://www.google.com/fonts/specimen/Lora'
+  homepage 'https://www.google.com/fonts/specimen/Lora'
+
+  depends_on macos: '>= :sierra'
 
   font 'Lora-Bold.ttf'
   font 'Lora-BoldItalic.ttf'

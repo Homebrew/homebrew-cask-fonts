@@ -4,8 +4,7 @@ cask 'font-samim' do
 
   # github.com/rastikerdar was verified as official when first introduced to the cask
   url "https://github.com/rastikerdar/samim-font/releases/download/v#{version}/samim-font-v#{version}.zip"
-  appcast 'https://github.com/rastikerdar/samim-font/releases.atom',
-          checkpoint: '80d6573698525173e1b0cedf925ab8d66692179669fcfc007877b22a3ab712da'
+  appcast 'https://github.com/rastikerdar/samim-font/releases.atom'
   name 'Samim'
   homepage 'http://rastikerdar.github.io/samim-font'
 

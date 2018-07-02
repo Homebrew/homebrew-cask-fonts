@@ -5,7 +5,7 @@ cask 'font-nosifer' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/nosifer/Nosifer-Regular.ttf'
   name 'Nosifer'
-  homepage 'http://www.google.com/fonts/specimen/Nosifer'
+  homepage 'https://www.google.com/fonts/specimen/Nosifer'
 
   font 'Nosifer-Regular.ttf'
 end

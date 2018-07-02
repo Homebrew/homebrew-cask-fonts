@@ -8,7 +8,9 @@ cask 'font-oleo-script-swash-caps' do
       revision:   '50',
       trust_cert: true
   name 'Oleo Script Swash Caps'
-  homepage 'http://www.google.com/fonts/specimen/Oleo%20Script%20Swash%20Caps'
+  homepage 'https://www.google.com/fonts/specimen/Oleo%20Script%20Swash%20Caps'
+
+  depends_on macos: '>= :sierra'
 
   font 'OleoScriptSwashCaps-Bold.ttf'
   font 'OleoScriptSwashCaps-Regular.ttf'

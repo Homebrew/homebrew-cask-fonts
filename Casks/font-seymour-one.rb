@@ -5,7 +5,7 @@ cask 'font-seymour-one' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/seymourone/SeymourOne-Regular.ttf'
   name 'Seymour One'
-  homepage 'http://www.google.com/fonts/specimen/Seymour+One'
+  homepage 'https://www.google.com/fonts/specimen/Seymour+One'
 
   font 'SeymourOne-Regular.ttf'
 end

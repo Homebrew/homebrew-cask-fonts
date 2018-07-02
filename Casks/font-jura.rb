@@ -8,7 +8,9 @@ cask 'font-jura' do
       revision:   '50',
       trust_cert: true
   name 'Jura'
-  homepage 'http://www.google.com/fonts/specimen/Jura'
+  homepage 'https://www.google.com/fonts/specimen/Jura'
+
+  depends_on macos: '>= :sierra'
 
   font 'Jura-DemiBold.ttf'
   font 'Jura-Light.ttf'

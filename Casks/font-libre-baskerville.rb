@@ -8,7 +8,9 @@ cask 'font-libre-baskerville' do
       revision:   '50',
       trust_cert: true
   name 'Libre Baskerville'
-  homepage 'http://www.google.com/fonts/specimen/Libre%20Baskerville'
+  homepage 'https://www.google.com/fonts/specimen/Libre%20Baskerville'
+
+  depends_on macos: '>= :sierra'
 
   font 'LibreBaskerville-Bold.ttf'
   font 'LibreBaskerville-Italic.ttf'

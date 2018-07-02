@@ -8,7 +8,9 @@ cask 'font-caudex' do
       revision:   '50',
       trust_cert: true
   name 'Caudex'
-  homepage 'http://www.google.com/fonts/specimen/Caudex'
+  homepage 'https://www.google.com/fonts/specimen/Caudex'
+
+  depends_on macos: '>= :sierra'
 
   font 'Caudex-Bold.ttf'
   font 'Caudex-BoldItalic.ttf'

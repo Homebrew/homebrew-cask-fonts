@@ -8,7 +8,9 @@ cask 'font-playfair-display' do
       revision:   '50',
       trust_cert: true
   name 'Playfair Display'
-  homepage 'http://www.google.com/fonts/specimen/Playfair%20Display'
+  homepage 'https://www.google.com/fonts/specimen/Playfair%20Display'
+
+  depends_on macos: '>= :sierra'
 
   font 'PlayfairDisplay-Black.ttf'
   font 'PlayfairDisplay-BlackItalic.ttf'

@@ -8,7 +8,9 @@ cask 'font-oregano' do
       revision:   '50',
       trust_cert: true
   name 'Oregano'
-  homepage 'http://www.google.com/fonts/specimen/Oregano'
+  homepage 'https://www.google.com/fonts/specimen/Oregano'
+
+  depends_on macos: '>= :sierra'
 
   font 'Oregano-Italic.ttf'
   font 'Oregano-Regular.ttf'

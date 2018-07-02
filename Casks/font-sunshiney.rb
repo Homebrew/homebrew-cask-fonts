@@ -5,7 +5,7 @@ cask 'font-sunshiney' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/sunshiney/Sunshiney-Regular.ttf'
   name 'Sunshiney'
-  homepage 'http://www.google.com/fonts/specimen/Sunshiney'
+  homepage 'https://www.google.com/fonts/specimen/Sunshiney'
 
   font 'Sunshiney-Regular.ttf'
 end

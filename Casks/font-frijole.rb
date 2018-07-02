@@ -5,7 +5,7 @@ cask 'font-frijole' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/frijole/Frijole-Regular.ttf'
   name 'Frijole'
-  homepage 'http://www.google.com/fonts/specimen/Frijole'
+  homepage 'https://www.google.com/fonts/specimen/Frijole'
 
   font 'Frijole-Regular.ttf'
 end

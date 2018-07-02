@@ -177,11 +177,9 @@ cask 'font-input' do
   font 'Input_Fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Thin.ttf'
   font 'Input_Fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ThinItalic.ttf'
 
-  caveats do
-    <<~EOS
-      To use the Input fonts, you must agree to the terms of the license.
+  caveats <<~EOS
+    To use the Input fonts, you must agree to the terms of the license.
 
-        http://input.fontbureau.com/license/
-    EOS
-  end
+      http://input.fontbureau.com/license/
+  EOS
 end

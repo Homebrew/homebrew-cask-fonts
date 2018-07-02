@@ -8,7 +8,9 @@ cask 'font-hanuman' do
       revision:   '50',
       trust_cert: true
   name 'Hanuman'
-  homepage 'http://www.google.com/fonts/specimen/Hanuman'
+  homepage 'https://www.google.com/fonts/specimen/Hanuman'
+
+  depends_on macos: '>= :sierra'
 
   font 'Hanuman.ttf'
   font 'Hanumanb.ttf'

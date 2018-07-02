@@ -8,7 +8,9 @@ cask 'font-sorts-mill-goudy' do
       revision:   '50',
       trust_cert: true
   name 'Sorts Mill Goudy'
-  homepage 'http://www.google.com/fonts/specimen/Sorts%20Mill%20Goudy'
+  homepage 'https://www.google.com/fonts/specimen/Sorts%20Mill%20Goudy'
+
+  depends_on macos: '>= :sierra'
 
   font 'SortsMillGoudy-Italic.ttf'
   font 'SortsMillGoudy-Regular.ttf'

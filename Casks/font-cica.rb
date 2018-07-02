@@ -1,10 +1,9 @@
 cask 'font-cica' do
-  version '2.0.4'
-  sha256 'e1b99f97983934c18cac772273df660dd5c247c08e03612ec320ef7de4d66f65'
+  version '2.1.0'
+  sha256 '6b1e4750a3c07995bbcfaadcec0be5ed73de26ca1dc2082dc712b296af35b59b'
 
   url "https://github.com/miiton/Cica/releases/download/v#{version}/Cica_v#{version}.zip"
-  appcast 'https://github.com/miiton/Cica/releases.atom',
-          checkpoint: '4a0c59af37e1a5a52f8bf8350c137797b45157a963d5e685bbadd6555e6ee4b2'
+  appcast 'https://github.com/miiton/Cica/releases.atom'
   name 'Cica'
   homepage 'https://github.com/miiton/Cica'
 

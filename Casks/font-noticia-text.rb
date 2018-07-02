@@ -8,7 +8,9 @@ cask 'font-noticia-text' do
       revision:   '50',
       trust_cert: true
   name 'Noticia Text'
-  homepage 'http://www.google.com/fonts/specimen/Noticia%20Text'
+  homepage 'https://www.google.com/fonts/specimen/Noticia%20Text'
+
+  depends_on macos: '>= :sierra'
 
   font 'NoticiaText-Bold.ttf'
   font 'NoticiaText-BoldItalic.ttf'

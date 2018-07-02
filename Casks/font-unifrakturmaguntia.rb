@@ -5,7 +5,7 @@ cask 'font-unifrakturmaguntia' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/unifrakturmaguntia/UnifrakturMaguntia-Book.ttf'
   name 'UnifrakturMaguntia'
-  homepage 'http://www.google.com/fonts/specimen/UnifrakturMaguntia'
+  homepage 'https://www.google.com/fonts/specimen/UnifrakturMaguntia'
 
   font 'UnifrakturMaguntia-Book.ttf'
 end

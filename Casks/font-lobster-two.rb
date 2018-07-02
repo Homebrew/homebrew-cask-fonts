@@ -8,7 +8,9 @@ cask 'font-lobster-two' do
       revision:   '50',
       trust_cert: true
   name 'Lobster Two'
-  homepage 'http://www.google.com/fonts/specimen/Lobster%20Two'
+  homepage 'https://www.google.com/fonts/specimen/Lobster%20Two'
+
+  depends_on macos: '>= :sierra'
 
   font 'LobsterTwo-Bold.ttf'
   font 'LobsterTwo-BoldItalic.ttf'

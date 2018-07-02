@@ -5,7 +5,7 @@ cask 'font-glass-antiqua' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/glassantiqua/GlassAntiqua-Regular.ttf'
   name 'Glass Antiqua'
-  homepage 'http://www.google.com/fonts/specimen/Glass+Antiqua'
+  homepage 'https://www.google.com/fonts/specimen/Glass+Antiqua'
 
   font 'GlassAntiqua-Regular.ttf'
 end

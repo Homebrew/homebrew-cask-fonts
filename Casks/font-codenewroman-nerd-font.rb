@@ -1,10 +1,9 @@
 cask 'font-codenewroman-nerd-font' do
-  version '1.1.0'
-  sha256 '04495de7301c44dad34490704f6eae51f7e9f775b3b84f6537dc7728462929ba'
+  version '1.2.0'
+  sha256 'b4302eafd46bb7ffa4a5e349d298e2cfd68a82c02c68e9d2235f4d4d383668a3'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CodeNewRoman.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'CodeNewRoman Nerd Font (CodeNewRoman)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

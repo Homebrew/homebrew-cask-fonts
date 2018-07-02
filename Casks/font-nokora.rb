@@ -8,7 +8,9 @@ cask 'font-nokora' do
       revision:   '50',
       trust_cert: true
   name 'Nokora'
-  homepage 'http://www.google.com/fonts/specimen/Nokora'
+  homepage 'https://www.google.com/fonts/specimen/Nokora'
+
+  depends_on macos: '>= :sierra'
 
   font 'Nokora-Bold.ttf'
   font 'Nokora-Regular.ttf'

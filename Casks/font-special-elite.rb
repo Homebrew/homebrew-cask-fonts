@@ -5,7 +5,7 @@ cask 'font-special-elite' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/specialelite/SpecialElite-Regular.ttf'
   name 'Special Elite'
-  homepage 'http://www.google.com/fonts/specimen/Special+Elite'
+  homepage 'https://www.google.com/fonts/specimen/Special+Elite'
 
   font 'SpecialElite-Regular.ttf'
 end

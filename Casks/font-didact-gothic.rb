@@ -5,7 +5,7 @@ cask 'font-didact-gothic' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/didactgothic/DidactGothic-Regular.ttf'
   name 'Didact Gothic'
-  homepage 'http://www.google.com/fonts/specimen/Didact%20Gothic'
+  homepage 'https://www.google.com/fonts/specimen/Didact%20Gothic'
 
   font 'DidactGothic.ttf'
 end

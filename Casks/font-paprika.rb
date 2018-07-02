@@ -5,7 +5,7 @@ cask 'font-paprika' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/paprika/Paprika-Regular.ttf'
   name 'Paprika'
-  homepage 'http://www.google.com/fonts/specimen/Paprika'
+  homepage 'https://www.google.com/fonts/specimen/Paprika'
 
   font 'Paprika-Regular.ttf'
 end

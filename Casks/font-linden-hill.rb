@@ -8,7 +8,9 @@ cask 'font-linden-hill' do
       revision:   '50',
       trust_cert: true
   name 'Linden Hill'
-  homepage 'http://www.google.com/fonts/specimen/Linden%20Hill'
+  homepage 'https://www.google.com/fonts/specimen/Linden%20Hill'
+
+  depends_on macos: '>= :sierra'
 
   font 'LindenHill-Italic.ttf'
   font 'LindenHill-Regular.ttf'

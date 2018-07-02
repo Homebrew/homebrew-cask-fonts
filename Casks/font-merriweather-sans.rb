@@ -8,7 +8,9 @@ cask 'font-merriweather-sans' do
       revision:   '50',
       trust_cert: true
   name 'Merriweather Sans'
-  homepage 'http://www.google.com/fonts/specimen/Merriweather%20Sans'
+  homepage 'https://www.google.com/fonts/specimen/Merriweather%20Sans'
+
+  depends_on macos: '>= :sierra'
 
   font 'MerriweatherSans-Bold.ttf'
   font 'MerriweatherSans-BoldItalic.ttf'

@@ -8,7 +8,9 @@ cask 'font-domine' do
       revision:   '50',
       trust_cert: true
   name 'Domine'
-  homepage 'http://www.google.com/fonts/specimen/Domine'
+  homepage 'https://www.google.com/fonts/specimen/Domine'
+
+  depends_on macos: '>= :sierra'
 
   font 'Domine-Bold.ttf'
   font 'Domine-Regular.ttf'

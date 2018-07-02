@@ -8,7 +8,9 @@ cask 'font-sintony' do
       revision:   '50',
       trust_cert: true
   name 'Sintony'
-  homepage 'http://www.google.com/fonts/specimen/Sintony'
+  homepage 'https://www.google.com/fonts/specimen/Sintony'
+
+  depends_on macos: '>= :sierra'
 
   font 'Sintony-Bold.ttf'
   font 'Sintony-Regular.ttf'

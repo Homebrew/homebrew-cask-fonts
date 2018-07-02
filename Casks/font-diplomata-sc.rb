@@ -5,7 +5,7 @@ cask 'font-diplomata-sc' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/diplomatasc/DiplomataSC-Regular.ttf'
   name 'Diplomata SC'
-  homepage 'http://www.google.com/fonts/specimen/Diplomata+SC'
+  homepage 'https://www.google.com/fonts/specimen/Diplomata+SC'
 
   font 'DiplomataSC-Regular.ttf'
 end

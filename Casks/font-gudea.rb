@@ -8,7 +8,9 @@ cask 'font-gudea' do
       revision:   '50',
       trust_cert: true
   name 'Gudea'
-  homepage 'http://www.google.com/fonts/specimen/Gudea'
+  homepage 'https://www.google.com/fonts/specimen/Gudea'
+
+  depends_on macos: '>= :sierra'
 
   font 'Gudea-Bold.ttf'
   font 'Gudea-Italic.ttf'

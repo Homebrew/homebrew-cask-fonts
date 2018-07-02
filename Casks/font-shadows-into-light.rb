@@ -5,7 +5,7 @@ cask 'font-shadows-into-light' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/shadowsintolight/ShadowsIntoLight.ttf'
   name 'Shadows Into Light'
-  homepage 'http://www.google.com/fonts/specimen/Shadows+Into+Light'
+  homepage 'https://www.google.com/fonts/specimen/Shadows+Into+Light'
 
   font 'ShadowsIntoLight.ttf'
 end

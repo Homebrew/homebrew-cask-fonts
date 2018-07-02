@@ -5,7 +5,7 @@ cask 'font-patua-one' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/patuaone/PatuaOne-Regular.ttf'
   name 'Patua One'
-  homepage 'http://www.google.com/fonts/specimen/Patua+One'
+  homepage 'https://www.google.com/fonts/specimen/Patua+One'
 
   font 'PatuaOne-Regular.ttf'
 end

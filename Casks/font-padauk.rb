@@ -10,6 +10,8 @@ cask 'font-padauk' do
   name 'Padauk'
   homepage 'https://www.google.com/fonts/earlyaccess'
 
+  depends_on macos: '>= :sierra'
+
   font 'Padauk-Bold.ttf'
   font 'Padauk-Regular.ttf'
 end

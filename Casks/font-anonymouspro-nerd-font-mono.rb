@@ -1,12 +1,11 @@
 cask 'font-anonymouspro-nerd-font-mono' do
-  version '1.1.0'
-  sha256 'b0ae604f8841c7bf8ab3adb9eba10e702108964240fc817010a2e7c2e9ab2d7a'
+  version '2.0.0'
+  sha256 'a5ff0e9d8564594fafc0f3698ecaf08b38f87d140550736038fab0bc2b57b018'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/AnonymousPro.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'AnonymicePowerline Nerd Font (AnonymousPro)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
-  font 'Anonymice Powerline Nerd Font Complete Mono.ttf'
+  font 'Anonymice Nerd Font Complete Mono.ttf'
 end

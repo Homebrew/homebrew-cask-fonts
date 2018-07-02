@@ -5,7 +5,7 @@ cask 'font-trade-winds' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/tradewinds/TradeWinds-Regular.ttf'
   name 'Trade Winds'
-  homepage 'http://www.google.com/fonts/specimen/Trade+Winds'
+  homepage 'https://www.google.com/fonts/specimen/Trade+Winds'
 
   font 'TradeWinds-Regular.ttf'
 end

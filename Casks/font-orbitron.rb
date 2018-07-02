@@ -8,7 +8,9 @@ cask 'font-orbitron' do
       revision:   '50',
       trust_cert: true
   name 'Orbitron'
-  homepage 'http://www.google.com/fonts/specimen/Orbitron'
+  homepage 'https://www.google.com/fonts/specimen/Orbitron'
+
+  depends_on macos: '>= :sierra'
 
   font 'Orbitron-Black.ttf'
   font 'Orbitron-Bold.ttf'

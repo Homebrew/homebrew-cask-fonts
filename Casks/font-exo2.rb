@@ -8,7 +8,9 @@ cask 'font-exo2' do
       revision:   '50',
       trust_cert: true
   name 'Exo 2'
-  homepage 'http://www.google.com/fonts/specimen/Exo%202'
+  homepage 'https://www.google.com/fonts/specimen/Exo%202'
+
+  depends_on macos: '>= :sierra'
 
   font 'Exo2-Black.ttf'
   font 'Exo2-BlackItalic.ttf'

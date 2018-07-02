@@ -8,7 +8,9 @@ cask 'font-arvo' do
       revision:   '50',
       trust_cert: true
   name 'Arvo'
-  homepage 'http://www.google.com/fonts/specimen/Arvo'
+  homepage 'https://www.google.com/fonts/specimen/Arvo'
+
+  depends_on macos: '>= :sierra'
 
   font 'Arvo-Bold.ttf'
   font 'Arvo-BoldItalic.ttf'

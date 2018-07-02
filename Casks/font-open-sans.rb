@@ -8,7 +8,9 @@ cask 'font-open-sans' do
       revision:   '48',
       trust_cert: true
   name 'Open+Sans'
-  homepage 'http://www.google.com/fonts/specimen/Open+Sans'
+  homepage 'https://www.google.com/fonts/specimen/Open+Sans'
+
+  depends_on macos: '>= :sierra'
 
   font 'OpenSans-Bold.ttf'
   font 'OpenSans-BoldItalic.ttf'

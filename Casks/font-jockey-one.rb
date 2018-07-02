@@ -5,7 +5,7 @@ cask 'font-jockey-one' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/jockeyone/JockeyOne-Regular.ttf'
   name 'Jockey One'
-  homepage 'http://www.google.com/fonts/specimen/Jockey+One'
+  homepage 'https://www.google.com/fonts/specimen/Jockey+One'
 
   font 'JockeyOne-Regular.ttf'
 end

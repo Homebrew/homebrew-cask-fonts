@@ -5,7 +5,7 @@ cask 'font-nova-cut' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/novacut/NovaCut.ttf'
   name 'Nova Cut'
-  homepage 'http://www.google.com/fonts/specimen/Nova%20Cut'
+  homepage 'https://www.google.com/fonts/specimen/Nova%20Cut'
 
   font 'NovaCut.ttf'
 end

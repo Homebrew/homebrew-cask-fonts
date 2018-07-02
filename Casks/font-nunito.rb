@@ -8,7 +8,9 @@ cask 'font-nunito' do
       revision:   '50',
       trust_cert: true
   name 'Nunito'
-  homepage 'http://www.google.com/fonts/specimen/Nunito'
+  homepage 'https://www.google.com/fonts/specimen/Nunito'
+
+  depends_on macos: '>= :sierra'
 
   font 'Nunito-Bold.ttf'
   font 'Nunito-Light.ttf'

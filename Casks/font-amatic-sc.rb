@@ -8,7 +8,9 @@ cask 'font-amatic-sc' do
       revision:   '50',
       trust_cert: true
   name 'Amatic SC'
-  homepage 'http://www.google.com/fonts/specimen/Amatic%20SC'
+  homepage 'https://www.google.com/fonts/specimen/Amatic%20SC'
+
+  depends_on macos: '>= :sierra'
 
   font 'AmaticSC-Bold.ttf'
   font 'AmaticSC-Regular.ttf'

@@ -5,7 +5,7 @@ cask 'font-offside' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/offside/Offside-Regular.ttf'
   name 'Offside'
-  homepage 'http://www.google.com/fonts/specimen/Offside'
+  homepage 'https://www.google.com/fonts/specimen/Offside'
 
   font 'Offside-Regular.ttf'
 end

@@ -8,7 +8,9 @@ cask 'font-cousine' do
       revision:   '47',
       trust_cert: true
   name 'Cousine'
-  homepage 'http://www.google.com/fonts/specimen/Cousine'
+  homepage 'https://www.google.com/fonts/specimen/Cousine'
+
+  depends_on macos: '>= :sierra'
 
   font 'Cousine-Regular.ttf'
   font 'Cousine-Bold.ttf'

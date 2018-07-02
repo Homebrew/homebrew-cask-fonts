@@ -8,7 +8,9 @@ cask 'font-podkova' do
       revision:   '50',
       trust_cert: true
   name 'Podkova'
-  homepage 'http://www.google.com/fonts/specimen/Podkova'
+  homepage 'https://www.google.com/fonts/specimen/Podkova'
+
+  depends_on macos: '>= :sierra'
 
   font 'Podkova-Bold.ttf'
   font 'Podkova-Regular.ttf'

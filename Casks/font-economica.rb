@@ -8,7 +8,9 @@ cask 'font-economica' do
       revision:   '50',
       trust_cert: true
   name 'Economica'
-  homepage 'http://www.google.com/fonts/specimen/Economica'
+  homepage 'https://www.google.com/fonts/specimen/Economica'
+
+  depends_on macos: '>= :sierra'
 
   font 'Economica-Bold.ttf'
   font 'Economica-BoldItalic.ttf'

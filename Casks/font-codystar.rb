@@ -8,7 +8,9 @@ cask 'font-codystar' do
       revision:   '50',
       trust_cert: true
   name 'Codystar'
-  homepage 'http://www.google.com/fonts/specimen/Codystar'
+  homepage 'https://www.google.com/fonts/specimen/Codystar'
+
+  depends_on macos: '>= :sierra'
 
   font 'Codystar-Light.ttf'
   font 'Codystar-Regular.ttf'

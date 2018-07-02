@@ -5,7 +5,7 @@ cask 'font-marko-one' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/markoone/MarkoOne-Regular.ttf'
   name 'Marko One'
-  homepage 'http://www.google.com/fonts/specimen/Marko+One'
+  homepage 'https://www.google.com/fonts/specimen/Marko+One'
 
   font 'MarkoOne-Regular.ttf'
 end

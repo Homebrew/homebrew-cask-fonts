@@ -8,7 +8,9 @@ cask 'font-asap' do
       revision:   '50',
       trust_cert: true
   name 'Asap'
-  homepage 'http://www.google.com/fonts/specimen/Asap'
+  homepage 'https://www.google.com/fonts/specimen/Asap'
+
+  depends_on macos: '>= :sierra'
 
   font 'Asap-Bold.ttf'
   font 'Asap-BoldItalic.ttf'

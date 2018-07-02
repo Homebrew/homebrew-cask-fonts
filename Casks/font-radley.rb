@@ -8,7 +8,9 @@ cask 'font-radley' do
       revision:   '50',
       trust_cert: true
   name 'Radley'
-  homepage 'http://www.google.com/fonts/specimen/Radley'
+  homepage 'https://www.google.com/fonts/specimen/Radley'
+
+  depends_on macos: '>= :sierra'
 
   font 'Radley-Italic.ttf'
   font 'Radley-Regular.ttf'

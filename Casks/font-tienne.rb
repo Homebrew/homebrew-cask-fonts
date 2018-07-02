@@ -8,7 +8,9 @@ cask 'font-tienne' do
       revision:   '50',
       trust_cert: true
   name 'Tienne'
-  homepage 'http://www.google.com/fonts/specimen/Tienne'
+  homepage 'https://www.google.com/fonts/specimen/Tienne'
+
+  depends_on macos: '>= :sierra'
 
   font 'Tienne-Bold.ttf'
   font 'Tienne-Heavy.ttf'

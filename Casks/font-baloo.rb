@@ -1,19 +1,20 @@
 cask 'font-baloo' do
-  version '1.100'
-  sha256 'b94636ce261ca2f532791fa167c5cfe98dcca1f434996c69b5354ab700faa0d7'
+  version '1.443'
+  sha256 '86db29e7463475fd0ce93376fff7eefb3a787525b8113bca9662b9cdc1c3a139'
 
-  url "https://github.com/EkType/Baloo/releases/download/1.10/Baloo_#{version}.zip"
+  url "https://github.com/EkType/Baloo/releases/download/#{version}/Baloo_#{version}.zip"
+  appcast 'https://github.com/EkType/Baloo/releases.atom'
   name 'Baloo'
   homepage 'https://github.com/EkType/Baloo'
 
-  font 'Baloo-Regular.ttf'
-  font 'BalooBhai-Regular.ttf'
-  font 'BalooBhaijaan-Regular.ttf'
-  font 'BalooBhaina-Regular.ttf'
-  font 'BalooChettan-Regular.ttf'
-  font 'BalooDa-Regular.ttf'
-  font 'BalooPaaji-Regular.ttf'
-  font 'BalooTamma-Regular.ttf'
-  font 'BalooTammudu-Regular.ttf'
-  font 'BalooThambi-Regular.ttf'
+  font 'Fonts/Baloo-Regular.ttf'
+  font 'Fonts/BalooBhai-Regular.ttf'
+  font 'Fonts/BalooBhaijaan-Regular.ttf'
+  font 'Fonts/BalooBhaina-Regular.ttf'
+  font 'Fonts/BalooChettan-Regular.ttf'
+  font 'Fonts/BalooDa-Regular.ttf'
+  font 'Fonts/BalooPaaji-Regular.ttf'
+  font 'Fonts/BalooTamma-Regular.ttf'
+  font 'Fonts/BalooTammudu-Regular.ttf'
+  font 'Fonts/BalooThambi-Regular.ttf'
 end

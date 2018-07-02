@@ -8,7 +8,9 @@ cask 'font-changa-one' do
       revision:   '50',
       trust_cert: true
   name 'Changa One'
-  homepage 'http://www.google.com/fonts/specimen/Changa%20One'
+  homepage 'https://www.google.com/fonts/specimen/Changa%20One'
+
+  depends_on macos: '>= :sierra'
 
   font 'ChangaOne-Italic.ttf'
   font 'ChangaOne-Regular.ttf'

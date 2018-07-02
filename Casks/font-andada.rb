@@ -8,7 +8,9 @@ cask 'font-andada' do
       revision:   '50',
       trust_cert: true
   name 'Andada'
-  homepage 'http://www.google.com/fonts/specimen/Andada'
+  homepage 'https://www.google.com/fonts/specimen/Andada'
+
+  depends_on macos: '>= :sierra'
 
   font 'Andada-Bold.ttf'
   font 'Andada-BoldItalic.ttf'

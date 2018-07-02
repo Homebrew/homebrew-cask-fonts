@@ -1,10 +1,9 @@
 cask 'font-sharetechmono-nerd-font' do
-  version '1.1.0'
-  sha256 '47e6b2a728457e47f449bc114c663c67273e2bba323d0163c38e53fb815835d6'
+  version '2.0.0'
+  sha256 '0d697cf592e46d6c36e017a84e58a05343e3b4c2ea71e40671de3930c1582b9f'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ShareTechMono.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom',
-          checkpoint: '109f18cfd453156e38ffac165683bcfc2745e0c8dc07bd379a7f9ea19d0cbe41'
+  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
   name 'ShureTechMono Nerd Font (ShareTechMono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 

@@ -8,7 +8,9 @@ cask 'font-im-fell-great-primer' do
       revision:   '50',
       trust_cert: true
   name 'IM Fell Great Primer'
-  homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20Great%20Primer'
+  homepage 'https://www.google.com/fonts/specimen/IM%20Fell%20Great%20Primer'
+
+  depends_on macos: '>= :sierra'
 
   font 'IMFeGPit28P.ttf'
   font 'IMFeGPrm28P.ttf'

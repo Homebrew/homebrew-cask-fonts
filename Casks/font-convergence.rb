@@ -5,7 +5,7 @@ cask 'font-convergence' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/convergence/Convergence-Regular.ttf'
   name 'Convergence'
-  homepage 'http://www.google.com/fonts/specimen/Convergence'
+  homepage 'https://www.google.com/fonts/specimen/Convergence'
 
   font 'Convergence-Regular.ttf'
 end

@@ -8,7 +8,9 @@ cask 'font-corben' do
       revision:   '50',
       trust_cert: true
   name 'Corben'
-  homepage 'http://www.google.com/fonts/specimen/Corben'
+  homepage 'https://www.google.com/fonts/specimen/Corben'
+
+  depends_on macos: '>= :sierra'
 
   font 'Corben-Bold.ttf'
   font 'Corben-Regular.ttf'

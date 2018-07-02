@@ -1,10 +1,9 @@
 cask 'font-alegreya' do
-  version '2.004'
-  sha256 'a3fd223741fcdf50328f2d37a378cffba2fe2dddc55d29f41e754cb2447f0b2c'
+  version '2.007'
+  sha256 '5a18133a815b6ff7ca20e1a50a7c536d32a5d3775502cf3f9ae16a06740b7703'
 
   url "https://github.com/huertatipografica/Alegreya/archive/v#{version}.zip"
-  appcast 'https://github.com/huertatipografica/Alegreya/releases.atom',
-          checkpoint: '8a8502eac21fdf9cb5d3776254ece76483456eda4ede4817045a01b59c1ca0e0'
+  appcast 'https://github.com/huertatipografica/Alegreya/releases.atom'
   name 'Alegreya'
   homepage 'https://github.com/huertatipografica/Alegreya'
 

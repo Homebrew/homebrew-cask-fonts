@@ -7,7 +7,9 @@ cask 'font-glegoo' do
       using:      :svn,
       trust_cert: true
   name 'Glegoo'
-  homepage 'http://www.google.com/fonts/specimen/Glegoo'
+  homepage 'https://www.google.com/fonts/specimen/Glegoo'
+
+  depends_on macos: '>= :sierra'
 
   font 'Glegoo-Bold.ttf'
   font 'Glegoo-Regular.ttf'

@@ -8,7 +8,9 @@ cask 'font-gravitas-one' do
       revision:   '50',
       trust_cert: true
   name 'Gravitas One'
-  homepage 'http://www.google.com/fonts/specimen/Gravitas%20One'
+  homepage 'https://www.google.com/fonts/specimen/Gravitas%20One'
+
+  depends_on macos: '>= :sierra'
 
   font 'GravitasOne.ttf'
 end

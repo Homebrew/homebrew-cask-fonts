@@ -8,7 +8,9 @@ cask 'font-advent-pro' do
       revision:   '50',
       trust_cert: true
   name 'Advent Pro'
-  homepage 'http://www.google.com/fonts/specimen/Advent%20Pro'
+  homepage 'https://www.google.com/fonts/specimen/Advent%20Pro'
+
+  depends_on macos: '>= :sierra'
 
   font 'AdventPro-Bold.ttf'
   font 'AdventPro-ExtraLight.ttf'

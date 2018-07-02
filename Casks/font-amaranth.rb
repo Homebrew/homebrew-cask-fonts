@@ -8,7 +8,9 @@ cask 'font-amaranth' do
       revision:   '50',
       trust_cert: true
   name 'Amaranth'
-  homepage 'http://www.google.com/fonts/specimen/Amaranth'
+  homepage 'https://www.google.com/fonts/specimen/Amaranth'
+
+  depends_on macos: '>= :sierra'
 
   font 'Amaranth-Bold.ttf'
   font 'Amaranth-BoldItalic.ttf'

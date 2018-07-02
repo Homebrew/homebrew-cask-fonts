@@ -8,7 +8,9 @@ cask 'font-quattrocento' do
       revision:   '50',
       trust_cert: true
   name 'Quattrocento'
-  homepage 'http://www.google.com/fonts/specimen/Quattrocento'
+  homepage 'https://www.google.com/fonts/specimen/Quattrocento'
+
+  depends_on macos: '>= :sierra'
 
   font 'Quattrocento-Bold.ttf'
   font 'Quattrocento-Regular.ttf'

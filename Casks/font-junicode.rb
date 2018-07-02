@@ -1,13 +1,15 @@
 cask 'font-junicode' do
-  version :latest
-  sha256 :no_check
+  version '1.001'
+  sha256 '64128229678d0fe1ae6f2897533932011af7dfcdeeba4d1148e45a8c6e439953'
 
-  url 'https://sourceforge.net/projects/junicode/files/latest/download'
+  url "https://downloads.sourceforge.net/junicode/junicode-#{version}.zip"
+  appcast 'https://sourceforge.net/projects/junicode/rss'
   name 'Junicode'
   homepage 'http://junicode.sourceforge.net/'
 
-  font 'junicode/fonts/Junicode-Bold.ttf'
-  font 'junicode/fonts/Junicode-BoldItalic.ttf'
-  font 'junicode/fonts/Junicode-Italic.ttf'
-  font 'junicode/fonts/Junicode.ttf'
+  font 'FoulisGreek.ttf'
+  font 'Junicode-Bold.ttf'
+  font 'Junicode-BoldItalic.ttf'
+  font 'Junicode-Italic.ttf'
+  font 'Junicode.ttf'
 end

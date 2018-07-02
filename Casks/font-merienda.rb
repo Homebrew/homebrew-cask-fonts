@@ -8,7 +8,9 @@ cask 'font-merienda' do
       revision:   '50',
       trust_cert: true
   name 'Merienda'
-  homepage 'http://www.google.com/fonts/specimen/Merienda'
+  homepage 'https://www.google.com/fonts/specimen/Merienda'
+
+  depends_on macos: '>= :sierra'
 
   font 'Merienda-Bold.ttf'
   font 'Merienda-Regular.ttf'

@@ -8,7 +8,9 @@ cask 'font-cinzel-decorative' do
       revision:   '50',
       trust_cert: true
   name 'Cinzel Decorative'
-  homepage 'http://www.google.com/fonts/specimen/Cinzel%20Decorative'
+  homepage 'https://www.google.com/fonts/specimen/Cinzel%20Decorative'
+
+  depends_on macos: '>= :sierra'
 
   font 'CinzelDecorative-Black.ttf'
   font 'CinzelDecorative-Bold.ttf'

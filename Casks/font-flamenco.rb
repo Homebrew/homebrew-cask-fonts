@@ -8,7 +8,9 @@ cask 'font-flamenco' do
       revision:   '50',
       trust_cert: true
   name 'Flamenco'
-  homepage 'http://www.google.com/fonts/specimen/Flamenco'
+  homepage 'https://www.google.com/fonts/specimen/Flamenco'
+
+  depends_on macos: '>= :sierra'
 
   font 'Flamenco-Light.ttf'
   font 'Flamenco-Regular.ttf'

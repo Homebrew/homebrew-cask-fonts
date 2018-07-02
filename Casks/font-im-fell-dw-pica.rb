@@ -8,7 +8,9 @@ cask 'font-im-fell-dw-pica' do
       revision:   '50',
       trust_cert: true
   name 'IM Fell DW Pica'
-  homepage 'http://www.google.com/fonts/specimen/IM%20Fell%20DW%20Pica'
+  homepage 'https://www.google.com/fonts/specimen/IM%20Fell%20DW%20Pica'
+
+  depends_on macos: '>= :sierra'
 
   font 'IMFePIit28P.ttf'
   font 'IMFePIrm28P.ttf'

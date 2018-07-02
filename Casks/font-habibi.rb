@@ -5,7 +5,7 @@ cask 'font-habibi' do
   # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/habibi/Habibi-Regular.ttf'
   name 'Habibi'
-  homepage 'http://www.google.com/fonts/specimen/Habibi'
+  homepage 'https://www.google.com/fonts/specimen/Habibi'
 
   font 'Habibi-Regular.ttf'
 end

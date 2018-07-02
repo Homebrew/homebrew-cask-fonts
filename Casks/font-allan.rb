@@ -8,7 +8,9 @@ cask 'font-allan' do
       revision:   '50',
       trust_cert: true
   name 'Allan'
-  homepage 'http://www.google.com/fonts/specimen/Allan'
+  homepage 'https://www.google.com/fonts/specimen/Allan'
+
+  depends_on macos: '>= :sierra'
 
   font 'Allan-Bold.ttf'
   font 'Allan-Regular.ttf'

@@ -8,7 +8,9 @@ cask 'font-josefin-sans' do
       revision:   '50',
       trust_cert: true
   name 'Josefin Sans'
-  homepage 'http://www.google.com/fonts/specimen/Josefin%20Sans'
+  homepage 'https://www.google.com/fonts/specimen/Josefin%20Sans'
+
+  depends_on macos: '>= :sierra'
 
   font 'JosefinSans-Bold.ttf'
   font 'JosefinSans-BoldItalic.ttf'
