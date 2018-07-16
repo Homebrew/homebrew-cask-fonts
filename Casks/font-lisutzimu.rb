@@ -3,12 +3,18 @@ cask 'font-lisutzimu' do
   sha256 :no_check
 
   # mediafire.com/?nng3ontzxrt was verified as official when first introduced to the cask
-  url 'http://www.mediafire.com/?nng3ontzxrt'
+  url do
+    require 'open-uri'
+
+    URI('http://www.mediafire.com/?nng3ontzxrt')
+      .open
+      .read
+      .scan(%r{href='(http://download\d+.mediafire.com/[^/]+/nng3ontzxrt/Lisu\+Tzimu-1.0.exe)'})
+      .flatten
+      .first
+  end
   name 'LisuTzimu'
   homepage 'http://www.alanwood.net/unicode/fonts-east-asian.html#lisu'
-
-  depends_on formula: 'unar'
-  container type: :seven_zip
 
   font 'ý €/lisutzimu.ttf'
   font 'ý €/lisutzimu-bold.ttf'

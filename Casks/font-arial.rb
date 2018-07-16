@@ -7,8 +7,6 @@ cask 'font-arial' do
   name 'Arial'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
-  depends_on formula: 'cabextract'
-
   font 'Ariali.TTF'
   font 'Arialbd.TTF'
   font 'Arialbi.TTF'

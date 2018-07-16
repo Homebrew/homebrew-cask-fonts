@@ -6,7 +6,5 @@ cask 'font-andale-mono' do
   name 'Andale Mono'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
-  depends_on formula: 'cabextract'
-
   font 'AndaleMo.TTF'
 end

@@ -6,7 +6,5 @@ cask 'font-webdings' do
   name 'Webdings'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
-  depends_on formula: 'cabextract'
-
   font 'Webdings.TTF'
 end
