@@ -6,8 +6,6 @@ cask 'font-verdana' do
   name 'Verdana'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
-  depends_on formula: 'cabextract'
-
   font 'Verdana.TTF'
   font 'Verdanab.TTF'
   font 'Verdanai.TTF'

@@ -7,8 +7,6 @@ cask 'font-georgia' do
   name 'Georgia'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
-  depends_on formula: 'cabextract'
-
   font 'Georgiaz.TTF'
   font 'Georgiab.TTF'
   font 'Georgiai.TTF'

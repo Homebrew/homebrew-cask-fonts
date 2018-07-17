@@ -7,7 +7,5 @@ cask 'font-arial-black' do
   name 'Arial Black'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
-  depends_on formula: 'cabextract'
-
   font 'AriBlk.TTF'
 end

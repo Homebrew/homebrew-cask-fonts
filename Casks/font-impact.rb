@@ -7,7 +7,5 @@ cask 'font-impact' do
   name 'Impact'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
-  depends_on formula: 'cabextract'
-
   font 'Impact.TTF'
 end

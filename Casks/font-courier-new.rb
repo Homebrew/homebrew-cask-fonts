@@ -7,8 +7,6 @@ cask 'font-courier-new' do
   name 'Courier New'
   homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
-  depends_on formula: 'cabextract'
-
   font 'cour.ttf'
   font 'courbd.ttf'
   font 'courbi.ttf'
