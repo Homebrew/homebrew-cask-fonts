@@ -7,8 +7,6 @@ cask 'font-sarasa-gothic' do
   name 'Sarasa Gothic'
   homepage 'https://github.com/be5invis/Sarasa-Gothic'
 
-  depends_on formula: 'unar'
-
   font 'sarasa-bold.ttc'
   font 'sarasa-bolditalic.ttc'
   font 'sarasa-italic.ttc'
