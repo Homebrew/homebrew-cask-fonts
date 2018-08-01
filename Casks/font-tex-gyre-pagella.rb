@@ -1,13 +1,13 @@
 cask 'font-tex-gyre-pagella' do
-  version '2.004'
-  sha256 'e241b65216b0226ea787b5d7f9f06e9fd1e1013f6243ebc69aeb57c3ca006d78'
+  version '2.501'
+  sha256 'e16078d19860d68a54bcaedc00e35c2a81b396cdc36842700f1d556f89cf8ef2'
 
-  url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella/qpl#{version}otf.zip"
+  url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella/qpl#{version.dots_to_underscores}otf.zip"
   name 'TeX Gyre Pagella'
   homepage 'http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella'
 
-  font 'texgyrepagella-bold.otf'
-  font 'texgyrepagella-bolditalic.otf'
-  font 'texgyrepagella-italic.otf'
-  font 'texgyrepagella-regular.otf'
+  font "qpl#{version.dots_to_underscores}otf/texgyrepagella-bold.otf"
+  font "qpl#{version.dots_to_underscores}otf/texgyrepagella-bolditalic.otf"
+  font "qpl#{version.dots_to_underscores}otf/texgyrepagella-italic.otf"
+  font "qpl#{version.dots_to_underscores}otf/texgyrepagella-regular.otf"
 end
