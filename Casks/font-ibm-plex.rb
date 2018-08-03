@@ -1,6 +1,6 @@
 cask 'font-ibm-plex' do
-  version '1.0.2'
-  sha256 '4153e07273f068e8fa4b65304bbac2ba3ce3b4d59d841eaba4cb374931967e00'
+  version '1.1.3'
+  sha256 'e08da821d32842ef6db5166f46792eefd58f36c639549f40e210590375b1cd36'
 
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
   appcast 'https://github.com/IBM/plex/releases.atom'
@@ -39,6 +39,14 @@ cask 'font-ibm-plex' do
   font 'OpenType/IBM-Plex-Sans-Condensed/IBMPlexSansCondensed-TextItalic.otf'
   font 'OpenType/IBM-Plex-Sans-Condensed/IBMPlexSansCondensed-Thin.otf'
   font 'OpenType/IBM-Plex-Sans-Condensed/IBMPlexSansCondensed-ThinItalic.otf'
+  font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-Bold.otf'
+  font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-ExtraLight.otf'
+  font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-Light.otf'
+  font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-Medium.otf'
+  font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-Regular.otf'
+  font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-SemiBold.otf'
+  font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-Text.otf'
+  font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-Thin.otf'
   font 'OpenType/IBM-Plex-Sans/IBMPlexSans-Bold.otf'
   font 'OpenType/IBM-Plex-Sans/IBMPlexSans-BoldItalic.otf'
   font 'OpenType/IBM-Plex-Sans/IBMPlexSans-ExtraLight.otf'
