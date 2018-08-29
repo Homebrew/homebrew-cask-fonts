@@ -7,9 +7,9 @@ cask 'font-space-grotesk' do
   name 'Space Grotesk'
   homepage 'https://github.com/floriankarsten/space-grotesk'
 
-  font 'otf/SpaceGrotesk-Bold.otf'
-  font 'otf/SpaceGrotesk-Light.otf'
-  font 'otf/SpaceGrotesk-Medium.otf'
-  font 'otf/SpaceGrotesk-Regular.otf'
-  font 'otf/SpaceGrotesk-SemiBold.otf'
+  font "SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Bold.otf"
+  font "SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Light.otf"
+  font "SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Medium.otf"
+  font "SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Regular.otf"
+  font "SpaceGrotesk-v#{version}/otf/SpaceGrotesk-SemiBold.otf"
 end
