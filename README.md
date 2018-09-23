@@ -1,6 +1,6 @@
 # homebrew-cask-fonts
 
-Here is where you can find or submit font Casks for the [homebrew-cask](https://github.com/Homebrew/homebrew-cask) project.
+Here is where you can find or submit font Casks for the [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) project.
 
 ## Let’s try it!
 
