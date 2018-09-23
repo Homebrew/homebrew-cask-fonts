@@ -4,7 +4,7 @@ So you want to contribute to the project. **THIS IS GREAT NEWS!** Seriously. Weâ
 
 ## Getting Started
 
-See [CONTRIBUTING.md](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) in the main homebrew-cask repo for general info on how to get set up.
+See [CONTRIBUTING.md](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) in the main Homebrew Cask repo for general info on how to get set up.
 
 ## Adding a Font Cask
 
@@ -45,7 +45,7 @@ end
 
 ## Font Cask Fields
 
-The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) for the main homebrew-cask repo. Note that if the download `url` is not a versioned file, `sha256 <hexstring>` should be replaced with `sha256 :no_check`, and `version` should be set to `:latest`.
+The `url`, `homepage`, `version`, and `sha256` fields in a Font Cask are required, as described in [CONTRIBUTING.md](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) for the main Homebrew Cask repo. Note that if the download `url` is not a versioned file, `sha256 <hexstring>` should be replaced with `sha256 :no_check`, and `version` should be set to `:latest`.
 
 The string which follows the `font` field is a relative path to the font file within the downloaded archive. That font will be linked into the userâ€™s `~/Library/Fonts` directory at install time.
 
