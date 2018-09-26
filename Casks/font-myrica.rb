@@ -1,9 +1,12 @@
+# Donwload a tar.gz archive instead of a zip archive.  There are japanese
+# characters in files contained in the downloaded archive, and that makes errors
+# while unarchiving.
 cask 'font-myrica' do
   version '2.006.20150301'
-  sha256 'ac85d476a7a8cc809be015b9593afff2d998e7cea3b9fd9aee7d9d9a05ba449b'
+  sha256 'a90eb9b79885f02ad9e0e752a0b979b699847be7de13dc3b6113658f006d12bd'
 
   # codeload.github.com/tomokuni/Myrica was verified as official when first introduced to the cask
-  url "https://codeload.github.com/tomokuni/Myrica/zip/#{version}"
+  url "https://codeload.github.com/tomokuni/Myrica/tar.gz/#{version}"
   appcast 'https://github.com/tomokuni/Myrica/releases.atom'
   name 'Myrica'
   homepage 'http://myrica.estable.jp/'
