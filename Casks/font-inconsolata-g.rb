@@ -7,7 +7,5 @@ cask 'font-inconsolata-g' do
   name 'Inconsolata-g'
   homepage 'https://leonardo-m.livejournal.com/77079.html'
 
-  depends_on macos: '>= :sierra'
-
   font 'Inconsolata-g.otf'
 end
