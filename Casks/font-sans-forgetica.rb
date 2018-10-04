@@ -6,7 +6,5 @@ cask 'font-sans-forgetica' do
   name 'Sans Forgetica'
   homepage 'http://sansforgetica.rmit/'
 
-  container type: :zip
-
   font "Sans Forgetica/SansForgetica-Regular.otf"
 end
