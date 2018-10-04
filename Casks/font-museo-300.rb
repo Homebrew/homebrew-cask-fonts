@@ -6,6 +6,6 @@ cask 'font-museo-300' do
   name 'Museo 300'
   homepage 'http://www.abstractfonts.com/font/14890'
 
-  font 'otf/Museo300-Regular.otf'
-  font 'otf/Museo700-Regular.otf'
+  font 'Museo300-Regular.otf'
+  font 'Museo700-Regular.otf'
 end
