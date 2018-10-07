@@ -1,16 +1,16 @@
 cask 'font-stix' do
   version '2.0.0'
-  sha256 '6fac297b27c78891aeca9adb37be54729932e57cdcdb218a9e163671c163d938'
+  sha256 '667e3187a22cc63ba0de7083fc69c7920737cd44a44ff5eb2921cbd188531aa9'
 
-  # downloads.sourceforge.net/stixfonts was verified as official when first introduced to the cask
-  url "https://downloads.sourceforge.net/stixfonts/Current%20Release/STIXv#{version}.zip"
-  appcast 'https://sourceforge.net/projects/stixfonts/rss?path=/Current%20Release/'
+  # github.com/stipub/stixfonts was verified as official when first introduced to the cask
+  url "https://github.com/stipub/stixfonts/archive/#{version}.tar.gz"
+  appcast 'https://github.com/stipub/stixfonts/releases.atom'
   name 'STIX'
-  homepage 'http://stixfonts.org/'
+  homepage 'https://stixfonts.org/'
 
-  font "STIXv#{version}/Fonts/OTF/STIX2Math.otf"
-  font "STIXv#{version}/Fonts/OTF/STIX2Text-Bold.otf"
-  font "STIXv#{version}/Fonts/OTF/STIX2Text-BoldItalic.otf"
-  font "STIXv#{version}/Fonts/OTF/STIX2Text-Italic.otf"
-  font "STIXv#{version}/Fonts/OTF/STIX2Text-Regular.otf"
+  font "stixfonts-#{version}/OTF/STIX2Math.otf"
+  font "stixfonts-#{version}/OTF/STIX2Text-Bold.otf"
+  font "stixfonts-#{version}/OTF/STIX2Text-BoldItalic.otf"
+  font "stixfonts-#{version}/OTF/STIX2Text-Italic.otf"
+  font "stixfonts-#{version}/OTF/STIX2Text-Regular.otf"
 end
