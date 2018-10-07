@@ -6,7 +6,7 @@ cask 'font-hack' do
   url "https://github.com/source-foundry/Hack/releases/download/v#{version}/Hack-v#{version}-ttf.zip"
   appcast 'https://github.com/source-foundry/Hack/releases.atom'
   name 'Hack'
-  homepage 'http://sourcefoundry.org/hack/'
+  homepage 'https://sourcefoundry.org/hack/'
 
   font 'ttf/Hack-Regular.ttf'
   font 'ttf/Hack-Italic.ttf'

@@ -6,7 +6,7 @@ cask 'font-source-sans-pro' do
   url "https://github.com/adobe-fonts/source-sans-pro/archive/#{version.sub('ro-', 'ro/')}.zip"
   appcast 'https://github.com/adobe-fonts/source-sans-pro/releases.atom'
   name 'Source Sans Pro'
-  homepage 'http://adobe-fonts.github.io/source-sans-pro/'
+  homepage 'https://adobe-fonts.github.io/source-sans-pro/'
 
   font "source-sans-pro-#{version}/OTF/SourceSansPro-Black.otf"
   font "source-sans-pro-#{version}/OTF/SourceSansPro-BlackIt.otf"

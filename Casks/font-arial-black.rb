@@ -5,7 +5,7 @@ cask 'font-arial-black' do
   url 'https://downloads.sourceforge.net/corefonts/arialb32.exe'
   appcast 'https://sourceforge.net/projects/corefonts/rss'
   name 'Arial Black'
-  homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
+  homepage 'https://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   font 'AriBlk.TTF'
 end

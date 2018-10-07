@@ -6,7 +6,7 @@ cask 'font-devicons' do
   url "https://github.com/vorillaz/devicons/archive/#{version}.zip"
   appcast 'https://github.com/vorillaz/devicons/releases.atom'
   name 'Devicons'
-  homepage 'http://vorillaz.github.io/devicons/'
+  homepage 'https://vorillaz.github.io/devicons/'
 
   font "devicons-#{version}/fonts/devicons.ttf"
 end

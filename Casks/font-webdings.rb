@@ -4,7 +4,7 @@ cask 'font-webdings' do
 
   url 'https://downloads.sourceforge.net/corefonts/webdin32.exe'
   name 'Webdings'
-  homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
+  homepage 'https://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   font 'Webdings.TTF'
 end

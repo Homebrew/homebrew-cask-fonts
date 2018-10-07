@@ -2,9 +2,9 @@ cask 'font-pt-sans' do
   version :latest
   sha256 :no_check
 
-  url 'http://old.paratype.com/uni/public/PTSans.zip'
+  url 'https://old.paratype.com/uni/public/PTSans.zip'
   name 'PT Sans'
-  homepage 'http://www.paratype.com/public/'
+  homepage 'https://www.paratype.com/public/'
 
   font 'PTC55F.ttf'
   font 'PTC75F.ttf'

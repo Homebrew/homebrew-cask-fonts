@@ -5,7 +5,7 @@ cask 'font-courier-new' do
   url 'https://downloads.sourceforge.net/corefonts/courie32.exe'
   appcast 'https://sourceforge.net/projects/corefonts/rss'
   name 'Courier New'
-  homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
+  homepage 'https://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   font 'cour.ttf'
   font 'courbd.ttf'

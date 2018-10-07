@@ -6,7 +6,7 @@ cask 'font-wenquanyi-micro-hei' do
   url "https://downloads.sourceforge.net/wqy/wqy-microhei-#{version}.tar.gz"
   appcast 'https://sourceforge.net/projects/wqy/rss'
   name 'WenQuanYi Micro Hei'
-  homepage 'http://wenq.org/wqy2/index.cgi?MicroHei'
+  homepage 'https://wenq.org/wqy2/index.cgi?MicroHei'
 
   font 'wqy-microhei/wqy-microhei.ttc'
 end

@@ -6,7 +6,7 @@ cask 'font-wenquanyi-zen-hei' do
   url "https://downloads.sourceforge.net/wqy/wqy-zenhei-#{version}.tar.gz"
   appcast 'https://sourceforge.net/projects/wqy/rss'
   name 'WenQuanYi Zen Hei'
-  homepage 'http://wenq.org/wqy2/index.cgi?ZenHei'
+  homepage 'https://wenq.org/wqy2/index.cgi?ZenHei'
 
   font 'wqy-zenhei/wqy-zenhei.ttc'
 end

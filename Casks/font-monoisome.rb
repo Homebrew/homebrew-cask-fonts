@@ -6,7 +6,7 @@ cask 'font-monoisome' do
   url 'https://github.com/larsenwork/monoid/blob/master/Monoisome/Monoisome-Regular.ttf?raw=true'
   appcast 'https://github.com/larsenwork/monoid/releases.atom'
   name 'Monoisome'
-  homepage 'http://larsenwork.com/monoid/'
+  homepage 'https://larsenwork.com/monoid/'
 
   font 'Monoisome-Regular.ttf'
 end

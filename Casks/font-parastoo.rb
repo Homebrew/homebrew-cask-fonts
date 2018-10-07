@@ -6,7 +6,7 @@ cask 'font-parastoo' do
   url "https://github.com/rastikerdar/parastoo-font/releases/download/v#{version}/parastoo-font-v#{version}.zip"
   appcast 'https://github.com/rastikerdar/parastoo-font/releases.atom'
   name 'Parastoo'
-  homepage 'http://rastikerdar.github.io/parastoo-font'
+  homepage 'https://rastikerdar.github.io/parastoo-font'
 
   font 'Parastoo.ttf'
   font 'Parastoo-Bold.ttf'

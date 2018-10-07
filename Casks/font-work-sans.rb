@@ -6,7 +6,7 @@ cask 'font-work-sans' do
   url "https://github.com/weiweihuanghuang/Work-Sans/archive/v#{version}.zip"
   appcast 'https://github.com/weiweihuanghuang/Work-Sans/releases.atom'
   name 'Work Sans'
-  homepage 'http://weiweihuanghuang.github.io/Work-Sans/'
+  homepage 'https://weiweihuanghuang.github.io/Work-Sans/'
 
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-Black.otf"
   font "Work-Sans-#{version}/fonts/desktop/WorkSans-Bold.otf"

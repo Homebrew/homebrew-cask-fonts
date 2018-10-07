@@ -2,9 +2,9 @@ cask 'font-butler' do
   version :latest
   sha256 :no_check
 
-  url 'http://fabiandesmet.com/wp-content/uploads/Butler_and_ButlerStencil.zip'
+  url 'https://fabiandesmet.com/wp-content/uploads/Butler_and_ButlerStencil.zip'
   name 'Butler'
-  homepage 'http://fabiandesmet.com/portfolio/butler-font/'
+  homepage 'https://fabiandesmet.com/portfolio/butler-font/'
 
   font 'Butler_Black.otf'
   font 'Butler_Black_Stencil.otf'
