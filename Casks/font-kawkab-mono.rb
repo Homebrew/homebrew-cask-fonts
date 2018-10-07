@@ -6,7 +6,7 @@ cask 'font-kawkab-mono' do
   url "https://github.com/aiaf/kawkab-mono/releases/download/v#{version}/kawkab-mono-#{version}.zip"
   appcast 'https://github.com/aiaf/kawkab-mono/releases.atom'
   name 'Kawkab Mono'
-  homepage 'http://makkuk.com/kawkab-mono'
+  homepage 'https://makkuk.com/kawkab-mono'
 
   font "kawkab-mono-#{version}/KawkabMono-Bold.otf"
   font "kawkab-mono-#{version}/KawkabMono-Light.otf"

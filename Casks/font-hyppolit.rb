@@ -4,7 +4,7 @@ cask 'font-hyppolit' do
 
   url 'http://dl.1001fonts.com/hyppolit.zip'
   name 'Hyppolit'
-  homepage 'http://www.1001fonts.com/hyppolit-font.html'
+  homepage 'https://www.1001fonts.com/hyppolit-font.html'
 
   font 'Hyppolit.ttf'
 end

@@ -2,9 +2,9 @@ cask 'font-freesans' do
   version '20120503'
   sha256 '3a6c51868c71b006c33c4bcde63d90927e6fcca8f51c965b8ad62d021614a860'
 
-  url "http://ftp.gnu.org/gnu/freefont/freefont-otf-#{version}.tar.gz"
+  url "https://ftp.gnu.org/gnu/freefont/freefont-otf-#{version}.tar.gz"
   name 'FreeSans'
-  homepage 'http://ftp.gnu.org/gnu/freefont/'
+  homepage 'https://ftp.gnu.org/gnu/freefont/'
 
   font "freefont-#{version}/FreeMono.otf"
   font "freefont-#{version}/FreeMonoBold.otf"

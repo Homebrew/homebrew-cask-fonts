@@ -6,7 +6,7 @@ cask 'font-et-book' do
   url 'https://github.com/edwardtufte/et-book/archive/gh-pages.zip'
   name 'ET Book'
   name 'Edward Tufte Book'
-  homepage 'http://edwardtufte.github.io/et-book/'
+  homepage 'https://edwardtufte.github.io/et-book/'
 
   font 'et-book-gh-pages/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf'
   font 'et-book-gh-pages/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf'

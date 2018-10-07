@@ -6,7 +6,7 @@ cask 'font-shabnam' do
   url "https://github.com/rastikerdar/shabnam-font/releases/download/v#{version}/shabnam-font-v#{version}.zip"
   appcast 'https://github.com/rastikerdar/shabnam-font/releases.atom'
   name 'Shabnam'
-  homepage 'http://rastikerdar.github.io/shabnam-font'
+  homepage 'https://rastikerdar.github.io/shabnam-font'
 
   font 'Shabnam.ttf'
   font 'Shabnam-Bold.ttf'

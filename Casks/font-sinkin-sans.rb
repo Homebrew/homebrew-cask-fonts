@@ -2,9 +2,9 @@ cask 'font-sinkin-sans' do
   version :latest
   sha256 :no_check
 
-  url 'http://www.fontsquirrel.com/fonts/download/sinkin-sans'
+  url 'https://www.fontsquirrel.com/fonts/download/sinkin-sans'
   name 'Sinkin Sans'
-  homepage 'http://www.fontsquirrel.com/fonts/sinkin-sans'
+  homepage 'https://www.fontsquirrel.com/fonts/sinkin-sans'
 
   font 'SinkinSans-100Thin.otf'
   font 'SinkinSans-100ThinItalic.otf'

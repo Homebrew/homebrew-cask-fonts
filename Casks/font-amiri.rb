@@ -6,7 +6,7 @@ cask 'font-amiri' do
   url "https://github.com/alif-type/amiri-font/releases/download/#{version}/amiri-#{version}.zip"
   appcast 'https://github.com/alif-type/amiri/releases.atom'
   name 'Amiri'
-  homepage 'http://www.amirifont.org/'
+  homepage 'https://www.amirifont.org/'
 
   font "amiri-#{version}/amiri-bold.ttf"
   font "amiri-#{version}/amiri-boldslanted.ttf"

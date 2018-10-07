@@ -6,7 +6,7 @@ cask 'font-overpass' do
   url "https://github.com/RedHatBrand/Overpass/releases/download/#{version}/overpass-desktop-fonts.zip"
   appcast 'https://github.com/RedHatBrand/overpass/releases.atom'
   name 'Overpass'
-  homepage 'http://overpassfont.org/'
+  homepage 'https://overpassfont.org/'
 
   font 'overpass/overpass-bold-italic.otf'
   font 'overpass/overpass-bold.otf'

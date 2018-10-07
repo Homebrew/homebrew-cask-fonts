@@ -5,7 +5,7 @@ cask 'font-georgia' do
   url 'https://downloads.sourceforge.net/corefonts/georgi32.exe'
   appcast 'https://sourceforge.net/projects/corefonts/rss'
   name 'Georgia'
-  homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
+  homepage 'https://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   font 'Georgiaz.TTF'
   font 'Georgiab.TTF'

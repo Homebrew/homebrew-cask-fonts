@@ -4,7 +4,7 @@ cask 'font-verdana' do
 
   url 'https://downloads.sourceforge.net/corefonts/verdan32.exe'
   name 'Verdana'
-  homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
+  homepage 'https://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   font 'Verdana.TTF'
   font 'Verdanab.TTF'

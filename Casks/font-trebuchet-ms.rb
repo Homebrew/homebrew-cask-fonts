@@ -4,7 +4,7 @@ cask 'font-trebuchet-ms' do
 
   url 'https://downloads.sourceforge.net/corefonts/trebuc32.exe'
   name 'Trebuchet MS'
-  homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
+  homepage 'https://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   font 'trebuc.ttf'
   font 'Trebucbd.ttf'

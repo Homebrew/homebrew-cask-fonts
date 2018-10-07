@@ -6,7 +6,7 @@ cask 'font-source-code-pro' do
   url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.sub('ro-', 'ro/')}.zip"
   appcast 'https://github.com/adobe-fonts/source-code-pro/releases.atom'
   name 'Source Code Pro'
-  homepage 'http://adobe-fonts.github.io/source-code-pro/'
+  homepage 'https://adobe-fonts.github.io/source-code-pro/'
 
   font "source-code-pro-#{version}/OTF/SourceCodePro-Black.otf"
   font "source-code-pro-#{version}/OTF/SourceCodePro-BlackIt.otf"

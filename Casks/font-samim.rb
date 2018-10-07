@@ -6,7 +6,7 @@ cask 'font-samim' do
   url "https://github.com/rastikerdar/samim-font/releases/download/v#{version}/samim-font-v#{version}.zip"
   appcast 'https://github.com/rastikerdar/samim-font/releases.atom'
   name 'Samim'
-  homepage 'http://rastikerdar.github.io/samim-font'
+  homepage 'https://rastikerdar.github.io/samim-font'
 
   font 'Samim.ttf'
   font 'Samim-Bold.ttf'

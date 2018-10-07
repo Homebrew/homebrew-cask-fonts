@@ -6,7 +6,7 @@ cask 'font-lisutzimu' do
   url do
     require 'open-uri'
 
-    URI('http://www.mediafire.com/?nng3ontzxrt')
+    URI('https://www.mediafire.com/?nng3ontzxrt')
       .open
       .read
       .scan(%r{href='(http://download\d+.mediafire.com/[^/]+/nng3ontzxrt/Lisu\+Tzimu-1.0.exe)'})

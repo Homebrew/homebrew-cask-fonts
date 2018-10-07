@@ -7,7 +7,7 @@ cask 'font-inconsolata' do
       using:      :svn,
       trust_cert: true
   name 'Inconsolata'
-  homepage 'http://levien.com/type/myfonts/inconsolata.html'
+  homepage 'https://levien.com/type/myfonts/inconsolata.html'
 
   depends_on macos: '>= :sierra'
 

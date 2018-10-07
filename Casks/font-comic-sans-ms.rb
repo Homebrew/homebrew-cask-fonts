@@ -5,7 +5,7 @@ cask 'font-comic-sans-ms' do
   url 'https://downloads.sourceforge.net/corefonts/comic32.exe'
   appcast 'https://sourceforge.net/projects/corefonts/rss'
   name 'Comic Sans'
-  homepage 'http://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
+  homepage 'https://sourceforge.net/projects/corefonts/files/the%20fonts/final/'
 
   font 'Comicbd.TTF'
   font 'Comic.TTF'

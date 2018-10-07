@@ -4,7 +4,7 @@ cask 'font-envy-code-r' do
 
   url "http://download.damieng.com/fonts/original/EnvyCodeR-#{version}.zip"
   name 'Envy Code R'
-  homepage 'http://damieng.com/blog/tag/envy-code-r'
+  homepage 'https://damieng.com/blog/tag/envy-code-r'
 
   font 'Envy Code R PR7/Envy Code R Bold.ttf'
   font 'Envy Code R PR7/Envy Code R Italic.ttf'

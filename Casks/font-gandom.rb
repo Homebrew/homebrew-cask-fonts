@@ -6,7 +6,7 @@ cask 'font-gandom' do
   url "https://github.com/rastikerdar/gandom-font/releases/download/v#{version}/gandom-font-v#{version}.zip"
   appcast 'https://github.com/rastikerdar/gandom-font/releases.atom'
   name 'Gandom'
-  homepage 'http://rastikerdar.github.io/gandom-font'
+  homepage 'https://rastikerdar.github.io/gandom-font'
 
   font 'Gandom.ttf'
 end
