@@ -2,7 +2,7 @@ cask 'font-keep-calm' do
   version :latest
   sha256 :no_check
 
-  url 'http://dl.1001fonts.com/keep-calm.zip'
+  url 'https://dl.1001fonts.com/keep-calm.zip'
   name 'Keep Calm'
   homepage 'http://www.1001fonts.com/keep-calm-font.html'
 
