@@ -1,6 +1,6 @@
 cask 'font-xits' do
-  version '1.108'
-  sha256 '246c5a8a5e10b5a55a13623a04f62c7e3f4a0453e5df8c338c11ebc0ad94d8d6'
+  version '1.200'
+  sha256 '039493b95b86d15e451e818e065e6f6719977a31e43504eb6946513ba09c8a72'
 
   url "https://github.com/khaledhosny/xits/archive/v#{version}.zip"
   appcast 'https://github.com/khaledhosny/xits/releases.atom'
