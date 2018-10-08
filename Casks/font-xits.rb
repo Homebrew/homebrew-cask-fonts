@@ -10,7 +10,7 @@ cask 'font-xits' do
   font "xits-#{version}/xits-bold.otf"
   font "xits-#{version}/xits-bolditalic.otf"
   font "xits-#{version}/xits-italic.otf"
-  font "xits-#{version}/xits-math.otf"
-  font "xits-#{version}/xits-mathbold.otf"
   font "xits-#{version}/xits-regular.otf"
+  font "xits-#{version}/xitsmath-bold.otf"
+  font "xits-#{version}/xitsmath-regular.otf"
 end
