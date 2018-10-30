@@ -9,5 +9,5 @@ cask 'font-ia-writer-duospace' do
   font 'iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Bold.otf'
   font 'iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-BoldItalic.otf'
   font 'iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Regular.otf'
-  font 'iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-RegularItalic.otf'
+  font 'iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Italic.otf'
 end
