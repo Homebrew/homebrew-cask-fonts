@@ -1,6 +1,6 @@
 cask 'font-junicode' do
-  version '1.001'
-  sha256 '64128229678d0fe1ae6f2897533932011af7dfcdeeba4d1148e45a8c6e439953'
+  version '1.002'
+  sha256 'c199d96c8424be60fcab8d00d2eee39ea8ae632cfd5e710cbbd70626d6a729e7'
 
   url "https://downloads.sourceforge.net/junicode/junicode-#{version}.zip"
   appcast 'https://sourceforge.net/projects/junicode/rss'
