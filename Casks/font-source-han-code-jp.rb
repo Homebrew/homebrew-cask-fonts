@@ -1,6 +1,6 @@
 cask 'font-source-han-code-jp' do
-  version '2.000'
-  sha256 '44fd60c59052d0a10d1b48ab1f340ae96e28d363c164993525b515085d13d5ba'
+  version '2.011'
+  sha256 '0f98beb0a381d9d19067f9b58f65d2dd65c808a3012ac9cb9866e575ad6d2e7f'
 
   url "https://github.com/adobe-fonts/source-han-code-jp/archive/#{version}R.zip"
   name 'Source Han Code JP'
