@@ -7,5 +7,5 @@ cask 'font-aclonica' do
   name 'Aclonica'
   homepage 'https://www.google.com/fonts/specimen/Aclonica'
 
-  font 'Aclonica.ttf'
+  font 'Aclonica-Regular.ttf'
 end
