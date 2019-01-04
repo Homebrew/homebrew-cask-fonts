@@ -8,6 +8,6 @@ cask 'font-parastoo' do
   name 'Parastoo'
   homepage 'https://rastikerdar.github.io/parastoo-font'
 
-  font 'Parastoo.ttf'
-  font 'Parastoo-Bold.ttf'
+  font 'web/Parastoo.ttf'
+  font 'web/Parastoo-Bold.ttf'
 end
