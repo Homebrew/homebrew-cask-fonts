@@ -7,5 +7,6 @@ cask 'font-red-october' do
   homepage 'https://www.dafont.com/red-october.font'
 
   font 'Red October-Fat.ttf'
-  font 'Red October-Regular.ttf'
+  font 'Red October-Light.ttf'
+  font 'Red October.ttf'
 end
