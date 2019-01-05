@@ -2,7 +2,7 @@ cask 'font-yiddishkeit' do
   version :latest
   sha256 :no_check
 
-  url 'https://alefalefalef.co.il/wp-content/themes/aaa/fonts/free/YiddishkeitAlefAlefAlef-Bold.zip'
+  url 'https://alefalefalef.co.il/wp-content/fonts/free/YiddishkeitAlefAlefAlef-Bold.zip'
   name 'Yiddishkeit'
   homepage 'https://alefalefalef.co.il/resources/פונטים-בחינם/'
 
