@@ -7,7 +7,5 @@ cask 'font-source-han-serif' do
   name 'Source Han Serif'
   homepage 'https://github.com/adobe-fonts/source-han-serif'
 
-  depends_on macos: '>= :mountain_lion'
-
   font 'SourceHanSerif.ttc'
 end
