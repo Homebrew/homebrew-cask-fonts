@@ -1,6 +1,6 @@
 cask 'font-im-fell-types' do
-  version '3.00'
-  sha256 'b65189a8c165dafa5ba979092ebe967e0ad86a4d584b203eee40e16d010f5308'
+  version :latest
+  sha256 :no_check
 
   url 'https://iginomarini.com/fell/wp-content/uploads/IMFellTypesClass.zip'
   name 'IM Fell Types'
