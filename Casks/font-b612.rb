@@ -2,9 +2,10 @@ cask 'font-b612' do
   version :latest
   sha256 :no_check
 
+  # git.polarsys.org/c/b612/b612.git was verified as official when first introduced to the cask
   url 'https://git.polarsys.org/c/b612/b612.git/snapshot/b612-master.zip'
   name 'B612'
-  homepage 'http://b612-font.com'
+  homepage 'http://b612-font.com/'
 
   font 'b612-master/TTF/B612-Bold.ttf'
   font 'b612-master/TTF/B612-BoldItalic.ttf'
