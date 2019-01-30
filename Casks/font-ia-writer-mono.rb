@@ -3,7 +3,7 @@ cask 'font-ia-writer-mono' do
   sha256 :no_check
 
   url 'https://codeload.github.com/iaolo/iA-Fonts/zip/master'
-  name 'iA Writer Duospace'
+  name 'iA Writer Mono'
   homepage 'https://github.com/iaolo/iA-Fonts'
 
   font 'iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-Bold.ttf'
