@@ -2,18 +2,18 @@ cask 'font-asap' do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/asap',
-      using:      :svn,
-      revision:   '50',
-      trust_cert: true
+  url 'https://www.omnibus-type.com/wp-content/uploads/Asap.zip'
   name 'Asap'
-  homepage 'https://www.google.com/fonts/specimen/Asap'
+  homepage 'https://www.omnibus-type.com/fonts/asap/'
 
   depends_on macos: '>= :sierra'
 
-  font 'Asap-Bold.ttf'
-  font 'Asap-BoldItalic.ttf'
-  font 'Asap-Italic.ttf'
-  font 'Asap-Regular.ttf'
+  font 'Asap/Asap-Bold.ttf'
+  font 'Asap/Asap-BoldItalic.ttf'
+  font 'Asap/Asap-Italic.ttf'
+  font 'Asap/Asap-Medium.ttf'
+  font 'Asap/Asap-MediumItalic.ttf'
+  font 'Asap/Asap-Regular.ttf'
+  font 'Asap/Asap-SemiBold.ttf'
+  font 'Asap/Asap-SemiBoldItalic.ttf'
 end
