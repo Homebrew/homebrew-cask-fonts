@@ -12,8 +12,12 @@ cask 'font-inter' do
   font 'Inter (OTF)/Inter-BlackItalic.otf'
   font 'Inter (OTF)/Inter-Bold.otf'
   font 'Inter (OTF)/Inter-BoldItalic.otf'
+  font 'Inter (OTF)/Inter-ExtraBold.otf'
+  font 'Inter (OTF)/Inter-ExtraBoldItalic.otf'
   font 'Inter (OTF)/Inter-Italic.otf'
   font 'Inter (OTF)/Inter-Medium.otf'
   font 'Inter (OTF)/Inter-MediumItalic.otf'
   font 'Inter (OTF)/Inter-Regular.otf'
+  font 'Inter (OTF)/Inter-SemiBold.otf'
+  font 'Inter (OTF)/Inter-SemiBoldItalic.otf'
 end
