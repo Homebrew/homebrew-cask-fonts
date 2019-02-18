@@ -1,12 +1,20 @@
 cask 'font-ibm-plex' do
-  version '1.1.6'
-  sha256 'f9514ba1cecb0a862296ce7f7c9d754e7b40fb64b55af66cf2e80b0c1bb3c596'
+  version '1.2.3'
+  sha256 '223720801bbc9247c3a8ec11a1c63466bcdce90e8337aef94cc930e2374bdbba'
 
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
   appcast 'https://github.com/IBM/plex/releases.atom'
   name 'IBM Plex'
   homepage 'https://github.com/IBM/plex'
 
+  font 'OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Bold.otf'
+  font 'OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-ExtraLight.otf'
+  font 'OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Light.otf'
+  font 'OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Medium.otf'
+  font 'OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Regular.otf'
+  font 'OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-SemiBold.otf'
+  font 'OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Text.otf'
+  font 'OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Thin.otf'
   font 'OpenType/IBM-Plex-Mono/IBMPlexMono-Bold.otf'
   font 'OpenType/IBM-Plex-Mono/IBMPlexMono-BoldItalic.otf'
   font 'OpenType/IBM-Plex-Mono/IBMPlexMono-ExtraLight.otf'
@@ -79,4 +87,12 @@ cask 'font-ibm-plex' do
   font 'OpenType/IBM-Plex-Serif/IBMPlexSerif-TextItalic.otf'
   font 'OpenType/IBM-Plex-Serif/IBMPlexSerif-Thin.otf'
   font 'OpenType/IBM-Plex-Serif/IBMPlexSerif-ThinItalic.otf'
+  font 'OpenType/IBM-Plex-Thai/IBMPlexThai-Bold.otf'
+  font 'OpenType/IBM-Plex-Thai/IBMPlexThai-ExtraLight.otf'
+  font 'OpenType/IBM-Plex-Thai/IBMPlexThai-Light.otf'
+  font 'OpenType/IBM-Plex-Thai/IBMPlexThai-Medium.otf'
+  font 'OpenType/IBM-Plex-Thai/IBMPlexThai-Regular.otf'
+  font 'OpenType/IBM-Plex-Thai/IBMPlexThai-SemiBold.otf'
+  font 'OpenType/IBM-Plex-Thai/IBMPlexThai-Text.otf'
+  font 'OpenType/IBM-Plex-Thai/IBMPlexThai-Thin.otf'
 end
