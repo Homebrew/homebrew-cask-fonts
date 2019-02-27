@@ -54,7 +54,7 @@ The string which follows the `font` field is a relative path to the font file wi
 For OTF and TTF fonts, the easiest way to create a cask is to run the `font_casker` script on their containing archive.
 
 ```bash
-"$(brew --repository)/Library/Taps/Homebrew/homebrew-cask-fonts/developer/bin/font_casker" font_archive.zip
+"$(brew --repository)/Library/Taps/homebrew/homebrew-cask-fonts/developer/bin/font_casker" font_archive.zip
 ```
 
 `font_casker` produces a preformatted cask including the values of `version`, `sha256`, and all `font` stanzas, and writes it to stdout.
