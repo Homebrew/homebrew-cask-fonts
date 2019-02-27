@@ -4,7 +4,7 @@ cask 'font-mplus-1mn-nerd-mono' do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/MPlus.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
-  name 'mplus Nerd Font Mono'
+  name 'M+ Nerd Font Mono'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
   font 'M+ 1mn bold Nerd Font Complete Mono.ttf'
