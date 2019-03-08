@@ -1,6 +1,6 @@
 cask 'font-ricty-diminished' do
-  version '4.0.1'
-  sha256 'b32ba2877651df31914797cc4938b98d726d4777ecb2064c9dbbb620efcff24f'
+  version '4.1.1'
+  sha256 '09d6cf8eaf3402205dd8a0fa35469d41833b4e85bedddfac235255d78747766b'
 
   url "https://www.rs.tus.ac.jp/yyusa/ricty_diminished/ricty_diminished-#{version}.tar.gz"
   name 'Ricty Diminished'
