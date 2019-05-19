@@ -4,7 +4,7 @@ cask 'font-meltho' do
 
   url "https://bethmardutho.org/wp-content/uploads/#{version.after_comma.major}/#{version.after_comma.minor}/melthofonts-1.zip"
   name 'Meltho Fonts'
-  homepage 'http://bethmardutho.org/syriacmac/'
+  homepage 'https://bethmardutho.org/syriacmac/'
 
   font "melthofonts-1/melthofonts-#{version.before_comma}/SyrCOMAdiabene.otf"
   font "melthofonts-1/melthofonts-#{version.before_comma}/SyrCOMAntioch.otf"

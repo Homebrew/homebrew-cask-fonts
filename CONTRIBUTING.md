@@ -10,15 +10,15 @@ See [CONTRIBUTING.md](https://github.com/Homebrew/homebrew-cask/blob/master/CONT
 
 Making a Font Cask is easy: a Cask is a small Ruby file.
 
-Here’s a Cask for the font [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) as an example:
+Here’s a Cask for the font [Inconsolata](https://levien.com/type/myfonts/inconsolata.html) as an example:
 ```ruby
 cask 'font-inconsolata' do
   version :latest
   sha256 :no_check
 
-  url 'http://levien.com/type/myfonts/Inconsolata.otf'
+  url 'https://levien.com/type/myfonts/Inconsolata.otf'
   name 'Inconsolata'
-  homepage 'http://levien.com/type/myfonts/inconsolata.html'
+  homepage 'https://levien.com/type/myfonts/inconsolata.html'
 
   font 'Inconsolata.otf'
 end

@@ -5,7 +5,7 @@ cask 'font-hanamina' do
   # dl.osdn.jp/hanazono-font was verified as official when first introduced to the cask
   url "http://dl.osdn.jp/hanazono-font/#{version.after_comma}/hanazono-#{version.before_comma.no_dots}.zip"
   name 'HanaMinA'
-  homepage 'http://fonts.jp/hanazono/'
+  homepage 'https://fonts.jp/hanazono/'
 
   font 'HanaMinA.ttf'
   font 'HanaMinB.ttf'
