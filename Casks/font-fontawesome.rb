@@ -6,7 +6,7 @@ cask 'font-fontawesome' do
   url "https://github.com/FortAwesome/Font-Awesome/releases/download/#{version}/fontawesome-free-#{version}-desktop.zip"
   appcast 'https://github.com/FortAwesome/Font-Awesome/releases.atom'
   name 'Font Awesome'
-  homepage 'http://fontawesome.io/'
+  homepage 'https://fontawesome.com/'
 
   font "fontawesome-free-#{version}-desktop/otfs/Font Awesome #{version.major} Brands-Regular-400.otf"
   font "fontawesome-free-#{version}-desktop/otfs/Font Awesome #{version.major} Free-Regular-400.otf"
