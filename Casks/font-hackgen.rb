@@ -7,7 +7,6 @@ cask 'font-hackgen' do
   name 'HackGen'
   homepage 'https://qiita.com/tawara_/items/374f3ca0a386fab8b305'
 
-  font 'ttf/Hack-Regular.ttf'
   font 'HackGen-Bold.ttf'
   font 'HackGen-Regular.ttf'
   font 'HackGen53-Bold.ttf'
