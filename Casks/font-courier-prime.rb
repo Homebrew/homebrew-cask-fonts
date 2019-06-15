@@ -2,7 +2,7 @@ cask 'font-courier-prime' do
   version :latest
   sha256 :no_check
 
-  url 'https://quoteunquoteapps.com/downloads/courier-prime.zip'
+  url 'https://quoteunquoteapps.com/courierprime/downloads/courier-prime.zip'
   name 'Courier Prime'
   homepage 'https://quoteunquoteapps.com/courierprime/'
 
