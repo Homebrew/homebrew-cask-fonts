@@ -1,6 +1,6 @@
 cask 'font-libertinus' do
-  version '6.9'
-  sha256 '37c78bacc7c836632d60d11ea221220e44d5e1b169d3f8f8351edbeb36132a94'
+  version '6.10'
+  sha256 'b6126a98d8b0729fc64433f4e9d5344f76b9c1ea5b2e79c6ead31cd0cc77761c'
 
   url "https://github.com/alif-type/libertinus/archive/v#{version}.tar.gz"
   appcast 'https://github.com/alif-type/libertinus/releases.atom'
