@@ -1,6 +1,6 @@
 cask 'font-fira-code' do
-  version '1.206'
-  sha256 '433e9e059e53ae1e94c674819b73e49d65bd76e3c6ec70f42d2324062ea3210b'
+  version '1.207'
+  sha256 'ba8d1a9ff3ad1bce7decc48db7a1e95c6116959cc5b9b80dc307b615eec3dfee'
 
   url "https://github.com/tonsky/FiraCode/releases/download/#{version}/FiraCode_#{version}.zip"
   appcast 'https://github.com/tonsky/FiraCode/releases.atom'
