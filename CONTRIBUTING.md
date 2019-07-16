@@ -67,7 +67,7 @@ We try to maintain a consistent naming policy so everything stays clean and pred
 
 ### Start From the Font’s Canonical Name
 
-The canonical font name is the font family name as returned by the command `fc-query --format=’%{family}’`.
+The canonical font name is the font family name as returned by the command `fc-query --format='%{family}' {{font_file}}`.
 
 If there is more than one family in the distribution, use your judgment to choose the “most famous” one. If there is more than one style, choose the “Regular” variant.
 
