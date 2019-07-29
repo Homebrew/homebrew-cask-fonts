@@ -1,6 +1,6 @@
 cask 'font-redhat' do
-  version '2.2.0'
-  sha256 '5c1bb9cc53343b892bd5cfa32ba6ed1d3bf61c297ec43f326a0680887b2d8d5c'
+  version '2.3.1'
+  sha256 'acd4f9a81368e228c9fd24b0d0f98f0bcc5fbe836c7bef78c685c31b749ed7f4'
 
   url "https://github.com/RedHatOfficial/RedHatFont/archive/#{version}.tar.gz"
   appcast 'https://github.com/RedHatOfficial/RedHatFont/releases.atom'
