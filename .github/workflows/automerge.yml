@@ -1,7 +1,6 @@
-name: automerge
+name: Scheduled automerge.
 
 on:
-  status:
   schedule:
     - cron: '*/15 * * * *'
 
