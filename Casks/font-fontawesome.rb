@@ -1,6 +1,6 @@
 cask 'font-fontawesome' do
-  version '5.9.0'
-  sha256 '8ec9355ee65736e02ec75574e4d5dc5119506ca9cb287d6e5747366d75cdf7be'
+  version '5.10.1'
+  sha256 '82a706af092a8c494f2ef516966993fb2721acd1995304907f41a356d701e8ba'
 
   # github.com/FortAwesome/Font-Awesome was verified as official when first introduced to the cask
   url "https://github.com/FortAwesome/Font-Awesome/releases/download/#{version}/fontawesome-free-#{version}-desktop.zip"
