@@ -2,7 +2,7 @@ cask 'font-lato' do
   version :latest
   sha256 :no_check
 
-  url 'https://www.latofonts.com/download/Lato2OFL.zip'
+  url 'https://www.latofonts.com/files/Lato2OFL.zip'
   name 'Lato'
   homepage 'https://www.latofonts.com/'
 
