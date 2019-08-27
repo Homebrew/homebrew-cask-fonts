@@ -5,7 +5,7 @@ cask 'font-sudo' do
   url 'https://github.com/jenskutilek/sudo-font/releases/download/v0.39/sudo.zip'
   appcast 'https://github.com/jenskutilek/sudo-font/releases.atom'
   name 'Sudo'
-  homepage 'https://www.kutilek.de/sudo-font/'
+  homepage 'https://github.com/jenskutilek/sudo-font/'
 
   font 'sudo/Sudo-Bold.ttf'
   font 'sudo/Sudo-BoldItalic.ttf'
