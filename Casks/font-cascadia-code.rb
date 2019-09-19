@@ -1,8 +1,8 @@
 cask 'font-cascadia-code' do
-  version '1909.16'
+  version :latest
   sha256 :no_check
 
-  url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/Cascadia.ttf"
+  url "https://github.com/microsoft/cascadia-code/releases/latest/download/Cascadia.ttf"
   appcast 'https://github.com/microsoft/cascadia-code/releases.atom'
   name 'Cascadia Code'
   homepage 'https://github.com/microsoft/cascadia-code'
