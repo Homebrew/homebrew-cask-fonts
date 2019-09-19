@@ -8,3 +8,4 @@ cask 'font-cascadia-code' do
 
   font 'Cascadia.ttf'
 end
+
