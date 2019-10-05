@@ -14,7 +14,7 @@ cask 'font-sarasa-gothic' do
   font 'sarasa-italic.ttc'
   font 'sarasa-light.ttc'
   font 'sarasa-lightitalic.ttc'
-  font 'sarasa-medium.ttc'
-  font 'sarasa-mediumitalic.ttc'
   font 'sarasa-regular.ttc'
+  font 'sarasa-semibold.ttc'
+  font 'sarasa-semibolditalic.ttc'
 end
