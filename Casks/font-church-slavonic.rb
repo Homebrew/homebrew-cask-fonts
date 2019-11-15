@@ -13,9 +13,7 @@ cask 'font-church-slavonic' do
   font 'MenaionUnicode.otf'
   font 'MonomakhUnicode.otf'
   font 'OglavieUnicode.otf'
-  font 'PochaevskUnicode.otf'
   font 'PomorskyUnicode.otf'
   font 'PonomarUnicode.otf'
-  font 'TriodionUnicode.otf'
   font 'VertogradUnicode.otf'
 end
