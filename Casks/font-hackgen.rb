@@ -1,6 +1,6 @@
 cask 'font-hackgen' do
-  version '1.3.0'
-  sha256 '3ba1b8447018c37e42b3cb153471cc813e9b9fc72d5a2d9518ca61b8d446a655'
+  version '1.4.0'
+  sha256 'c21de5388fa94c7d2dbd16111524fa871dd0f2a3908941fb2200154cab48972e'
 
   url "https://github.com/yuru7/HackGen/releases/download/v#{version}/HackGen_v#{version}.zip"
   appcast 'https://github.com/yuru7/HackGen/releases.atom'
