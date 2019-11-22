@@ -1,6 +1,6 @@
 cask 'font-cascadia' do
-  version '1910.04'
-  sha256 '044f2d1e854f976d0f9a639304d827718aa2b943707873bfff17575dda8f0551'
+  version '1911.20'
+  sha256 '2def0097704c114c07e346a91876e5447e8f930c3ad1606e102a8299541b8842'
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/Cascadia.ttf"
   appcast 'https://github.com/microsoft/cascadia-code/releases.atom'
