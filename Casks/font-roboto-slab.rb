@@ -11,8 +11,8 @@ cask 'font-roboto-slab' do
 
   depends_on macos: '>= :sierra'
 
-  font 'RobotoSlab-Bold.ttf'
-  font 'RobotoSlab-Light.ttf'
-  font 'RobotoSlab-Regular.ttf'
-  font 'RobotoSlab-Thin.ttf'
+  font 'static/RobotoSlab-Bold.ttf'
+  font 'static/RobotoSlab-Light.ttf'
+  font 'static/RobotoSlab-Regular.ttf'
+  font 'static/RobotoSlab-Thin.ttf'
 end
