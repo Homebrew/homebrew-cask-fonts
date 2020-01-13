@@ -1,6 +1,6 @@
 cask 'font-sudo' do
-  version '0.40'
-  sha256 'bd85aab2e8e9f0a903bd891fd4294e836cda6180ad926506f4907d1517d714b9'
+  version '0.41'
+  sha256 'ca1c89691a5ee96cbd0c4b0df911109b3230177efb9f1c6d6763014ed0ffdcaf'
 
   url "https://github.com/jenskutilek/sudo-font/releases/download/v#{version}/sudo.zip"
   appcast 'https://github.com/jenskutilek/sudo-font/releases.atom'
