@@ -6,5 +6,5 @@ cask 'font-jetbrains-mono-powerline' do
   name 'JetBrains Mono for Powerline'
   homepage 'https://github.com/seanghay/JetBrainsMono-Powerline'
 
-  font 'JetBrainsMono-Powerline-master/JetBrains Mono Regular for Powerline.ttf'
+  font "JetBrainsMono-Powerline-#{version}/JetBrains Mono Regular for Powerline.ttf"
 end
