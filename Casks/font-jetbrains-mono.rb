@@ -3,7 +3,7 @@ cask 'font-jetbrains-mono' do
   sha256 '59f9b9762d5625eb438eedf034dbbcdcf09ed18ded994540b466872840229762'
 
   # github.com/JetBrains/JetBrainsMono was verified as official when first introduced to the cask
-  url "https://github.com/JetBrains/JetBrainsMono/releases/download/#{version}/JetBrainsMono-#{version}.zip"
+  url "https://github.com/JetBrains/JetBrainsMono/releases/download/v#{version}/JetBrainsMono-#{version}.zip"
   appcast 'https://github.com/JetBrains/JetBrainsMono/releases.atom'
   name 'JetBrains Mono'
   homepage 'https://www.jetbrains.com/lp/mono'
