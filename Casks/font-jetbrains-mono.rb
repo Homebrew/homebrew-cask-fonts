@@ -8,12 +8,12 @@ cask 'font-jetbrains-mono' do
   name 'JetBrains Mono'
   homepage 'https://www.jetbrains.com/lp/mono'
 
-  font 'JetBrainsMono-1.0.2/ttf/JetBrainsMono-Bold-Italic.ttf'
-  font 'JetBrainsMono-1.0.2/ttf/JetBrainsMono-Bold.ttf'
-  font 'JetBrainsMono-1.0.2/ttf/JetBrainsMono-ExtraBold-Italic.ttf'
-  font 'JetBrainsMono-1.0.2/ttf/JetBrainsMono-ExtraBold.ttf'
-  font 'JetBrainsMono-1.0.2/ttf/JetBrainsMono-Italic.ttf'
-  font 'JetBrainsMono-1.0.2/ttf/JetBrainsMono-Medium-Italic.ttf'
-  font 'JetBrainsMono-1.0.2/ttf/JetBrainsMono-Medium.ttf'
-  font 'JetBrainsMono-1.0.2/ttf/JetBrainsMono-Regular.ttf'
+  font "JetBrainsMono-#{version}/ttf/JetBrainsMono-Bold-Italic.ttf"
+  font "JetBrainsMono-#{version}/ttf/JetBrainsMono-Bold.ttf"
+  font "JetBrainsMono-#{version}/ttf/JetBrainsMono-ExtraBold-Italic.ttf"
+  font "JetBrainsMono-#{version}/ttf/JetBrainsMono-ExtraBold.ttf"
+  font "JetBrainsMono-#{version}/ttf/JetBrainsMono-Italic.ttf"
+  font "JetBrainsMono-#{version}/ttf/JetBrainsMono-Medium-Italic.ttf"
+  font "JetBrainsMono-#{version}/ttf/JetBrainsMono-Medium.ttf"
+  font "JetBrainsMono-#{version}/ttf/JetBrainsMono-Regular.ttf"
 end
