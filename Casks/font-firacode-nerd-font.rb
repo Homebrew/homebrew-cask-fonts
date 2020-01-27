@@ -1,15 +1,16 @@
 cask 'font-firacode-nerd-font' do
-  version '2.0.0'
-  sha256 '09894d24bf3d61493dba052187a9200497135a4b885cb837bcb637ad2e62070f'
+  version :latest
+  sha256 :no_check
 
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraCode.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
-  name 'FuraCode Nerd Font (FiraCode)'
-  homepage 'https://github.com/ryanoasis/nerd-fonts'
+  url 'https://github.com/ryanoasis/nerd-fonts/trunk/patched-fonts/FiraCode',
+      using:      :svn,
+      trust_cert: true
+  name 'FiraCode Nerd Font (FiraCode)'
+  homepage 'https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode'
 
-  font 'Fura Code Bold Nerd Font Complete.otf'
-  font 'Fura Code Medium Nerd Font Complete.otf'
-  font 'Fura Code Retina Nerd Font Complete.otf'
-  font 'Fura Code Regular Nerd Font Complete.otf'
-  font 'Fura Code Light Nerd Font Complete.otf'
+  font 'Bold/complete/Fira Code Bold Nerd Font Complete.otf'
+  font 'Light/complete/Fira Code Light Nerd Font Complete.otf'
+  font 'Medium/complete/Fira Code Medium Nerd Font Complete.otf'
+  font 'Regular/complete/Fira Code Regular Nerd Font Complete.otf'
+  font 'Retina/complete/Fira Code Retina Nerd Font Complete.otf'
 end
