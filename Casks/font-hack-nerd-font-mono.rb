@@ -1,6 +1,6 @@
 cask 'font-hack-nerd-font-mono' do
-  version '2.0.0'
-  sha256 'd1147483fd0310fa6bfce6799f47654e3f435010fdc709877b15a23f090ed41c'
+  version '2.1.0'
+  sha256 '70852e59fcffbe31d401f615625bcb9ebb6af72732c2f1fe9b9d5370c2565514'
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hack.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
