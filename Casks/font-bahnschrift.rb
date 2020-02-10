@@ -1,4 +1,4 @@
-cask fon-bahnschrift do
+cask 'font-bahnschrift' do
   version '1.00'
   sha256 'feca741ad5c3a8e27aacc25a083c3e0746d8f00473f329a8c83f3600bdc2bf7e'
 
