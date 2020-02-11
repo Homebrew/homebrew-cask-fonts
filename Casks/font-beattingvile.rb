@@ -5,7 +5,7 @@ cask 'font-beattingvile' do
   # freetypography.com was verified as official when first introduced to the cask
   url 'https://freetypography.com/freetypo/Beattingvile.zip'
   name 'Beattingvile'
-  homepage 'https://www.behance.net/rismanginarwan'
+  homepage 'https://garisman.com/'
 
   font 'Beattingvile.otf'
 end
