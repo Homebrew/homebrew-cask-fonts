@@ -1,6 +1,6 @@
 cask 'font-metropolis' do
-  version '9'
-  sha256 'ddc8cd6b0f24b7f1cefb7d2819a1ddf7340c4868eba7df17b5fe4123081169ad'
+  version '11'
+  sha256 'a9efb018df3fae5d39fcd3d05418bce35c4f88ecbf9c3eb54ffff7dbfdf79466'
 
   url "https://github.com/chrismsimpson/Metropolis/archive/r#{version}.zip"
   appcast 'https://github.com/chrismsimpson/Metropolis/releases.atom'
