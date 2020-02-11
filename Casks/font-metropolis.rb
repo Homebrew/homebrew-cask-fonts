@@ -24,5 +24,5 @@ cask 'font-metropolis' do
   font "Metropolis-r#{version}/Fonts/OpenType/Metropolis-SemiBold.otf"
   font "Metropolis-r#{version}/Fonts/OpenType/Metropolis-SemiBoldItalic.otf"
   font "Metropolis-r#{version}/Fonts/OpenType/Metropolis-Thin.otf"
-  font "Metropolis-r#{version}/Fonts/OpenTyfpe/Metropolis-ThinItalic.otf"
+  font "Metropolis-r#{version}/Fonts/OpenType/Metropolis-ThinItalic.otf"
 end
