@@ -2,7 +2,7 @@ cask 'font-eeyek-unicode' do
   version :latest
   sha256 :no_check
 
-  url 'http://tabish.freeshell.org/eeyek/eeyek.zip'
+  url 'http://tabish.freeshell.org/eeyek/eeyek-ofl.zip'
   name 'Eeyek Unicode'
   homepage 'http://tabish.freeshell.org/eeyek/download.html'
 
