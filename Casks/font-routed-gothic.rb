@@ -2,7 +2,7 @@ cask 'font-routed-gothic' do
   version '1.0.0'
   sha256 '3ecffba109bf2619057815411253e5c6f47f82fedba38ade6c951e13a8b2ad5e'
 
-  url 'https://webonastick.com/fonts/routed-gothic/download/routed-gothic-ttf-v1.0.0.zip'
+  url "https://webonastick.com/fonts/routed-gothic/download/routed-gothic-ttf-v#{version}.zip"
   name 'Routed Gothic'
   homepage 'https://webonastick.com/fonts/routed-gothic/'
 
