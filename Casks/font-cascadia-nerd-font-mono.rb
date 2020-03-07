@@ -4,7 +4,7 @@ cask 'font-cascadia-nerd-font-mono' do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaCode.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
-  name 'Caskaydia Cove Nerd Font (CascadiaCode)'
+  name 'Caskaydia Cove Nerd Font Mono (CascadiaCode)'
   homepage 'https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode'
 
   font 'Caskaydia Cove Nerd Font Complete Mono.ttf'
