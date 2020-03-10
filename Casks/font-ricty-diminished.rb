@@ -2,10 +2,10 @@ cask 'font-ricty-diminished' do
   version '4.1.1'
   sha256 '09d6cf8eaf3402205dd8a0fa35469d41833b4e85bedddfac235255d78747766b'
 
-  url "http://www.yusa.lab.uec.ac.jp/~yusa/ricty_diminished/ricty_diminished-#{version}.tar.gz"
-  appcast 'http://www.yusa.lab.uec.ac.jp/~yusa/ricty_diminished.html'
+  url "https://rictyfonts.github.io/files/ricty_diminished-#{version}.tar.gz"
+  appcast 'https://rictyfonts.github.io/diminished'
   name 'Ricty Diminished'
-  homepage 'http://www.yusa.lab.uec.ac.jp/~yusa/ricty_diminished.html'
+  homepage 'https://rictyfonts.github.io/diminished'
 
   font 'RictyDiminished-Bold.ttf'
   font 'RictyDiminished-BoldOblique.ttf'
