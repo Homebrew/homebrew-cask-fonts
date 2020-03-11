@@ -1,6 +1,6 @@
 cask 'font-jetbrains-mono' do
-  version '1.0.3'
-  sha256 'e357094992c4aff1e933354db198c6ffe2ee741bc4f3d9c071956c9e05b871ed'
+  version '1.0.4'
+  sha256 '737acc16715dbf911e833dd80fa27c49b2264c11800b0202f91b8745afa34a04'
 
   # github.com/JetBrains/JetBrainsMono was verified as official when first introduced to the cask
   url "https://github.com/JetBrains/JetBrainsMono/releases/download/v#{version}/JetBrainsMono-#{version}.zip"
