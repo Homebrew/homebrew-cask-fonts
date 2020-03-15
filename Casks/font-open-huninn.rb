@@ -4,7 +4,6 @@ cask 'font-open-huninn' do
 
   # codeload.github.com/justfont/open-huninn-font was verified as official when first introduced to the cask
   url 'https://codeload.github.com/justfont/open-huninn-font/zip/master'
-
   name 'jf-openhuninn-1.0'
   homepage 'https://justfont.com/huninn/'
 
