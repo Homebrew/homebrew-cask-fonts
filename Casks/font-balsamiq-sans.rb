@@ -1,4 +1,4 @@
-cask 'font-balsamiqsans' do
+cask 'font-balsamiq-sans' do
   version :latest
   sha256 :no_check
 
