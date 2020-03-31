@@ -1,4 +1,4 @@
-cask 'font-mplus-1mn-nerd-mono' do
+cask 'font-mplus-1mn-nerd-font-mono' do
   version '2.0.0'
   sha256 'dc3aa81b0274d5feb36e86c68c79e25c44cbafee1b1a10dcc01acedb45a0403e'
 
