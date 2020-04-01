@@ -3,22 +3,20 @@ cask 'font-roboto-mono' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/apache/robotomono',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Roboto Mono'
   homepage 'https://www.google.com/fonts/specimen/Roboto%20Mono'
 
   depends_on macos: '>= :sierra'
 
-  font 'RobotoMono-Bold.ttf'
-  font 'RobotoMono-BoldItalic.ttf'
-  font 'RobotoMono-Italic.ttf'
-  font 'RobotoMono-Light.ttf'
-  font 'RobotoMono-LightItalic.ttf'
-  font 'RobotoMono-Medium.ttf'
-  font 'RobotoMono-MediumItalic.ttf'
-  font 'RobotoMono-Regular.ttf'
-  font 'RobotoMono-Thin.ttf'
-  font 'RobotoMono-ThinItalic.ttf'
+  font 'apache/robotomono/RobotoMono-Bold.ttf'
+  font 'apache/robotomono/RobotoMono-BoldItalic.ttf'
+  font 'apache/robotomono/RobotoMono-Italic.ttf'
+  font 'apache/robotomono/RobotoMono-Light.ttf'
+  font 'apache/robotomono/RobotoMono-LightItalic.ttf'
+  font 'apache/robotomono/RobotoMono-Medium.ttf'
+  font 'apache/robotomono/RobotoMono-MediumItalic.ttf'
+  font 'apache/robotomono/RobotoMono-Regular.ttf'
+  font 'apache/robotomono/RobotoMono-Thin.ttf'
+  font 'apache/robotomono/RobotoMono-ThinItalic.ttf'
 end
