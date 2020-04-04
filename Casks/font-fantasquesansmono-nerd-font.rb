@@ -4,11 +4,15 @@ cask 'font-fantasquesansmono-nerd-font' do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FantasqueSansMono.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
-  name 'FantasqueSansMono Nerd Font (FantasqueSansMono)'
+  name 'FantasqueSansMono Nerd Font (Fantasque Sans Mono)'
   homepage 'https://github.com/ryanoasis/nerd-fonts'
 
+  font 'Fantasque Sans Mono Bold Nerd Font Complete Mono.ttf'
   font 'Fantasque Sans Mono Bold Nerd Font Complete.ttf'
+  font 'Fantasque Sans Mono Bold Italic Nerd Font Complete Mono.ttf'
   font 'Fantasque Sans Mono Bold Italic Nerd Font Complete.ttf'
+  font 'Fantasque Sans Mono Regular Nerd Font Complete Mono.ttf'
   font 'Fantasque Sans Mono Regular Nerd Font Complete.ttf'
+  font 'Fantasque Sans Mono Italic Nerd Font Complete Mono.ttf'
   font 'Fantasque Sans Mono Italic Nerd Font Complete.ttf'
 end
