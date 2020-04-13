@@ -4,7 +4,7 @@ cask 'font-firacode-nerd-font' do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraCode.zip"
   appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
-  name 'FiraCode Nerd Font (FiraCode)'
+  name 'FiraCode Nerd Font (Fira Code)'
   homepage 'https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode'
 
   font 'Fira Code Bold Nerd Font Complete.otf'
@@ -12,4 +12,9 @@ cask 'font-firacode-nerd-font' do
   font 'Fira Code Retina Nerd Font Complete.otf'
   font 'Fira Code Regular Nerd Font Complete.otf'
   font 'Fira Code Light Nerd Font Complete.otf'
+  font 'Fira Code Bold Nerd Font Complete Mono.otf'
+  font 'Fira Code Medium Nerd Font Complete Mono.otf'
+  font 'Fira Code Retina Nerd Font Complete Mono.otf'
+  font 'Fira Code Regular Nerd Font Complete Mono.otf'
+  font 'Fira Code Light Nerd Font Complete Mono.otf'
 end
