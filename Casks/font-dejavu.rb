@@ -1,4 +1,4 @@
-cask 'font-dejavu-sans' do
+cask 'font-dejavu' do
   version '2.37'
   sha256 '7576310b219e04159d35ff61dd4a4ec4cdba4f35c00e002a136f00e96a908b0a'
 
