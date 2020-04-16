@@ -11,6 +11,5 @@ cask 'font-inconsolata' do
 
   depends_on macos: '>= :sierra'
 
-  font 'Inconsolata-Regular.ttf'
-  font 'Inconsolata-Bold.ttf'
+  font 'Inconsolata[wdth,wght].ttf'
 end
