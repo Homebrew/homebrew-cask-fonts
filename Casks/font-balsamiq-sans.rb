@@ -7,8 +7,8 @@ cask 'font-balsamiq-sans' do
   name 'Balsamiq Sans'
   homepage 'https://balsamiq.com/givingback/opensource/font/'
 
-  font 'balsamiqsans-master/fonts/ttf/BalsamiqSansBold.ttf'
-  font 'balsamiqsans-master/fonts/ttf/BalsamiqSansBoldItalic.ttf'
-  font 'balsamiqsans-master/fonts/ttf/BalsamiqSansItalic.ttf'
-  font 'balsamiqsans-master/fonts/ttf/BalsamiqSansRegular.ttf'
+  font 'balsamiqsans-master/fonts/ttf/BalsamiqSans-Bold.ttf'
+  font 'balsamiqsans-master/fonts/ttf/BalsamiqSans-BoldItalic.ttf'
+  font 'balsamiqsans-master/fonts/ttf/BalsamiqSans-Italic.ttf'
+  font 'balsamiqsans-master/fonts/ttf/BalsamiqSans-Regular.ttf'
 end
