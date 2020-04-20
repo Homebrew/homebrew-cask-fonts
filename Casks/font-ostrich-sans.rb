@@ -2,7 +2,7 @@ cask 'font-ostrich-sans' do
   version :latest
   sha256 :no_check
 
-  # github.com/theleagueof/ostrich-sans was verified as official when first introduced to the cask
+  # github.com/theleagueof/ostrich-sans/ was verified as official when first introduced to the cask
   url 'https://github.com/theleagueof/ostrich-sans/archive/master.zip'
   name 'Ostrich Sans'
   homepage 'https://www.theleagueofmoveabletype.com/ostrich-sans'
