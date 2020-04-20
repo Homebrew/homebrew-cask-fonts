@@ -2,7 +2,7 @@ cask 'font-work-sans' do
   version '1.6'
   sha256 '247bd98900d52fc1016098449dd906472a2c85e956b62736f04929d8922f7fcf'
 
-  # github.com/weiweihuanghuang/Work-Sans was verified as official when first introduced to the cask
+  # github.com/weiweihuanghuang/Work-Sans/ was verified as official when first introduced to the cask
   url "https://github.com/weiweihuanghuang/Work-Sans/archive/v#{version}.zip"
   appcast 'https://github.com/weiweihuanghuang/Work-Sans/releases.atom'
   name 'Work Sans'
