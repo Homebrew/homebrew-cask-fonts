@@ -2,7 +2,7 @@ cask 'font-source-sans-pro' do
   version '2.045R-ro-1.095R-it'
   sha256 '5f090b821e117f452ef399c3c1b8b244c1647728a1e901c4d167cbf7fc298ab6'
 
-  # github.com/adobe-fonts/source-sans-pro was verified as official when first introduced to the cask
+  # github.com/adobe-fonts/source-sans-pro/ was verified as official when first introduced to the cask
   url "https://github.com/adobe-fonts/source-sans-pro/archive/#{version.sub('ro-', 'ro/')}.zip"
   appcast 'https://github.com/adobe-fonts/source-sans-pro/releases.atom'
   name 'Source Sans Pro'
