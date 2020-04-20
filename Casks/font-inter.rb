@@ -2,7 +2,7 @@ cask 'font-inter' do
   version '3.13'
   sha256 '789d34210229d814afc5bd7d0b4623bb89c8d8073fbe7b0a24fbf77248564da6'
 
-  # github.com/rsms/inter was verified as official when first introduced to the cask
+  # github.com/rsms/inter/ was verified as official when first introduced to the cask
   url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip"
   appcast 'https://github.com/rsms/inter/releases.atom'
   name 'Inter'

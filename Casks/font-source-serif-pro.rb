@@ -2,7 +2,7 @@ cask 'font-source-serif-pro' do
   version '3.000R'
   sha256 '6f3135849ece74461994bd57e5e7acf3da0f8d8c96ef94b5f3bb3e91f7d155cc'
 
-  # github.com/adobe-fonts/source-serif-pro was verified as official when first introduced to the cask
+  # github.com/adobe-fonts/source-serif-pro/ was verified as official when first introduced to the cask
   url "https://github.com/adobe-fonts/source-serif-pro/releases/download/#{version}/source-serif-pro-#{version}.zip"
   appcast 'https://github.com/adobe-fonts/source-serif-pro/releases.atom'
   name 'Source Serif Pro'

@@ -2,7 +2,7 @@ cask 'font-noto-sans-armenian' do
   version :latest
   sha256 :no_check
 
-  # noto-website-2.storage.googleapis.com was verified as official when first introduced to the cask
+  # noto-website-2.storage.googleapis.com/ was verified as official when first introduced to the cask
   url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansArmenian-unhinted.zip'
   name 'Noto Sans Armenian'
   homepage 'https://www.google.com/get/noto/#sans-armn'
