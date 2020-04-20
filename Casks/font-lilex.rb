@@ -11,10 +11,4 @@ cask 'font-lilex' do
   font 'otf/Lilex-Light.otf'
   font 'otf/Lilex-Medium.otf'
   font 'otf/Lilex-Regular.otf'
-  # The following were (correctly) identified by `font_casker` but it's unclear if they are needed.
-  # font 'ttf/Lilex-Bold.ttf'
-  # font 'ttf/Lilex-Light.ttf'
-  # font 'ttf/Lilex-Medium.ttf'
-  # font 'ttf/Lilex-Regular.ttf'
-  # font 'variable_ttf/Lilex-VF.ttf'
 end
