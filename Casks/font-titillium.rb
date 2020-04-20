@@ -2,7 +2,7 @@ cask 'font-titillium' do
   version '2.0'
   sha256 '649fb98c5fca9967d18c3243aa549c9c460cbf3ea6dd4ccd46c970f3585a7225'
 
-  # src.fedoraproject.org was verified as official when first introduced to the cask
+  # src.fedoraproject.org/ was verified as official when first introduced to the cask
   url 'https://src.fedoraproject.org/repo/extras/campivisivi-titillium-fonts/Titillium_roman_upright_italic_2_0_OT.zip/258e06fe34c35320321f0458e6625bba/Titillium_roman_upright_italic_2_0_OT.zip'
   name 'Titillium'
   homepage 'http://nta.accademiadiurbino.it/titillium.html'
