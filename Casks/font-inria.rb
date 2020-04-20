@@ -2,7 +2,7 @@ cask 'font-inria' do
   version :latest
   sha256 :no_check
 
-  # github.com/BlackFoundry/InriaFonts was verified as official when first introduced to the cask
+  # github.com/BlackFoundry/InriaFonts/ was verified as official when first introduced to the cask
   url 'https://github.com/BlackFoundry/InriaFonts/archive/master.zip'
   name 'Inria'
   homepage 'https://black-foundry.com/blog/inria-serif-and-inria/'
