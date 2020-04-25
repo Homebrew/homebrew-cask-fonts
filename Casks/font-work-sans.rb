@@ -1,20 +1,28 @@
 cask 'font-work-sans' do
-  version '1.6'
-  sha256 '247bd98900d52fc1016098449dd906472a2c85e956b62736f04929d8922f7fcf'
+  version :latest
+  sha256 :no_check
 
   # github.com/weiweihuanghuang/Work-Sans/ was verified as official when first introduced to the cask
-  url "https://github.com/weiweihuanghuang/Work-Sans/archive/v#{version}.zip"
-  appcast 'https://github.com/weiweihuanghuang/Work-Sans/releases.atom'
+  url 'https://github.com/weiweihuanghuang/Work-Sans/archive/master.zip'
   name 'Work Sans'
   homepage 'https://weiweihuanghuang.github.io/Work-Sans/'
 
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-Black.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-Bold.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-ExtraBold.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-ExtraLight.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-Light.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-Medium.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-Regular.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-SemiBold.otf"
-  font "Work-Sans-#{version}/fonts/desktop/WorkSans-Thin.otf"
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-Black.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-BlackItalic.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-Bold.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-BoldItalic.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-ExtraBold.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-ExtraBoldItalic.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-ExtraLight.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-ExtraLightItalic.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-Italic.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-Light.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-LightItalic.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-Medium.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-MediumItalic.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-Regular.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-SemiBold.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-SemiBoldItalic.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-Thin.ttf'
+  font 'Work-Sans-master/fonts/static/TTF/WorkSans-ThinItalic.ttf'
 end
