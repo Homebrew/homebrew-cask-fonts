@@ -4,18 +4,24 @@ cask 'font-source-code-pro-for-powerline' do
 
   url 'https://github.com/powerline/fonts/trunk/SourceCodePro',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Source Code Pro for Powerline'
   homepage 'https://github.com/powerline/fonts/tree/master/SourceCodePro'
 
   depends_on macos: '>= :sierra'
 
-  font 'Sauce Code Powerline Black.otf'
-  font 'Sauce Code Powerline Bold.otf'
-  font 'Sauce Code Powerline ExtraLight.otf'
-  font 'Sauce Code Powerline Light.otf'
-  font 'Sauce Code Powerline Medium.otf'
-  font 'Sauce Code Powerline Regular.otf'
-  font 'Sauce Code Powerline Semibold.otf'
+  font 'Source Code Pro Black for Powerline.otf'
+  font 'Source Code Pro Bold for Powerline.otf'
+  font 'Source Code Pro ExtraLight for Powerline.otf'
+  font 'Source Code Pro Light for Powerline.otf'
+  font 'Source Code Pro Medium for Powerline.otf'
+  font 'Source Code Pro Powerline BlackItalic.otf'
+  font 'Source Code Pro Powerline BoldItalic.otf'
+  font 'Source Code Pro Powerline ExtraLightItalic.otf'
+  font 'Source Code Pro Powerline Italic.otf'
+  font 'Source Code Pro Powerline LightItalic.otf'
+  font 'Source Code Pro Powerline MediumItalic.otf'
+  font 'Source Code Pro Powerline SemiboldItalic.otf'
+  font 'Source Code Pro Semibold for Powerline.otf'
+  font 'Source Code Pro for Powerline.otf'
 end
