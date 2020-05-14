@@ -1,8 +1,8 @@
 cask 'font-aileron' do
-  version :latest
-  sha256 :no_check
+  version '0.102'
+  sha256 'a93a1327f44912a7b1410ad0056fec3e904074413b0bd9da550f6175587cf958'
 
-  url 'https://dotcolon.net/DL/font/aileron.zip'
+  url 'https://dotcolon.net/download/fonts/aileron_0102.zip'
   name 'Aileron'
   homepage 'https://dotcolon.net/font/aileron/'
 
