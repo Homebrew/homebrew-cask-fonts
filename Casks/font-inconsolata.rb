@@ -3,7 +3,7 @@ cask 'font-inconsolata' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/blob/master/ofl/inconsolata',
+  url 'https://github.com/google/fonts/blob/master/ofl/inconsolata/Inconsolata%5Bwdth%2Cwght%5D.ttf',
       using:      :svn,
       trust_cert: true
   name 'Inconsolata'
