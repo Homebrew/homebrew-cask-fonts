@@ -1,19 +1,19 @@
 cask 'font-iosevka' do
-  version '3.0.0'
-  sha256 '2339a51fd9270d788e13e8e21c357d96983a042c3175aafcc8dce0ceaa4ae52b'
+  version '3.0.1'
+  sha256 '5e66198c71f5e4b6acb383faaf250af2251465342163b2d8ee2cb154995d844f'
 
-  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/pkg-iosevka-#{version}.zip"
+  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-#{version}.zip"
   appcast 'https://github.com/be5invis/Iosevka/releases.atom'
   name 'Iosevka'
   homepage 'https://github.com/be5invis/Iosevka/'
 
-  font 'ttc/iosevka-bold.ttc'
-  font 'ttc/iosevka-extrabold.ttc'
-  font 'ttc/iosevka-extralight.ttc'
-  font 'ttc/iosevka-heavy.ttc'
-  font 'ttc/iosevka-light.ttc'
-  font 'ttc/iosevka-medium.ttc'
-  font 'ttc/iosevka-regular.ttc'
-  font 'ttc/iosevka-semibold.ttc'
-  font 'ttc/iosevka-thin.ttc'
+  font 'iosevka-bold.ttc'
+  font 'iosevka-extrabold.ttc'
+  font 'iosevka-extralight.ttc'
+  font 'iosevka-heavy.ttc'
+  font 'iosevka-light.ttc'
+  font 'iosevka-medium.ttc'
+  font 'iosevka-regular.ttc'
+  font 'iosevka-semibold.ttc'
+  font 'iosevka-thin.ttc'
 end
