@@ -3,7 +3,7 @@ cask 'font-roboto-slab' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/apache/robotoslab',
+  url 'https://github.com/google/fonts/trunk/apache/robotoslab/static',
       using:      :svn,
       trust_cert: true
   name 'Roboto Slab'
@@ -11,8 +11,8 @@ cask 'font-roboto-slab' do
 
   depends_on macos: '>= :sierra'
 
-  font 'static/RobotoSlab-Bold.ttf'
-  font 'static/RobotoSlab-Light.ttf'
-  font 'static/RobotoSlab-Regular.ttf'
-  font 'static/RobotoSlab-Thin.ttf'
+  font 'RobotoSlab-Bold.ttf'
+  font 'RobotoSlab-Light.ttf'
+  font 'RobotoSlab-Regular.ttf'
+  font 'RobotoSlab-Thin.ttf'
 end
