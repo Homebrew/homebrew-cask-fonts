@@ -4,7 +4,6 @@ cask 'font-roboto-mono' do
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/tree/master/apache/robotomono/static'
-  
   name 'Roboto Mono'
   homepage 'https://www.google.com/fonts/specimen/Roboto%20Mono'
 
