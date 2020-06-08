@@ -1,11 +1,11 @@
-cask 'font-liberation-sans' do
-  version '2.00.1'
-  sha256 '7890278a6cd17873c57d9cd785c2d230d9abdea837e96516019c5885dd271504'
+cask 'font-liberation' do
+  version '2.1.1'
+  sha256 '8ee2c16fe0f055e60dd8375449aff72d25dd623b9cc6f24790ce9d2e91446fca'
 
-  # releases.pagure.org/liberation-fonts/ was verified as official when first introduced to the cask
-  url "https://releases.pagure.org/liberation-fonts/liberation-fonts-ttf-#{version}.tar.gz"
+  url "https://github.com/liberationfonts/liberation-fonts/files/4743886/liberation-fonts-ttf-#{version}.tar.gz"
+  appcast 'https://github.com/liberationfonts/liberation-fonts/releases.atom'
   name 'Liberation Sans'
-  homepage 'https://pagure.io/liberation-fonts/'
+  homepage 'https://github.com/liberationfonts/liberation-fonts'
 
   font "liberation-fonts-ttf-#{version}/LiberationMono-Bold.ttf"
   font "liberation-fonts-ttf-#{version}/LiberationMono-BoldItalic.ttf"
