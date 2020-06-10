@@ -1,6 +1,6 @@
 cask 'font-ibm-plex' do
-  version '4.0.2'
-  sha256 '6615c5b5ecf5736a5ed29b7f99b780d3ae503e81962fe2259b30fdc322416d9d'
+  version '5.0.0'
+  sha256 '6ff75e60096deb3ac3c2e229631e72d6007f7d1cd17e7381a9d32a16b63f422e'
 
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
   appcast 'https://github.com/IBM/plex/releases.atom'
@@ -63,6 +63,14 @@ cask 'font-ibm-plex' do
   font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-SemiBold.otf'
   font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-Text.otf'
   font 'OpenType/IBM-Plex-Sans-Hebrew/IBMPlexSansHebrew-Thin.otf'
+  font 'OpenType/IBM-Plex-Sans-KR/IBMPlexSansKR-Bold.otf'
+  font 'OpenType/IBM-Plex-Sans-KR/IBMPlexSansKR-ExtraLight.otf'
+  font 'OpenType/IBM-Plex-Sans-KR/IBMPlexSansKR-Light.otf'
+  font 'OpenType/IBM-Plex-Sans-KR/IBMPlexSansKR-Medium.otf'
+  font 'OpenType/IBM-Plex-Sans-KR/IBMPlexSansKR-Regular.otf'
+  font 'OpenType/IBM-Plex-Sans-KR/IBMPlexSansKR-SemiBold.otf'
+  font 'OpenType/IBM-Plex-Sans-KR/IBMPlexSansKR-Text.otf'
+  font 'OpenType/IBM-Plex-Sans-KR/IBMPlexSansKR-Thin.otf'
   font 'OpenType/IBM-Plex-Sans-Thai-Looped/IBMPlexSansThaiLooped-Bold.otf'
   font 'OpenType/IBM-Plex-Sans-Thai-Looped/IBMPlexSansThaiLooped-ExtraLight.otf'
   font 'OpenType/IBM-Plex-Sans-Thai-Looped/IBMPlexSansThaiLooped-Light.otf'
