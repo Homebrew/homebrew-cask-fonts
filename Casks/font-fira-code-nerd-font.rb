@@ -1,4 +1,4 @@
-cask 'font-firacode-nerd-font' do
+cask 'font-fira-code-nerd-font' do
   version '2.1.0'
   sha256 '21de9aa0edaa3fd2dc1d87fb9ecec0b67c9b3b18bd1998a19904158067fea7e7'
 
