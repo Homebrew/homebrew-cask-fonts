@@ -1,4 +1,4 @@
-cask 'font-firamono-nerd-font' do
+cask 'font-fira-mono-nerd-font' do
   version '2.1.0'
   sha256 'f4e966bddbbd85826c72b5d6dfcf3c2857095f2e2819784b5babc2a95a544d38'
 
