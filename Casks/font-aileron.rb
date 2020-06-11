@@ -4,7 +4,7 @@ cask 'font-aileron' do
 
   url "https://dotcolon.net/download/fonts/aileron_#{version.no_dots}.zip"
   appcast 'https://dotcolon.net/font/aileron/',
-          configuration: version.no_dots
+          must_contain: version.no_dots
   name 'Aileron'
   homepage 'https://dotcolon.net/font/aileron/'
 
