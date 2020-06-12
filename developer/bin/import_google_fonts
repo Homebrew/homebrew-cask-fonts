@@ -29,9 +29,9 @@ TEMPLATE = Template(
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/{{folder}}',
+  url {% if files|length > 1 %}'https://github.com/google/fonts/trunk/{{folder}}',
       using:      :svn,
-      trust_cert: true
+      trust_cert: true{% else %}'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0]}}'{% endif %}
   name '{{name}}'
   homepage 'https://fonts.google.com/specimen/{{name_path}}'
 {% for file in files %}
@@ -49,7 +49,9 @@ def metadata_to_cask(meta):
 
     folder = os.path.dirname(os.path.relpath(meta_file, start=tmpdir))
     name_path = name.replace(" ", "+")
+
     files = [font.filename for font in meta.fonts]
+    files.sort()
 
     content = TEMPLATE.render(
         cask_name=cask_name, folder=folder, name=name, name_path=name_path, files=files,
