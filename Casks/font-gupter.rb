@@ -3,13 +3,11 @@ cask 'font-gupter' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/gupter',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Gupter'
   homepage 'https://fonts.google.com/specimen/Gupter'
 
-  font 'Gupter-Bold.ttf'
-  font 'Gupter-Medium.ttf'
-  font 'Gupter-Regular.ttf'
+  font 'ofl/gupter/Gupter-Bold.ttf'
+  font 'ofl/gupter/Gupter-Medium.ttf'
+  font 'ofl/gupter/Gupter-Regular.ttf'
 end

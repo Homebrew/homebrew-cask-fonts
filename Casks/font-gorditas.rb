@@ -3,12 +3,10 @@ cask 'font-gorditas' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/gorditas',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Gorditas'
   homepage 'https://fonts.google.com/specimen/Gorditas'
 
-  font 'Gorditas-Bold.ttf'
-  font 'Gorditas-Regular.ttf'
+  font 'ofl/gorditas/Gorditas-Bold.ttf'
+  font 'ofl/gorditas/Gorditas-Regular.ttf'
 end

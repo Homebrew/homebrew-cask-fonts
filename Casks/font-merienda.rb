@@ -3,12 +3,10 @@ cask 'font-merienda' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/merienda',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Merienda'
   homepage 'https://fonts.google.com/specimen/Merienda'
 
-  font 'Merienda-Bold.ttf'
-  font 'Merienda-Regular.ttf'
+  font 'ofl/merienda/Merienda-Bold.ttf'
+  font 'ofl/merienda/Merienda-Regular.ttf'
 end

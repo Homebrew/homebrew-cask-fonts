@@ -3,12 +3,10 @@ cask 'font-tangerine' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/tangerine',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Tangerine'
   homepage 'https://fonts.google.com/specimen/Tangerine'
 
-  font 'Tangerine-Bold.ttf'
-  font 'Tangerine-Regular.ttf'
+  font 'ofl/tangerine/Tangerine-Bold.ttf'
+  font 'ofl/tangerine/Tangerine-Regular.ttf'
 end

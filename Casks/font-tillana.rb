@@ -3,15 +3,13 @@ cask 'font-tillana' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/tillana',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Tillana'
   homepage 'https://fonts.google.com/specimen/Tillana'
 
-  font 'Tillana-Bold.ttf'
-  font 'Tillana-ExtraBold.ttf'
-  font 'Tillana-Medium.ttf'
-  font 'Tillana-Regular.ttf'
-  font 'Tillana-SemiBold.ttf'
+  font 'ofl/tillana/Tillana-Bold.ttf'
+  font 'ofl/tillana/Tillana-ExtraBold.ttf'
+  font 'ofl/tillana/Tillana-Medium.ttf'
+  font 'ofl/tillana/Tillana-Regular.ttf'
+  font 'ofl/tillana/Tillana-SemiBold.ttf'
 end

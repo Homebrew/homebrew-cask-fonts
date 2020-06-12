@@ -3,12 +3,10 @@ cask 'font-battambang' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/battambang',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Battambang'
   homepage 'https://fonts.google.com/specimen/Battambang'
 
-  font 'Battambang-Bold.ttf'
-  font 'Battambang-Regular.ttf'
+  font 'ofl/battambang/Battambang-Bold.ttf'
+  font 'ofl/battambang/Battambang-Regular.ttf'
 end

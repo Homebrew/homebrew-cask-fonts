@@ -3,15 +3,13 @@ cask 'font-baloo-bhai-2' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/baloobhai2',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Baloo Bhai 2'
   homepage 'https://fonts.google.com/specimen/Baloo+Bhai+2'
 
-  font 'BalooBhai2-Bold.ttf'
-  font 'BalooBhai2-ExtraBold.ttf'
-  font 'BalooBhai2-Medium.ttf'
-  font 'BalooBhai2-Regular.ttf'
-  font 'BalooBhai2-SemiBold.ttf'
+  font 'ofl/baloobhai2/BalooBhai2-Bold.ttf'
+  font 'ofl/baloobhai2/BalooBhai2-ExtraBold.ttf'
+  font 'ofl/baloobhai2/BalooBhai2-Medium.ttf'
+  font 'ofl/baloobhai2/BalooBhai2-Regular.ttf'
+  font 'ofl/baloobhai2/BalooBhai2-SemiBold.ttf'
 end

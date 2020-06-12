@@ -3,13 +3,11 @@ cask 'font-open-sans-condensed' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/apache/opensanscondensed',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Open Sans Condensed'
   homepage 'https://fonts.google.com/specimen/Open+Sans+Condensed'
 
-  font 'OpenSansCondensed-Bold.ttf'
-  font 'OpenSansCondensed-Light.ttf'
-  font 'OpenSansCondensed-LightItalic.ttf'
+  font 'apache/opensanscondensed/OpenSansCondensed-Bold.ttf'
+  font 'apache/opensanscondensed/OpenSansCondensed-Light.ttf'
+  font 'apache/opensanscondensed/OpenSansCondensed-LightItalic.ttf'
 end

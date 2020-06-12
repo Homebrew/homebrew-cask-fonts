@@ -3,14 +3,12 @@ cask 'font-quantico' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/quantico',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Quantico'
   homepage 'https://fonts.google.com/specimen/Quantico'
 
-  font 'Quantico-Bold.ttf'
-  font 'Quantico-BoldItalic.ttf'
-  font 'Quantico-Italic.ttf'
-  font 'Quantico-Regular.ttf'
+  font 'ofl/quantico/Quantico-Bold.ttf'
+  font 'ofl/quantico/Quantico-BoldItalic.ttf'
+  font 'ofl/quantico/Quantico-Italic.ttf'
+  font 'ofl/quantico/Quantico-Regular.ttf'
 end

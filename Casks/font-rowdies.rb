@@ -3,13 +3,11 @@ cask 'font-rowdies' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/rowdies',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Rowdies'
   homepage 'https://fonts.google.com/specimen/Rowdies'
 
-  font 'Rowdies-Bold.ttf'
-  font 'Rowdies-Light.ttf'
-  font 'Rowdies-Regular.ttf'
+  font 'ofl/rowdies/Rowdies-Bold.ttf'
+  font 'ofl/rowdies/Rowdies-Light.ttf'
+  font 'ofl/rowdies/Rowdies-Regular.ttf'
 end

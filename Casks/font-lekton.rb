@@ -3,13 +3,11 @@ cask 'font-lekton' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/lekton',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Lekton'
   homepage 'https://fonts.google.com/specimen/Lekton'
 
-  font 'Lekton-Bold.ttf'
-  font 'Lekton-Italic.ttf'
-  font 'Lekton-Regular.ttf'
+  font 'ofl/lekton/Lekton-Bold.ttf'
+  font 'ofl/lekton/Lekton-Italic.ttf'
+  font 'ofl/lekton/Lekton-Regular.ttf'
 end

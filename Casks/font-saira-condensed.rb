@@ -3,19 +3,17 @@ cask 'font-saira-condensed' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/sairacondensed',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Saira Condensed'
   homepage 'https://fonts.google.com/specimen/Saira+Condensed'
 
-  font 'SairaCondensed-Black.ttf'
-  font 'SairaCondensed-Bold.ttf'
-  font 'SairaCondensed-ExtraBold.ttf'
-  font 'SairaCondensed-ExtraLight.ttf'
-  font 'SairaCondensed-Light.ttf'
-  font 'SairaCondensed-Medium.ttf'
-  font 'SairaCondensed-Regular.ttf'
-  font 'SairaCondensed-SemiBold.ttf'
-  font 'SairaCondensed-Thin.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-Black.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-Bold.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-ExtraBold.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-ExtraLight.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-Light.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-Medium.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-Regular.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-SemiBold.ttf'
+  font 'ofl/sairacondensed/SairaCondensed-Thin.ttf'
 end

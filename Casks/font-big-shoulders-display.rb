@@ -3,18 +3,16 @@ cask 'font-big-shoulders-display' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/bigshouldersdisplay',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Big Shoulders Display'
   homepage 'https://fonts.google.com/specimen/Big+Shoulders+Display'
 
-  font 'BigShouldersDisplay-Black.ttf'
-  font 'BigShouldersDisplay-Bold.ttf'
-  font 'BigShouldersDisplay-ExtraBold.ttf'
-  font 'BigShouldersDisplay-Light.ttf'
-  font 'BigShouldersDisplay-Medium.ttf'
-  font 'BigShouldersDisplay-Regular.ttf'
-  font 'BigShouldersDisplay-SemiBold.ttf'
-  font 'BigShouldersDisplay-Thin.ttf'
+  font 'ofl/bigshouldersdisplay/BigShouldersDisplay-Black.ttf'
+  font 'ofl/bigshouldersdisplay/BigShouldersDisplay-Bold.ttf'
+  font 'ofl/bigshouldersdisplay/BigShouldersDisplay-ExtraBold.ttf'
+  font 'ofl/bigshouldersdisplay/BigShouldersDisplay-Light.ttf'
+  font 'ofl/bigshouldersdisplay/BigShouldersDisplay-Medium.ttf'
+  font 'ofl/bigshouldersdisplay/BigShouldersDisplay-Regular.ttf'
+  font 'ofl/bigshouldersdisplay/BigShouldersDisplay-SemiBold.ttf'
+  font 'ofl/bigshouldersdisplay/BigShouldersDisplay-Thin.ttf'
 end

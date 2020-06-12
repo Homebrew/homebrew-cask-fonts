@@ -3,12 +3,10 @@ cask 'font-play' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/play',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Play'
   homepage 'https://fonts.google.com/specimen/Play'
 
-  font 'Play-Bold.ttf'
-  font 'Play-Regular.ttf'
+  font 'ofl/play/Play-Bold.ttf'
+  font 'ofl/play/Play-Regular.ttf'
 end

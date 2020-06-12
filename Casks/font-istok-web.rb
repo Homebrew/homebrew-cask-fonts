@@ -3,14 +3,12 @@ cask 'font-istok-web' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/istokweb',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Istok Web'
   homepage 'https://fonts.google.com/specimen/Istok+Web'
 
-  font 'IstokWeb-Bold.ttf'
-  font 'IstokWeb-BoldItalic.ttf'
-  font 'IstokWeb-Italic.ttf'
-  font 'IstokWeb-Regular.ttf'
+  font 'ofl/istokweb/IstokWeb-Bold.ttf'
+  font 'ofl/istokweb/IstokWeb-BoldItalic.ttf'
+  font 'ofl/istokweb/IstokWeb-Italic.ttf'
+  font 'ofl/istokweb/IstokWeb-Regular.ttf'
 end

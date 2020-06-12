@@ -3,14 +3,12 @@ cask 'font-marvel' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/marvel',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Marvel'
   homepage 'https://fonts.google.com/specimen/Marvel'
 
-  font 'Marvel-Bold.ttf'
-  font 'Marvel-BoldItalic.ttf'
-  font 'Marvel-Italic.ttf'
-  font 'Marvel-Regular.ttf'
+  font 'ofl/marvel/Marvel-Bold.ttf'
+  font 'ofl/marvel/Marvel-BoldItalic.ttf'
+  font 'ofl/marvel/Marvel-Italic.ttf'
+  font 'ofl/marvel/Marvel-Regular.ttf'
 end

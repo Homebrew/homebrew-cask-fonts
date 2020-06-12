@@ -3,22 +3,20 @@ cask 'font-kodchasan' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/kodchasan',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Kodchasan'
   homepage 'https://fonts.google.com/specimen/Kodchasan'
 
-  font 'Kodchasan-Bold.ttf'
-  font 'Kodchasan-BoldItalic.ttf'
-  font 'Kodchasan-ExtraLight.ttf'
-  font 'Kodchasan-ExtraLightItalic.ttf'
-  font 'Kodchasan-Italic.ttf'
-  font 'Kodchasan-Light.ttf'
-  font 'Kodchasan-LightItalic.ttf'
-  font 'Kodchasan-Medium.ttf'
-  font 'Kodchasan-MediumItalic.ttf'
-  font 'Kodchasan-Regular.ttf'
-  font 'Kodchasan-SemiBold.ttf'
-  font 'Kodchasan-SemiBoldItalic.ttf'
+  font 'ofl/kodchasan/Kodchasan-Bold.ttf'
+  font 'ofl/kodchasan/Kodchasan-BoldItalic.ttf'
+  font 'ofl/kodchasan/Kodchasan-ExtraLight.ttf'
+  font 'ofl/kodchasan/Kodchasan-ExtraLightItalic.ttf'
+  font 'ofl/kodchasan/Kodchasan-Italic.ttf'
+  font 'ofl/kodchasan/Kodchasan-Light.ttf'
+  font 'ofl/kodchasan/Kodchasan-LightItalic.ttf'
+  font 'ofl/kodchasan/Kodchasan-Medium.ttf'
+  font 'ofl/kodchasan/Kodchasan-MediumItalic.ttf'
+  font 'ofl/kodchasan/Kodchasan-Regular.ttf'
+  font 'ofl/kodchasan/Kodchasan-SemiBold.ttf'
+  font 'ofl/kodchasan/Kodchasan-SemiBoldItalic.ttf'
 end

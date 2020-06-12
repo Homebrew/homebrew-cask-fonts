@@ -3,24 +3,22 @@ cask 'font-nunito' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/nunito',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Nunito'
   homepage 'https://fonts.google.com/specimen/Nunito'
 
-  font 'Nunito-Black.ttf'
-  font 'Nunito-BlackItalic.ttf'
-  font 'Nunito-Bold.ttf'
-  font 'Nunito-BoldItalic.ttf'
-  font 'Nunito-ExtraBold.ttf'
-  font 'Nunito-ExtraBoldItalic.ttf'
-  font 'Nunito-ExtraLight.ttf'
-  font 'Nunito-ExtraLightItalic.ttf'
-  font 'Nunito-Italic.ttf'
-  font 'Nunito-Light.ttf'
-  font 'Nunito-LightItalic.ttf'
-  font 'Nunito-Regular.ttf'
-  font 'Nunito-SemiBold.ttf'
-  font 'Nunito-SemiBoldItalic.ttf'
+  font 'ofl/nunito/Nunito-Black.ttf'
+  font 'ofl/nunito/Nunito-BlackItalic.ttf'
+  font 'ofl/nunito/Nunito-Bold.ttf'
+  font 'ofl/nunito/Nunito-BoldItalic.ttf'
+  font 'ofl/nunito/Nunito-ExtraBold.ttf'
+  font 'ofl/nunito/Nunito-ExtraBoldItalic.ttf'
+  font 'ofl/nunito/Nunito-ExtraLight.ttf'
+  font 'ofl/nunito/Nunito-ExtraLightItalic.ttf'
+  font 'ofl/nunito/Nunito-Italic.ttf'
+  font 'ofl/nunito/Nunito-Light.ttf'
+  font 'ofl/nunito/Nunito-LightItalic.ttf'
+  font 'ofl/nunito/Nunito-Regular.ttf'
+  font 'ofl/nunito/Nunito-SemiBold.ttf'
+  font 'ofl/nunito/Nunito-SemiBoldItalic.ttf'
 end

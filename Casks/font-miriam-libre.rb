@@ -3,12 +3,10 @@ cask 'font-miriam-libre' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/miriamlibre',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Miriam Libre'
   homepage 'https://fonts.google.com/specimen/Miriam+Libre'
 
-  font 'MiriamLibre-Bold.ttf'
-  font 'MiriamLibre-Regular.ttf'
+  font 'ofl/miriamlibre/MiriamLibre-Bold.ttf'
+  font 'ofl/miriamlibre/MiriamLibre-Regular.ttf'
 end

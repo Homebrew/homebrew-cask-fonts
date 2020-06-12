@@ -3,14 +3,12 @@ cask 'font-overpass-mono' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/overpassmono',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Overpass Mono'
   homepage 'https://fonts.google.com/specimen/Overpass+Mono'
 
-  font 'OverpassMono-Bold.ttf'
-  font 'OverpassMono-Light.ttf'
-  font 'OverpassMono-Regular.ttf'
-  font 'OverpassMono-SemiBold.ttf'
+  font 'ofl/overpassmono/OverpassMono-Bold.ttf'
+  font 'ofl/overpassmono/OverpassMono-Light.ttf'
+  font 'ofl/overpassmono/OverpassMono-Regular.ttf'
+  font 'ofl/overpassmono/OverpassMono-SemiBold.ttf'
 end

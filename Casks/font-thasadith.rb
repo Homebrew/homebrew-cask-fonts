@@ -3,14 +3,12 @@ cask 'font-thasadith' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/thasadith',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Thasadith'
   homepage 'https://fonts.google.com/specimen/Thasadith'
 
-  font 'Thasadith-Bold.ttf'
-  font 'Thasadith-BoldItalic.ttf'
-  font 'Thasadith-Italic.ttf'
-  font 'Thasadith-Regular.ttf'
+  font 'ofl/thasadith/Thasadith-Bold.ttf'
+  font 'ofl/thasadith/Thasadith-BoldItalic.ttf'
+  font 'ofl/thasadith/Thasadith-Italic.ttf'
+  font 'ofl/thasadith/Thasadith-Regular.ttf'
 end

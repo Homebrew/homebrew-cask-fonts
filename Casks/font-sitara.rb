@@ -3,14 +3,12 @@ cask 'font-sitara' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/sitara',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Sitara'
   homepage 'https://fonts.google.com/specimen/Sitara'
 
-  font 'Sitara-Bold.ttf'
-  font 'Sitara-BoldItalic.ttf'
-  font 'Sitara-Italic.ttf'
-  font 'Sitara-Regular.ttf'
+  font 'ofl/sitara/Sitara-Bold.ttf'
+  font 'ofl/sitara/Sitara-BoldItalic.ttf'
+  font 'ofl/sitara/Sitara-Italic.ttf'
+  font 'ofl/sitara/Sitara-Regular.ttf'
 end

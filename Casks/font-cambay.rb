@@ -3,14 +3,12 @@ cask 'font-cambay' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/cambay',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Cambay'
   homepage 'https://fonts.google.com/specimen/Cambay'
 
-  font 'Cambay-Bold.ttf'
-  font 'Cambay-BoldItalic.ttf'
-  font 'Cambay-Italic.ttf'
-  font 'Cambay-Regular.ttf'
+  font 'ofl/cambay/Cambay-Bold.ttf'
+  font 'ofl/cambay/Cambay-BoldItalic.ttf'
+  font 'ofl/cambay/Cambay-Italic.ttf'
+  font 'ofl/cambay/Cambay-Regular.ttf'
 end

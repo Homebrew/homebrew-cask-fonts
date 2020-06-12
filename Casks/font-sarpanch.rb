@@ -3,16 +3,14 @@ cask 'font-sarpanch' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/sarpanch',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Sarpanch'
   homepage 'https://fonts.google.com/specimen/Sarpanch'
 
-  font 'Sarpanch-Black.ttf'
-  font 'Sarpanch-Bold.ttf'
-  font 'Sarpanch-ExtraBold.ttf'
-  font 'Sarpanch-Medium.ttf'
-  font 'Sarpanch-Regular.ttf'
-  font 'Sarpanch-SemiBold.ttf'
+  font 'ofl/sarpanch/Sarpanch-Black.ttf'
+  font 'ofl/sarpanch/Sarpanch-Bold.ttf'
+  font 'ofl/sarpanch/Sarpanch-ExtraBold.ttf'
+  font 'ofl/sarpanch/Sarpanch-Medium.ttf'
+  font 'ofl/sarpanch/Sarpanch-Regular.ttf'
+  font 'ofl/sarpanch/Sarpanch-SemiBold.ttf'
 end

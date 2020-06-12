@@ -3,12 +3,10 @@ cask 'font-mate' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/mate',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Mate'
   homepage 'https://fonts.google.com/specimen/Mate'
 
-  font 'Mate-Italic.ttf'
-  font 'Mate-Regular.ttf'
+  font 'ofl/mate/Mate-Italic.ttf'
+  font 'ofl/mate/Mate-Regular.ttf'
 end

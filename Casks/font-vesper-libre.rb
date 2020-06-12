@@ -3,14 +3,12 @@ cask 'font-vesper-libre' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/vesperlibre',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Vesper Libre'
   homepage 'https://fonts.google.com/specimen/Vesper+Libre'
 
-  font 'VesperLibre-Bold.ttf'
-  font 'VesperLibre-Heavy.ttf'
-  font 'VesperLibre-Medium.ttf'
-  font 'VesperLibre-Regular.ttf'
+  font 'ofl/vesperlibre/VesperLibre-Bold.ttf'
+  font 'ofl/vesperlibre/VesperLibre-Heavy.ttf'
+  font 'ofl/vesperlibre/VesperLibre-Medium.ttf'
+  font 'ofl/vesperlibre/VesperLibre-Regular.ttf'
 end

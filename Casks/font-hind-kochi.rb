@@ -3,15 +3,13 @@ cask 'font-hind-kochi' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/hindkochi',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Hind Kochi'
   homepage 'https://fonts.google.com/specimen/Hind+Kochi'
 
-  font 'HindKochi-Bold.ttf'
-  font 'HindKochi-Light.ttf'
-  font 'HindKochi-Medium.ttf'
-  font 'HindKochi-Regular.ttf'
-  font 'HindKochi-SemiBold.ttf'
+  font 'ofl/hindkochi/HindKochi-Bold.ttf'
+  font 'ofl/hindkochi/HindKochi-Light.ttf'
+  font 'ofl/hindkochi/HindKochi-Medium.ttf'
+  font 'ofl/hindkochi/HindKochi-Regular.ttf'
+  font 'ofl/hindkochi/HindKochi-SemiBold.ttf'
 end

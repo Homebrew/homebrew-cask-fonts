@@ -3,20 +3,18 @@ cask 'font-kulim-park' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/kulimpark',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Kulim Park'
   homepage 'https://fonts.google.com/specimen/Kulim+Park'
 
-  font 'KulimPark-Bold.ttf'
-  font 'KulimPark-BoldItalic.ttf'
-  font 'KulimPark-ExtraLight.ttf'
-  font 'KulimPark-ExtraLightItalic.ttf'
-  font 'KulimPark-Italic.ttf'
-  font 'KulimPark-Light.ttf'
-  font 'KulimPark-LightItalic.ttf'
-  font 'KulimPark-Regular.ttf'
-  font 'KulimPark-SemiBold.ttf'
-  font 'KulimPark-SemiBoldItalic.ttf'
+  font 'ofl/kulimpark/KulimPark-Bold.ttf'
+  font 'ofl/kulimpark/KulimPark-BoldItalic.ttf'
+  font 'ofl/kulimpark/KulimPark-ExtraLight.ttf'
+  font 'ofl/kulimpark/KulimPark-ExtraLightItalic.ttf'
+  font 'ofl/kulimpark/KulimPark-Italic.ttf'
+  font 'ofl/kulimpark/KulimPark-Light.ttf'
+  font 'ofl/kulimpark/KulimPark-LightItalic.ttf'
+  font 'ofl/kulimpark/KulimPark-Regular.ttf'
+  font 'ofl/kulimpark/KulimPark-SemiBold.ttf'
+  font 'ofl/kulimpark/KulimPark-SemiBoldItalic.ttf'
 end

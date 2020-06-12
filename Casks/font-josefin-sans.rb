@@ -3,12 +3,10 @@ cask 'font-josefin-sans' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/josefinsans',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Josefin Sans'
   homepage 'https://fonts.google.com/specimen/Josefin+Sans'
 
-  font 'JosefinSans-Italic[wght].ttf'
-  font 'JosefinSans[wght].ttf'
+  font 'ofl/josefinsans/JosefinSans-Italic[wght].ttf'
+  font 'ofl/josefinsans/JosefinSans[wght].ttf'
 end

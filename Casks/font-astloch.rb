@@ -3,12 +3,10 @@ cask 'font-astloch' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/astloch',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Astloch'
   homepage 'https://fonts.google.com/specimen/Astloch'
 
-  font 'Astloch-Bold.ttf'
-  font 'Astloch-Regular.ttf'
+  font 'ofl/astloch/Astloch-Bold.ttf'
+  font 'ofl/astloch/Astloch-Regular.ttf'
 end

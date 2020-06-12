@@ -3,15 +3,13 @@ cask 'font-atma' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/atma',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Atma'
   homepage 'https://fonts.google.com/specimen/Atma'
 
-  font 'Atma-Bold.ttf'
-  font 'Atma-Light.ttf'
-  font 'Atma-Medium.ttf'
-  font 'Atma-Regular.ttf'
-  font 'Atma-SemiBold.ttf'
+  font 'ofl/atma/Atma-Bold.ttf'
+  font 'ofl/atma/Atma-Light.ttf'
+  font 'ofl/atma/Atma-Medium.ttf'
+  font 'ofl/atma/Atma-Regular.ttf'
+  font 'ofl/atma/Atma-SemiBold.ttf'
 end

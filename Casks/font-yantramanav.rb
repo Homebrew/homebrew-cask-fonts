@@ -3,16 +3,14 @@ cask 'font-yantramanav' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/yantramanav',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Yantramanav'
   homepage 'https://fonts.google.com/specimen/Yantramanav'
 
-  font 'Yantramanav-Black.ttf'
-  font 'Yantramanav-Bold.ttf'
-  font 'Yantramanav-Light.ttf'
-  font 'Yantramanav-Medium.ttf'
-  font 'Yantramanav-Regular.ttf'
-  font 'Yantramanav-Thin.ttf'
+  font 'ofl/yantramanav/Yantramanav-Black.ttf'
+  font 'ofl/yantramanav/Yantramanav-Bold.ttf'
+  font 'ofl/yantramanav/Yantramanav-Light.ttf'
+  font 'ofl/yantramanav/Yantramanav-Medium.ttf'
+  font 'ofl/yantramanav/Yantramanav-Regular.ttf'
+  font 'ofl/yantramanav/Yantramanav-Thin.ttf'
 end

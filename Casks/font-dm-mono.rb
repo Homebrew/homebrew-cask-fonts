@@ -3,16 +3,14 @@ cask 'font-dm-mono' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/dmmono',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'DM Mono'
   homepage 'https://fonts.google.com/specimen/DM+Mono'
 
-  font 'DMMono-Italic.ttf'
-  font 'DMMono-Light.ttf'
-  font 'DMMono-LightItalic.ttf'
-  font 'DMMono-Medium.ttf'
-  font 'DMMono-MediumItalic.ttf'
-  font 'DMMono-Regular.ttf'
+  font 'ofl/dmmono/DMMono-Italic.ttf'
+  font 'ofl/dmmono/DMMono-Light.ttf'
+  font 'ofl/dmmono/DMMono-LightItalic.ttf'
+  font 'ofl/dmmono/DMMono-Medium.ttf'
+  font 'ofl/dmmono/DMMono-MediumItalic.ttf'
+  font 'ofl/dmmono/DMMono-Regular.ttf'
 end

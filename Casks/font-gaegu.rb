@@ -3,13 +3,11 @@ cask 'font-gaegu' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/gaegu',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Gaegu'
   homepage 'https://fonts.google.com/specimen/Gaegu'
 
-  font 'Gaegu-Bold.ttf'
-  font 'Gaegu-Light.ttf'
-  font 'Gaegu-Regular.ttf'
+  font 'ofl/gaegu/Gaegu-Bold.ttf'
+  font 'ofl/gaegu/Gaegu-Light.ttf'
+  font 'ofl/gaegu/Gaegu-Regular.ttf'
 end

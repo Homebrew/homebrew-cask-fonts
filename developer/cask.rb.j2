@@ -3,17 +3,19 @@ cask '{{cask_name}}' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-{% if files|length > 1 %}
-  url 'https://github.com/google/fonts/trunk/{{folder}}',
-      using:      :svn,
-      trust_cert: true
-{% else %}
+{% if files|length == 1 %}
   url 'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}'
+{% else %}
+  url 'https://github.com/google/fonts.git'
 {% endif %}
   name '{{font_name}}'
   homepage 'https://fonts.google.com/specimen/{{name_path}}'
 
 {% for file in files %}
+{% if files|length == 1 %}
   font '{{file}}'
+{% else %}
+  font '{{folder}}/{{file}}'
+{% endif %}
 {% endfor %}
 end

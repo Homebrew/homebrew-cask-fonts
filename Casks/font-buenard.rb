@@ -3,12 +3,10 @@ cask 'font-buenard' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/buenard',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Buenard'
   homepage 'https://fonts.google.com/specimen/Buenard'
 
-  font 'Buenard-Bold.ttf'
-  font 'Buenard-Regular.ttf'
+  font 'ofl/buenard/Buenard-Bold.ttf'
+  font 'ofl/buenard/Buenard-Regular.ttf'
 end

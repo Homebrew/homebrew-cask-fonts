@@ -3,13 +3,11 @@ cask 'font-old-standard-tt' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/oldstandardtt',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Old Standard TT'
   homepage 'https://fonts.google.com/specimen/Old+Standard+TT'
 
-  font 'OldStandard-Bold.ttf'
-  font 'OldStandard-Italic.ttf'
-  font 'OldStandard-Regular.ttf'
+  font 'ofl/oldstandardtt/OldStandard-Bold.ttf'
+  font 'ofl/oldstandardtt/OldStandard-Italic.ttf'
+  font 'ofl/oldstandardtt/OldStandard-Regular.ttf'
 end

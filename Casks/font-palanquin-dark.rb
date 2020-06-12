@@ -3,14 +3,12 @@ cask 'font-palanquin-dark' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/palanquindark',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Palanquin Dark'
   homepage 'https://fonts.google.com/specimen/Palanquin+Dark'
 
-  font 'PalanquinDark-Bold.ttf'
-  font 'PalanquinDark-Medium.ttf'
-  font 'PalanquinDark-Regular.ttf'
-  font 'PalanquinDark-SemiBold.ttf'
+  font 'ofl/palanquindark/PalanquinDark-Bold.ttf'
+  font 'ofl/palanquindark/PalanquinDark-Medium.ttf'
+  font 'ofl/palanquindark/PalanquinDark-Regular.ttf'
+  font 'ofl/palanquindark/PalanquinDark-SemiBold.ttf'
 end

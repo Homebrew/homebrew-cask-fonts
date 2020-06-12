@@ -3,12 +3,10 @@ cask 'font-sahitya' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/sahitya',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Sahitya'
   homepage 'https://fonts.google.com/specimen/Sahitya'
 
-  font 'Sahitya-Bold.ttf'
-  font 'Sahitya-Regular.ttf'
+  font 'ofl/sahitya/Sahitya-Bold.ttf'
+  font 'ofl/sahitya/Sahitya-Regular.ttf'
 end

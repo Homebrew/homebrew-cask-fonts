@@ -3,12 +3,10 @@ cask 'font-linden-hill' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/lindenhill',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Linden Hill'
   homepage 'https://fonts.google.com/specimen/Linden+Hill'
 
-  font 'LindenHill-Italic.ttf'
-  font 'LindenHill-Regular.ttf'
+  font 'ofl/lindenhill/LindenHill-Italic.ttf'
+  font 'ofl/lindenhill/LindenHill-Regular.ttf'
 end

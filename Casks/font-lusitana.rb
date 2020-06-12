@@ -3,12 +3,10 @@ cask 'font-lusitana' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/lusitana',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Lusitana'
   homepage 'https://fonts.google.com/specimen/Lusitana'
 
-  font 'Lusitana-Bold.ttf'
-  font 'Lusitana-Regular.ttf'
+  font 'ofl/lusitana/Lusitana-Bold.ttf'
+  font 'ofl/lusitana/Lusitana-Regular.ttf'
 end

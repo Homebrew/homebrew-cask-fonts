@@ -3,28 +3,26 @@ cask 'font-prompt' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/prompt',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Prompt'
   homepage 'https://fonts.google.com/specimen/Prompt'
 
-  font 'Prompt-Black.ttf'
-  font 'Prompt-BlackItalic.ttf'
-  font 'Prompt-Bold.ttf'
-  font 'Prompt-BoldItalic.ttf'
-  font 'Prompt-ExtraBold.ttf'
-  font 'Prompt-ExtraBoldItalic.ttf'
-  font 'Prompt-ExtraLight.ttf'
-  font 'Prompt-ExtraLightItalic.ttf'
-  font 'Prompt-Italic.ttf'
-  font 'Prompt-Light.ttf'
-  font 'Prompt-LightItalic.ttf'
-  font 'Prompt-Medium.ttf'
-  font 'Prompt-MediumItalic.ttf'
-  font 'Prompt-Regular.ttf'
-  font 'Prompt-SemiBold.ttf'
-  font 'Prompt-SemiBoldItalic.ttf'
-  font 'Prompt-Thin.ttf'
-  font 'Prompt-ThinItalic.ttf'
+  font 'ofl/prompt/Prompt-Black.ttf'
+  font 'ofl/prompt/Prompt-BlackItalic.ttf'
+  font 'ofl/prompt/Prompt-Bold.ttf'
+  font 'ofl/prompt/Prompt-BoldItalic.ttf'
+  font 'ofl/prompt/Prompt-ExtraBold.ttf'
+  font 'ofl/prompt/Prompt-ExtraBoldItalic.ttf'
+  font 'ofl/prompt/Prompt-ExtraLight.ttf'
+  font 'ofl/prompt/Prompt-ExtraLightItalic.ttf'
+  font 'ofl/prompt/Prompt-Italic.ttf'
+  font 'ofl/prompt/Prompt-Light.ttf'
+  font 'ofl/prompt/Prompt-LightItalic.ttf'
+  font 'ofl/prompt/Prompt-Medium.ttf'
+  font 'ofl/prompt/Prompt-MediumItalic.ttf'
+  font 'ofl/prompt/Prompt-Regular.ttf'
+  font 'ofl/prompt/Prompt-SemiBold.ttf'
+  font 'ofl/prompt/Prompt-SemiBoldItalic.ttf'
+  font 'ofl/prompt/Prompt-Thin.ttf'
+  font 'ofl/prompt/Prompt-ThinItalic.ttf'
 end

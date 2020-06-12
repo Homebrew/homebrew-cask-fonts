@@ -3,14 +3,12 @@ cask 'font-rambla' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/rambla',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Rambla'
   homepage 'https://fonts.google.com/specimen/Rambla'
 
-  font 'Rambla-Bold.ttf'
-  font 'Rambla-BoldItalic.ttf'
-  font 'Rambla-Italic.ttf'
-  font 'Rambla-Regular.ttf'
+  font 'ofl/rambla/Rambla-Bold.ttf'
+  font 'ofl/rambla/Rambla-BoldItalic.ttf'
+  font 'ofl/rambla/Rambla-Italic.ttf'
+  font 'ofl/rambla/Rambla-Regular.ttf'
 end

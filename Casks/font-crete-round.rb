@@ -3,12 +3,10 @@ cask 'font-crete-round' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/creteround',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Crete Round'
   homepage 'https://fonts.google.com/specimen/Crete+Round'
 
-  font 'CreteRound-Italic.ttf'
-  font 'CreteRound-Regular.ttf'
+  font 'ofl/creteround/CreteRound-Italic.ttf'
+  font 'ofl/creteround/CreteRound-Regular.ttf'
 end

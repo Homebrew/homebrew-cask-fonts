@@ -3,12 +3,10 @@ cask 'font-aref-ruqaa' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/arefruqaa',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Aref Ruqaa'
   homepage 'https://fonts.google.com/specimen/Aref+Ruqaa'
 
-  font 'ArefRuqaa-Bold.ttf'
-  font 'ArefRuqaa-Regular.ttf'
+  font 'ofl/arefruqaa/ArefRuqaa-Bold.ttf'
+  font 'ofl/arefruqaa/ArefRuqaa-Regular.ttf'
 end

@@ -3,28 +3,26 @@ cask 'font-barlow-condensed' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/barlowcondensed',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Barlow Condensed'
   homepage 'https://fonts.google.com/specimen/Barlow+Condensed'
 
-  font 'BarlowCondensed-Black.ttf'
-  font 'BarlowCondensed-BlackItalic.ttf'
-  font 'BarlowCondensed-Bold.ttf'
-  font 'BarlowCondensed-BoldItalic.ttf'
-  font 'BarlowCondensed-ExtraBold.ttf'
-  font 'BarlowCondensed-ExtraBoldItalic.ttf'
-  font 'BarlowCondensed-ExtraLight.ttf'
-  font 'BarlowCondensed-ExtraLightItalic.ttf'
-  font 'BarlowCondensed-Italic.ttf'
-  font 'BarlowCondensed-Light.ttf'
-  font 'BarlowCondensed-LightItalic.ttf'
-  font 'BarlowCondensed-Medium.ttf'
-  font 'BarlowCondensed-MediumItalic.ttf'
-  font 'BarlowCondensed-Regular.ttf'
-  font 'BarlowCondensed-SemiBold.ttf'
-  font 'BarlowCondensed-SemiBoldItalic.ttf'
-  font 'BarlowCondensed-Thin.ttf'
-  font 'BarlowCondensed-ThinItalic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-Black.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-BlackItalic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-Bold.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-BoldItalic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-ExtraBoldItalic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-ExtraLight.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-ExtraLightItalic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-Italic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-Light.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-LightItalic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-Medium.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-MediumItalic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-Regular.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-SemiBoldItalic.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-Thin.ttf'
+  font 'ofl/barlowcondensed/BarlowCondensed-ThinItalic.ttf'
 end

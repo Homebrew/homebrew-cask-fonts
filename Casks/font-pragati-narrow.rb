@@ -3,12 +3,10 @@ cask 'font-pragati-narrow' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/pragatinarrow',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Pragati Narrow'
   homepage 'https://fonts.google.com/specimen/Pragati+Narrow'
 
-  font 'PragatiNarrow-Bold.ttf'
-  font 'PragatiNarrow-Regular.ttf'
+  font 'ofl/pragatinarrow/PragatiNarrow-Bold.ttf'
+  font 'ofl/pragatinarrow/PragatiNarrow-Regular.ttf'
 end

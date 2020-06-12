@@ -3,12 +3,10 @@ cask 'font-sorts-mill-goudy' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/sortsmillgoudy',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Sorts Mill Goudy'
   homepage 'https://fonts.google.com/specimen/Sorts+Mill+Goudy'
 
-  font 'SortsMillGoudy-Italic.ttf'
-  font 'SortsMillGoudy-Regular.ttf'
+  font 'ofl/sortsmillgoudy/SortsMillGoudy-Italic.ttf'
+  font 'ofl/sortsmillgoudy/SortsMillGoudy-Regular.ttf'
 end

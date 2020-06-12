@@ -3,26 +3,24 @@ cask 'font-livvic' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/livvic',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Livvic'
   homepage 'https://fonts.google.com/specimen/Livvic'
 
-  font 'Livvic-Black.ttf'
-  font 'Livvic-BlackItalic.ttf'
-  font 'Livvic-Bold.ttf'
-  font 'Livvic-BoldItalic.ttf'
-  font 'Livvic-ExtraLight.ttf'
-  font 'Livvic-ExtraLightItalic.ttf'
-  font 'Livvic-Italic.ttf'
-  font 'Livvic-Light.ttf'
-  font 'Livvic-LightItalic.ttf'
-  font 'Livvic-Medium.ttf'
-  font 'Livvic-MediumItalic.ttf'
-  font 'Livvic-Regular.ttf'
-  font 'Livvic-SemiBold.ttf'
-  font 'Livvic-SemiBoldItalic.ttf'
-  font 'Livvic-Thin.ttf'
-  font 'Livvic-ThinItalic.ttf'
+  font 'ofl/livvic/Livvic-Black.ttf'
+  font 'ofl/livvic/Livvic-BlackItalic.ttf'
+  font 'ofl/livvic/Livvic-Bold.ttf'
+  font 'ofl/livvic/Livvic-BoldItalic.ttf'
+  font 'ofl/livvic/Livvic-ExtraLight.ttf'
+  font 'ofl/livvic/Livvic-ExtraLightItalic.ttf'
+  font 'ofl/livvic/Livvic-Italic.ttf'
+  font 'ofl/livvic/Livvic-Light.ttf'
+  font 'ofl/livvic/Livvic-LightItalic.ttf'
+  font 'ofl/livvic/Livvic-Medium.ttf'
+  font 'ofl/livvic/Livvic-MediumItalic.ttf'
+  font 'ofl/livvic/Livvic-Regular.ttf'
+  font 'ofl/livvic/Livvic-SemiBold.ttf'
+  font 'ofl/livvic/Livvic-SemiBoldItalic.ttf'
+  font 'ofl/livvic/Livvic-Thin.ttf'
+  font 'ofl/livvic/Livvic-ThinItalic.ttf'
 end

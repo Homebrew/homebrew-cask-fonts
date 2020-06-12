@@ -3,12 +3,10 @@ cask 'font-sedan' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/sedan',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Sedan'
   homepage 'https://fonts.google.com/specimen/Sedan'
 
-  font 'Sedan-Italic.ttf'
-  font 'Sedan-Regular.ttf'
+  font 'ofl/sedan/Sedan-Italic.ttf'
+  font 'ofl/sedan/Sedan-Regular.ttf'
 end

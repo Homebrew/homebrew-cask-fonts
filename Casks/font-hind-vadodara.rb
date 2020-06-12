@@ -3,15 +3,13 @@ cask 'font-hind-vadodara' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/hindvadodara',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Hind Vadodara'
   homepage 'https://fonts.google.com/specimen/Hind+Vadodara'
 
-  font 'HindVadodara-Bold.ttf'
-  font 'HindVadodara-Light.ttf'
-  font 'HindVadodara-Medium.ttf'
-  font 'HindVadodara-Regular.ttf'
-  font 'HindVadodara-SemiBold.ttf'
+  font 'ofl/hindvadodara/HindVadodara-Bold.ttf'
+  font 'ofl/hindvadodara/HindVadodara-Light.ttf'
+  font 'ofl/hindvadodara/HindVadodara-Medium.ttf'
+  font 'ofl/hindvadodara/HindVadodara-Regular.ttf'
+  font 'ofl/hindvadodara/HindVadodara-SemiBold.ttf'
 end

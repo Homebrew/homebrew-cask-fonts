@@ -3,12 +3,10 @@ cask 'font-amatica-sc' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/amaticasc',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Amatica SC'
   homepage 'https://fonts.google.com/specimen/Amatica+SC'
 
-  font 'AmaticaSC-Bold.ttf'
-  font 'AmaticaSC-Regular.ttf'
+  font 'ofl/amaticasc/AmaticaSC-Bold.ttf'
+  font 'ofl/amaticasc/AmaticaSC-Regular.ttf'
 end

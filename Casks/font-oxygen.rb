@@ -3,13 +3,11 @@ cask 'font-oxygen' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/oxygen',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Oxygen'
   homepage 'https://fonts.google.com/specimen/Oxygen'
 
-  font 'Oxygen-Bold.ttf'
-  font 'Oxygen-Light.ttf'
-  font 'Oxygen-Regular.ttf'
+  font 'ofl/oxygen/Oxygen-Bold.ttf'
+  font 'ofl/oxygen/Oxygen-Light.ttf'
+  font 'ofl/oxygen/Oxygen-Regular.ttf'
 end

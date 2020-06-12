@@ -3,12 +3,10 @@ cask 'font-oleo-script' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/oleoscript',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Oleo Script'
   homepage 'https://fonts.google.com/specimen/Oleo+Script'
 
-  font 'OleoScript-Bold.ttf'
-  font 'OleoScript-Regular.ttf'
+  font 'ofl/oleoscript/OleoScript-Bold.ttf'
+  font 'ofl/oleoscript/OleoScript-Regular.ttf'
 end

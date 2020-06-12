@@ -3,16 +3,14 @@ cask 'font-bellota' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/bellota',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Bellota'
   homepage 'https://fonts.google.com/specimen/Bellota'
 
-  font 'Bellota-Bold.ttf'
-  font 'Bellota-BoldItalic.ttf'
-  font 'Bellota-Italic.ttf'
-  font 'Bellota-Light.ttf'
-  font 'Bellota-LightItalic.ttf'
-  font 'Bellota-Regular.ttf'
+  font 'ofl/bellota/Bellota-Bold.ttf'
+  font 'ofl/bellota/Bellota-BoldItalic.ttf'
+  font 'ofl/bellota/Bellota-Italic.ttf'
+  font 'ofl/bellota/Bellota-Light.ttf'
+  font 'ofl/bellota/Bellota-LightItalic.ttf'
+  font 'ofl/bellota/Bellota-Regular.ttf'
 end

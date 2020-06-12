@@ -3,16 +3,14 @@ cask 'font-yaldevi-colombo' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/yaldevicolombo',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Yaldevi Colombo'
   homepage 'https://fonts.google.com/specimen/Yaldevi+Colombo'
 
-  font 'YaldeviColombo-Bold.ttf'
-  font 'YaldeviColombo-ExtraLight.ttf'
-  font 'YaldeviColombo-Light.ttf'
-  font 'YaldeviColombo-Medium.ttf'
-  font 'YaldeviColombo-Regular.ttf'
-  font 'YaldeviColombo-SemiBold.ttf'
+  font 'ofl/yaldevicolombo/YaldeviColombo-Bold.ttf'
+  font 'ofl/yaldevicolombo/YaldeviColombo-ExtraLight.ttf'
+  font 'ofl/yaldevicolombo/YaldeviColombo-Light.ttf'
+  font 'ofl/yaldevicolombo/YaldeviColombo-Medium.ttf'
+  font 'ofl/yaldevicolombo/YaldeviColombo-Regular.ttf'
+  font 'ofl/yaldevicolombo/YaldeviColombo-SemiBold.ttf'
 end

@@ -3,13 +3,11 @@ cask 'font-trochut' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/trochut',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Trochut'
   homepage 'https://fonts.google.com/specimen/Trochut'
 
-  font 'Trochut-Bold.ttf'
-  font 'Trochut-Italic.ttf'
-  font 'Trochut-Regular.ttf'
+  font 'ofl/trochut/Trochut-Bold.ttf'
+  font 'ofl/trochut/Trochut-Italic.ttf'
+  font 'ofl/trochut/Trochut-Regular.ttf'
 end

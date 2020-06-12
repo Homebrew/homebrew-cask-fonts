@@ -3,17 +3,15 @@ cask 'font-tajawal' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/tajawal',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Tajawal'
   homepage 'https://fonts.google.com/specimen/Tajawal'
 
-  font 'Tajawal-Black.ttf'
-  font 'Tajawal-Bold.ttf'
-  font 'Tajawal-ExtraBold.ttf'
-  font 'Tajawal-ExtraLight.ttf'
-  font 'Tajawal-Light.ttf'
-  font 'Tajawal-Medium.ttf'
-  font 'Tajawal-Regular.ttf'
+  font 'ofl/tajawal/Tajawal-Black.ttf'
+  font 'ofl/tajawal/Tajawal-Bold.ttf'
+  font 'ofl/tajawal/Tajawal-ExtraBold.ttf'
+  font 'ofl/tajawal/Tajawal-ExtraLight.ttf'
+  font 'ofl/tajawal/Tajawal-Light.ttf'
+  font 'ofl/tajawal/Tajawal-Medium.ttf'
+  font 'ofl/tajawal/Tajawal-Regular.ttf'
 end

@@ -3,14 +3,12 @@ cask 'font-amaranth' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/amaranth',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Amaranth'
   homepage 'https://fonts.google.com/specimen/Amaranth'
 
-  font 'Amaranth-Bold.ttf'
-  font 'Amaranth-BoldItalic.ttf'
-  font 'Amaranth-Italic.ttf'
-  font 'Amaranth-Regular.ttf'
+  font 'ofl/amaranth/Amaranth-Bold.ttf'
+  font 'ofl/amaranth/Amaranth-BoldItalic.ttf'
+  font 'ofl/amaranth/Amaranth-Italic.ttf'
+  font 'ofl/amaranth/Amaranth-Regular.ttf'
 end

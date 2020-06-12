@@ -3,28 +3,26 @@ cask 'font-trirong' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/trirong',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Trirong'
   homepage 'https://fonts.google.com/specimen/Trirong'
 
-  font 'Trirong-Black.ttf'
-  font 'Trirong-BlackItalic.ttf'
-  font 'Trirong-Bold.ttf'
-  font 'Trirong-BoldItalic.ttf'
-  font 'Trirong-ExtraBold.ttf'
-  font 'Trirong-ExtraBoldItalic.ttf'
-  font 'Trirong-ExtraLight.ttf'
-  font 'Trirong-ExtraLightItalic.ttf'
-  font 'Trirong-Italic.ttf'
-  font 'Trirong-Light.ttf'
-  font 'Trirong-LightItalic.ttf'
-  font 'Trirong-Medium.ttf'
-  font 'Trirong-MediumItalic.ttf'
-  font 'Trirong-Regular.ttf'
-  font 'Trirong-SemiBold.ttf'
-  font 'Trirong-SemiBoldItalic.ttf'
-  font 'Trirong-Thin.ttf'
-  font 'Trirong-ThinItalic.ttf'
+  font 'ofl/trirong/Trirong-Black.ttf'
+  font 'ofl/trirong/Trirong-BlackItalic.ttf'
+  font 'ofl/trirong/Trirong-Bold.ttf'
+  font 'ofl/trirong/Trirong-BoldItalic.ttf'
+  font 'ofl/trirong/Trirong-ExtraBold.ttf'
+  font 'ofl/trirong/Trirong-ExtraBoldItalic.ttf'
+  font 'ofl/trirong/Trirong-ExtraLight.ttf'
+  font 'ofl/trirong/Trirong-ExtraLightItalic.ttf'
+  font 'ofl/trirong/Trirong-Italic.ttf'
+  font 'ofl/trirong/Trirong-Light.ttf'
+  font 'ofl/trirong/Trirong-LightItalic.ttf'
+  font 'ofl/trirong/Trirong-Medium.ttf'
+  font 'ofl/trirong/Trirong-MediumItalic.ttf'
+  font 'ofl/trirong/Trirong-Regular.ttf'
+  font 'ofl/trirong/Trirong-SemiBold.ttf'
+  font 'ofl/trirong/Trirong-SemiBoldItalic.ttf'
+  font 'ofl/trirong/Trirong-Thin.ttf'
+  font 'ofl/trirong/Trirong-ThinItalic.ttf'
 end

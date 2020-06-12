@@ -3,13 +3,11 @@ cask 'font-gayathri' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/gayathri',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Gayathri'
   homepage 'https://fonts.google.com/specimen/Gayathri'
 
-  font 'Gayathri-Bold.ttf'
-  font 'Gayathri-Regular.ttf'
-  font 'Gayathri-Thin.ttf'
+  font 'ofl/gayathri/Gayathri-Bold.ttf'
+  font 'ofl/gayathri/Gayathri-Regular.ttf'
+  font 'ofl/gayathri/Gayathri-Thin.ttf'
 end

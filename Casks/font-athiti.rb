@@ -3,16 +3,14 @@ cask 'font-athiti' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/athiti',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Athiti'
   homepage 'https://fonts.google.com/specimen/Athiti'
 
-  font 'Athiti-Bold.ttf'
-  font 'Athiti-ExtraLight.ttf'
-  font 'Athiti-Light.ttf'
-  font 'Athiti-Medium.ttf'
-  font 'Athiti-Regular.ttf'
-  font 'Athiti-SemiBold.ttf'
+  font 'ofl/athiti/Athiti-Bold.ttf'
+  font 'ofl/athiti/Athiti-ExtraLight.ttf'
+  font 'ofl/athiti/Athiti-Light.ttf'
+  font 'ofl/athiti/Athiti-Medium.ttf'
+  font 'ofl/athiti/Athiti-Regular.ttf'
+  font 'ofl/athiti/Athiti-SemiBold.ttf'
 end

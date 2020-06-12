@@ -3,12 +3,10 @@ cask 'font-dm-serif-display' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/dmserifdisplay',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'DM Serif Display'
   homepage 'https://fonts.google.com/specimen/DM+Serif+Display'
 
-  font 'DMSerifDisplay-Italic.ttf'
-  font 'DMSerifDisplay-Regular.ttf'
+  font 'ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf'
+  font 'ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf'
 end

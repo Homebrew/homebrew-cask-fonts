@@ -3,17 +3,15 @@ cask 'font-martel' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/martel',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Martel'
   homepage 'https://fonts.google.com/specimen/Martel'
 
-  font 'Martel-Bold.ttf'
-  font 'Martel-DemiBold.ttf'
-  font 'Martel-ExtraBold.ttf'
-  font 'Martel-Heavy.ttf'
-  font 'Martel-Light.ttf'
-  font 'Martel-Regular.ttf'
-  font 'Martel-UltraLight.ttf'
+  font 'ofl/martel/Martel-Bold.ttf'
+  font 'ofl/martel/Martel-DemiBold.ttf'
+  font 'ofl/martel/Martel-ExtraBold.ttf'
+  font 'ofl/martel/Martel-Heavy.ttf'
+  font 'ofl/martel/Martel-Light.ttf'
+  font 'ofl/martel/Martel-Regular.ttf'
+  font 'ofl/martel/Martel-UltraLight.ttf'
 end

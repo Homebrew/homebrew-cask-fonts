@@ -3,15 +3,13 @@ cask 'font-eczar' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/eczar',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Eczar'
   homepage 'https://fonts.google.com/specimen/Eczar'
 
-  font 'Eczar-Bold.ttf'
-  font 'Eczar-ExtraBold.ttf'
-  font 'Eczar-Medium.ttf'
-  font 'Eczar-Regular.ttf'
-  font 'Eczar-SemiBold.ttf'
+  font 'ofl/eczar/Eczar-Bold.ttf'
+  font 'ofl/eczar/Eczar-ExtraBold.ttf'
+  font 'ofl/eczar/Eczar-Medium.ttf'
+  font 'ofl/eczar/Eczar-Regular.ttf'
+  font 'ofl/eczar/Eczar-SemiBold.ttf'
 end

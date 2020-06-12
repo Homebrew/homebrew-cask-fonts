@@ -3,13 +3,11 @@ cask 'font-tienne' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/tienne',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Tienne'
   homepage 'https://fonts.google.com/specimen/Tienne'
 
-  font 'Tienne-Black.ttf'
-  font 'Tienne-Bold.ttf'
-  font 'Tienne-Regular.ttf'
+  font 'ofl/tienne/Tienne-Black.ttf'
+  font 'ofl/tienne/Tienne-Bold.ttf'
+  font 'ofl/tienne/Tienne-Regular.ttf'
 end

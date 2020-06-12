@@ -3,21 +3,19 @@ cask 'font-titillium-web' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/titilliumweb',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Titillium Web'
   homepage 'https://fonts.google.com/specimen/Titillium+Web'
 
-  font 'TitilliumWeb-Black.ttf'
-  font 'TitilliumWeb-Bold.ttf'
-  font 'TitilliumWeb-BoldItalic.ttf'
-  font 'TitilliumWeb-ExtraLight.ttf'
-  font 'TitilliumWeb-ExtraLightItalic.ttf'
-  font 'TitilliumWeb-Italic.ttf'
-  font 'TitilliumWeb-Light.ttf'
-  font 'TitilliumWeb-LightItalic.ttf'
-  font 'TitilliumWeb-Regular.ttf'
-  font 'TitilliumWeb-SemiBold.ttf'
-  font 'TitilliumWeb-SemiBoldItalic.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-Black.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-Bold.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-BoldItalic.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-ExtraLight.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-ExtraLightItalic.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-Italic.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-Light.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-LightItalic.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-Regular.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-SemiBold.ttf'
+  font 'ofl/titilliumweb/TitilliumWeb-SemiBoldItalic.ttf'
 end

@@ -3,13 +3,11 @@ cask 'font-gudea' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/gudea',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Gudea'
   homepage 'https://fonts.google.com/specimen/Gudea'
 
-  font 'Gudea-Bold.ttf'
-  font 'Gudea-Italic.ttf'
-  font 'Gudea-Regular.ttf'
+  font 'ofl/gudea/Gudea-Bold.ttf'
+  font 'ofl/gudea/Gudea-Italic.ttf'
+  font 'ofl/gudea/Gudea-Regular.ttf'
 end

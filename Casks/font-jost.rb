@@ -3,12 +3,10 @@ cask 'font-jost' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/jost',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Jost'
   homepage 'https://fonts.google.com/specimen/Jost'
 
-  font 'Jost-Italic[wght].ttf'
-  font 'Jost[wght].ttf'
+  font 'ofl/jost/Jost-Italic[wght].ttf'
+  font 'ofl/jost/Jost[wght].ttf'
 end

@@ -3,12 +3,10 @@ cask 'font-srisakdi' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/srisakdi',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Srisakdi'
   homepage 'https://fonts.google.com/specimen/Srisakdi'
 
-  font 'Srisakdi-Bold.ttf'
-  font 'Srisakdi-Regular.ttf'
+  font 'ofl/srisakdi/Srisakdi-Bold.ttf'
+  font 'ofl/srisakdi/Srisakdi-Regular.ttf'
 end

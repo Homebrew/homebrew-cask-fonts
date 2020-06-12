@@ -3,12 +3,10 @@ cask 'font-montserrat-subrayada' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/montserratsubrayada',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Montserrat Subrayada'
   homepage 'https://fonts.google.com/specimen/Montserrat+Subrayada'
 
-  font 'MontserratSubrayada-Bold.ttf'
-  font 'MontserratSubrayada-Regular.ttf'
+  font 'ofl/montserratsubrayada/MontserratSubrayada-Bold.ttf'
+  font 'ofl/montserratsubrayada/MontserratSubrayada-Regular.ttf'
 end

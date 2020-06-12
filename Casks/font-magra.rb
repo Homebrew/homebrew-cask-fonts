@@ -3,12 +3,10 @@ cask 'font-magra' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/magra',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Magra'
   homepage 'https://fonts.google.com/specimen/Magra'
 
-  font 'Magra-Bold.ttf'
-  font 'Magra-Regular.ttf'
+  font 'ofl/magra/Magra-Bold.ttf'
+  font 'ofl/magra/Magra-Regular.ttf'
 end

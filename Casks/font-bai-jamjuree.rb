@@ -3,22 +3,20 @@ cask 'font-bai-jamjuree' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/baijamjuree',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Bai Jamjuree'
   homepage 'https://fonts.google.com/specimen/Bai+Jamjuree'
 
-  font 'BaiJamjuree-Bold.ttf'
-  font 'BaiJamjuree-BoldItalic.ttf'
-  font 'BaiJamjuree-ExtraLight.ttf'
-  font 'BaiJamjuree-ExtraLightItalic.ttf'
-  font 'BaiJamjuree-Italic.ttf'
-  font 'BaiJamjuree-Light.ttf'
-  font 'BaiJamjuree-LightItalic.ttf'
-  font 'BaiJamjuree-Medium.ttf'
-  font 'BaiJamjuree-MediumItalic.ttf'
-  font 'BaiJamjuree-Regular.ttf'
-  font 'BaiJamjuree-SemiBold.ttf'
-  font 'BaiJamjuree-SemiBoldItalic.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-Bold.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-BoldItalic.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-ExtraLight.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-ExtraLightItalic.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-Italic.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-Light.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-LightItalic.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-Medium.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-MediumItalic.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-Regular.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-SemiBold.ttf'
+  font 'ofl/baijamjuree/BaiJamjuree-SemiBoldItalic.ttf'
 end

@@ -3,12 +3,10 @@ cask 'font-manuale' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/manuale',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Manuale'
   homepage 'https://fonts.google.com/specimen/Manuale'
 
-  font 'Manuale-Italic[wght].ttf'
-  font 'Manuale[wght].ttf'
+  font 'ofl/manuale/Manuale-Italic[wght].ttf'
+  font 'ofl/manuale/Manuale[wght].ttf'
 end

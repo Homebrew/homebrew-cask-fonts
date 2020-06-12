@@ -3,15 +3,13 @@ cask 'font-solway' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/solway',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Solway'
   homepage 'https://fonts.google.com/specimen/Solway'
 
-  font 'Solway-Bold.ttf'
-  font 'Solway-ExtraBold.ttf'
-  font 'Solway-Light.ttf'
-  font 'Solway-Medium.ttf'
-  font 'Solway-Regular.ttf'
+  font 'ofl/solway/Solway-Bold.ttf'
+  font 'ofl/solway/Solway-ExtraBold.ttf'
+  font 'ofl/solway/Solway-Light.ttf'
+  font 'ofl/solway/Solway-Medium.ttf'
+  font 'ofl/solway/Solway-Regular.ttf'
 end

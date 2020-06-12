@@ -3,13 +3,11 @@ cask 'font-nanum-myeongjo' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/nanummyeongjo',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Nanum Myeongjo'
   homepage 'https://fonts.google.com/specimen/Nanum+Myeongjo'
 
-  font 'NanumMyeongjo-Bold.ttf'
-  font 'NanumMyeongjo-ExtraBold.ttf'
-  font 'NanumMyeongjo-Regular.ttf'
+  font 'ofl/nanummyeongjo/NanumMyeongjo-Bold.ttf'
+  font 'ofl/nanummyeongjo/NanumMyeongjo-ExtraBold.ttf'
+  font 'ofl/nanummyeongjo/NanumMyeongjo-Regular.ttf'
 end

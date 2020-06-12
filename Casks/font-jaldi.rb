@@ -3,12 +3,10 @@ cask 'font-jaldi' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/jaldi',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Jaldi'
   homepage 'https://fonts.google.com/specimen/Jaldi'
 
-  font 'Jaldi-Bold.ttf'
-  font 'Jaldi-Regular.ttf'
+  font 'ofl/jaldi/Jaldi-Bold.ttf'
+  font 'ofl/jaldi/Jaldi-Regular.ttf'
 end

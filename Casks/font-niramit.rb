@@ -3,22 +3,20 @@ cask 'font-niramit' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/niramit',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Niramit'
   homepage 'https://fonts.google.com/specimen/Niramit'
 
-  font 'Niramit-Bold.ttf'
-  font 'Niramit-BoldItalic.ttf'
-  font 'Niramit-ExtraLight.ttf'
-  font 'Niramit-ExtraLightItalic.ttf'
-  font 'Niramit-Italic.ttf'
-  font 'Niramit-Light.ttf'
-  font 'Niramit-LightItalic.ttf'
-  font 'Niramit-Medium.ttf'
-  font 'Niramit-MediumItalic.ttf'
-  font 'Niramit-Regular.ttf'
-  font 'Niramit-SemiBold.ttf'
-  font 'Niramit-SemiBoldItalic.ttf'
+  font 'ofl/niramit/Niramit-Bold.ttf'
+  font 'ofl/niramit/Niramit-BoldItalic.ttf'
+  font 'ofl/niramit/Niramit-ExtraLight.ttf'
+  font 'ofl/niramit/Niramit-ExtraLightItalic.ttf'
+  font 'ofl/niramit/Niramit-Italic.ttf'
+  font 'ofl/niramit/Niramit-Light.ttf'
+  font 'ofl/niramit/Niramit-LightItalic.ttf'
+  font 'ofl/niramit/Niramit-Medium.ttf'
+  font 'ofl/niramit/Niramit-MediumItalic.ttf'
+  font 'ofl/niramit/Niramit-Regular.ttf'
+  font 'ofl/niramit/Niramit-SemiBold.ttf'
+  font 'ofl/niramit/Niramit-SemiBoldItalic.ttf'
 end

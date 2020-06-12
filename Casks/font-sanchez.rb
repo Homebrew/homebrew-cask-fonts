@@ -3,12 +3,10 @@ cask 'font-sanchez' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/sanchez',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Sanchez'
   homepage 'https://fonts.google.com/specimen/Sanchez'
 
-  font 'Sanchez-Italic.ttf'
-  font 'Sanchez-Regular.ttf'
+  font 'ofl/sanchez/Sanchez-Italic.ttf'
+  font 'ofl/sanchez/Sanchez-Regular.ttf'
 end

@@ -3,14 +3,12 @@ cask 'font-b612-mono' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/b612mono',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'B612 Mono'
   homepage 'https://fonts.google.com/specimen/B612+Mono'
 
-  font 'B612Mono-Bold.ttf'
-  font 'B612Mono-BoldItalic.ttf'
-  font 'B612Mono-Italic.ttf'
-  font 'B612Mono-Regular.ttf'
+  font 'ofl/b612mono/B612Mono-Bold.ttf'
+  font 'ofl/b612mono/B612Mono-BoldItalic.ttf'
+  font 'ofl/b612mono/B612Mono-Italic.ttf'
+  font 'ofl/b612mono/B612Mono-Regular.ttf'
 end

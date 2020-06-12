@@ -3,12 +3,10 @@ cask 'font-inika' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/inika',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Inika'
   homepage 'https://fonts.google.com/specimen/Inika'
 
-  font 'Inika-Bold.ttf'
-  font 'Inika-Regular.ttf'
+  font 'ofl/inika/Inika-Bold.ttf'
+  font 'ofl/inika/Inika-Regular.ttf'
 end

@@ -3,14 +3,12 @@ cask 'font-almendra' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/almendra',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Almendra'
   homepage 'https://fonts.google.com/specimen/Almendra'
 
-  font 'Almendra-Bold.ttf'
-  font 'Almendra-BoldItalic.ttf'
-  font 'Almendra-Italic.ttf'
-  font 'Almendra-Regular.ttf'
+  font 'ofl/almendra/Almendra-Bold.ttf'
+  font 'ofl/almendra/Almendra-BoldItalic.ttf'
+  font 'ofl/almendra/Almendra-Italic.ttf'
+  font 'ofl/almendra/Almendra-Regular.ttf'
 end

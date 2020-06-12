@@ -3,14 +3,12 @@ cask 'font-arimo' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/apache/arimo',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Arimo'
   homepage 'https://fonts.google.com/specimen/Arimo'
 
-  font 'Arimo-Bold.ttf'
-  font 'Arimo-BoldItalic.ttf'
-  font 'Arimo-Italic.ttf'
-  font 'Arimo-Regular.ttf'
+  font 'apache/arimo/Arimo-Bold.ttf'
+  font 'apache/arimo/Arimo-BoldItalic.ttf'
+  font 'apache/arimo/Arimo-Italic.ttf'
+  font 'apache/arimo/Arimo-Regular.ttf'
 end

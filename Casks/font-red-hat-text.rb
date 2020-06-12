@@ -3,16 +3,14 @@ cask 'font-red-hat-text' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/redhattext',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Red Hat Text'
   homepage 'https://fonts.google.com/specimen/Red+Hat+Text'
 
-  font 'RedHatText-Bold.ttf'
-  font 'RedHatText-BoldItalic.ttf'
-  font 'RedHatText-Italic.ttf'
-  font 'RedHatText-Medium.ttf'
-  font 'RedHatText-MediumItalic.ttf'
-  font 'RedHatText-Regular.ttf'
+  font 'ofl/redhattext/RedHatText-Bold.ttf'
+  font 'ofl/redhattext/RedHatText-BoldItalic.ttf'
+  font 'ofl/redhattext/RedHatText-Italic.ttf'
+  font 'ofl/redhattext/RedHatText-Medium.ttf'
+  font 'ofl/redhattext/RedHatText-MediumItalic.ttf'
+  font 'ofl/redhattext/RedHatText-Regular.ttf'
 end

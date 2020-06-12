@@ -3,12 +3,10 @@ cask 'font-karla-tamil-upright' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/karlatamilupright',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Karla Tamil Upright'
   homepage 'https://fonts.google.com/specimen/Karla+Tamil+Upright'
 
-  font 'KarlaTamilUpright-Bold.ttf'
-  font 'KarlaTamilUpright-Regular.ttf'
+  font 'ofl/karlatamilupright/KarlaTamilUpright-Bold.ttf'
+  font 'ofl/karlatamilupright/KarlaTamilUpright-Regular.ttf'
 end

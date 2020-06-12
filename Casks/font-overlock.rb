@@ -3,16 +3,14 @@ cask 'font-overlock' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/overlock',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Overlock'
   homepage 'https://fonts.google.com/specimen/Overlock'
 
-  font 'Overlock-Black.ttf'
-  font 'Overlock-BlackItalic.ttf'
-  font 'Overlock-Bold.ttf'
-  font 'Overlock-BoldItalic.ttf'
-  font 'Overlock-Italic.ttf'
-  font 'Overlock-Regular.ttf'
+  font 'ofl/overlock/Overlock-Black.ttf'
+  font 'ofl/overlock/Overlock-BlackItalic.ttf'
+  font 'ofl/overlock/Overlock-Bold.ttf'
+  font 'ofl/overlock/Overlock-BoldItalic.ttf'
+  font 'ofl/overlock/Overlock-Italic.ttf'
+  font 'ofl/overlock/Overlock-Regular.ttf'
 end

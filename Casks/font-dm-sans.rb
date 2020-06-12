@@ -3,16 +3,14 @@ cask 'font-dm-sans' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/dmsans',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'DM Sans'
   homepage 'https://fonts.google.com/specimen/DM+Sans'
 
-  font 'DMSans-Bold.ttf'
-  font 'DMSans-BoldItalic.ttf'
-  font 'DMSans-Italic.ttf'
-  font 'DMSans-Medium.ttf'
-  font 'DMSans-MediumItalic.ttf'
-  font 'DMSans-Regular.ttf'
+  font 'ofl/dmsans/DMSans-Bold.ttf'
+  font 'ofl/dmsans/DMSans-BoldItalic.ttf'
+  font 'ofl/dmsans/DMSans-Italic.ttf'
+  font 'ofl/dmsans/DMSans-Medium.ttf'
+  font 'ofl/dmsans/DMSans-MediumItalic.ttf'
+  font 'ofl/dmsans/DMSans-Regular.ttf'
 end

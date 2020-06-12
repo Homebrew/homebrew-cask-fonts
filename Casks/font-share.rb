@@ -3,14 +3,12 @@ cask 'font-share' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/share',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Share'
   homepage 'https://fonts.google.com/specimen/Share'
 
-  font 'Share-Bold.ttf'
-  font 'Share-BoldItalic.ttf'
-  font 'Share-Italic.ttf'
-  font 'Share-Regular.ttf'
+  font 'ofl/share/Share-Bold.ttf'
+  font 'ofl/share/Share-BoldItalic.ttf'
+  font 'ofl/share/Share-Italic.ttf'
+  font 'ofl/share/Share-Regular.ttf'
 end

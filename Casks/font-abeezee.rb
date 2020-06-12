@@ -3,12 +3,10 @@ cask 'font-abeezee' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/abeezee',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'ABeeZee'
   homepage 'https://fonts.google.com/specimen/ABeeZee'
 
-  font 'ABeeZee-Italic.ttf'
-  font 'ABeeZee-Regular.ttf'
+  font 'ofl/abeezee/ABeeZee-Italic.ttf'
+  font 'ofl/abeezee/ABeeZee-Regular.ttf'
 end

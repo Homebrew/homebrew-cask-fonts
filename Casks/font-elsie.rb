@@ -3,12 +3,10 @@ cask 'font-elsie' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/elsie',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Elsie'
   homepage 'https://fonts.google.com/specimen/Elsie'
 
-  font 'Elsie-Black.ttf'
-  font 'Elsie-Regular.ttf'
+  font 'ofl/elsie/Elsie-Black.ttf'
+  font 'ofl/elsie/Elsie-Regular.ttf'
 end

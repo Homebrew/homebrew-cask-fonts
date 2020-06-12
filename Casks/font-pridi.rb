@@ -3,16 +3,14 @@ cask 'font-pridi' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/pridi',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Pridi'
   homepage 'https://fonts.google.com/specimen/Pridi'
 
-  font 'Pridi-Bold.ttf'
-  font 'Pridi-ExtraLight.ttf'
-  font 'Pridi-Light.ttf'
-  font 'Pridi-Medium.ttf'
-  font 'Pridi-Regular.ttf'
-  font 'Pridi-SemiBold.ttf'
+  font 'ofl/pridi/Pridi-Bold.ttf'
+  font 'ofl/pridi/Pridi-ExtraLight.ttf'
+  font 'ofl/pridi/Pridi-Light.ttf'
+  font 'ofl/pridi/Pridi-Medium.ttf'
+  font 'ofl/pridi/Pridi-Regular.ttf'
+  font 'ofl/pridi/Pridi-SemiBold.ttf'
 end

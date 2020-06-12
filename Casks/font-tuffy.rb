@@ -3,14 +3,12 @@ cask 'font-tuffy' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/tuffy',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Tuffy'
   homepage 'https://fonts.google.com/specimen/Tuffy'
 
-  font 'Tuffy-Bold.ttf'
-  font 'Tuffy-BoldItalic.ttf'
-  font 'Tuffy-Italic.ttf'
-  font 'Tuffy-Regular.ttf'
+  font 'ofl/tuffy/Tuffy-Bold.ttf'
+  font 'ofl/tuffy/Tuffy-BoldItalic.ttf'
+  font 'ofl/tuffy/Tuffy-Italic.ttf'
+  font 'ofl/tuffy/Tuffy-Regular.ttf'
 end

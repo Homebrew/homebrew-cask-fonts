@@ -3,14 +3,12 @@ cask 'font-caudex' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/caudex',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Caudex'
   homepage 'https://fonts.google.com/specimen/Caudex'
 
-  font 'Caudex-Bold.ttf'
-  font 'Caudex-BoldItalic.ttf'
-  font 'Caudex-Italic.ttf'
-  font 'Caudex-Regular.ttf'
+  font 'ofl/caudex/Caudex-Bold.ttf'
+  font 'ofl/caudex/Caudex-BoldItalic.ttf'
+  font 'ofl/caudex/Caudex-Italic.ttf'
+  font 'ofl/caudex/Caudex-Regular.ttf'
 end

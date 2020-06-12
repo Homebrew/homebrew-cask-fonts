@@ -3,15 +3,13 @@ cask 'font-bio-rhyme' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/biorhyme',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts.git'
   name 'Bio Rhyme'
   homepage 'https://fonts.google.com/specimen/Bio+Rhyme'
 
-  font 'BioRhyme-Bold.ttf'
-  font 'BioRhyme-ExtraBold.ttf'
-  font 'BioRhyme-ExtraLight.ttf'
-  font 'BioRhyme-Light.ttf'
-  font 'BioRhyme-Regular.ttf'
+  font 'ofl/biorhyme/BioRhyme-Bold.ttf'
+  font 'ofl/biorhyme/BioRhyme-ExtraBold.ttf'
+  font 'ofl/biorhyme/BioRhyme-ExtraLight.ttf'
+  font 'ofl/biorhyme/BioRhyme-Light.ttf'
+  font 'ofl/biorhyme/BioRhyme-Regular.ttf'
 end
