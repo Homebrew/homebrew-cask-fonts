@@ -5,6 +5,9 @@
 # Using Python rather than Ruby for the Protocol Buffer parser.
 # https://github.com/protocolbuffers/protobuf/issues/6508#issuecomment-522165498
 #
+# To install dependencies:
+#
+#   pip install gftools jinja2 protobuf
 
 from glob import glob
 import os
