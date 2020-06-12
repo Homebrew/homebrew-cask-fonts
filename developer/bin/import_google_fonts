@@ -33,7 +33,7 @@ class FontCask:
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url {% if files|length > 1 %}'https://github.com/google/fonts/trunk/{{folder}}',
       using:      :svn,
-      trust_cert: true{% else %}'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0]}}'{% endif %}
+      trust_cert: true{% else %}'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}'{% endif %}
   name '{{font_name}}'
   homepage 'https://fonts.google.com/specimen/{{name_path}}'
 {% for file in files %}

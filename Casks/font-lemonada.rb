@@ -3,7 +3,7 @@ cask 'font-lemonada' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/lemonada/Lemonada[wght].ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/lemonada/Lemonada%5Bwght%5D.ttf'
   name 'Lemonada'
   homepage 'https://fonts.google.com/specimen/Lemonada'
 

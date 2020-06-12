@@ -3,7 +3,7 @@ cask 'font-podkova' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/podkova/Podkova[wght].ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/podkova/Podkova%5Bwght%5D.ttf'
   name 'Podkova'
   homepage 'https://fonts.google.com/specimen/Podkova'
 

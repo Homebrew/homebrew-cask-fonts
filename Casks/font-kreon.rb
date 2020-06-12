@@ -3,7 +3,7 @@ cask 'font-kreon' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/kreon/Kreon[wght].ttf'
+  url 'https://github.com/google/fonts/raw/master/ofl/kreon/Kreon%5Bwght%5D.ttf'
   name 'Kreon'
   homepage 'https://fonts.google.com/specimen/Kreon'
 
