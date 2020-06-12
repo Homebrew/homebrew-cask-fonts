@@ -6,7 +6,7 @@
 # https://github.com/protocolbuffers/protobuf/issues/6508#issuecomment-522165498
 #
 
-import glob
+from glob import glob
 import os
 import re
 import sys
@@ -24,8 +24,9 @@ def parse_metadata(filename):
         return meta
 
 
-TEMPLATE = Template(
-    """cask '{{cask_name}}' do
+class FontCask:
+    TEMPLATE = Template(
+        """cask '{{cask_name}}' do
   version :latest
   sha256 :no_check
 
@@ -33,14 +34,48 @@ TEMPLATE = Template(
   url {% if files|length > 1 %}'https://github.com/google/fonts/trunk/{{folder}}',
       using:      :svn,
       trust_cert: true{% else %}'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0]}}'{% endif %}
-  name '{{name}}'
+  name '{{font_name}}'
   homepage 'https://fonts.google.com/specimen/{{name_path}}'
 {% for file in files %}
   font '{{file}}'{% endfor %}
 end
 
 """
-)
+    )
+
+    def __init__(self, folder, meta_file):
+        self.folder = folder
+        self.meta = parse_metadata(meta_file)
+
+    def font_name(self):
+        return self.meta.name
+
+    def token(self):
+        # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/CONTRIBUTING.md#converting-the-canonical-name-to-a-token
+        return self.font_name().lower().replace(" ", "-")
+
+    def cask_name(self):
+        return f"font-{self.token()}"
+
+    def dest_path(self):
+        return os.path.join("Casks", f"{self.cask_name()}.rb")
+
+    def name_path(self):
+        return self.font_name().replace(" ", "+")
+
+    def files(self):
+        results = [font.filename for font in self.meta.fonts]
+        results.sort()
+        return results
+
+    def cask_content(self):
+        return self.TEMPLATE.render(
+            cask_name=self.cask_name(),
+            folder=self.folder,
+            font_name=self.font_name(),
+            name_path=self.name_path(),
+            files=self.files(),
+        )
 
 
 def is_other_foundry(cask_path):
@@ -63,30 +98,14 @@ def should_skip(cask_path):
 
 
 def metadata_to_cask(meta_file, repo_dir):
-    meta = parse_metadata(meta_file)
+    folder = os.path.dirname(os.path.relpath(meta_file, start=repo_dir))
+    cask = FontCask(folder, meta_file)
 
-    name = meta.name
-    # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/CONTRIBUTING.md#converting-the-canonical-name-to-a-token
-    token = name.lower().replace(" ", "-")
-    cask_name = f"font-{token}"
-
-    cask_path = os.path.join("Casks", f"{cask_name}.rb")
-    if should_skip(cask_path):
+    if should_skip(cask.dest_path()):
         return
 
-    folder = os.path.dirname(os.path.relpath(meta_file, start=repo_dir))
-    name_path = name.replace(" ", "+")
-
-
-    files = [font.filename for font in meta.fonts]
-    files.sort()
-
-    content = TEMPLATE.render(
-        cask_name=cask_name, folder=folder, name=name, name_path=name_path, files=files,
-    )
-
-    with open(cask_path, "w") as f:
-        f.write(content)
+    with open(cask.dest_path(), "w") as f:
+        f.write(cask.cask_content())
 
 
 def run():
@@ -100,9 +119,10 @@ def run():
         sys.exit(1)
 
     repo_dir = sys.argv[1]
-    meta_files = glob.glob(os.path.join(repo_dir, "**", "METADATA.pb"), recursive=True)
+    meta_files = glob(os.path.join(repo_dir, "*", "*", "METADATA.pb"), recursive=True)
 
     for meta_file in meta_files:
         metadata_to_cask(meta_file, repo_dir)
+
 
 run()
