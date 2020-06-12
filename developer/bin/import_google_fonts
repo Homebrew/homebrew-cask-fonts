@@ -101,18 +101,25 @@ def metadata_to_cask(meta_file, repo_dir):
         f.write(cask.cask_content())
 
 
+def delete_google_casks():
+    os.system("grep -rEl 'fonts.google.com|google.com/fonts' Casks | xargs rm")
+
+
 def run():
     if len(sys.argv) != 2:
         print(
             """Usage: ./import_google_fonts <path-to-repo>
 
-    Download the or clone the repository from https://github.com/google/fonts, then provide the path to the script.
+Download the or clone the repository from https://github.com/google/fonts, then provide the path to the script.
     """
         )
         sys.exit(1)
 
     repo_dir = sys.argv[1]
     meta_files = glob(os.path.join(repo_dir, "*", "*", "METADATA.pb"), recursive=True)
+
+    # since the valid font Casks will be regenerated anyway, delete all of them first to ensure any fonts removed from Google are cleaned up
+    delete_google_casks()
 
     for meta_file in meta_files:
         metadata_to_cask(meta_file, repo_dir)
