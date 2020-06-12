@@ -5,12 +5,9 @@ cask 'font-playfair-display-sc' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/playfairdisplaysc',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Playfair Display SC'
-  homepage 'https://www.google.com/fonts/specimen/Playfair%20Display%20SC'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Playfair+Display+SC'
 
   font 'PlayfairDisplaySC-Black.ttf'
   font 'PlayfairDisplaySC-BlackItalic.ttf'

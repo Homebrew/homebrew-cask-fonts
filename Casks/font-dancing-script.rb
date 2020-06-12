@@ -3,15 +3,9 @@ cask 'font-dancing-script' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/dancingscript',
-      using:      :svn,
-      revision:   '50',
-      trust_cert: true
+  url 'https://github.com/google/fonts/raw/master/ofl/dancingscript/DancingScript[wght].ttf'
   name 'Dancing Script'
-  homepage 'https://www.google.com/fonts/specimen/Dancing%20Script'
+  homepage 'https://fonts.google.com/specimen/Dancing+Script'
 
-  depends_on macos: '>= :sierra'
-
-  font 'DancingScript-Bold.ttf'
-  font 'DancingScript-Regular.ttf'
+  font 'DancingScript[wght].ttf'
 end

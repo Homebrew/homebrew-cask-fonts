@@ -5,12 +5,9 @@ cask 'font-corben' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/corben',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Corben'
-  homepage 'https://www.google.com/fonts/specimen/Corben'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Corben'
 
   font 'Corben-Bold.ttf'
   font 'Corben-Regular.ttf'

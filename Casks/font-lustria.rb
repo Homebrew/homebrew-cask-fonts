@@ -5,7 +5,7 @@ cask 'font-lustria' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/lustria/Lustria-Regular.ttf'
   name 'Lustria'
-  homepage 'https://www.google.com/fonts/specimen/Lustria'
+  homepage 'https://fonts.google.com/specimen/Lustria'
 
   font 'Lustria-Regular.ttf'
 end

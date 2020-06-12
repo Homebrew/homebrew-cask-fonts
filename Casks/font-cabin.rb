@@ -5,12 +5,9 @@ cask 'font-cabin' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/cabin',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Cabin'
-  homepage 'https://www.google.com/fonts/specimen/Cabin'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Cabin'
 
   font 'Cabin-Bold.ttf'
   font 'Cabin-BoldItalic.ttf'

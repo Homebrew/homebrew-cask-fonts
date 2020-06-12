@@ -5,7 +5,7 @@ cask 'font-mrs-sheppards' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/mrssheppards/MrsSheppards-Regular.ttf'
   name 'Mrs Sheppards'
-  homepage 'https://www.google.com/fonts/specimen/Mrs+Sheppards'
+  homepage 'https://fonts.google.com/specimen/Mrs+Sheppards'
 
   font 'MrsSheppards-Regular.ttf'
 end

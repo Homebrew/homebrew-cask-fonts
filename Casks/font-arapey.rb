@@ -5,12 +5,9 @@ cask 'font-arapey' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/arapey',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Arapey'
-  homepage 'https://www.google.com/fonts/specimen/Arapey'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Arapey'
 
   font 'Arapey-Italic.ttf'
   font 'Arapey-Regular.ttf'

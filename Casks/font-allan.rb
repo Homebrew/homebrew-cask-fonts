@@ -5,12 +5,9 @@ cask 'font-allan' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/allan',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Allan'
-  homepage 'https://www.google.com/fonts/specimen/Allan'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Allan'
 
   font 'Allan-Bold.ttf'
   font 'Allan-Regular.ttf'

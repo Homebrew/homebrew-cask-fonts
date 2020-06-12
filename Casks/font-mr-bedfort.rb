@@ -5,7 +5,7 @@ cask 'font-mr-bedfort' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/mrbedfort/MrBedfort-Regular.ttf'
   name 'Mr Bedfort'
-  homepage 'https://www.google.com/fonts/specimen/Mr+Bedfort'
+  homepage 'https://fonts.google.com/specimen/Mr+Bedfort'
 
   font 'MrBedfort-Regular.ttf'
 end

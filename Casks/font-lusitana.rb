@@ -5,12 +5,9 @@ cask 'font-lusitana' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/lusitana',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Lusitana'
-  homepage 'https://www.google.com/fonts/specimen/Lusitana'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Lusitana'
 
   font 'Lusitana-Bold.ttf'
   font 'Lusitana-Regular.ttf'

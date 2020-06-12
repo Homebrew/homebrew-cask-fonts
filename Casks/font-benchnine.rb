@@ -5,12 +5,9 @@ cask 'font-benchnine' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/benchnine',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'BenchNine'
-  homepage 'https://www.google.com/fonts/specimen/BenchNine'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/BenchNine'
 
   font 'BenchNine-Bold.ttf'
   font 'BenchNine-Light.ttf'

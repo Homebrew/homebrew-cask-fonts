@@ -5,15 +5,12 @@ cask 'font-cousine' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/apache/cousine',
       using:      :svn,
-      revision:   '47',
       trust_cert: true
   name 'Cousine'
-  homepage 'https://www.google.com/fonts/specimen/Cousine'
+  homepage 'https://fonts.google.com/specimen/Cousine'
 
-  depends_on macos: '>= :sierra'
-
-  font 'Cousine-Regular.ttf'
   font 'Cousine-Bold.ttf'
   font 'Cousine-BoldItalic.ttf'
   font 'Cousine-Italic.ttf'
+  font 'Cousine-Regular.ttf'
 end

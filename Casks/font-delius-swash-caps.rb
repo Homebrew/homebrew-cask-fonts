@@ -5,7 +5,7 @@ cask 'font-delius-swash-caps' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/deliusswashcaps/DeliusSwashCaps-Regular.ttf'
   name 'Delius Swash Caps'
-  homepage 'https://www.google.com/fonts/specimen/Delius+Swash+Caps'
+  homepage 'https://fonts.google.com/specimen/Delius+Swash+Caps'
 
   font 'DeliusSwashCaps-Regular.ttf'
 end

@@ -5,12 +5,9 @@ cask 'font-nokora' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/apache/nokora',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Nokora'
-  homepage 'https://www.google.com/fonts/specimen/Nokora'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Nokora'
 
   font 'Nokora-Bold.ttf'
   font 'Nokora-Regular.ttf'

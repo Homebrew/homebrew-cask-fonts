@@ -5,12 +5,9 @@ cask 'font-kameron' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/kameron',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Kameron'
-  homepage 'https://www.google.com/fonts/specimen/Kameron'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Kameron'
 
   font 'Kameron-Bold.ttf'
   font 'Kameron-Regular.ttf'

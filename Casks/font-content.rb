@@ -5,12 +5,9 @@ cask 'font-content' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/content',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Content'
-  homepage 'https://www.google.com/fonts/specimen/Content'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Content'
 
   font 'Content-Bold.ttf'
   font 'Content-Regular.ttf'

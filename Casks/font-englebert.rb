@@ -5,7 +5,7 @@ cask 'font-englebert' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/englebert/Englebert-Regular.ttf'
   name 'Englebert'
-  homepage 'https://www.google.com/fonts/specimen/Englebert'
+  homepage 'https://fonts.google.com/specimen/Englebert'
 
   font 'Englebert-Regular.ttf'
 end

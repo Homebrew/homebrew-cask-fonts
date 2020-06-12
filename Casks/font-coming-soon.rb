@@ -5,7 +5,7 @@ cask 'font-coming-soon' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/comingsoon/ComingSoon-Regular.ttf'
   name 'Coming Soon'
-  homepage 'https://www.google.com/fonts/specimen/Coming%20Soon'
+  homepage 'https://fonts.google.com/specimen/Coming+Soon'
 
   font 'ComingSoon-Regular.ttf'
 end

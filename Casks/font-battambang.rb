@@ -5,12 +5,9 @@ cask 'font-battambang' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/battambang',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Battambang'
-  homepage 'https://www.google.com/fonts/specimen/Battambang'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Battambang'
 
   font 'Battambang-Bold.ttf'
   font 'Battambang-Regular.ttf'

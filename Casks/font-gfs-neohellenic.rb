@@ -5,12 +5,9 @@ cask 'font-gfs-neohellenic' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/gfsneohellenic',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'GFS Neohellenic'
-  homepage 'https://www.google.com/fonts/specimen/GFS%20Neohellenic'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/GFS+Neohellenic'
 
   font 'GFSNeohellenic.ttf'
   font 'GFSNeohellenicBold.ttf'

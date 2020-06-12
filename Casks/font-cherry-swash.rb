@@ -5,12 +5,9 @@ cask 'font-cherry-swash' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/cherryswash',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Cherry Swash'
-  homepage 'https://www.google.com/fonts/specimen/Cherry%20Swash'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Cherry+Swash'
 
   font 'CherrySwash-Bold.ttf'
   font 'CherrySwash-Regular.ttf'

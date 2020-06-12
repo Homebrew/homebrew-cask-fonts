@@ -5,12 +5,9 @@ cask 'font-mate' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/mate',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Mate'
-  homepage 'https://www.google.com/fonts/specimen/Mate'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Mate'
 
   font 'Mate-Italic.ttf'
   font 'Mate-Regular.ttf'

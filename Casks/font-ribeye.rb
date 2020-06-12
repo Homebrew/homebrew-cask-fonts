@@ -5,7 +5,7 @@ cask 'font-ribeye' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/ribeye/Ribeye-Regular.ttf'
   name 'Ribeye'
-  homepage 'https://www.google.com/fonts/specimen/Ribeye'
+  homepage 'https://fonts.google.com/specimen/Ribeye'
 
   font 'Ribeye-Regular.ttf'
 end

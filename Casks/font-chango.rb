@@ -5,7 +5,7 @@ cask 'font-chango' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/chango/Chango-Regular.ttf'
   name 'Chango'
-  homepage 'https://www.google.com/fonts/specimen/Chango'
+  homepage 'https://fonts.google.com/specimen/Chango'
 
   font 'Chango-Regular.ttf'
 end

@@ -5,12 +5,9 @@ cask 'font-istok-web' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/istokweb',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Istok Web'
-  homepage 'https://www.google.com/fonts/specimen/Istok%20Web'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Istok+Web'
 
   font 'IstokWeb-Bold.ttf'
   font 'IstokWeb-BoldItalic.ttf'

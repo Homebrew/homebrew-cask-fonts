@@ -5,12 +5,9 @@ cask 'font-oxygen' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/oxygen',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Oxygen'
-  homepage 'https://www.google.com/fonts/specimen/Oxygen'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Oxygen'
 
   font 'Oxygen-Bold.ttf'
   font 'Oxygen-Light.ttf'

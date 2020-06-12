@@ -5,12 +5,9 @@ cask 'font-open-sans' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/apache/opensans',
       using:      :svn,
-      revision:   '48',
       trust_cert: true
-  name 'Open+Sans'
-  homepage 'https://www.google.com/fonts/specimen/Open+Sans'
-
-  depends_on macos: '>= :sierra'
+  name 'Open Sans'
+  homepage 'https://fonts.google.com/specimen/Open+Sans'
 
   font 'OpenSans-Bold.ttf'
   font 'OpenSans-BoldItalic.ttf'
@@ -20,6 +17,6 @@ cask 'font-open-sans' do
   font 'OpenSans-Light.ttf'
   font 'OpenSans-LightItalic.ttf'
   font 'OpenSans-Regular.ttf'
-  font 'OpenSans-Semibold.ttf'
-  font 'OpenSans-SemiboldItalic.ttf'
+  font 'OpenSans-SemiBold.ttf'
+  font 'OpenSans-SemiBoldItalic.ttf'
 end

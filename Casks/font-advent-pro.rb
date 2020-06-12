@@ -5,12 +5,9 @@ cask 'font-advent-pro' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/adventpro',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Advent Pro'
-  homepage 'https://www.google.com/fonts/specimen/Advent%20Pro'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Advent+Pro'
 
   font 'AdventPro-Bold.ttf'
   font 'AdventPro-ExtraLight.ttf'

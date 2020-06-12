@@ -5,7 +5,7 @@ cask 'font-asset' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/asset/Asset-Regular.ttf'
   name 'Asset'
-  homepage 'https://www.google.com/fonts/specimen/Asset'
+  homepage 'https://fonts.google.com/specimen/Asset'
 
   font 'Asset-Regular.ttf'
 end

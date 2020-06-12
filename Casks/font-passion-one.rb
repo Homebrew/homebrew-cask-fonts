@@ -5,12 +5,9 @@ cask 'font-passion-one' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/passionone',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Passion One'
-  homepage 'https://www.google.com/fonts/specimen/Passion%20One'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Passion+One'
 
   font 'PassionOne-Black.ttf'
   font 'PassionOne-Bold.ttf'

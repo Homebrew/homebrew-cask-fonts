@@ -5,12 +5,9 @@ cask 'font-libre-baskerville' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/librebaskerville',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Libre Baskerville'
-  homepage 'https://www.google.com/fonts/specimen/Libre%20Baskerville'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Libre+Baskerville'
 
   font 'LibreBaskerville-Bold.ttf'
   font 'LibreBaskerville-Italic.ttf'

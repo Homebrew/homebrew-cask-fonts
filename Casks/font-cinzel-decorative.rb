@@ -5,12 +5,9 @@ cask 'font-cinzel-decorative' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/cinzeldecorative',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Cinzel Decorative'
-  homepage 'https://www.google.com/fonts/specimen/Cinzel%20Decorative'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Cinzel+Decorative'
 
   font 'CinzelDecorative-Black.ttf'
   font 'CinzelDecorative-Bold.ttf'

@@ -7,22 +7,8 @@ cask 'font-muli' do
       using:      :svn,
       trust_cert: true
   name 'Muli'
-  homepage 'https://www.google.com/fonts/specimen/Muli'
+  homepage 'https://fonts.google.com/specimen/Muli'
 
-  depends_on macos: '>= :sierra'
-
-  font 'static/Muli-Black.ttf'
-  font 'static/Muli-BlackItalic.ttf'
-  font 'static/Muli-Bold.ttf'
-  font 'static/Muli-BoldItalic.ttf'
-  font 'static/Muli-ExtraBold.ttf'
-  font 'static/Muli-ExtraBoldItalic.ttf'
-  font 'static/Muli-ExtraLight.ttf'
-  font 'static/Muli-ExtraLightItalic.ttf'
-  font 'static/Muli-Italic.ttf'
-  font 'static/Muli-Light.ttf'
-  font 'static/Muli-LightItalic.ttf'
-  font 'static/Muli-Regular.ttf'
-  font 'static/Muli-SemiBold.ttf'
-  font 'static/Muli-SemiBoldItalic.ttf'
+  font 'Muli-Italic[wght].ttf'
+  font 'Muli[wght].ttf'
 end

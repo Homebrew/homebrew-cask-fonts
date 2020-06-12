@@ -5,14 +5,11 @@ cask 'font-open-sans-condensed' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/apache/opensanscondensed',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Open Sans Condensed'
-  homepage 'https://www.google.com/fonts/specimen/Open%20Sans%20Condensed'
+  homepage 'https://fonts.google.com/specimen/Open+Sans+Condensed'
 
-  depends_on macos: '>= :sierra'
-
-  font 'OpenSans-CondBold.ttf'
-  font 'OpenSans-CondLight.ttf'
-  font 'OpenSans-CondLightItalic.ttf'
+  font 'OpenSansCondensed-Bold.ttf'
+  font 'OpenSansCondensed-Light.ttf'
+  font 'OpenSansCondensed-LightItalic.ttf'
 end

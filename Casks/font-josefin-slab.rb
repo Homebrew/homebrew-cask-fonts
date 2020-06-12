@@ -5,12 +5,9 @@ cask 'font-josefin-slab' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/josefinslab',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Josefin Slab'
-  homepage 'https://www.google.com/fonts/specimen/Josefin%20Slab'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Josefin+Slab'
 
   font 'JosefinSlab-Bold.ttf'
   font 'JosefinSlab-BoldItalic.ttf'

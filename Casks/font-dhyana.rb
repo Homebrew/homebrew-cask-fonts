@@ -5,12 +5,9 @@ cask 'font-dhyana' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/dhyana',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Dhyana'
-  homepage 'https://www.google.com/fonts/earlyaccess'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Dhyana'
 
   font 'Dhyana-Bold.ttf'
   font 'Dhyana-Regular.ttf'

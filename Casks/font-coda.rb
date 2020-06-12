@@ -5,13 +5,10 @@ cask 'font-coda' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/coda',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Coda'
-  homepage 'https://www.google.com/fonts/specimen/Coda'
+  homepage 'https://fonts.google.com/specimen/Coda'
 
-  depends_on macos: '>= :sierra'
-
-  font 'Coda-Heavy.ttf'
+  font 'Coda-ExtraBold.ttf'
   font 'Coda-Regular.ttf'
 end

@@ -5,12 +5,9 @@ cask 'font-padauk' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/padauk',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Padauk'
-  homepage 'https://www.google.com/fonts/earlyaccess'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Padauk'
 
   font 'Padauk-Bold.ttf'
   font 'Padauk-Regular.ttf'

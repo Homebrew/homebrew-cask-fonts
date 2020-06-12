@@ -5,7 +5,7 @@ cask 'font-antic' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/antic/Antic-Regular.ttf'
   name 'Antic'
-  homepage 'https://www.google.com/fonts/specimen/Antic'
+  homepage 'https://fonts.google.com/specimen/Antic'
 
   font 'Antic-Regular.ttf'
 end

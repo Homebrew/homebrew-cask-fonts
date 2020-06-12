@@ -5,12 +5,9 @@ cask 'font-simonetta' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/simonetta',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Simonetta'
-  homepage 'https://www.google.com/fonts/specimen/Simonetta'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Simonetta'
 
   font 'Simonetta-Black.ttf'
   font 'Simonetta-BlackItalic.ttf'

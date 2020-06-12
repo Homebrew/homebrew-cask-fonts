@@ -5,21 +5,10 @@ cask 'font-josefin-sans' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/josefinsans',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Josefin Sans'
-  homepage 'https://www.google.com/fonts/specimen/Josefin%20Sans'
+  homepage 'https://fonts.google.com/specimen/Josefin+Sans'
 
-  depends_on macos: '>= :sierra'
-
-  font 'JosefinSans-Bold.ttf'
-  font 'JosefinSans-BoldItalic.ttf'
-  font 'JosefinSans-Italic.ttf'
-  font 'JosefinSans-Light.ttf'
-  font 'JosefinSans-LightItalic.ttf'
-  font 'JosefinSans-Regular.ttf'
-  font 'JosefinSans-SemiBold.ttf'
-  font 'JosefinSans-SemiBoldItalic.ttf'
-  font 'JosefinSans-Thin.ttf'
-  font 'JosefinSans-ThinItalic.ttf'
+  font 'JosefinSans-Italic[wght].ttf'
+  font 'JosefinSans[wght].ttf'
 end

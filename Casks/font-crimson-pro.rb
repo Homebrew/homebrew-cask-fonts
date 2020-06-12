@@ -7,10 +7,8 @@ cask 'font-crimson-pro' do
       using:      :svn,
       trust_cert: true
   name 'Crimson Pro'
-  homepage 'https://www.google.com/fonts/specimen/Crimson%20Pro'
+  homepage 'https://fonts.google.com/specimen/Crimson+Pro'
 
-  depends_on macos: '>= :sierra'
-
-  font 'CrimsonPro[wght].ttf'
   font 'CrimsonPro-Italic[wght].ttf'
+  font 'CrimsonPro[wght].ttf'
 end

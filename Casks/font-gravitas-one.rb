@@ -3,14 +3,9 @@ cask 'font-gravitas-one' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/gravitasone',
-      using:      :svn,
-      revision:   '50',
-      trust_cert: true
+  url 'https://github.com/google/fonts/raw/master/ofl/gravitasone/GravitasOne.ttf'
   name 'Gravitas One'
-  homepage 'https://www.google.com/fonts/specimen/Gravitas%20One'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Gravitas+One'
 
   font 'GravitasOne.ttf'
 end
