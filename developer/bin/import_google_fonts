@@ -62,7 +62,9 @@ def should_skip(cask_path):
     return False
 
 
-def metadata_to_cask(meta, repo_dir):
+def metadata_to_cask(meta_file, repo_dir):
+    meta = parse_metadata(meta_file)
+
     name = meta.name
     # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/CONTRIBUTING.md#converting-the-canonical-name-to-a-token
     token = name.lower().replace(" ", "-")
@@ -75,6 +77,7 @@ def metadata_to_cask(meta, repo_dir):
     folder = os.path.dirname(os.path.relpath(meta_file, start=repo_dir))
     name_path = name.replace(" ", "+")
 
+
     files = [font.filename for font in meta.fonts]
     files.sort()
 
@@ -86,18 +89,20 @@ def metadata_to_cask(meta, repo_dir):
         f.write(content)
 
 
-if len(sys.argv) != 2:
-    print(
-        """Usage: ./import_google_fonts <path-to-repo>
+def run():
+    if len(sys.argv) != 2:
+        print(
+            """Usage: ./import_google_fonts <path-to-repo>
 
-Download the or clone the repository from https://github.com/google/fonts, then provide the path to the script.
-"""
-    )
-    sys.exit(1)
+    Download the or clone the repository from https://github.com/google/fonts, then provide the path to the script.
+    """
+        )
+        sys.exit(1)
 
-repo_dir = sys.argv[1]
-meta_files = glob.glob(os.path.join(repo_dir, "**", "METADATA.pb"), recursive=True)
+    repo_dir = sys.argv[1]
+    meta_files = glob.glob(os.path.join(repo_dir, "**", "METADATA.pb"), recursive=True)
 
-for meta_file in meta_files:
-    meta = parse_metadata(meta_file)
-    metadata_to_cask(meta, repo_dir)
+    for meta_file in meta_files:
+        metadata_to_cask(meta_file, repo_dir)
+
+run()
