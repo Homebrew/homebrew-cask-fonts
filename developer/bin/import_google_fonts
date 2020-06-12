@@ -15,7 +15,7 @@ import re
 import sys
 from google.protobuf import text_format
 import gftools.fonts_public_pb2 as fonts_pb2
-from jinja2 import Template
+import jinja2
 
 
 def parse_metadata(filename):
@@ -28,23 +28,8 @@ def parse_metadata(filename):
 
 
 class FontCask:
-    TEMPLATE = Template(
-        """cask '{{cask_name}}' do
-  version :latest
-  sha256 :no_check
-
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url {% if files|length > 1 %}'https://github.com/google/fonts/trunk/{{folder}}',
-      using:      :svn,
-      trust_cert: true{% else %}'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}'{% endif %}
-  name '{{font_name}}'
-  homepage 'https://fonts.google.com/specimen/{{name_path}}'
-{% for file in files %}
-  font '{{file}}'{% endfor %}
-end
-
-"""
-    )
+    ENVIRONMENT = jinja2.Environment(loader=jinja2.FileSystemLoader("."), undefined=jinja2.StrictUndefined)
+    TEMPLATE = ENVIRONMENT.get_template("developer/cask.rb.j2")
 
     def __init__(self, folder, meta_file):
         self.folder = folder
