@@ -5,7 +5,7 @@ cask 'font-erica-one' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/ericaone/EricaOne-Regular.ttf'
   name 'Erica One'
-  homepage 'https://www.google.com/fonts/specimen/Erica+One'
+  homepage 'https://fonts.google.com/specimen/Erica+One'
 
   font 'EricaOne-Regular.ttf'
 end

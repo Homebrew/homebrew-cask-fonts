@@ -5,7 +5,7 @@ cask 'font-graduate' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/graduate/Graduate-Regular.ttf'
   name 'Graduate'
-  homepage 'https://www.google.com/fonts/specimen/Graduate'
+  homepage 'https://fonts.google.com/specimen/Graduate'
 
   font 'Graduate-Regular.ttf'
 end

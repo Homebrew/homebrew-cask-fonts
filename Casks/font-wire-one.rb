@@ -5,7 +5,7 @@ cask 'font-wire-one' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/wireone/WireOne.ttf'
   name 'Wire One'
-  homepage 'https://www.google.com/fonts/specimen/Wire+One'
+  homepage 'https://fonts.google.com/specimen/Wire+One'
 
   font 'WireOne.ttf'
 end

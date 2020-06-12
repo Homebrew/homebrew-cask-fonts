@@ -5,10 +5,9 @@ cask 'font-noticia-text' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/noticiatext',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Noticia Text'
-  homepage 'https://www.google.com/fonts/specimen/Noticia%20Text'
+  homepage 'https://fonts.google.com/specimen/Noticia+Text'
 
   depends_on macos: '>= :sierra'
 

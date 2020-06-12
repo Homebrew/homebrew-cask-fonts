@@ -5,15 +5,12 @@ cask 'font-lora' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/lora',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Lora'
-  homepage 'https://www.google.com/fonts/specimen/Lora'
+  homepage 'https://fonts.google.com/specimen/Lora'
 
   depends_on macos: '>= :sierra'
 
-  font 'Lora-Bold.ttf'
-  font 'Lora-BoldItalic.ttf'
-  font 'Lora-Italic.ttf'
-  font 'Lora-Regular.ttf'
+  font 'Lora-Italic[wght].ttf'
+  font 'Lora[wght].ttf'
 end

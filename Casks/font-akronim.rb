@@ -5,7 +5,7 @@ cask 'font-akronim' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/akronim/Akronim-Regular.ttf'
   name 'Akronim'
-  homepage 'https://www.google.com/fonts/specimen/Akronim'
+  homepage 'https://fonts.google.com/specimen/Akronim'
 
   font 'Akronim-Regular.ttf'
 end

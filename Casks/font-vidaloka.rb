@@ -5,7 +5,7 @@ cask 'font-vidaloka' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/vidaloka/Vidaloka-Regular.ttf'
   name 'Vidaloka'
-  homepage 'https://www.google.com/fonts/specimen/Vidaloka'
+  homepage 'https://fonts.google.com/specimen/Vidaloka'
 
   font 'Vidaloka-Regular.ttf'
 end

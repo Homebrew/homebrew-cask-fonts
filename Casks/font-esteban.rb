@@ -5,7 +5,7 @@ cask 'font-esteban' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/esteban/Esteban-Regular.ttf'
   name 'Esteban'
-  homepage 'https://www.google.com/fonts/specimen/Esteban'
+  homepage 'https://fonts.google.com/specimen/Esteban'
 
   font 'Esteban-Regular.ttf'
 end

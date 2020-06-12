@@ -5,10 +5,9 @@ cask 'font-share' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/share',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Share'
-  homepage 'https://www.google.com/fonts/specimen/Share'
+  homepage 'https://fonts.google.com/specimen/Share'
 
   depends_on macos: '>= :sierra'
 

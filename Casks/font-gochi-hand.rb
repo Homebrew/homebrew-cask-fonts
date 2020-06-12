@@ -5,7 +5,7 @@ cask 'font-gochi-hand' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/gochihand/GochiHand-Regular.ttf'
   name 'Gochi Hand'
-  homepage 'https://www.google.com/fonts/specimen/Gochi+Hand'
+  homepage 'https://fonts.google.com/specimen/Gochi+Hand'
 
   font 'GochiHand-Regular.ttf'
 end

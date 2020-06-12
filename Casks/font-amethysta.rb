@@ -5,7 +5,7 @@ cask 'font-amethysta' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/amethysta/Amethysta-Regular.ttf'
   name 'Amethysta'
-  homepage 'https://www.google.com/fonts/specimen/Amethysta'
+  homepage 'https://fonts.google.com/specimen/Amethysta'
 
   font 'Amethysta-Regular.ttf'
 end

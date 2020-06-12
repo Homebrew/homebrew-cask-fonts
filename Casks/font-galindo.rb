@@ -5,7 +5,7 @@ cask 'font-galindo' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/galindo/Galindo-Regular.ttf'
   name 'Galindo'
-  homepage 'https://www.google.com/fonts/specimen/Galindo'
+  homepage 'https://fonts.google.com/specimen/Galindo'
 
   font 'Galindo-Regular.ttf'
 end

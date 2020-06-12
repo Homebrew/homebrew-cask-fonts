@@ -5,7 +5,7 @@ cask 'font-mrs-saint-delafield' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/mrssaintdelafield/MrsSaintDelafield-Regular.ttf'
   name 'Mrs Saint Delafield'
-  homepage 'https://www.google.com/fonts/specimen/Mrs+Saint+Delafield'
+  homepage 'https://fonts.google.com/specimen/Mrs+Saint+Delafield'
 
   font 'MrsSaintDelafield-Regular.ttf'
 end

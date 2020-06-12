@@ -5,7 +5,7 @@ cask 'font-aladin' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/aladin/Aladin-Regular.ttf'
   name 'Aladin'
-  homepage 'https://www.google.com/fonts/specimen/Aladin'
+  homepage 'https://fonts.google.com/specimen/Aladin'
 
   font 'Aladin-Regular.ttf'
 end

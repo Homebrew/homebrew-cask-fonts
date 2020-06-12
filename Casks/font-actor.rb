@@ -5,7 +5,7 @@ cask 'font-actor' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/actor/Actor-Regular.ttf'
   name 'Actor'
-  homepage 'https://www.google.com/fonts/specimen/Actor'
+  homepage 'https://fonts.google.com/specimen/Actor'
 
   font 'Actor-Regular.ttf'
 end

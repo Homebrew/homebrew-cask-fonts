@@ -5,7 +5,7 @@ cask 'font-brawler' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/brawler/Brawler-Regular.ttf'
   name 'Brawler'
-  homepage 'https://www.google.com/fonts/specimen/Brawler'
+  homepage 'https://fonts.google.com/specimen/Brawler'
 
   font 'Brawler-Regular.ttf'
 end

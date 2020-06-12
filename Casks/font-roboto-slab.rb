@@ -3,16 +3,9 @@ cask 'font-roboto-slab' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/apache/robotoslab/static',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts/raw/master/apache/robotoslab/RobotoSlab%5Bwght%5D.ttf'
   name 'Roboto Slab'
-  homepage 'https://www.google.com/fonts/specimen/Roboto%20Slab'
+  homepage 'https://fonts.google.com/specimen/Roboto+Slab'
 
-  depends_on macos: '>= :sierra'
-
-  font 'RobotoSlab-Bold.ttf'
-  font 'RobotoSlab-Light.ttf'
-  font 'RobotoSlab-Regular.ttf'
-  font 'RobotoSlab-Thin.ttf'
+  font 'RobotoSlab[wght].ttf'
 end

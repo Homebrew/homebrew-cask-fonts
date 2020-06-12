@@ -5,13 +5,12 @@ cask 'font-hanuman' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/hanuman',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Hanuman'
-  homepage 'https://www.google.com/fonts/specimen/Hanuman'
+  homepage 'https://fonts.google.com/specimen/Hanuman'
 
   depends_on macos: '>= :sierra'
 
-  font 'Hanuman.ttf'
-  font 'Hanumanb.ttf'
+  font 'Hanuman-Bold.ttf'
+  font 'Hanuman-Regular.ttf'
 end
