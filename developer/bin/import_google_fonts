@@ -8,10 +8,10 @@
 
 import glob
 import os
+import sys
 from google.protobuf import text_format
 import gftools.fonts_public_pb2 as fonts_pb2
 from jinja2 import Template
-from tempfile import TemporaryDirectory
 
 
 def parse_metadata(filename):
@@ -42,12 +42,12 @@ end
 )
 
 
-def metadata_to_cask(meta):
+def metadata_to_cask(meta, repo_dir):
     name = meta.name
     name_lower = name.lower().replace(" ", "-")
     cask_name = f"font-{name_lower}"
 
-    folder = os.path.dirname(os.path.relpath(meta_file, start=tmpdir))
+    folder = os.path.dirname(os.path.relpath(meta_file, start=repo_dir))
     name_path = name.replace(" ", "+")
 
     files = [font.filename for font in meta.fonts]
@@ -63,12 +63,18 @@ def metadata_to_cask(meta):
         f.write(content)
 
 
-with TemporaryDirectory() as tmpdir:
-    # os.system(f"git clone --depth 1 https://github.com/google/fonts.git {tmpdir}")
-    # meta_files = glob.glob(os.path.join(tmpdir, "**", "*.pb"))
-    tmpdir = "/Users/afeld/Downloads/fonts-master"
-    meta_files = glob.glob(os.path.join(tmpdir, "**", "METADATA.pb"), recursive=True)
+if len(sys.argv) != 2:
+    print(
+        """Usage: ./import_google_fonts <path-to-repo>
 
-    for meta_file in meta_files:
-        meta = parse_metadata(meta_file)
-        metadata_to_cask(meta)
+Download the or clone the repository from https://github.com/google/fonts, then provide the path to the script.
+"""
+    )
+    sys.exit(1)
+
+repo_dir = sys.argv[1]
+meta_files = glob.glob(os.path.join(repo_dir, "**", "METADATA.pb"), recursive=True)
+
+for meta_file in meta_files:
+    meta = parse_metadata(meta_file)
+    metadata_to_cask(meta, repo_dir)
