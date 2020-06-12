@@ -28,7 +28,12 @@ def parse_metadata(filename):
 
 
 class FontCask:
-    ENVIRONMENT = jinja2.Environment(loader=jinja2.FileSystemLoader("."), undefined=jinja2.StrictUndefined)
+    ENVIRONMENT = jinja2.Environment(
+        keep_trailing_newline=True,
+        loader=jinja2.FileSystemLoader("."),
+        trim_blocks=True,
+        undefined=jinja2.StrictUndefined,
+    )
     TEMPLATE = ENVIRONMENT.get_template("developer/cask.rb.j2")
 
     def __init__(self, folder, meta_file):
