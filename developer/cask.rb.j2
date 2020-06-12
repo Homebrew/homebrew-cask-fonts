@@ -3,7 +3,7 @@ cask '{{cask_name}}' do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
+  # github.com/google/fonts was verified as official when first introduced to the cask
 {% if files|length == 1 %}
   url 'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}'
 {% else %}

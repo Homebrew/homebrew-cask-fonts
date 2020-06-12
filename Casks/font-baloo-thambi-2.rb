@@ -3,7 +3,7 @@ cask 'font-baloo-thambi-2' do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
+  # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts.git'
   name 'Baloo Thambi 2'
   homepage 'https://fonts.google.com/specimen/Baloo+Thambi+2'

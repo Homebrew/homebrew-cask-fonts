@@ -3,7 +3,7 @@ cask 'font-gothic-a1' do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
+  # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts.git'
   name 'Gothic A1'
   homepage 'https://fonts.google.com/specimen/Gothic+A1'

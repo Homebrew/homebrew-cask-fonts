@@ -3,7 +3,7 @@ cask 'font-averia-sans-libre' do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
+  # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts.git'
   name 'Averia Sans Libre'
   homepage 'https://fonts.google.com/specimen/Averia+Sans+Libre'

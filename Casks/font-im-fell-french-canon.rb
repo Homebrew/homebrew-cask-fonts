@@ -3,7 +3,7 @@ cask 'font-im-fell-french-canon' do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
+  # github.com/google/fonts was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts.git'
   name 'IM Fell French Canon'
   homepage 'https://fonts.google.com/specimen/IM+Fell+French+Canon'
