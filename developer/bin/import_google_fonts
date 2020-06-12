@@ -8,6 +8,7 @@
 
 import glob
 import os
+import re
 import sys
 from google.protobuf import text_format
 import gftools.fonts_public_pb2 as fonts_pb2
@@ -42,10 +43,34 @@ end
 )
 
 
+def is_other_foundry(cask_path):
+    with open(cask_path) as f:
+        contents = f.read()
+
+    return not re.search(r"url ['\"]https://github.com/google/fonts", contents)
+
+
+def should_skip(cask_path):
+    if os.path.exists(cask_path):
+        # Cask already exists
+        if is_other_foundry(cask_path):
+            print("Other foundry:", cask_path)
+            # don't overwrite it, per
+            # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/CONTRIBUTING.md#google-web-font-directory
+            return True
+
+    return False
+
+
 def metadata_to_cask(meta, repo_dir):
     name = meta.name
-    name_lower = name.lower().replace(" ", "-")
-    cask_name = f"font-{name_lower}"
+    # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/CONTRIBUTING.md#converting-the-canonical-name-to-a-token
+    token = name.lower().replace(" ", "-")
+    cask_name = f"font-{token}"
+
+    cask_path = os.path.join("Casks", f"{cask_name}.rb")
+    if should_skip(cask_path):
+        return
 
     folder = os.path.dirname(os.path.relpath(meta_file, start=repo_dir))
     name_path = name.replace(" ", "+")
@@ -56,8 +81,6 @@ def metadata_to_cask(meta, repo_dir):
     content = TEMPLATE.render(
         cask_name=cask_name, folder=folder, name=name, name_path=name_path, files=files,
     )
-
-    cask_path = os.path.join("Casks", f"{cask_name}.rb")
 
     with open(cask_path, "w") as f:
         f.write(content)
