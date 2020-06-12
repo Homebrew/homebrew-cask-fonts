@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+#
+# import_google_fonts
+#
+# Using Python rather than Ruby for the Protocol Buffer parser.
+# https://github.com/protocolbuffers/protobuf/issues/6508#issuecomment-522165498
+#
+
+import glob
+import os
+from google.protobuf import text_format
+import gftools.fonts_public_pb2 as fonts_pb2
+from jinja2 import Template
+from tempfile import TemporaryDirectory
+
+
+def parse_metadata(filename):
+    # based off of
+    # https://github.com/googlefonts/gftools/blob/2bfd4acd402b353aaeb46b991e6cad855001e4c8/Lib/gftools/util/google_fonts.py
+    with open(filename) as f:
+        meta = fonts_pb2.FamilyProto()
+        text_format.Merge(f.read(), meta)
+        return meta
+
+
+TEMPLATE = Template(
+    """cask '{{cask_name}}' do
+  version :latest
+  sha256 :no_check
+
+  # github.com/google/fonts/ was verified as official when first introduced to the cask
+  url 'https://github.com/google/fonts/trunk/{{folder}}',
+      using:      :svn,
+      trust_cert: true
+  name '{{name}}'
+  homepage 'https://fonts.google.com/specimen/{{name_path}}'
+{% for file in files %}
+  font '{{file}}'{% endfor %}
+end
+
+"""
+)
+
+
+def metadata_to_cask(meta):
+    name = meta.name
+    name_lower = name.lower().replace(" ", "-")
+    cask_name = f"font-{name_lower}"
+
+    folder = os.path.dirname(os.path.relpath(meta_file, start=tmpdir))
+    name_path = name.replace(" ", "+")
+    files = [font.filename for font in meta.fonts]
+
+    content = TEMPLATE.render(
+        cask_name=cask_name, folder=folder, name=name, name_path=name_path, files=files,
+    )
+
+    cask_path = os.path.join("Casks", f"{cask_name}.rb")
+
+    with open(cask_path, "w") as f:
+        f.write(content)
+
+
+with TemporaryDirectory() as tmpdir:
+    # os.system(f"git clone --depth 1 https://github.com/google/fonts.git {tmpdir}")
+    # meta_files = glob.glob(os.path.join(tmpdir, "**", "*.pb"))
+    tmpdir = "/Users/afeld/Downloads/fonts-master"
+    meta_files = glob.glob(os.path.join(tmpdir, "**", "METADATA.pb"), recursive=True)
+
+    for meta_file in meta_files:
+        meta = parse_metadata(meta_file)
+        metadata_to_cask(meta)
