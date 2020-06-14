@@ -1,16 +1,12 @@
 cask 'font-lora' do
-  version :latest
-  sha256 :no_check
+  version '2.210'
+  sha256 'c872190b80eedbc72bf0a84b56e877cdf5eefae4377574df023b1e8b787ab65a'
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/lora',
-      using:      :svn,
-      trust_cert: true
+  url "https://github.com/cyrealtype/Lora-Cyrillic/releases/download/v#{version}/Lora-Variable.zip"
+  appcast 'https://github.com/cyrealtype/Lora-Cyrillic/releases.atom'
   name 'Lora'
-  homepage 'https://fonts.google.com/specimen/Lora'
+  homepage 'https://github.com/cyrealtype/Lora-Cyrillic'
 
-  depends_on macos: '>= :sierra'
-
-  font 'Lora-Italic[wght].ttf'
-  font 'Lora[wght].ttf'
+  font 'variable/Lora-Italic-VF.ttf'
+  font 'variable/Lora-VF.ttf'
 end
