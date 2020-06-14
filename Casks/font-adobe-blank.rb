@@ -3,6 +3,7 @@ cask 'font-adobe-blank' do
   sha256 'c5ebe5fc6f8258ecf8f987eed3069728e49c34e438714d85a606bf7c9b2b7a1f'
 
   url "https://github.com/adobe-fonts/adobe-blank/archive/#{version}.zip"
+  appcast 'https://github.com/adobe-fonts/adobe-blank/releases.atom'
   name 'Adobe Blank'
   homepage 'https://github.com/adobe-fonts/adobe-blank'
 
