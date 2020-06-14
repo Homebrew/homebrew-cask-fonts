@@ -29,12 +29,35 @@ def parse_metadata(filename):
 
 class FontCask:
     ENVIRONMENT = jinja2.Environment(
-        keep_trailing_newline=True,
-        loader=jinja2.FileSystemLoader("."),
-        trim_blocks=True,
-        undefined=jinja2.StrictUndefined,
+        keep_trailing_newline=True, trim_blocks=True, undefined=jinja2.StrictUndefined,
     )
-    TEMPLATE = ENVIRONMENT.get_template("developer/cask.rb.j2")
+    TEMPLATE = ENVIRONMENT.from_string(
+        """cask '{{cask_name}}' do
+  version :latest
+  sha256 :no_check
+
+  # github.com/google/fonts/ was verified as official when first introduced to the cask
+{% if files|length == 1 %}
+  url 'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}'
+{% else %}
+  url 'https://github.com/google/fonts/trunk/{{folder}}',
+      using:      :svn,
+      trust_cert: true
+{% endif %}
+  name '{{font_name}}'
+  homepage 'https://fonts.google.com/specimen/{{name_path}}'
+
+{% if files|length > 1 %}
+{# https://github.com/Homebrew/homebrew-cask-fonts/issues/1694#issuecomment-392610841 #}
+  depends_on macos: '>= :sierra'
+
+{% endif %}
+{% for file in files %}
+  font '{{file}}'
+{% endfor %}
+end
+"""
+    )
 
     def __init__(self, folder, meta_file):
         self.folder = folder
