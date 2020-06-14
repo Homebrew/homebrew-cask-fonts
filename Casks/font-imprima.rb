@@ -5,7 +5,7 @@ cask 'font-imprima' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/imprima/Imprima-Regular.ttf'
   name 'Imprima'
-  homepage 'https://www.google.com/fonts/specimen/Imprima'
+  homepage 'https://fonts.google.com/specimen/Imprima'
 
   font 'Imprima-Regular.ttf'
 end

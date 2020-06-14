@@ -5,7 +5,7 @@ cask 'font-gafata' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/gafata/Gafata-Regular.ttf'
   name 'Gafata'
-  homepage 'https://www.google.com/fonts/specimen/Gafata'
+  homepage 'https://fonts.google.com/specimen/Gafata'
 
   font 'Gafata-Regular.ttf'
 end

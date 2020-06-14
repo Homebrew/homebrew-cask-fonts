@@ -5,7 +5,7 @@ cask 'font-boogaloo' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/boogaloo/Boogaloo-Regular.ttf'
   name 'Boogaloo'
-  homepage 'https://www.google.com/fonts/specimen/Boogaloo'
+  homepage 'https://fonts.google.com/specimen/Boogaloo'
 
   font 'Boogaloo-Regular.ttf'
 end

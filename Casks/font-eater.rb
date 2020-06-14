@@ -5,7 +5,7 @@ cask 'font-eater' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/eater/Eater-Regular.ttf'
   name 'Eater'
-  homepage 'https://www.google.com/fonts/specimen/Eater'
+  homepage 'https://fonts.google.com/specimen/Eater'
 
   font 'Eater-Regular.ttf'
 end

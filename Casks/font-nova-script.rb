@@ -5,7 +5,7 @@ cask 'font-nova-script' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/novascript/NovaScript-Regular.ttf'
   name 'Nova Script'
-  homepage 'https://www.google.com/fonts/specimen/Nova%20Script'
+  homepage 'https://fonts.google.com/specimen/Nova+Script'
 
   font 'NovaScript-Regular.ttf'
 end

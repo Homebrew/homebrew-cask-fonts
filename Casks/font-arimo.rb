@@ -5,10 +5,9 @@ cask 'font-arimo' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/apache/arimo',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Arimo'
-  homepage 'https://www.google.com/fonts/specimen/Arimo'
+  homepage 'https://fonts.google.com/specimen/Arimo'
 
   depends_on macos: '>= :sierra'
 

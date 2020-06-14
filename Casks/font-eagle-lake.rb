@@ -5,7 +5,7 @@ cask 'font-eagle-lake' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/eaglelake/EagleLake-Regular.ttf'
   name 'Eagle Lake'
-  homepage 'https://www.google.com/fonts/specimen/Eagle+Lake'
+  homepage 'https://fonts.google.com/specimen/Eagle+Lake'
 
   font 'EagleLake-Regular.ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-aldrich' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/aldrich/Aldrich-Regular.ttf'
   name 'Aldrich'
-  homepage 'https://www.google.com/fonts/specimen/Aldrich'
+  homepage 'https://fonts.google.com/specimen/Aldrich'
 
   font 'Aldrich-Regular.ttf'
 end

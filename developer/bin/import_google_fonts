@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+#
+# import_google_fonts
+#
+# Using Python rather than Ruby for the Protocol Buffer parser.
+# https://github.com/protocolbuffers/protobuf/issues/6508#issuecomment-522165498
+#
+# To install dependencies:
+#
+#   pip install gftools jinja2 protobuf
+
+from glob import glob
+import os
+import re
+import sys
+from google.protobuf import text_format
+import gftools.fonts_public_pb2 as fonts_pb2
+import jinja2
+
+
+def parse_metadata(filename):
+    # based off of
+    # https://github.com/googlefonts/gftools/blob/2bfd4acd402b353aaeb46b991e6cad855001e4c8/Lib/gftools/util/google_fonts.py
+    with open(filename) as f:
+        meta = fonts_pb2.FamilyProto()
+        text_format.Merge(f.read(), meta)
+        return meta
+
+
+class FontCask:
+    ENVIRONMENT = jinja2.Environment(
+        keep_trailing_newline=True,
+        loader=jinja2.FileSystemLoader("."),
+        trim_blocks=True,
+        undefined=jinja2.StrictUndefined,
+    )
+    TEMPLATE = ENVIRONMENT.get_template("developer/cask.rb.j2")
+
+    def __init__(self, folder, meta_file):
+        self.folder = folder
+        self.meta = parse_metadata(meta_file)
+
+    def font_name(self):
+        return self.meta.name
+
+    def token(self):
+        # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/CONTRIBUTING.md#converting-the-canonical-name-to-a-token
+        return self.font_name().lower().replace(" ", "-")
+
+    def cask_name(self):
+        return f"font-{self.token()}"
+
+    def dest_path(self):
+        return os.path.join("Casks", f"{self.cask_name()}.rb")
+
+    def name_path(self):
+        return self.font_name().replace(" ", "+")
+
+    def files(self):
+        results = [font.filename for font in self.meta.fonts]
+        results.sort()
+        return results
+
+    def cask_content(self):
+        return self.TEMPLATE.render(
+            cask_name=self.cask_name(),
+            folder=self.folder,
+            font_name=self.font_name(),
+            name_path=self.name_path(),
+            files=self.files(),
+        )
+
+
+def is_other_foundry(cask_path):
+    with open(cask_path) as f:
+        contents = f.read()
+
+    return not re.search(r"url ['\"]https://github.com/google/fonts", contents)
+
+
+def should_skip(cask_path):
+    if os.path.exists(cask_path):
+        # Cask already exists
+        if is_other_foundry(cask_path):
+            print("Other foundry:", cask_path)
+            # don't overwrite it, per
+            # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/CONTRIBUTING.md#google-web-font-directory
+            return True
+
+    return False
+
+
+def metadata_to_cask(meta_file, repo_dir):
+    folder = os.path.dirname(os.path.relpath(meta_file, start=repo_dir))
+    cask = FontCask(folder, meta_file)
+
+    if should_skip(cask.dest_path()):
+        return
+
+    with open(cask.dest_path(), "w") as f:
+        f.write(cask.cask_content())
+
+
+def delete_google_casks():
+    os.system("grep -rEl 'fonts.google.com|google.com/fonts' Casks | xargs rm")
+
+
+def run():
+    if len(sys.argv) != 2:
+        print(
+            """Usage: ./import_google_fonts <path-to-repo>
+
+Download the or clone the repository from https://github.com/google/fonts, then provide the path to the script.
+    """
+        )
+        sys.exit(1)
+
+    repo_dir = sys.argv[1]
+    meta_files = glob(os.path.join(repo_dir, "*", "*", "METADATA.pb"), recursive=True)
+
+    # since the valid font Casks will be regenerated anyway, delete all of them first to ensure any fonts removed from Google are cleaned up
+    delete_google_casks()
+
+    for meta_file in meta_files:
+        metadata_to_cask(meta_file, repo_dir)
+
+
+run()

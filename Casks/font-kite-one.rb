@@ -5,7 +5,7 @@ cask 'font-kite-one' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/kiteone/KiteOne-Regular.ttf'
   name 'Kite One'
-  homepage 'https://www.google.com/fonts/specimen/Kite+One'
+  homepage 'https://fonts.google.com/specimen/Kite+One'
 
   font 'KiteOne-Regular.ttf'
 end

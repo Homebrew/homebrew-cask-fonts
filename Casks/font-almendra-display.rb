@@ -5,7 +5,7 @@ cask 'font-almendra-display' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/almendradisplay/AlmendraDisplay-Regular.ttf'
   name 'Almendra Display'
-  homepage 'https://www.google.com/fonts/specimen/Almendra+Display'
+  homepage 'https://fonts.google.com/specimen/Almendra+Display'
 
   font 'AlmendraDisplay-Regular.ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-ledger' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/ledger/Ledger-Regular.ttf'
   name 'Ledger'
-  homepage 'https://www.google.com/fonts/specimen/Ledger'
+  homepage 'https://fonts.google.com/specimen/Ledger'
 
   font 'Ledger-Regular.ttf'
 end

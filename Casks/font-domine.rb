@@ -3,15 +3,9 @@ cask 'font-domine' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/domine',
-      using:      :svn,
-      revision:   '50',
-      trust_cert: true
+  url 'https://github.com/google/fonts/raw/master/ofl/domine/Domine%5Bwght%5D.ttf'
   name 'Domine'
-  homepage 'https://www.google.com/fonts/specimen/Domine'
+  homepage 'https://fonts.google.com/specimen/Domine'
 
-  depends_on macos: '>= :sierra'
-
-  font 'Domine-Bold.ttf'
-  font 'Domine-Regular.ttf'
+  font 'Domine[wght].ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-berkshire-swash' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/berkshireswash/BerkshireSwash-Regular.ttf'
   name 'Berkshire Swash'
-  homepage 'https://www.google.com/fonts/specimen/Berkshire+Swash'
+  homepage 'https://fonts.google.com/specimen/Berkshire+Swash'
 
   font 'BerkshireSwash-Regular.ttf'
 end

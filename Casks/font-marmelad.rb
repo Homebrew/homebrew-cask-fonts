@@ -5,7 +5,7 @@ cask 'font-marmelad' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/marmelad/Marmelad-Regular.ttf'
   name 'Marmelad'
-  homepage 'https://www.google.com/fonts/specimen/Marmelad'
+  homepage 'https://fonts.google.com/specimen/Marmelad'
 
   font 'Marmelad-Regular.ttf'
 end

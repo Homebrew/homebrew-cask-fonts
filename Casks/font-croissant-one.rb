@@ -5,7 +5,7 @@ cask 'font-croissant-one' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/croissantone/CroissantOne-Regular.ttf'
   name 'Croissant One'
-  homepage 'https://www.google.com/fonts/specimen/Croissant+One'
+  homepage 'https://fonts.google.com/specimen/Croissant+One'
 
   font 'CroissantOne-Regular.ttf'
 end

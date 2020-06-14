@@ -5,10 +5,9 @@ cask 'font-quattrocento-sans' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/quattrocentosans',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Quattrocento Sans'
-  homepage 'https://www.google.com/fonts/specimen/Quattrocento%20Sans'
+  homepage 'https://fonts.google.com/specimen/Quattrocento+Sans'
 
   depends_on macos: '>= :sierra'
 

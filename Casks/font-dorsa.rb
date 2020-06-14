@@ -5,7 +5,7 @@ cask 'font-dorsa' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/dorsa/Dorsa-Regular.ttf'
   name 'Dorsa'
-  homepage 'https://www.google.com/fonts/specimen/Dorsa'
+  homepage 'https://fonts.google.com/specimen/Dorsa'
 
   font 'Dorsa-Regular.ttf'
 end

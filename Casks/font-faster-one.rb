@@ -5,7 +5,7 @@ cask 'font-faster-one' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/fasterone/FasterOne-Regular.ttf'
   name 'Faster One'
-  homepage 'https://www.google.com/fonts/specimen/Faster+One'
+  homepage 'https://fonts.google.com/specimen/Faster+One'
 
   font 'FasterOne-Regular.ttf'
 end

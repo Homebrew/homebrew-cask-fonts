@@ -5,7 +5,7 @@ cask 'font-balthazar' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/balthazar/Balthazar-Regular.ttf'
   name 'Balthazar'
-  homepage 'https://www.google.com/fonts/specimen/Balthazar'
+  homepage 'https://fonts.google.com/specimen/Balthazar'
 
   font 'Balthazar-Regular.ttf'
 end

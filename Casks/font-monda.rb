@@ -5,10 +5,9 @@ cask 'font-monda' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/monda',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Monda'
-  homepage 'https://www.google.com/fonts/specimen/Monda'
+  homepage 'https://fonts.google.com/specimen/Monda'
 
   depends_on macos: '>= :sierra'
 

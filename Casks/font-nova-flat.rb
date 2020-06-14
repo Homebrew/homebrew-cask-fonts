@@ -5,7 +5,7 @@ cask 'font-nova-flat' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/novaflat/NovaFlat.ttf'
   name 'Nova Flat'
-  homepage 'https://www.google.com/fonts/specimen/Nova%20Flat'
+  homepage 'https://fonts.google.com/specimen/Nova+Flat'
 
   font 'NovaFlat.ttf'
 end

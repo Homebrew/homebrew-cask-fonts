@@ -5,7 +5,7 @@ cask 'font-ranchers' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/ranchers/Ranchers-Regular.ttf'
   name 'Ranchers'
-  homepage 'https://www.google.com/fonts/specimen/Ranchers'
+  homepage 'https://fonts.google.com/specimen/Ranchers'
 
   font 'Ranchers-Regular.ttf'
 end

@@ -3,20 +3,9 @@ cask 'font-dosis' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/dosis',
-      using:      :svn,
-      revision:   '50',
-      trust_cert: true
+  url 'https://github.com/google/fonts/raw/master/ofl/dosis/Dosis%5Bwght%5D.ttf'
   name 'Dosis'
-  homepage 'https://www.google.com/fonts/specimen/Dosis'
+  homepage 'https://fonts.google.com/specimen/Dosis'
 
-  depends_on macos: '>= :sierra'
-
-  font 'Dosis-Bold.ttf'
-  font 'Dosis-ExtraBold.ttf'
-  font 'Dosis-ExtraLight.ttf'
-  font 'Dosis-Light.ttf'
-  font 'Dosis-Medium.ttf'
-  font 'Dosis-Regular.ttf'
-  font 'Dosis-SemiBold.ttf'
+  font 'Dosis[wght].ttf'
 end

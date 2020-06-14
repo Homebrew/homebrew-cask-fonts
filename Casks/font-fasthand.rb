@@ -5,7 +5,7 @@ cask 'font-fasthand' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/fasthand/Fasthand-Regular.ttf'
   name 'Fasthand'
-  homepage 'https://www.google.com/fonts/specimen/Fasthand'
+  homepage 'https://fonts.google.com/specimen/Fasthand'
 
   font 'Fasthand-Regular.ttf'
 end

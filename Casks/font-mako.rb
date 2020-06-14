@@ -5,7 +5,7 @@ cask 'font-mako' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/mako/Mako-Regular.ttf'
   name 'Mako'
-  homepage 'https://www.google.com/fonts/specimen/Mako'
+  homepage 'https://fonts.google.com/specimen/Mako'
 
   font 'Mako-Regular.ttf'
 end

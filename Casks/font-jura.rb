@@ -3,17 +3,9 @@ cask 'font-jura' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/jura',
-      using:      :svn,
-      revision:   '50',
-      trust_cert: true
+  url 'https://github.com/google/fonts/raw/master/ofl/jura/Jura%5Bwght%5D.ttf'
   name 'Jura'
-  homepage 'https://www.google.com/fonts/specimen/Jura'
+  homepage 'https://fonts.google.com/specimen/Jura'
 
-  depends_on macos: '>= :sierra'
-
-  font 'Jura-DemiBold.ttf'
-  font 'Jura-Light.ttf'
-  font 'Jura-Medium.ttf'
-  font 'Jura-Regular.ttf'
+  font 'Jura[wght].ttf'
 end
