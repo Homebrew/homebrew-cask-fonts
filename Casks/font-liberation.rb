@@ -4,7 +4,7 @@ cask 'font-liberation' do
 
   url "https://github.com/liberationfonts/liberation-fonts/files/#{version.after_comma}/liberation-fonts-ttf-#{version.before_comma}.tar.gz"
   appcast 'https://github.com/liberationfonts/liberation-fonts/releases.atom'
-  name 'Liberation Sans'
+  name 'Liberation'
   homepage 'https://github.com/liberationfonts/liberation-fonts'
 
   font "liberation-fonts-ttf-#{version.before_comma}/LiberationMono-Bold.ttf"
