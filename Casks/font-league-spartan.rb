@@ -8,13 +8,5 @@ cask 'font-league-spartan' do
   name 'League Spartan'
   homepage 'https://www.theleagueofmoveabletype.com/league-spartan'
 
-  font "league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Black.otf"
-  font "league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Bold.otf"
-  font "league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Extrabold.otf"
-  font "league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Extralight.otf"
-  font "league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Light.otf"
-  font "league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Medium.otf"
-  font "league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Regular.otf"
-  font "league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Semibold.otf"
   font "league-spartan-#{version}/fonts/variable/LeagueSpartanVariable.ttf"
 end
