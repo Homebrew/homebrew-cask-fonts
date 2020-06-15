@@ -5,10 +5,9 @@ cask 'font-marvel' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/marvel',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Marvel'
-  homepage 'https://www.google.com/fonts/specimen/Marvel'
+  homepage 'https://fonts.google.com/specimen/Marvel'
 
   depends_on macos: '>= :sierra'
 

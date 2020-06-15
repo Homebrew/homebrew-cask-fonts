@@ -5,7 +5,7 @@ cask 'font-share-tech' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/sharetech/ShareTech-Regular.ttf'
   name 'Share Tech'
-  homepage 'https://www.google.com/fonts/specimen/Share%20Tech'
+  homepage 'https://fonts.google.com/specimen/Share+Tech'
 
   font 'ShareTech-Regular.ttf'
 end

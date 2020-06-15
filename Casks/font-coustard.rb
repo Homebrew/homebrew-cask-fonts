@@ -5,10 +5,9 @@ cask 'font-coustard' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/coustard',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Coustard'
-  homepage 'https://www.google.com/fonts/specimen/Coustard'
+  homepage 'https://fonts.google.com/specimen/Coustard'
 
   depends_on macos: '>= :sierra'
 

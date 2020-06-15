@@ -2,19 +2,23 @@ cask 'font-rubik' do
   version :latest
   sha256 :no_check
 
-  # github.com/googlefonts/rubik/ was verified as official when first introduced to the cask
-  url 'https://github.com/googlefonts/rubik/archive/master.zip'
+  # github.com/google/fonts/ was verified as official when first introduced to the cask
+  url 'https://github.com/google/fonts/trunk/ofl/rubik',
+      using:      :svn,
+      trust_cert: true
   name 'Rubik'
-  homepage 'https://www.google.com/fonts/specimen/Rubik'
+  homepage 'https://fonts.google.com/specimen/Rubik'
 
-  font 'rubik-master/fonts/ttf/Rubik-Black.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-BlackItalic.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-Bold.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-BoldItalic.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-Italic.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-Light.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-LightItalic.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-Medium.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-MediumItalic.ttf'
-  font 'rubik-master/fonts/ttf/Rubik-Regular.ttf'
+  depends_on macos: '>= :sierra'
+
+  font 'Rubik-Black.ttf'
+  font 'Rubik-BlackItalic.ttf'
+  font 'Rubik-Bold.ttf'
+  font 'Rubik-BoldItalic.ttf'
+  font 'Rubik-Italic.ttf'
+  font 'Rubik-Light.ttf'
+  font 'Rubik-LightItalic.ttf'
+  font 'Rubik-Medium.ttf'
+  font 'Rubik-MediumItalic.ttf'
+  font 'Rubik-Regular.ttf'
 end

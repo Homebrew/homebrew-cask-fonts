@@ -5,7 +5,7 @@ cask 'font-bigshot-one' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/bigshotone/BigshotOne-Regular.ttf'
   name 'Bigshot One'
-  homepage 'https://www.google.com/fonts/specimen/Bigshot+One'
+  homepage 'https://fonts.google.com/specimen/Bigshot+One'
 
   font 'BigshotOne-Regular.ttf'
 end

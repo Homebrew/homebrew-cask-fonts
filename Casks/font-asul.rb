@@ -5,10 +5,9 @@ cask 'font-asul' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/asul',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Asul'
-  homepage 'https://www.google.com/fonts/specimen/Asul'
+  homepage 'https://fonts.google.com/specimen/Asul'
 
   depends_on macos: '>= :sierra'
 

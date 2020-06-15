@@ -5,10 +5,9 @@ cask 'font-averia-sans-libre' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/averiasanslibre',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Averia Sans Libre'
-  homepage 'https://www.google.com/fonts/specimen/Averia%20Sans%20Libre'
+  homepage 'https://fonts.google.com/specimen/Averia+Sans+Libre'
 
   depends_on macos: '>= :sierra'
 

@@ -5,7 +5,7 @@ cask 'font-baumans' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/baumans/Baumans-Regular.ttf'
   name 'Baumans'
-  homepage 'https://www.google.com/fonts/specimen/Baumans'
+  homepage 'https://fonts.google.com/specimen/Baumans'
 
   font 'Baumans-Regular.ttf'
 end

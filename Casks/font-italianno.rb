@@ -5,7 +5,7 @@ cask 'font-italianno' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/italianno/Italianno-Regular.ttf'
   name 'Italianno'
-  homepage 'https://www.google.com/fonts/specimen/Italianno'
+  homepage 'https://fonts.google.com/specimen/Italianno'
 
   font 'Italianno-Regular.ttf'
 end

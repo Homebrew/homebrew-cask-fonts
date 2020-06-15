@@ -5,10 +5,9 @@ cask 'font-arvo' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/arvo',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Arvo'
-  homepage 'https://www.google.com/fonts/specimen/Arvo'
+  homepage 'https://fonts.google.com/specimen/Arvo'
 
   depends_on macos: '>= :sierra'
 

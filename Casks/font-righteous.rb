@@ -5,7 +5,7 @@ cask 'font-righteous' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/righteous/Righteous-Regular.ttf'
   name 'Righteous'
-  homepage 'https://www.google.com/fonts/specimen/Righteous'
+  homepage 'https://fonts.google.com/specimen/Righteous'
 
   font 'Righteous-Regular.ttf'
 end

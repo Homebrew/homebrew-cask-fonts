@@ -5,7 +5,7 @@ cask 'font-antic-didone' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/anticdidone/AnticDidone-Regular.ttf'
   name 'Antic Didone'
-  homepage 'https://www.google.com/fonts/specimen/Antic+Didone'
+  homepage 'https://fonts.google.com/specimen/Antic+Didone'
 
   font 'AnticDidone-Regular.ttf'
 end

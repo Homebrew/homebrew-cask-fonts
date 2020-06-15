@@ -5,7 +5,7 @@ cask 'font-della-respira' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/dellarespira/DellaRespira-Regular.ttf'
   name 'Della Respira'
-  homepage 'https://www.google.com/fonts/specimen/Della+Respira'
+  homepage 'https://fonts.google.com/specimen/Della+Respira'
 
   font 'DellaRespira-Regular.ttf'
 end

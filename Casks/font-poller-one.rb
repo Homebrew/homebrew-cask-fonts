@@ -5,7 +5,7 @@ cask 'font-poller-one' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/pollerone/PollerOne.ttf'
   name 'Poller One'
-  homepage 'https://www.google.com/fonts/specimen/Poller+One'
+  homepage 'https://fonts.google.com/specimen/Poller+One'
 
   font 'PollerOne.ttf'
 end

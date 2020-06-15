@@ -5,10 +5,9 @@ cask 'font-almendra' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/almendra',
       using:      :svn,
-      revision:   '50',
       trust_cert: true
   name 'Almendra'
-  homepage 'https://www.google.com/fonts/specimen/Almendra'
+  homepage 'https://fonts.google.com/specimen/Almendra'
 
   depends_on macos: '>= :sierra'
 

@@ -5,7 +5,7 @@ cask 'font-permanent-marker' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/permanentmarker/PermanentMarker-Regular.ttf'
   name 'Permanent Marker'
-  homepage 'https://www.google.com/fonts/specimen/Permanent+Marker'
+  homepage 'https://fonts.google.com/specimen/Permanent+Marker'
 
   font 'PermanentMarker-Regular.ttf'
 end

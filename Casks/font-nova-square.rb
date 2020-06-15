@@ -5,7 +5,7 @@ cask 'font-nova-square' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/novasquare/NovaSquare.ttf'
   name 'Nova Square'
-  homepage 'https://www.google.com/fonts/specimen/Nova%20Square'
+  homepage 'https://fonts.google.com/specimen/Nova+Square'
 
   font 'NovaSquare.ttf'
 end

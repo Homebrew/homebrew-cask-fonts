@@ -3,13 +3,9 @@ cask 'font-inconsolata' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/inconsolata',
-      using:      :svn,
-      trust_cert: true
+  url 'https://github.com/google/fonts/raw/master/ofl/inconsolata/Inconsolata%5Bwdth%2Cwght%5D.ttf'
   name 'Inconsolata'
-  homepage 'https://levien.com/type/myfonts/inconsolata.html'
-
-  depends_on macos: '>= :sierra'
+  homepage 'https://fonts.google.com/specimen/Inconsolata'
 
   font 'Inconsolata[wdth,wght].ttf'
 end

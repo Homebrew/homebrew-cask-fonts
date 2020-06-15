@@ -5,7 +5,7 @@ cask 'font-maiden-orange' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/apache/maidenorange/MaidenOrange-Regular.ttf'
   name 'Maiden Orange'
-  homepage 'https://www.google.com/fonts/specimen/Maiden+Orange'
+  homepage 'https://fonts.google.com/specimen/Maiden+Orange'
 
   font 'MaidenOrange-Regular.ttf'
 end

@@ -5,7 +5,7 @@ cask 'font-chenla' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/chenla/Chenla.ttf'
   name 'Chenla'
-  homepage 'https://www.google.com/fonts/specimen/Chenla'
+  homepage 'https://fonts.google.com/specimen/Chenla'
 
   font 'Chenla.ttf'
 end

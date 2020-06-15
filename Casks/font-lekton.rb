@@ -5,10 +5,9 @@ cask 'font-lekton' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/lekton',
       using:      :svn,
-      revision:   '47',
       trust_cert: true
   name 'Lekton'
-  homepage 'https://www.google.com/fonts/specimen/Lekton'
+  homepage 'https://fonts.google.com/specimen/Lekton'
 
   depends_on macos: '>= :sierra'
 

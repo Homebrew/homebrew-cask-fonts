@@ -5,10 +5,9 @@ cask 'font-merriweather' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/trunk/ofl/merriweather',
       using:      :svn,
-      revision:   '1208',
       trust_cert: true
   name 'Merriweather'
-  homepage 'https://www.google.com/fonts/specimen/Merriweather'
+  homepage 'https://fonts.google.com/specimen/Merriweather'
 
   depends_on macos: '>= :sierra'
 
