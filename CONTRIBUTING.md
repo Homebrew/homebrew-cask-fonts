@@ -125,4 +125,4 @@ At this time, homebrew-fonts is only accepting Casks for fonts which are freely 
 
 ### Upstream Links Are Preferred
 
-Generally, we prefer to have the Casks point to font download links as high up the distribution chain as possible. This means linking directly to the download from the font’s author when possible rather than from a site that aggregates fonts. The exception is when the font is available on the [Google Fonts GitHub repository](https://github.com/google/fonts), because those are added and managed automatically [with a script](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/developer/bin/import_google_fonts).
+Generally, we prefer to have Casks point to font download links as high up the distribution chain as possible. This means linking to the download from the font’s author rather than from an aggregator site. The exception is when the font is available on the [Google Fonts GitHub repository](https://github.com/google/fonts), because those are added and managed automatically [with a script](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/developer/bin/import_google_fonts).
