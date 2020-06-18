@@ -125,10 +125,4 @@ At this time, homebrew-fonts is only accepting Casks for fonts which are freely 
 
 ### Upstream Links Are Preferred
 
-We prefer to have the Casks point to font download links as high up the distribution chain as possible. This generally means linking directly to the download from the font’s author when possible rather than from a site that aggregates fonts.
-
-### Google Web Font Directory
-
-This repository was seeded with fonts from Google Web Font Directory. If you wish to rewrite a Google Web Font Cask with a `url` pointing to the upstream type foundry, please do: we consider that an upgrade.
-
-For some fonts, Google Web Font Directory is the only current source. Writing the `url` stanza for those cases may require using some unusual features of the Cask language. See example [font-lekton.rb](https://github.com/Homebrew/homebrew-cask-fonts/blob/68bd19db46cc1b386eda3bcf72fbb70fcbf7a73b/Casks/font-lekton.rb), consult [cask_language_reference](https://github.com/Homebrew/homebrew-cask/tree/master/doc/cask_language_reference), or contact the maintainers.
+Generally, we prefer to have Casks point to font download links as high up the distribution chain as possible. This means linking to the download from the font’s author rather than from an aggregator site. The exception is when the font is available on the [Google Fonts GitHub repository](https://github.com/google/fonts), because those are added and managed automatically [with a script](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/developer/bin/import_google_fonts).
