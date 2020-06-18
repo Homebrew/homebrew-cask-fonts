@@ -1,23 +1,24 @@
 cask 'font-source-serif-pro' do
-  version '3.000R'
-  sha256 '6f3135849ece74461994bd57e5e7acf3da0f8d8c96ef94b5f3bb3e91f7d155cc'
+  version '3.001R'
+  sha256 'e061cf3184c60fb8811ffb429d82083f6dd16810250b71e676e5fa1abb1e5934'
 
-  # github.com/adobe-fonts/source-serif-pro/ was verified as official when first introduced to the cask
   url "https://github.com/adobe-fonts/source-serif-pro/releases/download/#{version}/source-serif-pro-#{version}.zip"
   appcast 'https://github.com/adobe-fonts/source-serif-pro/releases.atom'
   name 'Source Serif Pro'
-  homepage 'https://adobe-fonts.github.io/source-serif-pro/'
+  homepage 'https://github.com/adobe-fonts/source-serif-pro'
 
-  font 'OTF/SourceSerifPro-Black.otf'
-  font 'OTF/SourceSerifPro-BlackIt.otf'
-  font 'OTF/SourceSerifPro-Bold.otf'
-  font 'OTF/SourceSerifPro-BoldIt.otf'
-  font 'OTF/SourceSerifPro-ExtraLight.otf'
-  font 'OTF/SourceSerifPro-ExtraLightIt.otf'
-  font 'OTF/SourceSerifPro-It.otf'
-  font 'OTF/SourceSerifPro-Light.otf'
-  font 'OTF/SourceSerifPro-LightIt.otf'
-  font 'OTF/SourceSerifPro-Regular.otf'
-  font 'OTF/SourceSerifPro-Semibold.otf'
-  font 'OTF/SourceSerifPro-SemiboldIt.otf'
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Black.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-BlackIt.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Bold.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-BoldIt.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-ExtraLight.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-ExtraLightIt.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-It.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Light.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-LightIt.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Regular.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-Semibold.otf"
+  font "source-serif-pro-#{version}/OTF/SourceSerifPro-SemiboldIt.otf"
+  font "source-serif-pro-#{version}/VAR/SourceSerifVariable-Italic.otf"
+  font "source-serif-pro-#{version}/VAR/SourceSerifVariable-Roman.otf"
 end
