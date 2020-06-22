@@ -1,6 +1,6 @@
 cask 'font-iosevka' do
-  version '3.2.1'
-  sha256 '8edb3b004d078d58351ab8acbd81cc1768cd3ef5bf1d626a78a5be01482ffbbe'
+  version '3.2.2'
+  sha256 'f06e89994a576d1331d3e79e9c0c88f79d73fe1b57eaa1d97f196a2a3fc9389a'
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-#{version}.zip"
   appcast 'https://github.com/be5invis/Iosevka/releases.atom'
