@@ -3,9 +3,9 @@ cask 'font-souliyo' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master//Users/afeld/Downloads/fonts-master/ofl/souliyo/Souliyo-Regular.ttf'
-  name 'souliyo'
-  homepage 'https://fonts.google.com/specimen/souliyo'
+  url 'https://github.com/google/fonts/raw/master/ofl/souliyo/Souliyo-Regular.ttf'
+  name 'Souliyo'
+  homepage 'https://fonts.google.com/specimen/Souliyo'
 
   font 'Souliyo-Regular.ttf'
 end
