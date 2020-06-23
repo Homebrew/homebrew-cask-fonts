@@ -46,7 +46,7 @@ class FontCask:
       trust_cert: true
 {% endif %}
   name '{{font_name}}'
-  homepage 'https://fonts.google.com/specimen/{{name_path}}'
+  homepage '{{homepage}}'
 
 {% if files|length > 1 %}
 {# https://github.com/Homebrew/homebrew-cask-fonts/issues/1694#issuecomment-392610841 #}
@@ -60,9 +60,10 @@ end
 """
     )
 
-    def __init__(self, folder, meta):
+    def __init__(self, folder, meta, early_access=False):
         self.folder = folder
         self.meta = meta
+        self.early_access = early_access
 
     def font_name(self):
         return self.meta.name
@@ -80,6 +81,12 @@ end
     def name_path(self):
         return self.font_name().replace(" ", "+")
 
+    def homepage(self):
+        if self.early_access:
+            return f"https://fonts.google.com/earlyaccess"
+
+        return f"https://fonts.google.com/specimen/{self.name_path()}"
+
     def files(self):
         results = [font.filename for font in self.meta.fonts]
         results.sort()
@@ -90,7 +97,7 @@ end
             cask_name=self.cask_name(),
             folder=self.folder,
             font_name=self.font_name(),
-            name_path=self.name_path(),
+            homepage=self.homepage(),
             files=self.files(),
         )
 
@@ -153,7 +160,6 @@ def derive_name(font_file):
 
     name_parts = camel_case_split(font_file)
     result = " ".join(name_parts)
-    print(font_file, "  |  ", result)
     return result
 
 
@@ -200,7 +206,11 @@ Download the or clone the repository from https://github.com/google/fonts, then 
         else:
             meta = derive_metadata(family_folder)
             folder = os.path.relpath(family_folder, start=repo_dir)
-            cask = FontCask(folder, meta)
+
+            early_access_file = os.path.join(family_folder, "EARLY_ACCESS.category")
+            early_access = os.path.exists(early_access_file)
+
+            cask = FontCask(folder, meta, early_access=early_access)
 
         write_cask(cask)
 

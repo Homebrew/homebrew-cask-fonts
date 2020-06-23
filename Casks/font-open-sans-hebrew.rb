@@ -7,7 +7,7 @@ cask 'font-open-sans-hebrew' do
       using:      :svn,
       trust_cert: true
   name 'Open Sans Hebrew'
-  homepage 'https://fonts.google.com/specimen/Open+Sans+Hebrew'
+  homepage 'https://fonts.google.com/earlyaccess'
 
   depends_on macos: '>= :sierra'
 

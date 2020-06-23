@@ -7,7 +7,7 @@ cask 'font-archivo-vf-beta' do
       using:      :svn,
       trust_cert: true
   name 'Archivo VF Beta'
-  homepage 'https://fonts.google.com/specimen/Archivo+VF+Beta'
+  homepage 'https://fonts.google.com/earlyaccess'
 
   depends_on macos: '>= :sierra'
 
