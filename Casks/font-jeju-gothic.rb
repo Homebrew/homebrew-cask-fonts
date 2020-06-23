@@ -5,7 +5,7 @@ cask 'font-jeju-gothic' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/jejugothic/JejuGothic-Regular.ttf'
   name 'Jeju Gothic'
-  homepage 'https://fonts.google.com/specimen/Jeju+Gothic'
+  homepage 'https://fonts.google.com/earlyaccess'
 
   font 'JejuGothic-Regular.ttf'
 end

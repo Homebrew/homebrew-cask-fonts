@@ -5,7 +5,7 @@ cask 'font-maven-pro-vf-beta' do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url 'https://github.com/google/fonts/raw/master/ofl/mavenprovfbeta/MavenProVFBeta.ttf'
   name 'Maven Pro VF Beta'
-  homepage 'https://fonts.google.com/specimen/Maven+Pro+VF+Beta'
+  homepage 'https://fonts.google.com/earlyaccess'
 
   font 'MavenProVFBeta.ttf'
 end

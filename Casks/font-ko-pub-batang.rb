@@ -7,7 +7,7 @@ cask 'font-ko-pub-batang' do
       using:      :svn,
       trust_cert: true
   name 'Ko Pub Batang'
-  homepage 'https://fonts.google.com/specimen/Ko+Pub+Batang'
+  homepage 'https://fonts.google.com/earlyaccess'
 
   depends_on macos: '>= :sierra'
 

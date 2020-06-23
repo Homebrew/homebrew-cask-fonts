@@ -7,7 +7,7 @@ cask 'font-asap-vf-beta' do
       using:      :svn,
       trust_cert: true
   name 'Asap VF Beta'
-  homepage 'https://fonts.google.com/specimen/Asap+VF+Beta'
+  homepage 'https://fonts.google.com/earlyaccess'
 
   depends_on macos: '>= :sierra'
 
