@@ -9,6 +9,7 @@
 #
 #   pip install gftools jinja2 protobuf
 
+from functools import reduce
 from glob import glob
 import os
 import re
@@ -59,9 +60,9 @@ end
 """
     )
 
-    def __init__(self, folder, meta_file):
+    def __init__(self, folder, meta):
         self.folder = folder
-        self.meta = parse_metadata(meta_file)
+        self.meta = meta
 
     def font_name(self):
         return self.meta.name
@@ -115,8 +116,11 @@ def should_skip(cask_path):
 
 def metadata_to_cask(meta_file, repo_dir):
     folder = os.path.dirname(os.path.relpath(meta_file, start=repo_dir))
-    cask = FontCask(folder, meta_file)
+    meta = parse_metadata(meta_file)
+    return FontCask(folder, meta)
 
+
+def write_cask(cask):
     if should_skip(cask.dest_path()):
         return
 
@@ -126,6 +130,29 @@ def metadata_to_cask(meta_file, repo_dir):
 
 def delete_google_casks():
     os.system("grep -rEl 'fonts.google.com|google.com/fonts' Casks | xargs rm")
+
+
+def find_family_folders(repo_dir):
+    SUBDIRS = ["apache", "ofl", "ufl"]
+    folders_list = [glob(os.path.join(repo_dir, subdir, "*")) for subdir in SUBDIRS]
+    # flatten
+    return reduce(lambda x, y: x + y, folders_list)
+
+
+def derive_metadata(family_folder):
+    """Create a metadata object based on the contents of the folder."""
+
+    name = os.path.basename(family_folder)
+    meta = fonts_pb2.FamilyProto(name=name)
+
+    font_files = glob(os.path.join(family_folder, "*.ttf"))
+    fonts = [
+        fonts_pb2.FontProto(filename=os.path.basename(filename))
+        for filename in font_files
+    ]
+    meta.fonts.extend(fonts)
+
+    return meta
 
 
 def run():
@@ -139,13 +166,22 @@ Download the or clone the repository from https://github.com/google/fonts, then 
         sys.exit(1)
 
     repo_dir = sys.argv[1]
-    meta_files = glob(os.path.join(repo_dir, "*", "*", "METADATA.pb"), recursive=True)
+    family_folders = find_family_folders(repo_dir)
 
     # since the valid font Casks will be regenerated anyway, delete all of them first to ensure any fonts removed from Google are cleaned up
     delete_google_casks()
 
-    for meta_file in meta_files:
-        metadata_to_cask(meta_file, repo_dir)
+    for family_folder in family_folders:
+        meta_file = os.path.join(family_folder, "METADATA.pb")
+        # check if the metadata file is present
+        # https://github.com/google/fonts/issues/2512
+        if os.path.exists(meta_file):
+            cask = metadata_to_cask(meta_file, repo_dir)
+        else:
+            meta = derive_metadata(family_folder)
+            cask = FontCask(family_folder, meta)
+
+        write_cask(cask)
 
 
 run()
