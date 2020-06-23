@@ -156,7 +156,7 @@ def derive_name(font_file):
 
     font_file = os.path.splitext(os.path.basename(font_file))[0]
     font_file = font_file[: len(parent_dir_name)]
-    font_file = re.sub(r"(-\w+|Alpha)$", "", font_file)
+    font_file = re.sub(r"-\w+$", "", font_file)
 
     name_parts = camel_case_split(font_file)
     result = " ".join(name_parts)
