@@ -181,6 +181,16 @@ def derive_metadata(family_folder):
     return meta
 
 
+def derive_cask(family_folder, repo_dir):
+    meta = derive_metadata(family_folder)
+    folder = os.path.relpath(family_folder, start=repo_dir)
+
+    early_access_file = os.path.join(family_folder, "EARLY_ACCESS.category")
+    early_access = os.path.exists(early_access_file)
+
+    return FontCask(folder, meta, early_access=early_access)
+
+
 def run():
     if len(sys.argv) != 2:
         print(
@@ -204,13 +214,7 @@ Download the or clone the repository from https://github.com/google/fonts, then 
         if os.path.exists(meta_file):
             cask = metadata_to_cask(meta_file, repo_dir)
         else:
-            meta = derive_metadata(family_folder)
-            folder = os.path.relpath(family_folder, start=repo_dir)
-
-            early_access_file = os.path.join(family_folder, "EARLY_ACCESS.category")
-            early_access = os.path.exists(early_access_file)
-
-            cask = FontCask(folder, meta, early_access=early_access)
+            cask = derive_cask(family_folder, repo_dir)
 
         write_cask(cask)
 
