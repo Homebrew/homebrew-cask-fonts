@@ -3,9 +3,9 @@ cask 'font-hannari' do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master//Users/afeld/Downloads/fonts-master/ofl/hannari/Hannari-Regular.ttf'
-  name 'hannari'
-  homepage 'https://fonts.google.com/specimen/hannari'
+  url 'https://github.com/google/fonts/raw/master/ofl/hannari/Hannari-Regular.ttf'
+  name 'Hannari'
+  homepage 'https://fonts.google.com/specimen/Hannari'
 
   font 'Hannari-Regular.ttf'
 end

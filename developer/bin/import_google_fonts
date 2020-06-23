@@ -139,13 +139,33 @@ def find_family_folders(repo_dir):
     return reduce(lambda x, y: x + y, folders_list)
 
 
+# https://www.geeksforgeeks.org/python-split-camelcase-string-to-individual-strings/
+def camel_case_split(str):
+    return re.findall(r"[A-Z](?:[a-z]+|[A-Z]*(?=[A-Z]|$))", str)
+
+
+def derive_name(font_file):
+    parent_dir_name = os.path.basename(os.path.dirname(font_file))
+
+    font_file = os.path.splitext(os.path.basename(font_file))[0]
+    font_file = font_file[: len(parent_dir_name)]
+    font_file = re.sub(r"(-\w+|Alpha)$", "", font_file)
+
+    name_parts = camel_case_split(font_file)
+    result = " ".join(name_parts)
+    print(font_file, "  |  ", result)
+    return result
+
+
 def derive_metadata(family_folder):
     """Create a metadata object based on the contents of the folder."""
 
-    name = os.path.basename(family_folder)
-    meta = fonts_pb2.FamilyProto(name=name)
+    meta = fonts_pb2.FamilyProto()
 
     font_files = glob(os.path.join(family_folder, "*.ttf"))
+    # grab the first font, arbitrarily
+    meta.name = derive_name(font_files[0])
+
     fonts = [
         fonts_pb2.FontProto(filename=os.path.basename(filename))
         for filename in font_files
@@ -179,7 +199,8 @@ Download the or clone the repository from https://github.com/google/fonts, then 
             cask = metadata_to_cask(meta_file, repo_dir)
         else:
             meta = derive_metadata(family_folder)
-            cask = FontCask(family_folder, meta)
+            folder = os.path.relpath(family_folder, start=repo_dir)
+            cask = FontCask(folder, meta)
 
         write_cask(cask)
 
