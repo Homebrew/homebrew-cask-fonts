@@ -1,11 +1,11 @@
 cask 'font-cascadia-mono' do
-  version '2005.15'
-  sha256 'b3d8495e9cdee90d0dbaf60b7db018413e130265dc27e2be7a8db04cf98fddce'
+  version '2007.01'
+  sha256 '9f066d0d9cb2669bea2e130d7add43d496bf24ef995f42dc603fc2014574a3a4'
 
-  url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode_#{version}.zip"
+  url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   appcast 'https://github.com/microsoft/cascadia-code/releases.atom'
   name 'Cascadia Mono'
   homepage 'https://github.com/microsoft/cascadia-code'
 
-  font 'otf/CascadiaMono.otf'
+  font 'ttf/CascadiaMono.ttf'
 end
