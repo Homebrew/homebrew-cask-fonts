@@ -1,4 +1,4 @@
-cask 'font-dejavusansmono-nerd-font' do
+cask 'font-dejavu-sans-mono-nerd-font' do
   version '2.1.0'
   sha256 '3fbcc4904c88f68d24c8b479784a1aba37f2d78b1162d21f6fc85a58ffcc0e0f'
 
