@@ -1,11 +1,11 @@
-cask 'font-nosifer' do
+cask "font-nosifer" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/nosifer/Nosifer-Regular.ttf'
-  name 'Nosifer'
-  homepage 'https://fonts.google.com/specimen/Nosifer'
+  url "https://github.com/google/fonts/raw/master/ofl/nosifer/Nosifer-Regular.ttf"
+  name "Nosifer"
+  homepage "https://fonts.google.com/specimen/Nosifer"
 
-  font 'Nosifer-Regular.ttf'
+  font "Nosifer-Regular.ttf"
 end
