@@ -1,11 +1,11 @@
-cask 'font-ewert' do
+cask "font-ewert" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/ewert/Ewert-Regular.ttf'
-  name 'Ewert'
-  homepage 'https://fonts.google.com/specimen/Ewert'
+  url "https://github.com/google/fonts/raw/master/ofl/ewert/Ewert-Regular.ttf"
+  name "Ewert"
+  homepage "https://fonts.google.com/specimen/Ewert"
 
-  font 'Ewert-Regular.ttf'
+  font "Ewert-Regular.ttf"
 end
