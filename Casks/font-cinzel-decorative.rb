@@ -1,17 +1,17 @@
-cask 'font-cinzel-decorative' do
+cask "font-cinzel-decorative" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/cinzeldecorative',
+  url "https://github.com/google/fonts/trunk/ofl/cinzeldecorative",
       using:      :svn,
       trust_cert: true
-  name 'Cinzel Decorative'
-  homepage 'https://fonts.google.com/specimen/Cinzel+Decorative'
+  name "Cinzel Decorative"
+  homepage "https://fonts.google.com/specimen/Cinzel+Decorative"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'CinzelDecorative-Black.ttf'
-  font 'CinzelDecorative-Bold.ttf'
-  font 'CinzelDecorative-Regular.ttf'
+  font "CinzelDecorative-Black.ttf"
+  font "CinzelDecorative-Bold.ttf"
+  font "CinzelDecorative-Regular.ttf"
 end
