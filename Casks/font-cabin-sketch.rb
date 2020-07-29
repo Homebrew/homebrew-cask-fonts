@@ -1,16 +1,16 @@
-cask 'font-cabin-sketch' do
+cask "font-cabin-sketch" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/cabinsketch',
+  url "https://github.com/google/fonts/trunk/ofl/cabinsketch",
       using:      :svn,
       trust_cert: true
-  name 'Cabin Sketch'
-  homepage 'https://fonts.google.com/specimen/Cabin+Sketch'
+  name "Cabin Sketch"
+  homepage "https://fonts.google.com/specimen/Cabin+Sketch"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'CabinSketch-Bold.ttf'
-  font 'CabinSketch-Regular.ttf'
+  font "CabinSketch-Bold.ttf"
+  font "CabinSketch-Regular.ttf"
 end
