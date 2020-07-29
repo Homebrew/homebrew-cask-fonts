@@ -1,11 +1,11 @@
-cask 'font-chenla' do
+cask "font-chenla" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/chenla/Chenla.ttf'
-  name 'Chenla'
-  homepage 'https://fonts.google.com/specimen/Chenla'
+  url "https://github.com/google/fonts/raw/master/ofl/chenla/Chenla.ttf"
+  name "Chenla"
+  homepage "https://fonts.google.com/specimen/Chenla"
 
-  font 'Chenla.ttf'
+  font "Chenla.ttf"
 end
