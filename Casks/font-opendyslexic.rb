@@ -1,11 +1,11 @@
-cask 'font-opendyslexic' do
-  version '20160623-Stable'
-  sha256 '3b4a84f573d3f5d75e198bbf362ff6fa812b33d6559dce651e44df455be929cc'
+cask "font-opendyslexic" do
+  version "20160623-Stable"
+  sha256 "3b4a84f573d3f5d75e198bbf362ff6fa812b33d6559dce651e44df455be929cc"
 
   url "https://codeload.github.com/antijingoist/open-dyslexic/zip/#{version}"
-  appcast 'https://github.com/antijingoist/open-dyslexic/releases.atom'
-  name 'OpenDyslexic'
-  homepage 'https://github.com/antijingoist/open-dyslexic'
+  appcast "https://github.com/antijingoist/open-dyslexic/releases.atom"
+  name "OpenDyslexic"
+  homepage "https://github.com/antijingoist/open-dyslexic"
 
   font "open-dyslexic-#{version}/otf/OpenDyslexic-Bold.otf"
   font "open-dyslexic-#{version}/otf/OpenDyslexic-BoldItalic.otf"
