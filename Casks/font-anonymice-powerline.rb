@@ -1,17 +1,17 @@
-cask 'font-anonymice-powerline' do
+cask "font-anonymice-powerline" do
   version :latest
   sha256 :no_check
 
-  url 'https://github.com/powerline/fonts/trunk/AnonymousPro',
+  url "https://github.com/powerline/fonts/trunk/AnonymousPro",
       using:      :svn,
       trust_cert: true
-  name 'Anonymice Powerline'
-  homepage 'https://github.com/powerline/fonts/tree/master/AnonymousPro'
+  name "Anonymice Powerline"
+  homepage "https://github.com/powerline/fonts/tree/master/AnonymousPro"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'Anonymice Powerline Bold Italic.ttf'
-  font 'Anonymice Powerline Bold.ttf'
-  font 'Anonymice Powerline Italic.ttf'
-  font 'Anonymice Powerline.ttf'
+  font "Anonymice Powerline Bold Italic.ttf"
+  font "Anonymice Powerline Bold.ttf"
+  font "Anonymice Powerline Italic.ttf"
+  font "Anonymice Powerline.ttf"
 end
