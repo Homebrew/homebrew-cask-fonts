@@ -1,10 +1,10 @@
-cask 'font-blokk-neue' do
+cask "font-blokk-neue" do
   version :latest
   sha256 :no_check
 
-  url 'http://www.blokkfont.com/cdn/v2/BLOKKNeue-Regular.zip'
-  name 'BLOKK Neue'
-  homepage 'http://blokkfont.com/'
+  url "http://www.blokkfont.com/cdn/v2/BLOKKNeue-Regular.zip"
+  name "BLOKK Neue"
+  homepage "http://blokkfont.com/"
 
-  font 'BLOKKNeue-Regular/BLOKKNeue-Regular.otf'
+  font "BLOKKNeue-Regular/BLOKKNeue-Regular.otf"
 end
