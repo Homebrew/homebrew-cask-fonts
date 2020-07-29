@@ -1,16 +1,16 @@
-cask 'font-nanum-gothic-coding' do
+cask "font-nanum-gothic-coding" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/nanumgothiccoding',
+  url "https://github.com/google/fonts/trunk/ofl/nanumgothiccoding",
       using:      :svn,
       trust_cert: true
-  name 'Nanum Gothic Coding'
-  homepage 'https://fonts.google.com/specimen/Nanum+Gothic+Coding'
+  name "Nanum Gothic Coding"
+  homepage "https://fonts.google.com/specimen/Nanum+Gothic+Coding"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'NanumGothicCoding-Bold.ttf'
-  font 'NanumGothicCoding-Regular.ttf'
+  font "NanumGothicCoding-Bold.ttf"
+  font "NanumGothicCoding-Regular.ttf"
 end
