@@ -1,10 +1,10 @@
-cask 'font-hyppolit' do
+cask "font-hyppolit" do
   version :latest
   sha256 :no_check
 
-  url 'https://dl.1001fonts.com/hyppolit.zip'
-  name 'Hyppolit'
-  homepage 'https://www.1001fonts.com/hyppolit-font.html'
+  url "https://dl.1001fonts.com/hyppolit.zip"
+  name "Hyppolit"
+  homepage "https://www.1001fonts.com/hyppolit-font.html"
 
-  font 'Hyppolit.ttf'
+  font "Hyppolit.ttf"
 end
