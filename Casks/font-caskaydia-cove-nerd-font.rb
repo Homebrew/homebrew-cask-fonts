@@ -1,4 +1,4 @@
-cask "font-caskaydiacove-nerd-font" do
+cask "font-caskaydia-cove-nerd-font" do
   version "2.1.0"
   sha256 "92b50960305c580fc90bb3bd5456e26edc9b321907dfa2578066a9b38e2a94e0"
 

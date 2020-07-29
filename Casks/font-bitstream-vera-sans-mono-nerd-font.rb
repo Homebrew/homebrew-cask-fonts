@@ -1,4 +1,4 @@
-cask "font-bitstreamverasansmono-nerd-font" do
+cask "font-bitstream-vera-sans-mono-nerd-font" do
   version "2.1.0"
   sha256 "b31595d1e717156a1f42b0ff635b93d5da631312e4f0bd5c581259171e4a42d8"
 

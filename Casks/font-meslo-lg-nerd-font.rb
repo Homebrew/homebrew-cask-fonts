@@ -1,4 +1,4 @@
-cask "font-meslolg-nerd-font" do
+cask "font-meslo-lg-nerd-font" do
   version "2.1.0"
   sha256 "f0630f93b2f8c27b0cda8c4a2bae2b7a67bdd70786500e109f38c3a9b145f523"
 

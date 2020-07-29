@@ -1,4 +1,4 @@
-cask "font-daddytimemono-nerd-font" do
+cask "font-daddy-time-mono-nerd-font" do
   version "2.1.0"
   sha256 "644a8385af780abaa158457327a3d095381004eb3f7a45fdeb8e20f0a7e7dbd8"
 

@@ -1,4 +1,4 @@
-cask "font-proggycleantt-nerd-font" do
+cask "font-proggy-clean-tt-nerd-font" do
   version "2.1.0"
   sha256 "0f4593764b7cadb3b3462d1d60d3a3ab647d8c47dfec4ed25e3618f9cd7c636a"
 

@@ -1,4 +1,4 @@
-cask "font-ubuntumono-nerd-font" do
+cask "font-ubuntu-mono-nerd-font" do
   version "2.1.0"
   sha256 "1034658826a4561a1ff460aa4261b5f47e8b201601619242e31bbde14ecc4871"
 

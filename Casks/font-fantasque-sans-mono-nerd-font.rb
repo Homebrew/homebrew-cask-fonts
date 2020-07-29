@@ -1,4 +1,4 @@
-cask "font-fantasquesansmono-nerd-font" do
+cask "font-fantasque-sans-mono-nerd-font" do
   version "2.1.0"
   sha256 "66bf67eb5031c1614e5f76b4e011860dd249a61350e5d921331c443b6609f090"
 

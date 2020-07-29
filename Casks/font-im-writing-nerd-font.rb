@@ -1,4 +1,4 @@
-cask "font-imwriting-nerd-font" do
+cask "font-im-writing-nerd-font" do
   version "2.1.0"
   sha256 "9f18ad9964ac0a09ec321b6d1ca68a25e4c1b2a019b575032b9b75c37bd69332"
 

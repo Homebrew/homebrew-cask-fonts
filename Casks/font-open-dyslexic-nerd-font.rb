@@ -1,4 +1,4 @@
-cask "font-opendyslexic-nerd-font" do
+cask "font-open-dyslexic-nerd-font" do
   version "2.1.0"
   sha256 "7e0ddb881c1ed38bfab6bc3f23dbcf7574f83f317563e820231479665e174655"
 

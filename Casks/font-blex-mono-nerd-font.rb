@@ -1,4 +1,4 @@
-cask "font-blexmono-nerd-font" do
+cask "font-blex-mono-nerd-font" do
   version "2.1.0"
   sha256 "4fd7d9fd21cfcb7808548617628e3f2044e9eaa5871261767472e739ed9d6e76"
 

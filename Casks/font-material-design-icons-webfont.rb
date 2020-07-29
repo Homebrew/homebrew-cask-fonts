@@ -1,4 +1,4 @@
-cask "font-materialdesignicons-webfont" do
+cask "font-material-design-icons-webfont" do
   version :latest
   sha256 :no_check
 

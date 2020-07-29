@@ -1,4 +1,4 @@
-cask "font-robotomono-nerd-font" do
+cask "font-roboto-mono-nerd-font" do
   version "2.1.0"
   sha256 "1dcd5d319bb70c098cb3499059f1aa7536be4c59399724db0de833c07eca0bda"
 
