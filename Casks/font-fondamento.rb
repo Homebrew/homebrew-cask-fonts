@@ -1,16 +1,16 @@
-cask 'font-fondamento' do
+cask "font-fondamento" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/fondamento',
+  url "https://github.com/google/fonts/trunk/ofl/fondamento",
       using:      :svn,
       trust_cert: true
-  name 'Fondamento'
-  homepage 'https://fonts.google.com/specimen/Fondamento'
+  name "Fondamento"
+  homepage "https://fonts.google.com/specimen/Fondamento"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'Fondamento-Italic.ttf'
-  font 'Fondamento-Regular.ttf'
+  font "Fondamento-Italic.ttf"
+  font "Fondamento-Regular.ttf"
 end
