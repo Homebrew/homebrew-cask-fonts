@@ -1,11 +1,11 @@
-cask 'font-noto-sans-old-italic' do
+cask "font-noto-sans-old-italic" do
   version :latest
   sha256 :no_check
 
   # noto-website-2.storage.googleapis.com/ was verified as official when first introduced to the cask
-  url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldItalic-unhinted.zip'
-  name 'Noto Sans Old Italic'
-  homepage 'https://www.google.com/get/noto/#sans-ital'
+  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldItalic-unhinted.zip"
+  name "Noto Sans Old Italic"
+  homepage "https://www.google.com/get/noto/#sans-ital"
 
-  font 'NotoSansOldItalic-Regular.ttf'
+  font "NotoSansOldItalic-Regular.ttf"
 end
