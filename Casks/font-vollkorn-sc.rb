@@ -1,18 +1,18 @@
-cask 'font-vollkorn-sc' do
+cask "font-vollkorn-sc" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/vollkornsc',
+  url "https://github.com/google/fonts/trunk/ofl/vollkornsc",
       using:      :svn,
       trust_cert: true
-  name 'Vollkorn SC'
-  homepage 'https://fonts.google.com/specimen/Vollkorn+SC'
+  name "Vollkorn SC"
+  homepage "https://fonts.google.com/specimen/Vollkorn+SC"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'VollkornSC-Black.ttf'
-  font 'VollkornSC-Bold.ttf'
-  font 'VollkornSC-Regular.ttf'
-  font 'VollkornSC-SemiBold.ttf'
+  font "VollkornSC-Black.ttf"
+  font "VollkornSC-Bold.ttf"
+  font "VollkornSC-Regular.ttf"
+  font "VollkornSC-SemiBold.ttf"
 end
