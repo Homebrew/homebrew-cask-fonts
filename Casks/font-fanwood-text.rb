@@ -1,16 +1,16 @@
-cask 'font-fanwood-text' do
+cask "font-fanwood-text" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/fanwoodtext',
+  url "https://github.com/google/fonts/trunk/ofl/fanwoodtext",
       using:      :svn,
       trust_cert: true
-  name 'Fanwood Text'
-  homepage 'https://fonts.google.com/specimen/Fanwood+Text'
+  name "Fanwood Text"
+  homepage "https://fonts.google.com/specimen/Fanwood+Text"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'FanwoodText-Italic.ttf'
-  font 'FanwoodText-Regular.ttf'
+  font "FanwoodText-Italic.ttf"
+  font "FanwoodText-Regular.ttf"
 end
