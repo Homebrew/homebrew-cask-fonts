@@ -1,18 +1,18 @@
-cask 'font-tuffy' do
+cask "font-tuffy" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/tuffy',
+  url "https://github.com/google/fonts/trunk/ofl/tuffy",
       using:      :svn,
       trust_cert: true
-  name 'Tuffy'
-  homepage 'https://fonts.google.com/specimen/Tuffy'
+  name "Tuffy"
+  homepage "https://fonts.google.com/specimen/Tuffy"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'Tuffy-Bold.ttf'
-  font 'Tuffy-BoldItalic.ttf'
-  font 'Tuffy-Italic.ttf'
-  font 'Tuffy-Regular.ttf'
+  font "Tuffy-Bold.ttf"
+  font "Tuffy-BoldItalic.ttf"
+  font "Tuffy-Italic.ttf"
+  font "Tuffy-Regular.ttf"
 end
