@@ -1,11 +1,11 @@
-cask 'font-domine' do
+cask "font-domine" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/domine/Domine%5Bwght%5D.ttf'
-  name 'Domine'
-  homepage 'https://fonts.google.com/specimen/Domine'
+  url "https://github.com/google/fonts/raw/master/ofl/domine/Domine%5Bwght%5D.ttf"
+  name "Domine"
+  homepage "https://fonts.google.com/specimen/Domine"
 
-  font 'Domine[wght].ttf'
+  font "Domine[wght].ttf"
 end
