@@ -1,11 +1,11 @@
-cask 'font-belleza' do
+cask "font-belleza" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/belleza/Belleza-Regular.ttf'
-  name 'Belleza'
-  homepage 'https://fonts.google.com/specimen/Belleza'
+  url "https://github.com/google/fonts/raw/master/ofl/belleza/Belleza-Regular.ttf"
+  name "Belleza"
+  homepage "https://fonts.google.com/specimen/Belleza"
 
-  font 'Belleza-Regular.ttf'
+  font "Belleza-Regular.ttf"
 end
