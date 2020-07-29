@@ -1,11 +1,11 @@
-cask 'font-fontdiner-swanky' do
+cask "font-fontdiner-swanky" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/apache/fontdinerswanky/FontdinerSwanky-Regular.ttf'
-  name 'Fontdiner Swanky'
-  homepage 'https://fonts.google.com/specimen/Fontdiner+Swanky'
+  url "https://github.com/google/fonts/raw/master/apache/fontdinerswanky/FontdinerSwanky-Regular.ttf"
+  name "Fontdiner Swanky"
+  homepage "https://fonts.google.com/specimen/Fontdiner+Swanky"
 
-  font 'FontdinerSwanky-Regular.ttf'
+  font "FontdinerSwanky-Regular.ttf"
 end
