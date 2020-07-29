@@ -1,16 +1,16 @@
-cask 'font-asul' do
+cask "font-asul" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/asul',
+  url "https://github.com/google/fonts/trunk/ofl/asul",
       using:      :svn,
       trust_cert: true
-  name 'Asul'
-  homepage 'https://fonts.google.com/specimen/Asul'
+  name "Asul"
+  homepage "https://fonts.google.com/specimen/Asul"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'Asul-Bold.ttf'
-  font 'Asul-Regular.ttf'
+  font "Asul-Bold.ttf"
+  font "Asul-Regular.ttf"
 end
