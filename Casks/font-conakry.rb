@@ -1,10 +1,10 @@
-cask 'font-conakry' do
+cask "font-conakry" do
   version :latest
   sha256 :no_check
 
-  url 'https://www.evertype.com/fonts/nko/ConakryFont.zip'
-  name 'Conakry'
-  homepage 'https://www.evertype.com/fonts/nko/'
+  url "https://www.evertype.com/fonts/nko/ConakryFont.zip"
+  name "Conakry"
+  homepage "https://www.evertype.com/fonts/nko/"
 
-  font 'ConakryFont/Conakry.ttf'
+  font "ConakryFont/Conakry.ttf"
 end
