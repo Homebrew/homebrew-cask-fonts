@@ -1,11 +1,11 @@
-cask 'font-source-sans-pro' do
-  version '3.006R'
-  sha256 'b22c7a4c45050ed8ae1b5293a9fd3b886d6f5150eb1e2ded429b9a11ac1602c5'
+cask "font-source-sans-pro" do
+  version "3.006R"
+  sha256 "b22c7a4c45050ed8ae1b5293a9fd3b886d6f5150eb1e2ded429b9a11ac1602c5"
 
   url "https://github.com/adobe-fonts/source-sans-pro/releases/download/#{version}/source-sans-pro-#{version}.zip"
-  appcast 'https://github.com/adobe-fonts/source-sans-pro/releases.atom'
-  name 'Source Sans Pro'
-  homepage 'https://github.com/adobe-fonts/source-sans-pro'
+  appcast "https://github.com/adobe-fonts/source-sans-pro/releases.atom"
+  name "Source Sans Pro"
+  homepage "https://github.com/adobe-fonts/source-sans-pro"
 
   font "source-sans-pro-#{version}/OTF/SourceSansPro-Black.otf"
   font "source-sans-pro-#{version}/OTF/SourceSansPro-BlackIt.otf"
