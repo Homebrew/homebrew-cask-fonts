@@ -1,11 +1,11 @@
-cask 'font-mr-dafoe' do
+cask "font-mr-dafoe" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/mrdafoe/MrDafoe-Regular.ttf'
-  name 'Mr Dafoe'
-  homepage 'https://fonts.google.com/specimen/Mr+Dafoe'
+  url "https://github.com/google/fonts/raw/master/ofl/mrdafoe/MrDafoe-Regular.ttf"
+  name "Mr Dafoe"
+  homepage "https://fonts.google.com/specimen/Mr+Dafoe"
 
-  font 'MrDafoe-Regular.ttf'
+  font "MrDafoe-Regular.ttf"
 end
