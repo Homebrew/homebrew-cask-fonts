@@ -1,11 +1,11 @@
-cask 'font-asar' do
+cask "font-asar" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/asar/Asar-Regular.ttf'
-  name 'Asar'
-  homepage 'https://fonts.google.com/specimen/Asar'
+  url "https://github.com/google/fonts/raw/master/ofl/asar/Asar-Regular.ttf"
+  name "Asar"
+  homepage "https://fonts.google.com/specimen/Asar"
 
-  font 'Asar-Regular.ttf'
+  font "Asar-Regular.ttf"
 end
