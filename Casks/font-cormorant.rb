@@ -1,11 +1,11 @@
-cask 'font-cormorant' do
-  version '3.601'
-  sha256 '59997266f48655f7365c0de16d2c4ea6e92a7d8f549fd97c95f1cbe307901e1e'
+cask "font-cormorant" do
+  version "3.601"
+  sha256 "59997266f48655f7365c0de16d2c4ea6e92a7d8f549fd97c95f1cbe307901e1e"
 
   url "https://github.com/CatharsisFonts/Cormorant/releases/download/v#{version}/Cormorant_Install_v#{version}.zip"
-  appcast 'https://github.com/CatharsisFonts/Cormorant/releases.atom'
-  name 'Cormorant'
-  homepage 'https://github.com/CatharsisFonts/Cormorant/'
+  appcast "https://github.com/CatharsisFonts/Cormorant/releases.atom"
+  name "Cormorant"
+  homepage "https://github.com/CatharsisFonts/Cormorant/"
 
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-Bold.ttf"
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-BoldItalic.ttf"
