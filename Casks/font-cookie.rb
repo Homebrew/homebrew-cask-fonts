@@ -1,11 +1,11 @@
-cask 'font-cookie' do
+cask "font-cookie" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/cookie/Cookie-Regular.ttf'
-  name 'Cookie'
-  homepage 'https://fonts.google.com/specimen/Cookie'
+  url "https://github.com/google/fonts/raw/master/ofl/cookie/Cookie-Regular.ttf"
+  name "Cookie"
+  homepage "https://fonts.google.com/specimen/Cookie"
 
-  font 'Cookie-Regular.ttf'
+  font "Cookie-Regular.ttf"
 end
