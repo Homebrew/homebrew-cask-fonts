@@ -1,11 +1,11 @@
-cask 'font-inder' do
+cask "font-inder" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/inder/Inder-Regular.ttf'
-  name 'Inder'
-  homepage 'https://fonts.google.com/specimen/Inder'
+  url "https://github.com/google/fonts/raw/master/ofl/inder/Inder-Regular.ttf"
+  name "Inder"
+  homepage "https://fonts.google.com/specimen/Inder"
 
-  font 'Inder-Regular.ttf'
+  font "Inder-Regular.ttf"
 end
