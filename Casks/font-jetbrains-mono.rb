@@ -1,12 +1,12 @@
-cask 'font-jetbrains-mono' do
-  version '2.001'
-  sha256 'd9176856e982ca16f4ee24a1021a62b51cea43575f3c6aa1910d4cdf6b695ade'
+cask "font-jetbrains-mono" do
+  version "2.001"
+  sha256 "d9176856e982ca16f4ee24a1021a62b51cea43575f3c6aa1910d4cdf6b695ade"
 
   # github.com/JetBrains/JetBrainsMono/ was verified as official when first introduced to the cask
   url "https://github.com/JetBrains/JetBrainsMono/releases/download/v#{version}/JetBrains.Mono.#{version}.zip"
-  appcast 'https://github.com/JetBrains/JetBrainsMono/releases.atom'
-  name 'JetBrains Mono'
-  homepage 'https://www.jetbrains.com/lp/mono'
+  appcast "https://github.com/JetBrains/JetBrainsMono/releases.atom"
+  name "JetBrains Mono"
+  homepage "https://www.jetbrains.com/lp/mono"
 
   font "JetBrains Mono #{version}/ttf/JetBrainsMono-Bold-Italic.ttf"
   font "JetBrains Mono #{version}/ttf/JetBrainsMono-Bold.ttf"
