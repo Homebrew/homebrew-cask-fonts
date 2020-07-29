@@ -1,11 +1,11 @@
-cask 'font-reenie-beanie' do
+cask "font-reenie-beanie" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/reeniebeanie/ReenieBeanie.ttf'
-  name 'Reenie Beanie'
-  homepage 'https://fonts.google.com/specimen/Reenie+Beanie'
+  url "https://github.com/google/fonts/raw/master/ofl/reeniebeanie/ReenieBeanie.ttf"
+  name "Reenie Beanie"
+  homepage "https://fonts.google.com/specimen/Reenie+Beanie"
 
-  font 'ReenieBeanie.ttf'
+  font "ReenieBeanie.ttf"
 end
