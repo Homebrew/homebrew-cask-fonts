@@ -1,11 +1,11 @@
-cask 'font-noto-sans-lycian' do
+cask "font-noto-sans-lycian" do
   version :latest
   sha256 :no_check
 
   # noto-website-2.storage.googleapis.com/ was verified as official when first introduced to the cask
-  url 'https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLycian-unhinted.zip'
-  name 'Noto Sans Lycian'
-  homepage 'https://www.google.com/get/noto/#sans-lyci'
+  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLycian-unhinted.zip"
+  name "Noto Sans Lycian"
+  homepage "https://www.google.com/get/noto/#sans-lyci"
 
-  font 'NotoSansLycian-Regular.ttf'
+  font "NotoSansLycian-Regular.ttf"
 end
