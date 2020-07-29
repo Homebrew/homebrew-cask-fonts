@@ -1,17 +1,17 @@
-cask 'font-gupter' do
+cask "font-gupter" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/gupter',
+  url "https://github.com/google/fonts/trunk/ofl/gupter",
       using:      :svn,
       trust_cert: true
-  name 'Gupter'
-  homepage 'https://fonts.google.com/specimen/Gupter'
+  name "Gupter"
+  homepage "https://fonts.google.com/specimen/Gupter"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'Gupter-Bold.ttf'
-  font 'Gupter-Medium.ttf'
-  font 'Gupter-Regular.ttf'
+  font "Gupter-Bold.ttf"
+  font "Gupter-Medium.ttf"
+  font "Gupter-Regular.ttf"
 end
