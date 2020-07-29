@@ -1,17 +1,17 @@
-cask 'font-sulphur-point' do
+cask "font-sulphur-point" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/sulphurpoint',
+  url "https://github.com/google/fonts/trunk/ofl/sulphurpoint",
       using:      :svn,
       trust_cert: true
-  name 'Sulphur Point'
-  homepage 'https://fonts.google.com/specimen/Sulphur+Point'
+  name "Sulphur Point"
+  homepage "https://fonts.google.com/specimen/Sulphur+Point"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'SulphurPoint-Bold.ttf'
-  font 'SulphurPoint-Light.ttf'
-  font 'SulphurPoint-Regular.ttf'
+  font "SulphurPoint-Bold.ttf"
+  font "SulphurPoint-Light.ttf"
+  font "SulphurPoint-Regular.ttf"
 end
