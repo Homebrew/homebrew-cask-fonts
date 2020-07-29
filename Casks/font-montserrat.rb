@@ -1,11 +1,11 @@
-cask 'font-montserrat' do
-  version '7.200'
-  sha256 '81b2c8f0148d6acf62b59f78869ad7eff28adcd9d19cddec4777d482df5dcd71'
+cask "font-montserrat" do
+  version "7.200"
+  sha256 "81b2c8f0148d6acf62b59f78869ad7eff28adcd9d19cddec4777d482df5dcd71"
 
   url "https://github.com/JulietaUla/Montserrat/archive/v#{version}.zip"
-  appcast 'https://github.com/JulietaUla/Montserrat/releases.atom'
-  name 'Montserrat'
-  homepage 'https://github.com/JulietaUla/Montserrat'
+  appcast "https://github.com/JulietaUla/Montserrat/releases.atom"
+  name "Montserrat"
+  homepage "https://github.com/JulietaUla/Montserrat"
 
   font "Montserrat-#{version}/fonts/otf/Montserrat-Black.otf"
   font "Montserrat-#{version}/fonts/otf/Montserrat-BlackItalic.otf"
