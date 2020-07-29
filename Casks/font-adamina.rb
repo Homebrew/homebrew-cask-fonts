@@ -1,11 +1,11 @@
-cask 'font-adamina' do
+cask "font-adamina" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/adamina/Adamina-Regular.ttf'
-  name 'Adamina'
-  homepage 'https://fonts.google.com/specimen/Adamina'
+  url "https://github.com/google/fonts/raw/master/ofl/adamina/Adamina-Regular.ttf"
+  name "Adamina"
+  homepage "https://fonts.google.com/specimen/Adamina"
 
-  font 'Adamina-Regular.ttf'
+  font "Adamina-Regular.ttf"
 end
