@@ -1,11 +1,11 @@
-cask 'font-andagii' do
+cask "font-andagii" do
   version :latest
   sha256 :no_check
 
-  url 'http://www.i18nguy.com/unicode/andagii.zip',
+  url "http://www.i18nguy.com/unicode/andagii.zip",
       user_agent: :fake
-  name 'Andagii'
-  homepage 'http://www.i18nguy.com/unicode/unicode-font.html'
+  name "Andagii"
+  homepage "http://www.i18nguy.com/unicode/unicode-font.html"
 
-  font 'ANDAGII_.TTF'
+  font "ANDAGII_.TTF"
 end
