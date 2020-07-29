@@ -1,21 +1,21 @@
-cask 'font-mukta-mahee' do
+cask "font-mukta-mahee" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/muktamahee',
+  url "https://github.com/google/fonts/trunk/ofl/muktamahee",
       using:      :svn,
       trust_cert: true
-  name 'Mukta Mahee'
-  homepage 'https://fonts.google.com/specimen/Mukta+Mahee'
+  name "Mukta Mahee"
+  homepage "https://fonts.google.com/specimen/Mukta+Mahee"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'MuktaMahee-Bold.ttf'
-  font 'MuktaMahee-ExtraBold.ttf'
-  font 'MuktaMahee-ExtraLight.ttf'
-  font 'MuktaMahee-Light.ttf'
-  font 'MuktaMahee-Medium.ttf'
-  font 'MuktaMahee-Regular.ttf'
-  font 'MuktaMahee-SemiBold.ttf'
+  font "MuktaMahee-Bold.ttf"
+  font "MuktaMahee-ExtraBold.ttf"
+  font "MuktaMahee-ExtraLight.ttf"
+  font "MuktaMahee-Light.ttf"
+  font "MuktaMahee-Medium.ttf"
+  font "MuktaMahee-Regular.ttf"
+  font "MuktaMahee-SemiBold.ttf"
 end
