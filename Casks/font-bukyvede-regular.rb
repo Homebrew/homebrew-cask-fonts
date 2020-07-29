@@ -1,10 +1,10 @@
-cask 'font-bukyvede-regular' do
+cask "font-bukyvede-regular" do
   version :latest
   sha256 :no_check
 
-  url 'https://kodeks.uni-bamberg.de/aksl/media/BukyVede-Regular.ttf'
-  name 'BukyVede Regular'
-  homepage 'https://kodeks.uni-bamberg.de/aksl/Schrift/BukyVede.htm'
+  url "https://kodeks.uni-bamberg.de/aksl/media/BukyVede-Regular.ttf"
+  name "BukyVede Regular"
+  homepage "https://kodeks.uni-bamberg.de/aksl/Schrift/BukyVede.htm"
 
-  font 'BukyVede-Regular.ttf'
+  font "BukyVede-Regular.ttf"
 end
