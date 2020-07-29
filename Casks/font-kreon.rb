@@ -1,11 +1,11 @@
-cask 'font-kreon' do
+cask "font-kreon" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/kreon/Kreon%5Bwght%5D.ttf'
-  name 'Kreon'
-  homepage 'https://fonts.google.com/specimen/Kreon'
+  url "https://github.com/google/fonts/raw/master/ofl/kreon/Kreon%5Bwght%5D.ttf"
+  name "Kreon"
+  homepage "https://fonts.google.com/specimen/Kreon"
 
-  font 'Kreon[wght].ttf'
+  font "Kreon[wght].ttf"
 end
