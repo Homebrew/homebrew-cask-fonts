@@ -1,11 +1,11 @@
-cask 'font-metropolis' do
-  version '11'
-  sha256 'a9efb018df3fae5d39fcd3d05418bce35c4f88ecbf9c3eb54ffff7dbfdf79466'
+cask "font-metropolis" do
+  version "11"
+  sha256 "a9efb018df3fae5d39fcd3d05418bce35c4f88ecbf9c3eb54ffff7dbfdf79466"
 
   url "https://github.com/chrismsimpson/Metropolis/archive/r#{version}.zip"
-  appcast 'https://github.com/chrismsimpson/Metropolis/releases.atom'
-  name 'Metropolis'
-  homepage 'https://github.com/chrismsimpson/Metropolis'
+  appcast "https://github.com/chrismsimpson/Metropolis/releases.atom"
+  name "Metropolis"
+  homepage "https://github.com/chrismsimpson/Metropolis"
 
   font "Metropolis-r#{version}/Fonts/OpenType/Metropolis-Black.otf"
   font "Metropolis-r#{version}/Fonts/OpenType/Metropolis-BlackItalic.otf"
