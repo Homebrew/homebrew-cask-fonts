@@ -1,11 +1,11 @@
-cask 'font-gloria-hallelujah' do
+cask "font-gloria-hallelujah" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/gloriahallelujah/GloriaHallelujah.ttf'
-  name 'Gloria Hallelujah'
-  homepage 'https://fonts.google.com/specimen/Gloria+Hallelujah'
+  url "https://github.com/google/fonts/raw/master/ofl/gloriahallelujah/GloriaHallelujah.ttf"
+  name "Gloria Hallelujah"
+  homepage "https://fonts.google.com/specimen/Gloria+Hallelujah"
 
-  font 'GloriaHallelujah.ttf'
+  font "GloriaHallelujah.ttf"
 end
