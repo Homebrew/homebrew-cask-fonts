@@ -1,11 +1,11 @@
-cask 'font-meslo-lg' do
-  version '1.2.1'
-  sha256 'd0bcb7668dda8fa1a0f8162d626adb434c32854e243b5bd52a717cf569af08d0'
+cask "font-meslo-lg" do
+  version "1.2.1"
+  sha256 "d0bcb7668dda8fa1a0f8162d626adb434c32854e243b5bd52a717cf569af08d0"
 
   url "https://github.com/andreberg/Meslo-Font/raw/master/dist/v#{version}/Meslo%20LG%20v#{version}.zip"
-  appcast 'https://github.com/andreberg/Meslo-Font/releases.atom'
-  name 'Meslo LG'
-  homepage 'https://github.com/andreberg/Meslo-Font'
+  appcast "https://github.com/andreberg/Meslo-Font/releases.atom"
+  name "Meslo LG"
+  homepage "https://github.com/andreberg/Meslo-Font"
 
   font "Meslo LG v#{version}/MesloLGL-Bold.ttf"
   font "Meslo LG v#{version}/MesloLGL-BoldItalic.ttf"
