@@ -1,11 +1,11 @@
-cask 'font-miltonian-tattoo' do
+cask "font-miltonian-tattoo" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/miltoniantattoo/MiltonianTattoo-Regular.ttf'
-  name 'Miltonian Tattoo'
-  homepage 'https://fonts.google.com/specimen/Miltonian+Tattoo'
+  url "https://github.com/google/fonts/raw/master/ofl/miltoniantattoo/MiltonianTattoo-Regular.ttf"
+  name "Miltonian Tattoo"
+  homepage "https://fonts.google.com/specimen/Miltonian+Tattoo"
 
-  font 'MiltonianTattoo-Regular.ttf'
+  font "MiltonianTattoo-Regular.ttf"
 end
