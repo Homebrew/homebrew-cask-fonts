@@ -1,11 +1,11 @@
-cask 'font-bilbo-swash-caps' do
+cask "font-bilbo-swash-caps" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/bilboswashcaps/BilboSwashCaps-Regular.ttf'
-  name 'Bilbo Swash Caps'
-  homepage 'https://fonts.google.com/specimen/Bilbo+Swash+Caps'
+  url "https://github.com/google/fonts/raw/master/ofl/bilboswashcaps/BilboSwashCaps-Regular.ttf"
+  name "Bilbo Swash Caps"
+  homepage "https://fonts.google.com/specimen/Bilbo+Swash+Caps"
 
-  font 'BilboSwashCaps-Regular.ttf'
+  font "BilboSwashCaps-Regular.ttf"
 end
