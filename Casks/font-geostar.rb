@@ -1,11 +1,11 @@
-cask 'font-geostar' do
+cask "font-geostar" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/geostar/Geostar-Regular.ttf'
-  name 'Geostar'
-  homepage 'https://fonts.google.com/specimen/Geostar'
+  url "https://github.com/google/fonts/raw/master/ofl/geostar/Geostar-Regular.ttf"
+  name "Geostar"
+  homepage "https://fonts.google.com/specimen/Geostar"
 
-  font 'Geostar-Regular.ttf'
+  font "Geostar-Regular.ttf"
 end
