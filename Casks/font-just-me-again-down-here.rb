@@ -1,11 +1,11 @@
-cask 'font-just-me-again-down-here' do
+cask "font-just-me-again-down-here" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/justmeagaindownhere/JustMeAgainDownHere.ttf'
-  name 'Just Me Again Down Here'
-  homepage 'https://fonts.google.com/specimen/Just+Me+Again+Down+Here'
+  url "https://github.com/google/fonts/raw/master/ofl/justmeagaindownhere/JustMeAgainDownHere.ttf"
+  name "Just Me Again Down Here"
+  homepage "https://fonts.google.com/specimen/Just+Me+Again+Down+Here"
 
-  font 'JustMeAgainDownHere.ttf'
+  font "JustMeAgainDownHere.ttf"
 end
