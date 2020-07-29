@@ -1,11 +1,11 @@
-cask 'font-devonshire' do
+cask "font-devonshire" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/devonshire/Devonshire-Regular.ttf'
-  name 'Devonshire'
-  homepage 'https://fonts.google.com/specimen/Devonshire'
+  url "https://github.com/google/fonts/raw/master/ofl/devonshire/Devonshire-Regular.ttf"
+  name "Devonshire"
+  homepage "https://fonts.google.com/specimen/Devonshire"
 
-  font 'Devonshire-Regular.ttf'
+  font "Devonshire-Regular.ttf"
 end
