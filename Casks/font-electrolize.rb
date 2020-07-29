@@ -1,11 +1,11 @@
-cask 'font-electrolize' do
+cask "font-electrolize" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/electrolize/Electrolize-Regular.ttf'
-  name 'Electrolize'
-  homepage 'https://fonts.google.com/specimen/Electrolize'
+  url "https://github.com/google/fonts/raw/master/ofl/electrolize/Electrolize-Regular.ttf"
+  name "Electrolize"
+  homepage "https://fonts.google.com/specimen/Electrolize"
 
-  font 'Electrolize-Regular.ttf'
+  font "Electrolize-Regular.ttf"
 end
