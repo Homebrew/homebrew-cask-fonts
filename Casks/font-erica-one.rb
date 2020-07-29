@@ -1,11 +1,11 @@
-cask 'font-erica-one' do
+cask "font-erica-one" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/ericaone/EricaOne-Regular.ttf'
-  name 'Erica One'
-  homepage 'https://fonts.google.com/specimen/Erica+One'
+  url "https://github.com/google/fonts/raw/master/ofl/ericaone/EricaOne-Regular.ttf"
+  name "Erica One"
+  homepage "https://fonts.google.com/specimen/Erica+One"
 
-  font 'EricaOne-Regular.ttf'
+  font "EricaOne-Regular.ttf"
 end
