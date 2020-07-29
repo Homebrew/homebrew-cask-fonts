@@ -1,11 +1,11 @@
-cask 'font-staatliches' do
+cask "font-staatliches" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/staatliches/Staatliches-Regular.ttf'
-  name 'Staatliches'
-  homepage 'https://fonts.google.com/specimen/Staatliches'
+  url "https://github.com/google/fonts/raw/master/ofl/staatliches/Staatliches-Regular.ttf"
+  name "Staatliches"
+  homepage "https://fonts.google.com/specimen/Staatliches"
 
-  font 'Staatliches-Regular.ttf'
+  font "Staatliches-Regular.ttf"
 end
