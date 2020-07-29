@@ -1,11 +1,11 @@
-cask 'font-purple-purse' do
+cask "font-purple-purse" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/purplepurse/PurplePurse-Regular.ttf'
-  name 'Purple Purse'
-  homepage 'https://fonts.google.com/specimen/Purple+Purse'
+  url "https://github.com/google/fonts/raw/master/ofl/purplepurse/PurplePurse-Regular.ttf"
+  name "Purple Purse"
+  homepage "https://fonts.google.com/specimen/Purple+Purse"
 
-  font 'PurplePurse-Regular.ttf'
+  font "PurplePurse-Regular.ttf"
 end
