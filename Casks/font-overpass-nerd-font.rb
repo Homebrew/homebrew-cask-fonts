@@ -1,50 +1,50 @@
-cask 'font-overpass-nerd-font' do
-  version '2.1.0'
-  sha256 'b5f7522a2e884562cfca4c32fa708d537b884efb5d055ad617a3b503d9f842f7'
+cask "font-overpass-nerd-font" do
+  version "2.1.0"
+  sha256 "b5f7522a2e884562cfca4c32fa708d537b884efb5d055ad617a3b503d9f842f7"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Overpass.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
-  name 'Overpass Nerd Font (Overpass)'
-  homepage 'https://github.com/ryanoasis/nerd-fonts'
+  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
+  name "Overpass Nerd Font (Overpass)"
+  homepage "https://github.com/ryanoasis/nerd-fonts"
 
-  font 'Overpass Mono Bold Nerd Font Complete.otf'
-  font 'Overpass Mono Bold Nerd Font Complete Mono.otf'
-  font 'Overpass Mono SemiBold Nerd Font Complete.otf'
-  font 'Overpass Mono SemiBold Nerd Font Complete Mono.otf'
-  font 'Overpass Mono Regular Nerd Font Complete Mono.otf'
-  font 'Overpass Mono Regular Nerd Font Complete.otf'
-  font 'Overpass Mono Light Nerd Font Complete.otf'
-  font 'Overpass Mono Light Nerd Font Complete Mono.otf'
-  font 'Overpass Bold Nerd Font Complete Mono.otf'
-  font 'Overpass Bold Nerd Font Complete.otf'
-  font 'Overpass Heavy Italic Nerd Font Complete Mono.otf'
-  font 'Overpass Heavy Italic Nerd Font Complete.otf'
-  font 'Overpass ExtraBold Italic Nerd Font Complete Mono.otf'
-  font 'Overpass ExtraBold Italic Nerd Font Complete.otf'
-  font 'Overpass SemiBold Nerd Font Complete.otf'
-  font 'Overpass SemiBold Nerd Font Complete Mono.otf'
-  font 'Overpass Bold Italic Nerd Font Complete.otf'
-  font 'Overpass Bold Italic Nerd Font Complete Mono.otf'
-  font 'Overpass ExtraLight Nerd Font Complete.otf'
-  font 'Overpass ExtraLight Nerd Font Complete Mono.otf'
-  font 'Overpass SemiBold Italic Nerd Font Complete.otf'
-  font 'Overpass SemiBold Italic Nerd Font Complete Mono.otf'
-  font 'Overpass ExtraLight Italic Nerd Font Complete Mono.otf'
-  font 'Overpass ExtraLight Italic Nerd Font Complete.otf'
-  font 'Overpass Regular Nerd Font Complete.otf'
-  font 'Overpass Regular Nerd Font Complete Mono.otf'
-  font 'Overpass Heavy Nerd Font Complete Mono.otf'
-  font 'Overpass Heavy Nerd Font Complete.otf'
-  font 'Overpass Thin Italic Nerd Font Complete Mono.otf'
-  font 'Overpass Thin Italic Nerd Font Complete.otf'
-  font 'Overpass Thin Nerd Font Complete.otf'
-  font 'Overpass Thin Nerd Font Complete Mono.otf'
-  font 'Overpass ExtraBold Nerd Font Complete.otf'
-  font 'Overpass ExtraBold Nerd Font Complete Mono.otf'
-  font 'Overpass Italic Nerd Font Complete Mono.otf'
-  font 'Overpass Italic Nerd Font Complete.otf'
-  font 'Overpass Light Nerd Font Complete Mono.otf'
-  font 'Overpass Light Nerd Font Complete.otf'
-  font 'Overpass Light Italic Nerd Font Complete.otf'
-  font 'Overpass Light Italic Nerd Font Complete Mono.otf'
+  font "Overpass Mono Bold Nerd Font Complete.otf"
+  font "Overpass Mono Bold Nerd Font Complete Mono.otf"
+  font "Overpass Mono SemiBold Nerd Font Complete.otf"
+  font "Overpass Mono SemiBold Nerd Font Complete Mono.otf"
+  font "Overpass Mono Regular Nerd Font Complete Mono.otf"
+  font "Overpass Mono Regular Nerd Font Complete.otf"
+  font "Overpass Mono Light Nerd Font Complete.otf"
+  font "Overpass Mono Light Nerd Font Complete Mono.otf"
+  font "Overpass Bold Nerd Font Complete Mono.otf"
+  font "Overpass Bold Nerd Font Complete.otf"
+  font "Overpass Heavy Italic Nerd Font Complete Mono.otf"
+  font "Overpass Heavy Italic Nerd Font Complete.otf"
+  font "Overpass ExtraBold Italic Nerd Font Complete Mono.otf"
+  font "Overpass ExtraBold Italic Nerd Font Complete.otf"
+  font "Overpass SemiBold Nerd Font Complete.otf"
+  font "Overpass SemiBold Nerd Font Complete Mono.otf"
+  font "Overpass Bold Italic Nerd Font Complete.otf"
+  font "Overpass Bold Italic Nerd Font Complete Mono.otf"
+  font "Overpass ExtraLight Nerd Font Complete.otf"
+  font "Overpass ExtraLight Nerd Font Complete Mono.otf"
+  font "Overpass SemiBold Italic Nerd Font Complete.otf"
+  font "Overpass SemiBold Italic Nerd Font Complete Mono.otf"
+  font "Overpass ExtraLight Italic Nerd Font Complete Mono.otf"
+  font "Overpass ExtraLight Italic Nerd Font Complete.otf"
+  font "Overpass Regular Nerd Font Complete.otf"
+  font "Overpass Regular Nerd Font Complete Mono.otf"
+  font "Overpass Heavy Nerd Font Complete Mono.otf"
+  font "Overpass Heavy Nerd Font Complete.otf"
+  font "Overpass Thin Italic Nerd Font Complete Mono.otf"
+  font "Overpass Thin Italic Nerd Font Complete.otf"
+  font "Overpass Thin Nerd Font Complete.otf"
+  font "Overpass Thin Nerd Font Complete Mono.otf"
+  font "Overpass ExtraBold Nerd Font Complete.otf"
+  font "Overpass ExtraBold Nerd Font Complete Mono.otf"
+  font "Overpass Italic Nerd Font Complete Mono.otf"
+  font "Overpass Italic Nerd Font Complete.otf"
+  font "Overpass Light Nerd Font Complete Mono.otf"
+  font "Overpass Light Nerd Font Complete.otf"
+  font "Overpass Light Italic Nerd Font Complete.otf"
+  font "Overpass Light Italic Nerd Font Complete Mono.otf"
 end
