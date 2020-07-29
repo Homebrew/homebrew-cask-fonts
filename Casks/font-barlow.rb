@@ -1,12 +1,12 @@
-cask 'font-barlow' do
-  version '1.403'
-  sha256 'a75384658b2c49048bc82a0e1423938bc6e170a7ca297fe43b3b0f8a389bacdf'
+cask "font-barlow" do
+  version "1.403"
+  sha256 "a75384658b2c49048bc82a0e1423938bc6e170a7ca297fe43b3b0f8a389bacdf"
 
   # github.com/jpt/barlow/ was verified as official when first introduced to the cask
   url "https://github.com/jpt/barlow/archive/v#{version}.zip"
-  appcast 'https://github.com/jpt/barlow/releases.atom'
-  name 'Barlow'
-  homepage 'https://tribby.com/fonts/barlow'
+  appcast "https://github.com/jpt/barlow/releases.atom"
+  name "Barlow"
+  homepage "https://tribby.com/fonts/barlow"
 
   font "barlow-#{version}/fonts/otf/Barlow-Black.otf"
   font "barlow-#{version}/fonts/otf/Barlow-BlackItalic.otf"
