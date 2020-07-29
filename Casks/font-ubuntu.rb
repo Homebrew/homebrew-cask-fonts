@@ -1,10 +1,10 @@
-cask 'font-ubuntu' do
-  version '0.83,fad7939b'
-  sha256 '456d7d42797febd0d7d4cf1b782a2e03680bb4a5ee43cc9d06bda172bac05b42'
+cask "font-ubuntu" do
+  version "0.83,fad7939b"
+  sha256 "456d7d42797febd0d7d4cf1b782a2e03680bb4a5ee43cc9d06bda172bac05b42"
 
   url "https://assets.ubuntu.com/v1/#{version.after_comma}-ubuntu-font-family-#{version.before_comma}.zip"
-  name 'Ubuntu'
-  homepage 'https://design.ubuntu.com/font/'
+  name "Ubuntu"
+  homepage "https://design.ubuntu.com/font/"
 
   font "ubuntu-font-family-#{version.before_comma}/Ubuntu-B.ttf"
   font "ubuntu-font-family-#{version.before_comma}/Ubuntu-BI.ttf"
