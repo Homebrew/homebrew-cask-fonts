@@ -1,11 +1,11 @@
-cask 'font-proza-libre' do
-  version '1.0'
-  sha256 'cbd3bb929d905330ad9e2d4b2efc3edf5c351eb5b4a238bd87367e74836fa9c9'
+cask "font-proza-libre" do
+  version "1.0"
+  sha256 "cbd3bb929d905330ad9e2d4b2efc3edf5c351eb5b4a238bd87367e74836fa9c9"
 
   url "https://github.com/jasperdewaard/Proza-Libre/archive/#{version}.zip"
-  appcast 'https://github.com/jasperdewaard/Proza-Libre/releases.atom'
-  name 'Proza Libre'
-  homepage 'https://github.com/jasperdewaard/Proza-Libre'
+  appcast "https://github.com/jasperdewaard/Proza-Libre/releases.atom"
+  name "Proza Libre"
+  homepage "https://github.com/jasperdewaard/Proza-Libre"
 
   font "Proza-Libre-#{version}/Fonts/ProzaLibre-Bold.ttf"
   font "Proza-Libre-#{version}/Fonts/ProzaLibre-BoldItalic.ttf"
