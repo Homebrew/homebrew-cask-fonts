@@ -1,11 +1,11 @@
-cask 'font-ruda' do
+cask "font-ruda" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/ruda/Ruda%5Bwght%5D.ttf'
-  name 'Ruda'
-  homepage 'https://fonts.google.com/specimen/Ruda'
+  url "https://github.com/google/fonts/raw/master/ofl/ruda/Ruda%5Bwght%5D.ttf"
+  name "Ruda"
+  homepage "https://fonts.google.com/specimen/Ruda"
 
-  font 'Ruda[wght].ttf'
+  font "Ruda[wght].ttf"
 end
