@@ -1,42 +1,42 @@
-cask 'font-imwriting-nerd-font' do
-  version '2.1.0'
-  sha256 '9f18ad9964ac0a09ec321b6d1ca68a25e4c1b2a019b575032b9b75c37bd69332'
+cask "font-imwriting-nerd-font" do
+  version "2.1.0"
+  sha256 "9f18ad9964ac0a09ec321b6d1ca68a25e4c1b2a019b575032b9b75c37bd69332"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/iA-Writer.zip"
-  appcast 'https://github.com/ryanoasis/nerd-fonts/releases.atom'
-  name 'iMWriting Nerd Font families (iA Writer)'
-  homepage 'https://github.com/ryanoasis/nerd-fonts'
+  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
+  name "iMWriting Nerd Font families (iA Writer)"
+  homepage "https://github.com/ryanoasis/nerd-fonts"
 
-  font 'iM Writing Duo S Bold Italic Nerd Font Complete Mono.ttf'
-  font 'iM Writing Duo S Bold Italic Nerd Font Complete.ttf'
-  font 'iM Writing Duo S Bold Nerd Font Complete Mono.ttf'
-  font 'iM Writing Duo S Bold Nerd Font Complete.ttf'
-  font 'iM Writing Duo S Italic Nerd Font Complete Mono.ttf'
-  font 'iM Writing Duo S Italic Nerd Font Complete.ttf'
-  font 'iM Writing Duo S Regular Nerd Font Complete Mono.ttf'
-  font 'iM Writing Duo S Regular Nerd Font Complete.ttf'
-  font 'iM Writing Duospace Bold Nerd Font Complete Mono.otf'
-  font 'iM Writing Duospace Bold Nerd Font Complete.otf'
-  font 'iM Writing Duospace BoldItalic Nerd Font Complete Mono.otf'
-  font 'iM Writing Duospace BoldItalic Nerd Font Complete.otf'
-  font 'iM Writing Duospace Italic Nerd Font Complete Mono.otf'
-  font 'iM Writing Duospace Italic Nerd Font Complete.otf'
-  font 'iM Writing Duospace Regular Nerd Font Complete Mono.otf'
-  font 'iM Writing Duospace Regular Nerd Font Complete.otf'
-  font 'iM Writing Mono S Bold Italic Nerd Font Complete Mono.ttf'
-  font 'iM Writing Mono S Bold Italic Nerd Font Complete.ttf'
-  font 'iM Writing Mono S Bold Nerd Font Complete Mono.ttf'
-  font 'iM Writing Mono S Bold Nerd Font Complete.ttf'
-  font 'iM Writing Mono S Italic Nerd Font Complete Mono.ttf'
-  font 'iM Writing Mono S Italic Nerd Font Complete.ttf'
-  font 'iM Writing Mono S Regular Nerd Font Complete Mono.ttf'
-  font 'iM Writing Mono S Regular Nerd Font Complete.ttf'
-  font 'iM Writing Quattro S Bold Italic Nerd Font Complete Mono.ttf'
-  font 'iM Writing Quattro S Bold Italic Nerd Font Complete.ttf'
-  font 'iM Writing Quattro S Bold Nerd Font Complete Mono.ttf'
-  font 'iM Writing Quattro S Bold Nerd Font Complete.ttf'
-  font 'iM Writing Quattro S Italic Nerd Font Complete Mono.ttf'
-  font 'iM Writing Quattro S Italic Nerd Font Complete.ttf'
-  font 'iM Writing Quattro S Regular Nerd Font Complete Mono.ttf'
-  font 'iM Writing Quattro S Regular Nerd Font Complete.ttf'
+  font "iM Writing Duo S Bold Italic Nerd Font Complete Mono.ttf"
+  font "iM Writing Duo S Bold Italic Nerd Font Complete.ttf"
+  font "iM Writing Duo S Bold Nerd Font Complete Mono.ttf"
+  font "iM Writing Duo S Bold Nerd Font Complete.ttf"
+  font "iM Writing Duo S Italic Nerd Font Complete Mono.ttf"
+  font "iM Writing Duo S Italic Nerd Font Complete.ttf"
+  font "iM Writing Duo S Regular Nerd Font Complete Mono.ttf"
+  font "iM Writing Duo S Regular Nerd Font Complete.ttf"
+  font "iM Writing Duospace Bold Nerd Font Complete Mono.otf"
+  font "iM Writing Duospace Bold Nerd Font Complete.otf"
+  font "iM Writing Duospace BoldItalic Nerd Font Complete Mono.otf"
+  font "iM Writing Duospace BoldItalic Nerd Font Complete.otf"
+  font "iM Writing Duospace Italic Nerd Font Complete Mono.otf"
+  font "iM Writing Duospace Italic Nerd Font Complete.otf"
+  font "iM Writing Duospace Regular Nerd Font Complete Mono.otf"
+  font "iM Writing Duospace Regular Nerd Font Complete.otf"
+  font "iM Writing Mono S Bold Italic Nerd Font Complete Mono.ttf"
+  font "iM Writing Mono S Bold Italic Nerd Font Complete.ttf"
+  font "iM Writing Mono S Bold Nerd Font Complete Mono.ttf"
+  font "iM Writing Mono S Bold Nerd Font Complete.ttf"
+  font "iM Writing Mono S Italic Nerd Font Complete Mono.ttf"
+  font "iM Writing Mono S Italic Nerd Font Complete.ttf"
+  font "iM Writing Mono S Regular Nerd Font Complete Mono.ttf"
+  font "iM Writing Mono S Regular Nerd Font Complete.ttf"
+  font "iM Writing Quattro S Bold Italic Nerd Font Complete Mono.ttf"
+  font "iM Writing Quattro S Bold Italic Nerd Font Complete.ttf"
+  font "iM Writing Quattro S Bold Nerd Font Complete Mono.ttf"
+  font "iM Writing Quattro S Bold Nerd Font Complete.ttf"
+  font "iM Writing Quattro S Italic Nerd Font Complete Mono.ttf"
+  font "iM Writing Quattro S Italic Nerd Font Complete.ttf"
+  font "iM Writing Quattro S Regular Nerd Font Complete Mono.ttf"
+  font "iM Writing Quattro S Regular Nerd Font Complete.ttf"
 end
