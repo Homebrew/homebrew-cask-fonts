@@ -1,11 +1,11 @@
-cask 'font-montez' do
+cask "font-montez" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/apache/montez/Montez-Regular.ttf'
-  name 'Montez'
-  homepage 'https://fonts.google.com/specimen/Montez'
+  url "https://github.com/google/fonts/raw/master/apache/montez/Montez-Regular.ttf"
+  name "Montez"
+  homepage "https://fonts.google.com/specimen/Montez"
 
-  font 'Montez-Regular.ttf'
+  font "Montez-Regular.ttf"
 end
