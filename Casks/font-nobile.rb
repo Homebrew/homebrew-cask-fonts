@@ -1,20 +1,20 @@
-cask 'font-nobile' do
+cask "font-nobile" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/nobile',
+  url "https://github.com/google/fonts/trunk/ofl/nobile",
       using:      :svn,
       trust_cert: true
-  name 'Nobile'
-  homepage 'https://fonts.google.com/specimen/Nobile'
+  name "Nobile"
+  homepage "https://fonts.google.com/specimen/Nobile"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'Nobile-Bold.ttf'
-  font 'Nobile-BoldItalic.ttf'
-  font 'Nobile-Italic.ttf'
-  font 'Nobile-Medium.ttf'
-  font 'Nobile-MediumItalic.ttf'
-  font 'Nobile-Regular.ttf'
+  font "Nobile-Bold.ttf"
+  font "Nobile-BoldItalic.ttf"
+  font "Nobile-Italic.ttf"
+  font "Nobile-Medium.ttf"
+  font "Nobile-MediumItalic.ttf"
+  font "Nobile-Regular.ttf"
 end
