@@ -1,11 +1,11 @@
-cask 'font-jim-nightshade' do
+cask "font-jim-nightshade" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/jimnightshade/JimNightshade-Regular.ttf'
-  name 'Jim Nightshade'
-  homepage 'https://fonts.google.com/specimen/Jim+Nightshade'
+  url "https://github.com/google/fonts/raw/master/ofl/jimnightshade/JimNightshade-Regular.ttf"
+  name "Jim Nightshade"
+  homepage "https://fonts.google.com/specimen/Jim+Nightshade"
 
-  font 'JimNightshade-Regular.ttf'
+  font "JimNightshade-Regular.ttf"
 end
