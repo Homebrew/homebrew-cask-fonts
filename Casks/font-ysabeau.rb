@@ -1,11 +1,11 @@
-cask 'font-ysabeau' do
-  version '0.003'
-  sha256 '70b0a1041c81b1e37fb80951a84616ed40668293f872f47b97fb87a88d4c1c62'
+cask "font-ysabeau" do
+  version "0.003"
+  sha256 "70b0a1041c81b1e37fb80951a84616ed40668293f872f47b97fb87a88d4c1c62"
 
   url "https://github.com/CatharsisFonts/EauDeGaramond/releases/download/v#{version}/Ysabeau_Install_v#{version}.zip"
-  appcast 'https://github.com/CatharsisFonts/EauDeGaramond/releases.atom'
-  name 'Ysabeau'
-  homepage 'https://github.com/CatharsisFonts/EauDeGaramond/'
+  appcast "https://github.com/CatharsisFonts/EauDeGaramond/releases.atom"
+  name "Ysabeau"
+  homepage "https://github.com/CatharsisFonts/EauDeGaramond/"
 
   font "Ysabeau_Install_v#{version}/Ysabeau-Black.ttf"
   font "Ysabeau_Install_v#{version}/Ysabeau-Bold.ttf"
