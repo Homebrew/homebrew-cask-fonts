@@ -1,11 +1,11 @@
-cask 'font-combo' do
+cask "font-combo" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/combo/Combo-Regular.ttf'
-  name 'Combo'
-  homepage 'https://fonts.google.com/specimen/Combo'
+  url "https://github.com/google/fonts/raw/master/ofl/combo/Combo-Regular.ttf"
+  name "Combo"
+  homepage "https://fonts.google.com/specimen/Combo"
 
-  font 'Combo-Regular.ttf'
+  font "Combo-Regular.ttf"
 end
