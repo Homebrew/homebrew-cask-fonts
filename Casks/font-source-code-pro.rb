@@ -1,12 +1,12 @@
-cask 'font-source-code-pro' do
-  version '2.030R-ro-1.050R-it'
-  sha256 'da2ac159497d31b0c6d9daa8fc390fb8252e75b4a9805ace6a2c9cccaed4932e'
+cask "font-source-code-pro" do
+  version "2.030R-ro-1.050R-it"
+  sha256 "da2ac159497d31b0c6d9daa8fc390fb8252e75b4a9805ace6a2c9cccaed4932e"
 
   # github.com/adobe-fonts/source-code-pro/ was verified as official when first introduced to the cask
-  url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.sub('ro-', 'ro/')}.zip"
-  appcast 'https://github.com/adobe-fonts/source-code-pro/releases.atom'
-  name 'Source Code Pro'
-  homepage 'https://adobe-fonts.github.io/source-code-pro/'
+  url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.sub("ro-", "ro/")}.zip"
+  appcast "https://github.com/adobe-fonts/source-code-pro/releases.atom"
+  name "Source Code Pro"
+  homepage "https://adobe-fonts.github.io/source-code-pro/"
 
   font "source-code-pro-#{version}/OTF/SourceCodePro-Black.otf"
   font "source-code-pro-#{version}/OTF/SourceCodePro-BlackIt.otf"
