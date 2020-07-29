@@ -1,11 +1,11 @@
-cask 'font-lobster' do
+cask "font-lobster" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/lobster/Lobster-Regular.ttf'
-  name 'Lobster'
-  homepage 'https://fonts.google.com/specimen/Lobster'
+  url "https://github.com/google/fonts/raw/master/ofl/lobster/Lobster-Regular.ttf"
+  name "Lobster"
+  homepage "https://fonts.google.com/specimen/Lobster"
 
-  font 'Lobster-Regular.ttf'
+  font "Lobster-Regular.ttf"
 end
