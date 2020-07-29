@@ -1,11 +1,11 @@
-cask 'font-goblin-one' do
+cask "font-goblin-one" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/goblinone/GoblinOne.ttf'
-  name 'Goblin One'
-  homepage 'https://fonts.google.com/specimen/Goblin+One'
+  url "https://github.com/google/fonts/raw/master/ofl/goblinone/GoblinOne.ttf"
+  name "Goblin One"
+  homepage "https://fonts.google.com/specimen/Goblin+One"
 
-  font 'GoblinOne.ttf'
+  font "GoblinOne.ttf"
 end
