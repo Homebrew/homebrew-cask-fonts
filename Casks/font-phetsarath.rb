@@ -1,16 +1,16 @@
-cask 'font-phetsarath' do
+cask "font-phetsarath" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/trunk/ofl/phetsarath',
+  url "https://github.com/google/fonts/trunk/ofl/phetsarath",
       using:      :svn,
       trust_cert: true
-  name 'Phetsarath'
-  homepage 'https://fonts.google.com/specimen/Phetsarath'
+  name "Phetsarath"
+  homepage "https://fonts.google.com/specimen/Phetsarath"
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
-  font 'Phetsarath-Bold.ttf'
-  font 'Phetsarath-Regular.ttf'
+  font "Phetsarath-Bold.ttf"
+  font "Phetsarath-Regular.ttf"
 end
