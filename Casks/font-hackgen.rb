@@ -1,11 +1,11 @@
-cask 'font-hackgen' do
-  version '1.4.0'
-  sha256 'c21de5388fa94c7d2dbd16111524fa871dd0f2a3908941fb2200154cab48972e'
+cask "font-hackgen" do
+  version "1.4.0"
+  sha256 "c21de5388fa94c7d2dbd16111524fa871dd0f2a3908941fb2200154cab48972e"
 
   url "https://github.com/yuru7/HackGen/releases/download/v#{version}/HackGen_v#{version}.zip"
-  appcast 'https://github.com/yuru7/HackGen/releases.atom'
-  name 'HackGen'
-  homepage 'https://github.com/yuru7/HackGen'
+  appcast "https://github.com/yuru7/HackGen/releases.atom"
+  name "HackGen"
+  homepage "https://github.com/yuru7/HackGen"
 
   font "HackGen_v#{version}/HackGen-Bold.ttf"
   font "HackGen_v#{version}/HackGen-Regular.ttf"
