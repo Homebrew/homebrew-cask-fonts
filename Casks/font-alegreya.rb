@@ -1,11 +1,11 @@
-cask 'font-alegreya' do
-  version '2.008'
-  sha256 '8a10cae2b660b048c53e9be1612698b86ed123a284f9f9d17cc9a4a45388650a'
+cask "font-alegreya" do
+  version "2.008"
+  sha256 "8a10cae2b660b048c53e9be1612698b86ed123a284f9f9d17cc9a4a45388650a"
 
   url "https://github.com/huertatipografica/Alegreya/archive/v#{version}.zip"
-  appcast 'https://github.com/huertatipografica/Alegreya/releases.atom'
-  name 'Alegreya'
-  homepage 'https://github.com/huertatipografica/Alegreya'
+  appcast "https://github.com/huertatipografica/Alegreya/releases.atom"
+  name "Alegreya"
+  homepage "https://github.com/huertatipografica/Alegreya"
 
   font "Alegreya-#{version}/fonts/otf/Alegreya-Black.otf"
   font "Alegreya-#{version}/fonts/otf/Alegreya-BlackItalic.otf"
