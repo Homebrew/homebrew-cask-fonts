@@ -1,11 +1,11 @@
-cask 'font-patua-one' do
+cask "font-patua-one" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/patuaone/PatuaOne-Regular.ttf'
-  name 'Patua One'
-  homepage 'https://fonts.google.com/specimen/Patua+One'
+  url "https://github.com/google/fonts/raw/master/ofl/patuaone/PatuaOne-Regular.ttf"
+  name "Patua One"
+  homepage "https://fonts.google.com/specimen/Patua+One"
 
-  font 'PatuaOne-Regular.ttf'
+  font "PatuaOne-Regular.ttf"
 end
