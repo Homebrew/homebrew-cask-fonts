@@ -1,11 +1,11 @@
-cask 'font-fasthand' do
+cask "font-fasthand" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/fasthand/Fasthand-Regular.ttf'
-  name 'Fasthand'
-  homepage 'https://fonts.google.com/specimen/Fasthand'
+  url "https://github.com/google/fonts/raw/master/ofl/fasthand/Fasthand-Regular.ttf"
+  name "Fasthand"
+  homepage "https://fonts.google.com/specimen/Fasthand"
 
-  font 'Fasthand-Regular.ttf'
+  font "Fasthand-Regular.ttf"
 end
