@@ -1,11 +1,11 @@
-cask 'font-forum' do
+cask "font-forum" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/forum/Forum-Regular.ttf'
-  name 'Forum'
-  homepage 'https://fonts.google.com/specimen/Forum'
+  url "https://github.com/google/fonts/raw/master/ofl/forum/Forum-Regular.ttf"
+  name "Forum"
+  homepage "https://fonts.google.com/specimen/Forum"
 
-  font 'Forum-Regular.ttf'
+  font "Forum-Regular.ttf"
 end
