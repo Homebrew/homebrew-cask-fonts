@@ -1,11 +1,11 @@
-cask 'font-source-serif-pro' do
-  version '3.001R'
-  sha256 'e061cf3184c60fb8811ffb429d82083f6dd16810250b71e676e5fa1abb1e5934'
+cask "font-source-serif-pro" do
+  version "3.001R"
+  sha256 "e061cf3184c60fb8811ffb429d82083f6dd16810250b71e676e5fa1abb1e5934"
 
   url "https://github.com/adobe-fonts/source-serif-pro/releases/download/#{version}/source-serif-pro-#{version}.zip"
-  appcast 'https://github.com/adobe-fonts/source-serif-pro/releases.atom'
-  name 'Source Serif Pro'
-  homepage 'https://github.com/adobe-fonts/source-serif-pro'
+  appcast "https://github.com/adobe-fonts/source-serif-pro/releases.atom"
+  name "Source Serif Pro"
+  homepage "https://github.com/adobe-fonts/source-serif-pro"
 
   font "source-serif-pro-#{version}/OTF/SourceSerifPro-Black.otf"
   font "source-serif-pro-#{version}/OTF/SourceSerifPro-BlackIt.otf"
