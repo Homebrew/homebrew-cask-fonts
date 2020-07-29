@@ -1,11 +1,11 @@
-cask 'font-diplomata' do
+cask "font-diplomata" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/raw/master/ofl/diplomata/Diplomata-Regular.ttf'
-  name 'Diplomata'
-  homepage 'https://fonts.google.com/specimen/Diplomata'
+  url "https://github.com/google/fonts/raw/master/ofl/diplomata/Diplomata-Regular.ttf"
+  name "Diplomata"
+  homepage "https://fonts.google.com/specimen/Diplomata"
 
-  font 'Diplomata-Regular.ttf'
+  font "Diplomata-Regular.ttf"
 end
