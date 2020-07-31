@@ -6,7 +6,7 @@ cask "font-neodunggeunmo" do
   url "https://github.com/Dalgona/neodgm/releases/download/v#{version}/neodgm.ttf"
   appcast "https://github.com/Dalgona/neodgm/releases.atom"
   name "NeoDunggeunmo"
-  homepage "https://dalgona.dev/neodgm"
+  homepage "https://neodgm.dalgona.dev/"
 
   font "neodgm.ttf"
 end
