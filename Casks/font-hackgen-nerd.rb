@@ -4,7 +4,7 @@ cask "font-hackgen-nerd" do
 
   url "https://github.com/yuru7/HackGen/releases/download/v#{version}/HackGenNerd_v#{version}.zip"
   appcast "https://github.com/yuru7/HackGen/releases.atom"
-  name "HackGen"
+  name "HackGenNerd"
   homepage "https://github.com/yuru7/HackGen"
 
   font "HackGenNerd_v#{version}/HackGen35Nerd-Bold.ttf"
