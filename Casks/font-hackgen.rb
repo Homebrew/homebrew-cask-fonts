@@ -16,4 +16,3 @@ cask "font-hackgen" do
   font "HackGen_v#{version}/HackGenConsole-Bold.ttf"
   font "HackGen_v#{version}/HackGenConsole-Regular.ttf"
 end
-
