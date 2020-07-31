@@ -1,4 +1,4 @@
-cask "font-aurulentsansmono-nerd-font" do
+cask "font-aurulent-sans-mono-nerd-font" do
   version "2.1.0"
   sha256 "5f318ab83d3b53ddcdd73739e2c522661d5dacd348abedde611845d510496560"
 

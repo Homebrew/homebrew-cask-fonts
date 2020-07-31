@@ -1,4 +1,4 @@
-cask "font-saucecodepro-nerd-font" do
+cask "font-sauce-code-pro-nerd-font" do
   version "2.1.0"
   sha256 "a771689e0bc1d020e2082c705e2fb6113b7f8fbc1c56c639957f12546bd39619"
 

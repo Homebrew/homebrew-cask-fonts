@@ -1,4 +1,4 @@
-cask "font-gomono-nerd-font" do
+cask "font-go-mono-nerd-font" do
   version "2.1.0"
   sha256 "755b206bc1b8441c4bebf08366ea0d02c28fb300b0f4c3e711f220ebdf1df0af"
 

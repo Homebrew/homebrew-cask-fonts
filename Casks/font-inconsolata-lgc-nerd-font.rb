@@ -1,4 +1,4 @@
-cask "font-inconsolatalgc-nerd-font" do
+cask "font-inconsolata-lgc-nerd-font" do
   version "2.1.0"
   sha256 "ed0217588f8169e9fdf0a02ce9f68f3cfc81b92006b5ba9e631a929f03b5869c"
 

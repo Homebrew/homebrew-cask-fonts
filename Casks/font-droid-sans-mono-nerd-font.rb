@@ -1,4 +1,4 @@
-cask "font-droidsansmono-nerd-font" do
+cask "font-droid-sans-mono-nerd-font" do
   version "2.1.0"
   sha256 "ffdcbbed0f95d2f4030fdc35297ed94f8e1da4e9313cd510cd900b452c5beca0"
 

@@ -1,4 +1,4 @@
-cask "font-codenewroman-nerd-font" do
+cask "font-code-new-roman-nerd-font" do
   version "2.1.0"
   sha256 "ea0a58e9559e07f805aa48805b589d3adef81cfd10f0e481ef8aae3b2457fdd5"
 

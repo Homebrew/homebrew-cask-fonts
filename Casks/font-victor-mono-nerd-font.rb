@@ -1,4 +1,4 @@
-cask "font-victormono-nerd-font" do
+cask "font-victor-mono-nerd-font" do
   version "2.1.0"
   sha256 "386d1327671165989cd197a22352098b2c064b51cd27504bcb1cbbf7f814e9a3"
 

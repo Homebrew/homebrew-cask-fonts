@@ -1,4 +1,4 @@
-cask "font-heavydata-nerd-font" do
+cask "font-heavy-data-nerd-font" do
   version "2.1.0"
   sha256 "cbe30eb404ac2f6460b6afcec0812e2dffc2f8d77b701b4310b789f20f86b918"
 

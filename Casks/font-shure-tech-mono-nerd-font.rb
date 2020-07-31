@@ -1,4 +1,4 @@
-cask "font-shuretechmono-nerd-font" do
+cask "font-shure-tech-mono-nerd-font" do
   version "2.1.0"
   sha256 "99b7f0cf4de6446ffdb8bf5ae19b2b95f38ca56eee658677f672f80abcafe9c0"
 
