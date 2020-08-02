@@ -1,9 +1,10 @@
 cask "font-work-sans" do
-  version :latest
-  sha256 :no_check
+  version "2.010"
+  sha256 "44e05ffb17d97205ec85feb82edcb2f6f99ef0874074096cec0d64f1b5af1973"
 
   # github.com/weiweihuanghuang/Work-Sans/ was verified as official when first introduced to the cask
-  url "https://github.com/weiweihuanghuang/Work-Sans/archive/master.zip"
+  url "https://github.com/weiweihuanghuang/Work-Sans/archive/#{version}.zip"
+  appcast "https://github.com/weiweihuanghuang/Work-Sans/releases.atom"
   name "Work Sans"
   homepage "https://weiweihuanghuang.github.io/Work-Sans/"
 
