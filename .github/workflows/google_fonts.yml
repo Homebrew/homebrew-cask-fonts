@@ -1,0 +1,34 @@
+name: Update Google Fonts
+
+on:
+  push: # TODO remove
+  schedule:
+    - cron: "0 0 * * *" # daily
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout homebrew-cask-fonts
+        uses: actions/checkout@v2
+      - name: Checkout google/fonts
+        uses: actions/checkout@v2
+        with:
+          repository: google/fonts
+          path: vendor/google-fonts
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Python packages
+        run: pip3 install gftools jinja2 protobuf
+
+      - name: Import Google Fonts
+        run: ./developer/bin/import_google_fonts vendor/google-fonts
+
+      - name: Commit updated files
+        uses: EndBug/add-and-commit@v4
+        with:
+          add: Casks
+          message: automatic import of Google Fonts from GitHub Actions
