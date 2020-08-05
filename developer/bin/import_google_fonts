@@ -33,28 +33,28 @@ class FontCask:
         keep_trailing_newline=True, trim_blocks=True, undefined=jinja2.StrictUndefined,
     )
     TEMPLATE = ENVIRONMENT.from_string(
-        """cask '{{cask_name}}' do
+        """cask "{{cask_name}}" do
   version :latest
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
 {% if files|length == 1 %}
-  url 'https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}'
+  url "https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}"
 {% else %}
-  url 'https://github.com/google/fonts/trunk/{{folder}}',
+  url "https://github.com/google/fonts/trunk/{{folder}}",
       using:      :svn,
       trust_cert: true
 {% endif %}
-  name '{{font_name}}'
-  homepage '{{homepage}}'
+  name "{{font_name}}"
+  homepage "{{homepage}}"
 
 {% if files|length > 1 %}
 {# https://github.com/Homebrew/homebrew-cask-fonts/issues/1694#issuecomment-392610841 #}
-  depends_on macos: '>= :sierra'
+  depends_on macos: ">= :sierra"
 
 {% endif %}
 {% for file in files %}
-  font '{{file}}'
+  font "{{file}}"
 {% endfor %}
 end
 """
