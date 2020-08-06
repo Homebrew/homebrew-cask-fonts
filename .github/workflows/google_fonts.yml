@@ -3,7 +3,7 @@ name: Update Google Fonts
 on:
   push: # TODO remove
   schedule:
-    - cron: "0 0 * * *" # daily
+    - cron: "0 0 * * 0" # weekly
 
 jobs:
   update:
@@ -27,8 +27,13 @@ jobs:
       - name: Import Google Fonts
         run: ./developer/bin/import_google_fonts vendor/google-fonts
 
-      - name: Commit updated files
-        uses: EndBug/add-and-commit@v4
+      - name: Create pull request with updated files
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
         with:
-          add: Casks
-          message: automatic import of Google Fonts from GitHub Actions
+          branch: auto-update-google-fonts
+          commit-message: automatic import of Google Fonts
+          base: master
+          title: automatic import of Google Fonts
+      - name: Print output
+        run: echo "Created pull request https://github.com/${{ github.repository }}/${{ steps.cpr.outputs.pull-request-number }}"
