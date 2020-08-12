@@ -1,15 +1,18 @@
 name: Update Google Fonts
 
 on:
-  push: # TODO remove
+  push:
+    branches:
+      - debug-google-fonts
   schedule:
     - cron: "0 0 * * 0" # weekly
 
 jobs:
   update:
+    if: github.repository == 'Homebrew/homebrew-cask-fonts'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout homebrew-cask-fonts
+      - name: Checkout homebrew/cask-fonts
         uses: actions/checkout@v2
       - name: Checkout google/fonts
         uses: actions/checkout@v2
