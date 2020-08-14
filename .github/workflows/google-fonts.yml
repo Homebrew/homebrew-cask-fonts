@@ -31,12 +31,17 @@ jobs:
         run: ./developer/bin/import_google_fonts vendor/google-fonts
 
       - name: Create pull request with updated files
-        id: cpr
+        id: create-pull-request
         uses: peter-evans/create-pull-request@v3
         with:
           branch: auto-update-google-fonts
-          commit-message: automatic import of Google Fonts
+          commit-message: Update Google Fonts
           base: master
-          title: automatic import of Google Fonts
-      - name: Print output
-        run: echo "Created pull request https://github.com/${{ github.repository }}/${{ steps.cpr.outputs.pull-request-number }}"
+          title: Automatic update of Google Fonts
+          body: |
+            This pull request was created automatically by the [`google-fonts`](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/.github/workflows/google-fonts.yml) workflow.
+          token: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
+      - name: Print pull request URL
+        run: |
+          echo "Created pull request:"
+          echo "  https://github.com/${{ github.repository }}/pull/${{ steps.create-pull-request.outputs.pull-request-number }}"
