@@ -7,7 +7,7 @@
 #
 # To install dependencies:
 #
-#   pip install gftools jinja2 protobuf
+#   pip install gftools html2text jinja2 protobuf
 
 from functools import reduce
 from glob import glob
@@ -17,7 +17,7 @@ import sys
 from google.protobuf import text_format
 import gftools.fonts_public_pb2 as fonts_pb2
 import jinja2
-
+import html2text
 
 def parse_metadata(filename):
     # based off of
@@ -138,7 +138,13 @@ def metadata_to_cask(meta_file, repo_dir):
 
     if os.path.exists(description_path):
       with open(description_path) as f:
-        contents = f.read()
+        h2t = html2text.HTML2Text()
+        h2t.ignore_links = True
+        h2t.ignore_images = True
+        h2t.ignore_tables = True
+        h2t.ignore_emphasis = True
+
+        contents = " ".join(h2t.handle(f.read()).replace('"', '').split())
 
         regex = r".*" + re.escape(meta.name) + r"\s+(?:.*\s+)?is(?:\s+an?|the)?\s+"
         parts = re.split(regex, contents, maxsplit=1)
