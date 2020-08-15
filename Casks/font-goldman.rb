@@ -7,7 +7,7 @@ cask "font-goldman" do
       using:      :svn,
       trust_cert: true
   name "Goldman"
-  desc "Latin display typeface designed by jaikishan patel"
+  desc "Latin display typeface designed for posters"
   homepage "https://fonts.google.com/specimen/Goldman"
 
   font "Goldman-Bold.ttf"
