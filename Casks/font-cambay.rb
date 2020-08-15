@@ -9,8 +9,6 @@ cask "font-cambay" do
   name "Cambay"
   homepage "https://fonts.google.com/specimen/Cambay"
 
-  depends_on macos: ">= :sierra"
-
   font "Cambay-Bold.ttf"
   font "Cambay-BoldItalic.ttf"
   font "Cambay-Italic.ttf"

@@ -9,8 +9,6 @@ cask "font-tomorrow" do
   name "Tomorrow"
   homepage "https://fonts.google.com/specimen/Tomorrow"
 
-  depends_on macos: ">= :sierra"
-
   font "Tomorrow-Black.ttf"
   font "Tomorrow-BlackItalic.ttf"
   font "Tomorrow-Bold.ttf"

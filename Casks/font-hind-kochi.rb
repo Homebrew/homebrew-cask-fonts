@@ -9,8 +9,6 @@ cask "font-hind-kochi" do
   name "Hind Kochi"
   homepage "https://fonts.google.com/specimen/Hind+Kochi"
 
-  depends_on macos: ">= :sierra"
-
   font "HindKochi-Bold.ttf"
   font "HindKochi-Light.ttf"
   font "HindKochi-Medium.ttf"

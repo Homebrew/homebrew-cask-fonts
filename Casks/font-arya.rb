@@ -9,8 +9,6 @@ cask "font-arya" do
   name "Arya"
   homepage "https://fonts.google.com/specimen/Arya"
 
-  depends_on macos: ">= :sierra"
-
   font "Arya-Bold.ttf"
   font "Arya-Regular.ttf"
 end

@@ -6,8 +6,6 @@ cask "font-fandol" do
   name "Fandol"
   homepage "https://ctan.org/pkg/fandol"
 
-  depends_on macos: ">= :sierra"
-
   font "fandol/FandolBraille-Display.otf"
   font "fandol/FandolBraille-Regular.otf"
   font "fandol/FandolFang-Regular.otf"

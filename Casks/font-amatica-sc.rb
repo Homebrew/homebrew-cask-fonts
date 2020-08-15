@@ -9,8 +9,6 @@ cask "font-amatica-sc" do
   name "Amatica SC"
   homepage "https://fonts.google.com/specimen/Amatica+SC"
 
-  depends_on macos: ">= :sierra"
-
   font "AmaticaSC-Bold.ttf"
   font "AmaticaSC-Regular.ttf"
 end

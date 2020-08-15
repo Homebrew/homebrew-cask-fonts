@@ -9,8 +9,6 @@ cask "font-sulphur-point" do
   name "Sulphur Point"
   homepage "https://fonts.google.com/specimen/Sulphur+Point"
 
-  depends_on macos: ">= :sierra"
-
   font "SulphurPoint-Bold.ttf"
   font "SulphurPoint-Light.ttf"
   font "SulphurPoint-Regular.ttf"

@@ -9,8 +9,6 @@ cask "font-hind-colombo" do
   name "Hind Colombo"
   homepage "https://fonts.google.com/specimen/Hind+Colombo"
 
-  depends_on macos: ">= :sierra"
-
   font "HindColombo-Bold.ttf"
   font "HindColombo-Light.ttf"
   font "HindColombo-Medium.ttf"

@@ -9,8 +9,6 @@ cask "font-baskervville" do
   name "Baskervville"
   homepage "https://fonts.google.com/specimen/Baskervville"
 
-  depends_on macos: ">= :sierra"
-
   font "Baskervville-Italic.ttf"
   font "Baskervville-Regular.ttf"
 end

@@ -9,8 +9,6 @@ cask "font-averia-sans-libre" do
   name "Averia Sans Libre"
   homepage "https://fonts.google.com/specimen/Averia+Sans+Libre"
 
-  depends_on macos: ">= :sierra"
-
   font "AveriaSansLibre-Bold.ttf"
   font "AveriaSansLibre-BoldItalic.ttf"
   font "AveriaSansLibre-Italic.ttf"

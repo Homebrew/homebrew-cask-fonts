@@ -9,8 +9,6 @@ cask "font-charm" do
   name "Charm"
   homepage "https://fonts.google.com/specimen/Charm"
 
-  depends_on macos: ">= :sierra"
-
   font "Charm-Bold.ttf"
   font "Charm-Regular.ttf"
 end

@@ -9,8 +9,6 @@ cask "font-kameron" do
   name "Kameron"
   homepage "https://fonts.google.com/specimen/Kameron"
 
-  depends_on macos: ">= :sierra"
-
   font "Kameron-Bold.ttf"
   font "Kameron-Regular.ttf"
 end

@@ -9,8 +9,6 @@ cask "font-martel-sans" do
   name "Martel Sans"
   homepage "https://fonts.google.com/specimen/Martel+Sans"
 
-  depends_on macos: ">= :sierra"
-
   font "MartelSans-Black.ttf"
   font "MartelSans-Bold.ttf"
   font "MartelSans-ExtraBold.ttf"

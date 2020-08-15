@@ -9,8 +9,6 @@ cask "font-quattrocento-sans" do
   name "Quattrocento Sans"
   homepage "https://fonts.google.com/specimen/Quattrocento+Sans"
 
-  depends_on macos: ">= :sierra"
-
   font "QuattrocentoSans-Bold.ttf"
   font "QuattrocentoSans-BoldItalic.ttf"
   font "QuattrocentoSans-Italic.ttf"

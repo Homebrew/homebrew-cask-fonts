@@ -9,8 +9,6 @@ cask "font-sen" do
   name "Sen"
   homepage "https://fonts.google.com/specimen/Sen"
 
-  depends_on macos: ">= :sierra"
-
   font "Sen-Bold.ttf"
   font "Sen-ExtraBold.ttf"
   font "Sen-Regular.ttf"

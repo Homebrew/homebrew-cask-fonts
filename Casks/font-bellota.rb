@@ -9,8 +9,6 @@ cask "font-bellota" do
   name "Bellota"
   homepage "https://fonts.google.com/specimen/Bellota"
 
-  depends_on macos: ">= :sierra"
-
   font "Bellota-Bold.ttf"
   font "Bellota-BoldItalic.ttf"
   font "Bellota-Italic.ttf"

@@ -9,8 +9,6 @@ cask "font-be-vietnam" do
   name "Be Vietnam"
   homepage "https://fonts.google.com/specimen/Be+Vietnam"
 
-  depends_on macos: ">= :sierra"
-
   font "BeVietnam-Bold.ttf"
   font "BeVietnam-BoldItalic.ttf"
   font "BeVietnam-ExtraBold.ttf"

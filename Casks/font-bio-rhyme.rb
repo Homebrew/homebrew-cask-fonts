@@ -9,8 +9,6 @@ cask "font-bio-rhyme" do
   name "Bio Rhyme"
   homepage "https://fonts.google.com/specimen/Bio+Rhyme"
 
-  depends_on macos: ">= :sierra"
-
   font "BioRhyme-Bold.ttf"
   font "BioRhyme-ExtraBold.ttf"
   font "BioRhyme-ExtraLight.ttf"

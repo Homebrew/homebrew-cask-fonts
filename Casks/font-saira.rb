@@ -9,8 +9,6 @@ cask "font-saira" do
   name "Saira"
   homepage "https://fonts.google.com/specimen/Saira"
 
-  depends_on macos: ">= :sierra"
-
   font "Saira-Black.ttf"
   font "Saira-Bold.ttf"
   font "Saira-ExtraBold.ttf"

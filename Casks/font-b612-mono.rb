@@ -9,8 +9,6 @@ cask "font-b612-mono" do
   name "B612 Mono"
   homepage "https://fonts.google.com/specimen/B612+Mono"
 
-  depends_on macos: ">= :sierra"
-
   font "B612Mono-Bold.ttf"
   font "B612Mono-BoldItalic.ttf"
   font "B612Mono-Italic.ttf"

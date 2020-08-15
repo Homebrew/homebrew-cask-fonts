@@ -9,8 +9,6 @@ cask "font-oleo-script" do
   name "Oleo Script"
   homepage "https://fonts.google.com/specimen/Oleo+Script"
 
-  depends_on macos: ">= :sierra"
-
   font "OleoScript-Bold.ttf"
   font "OleoScript-Regular.ttf"
 end

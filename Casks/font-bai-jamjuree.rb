@@ -9,8 +9,6 @@ cask "font-bai-jamjuree" do
   name "Bai Jamjuree"
   homepage "https://fonts.google.com/specimen/Bai+Jamjuree"
 
-  depends_on macos: ">= :sierra"
-
   font "BaiJamjuree-Bold.ttf"
   font "BaiJamjuree-BoldItalic.ttf"
   font "BaiJamjuree-ExtraLight.ttf"

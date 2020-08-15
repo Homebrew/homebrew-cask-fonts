@@ -9,8 +9,6 @@ cask "font-cinzel-decorative" do
   name "Cinzel Decorative"
   homepage "https://fonts.google.com/specimen/Cinzel+Decorative"
 
-  depends_on macos: ">= :sierra"
-
   font "CinzelDecorative-Black.ttf"
   font "CinzelDecorative-Bold.ttf"
   font "CinzelDecorative-Regular.ttf"

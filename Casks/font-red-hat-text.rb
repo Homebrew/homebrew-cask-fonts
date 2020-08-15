@@ -9,8 +9,6 @@ cask "font-red-hat-text" do
   name "Red Hat Text"
   homepage "https://fonts.google.com/specimen/Red+Hat+Text"
 
-  depends_on macos: ">= :sierra"
-
   font "RedHatText-Bold.ttf"
   font "RedHatText-BoldItalic.ttf"
   font "RedHatText-Italic.ttf"

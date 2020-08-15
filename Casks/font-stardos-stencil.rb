@@ -9,8 +9,6 @@ cask "font-stardos-stencil" do
   name "Stardos Stencil"
   homepage "https://fonts.google.com/specimen/Stardos+Stencil"
 
-  depends_on macos: ">= :sierra"
-
   font "StardosStencil-Bold.ttf"
   font "StardosStencil-Regular.ttf"
 end

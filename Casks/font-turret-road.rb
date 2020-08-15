@@ -9,8 +9,6 @@ cask "font-turret-road" do
   name "Turret Road"
   homepage "https://fonts.google.com/specimen/Turret+Road"
 
-  depends_on macos: ">= :sierra"
-
   font "TurretRoad-Bold.ttf"
   font "TurretRoad-ExtraBold.ttf"
   font "TurretRoad-ExtraLight.ttf"

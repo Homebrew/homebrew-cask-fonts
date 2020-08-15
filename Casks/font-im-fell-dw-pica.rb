@@ -9,8 +9,6 @@ cask "font-im-fell-dw-pica" do
   name "IM Fell DW Pica"
   homepage "https://fonts.google.com/specimen/IM+Fell+DW+Pica"
 
-  depends_on macos: ">= :sierra"
-
   font "IMFePIit28P.ttf"
   font "IMFePIrm28P.ttf"
 end

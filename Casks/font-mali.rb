@@ -9,8 +9,6 @@ cask "font-mali" do
   name "Mali"
   homepage "https://fonts.google.com/specimen/Mali"
 
-  depends_on macos: ">= :sierra"
-
   font "Mali-Bold.ttf"
   font "Mali-BoldItalic.ttf"
   font "Mali-ExtraLight.ttf"

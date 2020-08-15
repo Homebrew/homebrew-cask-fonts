@@ -9,8 +9,6 @@ cask "font-literata" do
   name "Literata"
   homepage "https://fonts.google.com/specimen/Literata"
 
-  depends_on macos: ">= :sierra"
-
   font "Literata-Italic[wght].ttf"
   font "Literata[wght].ttf"
 end

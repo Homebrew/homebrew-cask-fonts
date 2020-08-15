@@ -9,8 +9,6 @@ cask "font-karla-tamil-inclined" do
   name "Karla Tamil Inclined"
   homepage "https://fonts.google.com/specimen/Karla+Tamil+Inclined"
 
-  depends_on macos: ">= :sierra"
-
   font "KarlaTamilInclined-Bold.ttf"
   font "KarlaTamilInclined-Regular.ttf"
 end

@@ -9,8 +9,6 @@ cask "font-glegoo" do
   name "Glegoo"
   homepage "https://fonts.google.com/specimen/Glegoo"
 
-  depends_on macos: ">= :sierra"
-
   font "Glegoo-Bold.ttf"
   font "Glegoo-Regular.ttf"
 end

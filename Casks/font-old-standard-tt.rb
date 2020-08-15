@@ -9,8 +9,6 @@ cask "font-old-standard-tt" do
   name "Old Standard TT"
   homepage "https://fonts.google.com/specimen/Old+Standard+TT"
 
-  depends_on macos: ">= :sierra"
-
   font "OldStandard-Bold.ttf"
   font "OldStandard-Italic.ttf"
   font "OldStandard-Regular.ttf"

@@ -8,8 +8,6 @@ cask "font-monofur-for-powerline" do
   name "monofur for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/Monofur"
 
-  depends_on macos: ">= :sierra"
-
   font "Monofur Bold for Powerline.ttf"
   font "Monofur Italic for Powerline.ttf"
   font "Monofur for Powerline.ttf"

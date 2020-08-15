@@ -8,8 +8,6 @@ cask "font-source-code-pro-for-powerline" do
   name "Source Code Pro for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/SourceCodePro"
 
-  depends_on macos: ">= :sierra"
-
   font "Source Code Pro Black for Powerline.otf"
   font "Source Code Pro Bold for Powerline.otf"
   font "Source Code Pro ExtraLight for Powerline.otf"

@@ -9,8 +9,6 @@ cask "font-pt-sans-narrow" do
   name "PT Sans Narrow"
   homepage "https://fonts.google.com/specimen/PT+Sans+Narrow"
 
-  depends_on macos: ">= :sierra"
-
   font "PT_Sans-Narrow-Web-Bold.ttf"
   font "PT_Sans-Narrow-Web-Regular.ttf"
 end

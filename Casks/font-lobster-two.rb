@@ -9,8 +9,6 @@ cask "font-lobster-two" do
   name "Lobster Two"
   homepage "https://fonts.google.com/specimen/Lobster+Two"
 
-  depends_on macos: ">= :sierra"
-
   font "LobsterTwo-Bold.ttf"
   font "LobsterTwo-BoldItalic.ttf"
   font "LobsterTwo-Italic.ttf"

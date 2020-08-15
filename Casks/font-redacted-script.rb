@@ -9,8 +9,6 @@ cask "font-redacted-script" do
   name "Redacted Script"
   homepage "https://fonts.google.com/specimen/Redacted+Script"
 
-  depends_on macos: ">= :sierra"
-
   font "RedactedScript-Bold.ttf"
   font "RedactedScript-Regular.ttf"
 end

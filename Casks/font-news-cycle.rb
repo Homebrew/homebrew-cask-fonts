@@ -9,8 +9,6 @@ cask "font-news-cycle" do
   name "News Cycle"
   homepage "https://fonts.google.com/specimen/News+Cycle"
 
-  depends_on macos: ">= :sierra"
-
   font "NewsCycle-Bold.ttf"
   font "NewsCycle-Regular.ttf"
 end

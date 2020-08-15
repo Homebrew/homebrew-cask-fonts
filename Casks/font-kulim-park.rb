@@ -9,8 +9,6 @@ cask "font-kulim-park" do
   name "Kulim Park"
   homepage "https://fonts.google.com/specimen/Kulim+Park"
 
-  depends_on macos: ">= :sierra"
-
   font "KulimPark-Bold.ttf"
   font "KulimPark-BoldItalic.ttf"
   font "KulimPark-ExtraLight.ttf"

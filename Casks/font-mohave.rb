@@ -9,8 +9,6 @@ cask "font-mohave" do
   name "Mohave"
   homepage "https://fonts.google.com/specimen/Mohave"
 
-  depends_on macos: ">= :sierra"
-
   font "Mohave-Italic[wght].ttf"
   font "Mohave[wght].ttf"
 end

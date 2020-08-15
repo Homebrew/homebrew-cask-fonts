@@ -9,8 +9,6 @@ cask "font-martel" do
   name "Martel"
   homepage "https://fonts.google.com/specimen/Martel"
 
-  depends_on macos: ">= :sierra"
-
   font "Martel-Bold.ttf"
   font "Martel-DemiBold.ttf"
   font "Martel-ExtraBold.ttf"

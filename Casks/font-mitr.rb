@@ -9,8 +9,6 @@ cask "font-mitr" do
   name "Mitr"
   homepage "https://fonts.google.com/specimen/Mitr"
 
-  depends_on macos: ">= :sierra"
-
   font "Mitr-Bold.ttf"
   font "Mitr-ExtraLight.ttf"
   font "Mitr-Light.ttf"

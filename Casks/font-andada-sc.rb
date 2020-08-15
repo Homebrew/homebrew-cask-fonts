@@ -9,8 +9,6 @@ cask "font-andada-sc" do
   name "Andada SC"
   homepage "https://fonts.google.com/specimen/Andada+SC"
 
-  depends_on macos: ">= :sierra"
-
   font "AndadaSC-Bold.ttf"
   font "AndadaSC-BoldItalic.ttf"
   font "AndadaSC-Italic.ttf"

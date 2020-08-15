@@ -9,8 +9,6 @@ cask "font-changa-one" do
   name "Changa One"
   homepage "https://fonts.google.com/specimen/Changa+One"
 
-  depends_on macos: ">= :sierra"
-
   font "ChangaOne-Italic.ttf"
   font "ChangaOne-Regular.ttf"
 end

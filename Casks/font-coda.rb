@@ -9,8 +9,6 @@ cask "font-coda" do
   name "Coda"
   homepage "https://fonts.google.com/specimen/Coda"
 
-  depends_on macos: ">= :sierra"
-
   font "Coda-ExtraBold.ttf"
   font "Coda-Regular.ttf"
 end

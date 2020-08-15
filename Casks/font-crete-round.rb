@@ -9,8 +9,6 @@ cask "font-crete-round" do
   name "Crete Round"
   homepage "https://fonts.google.com/specimen/Crete+Round"
 
-  depends_on macos: ">= :sierra"
-
   font "CreteRound-Italic.ttf"
   font "CreteRound-Regular.ttf"
 end

@@ -9,8 +9,6 @@ cask "font-seoul-hangang-condensed" do
   name "Seoul Hangang Condensed"
   homepage "https://fonts.google.com/specimen/Seoul+Hangang+Condensed"
 
-  depends_on macos: ">= :sierra"
-
   font "SeoulHangangCondensed-Bold.ttf"
   font "SeoulHangangCondensed-BoldL.ttf"
   font "SeoulHangangCondensed-ExtraBold.ttf"

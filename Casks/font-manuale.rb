@@ -9,8 +9,6 @@ cask "font-manuale" do
   name "Manuale"
   homepage "https://fonts.google.com/specimen/Manuale"
 
-  depends_on macos: ">= :sierra"
-
   font "Manuale-Italic[wght].ttf"
   font "Manuale[wght].ttf"
 end

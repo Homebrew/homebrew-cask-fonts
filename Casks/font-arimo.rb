@@ -9,8 +9,6 @@ cask "font-arimo" do
   name "Arimo"
   homepage "https://fonts.google.com/specimen/Arimo"
 
-  depends_on macos: ">= :sierra"
-
   font "Arimo-Bold.ttf"
   font "Arimo-BoldItalic.ttf"
   font "Arimo-Italic.ttf"

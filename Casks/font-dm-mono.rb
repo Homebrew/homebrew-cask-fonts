@@ -9,8 +9,6 @@ cask "font-dm-mono" do
   name "DM Mono"
   homepage "https://fonts.google.com/specimen/DM+Mono"
 
-  depends_on macos: ">= :sierra"
-
   font "DMMono-Italic.ttf"
   font "DMMono-Light.ttf"
   font "DMMono-LightItalic.ttf"

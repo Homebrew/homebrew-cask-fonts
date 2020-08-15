@@ -9,8 +9,6 @@ cask "font-big-shoulders-display" do
   name "Big Shoulders Display"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Display"
 
-  depends_on macos: ">= :sierra"
-
   font "BigShouldersDisplay-Black.ttf"
   font "BigShouldersDisplay-Bold.ttf"
   font "BigShouldersDisplay-ExtraBold.ttf"

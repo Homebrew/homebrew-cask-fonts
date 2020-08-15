@@ -9,8 +9,6 @@ cask "font-blinker" do
   name "Blinker"
   homepage "https://fonts.google.com/specimen/Blinker"
 
-  depends_on macos: ">= :sierra"
-
   font "Blinker-Black.ttf"
   font "Blinker-Bold.ttf"
   font "Blinker-ExtraBold.ttf"

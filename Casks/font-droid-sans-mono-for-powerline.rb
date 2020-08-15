@@ -8,7 +8,5 @@ cask "font-droid-sans-mono-for-powerline" do
   name "Droid Sans Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/DroidSansMono"
 
-  depends_on macos: ">= :sierra"
-
   font "Droid Sans Mono for Powerline.otf"
 end

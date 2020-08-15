@@ -9,8 +9,6 @@ cask "font-tuffy" do
   name "Tuffy"
   homepage "https://fonts.google.com/specimen/Tuffy"
 
-  depends_on macos: ">= :sierra"
-
   font "Tuffy-Bold.ttf"
   font "Tuffy-BoldItalic.ttf"
   font "Tuffy-Italic.ttf"

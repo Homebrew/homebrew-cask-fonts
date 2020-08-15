@@ -9,8 +9,6 @@ cask "font-yantramanav" do
   name "Yantramanav"
   homepage "https://fonts.google.com/specimen/Yantramanav"
 
-  depends_on macos: ">= :sierra"
-
   font "Yantramanav-Black.ttf"
   font "Yantramanav-Bold.ttf"
   font "Yantramanav-Light.ttf"

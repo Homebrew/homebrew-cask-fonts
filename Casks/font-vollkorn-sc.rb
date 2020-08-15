@@ -9,8 +9,6 @@ cask "font-vollkorn-sc" do
   name "Vollkorn SC"
   homepage "https://fonts.google.com/specimen/Vollkorn+SC"
 
-  depends_on macos: ">= :sierra"
-
   font "VollkornSC-Black.ttf"
   font "VollkornSC-Bold.ttf"
   font "VollkornSC-Regular.ttf"

@@ -9,8 +9,6 @@ cask "font-yaldevi-colombo" do
   name "Yaldevi Colombo"
   homepage "https://fonts.google.com/specimen/Yaldevi+Colombo"
 
-  depends_on macos: ">= :sierra"
-
   font "YaldeviColombo-Bold.ttf"
   font "YaldeviColombo-ExtraLight.ttf"
   font "YaldeviColombo-Light.ttf"

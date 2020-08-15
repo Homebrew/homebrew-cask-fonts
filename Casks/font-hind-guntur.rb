@@ -9,8 +9,6 @@ cask "font-hind-guntur" do
   name "Hind Guntur"
   homepage "https://fonts.google.com/specimen/Hind+Guntur"
 
-  depends_on macos: ">= :sierra"
-
   font "HindGuntur-Bold.ttf"
   font "HindGuntur-Light.ttf"
   font "HindGuntur-Medium.ttf"

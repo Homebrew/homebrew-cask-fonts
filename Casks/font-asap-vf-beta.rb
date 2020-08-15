@@ -9,8 +9,6 @@ cask "font-asap-vf-beta" do
   name "Asap VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
 
-  depends_on macos: ">= :sierra"
-
   font "AsapVFBeta-Condensed.ttf"
   font "AsapVFBeta-Italic.ttf"
   font "AsapVFBeta.ttf"

@@ -9,8 +9,6 @@ cask "font-tillana" do
   name "Tillana"
   homepage "https://fonts.google.com/specimen/Tillana"
 
-  depends_on macos: ">= :sierra"
-
   font "Tillana-Bold.ttf"
   font "Tillana-ExtraBold.ttf"
   font "Tillana-Medium.ttf"

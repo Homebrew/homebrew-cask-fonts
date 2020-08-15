@@ -9,8 +9,6 @@ cask "font-maitree" do
   name "Maitree"
   homepage "https://fonts.google.com/specimen/Maitree"
 
-  depends_on macos: ">= :sierra"
-
   font "Maitree-Bold.ttf"
   font "Maitree-ExtraLight.ttf"
   font "Maitree-Light.ttf"

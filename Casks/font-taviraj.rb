@@ -9,8 +9,6 @@ cask "font-taviraj" do
   name "Taviraj"
   homepage "https://fonts.google.com/specimen/Taviraj"
 
-  depends_on macos: ">= :sierra"
-
   font "Taviraj-Black.ttf"
   font "Taviraj-BlackItalic.ttf"
   font "Taviraj-Bold.ttf"

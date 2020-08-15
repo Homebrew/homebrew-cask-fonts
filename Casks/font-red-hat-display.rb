@@ -9,8 +9,6 @@ cask "font-red-hat-display" do
   name "Red Hat Display"
   homepage "https://fonts.google.com/specimen/Red+Hat+Display"
 
-  depends_on macos: ">= :sierra"
-
   font "RedHatDisplay-Black.ttf"
   font "RedHatDisplay-BlackItalic.ttf"
   font "RedHatDisplay-Bold.ttf"

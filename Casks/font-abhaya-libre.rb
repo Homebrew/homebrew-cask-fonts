@@ -9,8 +9,6 @@ cask "font-abhaya-libre" do
   name "Abhaya Libre"
   homepage "https://fonts.google.com/specimen/Abhaya+Libre"
 
-  depends_on macos: ">= :sierra"
-
   font "AbhayaLibre-Bold.ttf"
   font "AbhayaLibre-ExtraBold.ttf"
   font "AbhayaLibre-Medium.ttf"

@@ -9,8 +9,6 @@ cask "font-charmonman" do
   name "Charmonman"
   homepage "https://fonts.google.com/specimen/Charmonman"
 
-  depends_on macos: ">= :sierra"
-
   font "Charmonman-Bold.ttf"
   font "Charmonman-Regular.ttf"
 end

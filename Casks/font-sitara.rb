@@ -9,8 +9,6 @@ cask "font-sitara" do
   name "Sitara"
   homepage "https://fonts.google.com/specimen/Sitara"
 
-  depends_on macos: ">= :sierra"
-
   font "Sitara-Bold.ttf"
   font "Sitara-BoldItalic.ttf"
   font "Sitara-Italic.ttf"

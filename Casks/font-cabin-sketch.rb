@@ -9,8 +9,6 @@ cask "font-cabin-sketch" do
   name "Cabin Sketch"
   homepage "https://fonts.google.com/specimen/Cabin+Sketch"
 
-  depends_on macos: ">= :sierra"
-
   font "CabinSketch-Bold.ttf"
   font "CabinSketch-Regular.ttf"
 end

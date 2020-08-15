@@ -9,8 +9,6 @@ cask "font-sansation" do
   name "Sansation"
   homepage "https://fonts.google.com/specimen/Sansation"
 
-  depends_on macos: ">= :sierra"
-
   font "Sansation-Bold.ttf"
   font "Sansation-BoldItalic.ttf"
   font "Sansation-Italic.ttf"

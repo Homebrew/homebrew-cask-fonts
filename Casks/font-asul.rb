@@ -9,8 +9,6 @@ cask "font-asul" do
   name "Asul"
   homepage "https://fonts.google.com/specimen/Asul"
 
-  depends_on macos: ">= :sierra"
-
   font "Asul-Bold.ttf"
   font "Asul-Regular.ttf"
 end

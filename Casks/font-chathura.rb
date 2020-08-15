@@ -9,8 +9,6 @@ cask "font-chathura" do
   name "Chathura"
   homepage "https://fonts.google.com/specimen/Chathura"
 
-  depends_on macos: ">= :sierra"
-
   font "Chathura-Bold.ttf"
   font "Chathura-ExtraBold.ttf"
   font "Chathura-Light.ttf"

@@ -9,8 +9,6 @@ cask "font-delius-unicase" do
   name "Delius Unicase"
   homepage "https://fonts.google.com/specimen/Delius+Unicase"
 
-  depends_on macos: ">= :sierra"
-
   font "DeliusUnicase-Bold.ttf"
   font "DeliusUnicase-Regular.ttf"
 end

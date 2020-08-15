@@ -9,8 +9,6 @@ cask "font-mukta" do
   name "Mukta"
   homepage "https://fonts.google.com/specimen/Mukta"
 
-  depends_on macos: ">= :sierra"
-
   font "Mukta-Bold.ttf"
   font "Mukta-ExtraBold.ttf"
   font "Mukta-ExtraLight.ttf"

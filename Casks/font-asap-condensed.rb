@@ -9,8 +9,6 @@ cask "font-asap-condensed" do
   name "Asap Condensed"
   homepage "https://fonts.google.com/specimen/Asap+Condensed"
 
-  depends_on macos: ">= :sierra"
-
   font "AsapCondensed-Bold.ttf"
   font "AsapCondensed-BoldItalic.ttf"
   font "AsapCondensed-Italic.ttf"

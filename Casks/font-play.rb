@@ -9,8 +9,6 @@ cask "font-play" do
   name "Play"
   homepage "https://fonts.google.com/specimen/Play"
 
-  depends_on macos: ">= :sierra"
-
   font "Play-Bold.ttf"
   font "Play-Regular.ttf"
 end

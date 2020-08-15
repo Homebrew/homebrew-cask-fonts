@@ -9,8 +9,6 @@ cask "font-signika" do
   name "Signika"
   homepage "https://fonts.google.com/specimen/Signika"
 
-  depends_on macos: ">= :sierra"
-
   font "Signika-Bold.ttf"
   font "Signika-Light.ttf"
   font "Signika-Regular.ttf"

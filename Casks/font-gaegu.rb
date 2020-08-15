@@ -9,8 +9,6 @@ cask "font-gaegu" do
   name "Gaegu"
   homepage "https://fonts.google.com/specimen/Gaegu"
 
-  depends_on macos: ">= :sierra"
-
   font "Gaegu-Bold.ttf"
   font "Gaegu-Light.ttf"
   font "Gaegu-Regular.ttf"

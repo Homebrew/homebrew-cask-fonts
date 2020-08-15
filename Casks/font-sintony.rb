@@ -9,8 +9,6 @@ cask "font-sintony" do
   name "Sintony"
   homepage "https://fonts.google.com/specimen/Sintony"
 
-  depends_on macos: ">= :sierra"
-
   font "Sintony-Bold.ttf"
   font "Sintony-Regular.ttf"
 end

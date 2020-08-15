@@ -9,8 +9,6 @@ cask "font-faustina" do
   name "Faustina"
   homepage "https://fonts.google.com/specimen/Faustina"
 
-  depends_on macos: ">= :sierra"
-
   font "Faustina-Italic[wght].ttf"
   font "Faustina[wght].ttf"
 end

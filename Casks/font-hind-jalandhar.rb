@@ -9,8 +9,6 @@ cask "font-hind-jalandhar" do
   name "Hind Jalandhar"
   homepage "https://fonts.google.com/specimen/Hind+Jalandhar"
 
-  depends_on macos: ">= :sierra"
-
   font "HindJalandhar-Bold.ttf"
   font "HindJalandhar-Light.ttf"
   font "HindJalandhar-Medium.ttf"

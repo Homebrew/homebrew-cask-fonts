@@ -9,8 +9,6 @@ cask "font-post-no-bills-jaffna" do
   name "Post No Bills Jaffna"
   homepage "https://fonts.google.com/specimen/Post+No+Bills+Jaffna"
 
-  depends_on macos: ">= :sierra"
-
   font "PostNoBillsJaffna-Bold.ttf"
   font "PostNoBillsJaffna-ExtraBold.ttf"
   font "PostNoBillsJaffna-Light.ttf"

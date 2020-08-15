@@ -9,8 +9,6 @@ cask "font-rowdies" do
   name "Rowdies"
   homepage "https://fonts.google.com/specimen/Rowdies"
 
-  depends_on macos: ">= :sierra"
-
   font "Rowdies-Bold.ttf"
   font "Rowdies-Light.ttf"
   font "Rowdies-Regular.ttf"

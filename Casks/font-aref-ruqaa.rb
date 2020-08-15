@@ -9,8 +9,6 @@ cask "font-aref-ruqaa" do
   name "Aref Ruqaa"
   homepage "https://fonts.google.com/specimen/Aref+Ruqaa"
 
-  depends_on macos: ">= :sierra"
-
   font "ArefRuqaa-Bold.ttf"
   font "ArefRuqaa-Regular.ttf"
 end

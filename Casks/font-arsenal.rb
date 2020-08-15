@@ -9,8 +9,6 @@ cask "font-arsenal" do
   name "Arsenal"
   homepage "https://fonts.google.com/specimen/Arsenal"
 
-  depends_on macos: ">= :sierra"
-
   font "Arsenal-Bold.ttf"
   font "Arsenal-BoldItalic.ttf"
   font "Arsenal-Italic.ttf"

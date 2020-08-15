@@ -9,8 +9,6 @@ cask "font-kantumruy" do
   name "Kantumruy"
   homepage "https://fonts.google.com/specimen/Kantumruy"
 
-  depends_on macos: ">= :sierra"
-
   font "Kantumruy-Bold.ttf"
   font "Kantumruy-Light.ttf"
   font "Kantumruy-Regular.ttf"

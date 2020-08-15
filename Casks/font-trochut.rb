@@ -9,8 +9,6 @@ cask "font-trochut" do
   name "Trochut"
   homepage "https://fonts.google.com/specimen/Trochut"
 
-  depends_on macos: ">= :sierra"
-
   font "Trochut-Bold.ttf"
   font "Trochut-Italic.ttf"
   font "Trochut-Regular.ttf"

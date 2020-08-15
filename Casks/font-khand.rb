@@ -9,8 +9,6 @@ cask "font-khand" do
   name "Khand"
   homepage "https://fonts.google.com/specimen/Khand"
 
-  depends_on macos: ">= :sierra"
-
   font "Khand-Bold.ttf"
   font "Khand-Light.ttf"
   font "Khand-Medium.ttf"

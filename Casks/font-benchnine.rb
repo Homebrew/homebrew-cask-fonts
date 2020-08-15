@@ -9,8 +9,6 @@ cask "font-benchnine" do
   name "BenchNine"
   homepage "https://fonts.google.com/specimen/BenchNine"
 
-  depends_on macos: ">= :sierra"
-
   font "BenchNine-Bold.ttf"
   font "BenchNine-Light.ttf"
   font "BenchNine-Regular.ttf"

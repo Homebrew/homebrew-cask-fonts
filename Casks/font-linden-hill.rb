@@ -9,8 +9,6 @@ cask "font-linden-hill" do
   name "Linden Hill"
   homepage "https://fonts.google.com/specimen/Linden+Hill"
 
-  depends_on macos: ">= :sierra"
-
   font "LindenHill-Italic.ttf"
   font "LindenHill-Regular.ttf"
 end

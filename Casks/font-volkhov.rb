@@ -9,8 +9,6 @@ cask "font-volkhov" do
   name "Volkhov"
   homepage "https://fonts.google.com/specimen/Volkhov"
 
-  depends_on macos: ">= :sierra"
-
   font "Volkhov-Bold.ttf"
   font "Volkhov-BoldItalic.ttf"
   font "Volkhov-Italic.ttf"

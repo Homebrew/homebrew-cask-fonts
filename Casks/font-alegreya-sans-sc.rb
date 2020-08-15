@@ -9,8 +9,6 @@ cask "font-alegreya-sans-sc" do
   name "Alegreya Sans SC"
   homepage "https://fonts.google.com/specimen/Alegreya+Sans+SC"
 
-  depends_on macos: ">= :sierra"
-
   font "AlegreyaSansSC-Black.ttf"
   font "AlegreyaSansSC-BlackItalic.ttf"
   font "AlegreyaSansSC-Bold.ttf"

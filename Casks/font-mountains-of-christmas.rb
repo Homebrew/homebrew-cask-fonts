@@ -9,8 +9,6 @@ cask "font-mountains-of-christmas" do
   name "Mountains of Christmas"
   homepage "https://fonts.google.com/specimen/Mountains+of+Christmas"
 
-  depends_on macos: ">= :sierra"
-
   font "MountainsofChristmas-Bold.ttf"
   font "MountainsofChristmas-Regular.ttf"
 end

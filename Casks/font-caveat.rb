@@ -9,8 +9,6 @@ cask "font-caveat" do
   name "Caveat"
   homepage "https://fonts.google.com/specimen/Caveat"
 
-  depends_on macos: ">= :sierra"
-
   font "Caveat-Bold.ttf"
   font "Caveat-Regular.ttf"
 end

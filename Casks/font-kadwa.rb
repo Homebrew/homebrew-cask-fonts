@@ -9,8 +9,6 @@ cask "font-kadwa" do
   name "Kadwa"
   homepage "https://fonts.google.com/specimen/Kadwa"
 
-  depends_on macos: ">= :sierra"
-
   font "Kadwa-Bold.ttf"
   font "Kadwa-Regular.ttf"
 end

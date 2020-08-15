@@ -9,8 +9,6 @@ cask "font-miriam-libre" do
   name "Miriam Libre"
   homepage "https://fonts.google.com/specimen/Miriam+Libre"
 
-  depends_on macos: ">= :sierra"
-
   font "MiriamLibre-Bold.ttf"
   font "MiriamLibre-Regular.ttf"
 end

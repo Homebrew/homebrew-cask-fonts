@@ -9,8 +9,6 @@ cask "font-barlow-semi-condensed" do
   name "Barlow Semi Condensed"
   homepage "https://fonts.google.com/specimen/Barlow+Semi+Condensed"
 
-  depends_on macos: ">= :sierra"
-
   font "BarlowSemiCondensed-Black.ttf"
   font "BarlowSemiCondensed-BlackItalic.ttf"
   font "BarlowSemiCondensed-Bold.ttf"

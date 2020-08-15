@@ -9,8 +9,6 @@ cask "font-sarala" do
   name "Sarala"
   homepage "https://fonts.google.com/specimen/Sarala"
 
-  depends_on macos: ">= :sierra"
-
   font "Sarala-Bold.ttf"
   font "Sarala-Regular.ttf"
 end

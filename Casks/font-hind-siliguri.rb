@@ -9,8 +9,6 @@ cask "font-hind-siliguri" do
   name "Hind Siliguri"
   homepage "https://fonts.google.com/specimen/Hind+Siliguri"
 
-  depends_on macos: ">= :sierra"
-
   font "HindSiliguri-Bold.ttf"
   font "HindSiliguri-Light.ttf"
   font "HindSiliguri-Medium.ttf"

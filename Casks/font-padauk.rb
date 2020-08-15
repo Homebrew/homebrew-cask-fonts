@@ -9,8 +9,6 @@ cask "font-padauk" do
   name "Padauk"
   homepage "https://fonts.google.com/specimen/Padauk"
 
-  depends_on macos: ">= :sierra"
-
   font "Padauk-Bold.ttf"
   font "Padauk-Regular.ttf"
 end

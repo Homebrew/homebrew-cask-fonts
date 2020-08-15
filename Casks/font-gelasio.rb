@@ -9,8 +9,6 @@ cask "font-gelasio" do
   name "Gelasio"
   homepage "https://fonts.google.com/specimen/Gelasio"
 
-  depends_on macos: ">= :sierra"
-
   font "Gelasio-Bold.ttf"
   font "Gelasio-BoldItalic.ttf"
   font "Gelasio-Italic.ttf"

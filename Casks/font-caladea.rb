@@ -9,8 +9,6 @@ cask "font-caladea" do
   name "Caladea"
   homepage "https://fonts.google.com/specimen/Caladea"
 
-  depends_on macos: ">= :sierra"
-
   font "Caladea-Bold.ttf"
   font "Caladea-BoldItalic.ttf"
   font "Caladea-Italic.ttf"

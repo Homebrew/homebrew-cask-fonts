@@ -9,8 +9,6 @@ cask "font-sedan" do
   name "Sedan"
   homepage "https://fonts.google.com/specimen/Sedan"
 
-  depends_on macos: ">= :sierra"
-
   font "Sedan-Italic.ttf"
   font "Sedan-Regular.ttf"
 end

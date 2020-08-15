@@ -9,8 +9,6 @@ cask "font-mukta-mahee" do
   name "Mukta Mahee"
   homepage "https://fonts.google.com/specimen/Mukta+Mahee"
 
-  depends_on macos: ">= :sierra"
-
   font "MuktaMahee-Bold.ttf"
   font "MuktaMahee-ExtraBold.ttf"
   font "MuktaMahee-ExtraLight.ttf"

@@ -9,8 +9,6 @@ cask "font-dm-serif-text" do
   name "DM Serif Text"
   homepage "https://fonts.google.com/specimen/DM+Serif+Text"
 
-  depends_on macos: ">= :sierra"
-
   font "DMSerifText-Italic.ttf"
   font "DMSerifText-Regular.ttf"
 end

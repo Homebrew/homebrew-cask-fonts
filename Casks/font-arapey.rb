@@ -9,8 +9,6 @@ cask "font-arapey" do
   name "Arapey"
   homepage "https://fonts.google.com/specimen/Arapey"
 
-  depends_on macos: ">= :sierra"
-
   font "Arapey-Italic.ttf"
   font "Arapey-Regular.ttf"
 end

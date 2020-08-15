@@ -8,8 +8,6 @@ cask "font-roboto-mono-for-powerline" do
   name "Roboto Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/RobotoMono"
 
-  depends_on macos: ">= :sierra"
-
   font "Roboto Mono Bold Italic for Powerline.ttf"
   font "Roboto Mono Bold for Powerline.ttf"
   font "Roboto Mono Italic for Powerline.ttf"

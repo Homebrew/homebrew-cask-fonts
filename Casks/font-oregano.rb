@@ -9,8 +9,6 @@ cask "font-oregano" do
   name "Oregano"
   homepage "https://fonts.google.com/specimen/Oregano"
 
-  depends_on macos: ">= :sierra"
-
   font "Oregano-Italic.ttf"
   font "Oregano-Regular.ttf"
 end

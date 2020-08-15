@@ -9,8 +9,6 @@ cask "font-nanum-myeongjo" do
   name "Nanum Myeongjo"
   homepage "https://fonts.google.com/specimen/Nanum+Myeongjo"
 
-  depends_on macos: ">= :sierra"
-
   font "NanumMyeongjo-Bold.ttf"
   font "NanumMyeongjo-ExtraBold.ttf"
   font "NanumMyeongjo-Regular.ttf"

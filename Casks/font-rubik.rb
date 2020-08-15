@@ -9,8 +9,6 @@ cask "font-rubik" do
   name "Rubik"
   homepage "https://fonts.google.com/specimen/Rubik"
 
-  depends_on macos: ">= :sierra"
-
   font "Rubik-Black.ttf"
   font "Rubik-BlackItalic.ttf"
   font "Rubik-Bold.ttf"

@@ -9,8 +9,6 @@ cask "font-londrina-solid" do
   name "Londrina Solid"
   homepage "https://fonts.google.com/specimen/Londrina+Solid"
 
-  depends_on macos: ">= :sierra"
-
   font "LondrinaSolid-Black.ttf"
   font "LondrinaSolid-Light.ttf"
   font "LondrinaSolid-Regular.ttf"

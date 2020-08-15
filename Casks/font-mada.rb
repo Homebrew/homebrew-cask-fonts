@@ -9,8 +9,6 @@ cask "font-mada" do
   name "Mada"
   homepage "https://fonts.google.com/specimen/Mada"
 
-  depends_on macos: ">= :sierra"
-
   font "Mada-Black.ttf"
   font "Mada-Bold.ttf"
   font "Mada-ExtraLight.ttf"

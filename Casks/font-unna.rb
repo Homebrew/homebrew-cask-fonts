@@ -9,8 +9,6 @@ cask "font-unna" do
   name "Unna"
   homepage "https://fonts.google.com/specimen/Unna"
 
-  depends_on macos: ">= :sierra"
-
   font "Unna-Bold.ttf"
   font "Unna-BoldItalic.ttf"
   font "Unna-Italic.ttf"

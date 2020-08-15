@@ -8,8 +8,6 @@ cask "font-anonymice-powerline" do
   name "Anonymice Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/AnonymousPro"
 
-  depends_on macos: ">= :sierra"
-
   font "Anonymice Powerline Bold Italic.ttf"
   font "Anonymice Powerline Bold.ttf"
   font "Anonymice Powerline Italic.ttf"

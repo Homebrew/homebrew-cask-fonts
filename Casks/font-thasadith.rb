@@ -9,8 +9,6 @@ cask "font-thasadith" do
   name "Thasadith"
   homepage "https://fonts.google.com/specimen/Thasadith"
 
-  depends_on macos: ">= :sierra"
-
   font "Thasadith-Bold.ttf"
   font "Thasadith-BoldItalic.ttf"
   font "Thasadith-Italic.ttf"

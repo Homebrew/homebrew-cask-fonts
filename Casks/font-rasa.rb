@@ -9,8 +9,6 @@ cask "font-rasa" do
   name "Rasa"
   homepage "https://fonts.google.com/specimen/Rasa"
 
-  depends_on macos: ">= :sierra"
-
   font "Rasa-Bold.ttf"
   font "Rasa-Light.ttf"
   font "Rasa-Medium.ttf"

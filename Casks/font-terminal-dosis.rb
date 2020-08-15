@@ -9,8 +9,6 @@ cask "font-terminal-dosis" do
   name "Terminal Dosis"
   homepage "https://fonts.google.com/specimen/Terminal+Dosis"
 
-  depends_on macos: ">= :sierra"
-
   font "TerminalDosis-Bold.ttf"
   font "TerminalDosis-ExtraBold.ttf"
   font "TerminalDosis-ExtraLight.ttf"

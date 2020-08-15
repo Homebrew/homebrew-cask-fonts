@@ -9,8 +9,6 @@ cask "font-mina" do
   name "Mina"
   homepage "https://fonts.google.com/specimen/Mina"
 
-  depends_on macos: ">= :sierra"
-
   font "Mina-Bold.ttf"
   font "Mina-Regular.ttf"
 end

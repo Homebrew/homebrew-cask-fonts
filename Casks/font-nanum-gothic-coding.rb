@@ -9,8 +9,6 @@ cask "font-nanum-gothic-coding" do
   name "Nanum Gothic Coding"
   homepage "https://fonts.google.com/specimen/Nanum+Gothic+Coding"
 
-  depends_on macos: ">= :sierra"
-
   font "NanumGothicCoding-Bold.ttf"
   font "NanumGothicCoding-Regular.ttf"
 end
