@@ -7,7 +7,7 @@ cask "font-kumbh-sans" do
       using:      :svn,
       trust_cert: true
   name "Kumbh Sans"
-  desc "Available in three variants - light 300, regular 400 and bold 700"
+  desc "Geometric sans-serif multi-purpose font"
   homepage "https://fonts.google.com/specimen/Kumbh+Sans"
 
   font "KumbhSans-Bold.ttf"
