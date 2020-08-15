@@ -7,7 +7,7 @@ cask "font-grandstander" do
       using:      :svn,
       trust_cert: true
   name "Grandstander"
-  desc "Led by tyler finck — type designer running etcetera type co in ithaca, new-york, usa"
+  desc "Display variable font with a weight axis"
   homepage "https://fonts.google.com/specimen/Grandstander"
 
   font "Grandstander-Italic[wght].ttf"
