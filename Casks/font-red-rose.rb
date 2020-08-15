@@ -7,7 +7,7 @@ cask "font-red-rose" do
       using:      :svn,
       trust_cert: true
   name "Red Rose"
-  desc "Latin display typeface designed by jaikishan patel"
+  desc "Latin display typeface designed for posters"
   homepage "https://fonts.google.com/specimen/Red+Rose"
 
   font "RedRose-Bold.ttf"
