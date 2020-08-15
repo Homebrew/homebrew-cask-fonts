@@ -3,13 +3,9 @@ cask "font-cinzel" do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/trunk/ofl/cinzel",
-      using:      :svn,
-      trust_cert: true
+  url "https://github.com/google/fonts/raw/master/ofl/cinzel/Cinzel%5Bwght%5D.ttf"
   name "Cinzel"
   homepage "https://fonts.google.com/specimen/Cinzel"
 
-  font "Cinzel-Black.ttf"
-  font "Cinzel-Bold.ttf"
-  font "Cinzel-Regular.ttf"
+  font "Cinzel[wght].ttf"
 end

@@ -9,12 +9,6 @@ cask "font-merriweather-sans" do
   name "Merriweather Sans"
   homepage "https://fonts.google.com/specimen/Merriweather+Sans"
 
-  font "MerriweatherSans-Bold.ttf"
-  font "MerriweatherSans-BoldItalic.ttf"
-  font "MerriweatherSans-ExtraBold.ttf"
-  font "MerriweatherSans-ExtraBoldItalic.ttf"
-  font "MerriweatherSans-Italic.ttf"
-  font "MerriweatherSans-Light.ttf"
-  font "MerriweatherSans-LightItalic.ttf"
-  font "MerriweatherSans-Regular.ttf"
+  font "MerriweatherSans-Italic[wght].ttf"
+  font "MerriweatherSans[wght].ttf"
 end
