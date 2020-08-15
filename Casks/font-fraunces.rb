@@ -7,7 +7,7 @@ cask "font-fraunces" do
       using:      :svn,
       trust_cert: true
   name "Fraunces"
-  desc "Display, old style soft-serif typeface inspired by the mannerisms of early 20th century typefaces such as windsor, souvenir, and the cooper series"
+  desc "Display, old style soft-serif typeface"
   homepage "https://fonts.google.com/specimen/Fraunces"
 
   font "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
