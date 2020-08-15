@@ -33,7 +33,7 @@ class FontCask:
         keep_trailing_newline=True, trim_blocks=True, undefined=jinja2.StrictUndefined,
     )
     TEMPLATE = ENVIRONMENT.from_string(
-        """cask "{{cask_name}}" do
+        """cask "{{token}}" do
   version :latest
   sha256 :no_check
 
@@ -46,6 +46,9 @@ class FontCask:
       trust_cert: true
 {% endif %}
   name "{{font_name}}"
+{% if desc %}
+  desc "{{desc}}"
+{% endif %}
   homepage "{{homepage}}"
 
 {% for file in files %}
@@ -55,23 +58,31 @@ end
 """
     )
 
-    def __init__(self, folder, meta, early_access=False):
+    def __init__(self, folder, meta, description=None, early_access=False):
         self.folder = folder
         self.meta = meta
+        self.desc = description
         self.early_access = early_access
 
     def font_name(self):
         return self.meta.name
 
+    def description(self):
+        if not self.desc:
+          return None
+
+        if len(self.desc) == 0:
+          return None
+
+        return self.desc
+
     def token(self):
         # https://github.com/Homebrew/homebrew-cask-fonts/blob/master/CONTRIBUTING.md#converting-the-canonical-name-to-a-token
-        return self.font_name().lower().replace(" ", "-")
-
-    def cask_name(self):
-        return f"font-{self.token()}"
+        token = self.font_name().lower().replace(" ", "-")
+        return f"font-{token}"
 
     def dest_path(self):
-        return os.path.join("Casks", f"{self.cask_name()}.rb")
+        return os.path.join("Casks", f"{self.token()}.rb")
 
     def name_path(self):
         return self.font_name().replace(" ", "+")
@@ -89,9 +100,10 @@ end
 
     def cask_content(self):
         return self.TEMPLATE.render(
-            cask_name=self.cask_name(),
+            token=self.token(),
             folder=self.folder,
             font_name=self.font_name(),
+            desc=self.description(),
             homepage=self.homepage(),
             files=self.files(),
         )
@@ -119,7 +131,22 @@ def should_skip(cask_path):
 def metadata_to_cask(meta_file, repo_dir):
     folder = os.path.dirname(os.path.relpath(meta_file, start=repo_dir))
     meta = parse_metadata(meta_file)
-    return FontCask(folder, meta)
+
+    description_path = os.path.join(os.path.dirname(meta_file), "DESCRIPTION.en_us.html")
+
+    description = None
+
+    if os.path.exists(description_path):
+      with open(description_path) as f:
+        contents = f.read()
+
+        regex = r".*" + re.escape(meta.name) + r"\s+(?:.*\s+)?is(?:\s+an?|the)?\s+"
+        parts = re.split(regex, contents, maxsplit=1)
+
+        if len(parts) > 1:
+          description = parts[1].split(".")[0].capitalize()
+
+    return FontCask(folder, meta, description=description)
 
 
 def write_cask(cask):
@@ -130,9 +157,30 @@ def write_cask(cask):
         f.write(cask.cask_content())
 
 
-def delete_google_casks():
-    os.system("grep -rEl 'fonts.google.com|google.com/fonts' Casks | xargs rm")
+def find_google_casks():
+  casks = {}
 
+  for cask_path in glob('Casks/*.rb'):
+    token = os.path.splitext(os.path.basename(cask_path))[0]
+
+    with open(cask_path, "r") as f:
+      contents = f.read()
+
+      if not re.search(r"(fonts\.google\.com|google\.com/fonts)", contents):
+        continue
+
+      desc = re.search(r"desc\s+([\"'])(.*)(\1)\s*", contents)
+      if desc:
+        description = desc[2]
+      else:
+        description = None
+
+    casks[token] = {
+      "path": cask_path,
+      "description": description,
+    }
+
+  return casks
 
 def find_family_folders(repo_dir):
     SUBDIRS = ["apache", "ofl", "ufl"]
@@ -199,8 +247,7 @@ Download the or clone the repository from https://github.com/google/fonts, then 
     repo_dir = sys.argv[1]
     family_folders = find_family_folders(repo_dir)
 
-    # since the valid font Casks will be regenerated anyway, delete all of them first to ensure any fonts removed from Google are cleaned up
-    delete_google_casks()
+    google_casks = find_google_casks()
 
     for family_folder in family_folders:
         meta_file = os.path.join(family_folder, "METADATA.pb")
@@ -211,7 +258,15 @@ Download the or clone the repository from https://github.com/google/fonts, then 
         else:
             cask = derive_cask(family_folder, repo_dir)
 
-        write_cask(cask)
+        description = google_casks.get(cask.token(), {}).get("description", None)
+        if description:
+            cask.desc = description
 
+        write_cask(cask)
+        google_casks.pop(cask.token(), None)
+
+    # Delete casks which don't exist anymore.
+    for google_cask in google_casks.values():
+      os.remove(google_cask["path"])
 
 run()
