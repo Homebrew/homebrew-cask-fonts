@@ -9,8 +9,6 @@ cask "font-muli" do
   name "Muli"
   homepage "https://fonts.google.com/specimen/Muli"
 
-  depends_on macos: ">= :sierra"
-
   font "Muli-Italic[wght].ttf"
   font "Muli[wght].ttf"
 end

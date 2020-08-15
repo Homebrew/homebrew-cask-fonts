@@ -9,8 +9,6 @@ cask "font-karla" do
   name "Karla"
   homepage "https://fonts.google.com/specimen/Karla"
 
-  depends_on macos: ">= :sierra"
-
   font "Karla-Italic[wght].ttf"
   font "Karla[wght].ttf"
 end

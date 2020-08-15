@@ -9,8 +9,6 @@ cask "font-inknut-antiqua" do
   name "Inknut Antiqua"
   homepage "https://fonts.google.com/specimen/Inknut+Antiqua"
 
-  depends_on macos: ">= :sierra"
-
   font "InknutAntiqua-Black.ttf"
   font "InknutAntiqua-Bold.ttf"
   font "InknutAntiqua-ExtraBold.ttf"

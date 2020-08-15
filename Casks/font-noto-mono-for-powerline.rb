@@ -8,7 +8,5 @@ cask "font-noto-mono-for-powerline" do
   name "Noto Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/NotoMono"
 
-  depends_on macos: ">= :sierra"
-
   font "Noto Mono for Powerline.ttf"
 end

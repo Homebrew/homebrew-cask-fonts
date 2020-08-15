@@ -9,8 +9,6 @@ cask "font-eczar" do
   name "Eczar"
   homepage "https://fonts.google.com/specimen/Eczar"
 
-  depends_on macos: ">= :sierra"
-
   font "Eczar-Bold.ttf"
   font "Eczar-ExtraBold.ttf"
   font "Eczar-Medium.ttf"

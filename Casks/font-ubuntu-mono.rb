@@ -9,8 +9,6 @@ cask "font-ubuntu-mono" do
   name "Ubuntu Mono"
   homepage "https://fonts.google.com/specimen/Ubuntu+Mono"
 
-  depends_on macos: ">= :sierra"
-
   font "UbuntuMono-Bold.ttf"
   font "UbuntuMono-BoldItalic.ttf"
   font "UbuntuMono-Italic.ttf"

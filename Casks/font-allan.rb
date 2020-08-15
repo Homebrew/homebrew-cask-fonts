@@ -9,8 +9,6 @@ cask "font-allan" do
   name "Allan"
   homepage "https://fonts.google.com/specimen/Allan"
 
-  depends_on macos: ">= :sierra"
-
   font "Allan-Bold.ttf"
   font "Allan-Regular.ttf"
 end

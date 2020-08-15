@@ -9,8 +9,6 @@ cask "font-prompt" do
   name "Prompt"
   homepage "https://fonts.google.com/specimen/Prompt"
 
-  depends_on macos: ">= :sierra"
-
   font "Prompt-Black.ttf"
   font "Prompt-BlackItalic.ttf"
   font "Prompt-Bold.ttf"

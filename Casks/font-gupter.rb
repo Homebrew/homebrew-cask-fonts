@@ -9,8 +9,6 @@ cask "font-gupter" do
   name "Gupter"
   homepage "https://fonts.google.com/specimen/Gupter"
 
-  depends_on macos: ">= :sierra"
-
   font "Gupter-Bold.ttf"
   font "Gupter-Medium.ttf"
   font "Gupter-Regular.ttf"

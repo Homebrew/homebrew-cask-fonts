@@ -9,8 +9,6 @@ cask "font-manjari" do
   name "Manjari"
   homepage "https://fonts.google.com/specimen/Manjari"
 
-  depends_on macos: ">= :sierra"
-
   font "Manjari-Bold.ttf"
   font "Manjari-Regular.ttf"
   font "Manjari-Thin.ttf"

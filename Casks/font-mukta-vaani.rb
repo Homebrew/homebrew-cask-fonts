@@ -9,8 +9,6 @@ cask "font-mukta-vaani" do
   name "Mukta Vaani"
   homepage "https://fonts.google.com/specimen/Mukta+Vaani"
 
-  depends_on macos: ">= :sierra"
-
   font "MuktaVaani-Bold.ttf"
   font "MuktaVaani-ExtraBold.ttf"
   font "MuktaVaani-ExtraLight.ttf"

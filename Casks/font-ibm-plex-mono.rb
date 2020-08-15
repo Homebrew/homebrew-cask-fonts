@@ -9,8 +9,6 @@ cask "font-ibm-plex-mono" do
   name "IBM Plex Mono"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Mono"
 
-  depends_on macos: ">= :sierra"
-
   font "IBMPlexMono-Bold.ttf"
   font "IBMPlexMono-BoldItalic.ttf"
   font "IBMPlexMono-ExtraLight.ttf"

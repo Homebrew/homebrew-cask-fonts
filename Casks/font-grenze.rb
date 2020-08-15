@@ -9,8 +9,6 @@ cask "font-grenze" do
   name "Grenze"
   homepage "https://fonts.google.com/specimen/Grenze"
 
-  depends_on macos: ">= :sierra"
-
   font "Grenze-Black.ttf"
   font "Grenze-BlackItalic.ttf"
   font "Grenze-Bold.ttf"

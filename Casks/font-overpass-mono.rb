@@ -9,8 +9,6 @@ cask "font-overpass-mono" do
   name "Overpass Mono"
   homepage "https://fonts.google.com/specimen/Overpass+Mono"
 
-  depends_on macos: ">= :sierra"
-
   font "OverpassMono-Bold.ttf"
   font "OverpassMono-Light.ttf"
   font "OverpassMono-Regular.ttf"

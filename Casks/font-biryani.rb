@@ -9,8 +9,6 @@ cask "font-biryani" do
   name "Biryani"
   homepage "https://fonts.google.com/specimen/Biryani"
 
-  depends_on macos: ">= :sierra"
-
   font "Biryani-Black.ttf"
   font "Biryani-Bold.ttf"
   font "Biryani-ExtraBold.ttf"

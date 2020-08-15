@@ -9,8 +9,6 @@ cask "font-sarpanch" do
   name "Sarpanch"
   homepage "https://fonts.google.com/specimen/Sarpanch"
 
-  depends_on macos: ">= :sierra"
-
   font "Sarpanch-Black.ttf"
   font "Sarpanch-Bold.ttf"
   font "Sarpanch-ExtraBold.ttf"

@@ -9,8 +9,6 @@ cask "font-khula" do
   name "Khula"
   homepage "https://fonts.google.com/specimen/Khula"
 
-  depends_on macos: ">= :sierra"
-
   font "Khula-Bold.ttf"
   font "Khula-ExtraBold.ttf"
   font "Khula-Light.ttf"

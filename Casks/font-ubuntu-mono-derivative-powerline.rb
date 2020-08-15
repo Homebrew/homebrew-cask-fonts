@@ -9,8 +9,6 @@ cask "font-ubuntu-mono-derivative-powerline" do
   name "Ubuntu Mono derivative Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/UbuntuMono"
 
-  depends_on macos: ">= :sierra"
-
   font "Ubuntu Mono derivative Powerline.ttf"
   font "Ubuntu Mono derivative Powerline Bold.ttf"
   font "Ubuntu Mono derivative Powerline Bold Italic.ttf"

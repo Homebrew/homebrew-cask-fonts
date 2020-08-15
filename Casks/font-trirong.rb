@@ -9,8 +9,6 @@ cask "font-trirong" do
   name "Trirong"
   homepage "https://fonts.google.com/specimen/Trirong"
 
-  depends_on macos: ">= :sierra"
-
   font "Trirong-Black.ttf"
   font "Trirong-BlackItalic.ttf"
   font "Trirong-Bold.ttf"

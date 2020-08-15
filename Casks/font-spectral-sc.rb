@@ -9,8 +9,6 @@ cask "font-spectral-sc" do
   name "Spectral SC"
   homepage "https://fonts.google.com/specimen/Spectral+SC"
 
-  depends_on macos: ">= :sierra"
-
   font "SpectralSC-Bold.ttf"
   font "SpectralSC-BoldItalic.ttf"
   font "SpectralSC-ExtraBold.ttf"

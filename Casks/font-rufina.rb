@@ -9,8 +9,6 @@ cask "font-rufina" do
   name "Rufina"
   homepage "https://fonts.google.com/specimen/Rufina"
 
-  depends_on macos: ">= :sierra"
-
   font "Rufina-Bold.ttf"
   font "Rufina-Regular.ttf"
 end

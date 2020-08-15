@@ -9,8 +9,6 @@ cask "font-archivo" do
   name "Archivo"
   homepage "https://fonts.google.com/specimen/Archivo"
 
-  depends_on macos: ">= :sierra"
-
   font "Archivo-Bold.ttf"
   font "Archivo-BoldItalic.ttf"
   font "Archivo-Italic.ttf"

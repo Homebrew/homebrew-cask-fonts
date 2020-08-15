@@ -9,8 +9,6 @@ cask "font-inria-serif" do
   name "Inria Serif"
   homepage "https://fonts.google.com/specimen/Inria+Serif"
 
-  depends_on macos: ">= :sierra"
-
   font "InriaSerif-Bold.ttf"
   font "InriaSerif-BoldItalic.ttf"
   font "InriaSerif-Italic.ttf"

@@ -9,8 +9,6 @@ cask "font-sumana" do
   name "Sumana"
   homepage "https://fonts.google.com/specimen/Sumana"
 
-  depends_on macos: ">= :sierra"
-
   font "Sumana-Bold.ttf"
   font "Sumana-Regular.ttf"
 end

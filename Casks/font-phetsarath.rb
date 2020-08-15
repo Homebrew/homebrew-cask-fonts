@@ -9,8 +9,6 @@ cask "font-phetsarath" do
   name "Phetsarath"
   homepage "https://fonts.google.com/specimen/Phetsarath"
 
-  depends_on macos: ">= :sierra"
-
   font "Phetsarath-Bold.ttf"
   font "Phetsarath-Regular.ttf"
 end

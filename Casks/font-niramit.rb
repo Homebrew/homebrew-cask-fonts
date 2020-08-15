@@ -9,8 +9,6 @@ cask "font-niramit" do
   name "Niramit"
   homepage "https://fonts.google.com/specimen/Niramit"
 
-  depends_on macos: ">= :sierra"
-
   font "Niramit-Bold.ttf"
   font "Niramit-BoldItalic.ttf"
   font "Niramit-ExtraLight.ttf"

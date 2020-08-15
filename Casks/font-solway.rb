@@ -9,8 +9,6 @@ cask "font-solway" do
   name "Solway"
   homepage "https://fonts.google.com/specimen/Solway"
 
-  depends_on macos: ">= :sierra"
-
   font "Solway-Bold.ttf"
   font "Solway-ExtraBold.ttf"
   font "Solway-Light.ttf"

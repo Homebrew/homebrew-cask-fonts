@@ -9,8 +9,6 @@ cask "font-oleo-script-swash-caps" do
   name "Oleo Script Swash Caps"
   homepage "https://fonts.google.com/specimen/Oleo+Script+Swash+Caps"
 
-  depends_on macos: ">= :sierra"
-
   font "OleoScriptSwashCaps-Bold.ttf"
   font "OleoScriptSwashCaps-Regular.ttf"
 end

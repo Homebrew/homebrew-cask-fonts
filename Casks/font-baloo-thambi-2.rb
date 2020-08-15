@@ -9,8 +9,6 @@ cask "font-baloo-thambi-2" do
   name "Baloo Thambi 2"
   homepage "https://fonts.google.com/specimen/Baloo+Thambi+2"
 
-  depends_on macos: ">= :sierra"
-
   font "BalooThambi2-Bold.ttf"
   font "BalooThambi2-ExtraBold.ttf"
   font "BalooThambi2-Medium.ttf"

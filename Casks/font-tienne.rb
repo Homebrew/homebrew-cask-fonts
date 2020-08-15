@@ -9,8 +9,6 @@ cask "font-tienne" do
   name "Tienne"
   homepage "https://fonts.google.com/specimen/Tienne"
 
-  depends_on macos: ">= :sierra"
-
   font "Tienne-Black.ttf"
   font "Tienne-Bold.ttf"
   font "Tienne-Regular.ttf"

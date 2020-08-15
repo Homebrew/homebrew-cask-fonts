@@ -9,8 +9,6 @@ cask "font-hind-madurai" do
   name "Hind Madurai"
   homepage "https://fonts.google.com/specimen/Hind+Madurai"
 
-  depends_on macos: ">= :sierra"
-
   font "HindMadurai-Bold.ttf"
   font "HindMadurai-Light.ttf"
   font "HindMadurai-Medium.ttf"

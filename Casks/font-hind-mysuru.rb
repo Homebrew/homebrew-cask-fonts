@@ -9,8 +9,6 @@ cask "font-hind-mysuru" do
   name "Hind Mysuru"
   homepage "https://fonts.google.com/specimen/Hind+Mysuru"
 
-  depends_on macos: ">= :sierra"
-
   font "HindMysuru-Bold.ttf"
   font "HindMysuru-Light.ttf"
   font "HindMysuru-Medium.ttf"

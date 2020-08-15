@@ -9,8 +9,6 @@ cask "font-faustina-vf-beta" do
   name "Faustina VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
 
-  depends_on macos: ">= :sierra"
-
   font "FaustinaVFBeta-Italic.ttf"
   font "FaustinaVFBeta.ttf"
 end

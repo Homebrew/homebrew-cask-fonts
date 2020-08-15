@@ -9,8 +9,6 @@ cask "font-fahkwang" do
   name "Fahkwang"
   homepage "https://fonts.google.com/specimen/Fahkwang"
 
-  depends_on macos: ">= :sierra"
-
   font "Fahkwang-Bold.ttf"
   font "Fahkwang-BoldItalic.ttf"
   font "Fahkwang-ExtraLight.ttf"

@@ -9,8 +9,6 @@ cask "font-nobile" do
   name "Nobile"
   homepage "https://fonts.google.com/specimen/Nobile"
 
-  depends_on macos: ">= :sierra"
-
   font "Nobile-Bold.ttf"
   font "Nobile-BoldItalic.ttf"
   font "Nobile-Italic.ttf"

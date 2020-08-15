@@ -9,8 +9,6 @@ cask "font-economica" do
   name "Economica"
   homepage "https://fonts.google.com/specimen/Economica"
 
-  depends_on macos: ">= :sierra"
-
   font "Economica-Bold.ttf"
   font "Economica-BoldItalic.ttf"
   font "Economica-Italic.ttf"

@@ -10,7 +10,5 @@ cask "font-material-design-icons-webfont" do
   name "Material Design Icons Webfont"
   homepage "https://materialdesignicons.com/"
 
-  depends_on macos: ">= :sierra"
-
   font "materialdesignicons-webfont.ttf"
 end

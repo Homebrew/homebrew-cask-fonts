@@ -9,8 +9,6 @@ cask "font-ranga" do
   name "Ranga"
   homepage "https://fonts.google.com/specimen/Ranga"
 
-  depends_on macos: ">= :sierra"
-
   font "Ranga-Bold.ttf"
   font "Ranga-Regular.ttf"
 end

@@ -9,8 +9,6 @@ cask "font-kodchasan" do
   name "Kodchasan"
   homepage "https://fonts.google.com/specimen/Kodchasan"
 
-  depends_on macos: ">= :sierra"
-
   font "Kodchasan-Bold.ttf"
   font "Kodchasan-BoldItalic.ttf"
   font "Kodchasan-ExtraLight.ttf"

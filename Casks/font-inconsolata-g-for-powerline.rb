@@ -8,7 +8,5 @@ cask "font-inconsolata-g-for-powerline" do
   name "Inconsolata-g for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/Inconsolata-g"
 
-  depends_on macos: ">= :sierra"
-
   font "Inconsolata-g for Powerline.otf"
 end

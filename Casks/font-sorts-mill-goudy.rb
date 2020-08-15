@@ -9,8 +9,6 @@ cask "font-sorts-mill-goudy" do
   name "Sorts Mill Goudy"
   homepage "https://fonts.google.com/specimen/Sorts+Mill+Goudy"
 
-  depends_on macos: ">= :sierra"
-
   font "SortsMillGoudy-Italic.ttf"
   font "SortsMillGoudy-Regular.ttf"
 end

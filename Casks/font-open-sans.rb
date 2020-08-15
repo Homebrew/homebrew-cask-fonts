@@ -9,8 +9,6 @@ cask "font-open-sans" do
   name "Open Sans"
   homepage "https://fonts.google.com/specimen/Open+Sans"
 
-  depends_on macos: ">= :sierra"
-
   font "OpenSans-Bold.ttf"
   font "OpenSans-BoldItalic.ttf"
   font "OpenSans-ExtraBold.ttf"

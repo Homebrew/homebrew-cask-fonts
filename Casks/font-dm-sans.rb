@@ -9,8 +9,6 @@ cask "font-dm-sans" do
   name "DM Sans"
   homepage "https://fonts.google.com/specimen/DM+Sans"
 
-  depends_on macos: ">= :sierra"
-
   font "DMSans-Bold.ttf"
   font "DMSans-BoldItalic.ttf"
   font "DMSans-Italic.ttf"

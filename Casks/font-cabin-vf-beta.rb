@@ -9,8 +9,6 @@ cask "font-cabin-vf-beta" do
   name "Cabin VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
 
-  depends_on macos: ">= :sierra"
-
   font "CabinVFBeta-Italic.ttf"
   font "CabinVFBeta.ttf"
 end

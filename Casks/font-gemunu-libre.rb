@@ -9,8 +9,6 @@ cask "font-gemunu-libre" do
   name "Gemunu Libre"
   homepage "https://fonts.google.com/specimen/Gemunu+Libre"
 
-  depends_on macos: ">= :sierra"
-
   font "GemunuLibre-Bold.ttf"
   font "GemunuLibre-ExtraBold.ttf"
   font "GemunuLibre-ExtraLight.ttf"

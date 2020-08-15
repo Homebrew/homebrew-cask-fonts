@@ -9,8 +9,6 @@ cask "font-pt-sans-caption" do
   name "PT Sans Caption"
   homepage "https://fonts.google.com/specimen/PT+Sans+Caption"
 
-  depends_on macos: ">= :sierra"
-
   font "PT_Sans-Caption-Web-Bold.ttf"
   font "PT_Sans-Caption-Web-Regular.ttf"
 end

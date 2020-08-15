@@ -9,8 +9,6 @@ cask "font-sansita" do
   name "Sansita"
   homepage "https://fonts.google.com/specimen/Sansita"
 
-  depends_on macos: ">= :sierra"
-
   font "Sansita-Black.ttf"
   font "Sansita-BlackItalic.ttf"
   font "Sansita-Bold.ttf"

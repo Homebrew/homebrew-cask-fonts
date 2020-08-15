@@ -9,8 +9,6 @@ cask "font-merienda" do
   name "Merienda"
   homepage "https://fonts.google.com/specimen/Merienda"
 
-  depends_on macos: ">= :sierra"
-
   font "Merienda-Bold.ttf"
   font "Merienda-Regular.ttf"
 end

@@ -9,8 +9,6 @@ cask "font-hind-vadodara" do
   name "Hind Vadodara"
   homepage "https://fonts.google.com/specimen/Hind+Vadodara"
 
-  depends_on macos: ">= :sierra"
-
   font "HindVadodara-Bold.ttf"
   font "HindVadodara-Light.ttf"
   font "HindVadodara-Medium.ttf"

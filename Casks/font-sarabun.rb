@@ -9,8 +9,6 @@ cask "font-sarabun" do
   name "Sarabun"
   homepage "https://fonts.google.com/specimen/Sarabun"
 
-  depends_on macos: ">= :sierra"
-
   font "Sarabun-Bold.ttf"
   font "Sarabun-BoldItalic.ttf"
   font "Sarabun-ExtraBold.ttf"

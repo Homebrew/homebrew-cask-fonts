@@ -9,8 +9,6 @@ cask "font-simonetta" do
   name "Simonetta"
   homepage "https://fonts.google.com/specimen/Simonetta"
 
-  depends_on macos: ">= :sierra"
-
   font "Simonetta-Black.ttf"
   font "Simonetta-BlackItalic.ttf"
   font "Simonetta-Italic.ttf"

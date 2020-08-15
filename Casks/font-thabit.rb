@@ -9,8 +9,6 @@ cask "font-thabit" do
   name "Thabit"
   homepage "https://fonts.google.com/specimen/Thabit"
 
-  depends_on macos: ">= :sierra"
-
   font "Thabit-Bold.ttf"
   font "Thabit-BoldOblique.ttf"
   font "Thabit-Oblique.ttf"

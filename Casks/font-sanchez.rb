@@ -9,8 +9,6 @@ cask "font-sanchez" do
   name "Sanchez"
   homepage "https://fonts.google.com/specimen/Sanchez"
 
-  depends_on macos: ">= :sierra"
-
   font "Sanchez-Italic.ttf"
   font "Sanchez-Regular.ttf"
 end

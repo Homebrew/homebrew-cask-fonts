@@ -9,8 +9,6 @@ cask "font-arima-madurai" do
   name "Arima Madurai"
   homepage "https://fonts.google.com/specimen/Arima+Madurai"
 
-  depends_on macos: ">= :sierra"
-
   font "ArimaMadurai-Black.ttf"
   font "ArimaMadurai-Bold.ttf"
   font "ArimaMadurai-ExtraBold.ttf"

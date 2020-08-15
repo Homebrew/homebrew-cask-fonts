@@ -9,8 +9,6 @@ cask "font-sunflower" do
   name "Sunflower"
   homepage "https://fonts.google.com/specimen/Sunflower"
 
-  depends_on macos: ">= :sierra"
-
   font "Sunflower-Bold.ttf"
   font "Sunflower-Light.ttf"
   font "Sunflower-Medium.ttf"

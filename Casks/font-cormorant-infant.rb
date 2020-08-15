@@ -9,8 +9,6 @@ cask "font-cormorant-infant" do
   name "Cormorant Infant"
   homepage "https://fonts.google.com/specimen/Cormorant+Infant"
 
-  depends_on macos: ">= :sierra"
-
   font "CormorantInfant-Bold.ttf"
   font "CormorantInfant-BoldItalic.ttf"
   font "CormorantInfant-Italic.ttf"

@@ -9,8 +9,6 @@ cask "font-montserrat-alternates" do
   name "Montserrat Alternates"
   homepage "https://fonts.google.com/specimen/Montserrat+Alternates"
 
-  depends_on macos: ">= :sierra"
-
   font "MontserratAlternates-Black.ttf"
   font "MontserratAlternates-BlackItalic.ttf"
   font "MontserratAlternates-Bold.ttf"

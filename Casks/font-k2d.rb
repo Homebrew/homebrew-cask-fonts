@@ -9,8 +9,6 @@ cask "font-k2d" do
   name "K2D"
   homepage "https://fonts.google.com/specimen/K2D"
 
-  depends_on macos: ">= :sierra"
-
   font "K2D-Bold.ttf"
   font "K2D-BoldItalic.ttf"
   font "K2D-ExtraBold.ttf"

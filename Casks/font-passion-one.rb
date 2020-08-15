@@ -9,8 +9,6 @@ cask "font-passion-one" do
   name "Passion One"
   homepage "https://fonts.google.com/specimen/Passion+One"
 
-  depends_on macos: ">= :sierra"
-
   font "PassionOne-Black.ttf"
   font "PassionOne-Bold.ttf"
   font "PassionOne-Regular.ttf"

@@ -9,8 +9,6 @@ cask "font-athiti" do
   name "Athiti"
   homepage "https://fonts.google.com/specimen/Athiti"
 
-  depends_on macos: ">= :sierra"
-
   font "Athiti-Bold.ttf"
   font "Athiti-ExtraLight.ttf"
   font "Athiti-Light.ttf"

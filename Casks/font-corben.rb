@@ -9,8 +9,6 @@ cask "font-corben" do
   name "Corben"
   homepage "https://fonts.google.com/specimen/Corben"
 
-  depends_on macos: ">= :sierra"
-
   font "Corben-Bold.ttf"
   font "Corben-Regular.ttf"
 end

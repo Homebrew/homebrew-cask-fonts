@@ -9,8 +9,6 @@ cask "font-darker-grotesque" do
   name "Darker Grotesque"
   homepage "https://fonts.google.com/specimen/Darker+Grotesque"
 
-  depends_on macos: ">= :sierra"
-
   font "DarkerGrotesque-Black.ttf"
   font "DarkerGrotesque-Bold.ttf"
   font "DarkerGrotesque-ExtraBold.ttf"

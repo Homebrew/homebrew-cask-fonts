@@ -9,8 +9,6 @@ cask "font-vesper-libre" do
   name "Vesper Libre"
   homepage "https://fonts.google.com/specimen/Vesper+Libre"
 
-  depends_on macos: ">= :sierra"
-
   font "VesperLibre-Bold.ttf"
   font "VesperLibre-Heavy.ttf"
   font "VesperLibre-Medium.ttf"

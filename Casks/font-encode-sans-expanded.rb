@@ -9,8 +9,6 @@ cask "font-encode-sans-expanded" do
   name "Encode Sans Expanded"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Expanded"
 
-  depends_on macos: ">= :sierra"
-
   font "EncodeSansExpanded-Black.ttf"
   font "EncodeSansExpanded-Bold.ttf"
   font "EncodeSansExpanded-ExtraBold.ttf"

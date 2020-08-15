@@ -9,8 +9,6 @@ cask "font-koho" do
   name "KoHo"
   homepage "https://fonts.google.com/specimen/KoHo"
 
-  depends_on macos: ">= :sierra"
-
   font "KoHo-Bold.ttf"
   font "KoHo-BoldItalic.ttf"
   font "KoHo-ExtraLight.ttf"

@@ -9,8 +9,6 @@ cask "font-nunito" do
   name "Nunito"
   homepage "https://fonts.google.com/specimen/Nunito"
 
-  depends_on macos: ">= :sierra"
-
   font "Nunito-Black.ttf"
   font "Nunito-BlackItalic.ttf"
   font "Nunito-Bold.ttf"

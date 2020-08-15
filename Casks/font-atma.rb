@@ -9,8 +9,6 @@ cask "font-atma" do
   name "Atma"
   homepage "https://fonts.google.com/specimen/Atma"
 
-  depends_on macos: ">= :sierra"
-
   font "Atma-Bold.ttf"
   font "Atma-Light.ttf"
   font "Atma-Medium.ttf"

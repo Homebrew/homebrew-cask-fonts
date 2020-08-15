@@ -9,8 +9,6 @@ cask "font-tangerine" do
   name "Tangerine"
   homepage "https://fonts.google.com/specimen/Tangerine"
 
-  depends_on macos: ">= :sierra"
-
   font "Tangerine-Bold.ttf"
   font "Tangerine-Regular.ttf"
 end

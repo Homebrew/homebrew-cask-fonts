@@ -9,8 +9,6 @@ cask "font-montserrat-subrayada" do
   name "Montserrat Subrayada"
   homepage "https://fonts.google.com/specimen/Montserrat+Subrayada"
 
-  depends_on macos: ">= :sierra"
-
   font "MontserratSubrayada-Bold.ttf"
   font "MontserratSubrayada-Regular.ttf"
 end

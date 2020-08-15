@@ -9,8 +9,6 @@ cask "font-chakra-petch" do
   name "Chakra Petch"
   homepage "https://fonts.google.com/specimen/Chakra+Petch"
 
-  depends_on macos: ">= :sierra"
-
   font "ChakraPetch-Bold.ttf"
   font "ChakraPetch-BoldItalic.ttf"
   font "ChakraPetch-Italic.ttf"

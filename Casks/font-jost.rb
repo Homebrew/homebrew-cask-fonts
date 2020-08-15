@@ -9,8 +9,6 @@ cask "font-jost" do
   name "Jost"
   homepage "https://fonts.google.com/specimen/Jost"
 
-  depends_on macos: ">= :sierra"
-
   font "Jost-Italic[wght].ttf"
   font "Jost[wght].ttf"
 end

@@ -9,8 +9,6 @@ cask "font-zilla-slab-highlight" do
   name "Zilla Slab Highlight"
   homepage "https://fonts.google.com/specimen/Zilla+Slab+Highlight"
 
-  depends_on macos: ">= :sierra"
-
   font "ZillaSlabHighlight-Bold.ttf"
   font "ZillaSlabHighlight-Regular.ttf"
 end

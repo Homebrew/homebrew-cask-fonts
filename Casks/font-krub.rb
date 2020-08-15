@@ -9,8 +9,6 @@ cask "font-krub" do
   name "Krub"
   homepage "https://fonts.google.com/specimen/Krub"
 
-  depends_on macos: ">= :sierra"
-
   font "Krub-Bold.ttf"
   font "Krub-BoldItalic.ttf"
   font "Krub-ExtraLight.ttf"

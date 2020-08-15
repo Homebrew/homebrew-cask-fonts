@@ -9,8 +9,6 @@ cask "font-pragati-narrow" do
   name "Pragati Narrow"
   homepage "https://fonts.google.com/specimen/Pragati+Narrow"
 
-  depends_on macos: ">= :sierra"
-
   font "PragatiNarrow-Bold.ttf"
   font "PragatiNarrow-Regular.ttf"
 end

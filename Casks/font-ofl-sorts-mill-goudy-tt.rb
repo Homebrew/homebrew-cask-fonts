@@ -9,8 +9,6 @@ cask "font-ofl-sorts-mill-goudy-tt" do
   name "OFL Sorts Mill Goudy TT"
   homepage "https://fonts.google.com/specimen/OFL+Sorts+Mill+Goudy+TT"
 
-  depends_on macos: ">= :sierra"
-
   font "OFLGoudyStMTT-Italic.ttf"
   font "OFLGoudyStMTT.ttf"
 end

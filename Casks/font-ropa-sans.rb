@@ -9,8 +9,6 @@ cask "font-ropa-sans" do
   name "Ropa Sans"
   homepage "https://fonts.google.com/specimen/Ropa+Sans"
 
-  depends_on macos: ">= :sierra"
-
   font "RopaSans-Italic.ttf"
   font "RopaSans-Regular.ttf"
 end

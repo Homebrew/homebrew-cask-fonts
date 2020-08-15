@@ -9,8 +9,6 @@ cask "font-baloo-tammudu-2" do
   name "Baloo Tammudu 2"
   homepage "https://fonts.google.com/specimen/Baloo+Tammudu+2"
 
-  depends_on macos: ">= :sierra"
-
   font "BalooTammudu2-Bold.ttf"
   font "BalooTammudu2-ExtraBold.ttf"
   font "BalooTammudu2-Medium.ttf"

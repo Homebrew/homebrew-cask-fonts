@@ -9,8 +9,6 @@ cask "font-catamaran" do
   name "Catamaran"
   homepage "https://fonts.google.com/specimen/Catamaran"
 
-  depends_on macos: ">= :sierra"
-
   font "Catamaran-Black.ttf"
   font "Catamaran-Bold.ttf"
   font "Catamaran-ExtraBold.ttf"

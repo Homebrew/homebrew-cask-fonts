@@ -9,8 +9,6 @@ cask "font-tajawal" do
   name "Tajawal"
   homepage "https://fonts.google.com/specimen/Tajawal"
 
-  depends_on macos: ">= :sierra"
-
   font "Tajawal-Black.ttf"
   font "Tajawal-Bold.ttf"
   font "Tajawal-ExtraBold.ttf"

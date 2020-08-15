@@ -9,8 +9,6 @@ cask "font-yrsa" do
   name "Yrsa"
   homepage "https://fonts.google.com/specimen/Yrsa"
 
-  depends_on macos: ">= :sierra"
-
   font "Yrsa-Bold.ttf"
   font "Yrsa-Light.ttf"
   font "Yrsa-Medium.ttf"

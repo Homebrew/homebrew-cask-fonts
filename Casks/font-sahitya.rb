@@ -9,8 +9,6 @@ cask "font-sahitya" do
   name "Sahitya"
   homepage "https://fonts.google.com/specimen/Sahitya"
 
-  depends_on macos: ">= :sierra"
-
   font "Sahitya-Bold.ttf"
   font "Sahitya-Regular.ttf"
 end

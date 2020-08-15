@@ -9,8 +9,6 @@ cask "font-mirza" do
   name "Mirza"
   homepage "https://fonts.google.com/specimen/Mirza"
 
-  depends_on macos: ">= :sierra"
-
   font "Mirza-Bold.ttf"
   font "Mirza-Medium.ttf"
   font "Mirza-Regular.ttf"

@@ -9,8 +9,6 @@ cask "font-gothic-a1" do
   name "Gothic A1"
   homepage "https://fonts.google.com/specimen/Gothic+A1"
 
-  depends_on macos: ">= :sierra"
-
   font "GothicA1-Black.ttf"
   font "GothicA1-Bold.ttf"
   font "GothicA1-ExtraBold.ttf"

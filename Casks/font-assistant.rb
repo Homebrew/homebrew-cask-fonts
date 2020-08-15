@@ -9,8 +9,6 @@ cask "font-assistant" do
   name "Assistant"
   homepage "https://fonts.google.com/specimen/Assistant"
 
-  depends_on macos: ">= :sierra"
-
   font "Assistant-Bold.ttf"
   font "Assistant-ExtraBold.ttf"
   font "Assistant-ExtraLight.ttf"

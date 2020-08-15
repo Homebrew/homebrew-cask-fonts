@@ -9,8 +9,6 @@ cask "font-frank-ruhl-libre" do
   name "Frank Ruhl Libre"
   homepage "https://fonts.google.com/specimen/Frank+Ruhl+Libre"
 
-  depends_on macos: ">= :sierra"
-
   font "FrankRuhlLibre-Black.ttf"
   font "FrankRuhlLibre-Bold.ttf"
   font "FrankRuhlLibre-Light.ttf"

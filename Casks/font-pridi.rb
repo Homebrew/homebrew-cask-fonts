@@ -9,8 +9,6 @@ cask "font-pridi" do
   name "Pridi"
   homepage "https://fonts.google.com/specimen/Pridi"
 
-  depends_on macos: ">= :sierra"
-
   font "Pridi-Bold.ttf"
   font "Pridi-ExtraLight.ttf"
   font "Pridi-Light.ttf"

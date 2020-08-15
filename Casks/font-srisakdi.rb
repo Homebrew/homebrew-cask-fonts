@@ -9,8 +9,6 @@ cask "font-srisakdi" do
   name "Srisakdi"
   homepage "https://fonts.google.com/specimen/Srisakdi"
 
-  depends_on macos: ">= :sierra"
-
   font "Srisakdi-Bold.ttf"
   font "Srisakdi-Regular.ttf"
 end

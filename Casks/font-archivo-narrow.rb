@@ -9,8 +9,6 @@ cask "font-archivo-narrow" do
   name "Archivo Narrow"
   homepage "https://fonts.google.com/specimen/Archivo+Narrow"
 
-  depends_on macos: ">= :sierra"
-
   font "ArchivoNarrow-Italic[wght].ttf"
   font "ArchivoNarrow[wght].ttf"
 end

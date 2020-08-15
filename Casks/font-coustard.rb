@@ -9,8 +9,6 @@ cask "font-coustard" do
   name "Coustard"
   homepage "https://fonts.google.com/specimen/Coustard"
 
-  depends_on macos: ">= :sierra"
-
   font "Coustard-Black.ttf"
   font "Coustard-Regular.ttf"
 end

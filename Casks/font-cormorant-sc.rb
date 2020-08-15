@@ -9,8 +9,6 @@ cask "font-cormorant-sc" do
   name "Cormorant SC"
   homepage "https://fonts.google.com/specimen/Cormorant+SC"
 
-  depends_on macos: ">= :sierra"
-
   font "CormorantSC-Bold.ttf"
   font "CormorantSC-Light.ttf"
   font "CormorantSC-Medium.ttf"

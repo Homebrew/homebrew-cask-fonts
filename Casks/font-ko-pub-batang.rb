@@ -9,8 +9,6 @@ cask "font-ko-pub-batang" do
   name "Ko Pub Batang"
   homepage "https://fonts.google.com/earlyaccess"
 
-  depends_on macos: ">= :sierra"
-
   font "KoPubBatang-Bold.ttf"
   font "KoPubBatang-Light.ttf"
   font "KoPubBatang-Regular.ttf"

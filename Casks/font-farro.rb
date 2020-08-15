@@ -9,8 +9,6 @@ cask "font-farro" do
   name "Farro"
   homepage "https://fonts.google.com/specimen/Farro"
 
-  depends_on macos: ">= :sierra"
-
   font "Farro-Bold.ttf"
   font "Farro-Light.ttf"
   font "Farro-Medium.ttf"

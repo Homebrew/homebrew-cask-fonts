@@ -9,8 +9,6 @@ cask "font-enriqueta" do
   name "Enriqueta"
   homepage "https://fonts.google.com/specimen/Enriqueta"
 
-  depends_on macos: ">= :sierra"
-
   font "Enriqueta-Bold.ttf"
   font "Enriqueta-Medium.ttf"
   font "Enriqueta-Regular.ttf"

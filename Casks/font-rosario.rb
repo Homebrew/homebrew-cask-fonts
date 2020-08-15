@@ -9,8 +9,6 @@ cask "font-rosario" do
   name "Rosario"
   homepage "https://fonts.google.com/specimen/Rosario"
 
-  depends_on macos: ">= :sierra"
-
   font "Rosario-Italic[wght].ttf"
   font "Rosario[wght].ttf"
 end

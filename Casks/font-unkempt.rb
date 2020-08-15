@@ -9,8 +9,6 @@ cask "font-unkempt" do
   name "Unkempt"
   homepage "https://fonts.google.com/specimen/Unkempt"
 
-  depends_on macos: ">= :sierra"
-
   font "Unkempt-Bold.ttf"
   font "Unkempt-Regular.ttf"
 end

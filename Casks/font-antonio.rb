@@ -9,8 +9,6 @@ cask "font-antonio" do
   name "Antonio"
   homepage "https://fonts.google.com/specimen/Antonio"
 
-  depends_on macos: ">= :sierra"
-
   font "Antonio-Bold.ttf"
   font "Antonio-Light.ttf"
   font "Antonio-Regular.ttf"

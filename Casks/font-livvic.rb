@@ -9,8 +9,6 @@ cask "font-livvic" do
   name "Livvic"
   homepage "https://fonts.google.com/specimen/Livvic"
 
-  depends_on macos: ">= :sierra"
-
   font "Livvic-Black.ttf"
   font "Livvic-BlackItalic.ttf"
   font "Livvic-Bold.ttf"

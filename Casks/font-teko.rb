@@ -9,8 +9,6 @@ cask "font-teko" do
   name "Teko"
   homepage "https://fonts.google.com/specimen/Teko"
 
-  depends_on macos: ">= :sierra"
-
   font "Teko-Bold.ttf"
   font "Teko-Light.ttf"
   font "Teko-Medium.ttf"

@@ -9,8 +9,6 @@ cask "font-amita" do
   name "Amita"
   homepage "https://fonts.google.com/specimen/Amita"
 
-  depends_on macos: ">= :sierra"
-
   font "Amita-Bold.ttf"
   font "Amita-Regular.ttf"
 end

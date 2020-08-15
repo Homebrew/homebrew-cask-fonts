@@ -9,8 +9,6 @@ cask "font-archivo-vf-beta" do
   name "Archivo VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
 
-  depends_on macos: ">= :sierra"
-
   font "ArchivoVFBeta-Italic.ttf"
   font "ArchivoVFBeta.ttf"
 end

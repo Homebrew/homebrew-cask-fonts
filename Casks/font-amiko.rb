@@ -9,8 +9,6 @@ cask "font-amiko" do
   name "Amiko"
   homepage "https://fonts.google.com/specimen/Amiko"
 
-  depends_on macos: ">= :sierra"
-
   font "Amiko-Bold.ttf"
   font "Amiko-Regular.ttf"
   font "Amiko-SemiBold.ttf"

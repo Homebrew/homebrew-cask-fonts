@@ -9,8 +9,6 @@ cask "font-cairo" do
   name "Cairo"
   homepage "https://fonts.google.com/specimen/Cairo"
 
-  depends_on macos: ">= :sierra"
-
   font "Cairo-Black.ttf"
   font "Cairo-Bold.ttf"
   font "Cairo-ExtraLight.ttf"

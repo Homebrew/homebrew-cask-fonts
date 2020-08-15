@@ -9,8 +9,6 @@ cask "font-jaldi" do
   name "Jaldi"
   homepage "https://fonts.google.com/specimen/Jaldi"
 
-  depends_on macos: ">= :sierra"
-
   font "Jaldi-Bold.ttf"
   font "Jaldi-Regular.ttf"
 end

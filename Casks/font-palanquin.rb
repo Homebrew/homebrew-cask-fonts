@@ -9,8 +9,6 @@ cask "font-palanquin" do
   name "Palanquin"
   homepage "https://fonts.google.com/specimen/Palanquin"
 
-  depends_on macos: ">= :sierra"
-
   font "Palanquin-Bold.ttf"
   font "Palanquin-ExtraLight.ttf"
   font "Palanquin-Light.ttf"

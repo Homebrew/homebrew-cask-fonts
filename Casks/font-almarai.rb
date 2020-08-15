@@ -9,8 +9,6 @@ cask "font-almarai" do
   name "Almarai"
   homepage "https://fonts.google.com/specimen/Almarai"
 
-  depends_on macos: ">= :sierra"
-
   font "Almarai-Bold.ttf"
   font "Almarai-ExtraBold.ttf"
   font "Almarai-Light.ttf"

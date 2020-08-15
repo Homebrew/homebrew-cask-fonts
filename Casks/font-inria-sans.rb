@@ -9,8 +9,6 @@ cask "font-inria-sans" do
   name "Inria Sans"
   homepage "https://fonts.google.com/specimen/Inria+Sans"
 
-  depends_on macos: ">= :sierra"
-
   font "InriaSans-Bold.ttf"
   font "InriaSans-BoldItalic.ttf"
   font "InriaSans-Italic.ttf"

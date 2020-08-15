@@ -9,8 +9,6 @@ cask "font-monda" do
   name "Monda"
   homepage "https://fonts.google.com/specimen/Monda"
 
-  depends_on macos: ">= :sierra"
-
   font "Monda-Bold.ttf"
   font "Monda-Regular.ttf"
 end

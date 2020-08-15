@@ -9,8 +9,6 @@ cask "font-exo-2" do
   name "Exo 2"
   homepage "https://fonts.google.com/specimen/Exo+2"
 
-  depends_on macos: ">= :sierra"
-
   font "Exo2-Italic[wght].ttf"
   font "Exo2[wght].ttf"
 end

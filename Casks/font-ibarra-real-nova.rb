@@ -9,8 +9,6 @@ cask "font-ibarra-real-nova" do
   name "Ibarra Real Nova"
   homepage "https://fonts.google.com/specimen/Ibarra+Real+Nova"
 
-  depends_on macos: ">= :sierra"
-
   font "IbarraRealNova-Bold.ttf"
   font "IbarraRealNova-BoldItalic.ttf"
   font "IbarraRealNova-Italic.ttf"

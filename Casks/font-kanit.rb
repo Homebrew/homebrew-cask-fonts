@@ -9,8 +9,6 @@ cask "font-kanit" do
   name "Kanit"
   homepage "https://fonts.google.com/specimen/Kanit"
 
-  depends_on macos: ">= :sierra"
-
   font "Kanit-Black.ttf"
   font "Kanit-BlackItalic.ttf"
   font "Kanit-Bold.ttf"

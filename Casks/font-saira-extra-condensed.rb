@@ -9,8 +9,6 @@ cask "font-saira-extra-condensed" do
   name "Saira Extra Condensed"
   homepage "https://fonts.google.com/specimen/Saira+Extra+Condensed"
 
-  depends_on macos: ">= :sierra"
-
   font "SairaExtraCondensed-Black.ttf"
   font "SairaExtraCondensed-Bold.ttf"
   font "SairaExtraCondensed-ExtraBold.ttf"

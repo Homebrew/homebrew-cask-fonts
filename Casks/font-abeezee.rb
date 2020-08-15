@@ -9,8 +9,6 @@ cask "font-abeezee" do
   name "ABeeZee"
   homepage "https://fonts.google.com/specimen/ABeeZee"
 
-  depends_on macos: ">= :sierra"
-
   font "ABeeZee-Italic.ttf"
   font "ABeeZee-Regular.ttf"
 end

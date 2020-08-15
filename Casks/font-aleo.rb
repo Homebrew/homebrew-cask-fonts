@@ -9,8 +9,6 @@ cask "font-aleo" do
   name "Aleo"
   homepage "https://fonts.google.com/specimen/Aleo"
 
-  depends_on macos: ">= :sierra"
-
   font "Aleo-Bold.ttf"
   font "Aleo-BoldItalic.ttf"
   font "Aleo-Italic.ttf"

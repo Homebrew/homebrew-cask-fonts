@@ -9,8 +9,6 @@ cask "font-gayathri" do
   name "Gayathri"
   homepage "https://fonts.google.com/specimen/Gayathri"
 
-  depends_on macos: ">= :sierra"
-
   font "Gayathri-Bold.ttf"
   font "Gayathri-Regular.ttf"
   font "Gayathri-Thin.ttf"

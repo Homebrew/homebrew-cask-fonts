@@ -48,11 +48,6 @@ class FontCask:
   name "{{font_name}}"
   homepage "{{homepage}}"
 
-{% if files|length > 1 %}
-{# https://github.com/Homebrew/homebrew-cask-fonts/issues/1694#issuecomment-392610841 #}
-  depends_on macos: ">= :sierra"
-
-{% endif %}
 {% for file in files %}
   font "{{file}}"
 {% endfor %}

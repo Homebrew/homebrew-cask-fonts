@@ -9,8 +9,6 @@ cask "font-oxanium" do
   name "Oxanium"
   homepage "https://fonts.google.com/specimen/Oxanium"
 
-  depends_on macos: ">= :sierra"
-
   font "Oxanium-Bold.ttf"
   font "Oxanium-ExtraBold.ttf"
   font "Oxanium-ExtraLight.ttf"

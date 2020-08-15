@@ -9,8 +9,6 @@ cask "font-josefin-slab" do
   name "Josefin Slab"
   homepage "https://fonts.google.com/specimen/Josefin+Slab"
 
-  depends_on macos: ">= :sierra"
-
   font "JosefinSlab-Bold.ttf"
   font "JosefinSlab-BoldItalic.ttf"
   font "JosefinSlab-Italic.ttf"
