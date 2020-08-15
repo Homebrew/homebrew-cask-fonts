@@ -11,6 +11,6 @@ cask "font-literata" do
 
   depends_on macos: ">= :sierra"
 
-  font "Literata-Italic[wght].ttf"
-  font "Literata[wght].ttf"
+  font "Literata-Italic[opsz,wght].ttf"
+  font "Literata[opsz,wght].ttf"
 end
