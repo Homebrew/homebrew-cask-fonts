@@ -7,7 +7,7 @@ cask "font-kufam" do
       using:      :svn,
       trust_cert: true
   name "Kufam"
-  desc "Inspired by 7th-century kufi inscriptions"
+  desc "Arabic-Latin bilingual typeface intended for contemporary information design"
   homepage "https://fonts.google.com/specimen/Kufam"
 
   font "Kufam-Italic[wght].ttf"
