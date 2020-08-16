@@ -7,6 +7,7 @@ cask "font-newsreader" do
       using:      :svn,
       trust_cert: true
   name "Newsreader"
+  desc "Original typeface primarily intended for continuous on-screen reading"
   homepage "https://fonts.google.com/specimen/Newsreader"
 
   font "Newsreader-Italic[opsz,wght].ttf"
