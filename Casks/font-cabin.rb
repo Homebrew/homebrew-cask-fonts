@@ -9,12 +9,6 @@ cask "font-cabin" do
   name "Cabin"
   homepage "https://fonts.google.com/specimen/Cabin"
 
-  font "Cabin-Bold.ttf"
-  font "Cabin-BoldItalic.ttf"
-  font "Cabin-Italic.ttf"
-  font "Cabin-Medium.ttf"
-  font "Cabin-MediumItalic.ttf"
-  font "Cabin-Regular.ttf"
-  font "Cabin-SemiBold.ttf"
-  font "Cabin-SemiBoldItalic.ttf"
+  font "Cabin-Italic[wdth,wght].ttf"
+  font "Cabin[wdth,wght].ttf"
 end

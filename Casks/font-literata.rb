@@ -9,6 +9,6 @@ cask "font-literata" do
   name "Literata"
   homepage "https://fonts.google.com/specimen/Literata"
 
-  font "Literata-Italic[wght].ttf"
-  font "Literata[wght].ttf"
+  font "Literata-Italic[opsz,wght].ttf"
+  font "Literata[opsz,wght].ttf"
 end

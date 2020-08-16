@@ -9,14 +9,6 @@ cask "font-rubik" do
   name "Rubik"
   homepage "https://fonts.google.com/specimen/Rubik"
 
-  font "Rubik-Black.ttf"
-  font "Rubik-BlackItalic.ttf"
-  font "Rubik-Bold.ttf"
-  font "Rubik-BoldItalic.ttf"
-  font "Rubik-Italic.ttf"
-  font "Rubik-Light.ttf"
-  font "Rubik-LightItalic.ttf"
-  font "Rubik-Medium.ttf"
-  font "Rubik-MediumItalic.ttf"
-  font "Rubik-Regular.ttf"
+  font "Rubik-Italic[wght].ttf"
+  font "Rubik[wght].ttf"
 end
