@@ -7,7 +7,7 @@ cask "font-signika-negative-sc" do
       using:      :svn,
       trust_cert: true
   name "Signika Negative SC"
-  desc "Sans-serif signage typeface with a gentle character"
+  desc "Alternative version of the Signika SC font"
   homepage "https://fonts.google.com/specimen/Signika+Negative+SC"
 
   font "SignikaNegativeSC-Bold.ttf"
