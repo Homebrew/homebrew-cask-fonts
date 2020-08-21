@@ -3,7 +3,7 @@ cask "font-roboto" do
   sha256 :no_check
 
   # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/trunk/ofl/roboto",
+  url "https://github.com/google/fonts/trunk/apache/roboto",
       using:      :svn,
       trust_cert: true
   name "Roboto"
