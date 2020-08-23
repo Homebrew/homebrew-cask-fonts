@@ -14,11 +14,14 @@ jobs:
     steps:
       - name: Checkout homebrew/cask-fonts
         uses: actions/checkout@v2
+        with:
+          persist-credentials: false
       - name: Checkout google/fonts
         uses: actions/checkout@v2
         with:
           repository: google/fonts
           path: vendor/google-fonts
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -37,6 +40,8 @@ jobs:
           branch: auto-update-google-fonts
           commit-message: Update Google Fonts
           base: master
+          author: BrewTestBot <BrewTestBot@users.noreply.github.com>
+          committer: BrewTestBot <BrewTestBot@users.noreply.github.com>
           title: Automatic update of Google Fonts
           body: |
             This pull request was created automatically by the [`google-fonts`](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/.github/workflows/google-fonts.yml) workflow.
