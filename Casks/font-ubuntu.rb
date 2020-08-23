@@ -7,7 +7,7 @@ cask "font-ubuntu" do
       using:      :svn,
       trust_cert: true
   name "Ubuntu"
-  desc "Manually hinted for clarity on desktop and mobile computing screens"
+  desc "Sans-serif typeface manually hinted for clarity"
   homepage "https://fonts.google.com/specimen/Ubuntu"
 
   font "Ubuntu-Bold.ttf"
