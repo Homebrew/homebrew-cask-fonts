@@ -6,7 +6,7 @@ cask "font-simple-line-icons" do
   url "https://github.com/thesabbir/simple-line-icons/archive/#{version}.zip"
   appcast "https://github.com/thesabbir/simple-line-icons/releases.atom"
   name "Simple Line Icons"
-  homepage "http://simplelineicons.com/"
+  homepage "https://simplelineicons.github.io/"
 
   font "simple-line-icons-#{version}/fonts/Simple-Line-Icons.ttf"
 end
