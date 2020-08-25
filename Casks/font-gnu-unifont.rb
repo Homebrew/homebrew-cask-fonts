@@ -5,7 +5,7 @@ cask "font-gnu-unifont" do
   # ftpmirror.gnu.org/unifont/ was verified as official when first introduced to the cask
   url "https://ftpmirror.gnu.org/unifont/unifont-#{version}/unifont-#{version}.tar.gz"
   name "GNU Unifont"
-  homepage "http://unifoundry.com/unifont.html"
+  homepage "https://unifoundry.com/unifont.html"
 
   font "unifont-#{version}/font/precompiled/unifont-#{version}.ttf"
   font "unifont-#{version}/font/precompiled/unifont_upper-#{version}.ttf"
