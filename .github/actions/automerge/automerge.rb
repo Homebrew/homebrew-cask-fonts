@@ -63,7 +63,7 @@ def merge_pull_request(pr_name, pr, repo:, number:, sha:, last_try:)
   end
 
   mergeable_state = pr.fetch("mergeable_state")
-  if !["clean", "unknown"].include?(mergeable_state)
+  if !["clean", "unstable", "unknown"].include?(mergeable_state)
     puts "Pull request #{pr_name} is not mergeable (#{mergeable_state})."
     return
   end
@@ -182,6 +182,9 @@ begin
     end
 
     merge_pull_requests(prs)
+  when "pull_request_review"
+    pr = event.fetch("pull_request")
+    merge_pull_requests([pr])
   else
     raise "Unsupported GitHub Actions event: #{ENV["GITHUB_EVENT_NAME"].inspect}"
   end
