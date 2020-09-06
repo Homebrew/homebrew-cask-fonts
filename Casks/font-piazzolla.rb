@@ -7,7 +7,7 @@ cask "font-piazzolla" do
       using:      :svn,
       trust_cert: true
   name "Piazzolla"
-  desc "Designed by huertatipografica, to contribute see https://github"
+  desc "Serif font family for media"
   homepage "https://fonts.google.com/specimen/Piazzolla"
 
   font "Piazzolla-Italic[opsz,wght].ttf"
