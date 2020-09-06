@@ -18,6 +18,9 @@ on:
       - CI
     types:
       - completed
+  pull_request_review:
+    types:
+      - submitted
   workflow_dispatch:
     inputs:
       pull_request:
@@ -26,7 +29,7 @@ on:
 
 jobs:
   automerge:
-    if: startsWith(github.repository, 'Homebrew/')
+    if: startsWith(github.repository, 'Homebrew/') && (github.event.review.state == 'approved' || !github.event.review)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
