@@ -1,4 +1,5 @@
 cask "font-437-plus" do
+  desc "The world's biggest collection of classic text mode fonts, system fonts and BIOS fonts from DOS-era IBM PCs and compatibles"
   version "2.0"
   sha256 "e2130bc9de9d2362275e4cb9cbd927bc0cc3dd10c14a2c5a661ae32cd5d585aa"
 
