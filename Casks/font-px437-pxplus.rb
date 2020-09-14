@@ -1,12 +1,14 @@
 cask "font-px437-pxplus" do
-  version "1.0"
-  sha256 "7666cf23176e34ea03a218b5c1500f4ad729d97150ab7bdb7cf2adf4c99a9a7a"
+  version "1.01"
+  sha256 "992f37be922610249ae4287dec8418bcfdbddc0b76502ec9df974270ced0f462"
 
-  url "https://int10h.org/oldschool-pc-fonts/download/ultimate_oldschool_pc_font_pack_v#{version}.zip"
+  url "https://int10h.org/oldschool-pc-fonts/download/oldschool_pc_font_pack_v#{version}.zip"
   name "Px437"
   name "PxPlus"
   name "Ultimate Oldschool PC Font Pack"
   homepage "https://int10h.org/oldschool-pc-fonts/"
+
+  conflicts_with cask: "font-437-plus"
 
   font "Px437 (TrueType - DOS charset)/Px437_AMI_BIOS-2y.ttf"
   font "Px437 (TrueType - DOS charset)/Px437_AMI_BIOS.ttf"
