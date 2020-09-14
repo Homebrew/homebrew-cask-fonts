@@ -1,5 +1,4 @@
 cask "font-437-plus" do
-  desc "The world's biggest collection of classic text mode fonts, system fonts and BIOS fonts from DOS-era IBM PCs and compatibles"
   version "2.0"
   sha256 "e2130bc9de9d2362275e4cb9cbd927bc0cc3dd10c14a2c5a661ae32cd5d585aa"
 
@@ -11,7 +10,10 @@ cask "font-437-plus" do
   name "Px437"
   name "PxPlus"
   name "Ultimate Oldschool PC Font Pack"
+  desc "Collection of classic text mode fonts from DOS-era IBM PCs and compatibles"
   homepage "https://int10h.org/oldschool-pc-fonts/"
+
+  conflicts_with cask: "font-px437-pxplus"
 
   font "ttf - Px (pixel outline)/PxPlus_AST_PremiumExec.ttf"
   font "ttf - Px (pixel outline)/Px437_IBM_Model30r0.ttf"
