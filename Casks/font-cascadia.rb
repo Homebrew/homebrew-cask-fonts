@@ -4,7 +4,7 @@ cask "font-cascadia" do
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   appcast "https://github.com/microsoft/cascadia-code/releases.atom"
-  name "Cascadia"
+  name "Cascadia Code"
   desc "Monospaced font that includes programming ligatures"
   homepage "https://github.com/microsoft/cascadia-code"
 
