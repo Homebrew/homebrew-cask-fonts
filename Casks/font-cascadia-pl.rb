@@ -4,8 +4,8 @@ cask "font-cascadia-pl" do
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   appcast "https://github.com/microsoft/cascadia-code/releases.atom"
-  name "Cascadia PL"
-  desc "Version of Cascadia with embedded Powerline symbols"
+  name "Cascadia Code PL"
+  desc "Version of Cascadia Code with embedded Powerline symbols"
   homepage "https://github.com/microsoft/cascadia-code"
 
   font "ttf/static/CascadiaCodePL-Bold.ttf"
