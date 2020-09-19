@@ -5,6 +5,7 @@ cask "font-cascadia-mono-pl" do
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   appcast "https://github.com/microsoft/cascadia-code/releases.atom"
   name "Cascadia Mono PL"
+  desc "A monospaced font by Microsoft. Version without ligatures and with embedded Powerline symbols."
   homepage "https://github.com/microsoft/cascadia-code"
 
   font "ttf/static/CascadiaMonoPL-Bold.ttf"

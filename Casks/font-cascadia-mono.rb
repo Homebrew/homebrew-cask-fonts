@@ -5,6 +5,7 @@ cask "font-cascadia-mono" do
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   appcast "https://github.com/microsoft/cascadia-code/releases.atom"
   name "Cascadia Mono"
+  desc "A monospaced font by Microsoft. Version without ligatures."
   homepage "https://github.com/microsoft/cascadia-code"
 
   font "ttf/static/CascadiaMono-Bold.ttf"
