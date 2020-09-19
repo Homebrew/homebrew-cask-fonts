@@ -1,4 +1,4 @@
-cask "font-cascadia-pl" do
+cask "font-cascadia-code-pl" do
   version "2009.14"
   sha256 "7a08523d2d68ef3c6efdd5336dd49aa2698dd348fa4734463a17719632bbc3c8"
 
