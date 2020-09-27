@@ -9,8 +9,6 @@ cask "font-cuprum" do
   name "Cuprum"
   homepage "https://fonts.google.com/specimen/Cuprum"
 
-  font "Cuprum-Bold.ttf"
-  font "Cuprum-BoldItalic.ttf"
-  font "Cuprum-Italic.ttf"
-  font "Cuprum-Regular.ttf"
+  font "Cuprum-Italic[wght].ttf"
+  font "Cuprum[wght].ttf"
 end
