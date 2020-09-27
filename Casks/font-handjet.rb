@@ -5,7 +5,7 @@ cask "font-handjet" do
   # github.com/google/fonts/ was verified as official when first introduced to the cask
   url "https://github.com/google/fonts/raw/master/ofl/handjet/Handjet%5BEGRD%2CESHP%2Cwght%5D.ttf"
   name "Handjet"
-  desc "Designed by david březina with the contribution of johannes neumeier, borna izadpanah, khajag apelian and meir sadan"
+  desc "Font tailored to work well with handjet printers"
   homepage "https://fonts.google.com/specimen/Handjet"
 
   font "Handjet[EGRD,ESHP,wght].ttf"
