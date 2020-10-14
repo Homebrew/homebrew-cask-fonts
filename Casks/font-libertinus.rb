@@ -1,6 +1,6 @@
 cask "font-libertinus" do
-  version "7.010"
-  sha256 "d7b9cd1a1e56d11721db2093a09e96972420e03a5662394f81a793ee6998c746"
+  version "7.020"
+  sha256 "87fced5821ffcad0c94a7086d5325e2c679c24e201c500406173b769df16b6d7"
 
   url "https://github.com/alerque/libertinus/releases/download/v#{version}/Libertinus-#{version}.tar.xz"
   appcast "https://github.com/alerque/libertinus/releases.atom"
