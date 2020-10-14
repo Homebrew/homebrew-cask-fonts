@@ -3,10 +3,10 @@ cask "font-libertinus" do
   sha256 "d7b9cd1a1e56d11721db2093a09e96972420e03a5662394f81a793ee6998c746"
 
   url "https://github.com/alerque/libertinus/releases/download/v#{version}/Libertinus-#{version}.tar.xz"
-  appcast "https://github.com/alif-type/libertinus/releases.atom"
+  appcast "https://github.com/alerque/libertinus/releases.atom"
   name "Libertinus"
   desc "Proportional serif typeface inspired by 19th century book type"
-  homepage "https://github.com/alif-type/libertinus"
+  homepage "https://github.com/alerque/libertinus"
 
   font "Libertinus-#{version}/static/OTF/LibertinusKeyboard-Regular.otf"
   font "Libertinus-#{version}/static/OTF/LibertinusMath-Regular.otf"
