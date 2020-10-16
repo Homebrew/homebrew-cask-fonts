@@ -7,8 +7,8 @@ cask "font-atkinson-hyperlegible" do
   desc "Atkinson Hyperlegible font focuses on letterform distinction to increase character recognition, ultimately improving readability."
   homepage "https://www.brailleinstitute.org/freefont"
 
-  font "Print Fonts/Atkinson-Hyperlegible-Bold-102.otf"
-  font "Print Fonts/Atkinson-Hyperlegible-BoldItalic-102.otf"
-  font "Print Fonts/Atkinson-Hyperlegible-Italic-102.otf"
-  font "Atkinson-Hyperlegible-Regular-102.otf"
+  font "Print\ Fonts/Atkinson-Hyperlegible-Bold-102.otf"
+  font "Print\ Fonts/Atkinson-Hyperlegible-BoldItalic-102.otf"
+  font "Print\ Fonts/Atkinson-Hyperlegible-Italic-102.otf"
+  font "Print\ Fonts/Atkinson-Hyperlegible-Regular-102.otf"
 end
