@@ -6,6 +6,7 @@ cask "font-jetbrains-mono" do
   url "https://github.com/JetBrains/JetBrainsMono/releases/download/v#{version}/JetBrainsMono-#{version}.zip"
   appcast "https://github.com/JetBrains/JetBrainsMono/releases.atom"
   name "JetBrains Mono"
+  desc "Typeface made for developers"
   homepage "https://www.jetbrains.com/lp/mono"
 
   font "fonts/ttf/JetBrainsMono-Bold.ttf"
