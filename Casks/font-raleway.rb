@@ -1,14 +1,31 @@
 cask "font-raleway" do
-  version :latest
-  sha256 :no_check
+  version "4.101"
+  sha256 "523070d32418b4223e79f4629bf28b935723906d156d2e6af016e6a34fe6d3eb"
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/trunk/ofl/raleway",
-      using:      :svn,
-      trust_cert: true
+  # github.com/theleagueof/raleway/ was verified as official when first introduced to the cask
+  url "https://github.com/theleagueof/raleway/releases/download/#{version}/Raleway-#{version}.tar.xz"
+  appcast "https://github.com/theleagueof/raleway/releases.atom"
   name "Raleway"
-  homepage "https://fonts.google.com/specimen/Raleway"
+  homepage "https://www.theleagueofmoveabletype.com/raleway"
 
-  font "Raleway-Italic[wght].ttf"
-  font "Raleway[wght].ttf"
+  font "Raleway-#{version}/static/OTF/Raleway-Thin.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-ExtraLight.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-Light.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-Medium.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-Regular.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-SemiBold.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-Bold.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-ExtraBold.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-Black.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-ThinItalic.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-ExtraLightItalic.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-LightItalic.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-Italic.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-MediumItalic.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-SemiBoldItalic.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-BoldItalic.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-ExtraBoldItalic.otf"
+  font "Raleway-#{version}/static/OTF/Raleway-BlackItalic.otf"
+  font "Raleway-#{version}/variable/TTF/Raleway-VF.ttf"
+  font "Raleway-#{version}/variable/TTF/Raleway-Italic-VF.ttf"
 end
