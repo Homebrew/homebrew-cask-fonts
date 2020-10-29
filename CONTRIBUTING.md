@@ -1,10 +1,6 @@
 # How To Contribute
 
-So you want to contribute to the project. **THIS IS GREAT NEWS!** Seriously. We’re all pretty happy about this.
-
-## Getting Started
-
-See [CONTRIBUTING.md](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) in the main Homebrew Cask repo for general info on how to get set up.
+[Instructions from the main repository](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) apply. Exceptions are documented on the [README](README.md) and this document.
 
 ## Adding a Font Cask
 
