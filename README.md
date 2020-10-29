@@ -5,13 +5,13 @@ Here is where you can find or submit font Casks for the [Homebrew Cask](https://
 ## Let’s try it!
 
 ```bash
-$ brew tap homebrew/cask-fonts                  # you only have to do this once!
+$ brew tap homebrew/cask-fonts         # You only need to do this once!
 $ brew cask install font-inconsolata
 ```
 
 ## Submitting a Font Cask
 
-Want to contribute a Font Cask? Awesome! Please do! See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Font Licenses
 
