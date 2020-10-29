@@ -9,7 +9,7 @@ $ brew tap homebrew/cask-fonts         # You only need to do this once!
 $ brew cask install font-inconsolata
 ```
 
-## Submitting a Font Cask
+## Submitting a Cask to this repository
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
