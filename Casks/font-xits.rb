@@ -5,6 +5,7 @@ cask "font-xits" do
   url "https://github.com/khaledhosny/xits/archive/v#{version}.zip"
   appcast "https://github.com/khaledhosny/xits/releases.atom"
   name "XITS"
+  desc "Times-like typeface for mathematical and scientific publishing, based on STIX fonts"
   homepage "https://github.com/khaledhosny/xits"
 
   font "xits-#{version}/xits-bold.otf"
@@ -13,4 +14,8 @@ cask "font-xits" do
   font "xits-#{version}/xits-regular.otf"
   font "xits-#{version}/xitsmath-bold.otf"
   font "xits-#{version}/xitsmath-regular.otf"
+
+  caveats do
+    discontinued
+  end
 end
