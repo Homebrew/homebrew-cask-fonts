@@ -5,7 +5,7 @@ cask "font-source-sans-pro" do
   url "https://github.com/adobe-fonts/source-sans-pro/releases/download/#{version}/source-sans-#{version.sub(/\./, "v")}.zip"
   appcast "https://github.com/adobe-fonts/source-sans-pro/releases.atom"
   name "Source Sans Pro"
-  desc "Source Sans Pro is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+  desc "Fonts designed for user interfaces."
   homepage "https://github.com/adobe-fonts/source-sans-pro"
 
   font "source-sans-#{version.sub(/\./, "v")}/OTF/SourceSans3-Black.otf"
