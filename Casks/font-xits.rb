@@ -5,7 +5,7 @@ cask "font-xits" do
   url "https://github.com/khaledhosny/xits/archive/v#{version}.zip"
   appcast "https://github.com/khaledhosny/xits/releases.atom"
   name "XITS"
-  desc "Times-like typeface for mathematical and scientific publishing, based on STIX fonts"
+  desc "Times-like typeface for mathematical and scientific publishing"
   homepage "https://github.com/khaledhosny/xits"
 
   font "xits-#{version}/xits-bold.otf"
