@@ -6,6 +6,7 @@ cask "font-stix" do
   url "https://github.com/stipub/stixfonts/archive/v#{version}.tar.gz"
   appcast "https://github.com/stipub/stixfonts/releases.atom"
   name "STIX"
+  desc "Unicode fonts for scientific, technical, and mathematical texts"
   homepage "https://stixfonts.org/"
 
   font "stixfonts-#{version}/OTF/STIX2Math.otf"
