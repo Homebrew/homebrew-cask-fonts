@@ -1,0 +1,12 @@
+cask "font-makinas" do
+  version :latest
+  sha256 :no_check
+
+  url "https://moji-waku.com/download/makinas4.zip"
+  name "Makinas"
+  desc "Emotionless straight-line-shape font"
+  homepage "https://moji-waku.com/makinas/index.html"
+
+  font "makinas4/Makinas-4-Flat.otf"
+  font "makinas4/Makinas-4-Square.otf"
+end
