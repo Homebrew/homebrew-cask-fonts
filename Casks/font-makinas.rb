@@ -1,9 +1,10 @@
-cask "font-makinas" do
+cask "font-makinas4" do
+  # NOTE: "4" is not a version number, but an intrinsic part of the product name
   version :latest
   sha256 :no_check
 
   url "https://moji-waku.com/download/makinas4.zip"
-  name "Makinas"
+  name "Makinas 4"
   desc "Emotionless straight-line-shape font"
   homepage "https://moji-waku.com/makinas/index.html"
 
