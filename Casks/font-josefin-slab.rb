@@ -9,14 +9,6 @@ cask "font-josefin-slab" do
   name "Josefin Slab"
   homepage "https://fonts.google.com/specimen/Josefin+Slab"
 
-  font "JosefinSlab-Bold.ttf"
-  font "JosefinSlab-BoldItalic.ttf"
-  font "JosefinSlab-Italic.ttf"
-  font "JosefinSlab-Light.ttf"
-  font "JosefinSlab-LightItalic.ttf"
-  font "JosefinSlab-Regular.ttf"
-  font "JosefinSlab-SemiBold.ttf"
-  font "JosefinSlab-SemiBoldItalic.ttf"
-  font "JosefinSlab-Thin.ttf"
-  font "JosefinSlab-ThinItalic.ttf"
+  font "JosefinSlab-Italic[wght].ttf"
+  font "JosefinSlab[wght].ttf"
 end

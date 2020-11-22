@@ -9,8 +9,6 @@ cask "font-arimo" do
   name "Arimo"
   homepage "https://fonts.google.com/specimen/Arimo"
 
-  font "Arimo-Bold.ttf"
-  font "Arimo-BoldItalic.ttf"
-  font "Arimo-Italic.ttf"
-  font "Arimo-Regular.ttf"
+  font "Arimo-Italic[wght].ttf"
+  font "Arimo[wght].ttf"
 end
