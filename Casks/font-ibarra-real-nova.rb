@@ -9,10 +9,6 @@ cask "font-ibarra-real-nova" do
   name "Ibarra Real Nova"
   homepage "https://fonts.google.com/specimen/Ibarra+Real+Nova"
 
-  font "IbarraRealNova-Bold.ttf"
-  font "IbarraRealNova-BoldItalic.ttf"
-  font "IbarraRealNova-Italic.ttf"
-  font "IbarraRealNova-Regular.ttf"
-  font "IbarraRealNova-SemiBold.ttf"
-  font "IbarraRealNova-SemiBoldItalic.ttf"
+  font "IbarraRealNova-Italic[wght].ttf"
+  font "IbarraRealNova[wght].ttf"
 end
