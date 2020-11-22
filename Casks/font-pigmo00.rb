@@ -3,7 +3,7 @@ cask "font-pigmo00" do
   sha256 :no_check
 
   url "https://moji-waku.com/download/pigmo00.zip"
-  name "Pigmo00"
+  name "Pigmo 00"
   desc "Cute drawing styled Japanese font"
   homepage "https://moji-waku.com/pigmo/index.html"
 
