@@ -1,6 +1,6 @@
 cask "font-tt2020" do
-  version "0.2"
-  sha256 "7f3d04477db50553e65b37800b5c72201c852f28c1aa2caccb5baf1f79854ac3"
+  version "0.2.1"
+  sha256 "050fa5c979557229242db4fad007e18941e8d64aab1d2ae96c9e99c44773fa5d"
 
   url "https://github.com/ctrlcctrlv/TT2020/archive/v#{version}.zip"
   appcast "https://github.com/ctrlcctrlv/TT2020/releases.atom"
