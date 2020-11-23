@@ -8,5 +8,5 @@ cask "font-commissioner" do
   desc "Low-contrast humanist sans-serif font with almost classical proportions"
   homepage "https://github.com/kosbarts/Commissioner"
 
-  font "Commissioner[slnt,wght].ttf"
+  font "Kostas_Bartsokas_Commissioner_1.000/fonts/variable/Commissioner_VF_1.001.ttf"
 end
