@@ -7,7 +7,7 @@ cask "font-andika-new-basic" do
       using:      :svn,
       trust_cert: true
   name "Andika New Basic"
-  desc "Limited-character-set (no extended ipa or cyrillic) version of andika that includes regular, bold, italic and bold-italic faces"
+  desc "Limited-character-set version of andika"
   homepage "https://fonts.google.com/specimen/Andika+New+Basic"
 
   font "AndikaNewBasic-Bold.ttf"
