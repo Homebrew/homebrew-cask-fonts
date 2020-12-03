@@ -55,7 +55,7 @@ For OTF and TTF fonts, the easiest way to create a cask is to run the `font_cask
 
 `font_casker` produces a preformatted cask including the values of `version`, `sha256`, and all `font` stanzas, and writes it to stdout.
 
-Note that `font_casker` depends on `otfinfo`, a command-line utility from the lcdf-typetools suite of typographical software. You can obtain it as part of a TeX distribution with `brew cask install mactex`, or from upstream with `brew install lcdf-typetools`.
+Note that `font_casker` depends on `otfinfo`, a command-line utility from the lcdf-typetools suite of typographical software. You can obtain it as part of a TeX distribution with `brew install --cask mactex`, or from upstream with `brew install lcdf-typetools`.
 
 ## Naming Font Casks
 
