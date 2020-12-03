@@ -15,6 +15,6 @@ cask "font-source-han-serif-sb-h" do
     #{token} only installs the SemiBold, Bold, and Heavy weights.
     To install ExtraLight, Light, Regular, and Medium:
 
-      brew cask install font-source-han-serif-el-m
+      brew install font-source-han-serif-el-m
   EOS
 end
