@@ -6,7 +6,7 @@ Here is where you can find or submit font Casks for the [Homebrew Cask](https://
 
 ```bash
 $ brew tap homebrew/cask-fonts         # You only need to do this once!
-$ brew cask install font-inconsolata
+$ brew install font-inconsolata
 ```
 
 ## Submitting a Cask to this repository
