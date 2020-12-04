@@ -1,8 +1,8 @@
 cask "font-anonymous-pro" do
-  version "1.003"
-  sha256 "e7dfa911f75a422d030f82809f821cd3ba6bc570d270d982ecb109c720b32626"
+  version "1.002"
+  sha256 "6d165fd08fe2827f38656c26f644eb1f5d6a0f1cb067cb758c7f295a333eb112"
 
-  url "https://www.marksimonson.com/assets/content/fonts/AnonymousProMinus-#{version.dots_to_underscores}.zip"
+  url "https://www.marksimonson.com/assets/content/fonts/AnonymousPro-#{version.dots_to_underscores}.zip"
   name "Anonymous Pro"
   homepage "https://www.marksimonson.com/fonts/view/anonymous-pro"
 
