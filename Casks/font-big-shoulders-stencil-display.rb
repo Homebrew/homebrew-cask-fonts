@@ -2,10 +2,10 @@ cask "font-big-shoulders-stencil-display" do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
   url "https://github.com/google/fonts/trunk/ofl/bigshouldersstencildisplay",
       using:      :svn,
-      trust_cert: true
+      trust_cert: true,
+      verified:   "github.com/google/fonts/"
   name "Big Shoulders Stencil Display"
   desc "Superfamily of condensed American Gothic typefaces"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display"
