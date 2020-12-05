@@ -7,6 +7,7 @@ cask "font-big-shoulders-inline-text" do
       using:      :svn,
       trust_cert: true
   name "Big Shoulders Inline Text"
+  desc "Superfamily of condensed American Gothic typefaces"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Inline+Text"
 
   font "BigShouldersInlineText-Black.ttf"
