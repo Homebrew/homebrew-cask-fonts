@@ -1,6 +1,6 @@
 cask "font-iosevka-sparkle" do
-  version "4.0.0"
-  sha256 "719c3639929ab6f9be14fd1d6bb4cf3aaff5535f69279de8e42c521fff6b7c8e"
+  version "4.0.1"
+  sha256 "b52f7079c9cee0cdd1b33573dae7e3caee52b3392610cf98a599ce1d83a3474b"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-sparkle-#{version}.zip"
   appcast "https://github.com/be5invis/Iosevka/releases.atom"
