@@ -16,8 +16,6 @@ cask "font-tt2020" do
   font "TT2020-#{version}/dist/TT2020StyleD-Regular.ttf"
   font "TT2020-#{version}/dist/TT2020StyleE-Italic.ttf"
   font "TT2020-#{version}/dist/TT2020StyleE-Regular.ttf"
-  font "TT2020-#{version}/dist/TT2020StyleF-Regular-ASCII.ttf"
   font "TT2020-#{version}/dist/TT2020StyleF-Regular.ttf"
-  font "TT2020-#{version}/dist/TT2020StyleG-Regular-ASCII.ttf"
   font "TT2020-#{version}/dist/TT2020StyleG-Regular.ttf"
 end
