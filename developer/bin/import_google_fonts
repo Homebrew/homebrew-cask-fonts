@@ -37,14 +37,14 @@ class FontCask:
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
 {% if files|length == 1 %}
-  url "https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}"
+  url "https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}",
 {% else %}
   url "https://github.com/google/fonts/trunk/{{folder}}",
       using:      :svn,
-      trust_cert: true
+      trust_cert: true,
 {% endif %}
+      verified: "github.com/google/fonts/"
   name "{{font_name}}"
 {% if desc %}
   desc "{{desc}}"
