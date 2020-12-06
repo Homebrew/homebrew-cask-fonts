@@ -5,6 +5,11 @@ cask "font-sarasa-gothic" do
   url "https://github.com/be5invis/Sarasa-Gothic/releases/download/v#{version}/sarasa-gothic-ttc-#{version}.7z"
   appcast "https://github.com/be5invis/Sarasa-Gothic/releases.atom"
   name "Sarasa Gothic"
+  name "更纱黑体"
+  name "更紗黑體"
+  name "更紗ゴシック"
+  name "사라사고딕"
+  desc "CJK programming font based on Iosevka and Source Han Sans"
   homepage "https://github.com/be5invis/Sarasa-Gothic"
 
   font "sarasa-bold.ttc"
