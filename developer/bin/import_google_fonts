@@ -39,13 +39,12 @@ class FontCask:
 
 {% if files|length == 1 %}
   url "https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}",
-      verified: "github.com/google/fonts/"
 {% else %}
   url "https://github.com/google/fonts/trunk/{{folder}}",
-      verified:   "github.com/google/fonts/",
       using:      :svn,
-      trust_cert: true
+      trust_cert: true,
 {% endif %}
+      verified: "github.com/google/fonts/"
   name "{{font_name}}"
 {% if desc %}
   desc "{{desc}}"
