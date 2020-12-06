@@ -9,13 +9,6 @@ cask "font-saira" do
   name "Saira"
   homepage "https://fonts.google.com/specimen/Saira"
 
-  font "Saira-Black.ttf"
-  font "Saira-Bold.ttf"
-  font "Saira-ExtraBold.ttf"
-  font "Saira-ExtraLight.ttf"
-  font "Saira-Light.ttf"
-  font "Saira-Medium.ttf"
-  font "Saira-Regular.ttf"
-  font "Saira-SemiBold.ttf"
-  font "Saira-Thin.ttf"
+  font "Saira-Italic[wdth,wght].ttf"
+  font "Saira[wdth,wght].ttf"
 end
