@@ -5,6 +5,11 @@ cask "font-glow-sans-j-compressed" do
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansJ-Compressed-v#{version}.zip"
   appcast "https://github.com/welai/glow-sans/releases.atom"
   name "Glow Sans J Compressed"
+  name "Wêlai Glow Sans"
+  name "未来荧黑"
+  name "未來熒黑"
+  name "ヒカリ角ゴ"
+  desc "CJK typeface based on Source Han Sans, Fira Sans and Raleway"
   homepage "https://github.com/welai/glow-sans"
 
   font "GlowSansJ-Compressed-Bold.otf"
