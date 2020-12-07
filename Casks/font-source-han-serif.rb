@@ -5,6 +5,10 @@ cask "font-source-han-serif" do
   url "https://github.com/adobe-fonts/source-han-serif/releases/download/1.001R/SourceHanSerif.ttc"
   appcast "https://github.com/adobe-fonts/source-han-serif/releases.atom"
   name "Source Han Serif"
+  name "思源宋體"
+  name "源ノ明朝"
+  name "본명조"
+  desc "OpenType/CFF Pan-CJK fonts"
   homepage "https://github.com/adobe-fonts/source-han-serif"
 
   font "SourceHanSerif.ttc"
