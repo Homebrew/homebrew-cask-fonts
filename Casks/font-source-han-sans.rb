@@ -4,6 +4,11 @@ cask "font-source-han-sans" do
 
   url "https://github.com/adobe-fonts/source-han-sans/raw/#{version}R/SuperOTC/SourceHanSans.ttc.zip"
   name "Source Han Sans"
+  name "思源黑体"
+  name "思源黑體"
+  name "源ノ角ゴシック"
+  name "본고딕"
+  desc "OpenType/CFF Pan-CJK fonts"
   homepage "https://github.com/adobe-fonts/source-han-sans"
 
   font "SourceHanSans.ttc"
