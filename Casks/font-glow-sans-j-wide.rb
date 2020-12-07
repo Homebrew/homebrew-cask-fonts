@@ -4,7 +4,11 @@ cask "font-glow-sans-j-wide" do
 
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansJ-Wide-v#{version}.zip"
   appcast "https://github.com/welai/glow-sans/releases.atom"
-  name "Glow Sans J Wide"
+  name "Wêlai Glow Sans J Wide"
+  name "未来荧黑"
+  name "未來熒黑"
+  name "ヒカリ角ゴ"
+  desc "CJK typeface based on Source Han Sans, Fira Sans and Raleway"
   homepage "https://github.com/welai/glow-sans"
 
   font "GlowSansJ-Wide-Bold.otf"
