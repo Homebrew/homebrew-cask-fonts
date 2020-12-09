@@ -2,8 +2,8 @@ cask "font-b612" do
   version :latest
   sha256 :no_check
 
-  # github.com/polarsys/b612/ was verified as official when first introduced to the cask
-  url "https://github.com/polarsys/b612/archive/master.zip"
+  url "https://github.com/polarsys/b612/archive/master.zip",
+      verified: "github.com/polarsys/b612/"
   name "B612"
   homepage "https://b612-font.com/"
 
