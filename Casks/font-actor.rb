@@ -3,7 +3,7 @@ cask "font-actor" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/raw/master/ofl/actor/Actor-Regular.ttf",
-    verified: "github.com/google/fonts/"
+      verified: "github.com/google/fonts/"
   name "Actor"
   homepage "https://fonts.google.com/specimen/Actor"
 
