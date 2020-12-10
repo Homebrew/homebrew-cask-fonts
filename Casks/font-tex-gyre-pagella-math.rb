@@ -6,5 +6,5 @@ cask "font-tex-gyre-pagella-math" do
   name "Pagella Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
 
-  font "texgyrepagella-math-1632/opentype/texgyrepagella-math.otf"
+  font "texgyrepagella-math-#{version.no_dots}/opentype/texgyrepagella-math.otf"
 end
