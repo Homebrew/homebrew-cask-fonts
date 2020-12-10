@@ -5,7 +5,7 @@ cask "font-titillium" do
   url "https://src.fedoraproject.org/repo/extras/campivisivi-titillium-fonts/Titillium_roman_upright_italic_#{version.before_comma.dots_to_underscores}_OT.zip/#{version.after_comma}/Titillium_roman_upright_italic_#{version.before_comma.dots_to_underscores}_OT.zip",
       verified: "src.fedoraproject.org/"
   name "Titillium"
-  homepage "http://nta.accademiadiurbino.it/titillium.html"
+  homepage "http://nta.accademiadiurbino.it/titillium/"
 
   font "Titillium_roman_upright_italic_#{version.before_comma.dots_to_underscores}_OT/Titillium-Black.otf"
   font "Titillium_roman_upright_italic_#{version.before_comma.dots_to_underscores}_OT/Titillium-Bold.otf"
