@@ -1,6 +1,6 @@
 cask "font-fandol" do
   version "0.3"
-  sha256 "9278f01b417ded5766d98c3937192a1a6a2c73a5e94a3493fdfc932b2a55005a"
+  sha256 :no_check
 
   url "http://mirrors.ctan.org/fonts/fandol.zip"
   name "Fandol"

@@ -1,6 +1,6 @@
 cask "font-source-han-serif-el-m" do
   version "1.001R"
-  sha256 "3d23f70a6d134fd4206a920c4d54376f2b68393beabf60af1d56a451d03eae26"
+  sha256 :no_check
 
   url "https://github.com/adobe-fonts/source-han-serif/raw/release/OTC/SourceHanSerifOTC_EL-M.zip"
   appcast "https://github.com/adobe-fonts/source-han-serif/releases.atom"

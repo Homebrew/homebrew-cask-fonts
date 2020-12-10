@@ -1,6 +1,6 @@
 cask "font-courier-new" do
   version "2.82"
-  sha256 "bb511d861655dde879ae552eb86b134d6fae67cb58502e6ff73ec5d9151f3384"
+  sha256 :no_check
 
   url "https://downloads.sourceforge.net/corefonts/courie32.exe"
   appcast "https://sourceforge.net/projects/corefonts/rss"

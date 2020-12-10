@@ -1,6 +1,6 @@
 cask "font-foundry-sterling" do
   version "001.005"
-  sha256 "53ad432d4ce9c4a0f880351a91ee68fb37ee51c8c21ca4f2f172b62fbc862b6f"
+  sha256 :no_check
 
   url "https://fontlot.com/wp-content/uploads/2017/09/foundrysterling.zip"
   name "Foundry Sterling"
