@@ -1,6 +1,6 @@
 cask "font-bitter" do
-  version "48"
-  sha256 "64da7417f87835e166879af74ddb733d67d8a834cc3fe96ac303e97e5f6b86ea"
+  version :latest
+  sha256 :no_check
 
   url "https://www.huertatipografica.com/free_download/48"
   name "Bitter ht"
