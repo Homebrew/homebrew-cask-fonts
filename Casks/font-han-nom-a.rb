@@ -1,6 +1,6 @@
 cask "font-han-nom-a" do
   version "2005"
-  sha256 "428a31ff62e26dc33080789f8d49c39ac529dbfdbcfd50825f78cbd0903a3936"
+  sha256 :no_check
 
   url "https://downloads.sourceforge.net/vietunicode/hannomH.zip"
   appcast "https://sourceforge.net/projects/vietunicode/rss"

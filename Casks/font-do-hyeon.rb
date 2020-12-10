@@ -2,8 +2,8 @@ cask "font-do-hyeon" do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/raw/master/ofl/dohyeon/DoHyeon-Regular.ttf"
+  url "https://github.com/google/fonts/raw/master/ofl/dohyeon/DoHyeon-Regular.ttf",
+      verified: "github.com/google/fonts/"
   name "Do Hyeon"
   homepage "https://fonts.google.com/specimen/Do+Hyeon"
 

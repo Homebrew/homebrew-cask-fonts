@@ -2,8 +2,8 @@ cask "font-et-book" do
   version :latest
   sha256 :no_check
 
-  # github.com/edwardtufte/et-book/ was verified as official when first introduced to the cask
-  url "https://github.com/edwardtufte/et-book/archive/gh-pages.zip"
+  url "https://github.com/edwardtufte/et-book/archive/gh-pages.zip",
+      verified: "github.com/edwardtufte/et-book/"
   name "ET Book"
   name "Edward Tufte Book"
   homepage "https://edwardtufte.github.io/et-book/"

@@ -2,8 +2,8 @@ cask "font-chelsea-market" do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/raw/master/ofl/chelseamarket/ChelseaMarket-Regular.ttf"
+  url "https://github.com/google/fonts/raw/master/ofl/chelseamarket/ChelseaMarket-Regular.ttf",
+      verified: "github.com/google/fonts/"
   name "Chelsea Market"
   homepage "https://fonts.google.com/specimen/Chelsea+Market"
 

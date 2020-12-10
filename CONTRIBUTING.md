@@ -6,36 +6,37 @@
 
 Making a Font Cask is easy: a Cask is a small Ruby file.
 
-Here’s a Cask for the font [Inconsolata](https://levien.com/type/myfonts/inconsolata.html) as an example:
+Here’s a Cask for the font [Ionicons](https://github.com/ionic-team/ionicons) as an example:
 ```ruby
-cask 'font-inconsolata' do
-  version :latest
-  sha256 :no_check
+cask "font-ionicons" do
+  version "2.0.1"
+  sha256 "b222fcaede908b71d5b206db9fb7b625a07d313be00ee908eabd267604868661"
 
-  url 'https://levien.com/type/myfonts/Inconsolata.otf'
-  name 'Inconsolata'
-  homepage 'https://levien.com/type/myfonts/inconsolata.html'
+  url "https://github.com/ionic-team/ionicons/archive/v#{version}.zip"
+  appcast "https://github.com/ionic-team/ionicons/releases.atom"
+  name "Ionicons"
+  homepage "https://github.com/ionic-team/ionicons"
 
-  font 'Inconsolata.otf'
+  font "ionicons-#{version}/fonts/ionicons.ttf"
 end
 ```
 
 Here’s a more complex Cask for the font [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans). Note that you may repeat the `font` stanza as many times as you need to, if multiple files must be installed from the same package:
 
 ```ruby
-cask 'font-fantasque-sans-mono' do
-  version '1.7.1'
-  sha256 '6bb3b24413b78eed19ffa9bd233ae555982e3b185bd303e57dd1e05bebf17352'
+cask "font-fantasque-sans-mono" do
+  version "1.8.0"
+  sha256 "84be689e231ff773ed9d352e83dccd8151d9e445f1cb0b88cb0e9330fc4d9cfc"
 
-  url "https://github.com/belluzj/fantasque-sans/releases/download/v#{version}/FantasqueSansMono.zip"
-  appcast 'https://github.com/belluzj/fantasque-sans/releases.atom'
-  name 'Fantasque Sans Mono'
-  homepage 'https://github.com/belluzj/fantasque-sans'
+  url "https://github.com/belluzj/fantasque-sans/releases/download/v#{version}/FantasqueSansMono-Normal.zip"
+  appcast "https://github.com/belluzj/fantasque-sans/releases.atom"
+  name "Fantasque Sans Mono"
+  homepage "https://github.com/belluzj/fantasque-sans"
 
-  font 'OTF/FantasqueSansMono-Bold.otf'
-  font 'OTF/FantasqueSansMono-BoldItalic.otf'
-  font 'OTF/FantasqueSansMono-Italic.otf'
-  font 'OTF/FantasqueSansMono-Regular.otf'
+  font "OTF/FantasqueSansMono-Bold.otf"
+  font "OTF/FantasqueSansMono-BoldItalic.otf"
+  font "OTF/FantasqueSansMono-Italic.otf"
+  font "OTF/FantasqueSansMono-Regular.otf"
 end
 ```
 
@@ -55,7 +56,7 @@ For OTF and TTF fonts, the easiest way to create a cask is to run the `font_cask
 
 `font_casker` produces a preformatted cask including the values of `version`, `sha256`, and all `font` stanzas, and writes it to stdout.
 
-Note that `font_casker` depends on `otfinfo`, a command-line utility from the lcdf-typetools suite of typographical software. You can obtain it as part of a TeX distribution with `brew cask install mactex`, or from upstream with `brew install lcdf-typetools`.
+Note that `font_casker` depends on `otfinfo`, a command-line utility from the lcdf-typetools suite of typographical software. You can obtain it as part of a TeX distribution with `brew install --cask mactex`, or from upstream with `brew install lcdf-typetools`.
 
 ## Naming Font Casks
 

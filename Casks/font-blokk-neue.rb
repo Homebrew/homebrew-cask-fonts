@@ -2,9 +2,9 @@ cask "font-blokk-neue" do
   version :latest
   sha256 :no_check
 
-  url "http://www.blokkfont.com/cdn/v2/BLOKKNeue-Regular.zip"
+  url "https://github.com/los-gordos/BLOKK/blob/master/BLOKKNeue-Regular.otf"
   name "BLOKK Neue"
-  homepage "http://blokkfont.com/"
+  homepage "https://github.com/los-gordos/BLOKK"
 
-  font "BLOKKNeue-Regular/BLOKKNeue-Regular.otf"
+  font "BLOKKNeue-Regular.otf"
 end

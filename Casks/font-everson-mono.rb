@@ -1,6 +1,6 @@
 cask "font-everson-mono" do
   version "7.0.0"
-  sha256 "a7196feb79faa1933ecbfc34579586d87addc208b7f6ac9dd93b92d64b0d81f5"
+  sha256 :no_check
 
   url "https://www.evertype.com/emono/evermono.zip"
   name "Everson Mono"

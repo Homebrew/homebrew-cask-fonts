@@ -1,6 +1,6 @@
 cask "font-source-han-serif-sb-h" do
   version "1.001R"
-  sha256 "e7c7c0c02e43f7cc6b1dd54e5e3a313b434123a796c8b64459f95174a6021645"
+  sha256 :no_check
 
   url "https://github.com/adobe-fonts/source-han-serif/raw/release/OTC/SourceHanSerifOTC_SB-H.zip"
   appcast "https://github.com/adobe-fonts/source-han-serif/releases.atom"
@@ -15,6 +15,6 @@ cask "font-source-han-serif-sb-h" do
     #{token} only installs the SemiBold, Bold, and Heavy weights.
     To install ExtraLight, Light, Regular, and Medium:
 
-      brew cask install font-source-han-serif-el-m
+      brew install font-source-han-serif-el-m
   EOS
 end
