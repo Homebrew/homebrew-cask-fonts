@@ -2,8 +2,8 @@ cask "font-rounded-mplus" do
   version "20150529"
   sha256 "e746736c8ded99fe9a9dd72a241ec59435eaa282a18e7ac33a26dc0578c06ff7"
 
-  # osdn.dl.osdn.jp/users/8/8569/ was verified as official when first introduced to the cask
-  url "https://osdn.dl.osdn.jp/users/8/8569/rounded-mplus-#{version}.7z"
+  url "https://osdn.dl.osdn.jp/users/8/8569/rounded-mplus-#{version}.7z",
+      verified: "osdn.dl.osdn.jp/users/8/8569/"
   name "Rounded M+"
   homepage "http://jikasei.me/font/rounded-mplus/"
 
