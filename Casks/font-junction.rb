@@ -2,8 +2,8 @@ cask "font-junction" do
   version :latest
   sha256 :no_check
 
-  # github.com/theleagueof/junction/ was verified as official when first introduced to the cask
-  url "https://github.com/theleagueof/junction/archive/master.zip"
+  url "https://github.com/theleagueof/junction/archive/master.zip",
+      verified: "github.com/theleagueof/junction/"
   name "Junction"
   homepage "https://www.theleagueofmoveabletype.com/junction"
 
