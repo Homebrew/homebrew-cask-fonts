@@ -7,7 +7,7 @@ cask "font-bitter" do
       using:      :svn,
       trust_cert: true
   name "Bitter"
-  desc "Balanced and manually spaced to use very few kerning pairs, especially important for web font use since most browsers do not currently support this feature"
+  desc "Slab-serif typeface optimized for e-ink screens"
   homepage "https://fonts.google.com/specimen/Bitter"
 
   font "Bitter-Italic[wght].ttf"
