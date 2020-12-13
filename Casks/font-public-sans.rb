@@ -2,8 +2,8 @@ cask "font-public-sans" do
   version "1.006"
   sha256 "d849e9b590d7f60480d47488c939e097580449dae8fe0fbd3411d3144a11b2e1"
 
-  # github.com/uswds/public-sans/ was verified as official when first introduced to the cask
-  url "https://github.com/uswds/public-sans/releases/download/v#{version}/public-sans-v#{version}.zip"
+  url "https://github.com/uswds/public-sans/releases/download/v#{version}/public-sans-v#{version}.zip",
+      verified: "github.com/uswds/public-sans/"
   appcast "https://github.com/uswds/public-sans/releases.atom"
   name "Public Sans"
   homepage "https://public-sans.digital.gov/"
