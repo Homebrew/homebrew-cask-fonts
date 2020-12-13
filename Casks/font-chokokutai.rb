@@ -5,7 +5,7 @@ cask "font-chokokutai" do
   url "https://github.com/google/fonts/raw/master/ofl/chokokutai/Chokokutai-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Chokokutai"
-  desc "Display japanese font family whose characters have a funky appearance"
+  desc "Japanese display font whose characters have a funky appearance"
   homepage "https://fonts.google.com/specimen/Chokokutai"
 
   font "Chokokutai-Regular.ttf"
