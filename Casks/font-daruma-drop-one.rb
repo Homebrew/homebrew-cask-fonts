@@ -5,6 +5,7 @@ cask "font-daruma-drop-one" do
   url "https://github.com/google/fonts/raw/master/ofl/darumadropone/DarumaDropOne-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Daruma Drop One"
+  desc "Drop cap font"
   homepage "https://fonts.google.com/specimen/Daruma+Drop+One"
 
   font "DarumaDropOne-Regular.ttf"
