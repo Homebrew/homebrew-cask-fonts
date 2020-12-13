@@ -7,7 +7,7 @@ cask "font-bodoni-moda" do
       using:      :svn,
       trust_cert: true
   name "Bodoni Moda"
-  desc "Designed by owen earl (indestructible type*)"
+  desc "Serif typeface with high contrast"
   homepage "https://fonts.google.com/specimen/Bodoni+Moda"
 
   font "BodoniModa-Italic[opsz,wght].ttf"
