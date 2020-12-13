@@ -2,8 +2,8 @@ cask "font-girassol" do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/raw/master/ofl/girassol/Girassol-Regular.ttf"
+  url "https://github.com/google/fonts/raw/master/ofl/girassol/Girassol-Regular.ttf",
+      verified: "github.com/google/fonts/"
   name "Girassol"
   homepage "https://fonts.google.com/specimen/Girassol"
 
