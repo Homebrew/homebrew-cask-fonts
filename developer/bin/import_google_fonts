@@ -39,12 +39,13 @@ class FontCask:
 
 {% if files|length == 1 %}
   url "https://github.com/google/fonts/raw/master/{{folder}}/{{files[0] | urlencode}}",
+      verified: "github.com/google/fonts/"
 {% else %}
   url "https://github.com/google/fonts/trunk/{{folder}}",
+      verified:   "github.com/google/fonts/",
       using:      :svn,
-      trust_cert: true,
+      trust_cert: true
 {% endif %}
-      verified: "github.com/google/fonts/"
   name "{{font_name}}"
 {% if desc %}
   desc "{{desc}}"
@@ -241,9 +242,9 @@ def derive_cask(family_folder, repo_dir):
 
 
 def run():
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print(
-            """Usage: ./import_google_fonts <path-to-repo>
+            """Usage: ./import_google_fonts <path-to-repo> [<mode>]
 
 Download the or clone the repository from https://github.com/google/fonts, then provide the path to the script.
     """
@@ -251,9 +252,11 @@ Download the or clone the repository from https://github.com/google/fonts, then 
         sys.exit(1)
 
     repo_dir = sys.argv[1]
+    mode = sys.argv[2]
     family_folders = find_family_folders(repo_dir)
 
-    google_casks = find_google_casks()
+    existing_casks = find_google_casks()
+    new_casks = {}
 
     for family_folder in family_folders:
         meta_file = os.path.join(family_folder, "METADATA.pb")
@@ -264,15 +267,22 @@ Download the or clone the repository from https://github.com/google/fonts, then 
         else:
             cask = derive_cask(family_folder, repo_dir)
 
-        google_cask = google_casks.get(cask.token(), None)
-        if google_cask:
-            cask.desc = google_cask["description"]
+        existing_cask = existing_casks.pop(cask.token(), None)
+        if existing_cask:
+            cask.desc = existing_cask["description"]
 
-        write_cask(cask)
-        google_casks.pop(cask.token(), None)
+        if cask.token() in new_casks:
+            continue
+        else:
+            new_casks[cask.token()] = cask
 
-    # Delete casks which don't exist anymore.
-    for google_cask in google_casks.values():
-      os.remove(google_cask["path"])
+        cask_existed = existing_cask is not None
+        if not mode or (mode == "add" and not cask_existed) or (mode == "update" and cask_existed):
+          write_cask(cask)
+
+    if not mode or mode == "delete":
+      # Delete casks which don't exist anymore.
+      for deleted_cask in existing_casks.values():
+        os.remove(deleted_cask["path"])
 
 run()
