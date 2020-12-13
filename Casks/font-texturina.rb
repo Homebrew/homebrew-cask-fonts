@@ -3,9 +3,9 @@ cask "font-texturina" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/texturina",
+      verified:   "github.com/google/fonts/",
       using:      :svn,
-      trust_cert: true,
-      verified:   "github.com/google/fonts/"
+      trust_cert: true
   name "Texturina"
   desc "Designed by guillermo torres"
   homepage "https://fonts.google.com/specimen/Texturina"
