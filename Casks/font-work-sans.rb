@@ -2,8 +2,8 @@ cask "font-work-sans" do
   version :latest
   sha256 :no_check
 
-  # github.com/weiweihuanghuang/Work-Sans/ was verified as official when first introduced to the cask
-  url "https://github.com/weiweihuanghuang/Work-Sans/archive/master.zip"
+  url "https://github.com/weiweihuanghuang/Work-Sans/archive/master.zip",
+      verified: "github.com/weiweihuanghuang/Work-Sans/"
   name "Work Sans"
   homepage "https://weiweihuanghuang.github.io/Work-Sans/"
 
