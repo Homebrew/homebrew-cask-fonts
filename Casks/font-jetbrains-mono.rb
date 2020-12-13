@@ -2,8 +2,8 @@ cask "font-jetbrains-mono" do
   version "2.210"
   sha256 "3d368735d2e8ff3abe1583de540284e70dd16d8d871e8f1b0f73685ced7b8ba7"
 
-  # github.com/JetBrains/JetBrainsMono/ was verified as official when first introduced to the cask
-  url "https://github.com/JetBrains/JetBrainsMono/releases/download/v#{version}/JetBrainsMono-#{version}.zip"
+  url "https://github.com/JetBrains/JetBrainsMono/releases/download/v#{version}/JetBrainsMono-#{version}.zip",
+      verified: "github.com/JetBrains/JetBrainsMono/"
   appcast "https://github.com/JetBrains/JetBrainsMono/releases.atom"
   name "JetBrains Mono"
   desc "Typeface made for developers"
