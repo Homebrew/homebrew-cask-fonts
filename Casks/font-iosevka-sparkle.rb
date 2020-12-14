@@ -1,10 +1,11 @@
 cask "font-iosevka-sparkle" do
-  version "4.0.0-beta.3"
-  sha256 "64da722f2431c59dbff8bf1c484da3429efa8dc8edc1436a34b894481e6d9887"
+  version "4.0.3"
+  sha256 "bd8dc2c1698472294a8c2783c86303e20c056e8d8a2d14d58cad83914842bc01"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-sparkle-#{version}.zip"
   appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka Sparkle"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
 
   font "iosevka-sparkle-bold.ttc"

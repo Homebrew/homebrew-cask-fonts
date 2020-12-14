@@ -1,13 +1,15 @@
 cask "font-bitter" do
-  version "48"
-  sha256 "64da7417f87835e166879af74ddb733d67d8a834cc3fe96ac303e97e5f6b86ea"
+  version :latest
+  sha256 :no_check
 
-  url "https://www.huertatipografica.com/free_download/48"
-  name "Bitter ht"
-  homepage "https://www.huertatipografica.com/fonts/bitter-ht"
+  url "https://github.com/google/fonts/trunk/ofl/bitter",
+      verified:   "github.com/google/fonts/",
+      using:      :svn,
+      trust_cert: true
+  name "Bitter"
+  desc "Slab-serif typeface optimized for e-ink screens"
+  homepage "https://fonts.google.com/specimen/Bitter"
 
-  font "Bitter-Bold.otf"
-  font "Bitter-BoldItalic.otf"
-  font "Bitter-Italic.otf"
-  font "Bitter-Regular.otf"
+  font "Bitter-Italic[wght].ttf"
+  font "Bitter[wght].ttf"
 end

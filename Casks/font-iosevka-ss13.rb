@@ -1,10 +1,11 @@
 cask "font-iosevka-ss13" do
-  version "4.0.0-beta.3"
-  sha256 "fe0140760921b6c1ff536e3f7f4efb065495a4c1f30dbc270fd0ffc19a813bfe"
+  version "4.0.3"
+  sha256 "81f0f22d8f003e5055a41dca9f7e3cd22865ce39893fa2ce0bd943a1a6abd43e"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss13-#{version}.zip"
   appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka SS13"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
 
   font "iosevka-ss13-bold.ttc"

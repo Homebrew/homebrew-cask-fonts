@@ -2,8 +2,8 @@ cask "font-nova-cut" do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/raw/master/ofl/novacut/NovaCut.ttf"
+  url "https://github.com/google/fonts/raw/master/ofl/novacut/NovaCut.ttf",
+      verified: "github.com/google/fonts/"
   name "Nova Cut"
   homepage "https://fonts.google.com/specimen/Nova+Cut"
 

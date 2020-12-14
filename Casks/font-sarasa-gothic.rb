@@ -1,10 +1,15 @@
 cask "font-sarasa-gothic" do
-  version "0.15.1"
-  sha256 "f0413680b7109721f967dec1a0106c290f1e36079ddb72bcd59715b798456718"
+  version "0.16.0"
+  sha256 "49e75e8d6400c8e4e3b1cde0b5f09036b847d0ecff1db31181c6a58bc35d5995"
 
   url "https://github.com/be5invis/Sarasa-Gothic/releases/download/v#{version}/sarasa-gothic-ttc-#{version}.7z"
   appcast "https://github.com/be5invis/Sarasa-Gothic/releases.atom"
   name "Sarasa Gothic"
+  name "更纱黑体"
+  name "更紗黑體"
+  name "更紗ゴシック"
+  name "사라사고딕"
+  desc "CJK programming font based on Iosevka and Source Han Sans"
   homepage "https://github.com/be5invis/Sarasa-Gothic"
 
   font "sarasa-bold.ttc"

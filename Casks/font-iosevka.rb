@@ -1,10 +1,11 @@
 cask "font-iosevka" do
-  version "4.0.0-beta.3"
-  sha256 "50cf14bc3d7b6f899f85813e36cca6475cbcdfed0bd0b773f426f2483fd502de"
+  version "4.0.3"
+  sha256 "4be2e3142d9ac284980c74158ce7ed6fb566f08f1ebef4794a48aa04742e84f5"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-#{version}.zip"
   appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
 
   font "iosevka-bold.ttc"

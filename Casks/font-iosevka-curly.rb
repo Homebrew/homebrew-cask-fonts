@@ -1,10 +1,11 @@
 cask "font-iosevka-curly" do
-  version "4.0.0-beta.3"
-  sha256 "7e32fd1ceed02f005be4638d809f62e3aa422e96a5cada511297065e87d61f72"
+  version "4.0.3"
+  sha256 "d60104cabe95844ae58e5ae189e89f473b0e1bd5cf698b30a57016c116c8a154"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-curly-#{version}.zip"
   appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka Curly"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
 
   font "iosevka-curly-bold.ttc"

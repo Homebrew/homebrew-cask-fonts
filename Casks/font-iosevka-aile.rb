@@ -1,10 +1,11 @@
 cask "font-iosevka-aile" do
-  version "4.0.0-beta.3"
-  sha256 "297ea526aa1606168a80a558273c7defb7fdbb0fde9948406bb8004a6efa2261"
+  version "4.0.3"
+  sha256 "ecda747a175526ee204be6ce028efa7f468291af04fae28842827175aca3a258"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-aile-#{version}.zip"
   appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka Aile"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
 
   font "iosevka-aile-bold.ttc"
