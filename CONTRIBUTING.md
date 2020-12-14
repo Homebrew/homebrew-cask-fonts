@@ -110,7 +110,7 @@ This constraint may change in the future, when the backend Ruby code becomes mor
 
 ### Multiple Font Formats
 
-If a distribution provides multiple file formats for the same font, for example both TTF and OTF files, only include one kind. OTF is preferred over TTF.
+If a distribution provides the same font in multiple file formats, for example both OpenType and TrueType, only include one kind. We prefer OTF to TTF, and variable fonts to static files for different instantiations. Where a distribution provides variable and static fonts under different family names, both can be included for backwards compatibility as long as they can be contained within a single cask. Example: [font-source-serif-pro.rb](https://github.com/Homebrew/homebrew-cask-fonts/blob/ab3e5d7d313b64c0a2c4041196a8eaa8e1539c9c/Casks/font-source-serif-pro.rb#L10#L23).
 
 Note that `font_casker` generates font stanzas for all files, so its output should be edited as needed.
 
