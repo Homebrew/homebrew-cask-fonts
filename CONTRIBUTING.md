@@ -113,9 +113,7 @@ This constraint may change in the future, when the backend Ruby code becomes mor
 
 ### Multiple Font Formats
 
-If a distribution provides multiple file formats for the same font, variable fonts are preferred over static files for different instantiations. TTF variable fonts (glyf-based) are more compatible than OTF (CFF2-based). For static instantiations, OTF is preferred to TTF.
-
-Where a distribution provides variable and static fonts under a different family name, both can be included for backwards compatibility. For example, [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro) provides both 'Source Sans Pro' and 'Source Sans Variable' families.
+If a distribution provides the same font in multiple file formats, for example both OpenType and TrueType, only include one kind. We prefer OTF to TTF, and variable fonts to static files for different instantiations. Where a distribution provides variable and static fonts under different family names, both can be included for backwards compatibility as long as they can be contained within a single formula. For example, [Source Sans](https://github.com/adobe-fonts/source-sans-pro) provides separate 'Source Sans 3' and 'Source Sans 3 VF' families.
 
 Note that `font_casker` generates font stanzas for all files, so its output should be edited as needed.
 
