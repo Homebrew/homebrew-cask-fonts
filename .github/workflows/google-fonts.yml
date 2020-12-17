@@ -1,4 +1,4 @@
-name: Update Google Fonts
+name: Google Fonts
 
 on:
   push:
@@ -6,11 +6,22 @@ on:
       - debug-google-fonts
   schedule:
     - cron: "0 0 * * 0" # weekly
+  workflow_dispatch:
 
 jobs:
-  update:
+  google-fonts:
+    name: ${{ matrix.mode }}
     if: github.repository == 'Homebrew/homebrew-cask-fonts'
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - noun: addition
+            mode: add
+          - noun: update
+            mode: update
+          - noun: deletion
+            mode: delete
     steps:
       - name: Checkout homebrew/cask-fonts
         uses: actions/checkout@v2
@@ -31,22 +42,23 @@ jobs:
         run: pip3 install gftools html2text jinja2 protobuf
 
       - name: Import Google Fonts
-        run: ./developer/bin/import_google_fonts vendor/google-fonts
+        run: ./developer/bin/import_google_fonts vendor/google-fonts ${{ matrix.mode }}
 
       - name: Create pull request with updated files
         id: create-pull-request
-        uses: peter-evans/create-pull-request@ce699aa2d108e9d04fde047a71e44b2bf444b6dc
+        uses: peter-evans/create-pull-request@8c603dbb04b917a9fc2dd991dc54fef54b640b43
         with:
-          branch: auto-update-google-fonts
+          branch: auto-${{ matrix.mode }}-google-fonts
           commit-message: Update Google Fonts
           base: master
           author: BrewTestBot <BrewTestBot@users.noreply.github.com>
           committer: BrewTestBot <BrewTestBot@users.noreply.github.com>
-          title: Automatic update of Google Fonts
+          title: Automatic ${{ matrix.noun }} of Google Fonts
           body: |
             This pull request was created automatically by the [`google-fonts`](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/.github/workflows/google-fonts.yml) workflow.
           token: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
       - name: Print pull request URL
+        if: steps.create-pull-request.outputs.pull-request-number
         run: |
           echo "Created pull request:"
           echo "  https://github.com/${{ github.repository }}/pull/${{ steps.create-pull-request.outputs.pull-request-number }}"

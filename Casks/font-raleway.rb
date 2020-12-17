@@ -2,8 +2,8 @@ cask "font-raleway" do
   version "4.101"
   sha256 "523070d32418b4223e79f4629bf28b935723906d156d2e6af016e6a34fe6d3eb"
 
-  # github.com/theleagueof/raleway/ was verified as official when first introduced to the cask
-  url "https://github.com/theleagueof/raleway/releases/download/#{version}/Raleway-#{version}.tar.xz"
+  url "https://github.com/theleagueof/raleway/releases/download/#{version}/Raleway-#{version}.tar.xz",
+      verified: "github.com/theleagueof/raleway/"
   appcast "https://github.com/theleagueof/raleway/releases.atom"
   name "Raleway"
   desc "Elegant sans-serif font family, now 9 weights and italic style"

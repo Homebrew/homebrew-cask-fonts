@@ -2,8 +2,8 @@ cask "font-reenie-beanie" do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/raw/master/ofl/reeniebeanie/ReenieBeanie.ttf"
+  url "https://github.com/google/fonts/raw/master/ofl/reeniebeanie/ReenieBeanie.ttf",
+      verified: "github.com/google/fonts/"
   name "Reenie Beanie"
   homepage "https://fonts.google.com/specimen/Reenie+Beanie"
 

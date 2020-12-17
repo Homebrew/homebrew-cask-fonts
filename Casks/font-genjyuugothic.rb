@@ -2,8 +2,8 @@ cask "font-genjyuugothic" do
   version "20150607,8.642"
   sha256 "916bbc234b110835b9a66ea47fd62e553fd9a524226b1b1fdac6668f0fc95809"
 
-  # osdn.jp/ was verified as official when first introduced to the cask
-  url "https://osdn.dl.osdn.jp/users/#{version.after_comma.major}/#{version.after_comma.no_dots}/genjyuugothic-#{version.before_comma}.zip"
+  url "https://osdn.dl.osdn.jp/users/#{version.after_comma.major}/#{version.after_comma.no_dots}/genjyuugothic-#{version.before_comma}.zip",
+      verified: "osdn.jp/"
   name "Gen Jyuu Gothic"
   homepage "http://jikasei.me/font/genjyuu/"
 

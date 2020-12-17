@@ -2,8 +2,8 @@ cask "font-moulpali" do
   version :latest
   sha256 :no_check
 
-  # github.com/google/fonts/ was verified as official when first introduced to the cask
-  url "https://github.com/google/fonts/raw/master/ofl/moulpali/Moulpali.ttf"
+  url "https://github.com/google/fonts/raw/master/ofl/moulpali/Moulpali.ttf",
+      verified: "github.com/google/fonts/"
   name "Moulpali"
   homepage "https://fonts.google.com/specimen/Moulpali"
 
