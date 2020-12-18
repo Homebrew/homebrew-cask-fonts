@@ -1,6 +1,6 @@
 cask "font-glow-sans-sc-extended" do
-  version "0.91"
-  sha256 "5473c8e8e9920cce3bd1f93e7234e504e8fa0e7110f8460de5d9df3325d6c0f9"
+  version "0.92"
+  sha256 "42e0690d320a8a6a2a4f66de3e5c6bac579b6c647bd5b06c934a3449cc6d7091"
 
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansSC-Extended-v#{version}.zip"
   appcast "https://github.com/welai/glow-sans/releases.atom"
