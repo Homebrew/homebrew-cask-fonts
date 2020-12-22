@@ -7,8 +7,8 @@ cask "font-mamelon" do
   desc "Dailylife-styled round gothic font for electronic devices"
   homepage "https://moji-waku.com/mamelon/index.html"
 
-  font "mamelon_hireg/Mamelon-3HiRegular.otf"
-  font "mamelon_hireg/Mamelon-3.5HiRegular.otf"
-  font "mamelon_hireg/Mamelon-4HiRegular.otf"
-  font "mamelon_hireg/Mamelon-5HiRegular.otf"
+  font "mamelon_hireg/Mamelon-3-Hi-Regular.otf"
+  font "mamelon_hireg/Mamelon-3.5-Hi-Regular.otf"
+  font "mamelon_hireg/Mamelon-4-Hi-Regular.otf"
+  font "mamelon_hireg/Mamelon-5-Hi-Regular.otf"
 end
