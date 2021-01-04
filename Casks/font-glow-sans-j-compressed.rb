@@ -1,6 +1,6 @@
 cask "font-glow-sans-j-compressed" do
-  version "0.91"
-  sha256 "aa06f2a1bd0e497a60a47b628396bd3080cc020e110b0524e909f329a24b4256"
+  version "0.92"
+  sha256 "9247d85341bc2de3dde7e45ea6e5536e9189c875472f6ce3fdc1eb48119772ee"
 
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansJ-Compressed-v#{version}.zip"
   appcast "https://github.com/welai/glow-sans/releases.atom"

@@ -6,6 +6,7 @@ cask "font-eb-garamond" do
       verified: "bitbucket.org/georgd/eb-garamond/"
   appcast "https://github.com/georgd/EB-Garamond/releases.atom"
   name "EB Garamond"
+  desc "Garamond typeface based on the 1592 Berner specimen"
   homepage "https://github.com/georgd/EB-Garamond"
 
   font "EBGaramond-#{version}/otf/EBGaramond-Initials.otf"
@@ -18,14 +19,4 @@ cask "font-eb-garamond" do
   font "EBGaramond-#{version}/otf/EBGaramond12-Regular.otf"
   font "EBGaramond-#{version}/otf/EBGaramondSC08-Regular.otf"
   font "EBGaramond-#{version}/otf/EBGaramondSC12-Regular.otf"
-  font "EBGaramond-#{version}/ttf/EBGaramond-Initials.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramond-InitialsF1.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramond-InitialsF2.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramond08-Italic.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramond08-Regular.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramond12-AllSC.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramond12-Italic.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramond12-Regular.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramondSC08-Regular.ttf"
-  font "EBGaramond-#{version}/ttf/EBGaramondSC12-Regular.ttf"
 end
