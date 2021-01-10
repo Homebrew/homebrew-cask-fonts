@@ -7,7 +7,7 @@ cask "font-shippori-mincho" do
       using:      :svn,
       trust_cert: true
   name "Shippori Mincho"
-  desc "Based on the tokyo tsukiji type foundry no"
+  desc "Based on the Tsukiji Typeface making facility of Tokyo"
   homepage "https://fonts.google.com/specimen/Shippori+Mincho"
 
   font "ShipporiMincho-Bold.ttf"
