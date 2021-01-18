@@ -1,6 +1,6 @@
 cask "font-source-code-pro" do
-  version "2.032R-ro-1.052R-it-1.012R-VAR"
-  sha256 "4d28868a2dc4cd6b767a91cd3d8462983aa8924ae18149f3b1d1a135090a0f8d"
+  version "2.038R-ro-1.058R-it-1.018R-VAR"
+  sha256 "87c94be199cd412e145081cf20dce1217196b47e407989465e687ebf0316af9e"
 
   url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.gsub(/(?<=ro)-|(?<=it)-/, "/")}.zip"
   appcast "https://github.com/adobe-fonts/source-code-pro/releases.atom"
