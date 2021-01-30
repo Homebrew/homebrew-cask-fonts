@@ -1,5 +1,5 @@
 cask "font-recursive" do
-  version :latest
+  version "1.072"
   sha256 :no_check
 
   url "https://github.com/google/fonts/raw/master/ofl/recursive/Recursive%5BCASL%2CCRSV%2CMONO%2Cslnt%2Cwght%5D.ttf",
