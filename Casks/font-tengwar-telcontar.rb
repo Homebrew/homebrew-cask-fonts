@@ -5,8 +5,8 @@ cask "font-tengwar-telcontar" do
   url "https://downloads.sourceforge.net/freetengwar/TengwarTelcontar.008.zip"
   appcast "https://sourceforge.net/projects/freetengwar/rss?path=/TengwarFont"
   name "Tengwar Telcontar"
-  homepage "http://freetengwar.sourceforge.net/tengtelc.html"
   desc "Tengwar Telcontar - a Unicode Tengwar font"
+  homepage "http://freetengwar.sourceforge.net/tengtelc.html"
 
   font "tengtelc.ttf"
   font "tengtelcb.ttf"
