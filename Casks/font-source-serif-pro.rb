@@ -7,7 +7,6 @@ cask "font-source-serif-pro" do
       using:      :svn,
       trust_cert: true
   name "Source Serif Pro"
-  desc "Active open source project – if you are interested in contributing, please visit source-serif-pro on github for more information"
   homepage "https://fonts.google.com/specimen/Source+Serif+Pro"
 
   font "SourceSerifPro-Black.ttf"
