@@ -1,11 +1,13 @@
-cask 'font-free-mono-tengwar' do
-  version '2013-07-21'
-  sha256 '11a33522a6a7aa43120f0e9f98862d922a89228ed762738809132e3b26784907'
+cask "font-free-mono-tengwar" do
+  version "2013-07-21"
+  sha256 :no_check
 
-  url 'http://sourceforge.net/projects/freetengwar/files/TengwarFont/FreeMonoTengwar.2013-07-21.zip/download'
-  name 'FreeMonoTengwar'
-  homepage 'http://freetengwar.sourceforge.net/freemonotengwar.html'
+  url "https://downloads.sourceforge.net/freetengwar/FreeMonoTengwar.2013-07-21.zip"
+  appcast "https://sourceforge.net/projects/freetengwar/rss?path=/TengwarFont"
+  name "FreeMonoTengwar"
+  desc "Unicode tengwar monospaced font"
+  homepage "http://freetengwar.sourceforge.net/freemonotengwar.html"
 
-  font 'FreeMonoTengwar.2013-07-21/FreeMonoTengwar-embedding.ttf'
-  font 'FreeMonoTengwar.2013-07-21/FreeMonoTengwar.ttf'
+  font "FreeMonoTengwar.2013-07-21/FreeMonoTengwar-embedding.ttf"
+  font "FreeMonoTengwar.2013-07-21/FreeMonoTengwar.ttf"
 end
