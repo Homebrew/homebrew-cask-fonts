@@ -1,4 +1,4 @@
-cask "font-notoseriftamilslanted" do
+cask "font-noto-serif-tamil-slanted" do
   version :latest
   sha256 :no_check
 
