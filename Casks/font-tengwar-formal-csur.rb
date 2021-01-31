@@ -8,5 +8,5 @@ cask "font-tengwar-formal-csur" do
   desc "Tengwar Unicode font compliant with CSUR"
   homepage "http://freetengwar.sourceforge.net/formal.html"
 
-  font "TengwarFormalCSUR11/TengwarFormalCSUR.ttf"
+  font "TengwarFormalCSUR#{version}/TengwarFormalCSUR.ttf"
 end
