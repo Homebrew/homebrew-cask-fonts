@@ -7,7 +7,7 @@ cask "font-sofia-sans" do
       using:      :svn,
       trust_cert: true
   name "Sofia Sans"
-  desc "Also a feature-rich opentype family with a large character set including small caps, several figure styles, arrows, numerals in circles among others"
+  desc "Opentype family with large character set"
   homepage "https://fonts.google.com/specimen/Sofia+Sans"
 
   font "SofiaSans-Italic[wdth,wght].ttf"
