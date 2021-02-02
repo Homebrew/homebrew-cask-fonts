@@ -69,7 +69,5 @@ cask "font-source-serif" do
   font "source-serif-#{version}/OTF/SourceSerif4Subhead-Semibold.otf"
   font "source-serif-#{version}/OTF/SourceSerif4Subhead-SemiboldIt.otf"
   font "source-serif-#{version}/VAR/SourceSerif4Variable-Italic.otf"
-  font "source-serif-#{version}/VAR/SourceSerif4Variable-Italic.ttf"
   font "source-serif-#{version}/VAR/SourceSerif4Variable-Roman.otf"
-  font "source-serif-#{version}/VAR/SourceSerif4Variable-Roman.ttf"
 end
