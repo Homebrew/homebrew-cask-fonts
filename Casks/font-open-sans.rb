@@ -9,14 +9,6 @@ cask "font-open-sans" do
   name "Open Sans"
   homepage "https://fonts.google.com/specimen/Open+Sans"
 
-  font "OpenSans-Bold.ttf"
-  font "OpenSans-BoldItalic.ttf"
-  font "OpenSans-ExtraBold.ttf"
-  font "OpenSans-ExtraBoldItalic.ttf"
-  font "OpenSans-Italic.ttf"
-  font "OpenSans-Light.ttf"
-  font "OpenSans-LightItalic.ttf"
-  font "OpenSans-Regular.ttf"
-  font "OpenSans-SemiBold.ttf"
-  font "OpenSans-SemiBoldItalic.ttf"
+  font "OpenSans-Italic[wdth,wght].ttf"
+  font "OpenSans[wdth,wght].ttf"
 end
