@@ -7,7 +7,7 @@ cask "font-kiwi-maru" do
       using:      :svn,
       trust_cert: true
   name "Kiwi Maru"
-  desc "Typeface for visualization and sharing of everyday and slang expressions in the digital age"
+  desc "Typeface for visualization of everyday and slang expressions"
   homepage "https://fonts.google.com/specimen/Kiwi+Maru"
 
   font "KiwiMaru-Light.ttf"
