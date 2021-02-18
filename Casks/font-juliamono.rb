@@ -10,9 +10,11 @@ cask "font-juliamono" do
 
   font "JuliaMono-Black.ttf"
   font "JuliaMono-Bold.ttf"
+  font "JuliaMono-BoldLatin.ttf"
   font "JuliaMono-ExtraBold.ttf"
   font "JuliaMono-Light.ttf"
   font "JuliaMono-Medium.ttf"
   font "JuliaMono-Regular.ttf"
   font "JuliaMono-RegularLatin.ttf"
+  font "JuliaMono-SemiBold.ttf"
 end
