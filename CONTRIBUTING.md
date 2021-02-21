@@ -2,6 +2,12 @@
 
 [Instructions from the main repository](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md) apply. Exceptions are documented on the [README](README.md) and this document.
 
+## When to contribute
+
+The preferred way to add a font to this repository is to [submit it to Google Fonts](https://github.com/google/fonts/blob/master/CONTRIBUTING.md). Shortly after its inclusion, a Cask will be automatically generated and updated on this repository.
+
+We accept fonts from other sources **but they must be provably popular**, like [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) and [iA Fonts](https://github.com/iaolo/iA-Fonts). To build one of those, keep reading.
+
 ## Adding a Font Cask
 
 Making a Font Cask is easy: a Cask is a small Ruby file.
