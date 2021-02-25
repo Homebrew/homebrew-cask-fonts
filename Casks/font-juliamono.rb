@@ -1,6 +1,6 @@
 cask "font-juliamono" do
-  version "0.033"
-  sha256 "e0874049c8816511367271405dadbacbb15033171441085e9ee72c2326955531"
+  version "0.034"
+  sha256 "d12702227a2ffd65ecb44061b4cbd3b335bdf1822f5aa75857e04aa884ec6bb9"
 
   url "https://github.com/cormullion/juliamono/releases/download/v#{version}/JuliaMono.tar.gz"
   appcast "https://github.com/cormullion/juliamono/releases.atom"
