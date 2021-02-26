@@ -2,7 +2,7 @@ cask "font-glass-antiqua" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/glassantiqua/GlassAntiqua-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Glass Antiqua"
   homepage "https://fonts.google.com/specimen/Glass+Antiqua"

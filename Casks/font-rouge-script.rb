@@ -2,7 +2,7 @@ cask "font-rouge-script" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/rougescript/RougeScript-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/rougescript/RougeScript-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Rouge Script"
   homepage "https://fonts.google.com/specimen/Rouge+Script"

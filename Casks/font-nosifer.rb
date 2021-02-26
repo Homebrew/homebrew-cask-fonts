@@ -2,7 +2,7 @@ cask "font-nosifer" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/nosifer/Nosifer-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/nosifer/Nosifer-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Nosifer"
   homepage "https://fonts.google.com/specimen/Nosifer"

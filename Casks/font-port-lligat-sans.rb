@@ -2,7 +2,7 @@ cask "font-port-lligat-sans" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/portlligatsans/PortLligatSans-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/portlligatsans/PortLligatSans-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Port Lligat Sans"
   homepage "https://fonts.google.com/specimen/Port+Lligat+Sans"

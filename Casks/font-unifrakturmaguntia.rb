@@ -2,7 +2,7 @@ cask "font-unifrakturmaguntia" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/unifrakturmaguntia/UnifrakturMaguntia-Book.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/unifrakturmaguntia/UnifrakturMaguntia-Book.ttf",
       verified: "github.com/google/fonts/"
   name "UnifrakturMaguntia"
   homepage "https://fonts.google.com/specimen/UnifrakturMaguntia"

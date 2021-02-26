@@ -2,7 +2,7 @@ cask "font-lobster" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/lobster/Lobster-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/lobster/Lobster-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Lobster"
   homepage "https://fonts.google.com/specimen/Lobster"

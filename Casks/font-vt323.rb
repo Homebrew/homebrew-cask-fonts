@@ -2,7 +2,7 @@ cask "font-vt323" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/vt323/VT323-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/vt323/VT323-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "VT323"
   homepage "https://fonts.google.com/specimen/VT323"

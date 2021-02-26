@@ -2,7 +2,7 @@ cask "font-coda-caption" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/codacaption/CodaCaption-ExtraBold.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/codacaption/CodaCaption-ExtraBold.ttf",
       verified: "github.com/google/fonts/"
   name "Coda Caption"
   homepage "https://fonts.google.com/specimen/Coda+Caption"

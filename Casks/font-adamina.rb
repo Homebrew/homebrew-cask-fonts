@@ -2,7 +2,7 @@ cask "font-adamina" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/adamina/Adamina-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/adamina/Adamina-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Adamina"
   homepage "https://fonts.google.com/specimen/Adamina"

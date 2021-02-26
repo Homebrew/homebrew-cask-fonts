@@ -2,7 +2,7 @@ cask "font-lacquer" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/lacquer/Lacquer-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/lacquer/Lacquer-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Lacquer"
   homepage "https://fonts.google.com/specimen/Lacquer"

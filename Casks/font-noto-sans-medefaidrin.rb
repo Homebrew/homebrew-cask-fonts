@@ -2,7 +2,7 @@ cask "font-noto-sans-medefaidrin" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/notosansmedefaidrin/NotoSansMedefaidrin%5Bwght%5D.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/notosansmedefaidrin/NotoSansMedefaidrin%5Bwght%5D.ttf",
       verified: "github.com/google/fonts/"
   name "Noto Sans Medefaidrin"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Medefaidrin"

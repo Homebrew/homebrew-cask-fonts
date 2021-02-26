@@ -2,7 +2,7 @@ cask "font-chokokutai" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/chokokutai/Chokokutai-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/chokokutai/Chokokutai-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Chokokutai"
   desc "Japanese display font whose characters have a funky appearance"

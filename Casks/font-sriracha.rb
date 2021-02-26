@@ -2,7 +2,7 @@ cask "font-sriracha" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/sriracha/Sriracha-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/sriracha/Sriracha-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Sriracha"
   homepage "https://fonts.google.com/specimen/Sriracha"
