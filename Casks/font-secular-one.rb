@@ -2,7 +2,7 @@ cask "font-secular-one" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/secularone/SecularOne-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/secularone/SecularOne-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Secular One"
   homepage "https://fonts.google.com/specimen/Secular+One"

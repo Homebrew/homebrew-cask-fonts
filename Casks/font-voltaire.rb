@@ -2,7 +2,7 @@ cask "font-voltaire" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/voltaire/Voltaire-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/voltaire/Voltaire-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Voltaire"
   homepage "https://fonts.google.com/specimen/Voltaire"

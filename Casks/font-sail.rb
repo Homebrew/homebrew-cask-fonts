@@ -2,7 +2,7 @@ cask "font-sail" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/sail/Sail-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/sail/Sail-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Sail"
   homepage "https://fonts.google.com/specimen/Sail"

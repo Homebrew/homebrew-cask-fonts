@@ -2,7 +2,7 @@ cask "font-trade-winds" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/tradewinds/TradeWinds-Regular.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/tradewinds/TradeWinds-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Trade Winds"
   homepage "https://fonts.google.com/specimen/Trade+Winds"

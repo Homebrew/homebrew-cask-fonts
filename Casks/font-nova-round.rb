@@ -2,7 +2,7 @@ cask "font-nova-round" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/master/ofl/novaround/NovaRound.ttf",
+  url "https://github.com/google/fonts/raw/main/ofl/novaround/NovaRound.ttf",
       verified: "github.com/google/fonts/"
   name "Nova Round"
   homepage "https://fonts.google.com/specimen/Nova+Round"
