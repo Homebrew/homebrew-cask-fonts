@@ -9,12 +9,6 @@ cask "font-asap" do
   name "Asap"
   homepage "https://fonts.google.com/specimen/Asap"
 
-  font "Asap-Bold.ttf"
-  font "Asap-BoldItalic.ttf"
-  font "Asap-Italic.ttf"
-  font "Asap-Medium.ttf"
-  font "Asap-MediumItalic.ttf"
-  font "Asap-Regular.ttf"
-  font "Asap-SemiBold.ttf"
-  font "Asap-SemiBoldItalic.ttf"
+  font "Asap-Italic[wght].ttf"
+  font "Asap[wght].ttf"
 end
