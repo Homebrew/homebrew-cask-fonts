@@ -1,6 +1,6 @@
 cask "font-chomsky" do
-  version "2.1"
-  sha256 "8011db20146d3bf36ca39015e5d091158ed7f3a856170d389c76f4ab32ae9ab9"
+  version "2.2"
+  sha256 "63e6099e73a348824b65f4d88af9dc0b1e57dabe83115973672e339ef1d1e012"
 
   url "https://github.com/ctrlcctrlv/chomsky/releases/download/v#{version}/Chomsky.otf"
   appcast "https://github.com/ctrlcctrlv/chomsky/releases.atom"
