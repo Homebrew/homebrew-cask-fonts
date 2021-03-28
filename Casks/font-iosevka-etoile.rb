@@ -3,7 +3,6 @@ cask "font-iosevka-etoile" do
   sha256 "7d98de7c6954dbcbd2bd37b2a9358d051168b48580756decd21aa80fec684b8b"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-etoile-#{version}.zip"
-  appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka Etoile"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
