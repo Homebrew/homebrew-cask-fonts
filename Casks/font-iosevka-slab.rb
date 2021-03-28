@@ -3,7 +3,6 @@ cask "font-iosevka-slab" do
   sha256 "986c979b063376f9141cb78621e921ecb8ed304ce7ed17d31199fe6116683f9b"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-slab-#{version}.zip"
-  appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka Slab"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
