@@ -1,9 +1,8 @@
 cask "font-iosevka-ss17" do
-  version "5.0.9"
-  sha256 "05c00d6cd0843df2d7adbbfd5fe2093ed68a1143d0611cb59f17fecafd4cda36"
+  version "5.1.0"
+  sha256 "ead5dd60373303cb5d44d7f3d5d0cb6ec4374330263f236ce90890d58672edca"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss17-#{version}.zip"
-  appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka SS17"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
