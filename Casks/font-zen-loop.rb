@@ -7,7 +7,7 @@ cask "font-zen-loop" do
       using:      :svn,
       trust_cert: true
   name "Zen Loop"
-  desc "One of three latin fonts designed by yoshimichi ohira, as part of zen fonts collection"
+  desc "Latin fonts designed by yoshimichi ohira, as part of zen fonts collection"
   homepage "https://fonts.google.com/specimen/Zen+Loop"
 
   font "ZenLoop-Italic.ttf"
