@@ -3,9 +3,8 @@ cask "font-ropa-sans" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/ropasans",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Ropa Sans"
   homepage "https://fonts.google.com/specimen/Ropa+Sans"
 

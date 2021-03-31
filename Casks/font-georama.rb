@@ -3,9 +3,8 @@ cask "font-georama" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/georama",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Georama"
   desc "Original typeface available in several widths and weights"
   homepage "https://fonts.google.com/specimen/Georama"

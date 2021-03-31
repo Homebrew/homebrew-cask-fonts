@@ -3,9 +3,8 @@ cask "font-signika-negative-sc" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/signikanegativesc",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Signika Negative SC"
   desc "Alternative version of the Signika SC font"
   homepage "https://fonts.google.com/specimen/Signika+Negative+SC"

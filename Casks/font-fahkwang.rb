@@ -3,9 +3,8 @@ cask "font-fahkwang" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/fahkwang",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Fahkwang"
   homepage "https://fonts.google.com/specimen/Fahkwang"
 

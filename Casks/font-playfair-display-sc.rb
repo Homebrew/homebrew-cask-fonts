@@ -3,9 +3,8 @@ cask "font-playfair-display-sc" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/playfairdisplaysc",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Playfair Display SC"
   homepage "https://fonts.google.com/specimen/Playfair+Display+SC"
 

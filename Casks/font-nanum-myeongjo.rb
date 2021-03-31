@@ -3,9 +3,8 @@ cask "font-nanum-myeongjo" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/nanummyeongjo",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Nanum Myeongjo"
   homepage "https://fonts.google.com/specimen/Nanum+Myeongjo"
 

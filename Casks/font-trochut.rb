@@ -3,9 +3,8 @@ cask "font-trochut" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/trochut",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Trochut"
   homepage "https://fonts.google.com/specimen/Trochut"
 

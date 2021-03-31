@@ -3,9 +3,8 @@ cask "font-phetsarath" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/phetsarath",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Phetsarath"
   homepage "https://fonts.google.com/specimen/Phetsarath"
 

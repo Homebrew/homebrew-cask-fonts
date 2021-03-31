@@ -3,9 +3,8 @@ cask "font-news-cycle" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/newscycle",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "News Cycle"
   homepage "https://fonts.google.com/specimen/News+Cycle"
 

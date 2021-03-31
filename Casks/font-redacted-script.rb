@@ -3,9 +3,8 @@ cask "font-redacted-script" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/redactedscript",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Redacted Script"
   homepage "https://fonts.google.com/specimen/Redacted+Script"
 

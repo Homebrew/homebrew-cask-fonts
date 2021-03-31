@@ -3,9 +3,8 @@ cask "font-miriam-libre" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/miriamlibre",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Miriam Libre"
   homepage "https://fonts.google.com/specimen/Miriam+Libre"
 

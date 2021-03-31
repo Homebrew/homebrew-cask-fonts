@@ -3,9 +3,8 @@ cask "font-sedan" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/sedan",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Sedan"
   homepage "https://fonts.google.com/specimen/Sedan"
 

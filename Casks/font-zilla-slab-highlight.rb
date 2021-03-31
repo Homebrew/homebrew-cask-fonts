@@ -3,9 +3,8 @@ cask "font-zilla-slab-highlight" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/zillaslabhighlight",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Zilla Slab Highlight"
   homepage "https://fonts.google.com/specimen/Zilla+Slab+Highlight"
 

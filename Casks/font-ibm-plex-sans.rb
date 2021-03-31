@@ -3,9 +3,8 @@ cask "font-ibm-plex-sans" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/ibmplexsans",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "IBM Plex Sans"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans"
 

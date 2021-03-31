@@ -3,9 +3,8 @@ cask "font-advent-pro" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/adventpro",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Advent Pro"
   homepage "https://fonts.google.com/specimen/Advent+Pro"
 

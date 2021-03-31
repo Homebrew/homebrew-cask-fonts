@@ -3,9 +3,8 @@ cask "font-fira-sans-extra-condensed" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/firasansextracondensed",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Fira Sans Extra Condensed"
   homepage "https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed"
 

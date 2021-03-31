@@ -3,9 +3,8 @@ cask "font-archivo" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/archivo",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Archivo"
   homepage "https://fonts.google.com/specimen/Archivo"
 

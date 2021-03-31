@@ -3,9 +3,8 @@ cask "font-amatic-sc" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/amaticsc",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Amatic SC"
   homepage "https://fonts.google.com/specimen/Amatic+SC"
 
