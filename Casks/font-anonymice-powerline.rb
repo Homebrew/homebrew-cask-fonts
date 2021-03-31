@@ -3,8 +3,7 @@ cask "font-anonymice-powerline" do
   sha256 :no_check
 
   url "https://github.com/powerline/fonts/trunk/AnonymousPro",
-      using:      :svn,
-      trust_cert: true
+      using:      :svn
   name "Anonymice Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/AnonymousPro"
 

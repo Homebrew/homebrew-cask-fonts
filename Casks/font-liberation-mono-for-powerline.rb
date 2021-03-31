@@ -3,8 +3,7 @@ cask "font-liberation-mono-for-powerline" do
   sha256 :no_check
 
   url "https://github.com/powerline/fonts/trunk/LiberationMono",
-      using:      :svn,
-      trust_cert: true
+      using: :svn
   name "Literation Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/LiberationMono"
 

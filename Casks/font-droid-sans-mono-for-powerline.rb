@@ -3,8 +3,7 @@ cask "font-droid-sans-mono-for-powerline" do
   sha256 :no_check
 
   url "https://github.com/powerline/fonts/trunk/DroidSansMono",
-      using:      :svn,
-      trust_cert: true
+      using: :svn
   name "Droid Sans Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/DroidSansMono"
 
