@@ -3,9 +3,8 @@ cask "font-tuffy" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/tuffy",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Tuffy"
   homepage "https://fonts.google.com/specimen/Tuffy"
 

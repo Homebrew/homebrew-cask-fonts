@@ -3,9 +3,8 @@ cask "font-pt-serif-caption" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/ptserifcaption",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "PT Serif Caption"
   homepage "https://fonts.google.com/specimen/PT+Serif+Caption"
 

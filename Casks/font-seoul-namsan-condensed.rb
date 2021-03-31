@@ -3,9 +3,8 @@ cask "font-seoul-namsan-condensed" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/seoulnamsancondensed",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Seoul Namsan Condensed"
   homepage "https://fonts.google.com/specimen/Seoul+Namsan+Condensed"
 

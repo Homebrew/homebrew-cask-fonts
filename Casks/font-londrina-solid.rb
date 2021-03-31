@@ -3,9 +3,8 @@ cask "font-londrina-solid" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/londrinasolid",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Londrina Solid"
   homepage "https://fonts.google.com/specimen/Londrina+Solid"
 

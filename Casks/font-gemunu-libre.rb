@@ -3,9 +3,8 @@ cask "font-gemunu-libre" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/gemunulibre",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Gemunu Libre"
   homepage "https://fonts.google.com/specimen/Gemunu+Libre"
 

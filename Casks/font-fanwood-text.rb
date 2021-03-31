@@ -3,9 +3,8 @@ cask "font-fanwood-text" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/fanwoodtext",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Fanwood Text"
   homepage "https://fonts.google.com/specimen/Fanwood+Text"
 

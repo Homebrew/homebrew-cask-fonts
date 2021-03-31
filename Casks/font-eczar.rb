@@ -3,9 +3,8 @@ cask "font-eczar" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/eczar",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Eczar"
   homepage "https://fonts.google.com/specimen/Eczar"
 

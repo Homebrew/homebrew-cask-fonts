@@ -3,8 +3,7 @@ cask "font-fira-mono-for-powerline" do
   sha256 :no_check
 
   url "https://github.com/powerline/fonts/trunk/FiraMono",
-      using:      :svn,
-      trust_cert: true
+      using:      :svn
   name "Fira Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/FiraMono"
 

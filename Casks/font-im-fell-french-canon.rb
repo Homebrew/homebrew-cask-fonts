@@ -3,9 +3,8 @@ cask "font-im-fell-french-canon" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/imfellfrenchcanon",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "IM Fell French Canon"
   homepage "https://fonts.google.com/specimen/IM+Fell+French+Canon"
 

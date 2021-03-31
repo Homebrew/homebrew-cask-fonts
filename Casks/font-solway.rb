@@ -3,9 +3,8 @@ cask "font-solway" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/solway",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Solway"
   homepage "https://fonts.google.com/specimen/Solway"
 

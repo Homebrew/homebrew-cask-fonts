@@ -3,9 +3,8 @@ cask "font-newsreader" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/newsreader",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Newsreader"
   desc "Original typeface primarily intended for continuous on-screen reading"
   homepage "https://fonts.google.com/specimen/Newsreader"

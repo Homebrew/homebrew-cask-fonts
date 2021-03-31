@@ -3,9 +3,8 @@ cask "font-bio-rhyme-expanded" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/biorhymeexpanded",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Bio Rhyme Expanded"
   homepage "https://fonts.google.com/specimen/Bio+Rhyme+Expanded"
 

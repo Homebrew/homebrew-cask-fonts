@@ -3,9 +3,8 @@ cask "font-inria-serif" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/inriaserif",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Inria Serif"
   homepage "https://fonts.google.com/specimen/Inria+Serif"
 

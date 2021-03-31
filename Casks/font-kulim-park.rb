@@ -3,9 +3,8 @@ cask "font-kulim-park" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/kulimpark",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Kulim Park"
   homepage "https://fonts.google.com/specimen/Kulim+Park"
 

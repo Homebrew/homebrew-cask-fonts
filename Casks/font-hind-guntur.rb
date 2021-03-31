@@ -3,9 +3,8 @@ cask "font-hind-guntur" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/hindguntur",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Hind Guntur"
   homepage "https://fonts.google.com/specimen/Hind+Guntur"
 

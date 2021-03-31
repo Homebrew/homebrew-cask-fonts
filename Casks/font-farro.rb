@@ -3,9 +3,8 @@ cask "font-farro" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/farro",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Farro"
   homepage "https://fonts.google.com/specimen/Farro"
 

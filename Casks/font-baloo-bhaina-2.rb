@@ -3,9 +3,8 @@ cask "font-baloo-bhaina-2" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/baloobhaina2",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Baloo Bhaina 2"
   homepage "https://fonts.google.com/specimen/Baloo+Bhaina+2"
 

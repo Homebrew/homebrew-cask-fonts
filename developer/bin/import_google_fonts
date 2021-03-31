@@ -43,8 +43,7 @@ class FontCask:
 {% else %}
   url "https://github.com/google/fonts/trunk/{{folder}}",
       verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      using:      :svn
 {% endif %}
   name "{{font_name}}"
 {% if desc %}
@@ -244,7 +243,7 @@ def derive_cask(family_folder, repo_dir):
 def run():
     if len(sys.argv) != 3:
         print(
-            """Usage: ./import_google_fonts <path-to-repo> [<mode>]
+            """Usage: ./import_google_fonts <path-to-repo> <mode>
 
 Download the or clone the repository from https://github.com/google/fonts, then provide the path to the script.
     """

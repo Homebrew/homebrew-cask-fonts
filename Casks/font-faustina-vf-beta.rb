@@ -3,9 +3,8 @@ cask "font-faustina-vf-beta" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/faustinavfbeta",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Faustina VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
 

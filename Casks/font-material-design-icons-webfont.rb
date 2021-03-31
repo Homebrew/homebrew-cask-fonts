@@ -3,10 +3,9 @@ cask "font-material-design-icons-webfont" do
   sha256 :no_check
 
   url "https://github.com/templarian/materialdesign-webfont/trunk/fonts",
-      verified:   "github.com/templarian/materialdesign-webfont/",
-      using:      :svn,
-      revision:   "50",
-      trust_cert: true
+      verified: "github.com/templarian/materialdesign-webfont/",
+      using:    :svn,
+      revision: "50"
   name "Material Design Icons Webfont"
   homepage "https://materialdesignicons.com/"
 

@@ -3,9 +3,8 @@ cask "font-ubuntu-mono-derivative-powerline" do
   sha256 :no_check
 
   url "https://github.com/powerline/fonts/trunk/UbuntuMono",
-      using:      :svn,
-      revision:   "53",
-      trust_cert: true
+      using:    :svn,
+      revision: "53"
   name "Ubuntu Mono derivative Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/UbuntuMono"
 

@@ -3,9 +3,8 @@ cask "font-livvic" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/livvic",
-      verified:   "github.com/google/fonts/",
-      using:      :svn,
-      trust_cert: true
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Livvic"
   homepage "https://fonts.google.com/specimen/Livvic"
 
