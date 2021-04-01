@@ -5,8 +5,8 @@ cask "font-inter-variable" do
   url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip",
       verified: "github.com/rsms/inter/"
   appcast "https://github.com/rsms/inter/releases.atom"
-  name "Inter"
+  name "Inter Variable"
   homepage "https://rsms.me/inter/"
 
-  font "Inter Variable/Inter.ttf"
+  font "Inter Desktop/Inter-V.ttf"
 end
