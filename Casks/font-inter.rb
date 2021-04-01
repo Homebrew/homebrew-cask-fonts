@@ -1,10 +1,9 @@
 cask "font-inter" do
-  version "3.15"
-  sha256 "1534288eb599f57acbf2c5ac0010da9495c2ee53116e08d799555c6f8ee22156"
+  version "3.18"
+  sha256 "bcffbda52f7b0c7c2a842ac7e77869ff6327cea77fa9035393df695ae90bdc5b"
 
   url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip",
       verified: "github.com/rsms/inter/"
-  appcast "https://github.com/rsms/inter/releases.atom"
   name "Inter"
   homepage "https://rsms.me/inter/"
 
@@ -26,4 +25,5 @@ cask "font-inter" do
   font "Inter Desktop/Inter-SemiBoldItalic.otf"
   font "Inter Desktop/Inter-Thin.otf"
   font "Inter Desktop/Inter-ThinItalic.otf"
+  font "Inter Desktop/Inter-V.ttf"
 end
