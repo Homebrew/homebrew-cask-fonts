@@ -3,8 +3,8 @@ cask "font-share" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/share",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Share"
   homepage "https://fonts.google.com/specimen/Share"
 

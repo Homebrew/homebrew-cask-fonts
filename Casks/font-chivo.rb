@@ -3,8 +3,8 @@ cask "font-chivo" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/chivo",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Chivo"
   homepage "https://fonts.google.com/specimen/Chivo"
 

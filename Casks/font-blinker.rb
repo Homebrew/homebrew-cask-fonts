@@ -3,8 +3,8 @@ cask "font-blinker" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/blinker",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Blinker"
   homepage "https://fonts.google.com/specimen/Blinker"
 

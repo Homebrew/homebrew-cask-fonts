@@ -3,8 +3,8 @@ cask "font-chathura" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/chathura",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Chathura"
   homepage "https://fonts.google.com/specimen/Chathura"
 

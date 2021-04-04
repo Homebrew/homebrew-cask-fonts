@@ -3,8 +3,8 @@ cask "font-baloo-thambi-2" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/baloothambi2",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Baloo Thambi 2"
   homepage "https://fonts.google.com/specimen/Baloo+Thambi+2"
 

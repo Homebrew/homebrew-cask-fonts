@@ -3,8 +3,8 @@ cask "font-shippori-mincho" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/shipporimincho",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Shippori Mincho"
   desc "Based on the Tsukiji Typeface making facility of Tokyo"
   homepage "https://fonts.google.com/specimen/Shippori+Mincho"

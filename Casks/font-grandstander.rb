@@ -3,8 +3,8 @@ cask "font-grandstander" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/grandstander",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Grandstander"
   desc "Display variable font with a weight axis"
   homepage "https://fonts.google.com/specimen/Grandstander"

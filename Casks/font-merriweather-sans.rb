@@ -3,8 +3,8 @@ cask "font-merriweather-sans" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/merriweathersans",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Merriweather Sans"
   homepage "https://fonts.google.com/specimen/Merriweather+Sans"
 

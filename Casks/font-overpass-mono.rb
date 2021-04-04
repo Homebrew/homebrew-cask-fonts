@@ -3,8 +3,8 @@ cask "font-overpass-mono" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/overpassmono",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Overpass Mono"
   homepage "https://fonts.google.com/specimen/Overpass+Mono"
 

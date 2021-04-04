@@ -3,8 +3,8 @@ cask "font-amaranth" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/amaranth",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Amaranth"
   homepage "https://fonts.google.com/specimen/Amaranth"
 

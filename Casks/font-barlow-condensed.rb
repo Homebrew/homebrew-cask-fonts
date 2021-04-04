@@ -3,8 +3,8 @@ cask "font-barlow-condensed" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/barlowcondensed",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Barlow Condensed"
   homepage "https://fonts.google.com/specimen/Barlow+Condensed"
 

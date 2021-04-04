@@ -3,8 +3,8 @@ cask "font-libre-baskerville" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/librebaskerville",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Libre Baskerville"
   homepage "https://fonts.google.com/specimen/Libre+Baskerville"
 

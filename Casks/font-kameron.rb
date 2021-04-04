@@ -3,8 +3,8 @@ cask "font-kameron" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/kameron",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Kameron"
   homepage "https://fonts.google.com/specimen/Kameron"
 

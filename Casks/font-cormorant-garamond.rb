@@ -3,8 +3,8 @@ cask "font-cormorant-garamond" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/cormorantgaramond",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Cormorant Garamond"
   homepage "https://fonts.google.com/specimen/Cormorant+Garamond"
 

@@ -3,8 +3,8 @@ cask "font-pragati-narrow" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/pragatinarrow",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Pragati Narrow"
   homepage "https://fonts.google.com/specimen/Pragati+Narrow"
 

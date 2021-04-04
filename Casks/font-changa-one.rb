@@ -3,8 +3,8 @@ cask "font-changa-one" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/changaone",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Changa One"
   homepage "https://fonts.google.com/specimen/Changa+One"
 

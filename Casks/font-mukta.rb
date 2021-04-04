@@ -3,8 +3,8 @@ cask "font-mukta" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/mukta",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Mukta"
   homepage "https://fonts.google.com/specimen/Mukta"
 

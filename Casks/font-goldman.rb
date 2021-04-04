@@ -3,8 +3,8 @@ cask "font-goldman" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/goldman",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Goldman"
   desc "Latin display typeface designed for posters"
   homepage "https://fonts.google.com/specimen/Goldman"

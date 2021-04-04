@@ -3,8 +3,8 @@ cask "font-dm-sans" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/dmsans",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "DM Sans"
   homepage "https://fonts.google.com/specimen/DM+Sans"
 

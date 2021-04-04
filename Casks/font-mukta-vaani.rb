@@ -3,8 +3,8 @@ cask "font-mukta-vaani" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/muktavaani",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Mukta Vaani"
   homepage "https://fonts.google.com/specimen/Mukta+Vaani"
 

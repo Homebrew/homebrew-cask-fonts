@@ -3,8 +3,8 @@ cask "font-cantarell" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/cantarell",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Cantarell"
   homepage "https://fonts.google.com/specimen/Cantarell"
 

@@ -3,8 +3,8 @@ cask "font-mada" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/mada",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Mada"
   homepage "https://fonts.google.com/specimen/Mada"
 

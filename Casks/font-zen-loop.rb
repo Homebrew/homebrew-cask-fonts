@@ -3,8 +3,8 @@ cask "font-zen-loop" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/zenloop",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Zen Loop"
   desc "Latin fonts designed by yoshimichi ohira, as part of zen fonts collection"
   homepage "https://fonts.google.com/specimen/Zen+Loop"

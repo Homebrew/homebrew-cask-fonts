@@ -3,8 +3,8 @@ cask "font-poly" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/poly",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Poly"
   homepage "https://fonts.google.com/specimen/Poly"
 

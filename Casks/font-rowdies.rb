@@ -3,8 +3,8 @@ cask "font-rowdies" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/rowdies",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Rowdies"
   homepage "https://fonts.google.com/specimen/Rowdies"
 

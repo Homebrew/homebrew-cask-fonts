@@ -3,8 +3,8 @@ cask "font-lobster-two" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/lobstertwo",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Lobster Two"
   homepage "https://fonts.google.com/specimen/Lobster+Two"
 

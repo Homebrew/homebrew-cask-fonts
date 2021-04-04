@@ -3,8 +3,8 @@ cask "font-martel-sans" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/martelsans",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Martel Sans"
   homepage "https://fonts.google.com/specimen/Martel+Sans"
 

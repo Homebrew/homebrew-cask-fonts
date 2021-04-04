@@ -3,8 +3,8 @@ cask "font-exo-2" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/exo2",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Exo 2"
   homepage "https://fonts.google.com/specimen/Exo+2"
 

@@ -3,8 +3,8 @@ cask "font-k2d" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/k2d",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "K2D"
   homepage "https://fonts.google.com/specimen/K2D"
 

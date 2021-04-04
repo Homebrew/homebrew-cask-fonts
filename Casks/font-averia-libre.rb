@@ -3,8 +3,8 @@ cask "font-averia-libre" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/averialibre",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Averia Libre"
   homepage "https://fonts.google.com/specimen/Averia+Libre"
 

@@ -3,8 +3,8 @@ cask "font-big-shoulders-display" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/bigshouldersdisplay",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Big Shoulders Display"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Display"
 

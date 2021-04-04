@@ -3,8 +3,8 @@ cask "font-nunito-sans" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/nunitosans",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Nunito Sans"
   homepage "https://fonts.google.com/specimen/Nunito+Sans"
 

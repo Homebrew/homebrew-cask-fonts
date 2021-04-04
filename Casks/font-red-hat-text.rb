@@ -3,8 +3,8 @@ cask "font-red-hat-text" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/redhattext",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Red Hat Text"
   homepage "https://fonts.google.com/specimen/Red+Hat+Text"
 

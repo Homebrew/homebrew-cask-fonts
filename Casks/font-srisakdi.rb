@@ -3,8 +3,8 @@ cask "font-srisakdi" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/srisakdi",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Srisakdi"
   homepage "https://fonts.google.com/specimen/Srisakdi"
 

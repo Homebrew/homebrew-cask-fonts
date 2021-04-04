@@ -3,8 +3,8 @@ cask "font-crimson-text" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/crimsontext",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Crimson Text"
   homepage "https://fonts.google.com/specimen/Crimson+Text"
 

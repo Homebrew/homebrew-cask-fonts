@@ -3,8 +3,8 @@ cask "font-rubik" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/rubik",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Rubik"
   homepage "https://fonts.google.com/specimen/Rubik"
 

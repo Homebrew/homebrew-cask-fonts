@@ -3,8 +3,8 @@ cask "font-open-sans-hebrew" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/apache/opensanshebrew",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Open Sans Hebrew"
   homepage "https://fonts.google.com/earlyaccess"
 

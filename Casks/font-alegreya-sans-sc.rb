@@ -3,8 +3,8 @@ cask "font-alegreya-sans-sc" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/alegreyasanssc",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Alegreya Sans SC"
   homepage "https://fonts.google.com/specimen/Alegreya+Sans+SC"
 

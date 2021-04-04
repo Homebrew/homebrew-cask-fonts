@@ -3,8 +3,8 @@ cask "font-chakra-petch" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/chakrapetch",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Chakra Petch"
   homepage "https://fonts.google.com/specimen/Chakra+Petch"
 

@@ -3,8 +3,8 @@ cask "font-abhaya-libre" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/abhayalibre",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Abhaya Libre"
   homepage "https://fonts.google.com/specimen/Abhaya+Libre"
 

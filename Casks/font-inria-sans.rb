@@ -3,8 +3,8 @@ cask "font-inria-sans" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/inriasans",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Inria Sans"
   homepage "https://fonts.google.com/specimen/Inria+Sans"
 

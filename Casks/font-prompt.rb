@@ -3,8 +3,8 @@ cask "font-prompt" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/prompt",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Prompt"
   homepage "https://fonts.google.com/specimen/Prompt"
 

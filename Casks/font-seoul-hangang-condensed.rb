@@ -3,8 +3,8 @@ cask "font-seoul-hangang-condensed" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/seoulhangangcondensed",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Seoul Hangang Condensed"
   homepage "https://fonts.google.com/specimen/Seoul+Hangang+Condensed"
 

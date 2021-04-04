@@ -3,8 +3,8 @@ cask "font-yaldevi-colombo" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/yaldevicolombo",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Yaldevi Colombo"
   homepage "https://fonts.google.com/specimen/Yaldevi+Colombo"
 

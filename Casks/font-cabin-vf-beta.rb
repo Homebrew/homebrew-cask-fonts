@@ -3,8 +3,8 @@ cask "font-cabin-vf-beta" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/cabinvfbeta",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Cabin VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
 

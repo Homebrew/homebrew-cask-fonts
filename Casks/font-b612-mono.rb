@@ -3,8 +3,8 @@ cask "font-b612-mono" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/b612mono",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "B612 Mono"
   homepage "https://fonts.google.com/specimen/B612+Mono"
 

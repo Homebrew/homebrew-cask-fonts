@@ -3,8 +3,8 @@ cask "font-archivo-narrow" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/archivonarrow",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Archivo Narrow"
   homepage "https://fonts.google.com/specimen/Archivo+Narrow"
 

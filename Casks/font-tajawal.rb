@@ -3,8 +3,8 @@ cask "font-tajawal" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/tajawal",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Tajawal"
   homepage "https://fonts.google.com/specimen/Tajawal"
 

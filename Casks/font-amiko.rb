@@ -3,8 +3,8 @@ cask "font-amiko" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/amiko",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Amiko"
   homepage "https://fonts.google.com/specimen/Amiko"
 

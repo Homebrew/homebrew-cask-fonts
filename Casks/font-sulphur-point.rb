@@ -3,8 +3,8 @@ cask "font-sulphur-point" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/sulphurpoint",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Sulphur Point"
   homepage "https://fonts.google.com/specimen/Sulphur+Point"
 

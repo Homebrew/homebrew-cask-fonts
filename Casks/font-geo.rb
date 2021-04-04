@@ -3,8 +3,8 @@ cask "font-geo" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/geo",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified:   "github.com/google/fonts/",
+      using:      :svn
   name "Geo"
   homepage "https://fonts.google.com/specimen/Geo"
 
