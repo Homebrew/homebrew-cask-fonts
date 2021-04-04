@@ -42,8 +42,8 @@ class FontCask:
       verified: "github.com/google/fonts/"
 {% else %}
   url "https://github.com/google/fonts/trunk/{{folder}}",
-      verified:   "github.com/google/fonts/",
-      using:      :svn
+      verified: "github.com/google/fonts/",
+      using:    :svn
 {% endif %}
   name "{{font_name}}"
 {% if desc %}
