@@ -1,8 +1,8 @@
 cask "font-source-han-sans" do
-  version "2.003R"
+  version "2.003"
   sha256 "02947fcec1fbb97b3369dc30113c9f07363359aed82788bf38eef17b894bf045"
 
-  url "https://github.com/adobe-fonts/source-han-sans/raw/#{version}/SuperOTC/SourceHanSans.ttc.zip"
+  url "https://github.com/adobe-fonts/source-han-sans/raw/#{version}R/SuperOTC/SourceHanSans.ttc.zip"
   name "Source Han Sans"
   name "思源黑體"
   name "源ノ角ゴシック"
@@ -11,7 +11,7 @@ cask "font-source-han-sans" do
   homepage "https://github.com/adobe-fonts/source-han-sans"
 
   livecheck do
-    url "https://github.com/adobe-fonts/source-han-sans/releases"
+    url "https://github.com/adobe-fonts/source-han-sans"
     strategy :github_latest
   end
 
