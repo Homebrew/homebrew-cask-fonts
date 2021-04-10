@@ -10,5 +10,10 @@ cask "font-source-han-sans" do
   desc "OpenType/CFF Pan-CJK fonts"
   homepage "https://github.com/adobe-fonts/source-han-sans"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "SourceHanSans.ttc"
 end
