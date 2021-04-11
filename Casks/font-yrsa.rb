@@ -8,9 +8,6 @@ cask "font-yrsa" do
   name "Yrsa"
   homepage "https://fonts.google.com/specimen/Yrsa"
 
-  font "Yrsa-Bold.ttf"
-  font "Yrsa-Light.ttf"
-  font "Yrsa-Medium.ttf"
-  font "Yrsa-Regular.ttf"
-  font "Yrsa-SemiBold.ttf"
+  font "Yrsa-Italic[wght].ttf"
+  font "Yrsa[wght].ttf"
 end
