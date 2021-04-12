@@ -8,9 +8,6 @@ cask "font-rasa" do
   name "Rasa"
   homepage "https://fonts.google.com/specimen/Rasa"
 
-  font "Rasa-Bold.ttf"
-  font "Rasa-Light.ttf"
-  font "Rasa-Medium.ttf"
-  font "Rasa-Regular.ttf"
-  font "Rasa-SemiBold.ttf"
+  font "Rasa-Italic[wght].ttf"
+  font "Rasa[wght].ttf"
 end
