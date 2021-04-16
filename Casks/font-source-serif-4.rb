@@ -3,10 +3,15 @@ cask "font-source-serif-4" do
   sha256 "cb3e95d6e3c1273d44300dd464e568d4c9613b28199c53c50454af4b40bbdac1"
 
   url "https://github.com/adobe-fonts/source-serif/releases/download/#{version}R/source-serif-#{version}.zip"
-  appcast "https://github.com/adobe-fonts/source-serif/releases.atom"
   name "Source Serif 4"
   desc "Open-source typeface to complement the Source Sans family"
   homepage "https://github.com/adobe-fonts/source-serif"
+
+  livecheck do
+    url "https://github.com/adobe-fonts/source-sans/releases/latest"
+    strategy :page_match
+    regex(%r{tag/(\d+(?:\.\d+)*)}i)
+  end
 
   font "source-serif-#{version}/OTF/SourceSerif4-Bold.otf"
   font "source-serif-#{version}/OTF/SourceSerif4-Black.otf"
