@@ -8,7 +8,7 @@ cask "font-source-serif-4" do
   homepage "https://github.com/adobe-fonts/source-serif"
 
   livecheck do
-    url "https://github.com/adobe-fonts/source-sans/releases/latest"
+    url "https://github.com/adobe-fonts/source-serif/releases/latest"
     strategy :page_match
     regex(%r{tag/(\d+(?:\.\d+)*)}i)
   end
