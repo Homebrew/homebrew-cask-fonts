@@ -17,4 +17,11 @@ cask "font-source-han-sans" do
   end
 
   font "SourceHanSans.ttc"
+
+  caveats <<~EOS
+    To install the variable font edition of #{token}:
+
+      brew install --cask font-source-han-sans-vf
+      brew install --cask font-source-han-sans-hw-vf
+  EOS
 end
