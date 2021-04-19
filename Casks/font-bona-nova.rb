@@ -6,7 +6,7 @@ cask "font-bona-nova" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Bona Nova"
-  desc "Digitisation of bona, a cursive typeface designed in 1971 by andrzej heidrich — the creator of polish banknotes"
+  desc "Cursive typeface"
   homepage "https://fonts.google.com/specimen/Bona+Nova"
 
   font "BonaNova-Bold.ttf"
