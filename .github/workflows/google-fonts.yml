@@ -56,7 +56,7 @@ jobs:
           title: Automatic ${{ matrix.noun }} of Google Fonts
           body: |
             This pull request was created automatically by the [`google-fonts`](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/.github/workflows/google-fonts.yml) workflow.
-          token: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
+          token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
       - name: Print pull request URL
         if: steps.create-pull-request.outputs.pull-request-number
         run: |
