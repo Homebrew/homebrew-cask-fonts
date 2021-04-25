@@ -6,7 +6,6 @@ cask "font-source-code-pro" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Source Code Pro"
-  desc "Expected that incremental updates will be made over time to extend glyph set coverage and functionality"
   homepage "https://fonts.google.com/specimen/Source+Code+Pro"
 
   font "SourceCodePro-Black.ttf"
