@@ -9,8 +9,8 @@ cask "font-jetbrains-mono" do
   homepage "https://www.jetbrains.com/lp/mono"
 
   livecheck do
-    url "https://github.com/JetBrains/JetBrainsMono/releases.atom"
-    strategy :sparkle
+    url "https://github.com/JetBrains/JetBrainsMono"
+    strategy :gitHub_latest
   end
 
   font "fonts/ttf/JetBrainsMono-Bold.ttf"
@@ -41,4 +41,6 @@ cask "font-jetbrains-mono" do
   font "fonts/ttf/JetBrainsMonoNL-Regular.ttf"
   font "fonts/ttf/JetBrainsMonoNL-Thin.ttf"
   font "fonts/ttf/JetBrainsMonoNL-ThinItalic.ttf"
+  font "fonts/variable/JetBrainsMono-Italic[wght].ttf"
+  font "fonts/variable/JetBrainsMono[wght].ttf"
 end
