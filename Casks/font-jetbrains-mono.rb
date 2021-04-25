@@ -4,10 +4,14 @@ cask "font-jetbrains-mono" do
 
   url "https://github.com/JetBrains/JetBrainsMono/releases/download/v#{version}/JetBrainsMono-#{version}.zip",
       verified: "github.com/JetBrains/JetBrainsMono/"
-  appcast "https://github.com/JetBrains/JetBrainsMono/releases.atom"
   name "JetBrains Mono"
   desc "Typeface made for developers"
   homepage "https://www.jetbrains.com/lp/mono"
+
+  livecheck do
+    url "https://github.com/JetBrains/JetBrainsMono"
+    strategy :gitHub_latest
+  end
 
   font "fonts/ttf/JetBrainsMono-Bold.ttf"
   font "fonts/ttf/JetBrainsMono-BoldItalic.ttf"
