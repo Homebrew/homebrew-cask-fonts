@@ -5,7 +5,6 @@ cask "font-hina-mincho" do
   url "https://github.com/google/fonts/raw/main/ofl/hinamincho/HinaMincho-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Hina Mincho"
-  desc "Licensed under the sil open font license, version 1"
   homepage "https://fonts.google.com/specimen/Hina+Mincho"
 
   font "HinaMincho-Regular.ttf"
