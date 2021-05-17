@@ -3,8 +3,7 @@ cask "font-source-code-pro" do
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/sourcecodepro",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+      verified: "github.com/google/fonts/"
   name "Source Code Pro"
   homepage "https://fonts.google.com/specimen/Source+Code+Pro"
 
