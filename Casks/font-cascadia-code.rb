@@ -13,4 +13,10 @@ cask "font-cascadia-code" do
   font "ttf/static/CascadiaCode-Regular.ttf"
   font "ttf/static/CascadiaCode-SemiBold.ttf"
   font "ttf/static/CascadiaCode-SemiLight.ttf"
+  font "ttf/static/CascadiaCodeItalic-BoldItalic.ttf"
+  font "ttf/static/CascadiaCodeItalic-ExtraLightItalic.ttf"
+  font "ttf/static/CascadiaCodeItalic-Italic.ttf"
+  font "ttf/static/CascadiaCodeItalic-LightItalic.ttf"
+  font "ttf/static/CascadiaCodeItalic-SemiBoldItalic.ttf"
+  font "ttf/static/CascadiaCodeItalic-SemiLightItalic.ttf"
 end
