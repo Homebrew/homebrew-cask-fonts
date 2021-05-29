@@ -3,7 +3,6 @@ cask "font-cascadia-mono-pl" do
   sha256 "4edd89afd1009e1da121792c44bec6192001f3ffe2186a9e6f554c3bb8f5fb0b"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
-  appcast "https://github.com/microsoft/cascadia-code/releases.atom"
   name "Cascadia Mono PL"
   desc "Version of Cascadia Code without ligatures and with embedded Powerline symbols"
   homepage "https://github.com/microsoft/cascadia-code"
@@ -14,4 +13,10 @@ cask "font-cascadia-mono-pl" do
   font "ttf/static/CascadiaMonoPL-Regular.ttf"
   font "ttf/static/CascadiaMonoPL-SemiBold.ttf"
   font "ttf/static/CascadiaMonoPL-SemiLight.ttf"
+  font "ttf/static/CascadiaMonoPLItalic-BoldItalic.ttf"
+  font "ttf/static/CascadiaMonoPLItalic-ExtraLightItalic.ttf"
+  font "ttf/static/CascadiaMonoPLItalic-Italic.ttf"
+  font "ttf/static/CascadiaMonoPLItalic-LightItalic.ttf"
+  font "ttf/static/CascadiaMonoPLItalic-SemiBoldItalic.ttf"
+  font "ttf/static/CascadiaMonoPLItalic-SemiLightItalic.ttf"
 end
