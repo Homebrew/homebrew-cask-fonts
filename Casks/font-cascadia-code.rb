@@ -3,7 +3,6 @@ cask "font-cascadia-code" do
   sha256 "4edd89afd1009e1da121792c44bec6192001f3ffe2186a9e6f554c3bb8f5fb0b"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
-  appcast "https://github.com/microsoft/cascadia-code/releases.atom"
   name "Cascadia Code"
   desc "Monospaced font that includes programming ligatures"
   homepage "https://github.com/microsoft/cascadia-code"
