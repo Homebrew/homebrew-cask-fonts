@@ -1,9 +1,8 @@
 cask "font-cascadia-code" do
-  version "2102.25"
-  sha256 "a64e8834f06ec9acca4a5307cb6cf35922021d4fd0ca19096f8bf6a3e2515ad3"
+  version "2105.24"
+  sha256 "4edd89afd1009e1da121792c44bec6192001f3ffe2186a9e6f554c3bb8f5fb0b"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
-  appcast "https://github.com/microsoft/cascadia-code/releases.atom"
   name "Cascadia Code"
   desc "Monospaced font that includes programming ligatures"
   homepage "https://github.com/microsoft/cascadia-code"
@@ -14,4 +13,10 @@ cask "font-cascadia-code" do
   font "ttf/static/CascadiaCode-Regular.ttf"
   font "ttf/static/CascadiaCode-SemiBold.ttf"
   font "ttf/static/CascadiaCode-SemiLight.ttf"
+  font "ttf/static/CascadiaCodeItalic-BoldItalic.ttf"
+  font "ttf/static/CascadiaCodeItalic-ExtraLightItalic.ttf"
+  font "ttf/static/CascadiaCodeItalic-Italic.ttf"
+  font "ttf/static/CascadiaCodeItalic-LightItalic.ttf"
+  font "ttf/static/CascadiaCodeItalic-SemiBoldItalic.ttf"
+  font "ttf/static/CascadiaCodeItalic-SemiLightItalic.ttf"
 end
