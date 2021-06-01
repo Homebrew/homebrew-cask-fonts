@@ -1,6 +1,6 @@
 cask "font-cormorant" do
-  version "3.601"
-  sha256 "59997266f48655f7365c0de16d2c4ea6e92a7d8f549fd97c95f1cbe307901e1e"
+  version "3.609"
+  sha256 "e394546eec6dfdfc235b667b00bbc5b4b6144110d6ed1810fc3570098a4fba7b"
 
   url "https://github.com/CatharsisFonts/Cormorant/releases/download/v#{version}/Cormorant_Install_v#{version}.zip"
   appcast "https://github.com/CatharsisFonts/Cormorant/releases.atom"
