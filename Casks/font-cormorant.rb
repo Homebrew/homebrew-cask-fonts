@@ -3,9 +3,12 @@ cask "font-cormorant" do
   sha256 "e394546eec6dfdfc235b667b00bbc5b4b6144110d6ed1810fc3570098a4fba7b"
 
   url "https://github.com/CatharsisFonts/Cormorant/releases/download/v#{version}/Cormorant_Install_v#{version}.zip"
-  appcast "https://github.com/CatharsisFonts/Cormorant/releases.atom"
   name "Cormorant"
   homepage "https://github.com/CatharsisFonts/Cormorant/"
+
+  livecheck do
+    url :url
+  end
 
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-Bold.ttf"
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-BoldItalic.ttf"
