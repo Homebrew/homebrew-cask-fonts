@@ -5,7 +5,7 @@ cask "font-style-script" do
   url "https://github.com/google/fonts/raw/main/ofl/stylescript/StyleScript-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Style Script"
-  desc "Beautiful upright script with looks that vary from casual to formal in appearance"
+  desc "Upright script with looks that vary from casual to formal in appearance"
   homepage "https://fonts.google.com/specimen/Style+Script"
 
   font "StyleScript-Regular.ttf"
