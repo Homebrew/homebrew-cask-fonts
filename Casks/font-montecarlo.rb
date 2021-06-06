@@ -1,0 +1,12 @@
+cask "font-montecarlo" do
+  version :latest
+  sha256 :no_check
+
+  url "https://github.com/google/fonts/raw/main/ofl/montecarlo/MonteCarlo-Regular.ttf",
+      verified: "github.com/google/fonts/"
+  name "MonteCarlo"
+  desc "Perfect for those situations that require an ornate look, and a readable message, without compromising beautiful design"
+  homepage "https://fonts.google.com/specimen/MonteCarlo"
+
+  font "MonteCarlo-Regular.ttf"
+end
