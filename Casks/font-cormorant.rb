@@ -6,10 +6,6 @@ cask "font-cormorant" do
   name "Cormorant"
   homepage "https://github.com/CatharsisFonts/Cormorant/"
 
-  livecheck do
-    url :url
-  end
-
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-Bold.ttf"
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-BoldItalic.ttf"
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-Italic.ttf"
