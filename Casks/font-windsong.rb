@@ -6,7 +6,7 @@ cask "font-windsong" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "WindSong"
-  desc "Beautiful elongated script with multiple stylistic sets that gives a powerful solution to the design needs of the graphic design professional"
+  desc "Elongated script with multiple stylistic sets"
   homepage "https://fonts.google.com/specimen/WindSong"
 
   font "WindSong-Medium.ttf"
