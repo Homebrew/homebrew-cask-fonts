@@ -1,6 +1,6 @@
 cask "font-iosevka-curly" do
-  version "7.0.3"
-  sha256 "ddf77d0840d6d2cc8393e138d6d2fd4eb116ae4e4e8305302a8a2fdad0584d8a"
+  version "7.0.4"
+  sha256 "0f235295465f65e18d8e11eacb91f66d7c05ed2b28edddfa724c95da7039136a"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-curly-#{version}.zip"
   name "Iosevka Curly"
