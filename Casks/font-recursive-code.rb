@@ -3,7 +3,6 @@ cask "font-recursive-code" do
   sha256 "2571694c0ebfef1b89604b9f66db80961941048b1ca5a0015c2be7401c67c556"
 
   url "https://github.com/arrowtype/recursive/releases/download/v#{version}/ArrowType-Recursive-#{version}.zip"
-  appcast "https://github.com/arrowtype/recursive/releases.atom"
   name "Recursive Code"
   desc "Recursive's prebuilt text-editor-friendly files, including powerline glyphs"
   homepage "https://github.com/arrowtype/recursive"
