@@ -4,7 +4,6 @@ cask "font-fontawesome" do
 
   url "https://github.com/FortAwesome/Font-Awesome/releases/download/#{version}/fontawesome-free-#{version}-desktop.zip",
       verified: "github.com/FortAwesome/Font-Awesome/"
-  appcast "https://github.com/FortAwesome/Font-Awesome/releases.atom"
   name "Font Awesome"
   desc "Icon set and toolkit"
   homepage "https://fontawesome.com/"
