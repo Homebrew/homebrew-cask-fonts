@@ -3,9 +3,13 @@ cask "font-ibm-plex" do
   sha256 "61085afbb80992cfcc9c529efb48e0c56e1a174826dda8de852492d2fb449f7e"
 
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
-  appcast "https://github.com/IBM/plex/releases.atom"
   name "IBM Plex"
   homepage "https://github.com/IBM/plex"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "OpenType/IBM-Plex-Mono/IBMPlexMono-Bold.otf"
   font "OpenType/IBM-Plex-Mono/IBMPlexMono-BoldItalic.otf"
