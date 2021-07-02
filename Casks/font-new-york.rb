@@ -1,8 +1,8 @@
 cask "font-new-york" do
-  version "16.0d2e2"
+  version "17.0d5e1"
   sha256 :no_check
 
-  url "https://devimages-cdn.apple.com/design/resources/download/NY-Font.dmg"
+  url "https://devimages-cdn.apple.com/design/resources/download/NY.dmg"
   name "New York"
   name "NY"
   desc "Serif font \"New York\" by Apple"
