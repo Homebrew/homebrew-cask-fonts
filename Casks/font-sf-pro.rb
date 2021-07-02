@@ -1,8 +1,8 @@
 cask "font-sf-pro" do
-  version "16.0d18e1"
+  version "17.0d9e1"
   sha256 :no_check
 
-  url "https://devimages-cdn.apple.com/design/resources/download/SF-Font-Pro.dmg"
+  url "https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg"
   name "San Francisco Pro"
   name "SF Pro"
   desc "Sans-serif variant of \"San Francisco\" by Apple"
