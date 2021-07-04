@@ -8,12 +8,6 @@ cask "font-red-hat-display" do
   name "Red Hat Display"
   homepage "https://fonts.google.com/specimen/Red+Hat+Display"
 
-  font "RedHatDisplay-Black.ttf"
-  font "RedHatDisplay-BlackItalic.ttf"
-  font "RedHatDisplay-Bold.ttf"
-  font "RedHatDisplay-BoldItalic.ttf"
-  font "RedHatDisplay-Italic.ttf"
-  font "RedHatDisplay-Medium.ttf"
-  font "RedHatDisplay-MediumItalic.ttf"
-  font "RedHatDisplay-Regular.ttf"
+  font "RedHatDisplay-Italic[wght].ttf"
+  font "RedHatDisplay[wght].ttf"
 end
