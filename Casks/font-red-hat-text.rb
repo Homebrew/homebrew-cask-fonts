@@ -8,10 +8,6 @@ cask "font-red-hat-text" do
   name "Red Hat Text"
   homepage "https://fonts.google.com/specimen/Red+Hat+Text"
 
-  font "RedHatText-Bold.ttf"
-  font "RedHatText-BoldItalic.ttf"
-  font "RedHatText-Italic.ttf"
-  font "RedHatText-Medium.ttf"
-  font "RedHatText-MediumItalic.ttf"
-  font "RedHatText-Regular.ttf"
+  font "RedHatText-Italic[wght].ttf"
+  font "RedHatText[wght].ttf"
 end
