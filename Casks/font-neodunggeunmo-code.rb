@@ -4,7 +4,6 @@ cask "font-neodunggeunmo-code" do
 
   url "https://github.com/Dalgona/neodgm/releases/download/v#{version}/neodgm_code.ttf",
       verified: "github.com/Dalgona/neodgm/"
-  appcast "https://github.com/Dalgona/neodgm/releases.atom"
   name "NeoDunggeunmo Code"
   desc "Modern TrueType font based on an old-but-good Korean bitmap font"
   homepage "https://neodgm.dalgona.dev/"
