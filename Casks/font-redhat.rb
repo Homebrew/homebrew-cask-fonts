@@ -29,4 +29,3 @@ cask "font-redhat" do
   font "RedHatFont-#{version}/fonts/proportional/RedHatTextVF-Italic[wght].ttf"
   font "RedHatFont-#{version}/fonts/proportional/RedHatTextVF[wght].ttf"
 end
-  
