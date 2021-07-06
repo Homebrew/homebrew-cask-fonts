@@ -116,9 +116,9 @@ end
 
 def stanzify(stanza_name, val = "")
   if val.respond_to?(:map)
-    val.map { |x| "  #{stanza_name} '#{x}'" }
+    val.map { |x| "  #{stanza_name} \"#{x}\"" }
   else
-    "  #{stanza_name} '#{val}'"
+    "  #{stanza_name} \"#{val}\""
   end
 end
 
