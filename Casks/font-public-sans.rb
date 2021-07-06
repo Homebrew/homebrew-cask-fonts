@@ -25,6 +25,6 @@ cask "font-public-sans" do
   font "binaries/otf/PublicSans-SemiBoldItalic.otf"
   font "binaries/otf/PublicSans-Thin.otf"
   font "binaries/otf/PublicSans-ThinItalic.otf"
-  font "binaries/variable/Public-Sans-Italic-VF.tff"
-  font "binaries/variable/Public-Sans-Roman-VF.tff"
+  font "binaries/variable/Public-Sans-Italic-VF.ttf"
+  font "binaries/variable/Public-Sans-Roman-VF.ttf"
 end
