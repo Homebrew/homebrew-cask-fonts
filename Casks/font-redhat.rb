@@ -1,11 +1,11 @@
 cask "font-redhat" do
   version "4.0.2"
   sha256 "0e4e853c70dba15ba4cc93aed61ff5c64827333c2b77f3decb6e11a34af70b10"
-  
+
   url "https://github.com/RedHatOfficial/RedHatFont/archive/#{version}.tar.gz"
   name "Red Hat"
   homepage "https://github.com/RedHatOfficial/RedHatFont/"
-  
+
   font "RedHatFont-#{version}/fonts/proportional/static/otf/RedHatDisplay-Black.otf"
   font "RedHatFont-#{version}/fonts/proportional/static/otf/RedHatDisplay-BlackItalic.otf"
   font "RedHatFont-#{version}/fonts/proportional/static/otf/RedHatDisplay-Bold.otf"
