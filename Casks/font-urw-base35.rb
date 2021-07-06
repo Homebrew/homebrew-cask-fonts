@@ -1,10 +1,9 @@
 cask "font-urw-base35" do
   # NOTE: "35" is not a version number, but an intrinsic part of the product name
-  version "20170801"
-  sha256 "4505042c8859166f5bff77e33907e244b66eb4e04b56646e14e0a97e5757cd21"
+  version "20200910"
+  sha256 "66eed7ca2dfbf44665aa34cb80559f4a90807d46858ccf76c34f9ac1701cfa27"
 
   url "https://github.com/ArtifexSoftware/urw-base35-fonts/archive/#{version}.zip"
-  appcast "https://github.com/ArtifexSoftware/urw-base35-fonts/releases.atom"
   name "URW++ base 35"
   homepage "https://github.com/ArtifexSoftware/urw-base35-fonts"
 
@@ -25,8 +24,8 @@ cask "font-urw-base35" do
   font "urw-base35-fonts-#{version}/fonts/NimbusSans-BoldItalic.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSans-Italic.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSans-Regular.otf"
-  font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-BdOblique.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-Bold.otf"
+  font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-BoldOblique.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-Oblique.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-Regular.otf"
   font "urw-base35-fonts-#{version}/fonts/P052-Bold.otf"
