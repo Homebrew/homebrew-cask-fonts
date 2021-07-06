@@ -4,7 +4,6 @@ cask "font-urw-base35" do
   sha256 "66eed7ca2dfbf44665aa34cb80559f4a90807d46858ccf76c34f9ac1701cfa27"
 
   url "https://github.com/ArtifexSoftware/urw-base35-fonts/archive/#{version}.zip"
-  appcast "https://github.com/ArtifexSoftware/urw-base35-fonts/releases.atom"
   name "URW++ base 35"
   homepage "https://github.com/ArtifexSoftware/urw-base35-fonts"
 
@@ -25,8 +24,8 @@ cask "font-urw-base35" do
   font "urw-base35-fonts-#{version}/fonts/NimbusSans-BoldItalic.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSans-Italic.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSans-Regular.otf"
-  font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-BdOblique.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-Bold.otf"
+  font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-BoldOblique.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-Oblique.otf"
   font "urw-base35-fonts-#{version}/fonts/NimbusSansNarrow-Regular.otf"
   font "urw-base35-fonts-#{version}/fonts/P052-Bold.otf"
