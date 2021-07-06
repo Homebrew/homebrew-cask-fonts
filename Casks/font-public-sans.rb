@@ -28,4 +28,3 @@ cask "font-public-sans" do
   font "binaries/variable/Public-Sans-Italic-VF.tff"
   font "binaries/variable/Public-Sans-Roman-VF.tff"
 end
-  
