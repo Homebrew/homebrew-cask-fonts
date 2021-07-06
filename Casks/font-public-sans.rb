@@ -1,6 +1,6 @@
 cask "font-public-sans" do
-  version "1.006"
-  sha256 "d849e9b590d7f60480d47488c939e097580449dae8fe0fbd3411d3144a11b2e1"
+  version "1.008"
+  sha256 "12c5880048ad3f62f8b6f868142cb8b694029a037b6886788ce587babe026874"
 
   url "https://github.com/uswds/public-sans/releases/download/v#{version}/public-sans-v#{version}.zip",
       verified: "github.com/uswds/public-sans/"
