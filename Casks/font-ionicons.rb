@@ -1,6 +1,6 @@
 cask "font-ionicons" do
-  version "2.0.1"
-  sha256 "b222fcaede908b71d5b206db9fb7b625a07d313be00ee908eabd267604868661"
+  version "5.5.2"
+  sha256 "b3181a6132313b8190fd4c081e8438f595b762469c7073742c0cf837b7245b3a"
 
   url "https://github.com/ionic-team/ionicons/archive/v#{version}.zip"
   appcast "https://github.com/ionic-team/ionicons/releases.atom"
