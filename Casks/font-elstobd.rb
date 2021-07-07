@@ -54,6 +54,4 @@ cask "font-elstobd" do
   font "Elstob_font/desktop/ElstobD-Regular.ttf"
   font "Elstob_font/desktop/ElstobD-SemiBold.ttf"
   font "Elstob_font/desktop/ElstobD-SemiBoldItalic.ttf"
-  font "Elstob_font/variable/Elstob-Italic[GRAD,opsz,wght].ttf"
-  font "Elstob_font/variable/Elstob[GRAD,opsz,wght].ttf"
 end
