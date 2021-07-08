@@ -3,7 +3,6 @@ cask "font-urbanist" do
   sha256 "653b0298e14c0ee6a530b466e2af88b88a1b829edbdaf0e6500efcd4561fd1d0"
 
   url "https://github.com/coreywho/Urbanist/releases/download/#{version}/Urbanist_Font_Family_#{version}.zip"
-  appcast "https://github.com/coreywho/Urbanist/releases.atom"
   name "Urbanist"
   homepage "https://github.com/coreywho/Urbanist"
 
