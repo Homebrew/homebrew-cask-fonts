@@ -1,6 +1,6 @@
 cask "font-cascadia-mono" do
-  version "2105.24"
-  sha256 "4edd89afd1009e1da121792c44bec6192001f3ffe2186a9e6f554c3bb8f5fb0b"
+  version "2106.17"
+  sha256 "22c030fec5e5c516580fd6e24b385c935baae2f6c110024aeba20240d533a68a"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   name "Cascadia Mono"
@@ -8,15 +8,15 @@ cask "font-cascadia-mono" do
   homepage "https://github.com/microsoft/cascadia-code"
 
   font "ttf/static/CascadiaMono-Bold.ttf"
+  font "ttf/static/CascadiaMono-BoldItalic.ttf"
   font "ttf/static/CascadiaMono-ExtraLight.ttf"
+  font "ttf/static/CascadiaMono-ExtraLightItalic.ttf"
+  font "ttf/static/CascadiaMono-Italic.ttf"
   font "ttf/static/CascadiaMono-Light.ttf"
+  font "ttf/static/CascadiaMono-LightItalic.ttf"
   font "ttf/static/CascadiaMono-Regular.ttf"
   font "ttf/static/CascadiaMono-SemiBold.ttf"
+  font "ttf/static/CascadiaMono-SemiBoldItalic.ttf"
   font "ttf/static/CascadiaMono-SemiLight.ttf"
-  font "ttf/static/CascadiaMonoItalic-BoldItalic.ttf"
-  font "ttf/static/CascadiaMonoItalic-ExtraLightItalic.ttf"
-  font "ttf/static/CascadiaMonoItalic-Italic.ttf"
-  font "ttf/static/CascadiaMonoItalic-LightItalic.ttf"
-  font "ttf/static/CascadiaMonoItalic-SemiBoldItalic.ttf"
-  font "ttf/static/CascadiaMonoItalic-SemiLightItalic.ttf"
+  font "ttf/static/CascadiaMono-SemiLightItalic.ttf"
 end
