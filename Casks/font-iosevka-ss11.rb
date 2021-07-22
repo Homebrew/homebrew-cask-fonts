@@ -6,6 +6,11 @@ cask "font-iosevka-ss11" do
   name "Iosevka SS11"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
+  
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "iosevka-ss11-bold.ttc"
   font "iosevka-ss11-extrabold.ttc"
