@@ -6,7 +6,7 @@ cask "font-iosevka-ss12" do
   name "Iosevka SS12"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
-  
+
   livecheck do
     url :url
     strategy :github_latest
