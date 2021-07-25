@@ -4,10 +4,17 @@ cask "font-gilbert" do
 
   url "https://github.com/Fontself/TypeWithPride/releases/download/#{version.before_comma}/Gilbert_#{version.before_comma}_#{version.after_comma}.zip",
       verified: "github.com/Fontself/TypeWithPride/"
-  appcast "https://github.com/Fontself/TypeWithPride/releases.atom"
   name "Gilbert"
   homepage "https://typewithpride.com/"
 
-  font "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert Bold-Preview_#{version.before_comma.no_dots}.otf"
-  font "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert-Color Bold-Preview_#{version.before_comma.no_dots}.otf"
+  livecheck do
+    url "https://github.com/Fontself/TypeWithPride/releases/"
+    strategy :page_match do |page|
+      page.scan(/href=.*?Gilbert[._-]v?(\d+(?:\.\d+)+)[._-](.*)\.zip/i)
+          .map { |matches| "#{matches[0]},#{matches[1]}" }
+    end
+  end
+
+  font "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert Bold-Preview_#{version.before_comma.minor.tr("00", "")}.otf"
+  font "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert-Color Bold-Preview_#{version.before_comma.minor.tr("00", "")}.otf"
 end
