@@ -1,6 +1,6 @@
 cask "font-gilbert" do
-  version "1.004,alpha"
-  sha256 "0cea7456bdc704c9b68c023a6bb40590e327da3d84f8ff5511c6460a712987a9"
+  version "1.005,alpha"
+  sha256 "d3ac3075efe00bf4302264b2e626f548e3549740d359a43991605b2a180d8cbe"
 
   url "https://github.com/Fontself/TypeWithPride/releases/download/#{version.before_comma}/Gilbert_#{version.before_comma}_#{version.after_comma}.zip",
       verified: "github.com/Fontself/TypeWithPride/"
