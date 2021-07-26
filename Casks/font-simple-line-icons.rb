@@ -4,9 +4,13 @@ cask "font-simple-line-icons" do
 
   url "https://github.com/thesabbir/simple-line-icons/archive/#{version}.zip",
       verified: "github.com/thesabbir/simple-line-icons/"
-  appcast "https://github.com/thesabbir/simple-line-icons/releases.atom"
   name "Simple Line Icons"
   homepage "https://simplelineicons.github.io/"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "simple-line-icons-#{version}/fonts/Simple-Line-Icons.ttf"
 end
