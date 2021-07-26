@@ -8,5 +8,10 @@ cask "font-simple-line-icons" do
   name "Simple Line Icons"
   homepage "https://simplelineicons.github.io/"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "simple-line-icons-#{version}/fonts/Simple-Line-Icons.ttf"
 end
