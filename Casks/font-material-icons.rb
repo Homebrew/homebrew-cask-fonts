@@ -4,9 +4,13 @@ cask "font-material-icons" do
 
   url "https://github.com/google/material-design-icons/archive/#{version}.zip",
       verified: "github.com/google/material-design-icons/"
-  appcast "https://github.com/google/material-design-icons/releases.atom"
   name "Material Icons"
   homepage "https://google.github.io/material-design-icons/"
+
+  livecheck do
+    url "https://google.github.io/material-design-icons/"
+    regex(/href=.*?material[._-]design[._-]icons[._-]v?(\d+(?:\.\d+)+)\.zip/i)
+  end
 
   font "material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
 end
