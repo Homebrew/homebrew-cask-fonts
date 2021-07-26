@@ -3,10 +3,14 @@ cask "font-hasklig" do
   sha256 "9cd35a7449b220dc84f9516c57817e147003fc905a477f1ec727816d9d8a81d4"
 
   url "https://github.com/i-tu/Hasklig/releases/download/v#{version}/Hasklig-#{version}.zip"
-  appcast "https://github.com/i-tu/Hasklig/releases.atom"
   name "Hasklig"
   desc "Code font with monospaced ligatures"
   homepage "https://github.com/i-tu/Hasklig"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "OTF/Hasklig-Black.otf"
   font "OTF/Hasklig-BlackIt.otf"
