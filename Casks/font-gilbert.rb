@@ -15,6 +15,6 @@ cask "font-gilbert" do
     end
   end
 
-  font "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert Bold-Preview#{version.before_comma.minor.tr("00", "")}.otf"
+  font "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert-Bold Preview#{version.before_comma.minor.tr("00", "")}.otf"
   font "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert-Color Bold-Preview#{version.before_comma.minor.tr("00", "")}.otf"
 end
