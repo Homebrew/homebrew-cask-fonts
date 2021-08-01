@@ -1,5 +1,5 @@
 cask "font-source-code-pro" do
-  version :latest
+  version "2.030"
   sha256 :no_check
 
   url "https://github.com/google/fonts/trunk/ofl/sourcecodepro",
