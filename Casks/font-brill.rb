@@ -6,6 +6,17 @@ cask "font-brill" do
   name "Brill"
   homepage "https://brill.com/page/BrillFont/"
 
+  livecheck do
+    url "https://brill.com/page/BrillFontDownloads/Download-The-Brill-Typeface"
+    regex(/href=.*?The[._-]Brill[._-]Typeface[._-]Package[._-]v?[._-]?(\d+(?:[._]\d+)+)\.zip/i)
+    strategy :page_match do |page, regex|
+      match = page.match(regex)
+      next if match.blank?
+
+      match[1].tr("_", ".")
+    end
+  end
+
   font "Brill-Bold.ttf"
   font "Brill-BoldItalic.ttf"
   font "Brill-Italic.ttf"
