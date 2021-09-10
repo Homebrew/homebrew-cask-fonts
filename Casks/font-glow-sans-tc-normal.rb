@@ -3,7 +3,6 @@ cask "font-glow-sans-tc-normal" do
   sha256 "16e8a28001ab1b29887dbf636fb3623e413178c4b2fcb82604a66bb9d1806547"
 
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansTC-Normal-v#{version}.zip"
-  appcast "https://github.com/welai/glow-sans/releases.atom"
   name "Glow Sans TC Normal"
   homepage "https://github.com/welai/glow-sans"
 
