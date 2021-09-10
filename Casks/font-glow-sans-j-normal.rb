@@ -1,9 +1,8 @@
 cask "font-glow-sans-j-normal" do
-  version "0.92"
-  sha256 "52cfb2b4decf12f910603067309ee5e01dc8a9f6ba51905ffdb06e0ed8bb8ca1"
+  version "0.93"
+  sha256 "b4a84f6d277d3c0ec6e833ac0fe25b40545ededc19df5fb4643731eef0f730a2"
 
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansJ-Normal-v#{version}.zip"
-  appcast "https://github.com/welai/glow-sans/releases.atom"
   name "Glow Sans J Normal"
   homepage "https://github.com/welai/glow-sans"
 
