@@ -3,7 +3,6 @@ cask "font-glow-sans-sc-compressed" do
   sha256 "fe0fa382c8f5be8c1632cbc5837f7da3730b18b4dba12d351812d07d6d6bb56f"
 
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansSC-Compressed-v#{version}.zip"
-  appcast "https://github.com/welai/glow-sans/releases.atom"
   name "Glow Sans SC Compressed"
   homepage "https://github.com/welai/glow-sans"
 
