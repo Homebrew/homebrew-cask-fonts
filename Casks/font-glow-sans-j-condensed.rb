@@ -3,7 +3,6 @@ cask "font-glow-sans-j-condensed" do
   sha256 "3b6d38f707d204a2e8341b06ff0402dd9bb7daa095a6d5ab9da132c1966597b5"
 
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansJ-Condensed-v#{version}.zip"
-  appcast "https://github.com/welai/glow-sans/releases.atom"
   name "Glow Sans J Condensed"
   homepage "https://github.com/welai/glow-sans"
 
