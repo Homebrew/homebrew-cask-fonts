@@ -1,9 +1,8 @@
 cask "font-glow-sans-sc-condensed" do
-  version "0.92"
-  sha256 "00386ff7ab8ab2823e14686de96a937daabce0842491587f6a321701c0cda6fe"
+  version "0.93"
+  sha256 "9eb59505b8b6a863f8b61b9941fd2ac4b748e501d5c272987c3408052b0765aa"
 
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansSC-Condensed-v#{version}.zip"
-  appcast "https://github.com/welai/glow-sans/releases.atom"
   name "Glow Sans SC Condensed"
   homepage "https://github.com/welai/glow-sans"
 
