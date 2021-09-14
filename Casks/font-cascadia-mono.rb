@@ -7,6 +7,11 @@ cask "font-cascadia-mono" do
   desc "Version of Cascadia Code without ligatures"
   homepage "https://github.com/microsoft/cascadia-code"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "ttf/static/CascadiaMono-Bold.ttf"
   font "ttf/static/CascadiaMono-BoldItalic.ttf"
   font "ttf/static/CascadiaMono-ExtraLight.ttf"

@@ -7,6 +7,11 @@ cask "font-cascadia-code-pl" do
   desc "Version of Cascadia Code with embedded Powerline symbols"
   homepage "https://github.com/microsoft/cascadia-code"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "ttf/static/CascadiaCodePL-Bold.ttf"
   font "ttf/static/CascadiaCodePL-BoldItalic.ttf"
   font "ttf/static/CascadiaCodePL-ExtraLight.ttf"
