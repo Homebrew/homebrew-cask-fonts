@@ -1,6 +1,6 @@
 cask "font-ibm-plex" do
-  version "5.2.1"
-  sha256 "12cb0cde34b718304f87156ddf134b343a0e0503e6248497dd3e6015a2b76135"
+  version "6.0.0"
+  sha256 "a26a2b220181bd9097c5badb9a5b9de5cada25abd6267bd678bd5e390203454d"
 
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
   name "IBM Plex"
