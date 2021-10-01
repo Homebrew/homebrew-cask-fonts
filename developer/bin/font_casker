@@ -100,7 +100,7 @@ def font_paths(archive)
     .split("\n")
     .grep(FONT_EXT_PATTERN)
     .reject { |x| x.start_with?("__MACOSX") }
-    .reject { |x| %r{(?:\A|/)\._} =~ x }
+    .grep_v(%r{(?:\A|/)\._})
     .sort
 end
 
