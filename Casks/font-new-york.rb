@@ -1,5 +1,5 @@
 cask "font-new-york" do
-  version "17.0d5e1"
+  version :latest
   sha256 :no_check
 
   url "https://devimages-cdn.apple.com/design/resources/download/NY.dmg"
