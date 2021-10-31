@@ -1,6 +1,6 @@
 cask "font-cascadia-mono-pl" do
-  version "2108.26"
-  sha256 "ea325ea078a7f96299226497d4ed3ea3c5951c9e1a1d36da8f3b839099909479"
+  version "2110.31"
+  sha256 "b1a18b6b15818f5e5467f06363c963d7f373f26c41910284943076c064756fac"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   name "Cascadia Mono PL"
