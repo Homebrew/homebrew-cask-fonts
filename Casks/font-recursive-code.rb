@@ -1,6 +1,6 @@
 cask "font-recursive-code" do
-  version "1.079"
-  sha256 "2ceb98649200c4f4cac06e43748a447de41540f9f8895a8d090af10e6beae282"
+  version "1.082"
+  sha256 "24c08f2967ccb6c8629f19c433eb71bebf898242cb81dc9dbb4399af361c7deb"
 
   url "https://github.com/arrowtype/recursive/releases/download/v#{version}/ArrowType-Recursive-#{version}.zip"
   name "Recursive Code"
