@@ -13,6 +13,11 @@ cask "font-437-plus" do
   desc "Collection of classic text mode fonts from DOS-era IBM PCs and compatibles"
   homepage "https://int10h.org/oldschool-pc-fonts/"
 
+  livecheck do
+    url "https://int10h.org/oldschool-pc-fonts/download/"
+    regex(/href=.*?oldschool[._-]pc[._-]font[._-]pack[._-]v?(\d+(?:\.\d+)+)[._-]win\.zip/i)
+  end
+
   font "ttf - Px (pixel outline)/PxPlus_AST_PremiumExec.ttf"
   font "ttf - Px (pixel outline)/Px437_IBM_Model30r0.ttf"
   font "ttf - Px (pixel outline)/Px437_IBM_CGAthin.ttf"
