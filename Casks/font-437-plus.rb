@@ -15,7 +15,7 @@ cask "font-437-plus" do
 
   livecheck do
     url "https://int10h.org/oldschool-pc-fonts/download/"
-    regex(/oldschool_pc_font_pack_v(\d\.\d)_win\.zip/i)
+    regex(/href=.*?oldschool[._-]pc[._-]font[._-]pack[._-]v?(\d+(?:\.\d+)+)[._-]win\.zip/i)
   end
 
   font "ttf - Px (pixel outline)/PxPlus_AST_PremiumExec.ttf"
