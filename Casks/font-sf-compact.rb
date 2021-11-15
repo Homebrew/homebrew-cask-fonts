@@ -1,5 +1,5 @@
 cask "font-sf-compact" do
-  version "17.0d11e1"
+  version "17.0d12e1"
   sha256 :no_check
 
   url "https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg"
@@ -8,7 +8,7 @@ cask "font-sf-compact" do
   desc "Compact variant of \"San Francisco\" by Apple"
   homepage "https://developer.apple.com/fonts/"
 
-  pkg "San Francisco Compact.pkg"
+  pkg "SF Compact Fonts.pkg"
 
-  uninstall pkgutil: "com.apple.pkg.SanFranciscoCompact"
+  uninstall pkgutil: "com.apple.pkg.SFCompactFonts"
 end
