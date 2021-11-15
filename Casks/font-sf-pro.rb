@@ -10,5 +10,5 @@ cask "font-sf-pro" do
 
   pkg "SF Pro Fonts.pkg"
 
-  uninstall pkgutil: "com.apple.pkg.SanFranciscoPro"
+  uninstall pkgutil: "com.apple.pkg.SFProFonts"
 end
