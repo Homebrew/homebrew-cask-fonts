@@ -2,9 +2,9 @@ cask "font-urbanist" do
   version "1.303"
   sha256 "10808707a6b4dd5d6fd5a167de81d6df885cbb45c317a2f7de5d676c898e8007"
 
-  url "https://github.com/coreywho/Urbanist/releases/download/v#{version}/Urbanist_Font_Family_#{version}.zip"
+  url "https://github.com/coreyhu/Urbanist/releases/download/v#{version}/Urbanist_Font_Family_#{version}.zip"
   name "Urbanist"
-  homepage "https://github.com/coreywho/Urbanist"
+  homepage "https://github.com/coreyhu/Urbanist"
 
   font "fonts/variable/Urbanist[ital,wght].ttf"
   font "fonts/otf/Urbanist-Black.otf"
