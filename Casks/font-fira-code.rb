@@ -1,6 +1,6 @@
 cask "font-fira-code" do
-  version "6"
-  sha256 "a4997c2f905fb20a6d814baf7b9bab7df7de574a8e87d6af509685a43291caf1"
+  version "6.1"
+  sha256 "0fca4e7393a0dfb7b975cb2738d5cab5eac87222c900f127a135ad856afc95cc"
 
   url "https://github.com/tonsky/FiraCode/releases/download/#{version}/Fira_Code_v#{version}.zip"
   name "Fira Code"
