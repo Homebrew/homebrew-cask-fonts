@@ -6,11 +6,5 @@ cask "font-fira-code" do
   name "Fira Code"
   homepage "https://github.com/tonsky/FiraCode"
 
-  font "ttf/FiraCode-Bold.ttf"
-  font "ttf/FiraCode-Light.ttf"
-  font "ttf/FiraCode-Medium.ttf"
-  font "ttf/FiraCode-Regular.ttf"
-  font "ttf/FiraCode-Retina.ttf"
-  font "ttf/FiraCode-SemiBold.ttf"
   font "variable_ttf/FiraCode-VF.ttf"
 end
