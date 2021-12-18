@@ -1,6 +1,6 @@
 cask "font-cascadia-code" do
-  version "2110.31"
-  sha256 "b1a18b6b15818f5e5467f06363c963d7f373f26c41910284943076c064756fac"
+  version "2111.01"
+  sha256 "51fd68176dffb87e2fbc79381aef7f5c9488b58918dee223cd7439b5aa14e712"
 
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   name "Cascadia Code"
