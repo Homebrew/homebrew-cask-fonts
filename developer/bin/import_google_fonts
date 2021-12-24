@@ -262,7 +262,10 @@ Download the or clone the repository from https://github.com/google/fonts, then 
         # check if the metadata file is present
         # https://github.com/google/fonts/issues/2512
         if os.path.exists(meta_file):
-            cask = metadata_to_cask(meta_file, repo_dir)
+            try:
+                cask = metadata_to_cask(meta_file, repo_dir)
+            except text_format.ParseError:
+                continue
         else:
             cask = derive_cask(family_folder, repo_dir)
 
