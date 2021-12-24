@@ -9,5 +9,6 @@ cask "font-redacted-script" do
   homepage "https://fonts.google.com/specimen/Redacted+Script"
 
   font "RedactedScript-Bold.ttf"
+  font "RedactedScript-Light.ttf"
   font "RedactedScript-Regular.ttf"
 end

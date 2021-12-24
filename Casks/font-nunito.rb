@@ -8,6 +8,6 @@ cask "font-nunito" do
   name "Nunito"
   homepage "https://fonts.google.com/specimen/Nunito"
 
-  font "Nunito[wght].ttf"
   font "Nunito-Italic[wght].ttf"
+  font "Nunito[wght].ttf"
 end

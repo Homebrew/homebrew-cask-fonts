@@ -2,15 +2,10 @@ cask "font-baloo-thambi-2" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/baloothambi2",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts/raw/main/ofl/baloothambi2/BalooThambi2%5Bwght%5D.ttf",
+      verified: "github.com/google/fonts/"
   name "Baloo Thambi 2"
   homepage "https://fonts.google.com/specimen/Baloo+Thambi+2"
 
-  font "BalooThambi2-Bold.ttf"
-  font "BalooThambi2-ExtraBold.ttf"
-  font "BalooThambi2-Medium.ttf"
-  font "BalooThambi2-Regular.ttf"
-  font "BalooThambi2-SemiBold.ttf"
+  font "BalooThambi2[wght].ttf"
 end

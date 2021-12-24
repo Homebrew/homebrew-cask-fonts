@@ -8,6 +8,6 @@ cask "font-source-code-pro" do
   name "Source Code Pro"
   homepage "https://fonts.google.com/specimen/Source+Code+Pro"
 
-  font "SourceCodePro[wght].ttf"
   font "SourceCodePro-Italic[wght].ttf"
+  font "SourceCodePro[wght].ttf"
 end

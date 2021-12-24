@@ -8,12 +8,6 @@ cask "font-expletus-sans" do
   name "Expletus Sans"
   homepage "https://fonts.google.com/specimen/Expletus+Sans"
 
-  font "ExpletusSans-Bold.ttf"
-  font "ExpletusSans-BoldItalic.ttf"
-  font "ExpletusSans-Italic.ttf"
-  font "ExpletusSans-Medium.ttf"
-  font "ExpletusSans-MediumItalic.ttf"
-  font "ExpletusSans-Regular.ttf"
-  font "ExpletusSans-SemiBold.ttf"
-  font "ExpletusSans-SemiBoldItalic.ttf"
+  font "ExpletusSans-Italic[wght].ttf"
+  font "ExpletusSans[wght].ttf"
 end
