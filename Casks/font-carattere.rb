@@ -5,7 +5,7 @@ cask "font-carattere" do
   url "https://github.com/google/fonts/raw/main/ofl/carattere/Carattere-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Carattere"
-  desc "Perfect for invitations and other uses where formal elegance and beauty are essential"
+  desc "Perfect where formal elegance and beauty are essential"
   homepage "https://fonts.google.com/specimen/Carattere"
 
   font "Carattere-Regular.ttf"
