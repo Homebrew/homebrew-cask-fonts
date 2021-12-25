@@ -6,7 +6,6 @@ cask "font-source-serif-4" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Source Serif 4"
-  desc "Active open source project – if you are interested in contributing, please visit source-serif-pro on github for more information"
   homepage "https://fonts.google.com/specimen/Source+Serif+4"
 
   font "SourceSerif4-Italic[opsz,wght].ttf"
