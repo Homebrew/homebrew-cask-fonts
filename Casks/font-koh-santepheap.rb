@@ -6,7 +6,7 @@ cask "font-koh-santepheap" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Koh Santepheap"
-  desc "Khmer font for body text, that pairs well with latin serif fonts and for bilingual (english - khmer) text"
+  desc "Khmer font for body text"
   homepage "https://fonts.google.com/specimen/Koh+Santepheap"
 
   font "KohSantepheap-Black.ttf"
