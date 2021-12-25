@@ -6,7 +6,7 @@ cask "font-birthstone-bounce" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Birthstone Bounce"
-  desc "The sibling family of birthstone that adds more luster and playfulness to it"
+  desc "Sibling family of birthstone that adds more luster and playfulness to it"
   homepage "https://fonts.google.com/specimen/Birthstone+Bounce"
 
   font "BirthstoneBounce-Medium.ttf"
