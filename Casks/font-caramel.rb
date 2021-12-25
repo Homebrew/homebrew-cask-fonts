@@ -5,7 +5,7 @@ cask "font-caramel" do
   url "https://github.com/google/fonts/raw/main/ofl/caramel/Caramel-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Caramel"
-  desc "Fun, hand lettered script with three variations that are combined in the latest version of the font"
+  desc "Fun, hand lettered script with three variations"
   homepage "https://fonts.google.com/specimen/Caramel"
 
   font "Caramel-Regular.ttf"
