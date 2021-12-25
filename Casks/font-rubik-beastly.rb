@@ -5,7 +5,7 @@ cask "font-rubik-beastly" do
   url "https://github.com/google/fonts/raw/main/ofl/rubikbeastly/RubikBeastly-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Rubik Beastly"
-  desc "Original, script-generated design based on the google fonts rubik by hubert and fischer, meir sadan and cyreal"
+  desc "Based on the google fonts rubik by hubert and fischer, meir sadan and cyreal"
   homepage "https://fonts.google.com/specimen/Rubik+Beastly"
 
   font "RubikBeastly-Regular.ttf"
