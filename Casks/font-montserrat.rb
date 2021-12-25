@@ -8,6 +8,6 @@ cask "font-montserrat" do
   name "Montserrat"
   homepage "https://fonts.google.com/specimen/Montserrat"
 
-  font "Montserrat[wght].ttf"
   font "Montserrat-Italic[wght].ttf"
+  font "Montserrat[wght].ttf"
 end

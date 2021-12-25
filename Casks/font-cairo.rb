@@ -2,16 +2,10 @@ cask "font-cairo" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/cairo",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts/raw/main/ofl/cairo/Cairo%5Bwght%5D.ttf",
+      verified: "github.com/google/fonts/"
   name "Cairo"
   homepage "https://fonts.google.com/specimen/Cairo"
 
-  font "Cairo-Black.ttf"
-  font "Cairo-Bold.ttf"
-  font "Cairo-ExtraLight.ttf"
-  font "Cairo-Light.ttf"
-  font "Cairo-Regular.ttf"
-  font "Cairo-SemiBold.ttf"
+  font "Cairo[wght].ttf"
 end

@@ -2,7 +2,7 @@ cask "font-azeret-mono" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/azeret",
+  url "https://github.com/google/fonts/trunk/ofl/azeretmono",
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Azeret Mono"

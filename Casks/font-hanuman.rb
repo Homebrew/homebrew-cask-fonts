@@ -8,6 +8,9 @@ cask "font-hanuman" do
   name "Hanuman"
   homepage "https://fonts.google.com/specimen/Hanuman"
 
+  font "Hanuman-Black.ttf"
   font "Hanuman-Bold.ttf"
+  font "Hanuman-Light.ttf"
   font "Hanuman-Regular.ttf"
+  font "Hanuman-Thin.ttf"
 end

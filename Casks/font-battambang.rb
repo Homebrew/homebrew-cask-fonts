@@ -8,6 +8,9 @@ cask "font-battambang" do
   name "Battambang"
   homepage "https://fonts.google.com/specimen/Battambang"
 
+  font "Battambang-Black.ttf"
   font "Battambang-Bold.ttf"
+  font "Battambang-Light.ttf"
   font "Battambang-Regular.ttf"
+  font "Battambang-Thin.ttf"
 end
