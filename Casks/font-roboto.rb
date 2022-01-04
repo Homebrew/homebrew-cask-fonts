@@ -2,7 +2,7 @@ cask "font-roboto" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/apache/roboto",
+  url "https://github.com/google/fonts/tree/main/apache/roboto",
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Roboto"
