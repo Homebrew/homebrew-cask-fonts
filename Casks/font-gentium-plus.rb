@@ -1,6 +1,6 @@
 cask "font-gentium-plus" do
-  version "5.000"
-  sha256 "335911f17bd2de4e43742e1d0367cfeff19a90abf7ed604f100a42705042e154"
+  version "6.001"
+  sha256 "7589cb8fa9887c34070e14fc78108102657ffac7ed36e81bb2058bde2da9430c"
 
   url "https://software.sil.org/downloads/r/gentium/GentiumPlus-#{version}.zip"
   name "Gentium"
