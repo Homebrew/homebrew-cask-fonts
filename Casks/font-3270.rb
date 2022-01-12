@@ -2,7 +2,7 @@ cask "font-3270" do
   version "2.3.1,3b8f2fb"
   sha256 "ad1f58cbf58d7bbc1b4f650c4016154858b9bc225b731130ded7aef2b167086d"
 
-  url "https://github.com/rbanffy/3270font/releases/download/v#{version.before_comma}/3270_fonts_#{version.after_comma}.zip"
+  url "https://github.com/rbanffy/3270font/releases/download/v#{version.csv.first}/3270_fonts_#{version.csv.second}.zip"
   name "IBM 3270"
   homepage "https://github.com/rbanffy/3270font"
 
