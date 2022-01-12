@@ -2,7 +2,7 @@ cask "font-genjyuugothic-x" do
   version "20150607,8.644"
   sha256 "e4a0ea11b8155056ad2b678c8501b2e76dd99b8c8eb5363d396fe7c3079201b3"
 
-  url "https://osdn.dl.osdn.jp/users/#{version.after_comma.major}/#{version.after_comma.no_dots}/genjyuugothic-x-#{version.before_comma}.zip",
+  url "https://osdn.dl.osdn.jp/users/#{version.csv.second.major}/#{version.csv.second.no_dots}/genjyuugothic-x-#{version.csv.first}.zip",
       verified: "osdn.jp/"
   name "Gen Jyuu GothicX"
   homepage "http://jikasei.me/font/genjyuu/"
