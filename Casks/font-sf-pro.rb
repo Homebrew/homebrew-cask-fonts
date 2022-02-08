@@ -1,5 +1,5 @@
 cask "font-sf-pro" do
-  version "17.0d12e1"
+  version "17.1d1e1"
   sha256 :no_check
 
   url "https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg"
