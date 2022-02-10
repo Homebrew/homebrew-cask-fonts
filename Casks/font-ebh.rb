@@ -13,8 +13,8 @@ cask "font-ebh" do
     regex(%r{href=.*/EBH[-_.]v(\d+(?:\.\d+)+)\.zip}i)
   end
 
-  font "EBH-v#{version}/EBH Facsimile.otf"
   font "EBH-v#{version}/EBH Alternates.otf"
+  font "EBH-v#{version}/EBH Facsimile.otf"
   font "EBH-v#{version}/EBH Initials.otf"
   font "EBH-v#{version}/EBH Runes.otf"
 end
