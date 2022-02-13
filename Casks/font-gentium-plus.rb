@@ -1,6 +1,6 @@
 cask "font-gentium-plus" do
-  version "6.001"
-  sha256 "7589cb8fa9887c34070e14fc78108102657ffac7ed36e81bb2058bde2da9430c"
+  version "6.101"
+  sha256 "5244209b44a5111736379686119cd54042dce18e308a351c366999ac563ca6bb"
 
   url "https://github.com/silnrsi/font-gentium/releases/download/v#{version}/GentiumPlus-#{version}.zip",
       verified: "github.com/silnrsi/font-gentium/"
