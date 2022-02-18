@@ -1,17 +1,17 @@
-cask 'font-lxgw-wenkai' do
-  version "1.120"
-  sha256 "b65a9fc64038069a5dcda06b4004572c15910266c3b6212d02f4444fb90a4e8b"
+cask "font-lxgw-wenkai" do
+  version "1.210"
+  sha256 "6b0b45b77ef7d152268f95ea560a7c4538d0c85cbd050d54b812ad9691e868d9"
 
-  url ""
+  url "https://github.com/lxgw/LxgwWenKai/releases/download/v#{version}/lxgw-wenkai-v#{version}.zip"
   name "LXGW WenKai"
   name "霞鹜文楷"
   desc "Open-source Chinese font derived from Fontworks' Klee One"
   homepage "https://github.com/lxgw/LxgwWenKai"
 
-  font "LXGWWenKai-Bold.ttf"
-  font "LXGWWenKai-Light.ttf"
-  font "LXGWWenKai-Regular.ttf"
-  font "LXGWWenKaiMono-Bold.ttf"
-  font "LXGWWenKaiMono-Light.ttf"
-  font "LXGWWenKaiMono-Regular.ttf"
+  font "lxgw-wenkai-v#{version}/LXGWWenKai-Bold.ttf"
+  font "lxgw-wenkai-v#{version}/LXGWWenKai-Light.ttf"
+  font "lxgw-wenkai-v#{version}/LXGWWenKai-Regular.ttf"
+  font "lxgw-wenkai-v#{version}/LXGWWenKaiMono-Bold.ttf"
+  font "lxgw-wenkai-v#{version}/LXGWWenKaiMono-Light.ttf"
+  font "lxgw-wenkai-v#{version}/LXGWWenKaiMono-Regular.ttf"
 end
