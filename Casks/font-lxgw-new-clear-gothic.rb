@@ -5,6 +5,7 @@ cask "font-lxgw-new-clear-gothic" do
   url "https://github.com/lxgw/LxgwNewClearGothic/archive/refs/tags/v#{version}.zip"
   name "LXGW New Clear Gothic"
   name "霞鹜新晰黑"
+  desc "Simplified Chinese sans-serif font derived from IPAex Gothic"
   homepage "https://github.com/lxgw/LxgwNewClearGothic"
 
   font "LxgwNewClearGothic-#{version}/TTF/LXGWNewClearGothic-Book.ttf"
