@@ -2,7 +2,7 @@ cask "font-open-sans" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/apache/opensans",
+  url "https://github.com/google/fonts/trunk/ofl/opensans",
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Open Sans"
