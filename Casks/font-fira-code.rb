@@ -7,4 +7,7 @@ cask "font-fira-code" do
   homepage "https://github.com/tonsky/FiraCode"
 
   font "variable_ttf/FiraCode-VF.ttf"
+  # The FiraCode-Retina.tff font is not included in FiraCode-VF.ttf
+  # See https://github.com/Homebrew/homebrew-cask-fonts/issues/5396
+  font "ttf/FiraCode-Retina.ttf"
 end
