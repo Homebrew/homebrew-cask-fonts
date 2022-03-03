@@ -1,6 +1,6 @@
 cask "font-lxgw-wenkai" do
-  version "1.220"
-  sha256 "38efb1480f921f09bb54a60ae70d57d1baad019867cf7483b85a8245455952cf"
+  version "1.221"
+  sha256 "d09381178e4afbc08ee3cd3c2f45a9970e3603f9ece667a4bf89638afcc44439"
 
   url "https://github.com/lxgw/LxgwWenKai/releases/download/v#{version}/lxgw-wenkai-v#{version}.zip"
   name "LXGW WenKai"
