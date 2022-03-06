@@ -6,7 +6,7 @@ cask "font-familjen-grotesk" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Familjen Grotesk"
-  desc "Sans serif typeface with a contemporary appearance intended for both text and display"
+  desc "Sans serif typeface with a contemporary appearance"
   homepage "https://fonts.google.com/specimen/Familjen+Grotesk"
 
   font "FamiljenGrotesk-Italic[wght].ttf"
