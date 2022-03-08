@@ -4,7 +4,6 @@ cask "font-amiri" do
 
   url "https://github.com/alif-type/amiri/releases/download/#{version}/Amiri-#{version}.zip",
       verified: "github.com/alif-type/amiri/"
-  appcast "https://github.com/alif-type/amiri/releases.atom"
   name "Amiri"
   homepage "https://www.amirifont.org/"
 
