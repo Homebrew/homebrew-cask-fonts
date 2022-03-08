@@ -1,10 +1,9 @@
 cask "font-league-mono" do
-  version "2.220"
-  sha256 "8cd84dfe693b4ffc4eb6f443576c3e90d85cb40e978596dc5aaf10f38619d58c"
+  version "2.300"
+  sha256 "16bdc983aa5eb1803a3c2fbb11d15a8cfa1ce317334a61b01f0f3ab302fdcf0d"
 
   url "https://github.com/theleagueof/league-mono/releases/download/#{version}/LeagueMono-#{version}.tar.xz",
       verified: "github.com/theleagueof/league-mono/"
-  appcast "https://github.com/theleagueof/league-mono/releases.atom"
   name "League Mono"
   desc "Monospace typeface inspired by Fira Mono, Libertinus Mono, and Courier"
   homepage "https://www.theleagueofmoveabletype.com/league-mono"
