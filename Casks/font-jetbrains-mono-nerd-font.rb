@@ -3,9 +3,13 @@ cask "font-jetbrains-mono-nerd-font" do
   sha256 "842013fa44b6896d4eb91635a81ef75244d78d7f61ff866c9dfd3315a67788cd"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/JetBrainsMono.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "JetBrainsMono Nerd Font (JetBrains Mono)"
   homepage "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono"
+
+  livecheck do
+    url :stable
+    regex(/^v?(\d+(?:\.\d+)+)$/i)
+  end
 
   font "JetBrains Mono Bold Nerd Font Complete.ttf"
   font "JetBrains Mono Bold Nerd Font Complete Mono.ttf"
