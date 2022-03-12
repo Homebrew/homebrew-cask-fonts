@@ -1,12 +1,11 @@
 cask "font-material-icons" do
-  version :latest
-  sha256 :no_check
+  version "4.0.0"
+  sha256 "3decc1c1f9b2352dafc769df58d1044293818a758bac150cc817fa377933f9a9"
 
-  url "https://github.com/google/material-design-icons/trunk/font",
-      verified: "github.com/google/material-design-icons/",
-      using:    :svn
+  url "https://github.com/google/material-design-icons/archive/refs/tags/#{version}.zip",
+      verified: "github.com/google/material-design-icons/"
   name "Material Icons"
-  homepage "https://google.github.io/material-design-icons/"
+  homepage "https://developers.google.com/fonts/docs/material_icons"
 
   font "MaterialIcons-Regular.ttf"
   font "MaterialIconsOutlined-Regular.otf"
