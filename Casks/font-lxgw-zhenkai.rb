@@ -1,6 +1,6 @@
 cask "font-lxgw-zhenkai" do
-  version "0.5.5.1"
-  sha256 "72b78abb4d9b046d49eca6773bd98e1d9bf509781acb2a55f0b26eb5610af5a7"
+  version "0.552"
+  sha256 "42ad7194752057d752d7e41dc13c19c7b2d4e2818f1933f7399584419f377e15"
 
   url "https://github.com/lxgw/LxgwZhenKai/releases/download/v#{version}/LXGWZhenKai.ttf"
   name "LXGW ZhenKai"
