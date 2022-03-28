@@ -6,7 +6,7 @@ cask "font-noto-sans-jp" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Noto Sans JP"
-  desc "Unmodulated (“sans serif”) design for the japanese language and other languages used in japan"
+  desc "Unmodulated (“sans serif”) design for the japanese language"
   homepage "https://fonts.google.com/specimen/Noto+Sans+JP"
 
   font "NotoSansJP-Black.otf"

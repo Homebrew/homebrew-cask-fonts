@@ -6,7 +6,7 @@ cask "font-noto-sans-sc" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Noto Sans SC"
-  desc "Unmodulated (“sans serif”) design for languages in mainland china that use the simplified chinese variant of the han ideograms"
+  desc "Sans-serif design for simplified chinese variant of the han ideograms"
   homepage "https://fonts.google.com/specimen/Noto+Sans+SC"
 
   font "NotoSansSC-Black.otf"

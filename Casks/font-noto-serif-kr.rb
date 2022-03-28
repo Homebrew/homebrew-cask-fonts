@@ -6,7 +6,7 @@ cask "font-noto-serif-kr" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Noto Serif KR"
-  desc "Modulated (“serif”) design for the korean language using hangul and the korean hanja scripts"
+  desc "Modulated (“serif”) design for the korean language"
   homepage "https://fonts.google.com/specimen/Noto+Serif+KR"
 
   font "NotoSerifKR-Black.otf"

@@ -6,7 +6,7 @@ cask "font-noto-serif-tc" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Noto Serif TC"
-  desc "Modulated (“serif”) design for languages in taiwan, hong kong and macau that use the traditional chinese variant of the han ideograms"
+  desc "Modulated (“serif”) design for languages in taiwan, hong kong and macau"
   homepage "https://fonts.google.com/specimen/Noto+Serif+TC"
 
   font "NotoSerifTC-Black.otf"

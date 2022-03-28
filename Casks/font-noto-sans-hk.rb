@@ -6,7 +6,7 @@ cask "font-noto-sans-hk" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Noto Sans HK"
-  desc "Unmodulated (“sans serif”) design for languages in hong kong that use the traditional chinese variant of the han ideograms"
+  desc "Sans-serif design using the traditional chinese variant of the han ideograms"
   homepage "https://fonts.google.com/specimen/Noto+Sans+HK"
 
   font "NotoSansHK-Black.otf"
