@@ -3,7 +3,6 @@ cask "font-cica" do
   sha256 "cbd1bcf1f3fd1ddbffe444369c76e42529add8538b25aeb75ab682d398b0506f"
 
   url "https://github.com/miiton/Cica/releases/download/v#{version}/Cica_v#{version}.zip"
-  appcast "https://github.com/miiton/Cica/releases.atom"
   name "Cica"
   homepage "https://github.com/miiton/Cica"
 
