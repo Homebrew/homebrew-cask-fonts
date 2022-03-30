@@ -2,7 +2,7 @@ cask "font-source-code-pro" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/sourcecodepro",
+  url "https://github.com/google/fonts/tree/main/ofl/sourcecodepro",
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Source Code Pro"
