@@ -1,9 +1,8 @@
 cask "font-cica" do
-  version "5.0.2"
-  sha256 "b5d2eaa5841f629ed8cfd239aa30f5a4b45aa1aa2ef9f4c2b3f715f3d59bb8de"
+  version "5.0.3"
+  sha256 "cbd1bcf1f3fd1ddbffe444369c76e42529add8538b25aeb75ab682d398b0506f"
 
-  url "https://github.com/miiton/Cica/releases/download/v#{version}/Cica_v#{version}_with_emoji.zip"
-  appcast "https://github.com/miiton/Cica/releases.atom"
+  url "https://github.com/miiton/Cica/releases/download/v#{version}/Cica_v#{version}.zip"
   name "Cica"
   homepage "https://github.com/miiton/Cica"
 
