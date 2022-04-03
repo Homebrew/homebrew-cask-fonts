@@ -11,8 +11,8 @@ cask "font-charter" do
     regex(/href=.*?Charter[\s._-]?v?(\d+(?:\.\d+)*)\.zip/i)
   end
 
-  font "OTF format (best for Mac OS)/Charter/Charter Bold Italic.otf"
-  font "OTF format (best for Mac OS)/Charter/Charter Bold.otf"
-  font "OTF format (best for Mac OS)/Charter/Charter Italic.otf"
-  font "OTF format (best for Mac OS)/Charter/Charter Regular.otf"
+  font "Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Bold Italic.otf"
+  font "Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Bold.otf"
+  font "Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Italic.otf"
+  font "Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Regular.otf"
 end
