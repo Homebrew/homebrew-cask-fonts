@@ -1,13 +1,18 @@
 cask "font-charter" do
-  version "200512"
-  sha256 "39d1615e8b9c71f6e339c4d66f9cd1c6c5e85a63e201cb880f7691fa2d26d3a3"
+  version "210112"
+  sha256 "b40297f1a615f94594bdad0995848eb2223fb53ccb4ea197cabf24439bd811c9"
 
   url "https://practicaltypography.com/fonts/Charter%20#{version}.zip"
   name "Charter"
   homepage "https://practicaltypography.com/charter.html"
 
-  font "Charter/Charter/OpenType/Charter Bold Italic.otf"
-  font "Charter/Charter/OpenType/Charter Bold.otf"
-  font "Charter/Charter/OpenType/Charter Italic.otf"
-  font "Charter/Charter/OpenType/Charter Regular.otf"
+  livecheck do
+    url :homepage
+    regex(/href=.*?Charter[\s._-]?v?(\d+(?:\.\d+)*)\.zip/i)
+  end
+
+  font "Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Bold Italic.otf"
+  font "Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Bold.otf"
+  font "Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Italic.otf"
+  font "Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Regular.otf"
 end
