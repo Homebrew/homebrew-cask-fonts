@@ -1,13 +1,39 @@
 cask "font-source-code-pro" do
-  version :latest
-  sha256 :no_check
+  version "2.038R-ro/1.058R-it/1.018R-VAR"
+  sha256 "87c94be199cd412e145081cf20dce1217196b47e407989465e687ebf0316af9e"
 
-  url "https://github.com/google/fonts/trunk/ofl/sourcecodepro",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/adobe-fonts/source-code-pro/archive/refs/tags/#{version}.zip",
+      verified: "github.com/adobe-fonts/source-code-pro/"
   name "Source Code Pro"
-  homepage "https://fonts.google.com/specimen/Source+Code+Pro"
+  desc "Monospaced font family for user interface and coding environments"
+  homepage "https://adobe-fonts.github.io/source-code-pro/"
 
-  font "SourceCodePro-Italic[wght].ttf"
-  font "SourceCodePro[wght].ttf"
+  font "OTF/SourceCodePro-Black.otf"
+  font "OTF/SourceCodePro-BlackIt.otf"
+  font "OTF/SourceCodePro-Bold.otf"
+  font "OTF/SourceCodePro-BoldIt.otf"
+  font "OTF/SourceCodePro-ExtraLight.otf"
+  font "OTF/SourceCodePro-ExtraLightIt.otf"
+  font "OTF/SourceCodePro-It.otf"
+  font "OTF/SourceCodePro-Light.otf"
+  font "OTF/SourceCodePro-LightIt.otf"
+  font "OTF/SourceCodePro-Medium.otf"
+  font "OTF/SourceCodePro-MediumIt.otf"
+  font "OTF/SourceCodePro-Regular.otf"
+  font "OTF/SourceCodePro-Semibold.otf"
+  font "OTF/SourceCodePro-SemiboldIt.otf"
+  font "TTF/SourceCodePro-Black.ttf"
+  font "TTF/SourceCodePro-BlackIt.ttf"
+  font "TTF/SourceCodePro-Bold.ttf"
+  font "TTF/SourceCodePro-BoldIt.ttf"
+  font "TTF/SourceCodePro-ExtraLight.ttf"
+  font "TTF/SourceCodePro-ExtraLightIt.ttf"
+  font "TTF/SourceCodePro-It.ttf"
+  font "TTF/SourceCodePro-Light.ttf"
+  font "TTF/SourceCodePro-LightIt.ttf"
+  font "TTF/SourceCodePro-Medium.ttf"
+  font "TTF/SourceCodePro-MediumIt.ttf"
+  font "TTF/SourceCodePro-Regular.ttf"
+  font "TTF/SourceCodePro-Semibold.ttf"
+  font "TTF/SourceCodePro-SemiboldIt.ttf"
 end
