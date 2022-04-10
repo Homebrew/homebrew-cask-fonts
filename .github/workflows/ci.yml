@@ -259,6 +259,8 @@ jobs:
           rm "${GITHUB_WORKSPACE}"
           mkdir "${GITHUB_WORKSPACE}"
   conclusion:
+    permissions:
+      contents: none
     name: conclusion
     needs: test
     runs-on: ubuntu-latest
