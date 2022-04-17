@@ -9,6 +9,6 @@ cask "font-aref-ruqaa-ink" do
   desc "Led by khaled hosny, a type designer based in cairo, egypt"
   homepage "https://fonts.google.com/specimen/Aref+Ruqaa+Ink"
 
-  font "ArefRuqaaInk-Bold.otf"
-  font "ArefRuqaaInk-Regular.otf"
+  font "ArefRuqaaInk-Bold.ttf"
+  font "ArefRuqaaInk-Regular.ttf"
 end
