@@ -1,6 +1,6 @@
 cask "font-udev-gothic" do
-  version "0.1.0"
-  sha256 "ad9a0e276474be84bed1ec5b36d6b78efa1255b7a90cdc1bc24605d624a5bea5"
+  version "1.0.0"
+  sha256 "f1b07d0c58a9d96fe665bd256d32e739a88796dc25d15441351c1c4b0e1908d6"
 
   url "https://github.com/yuru7/udev-gothic/releases/download/v#{version}/UDEVGothic_v#{version}.zip"
   name "UDEV Gothic"
