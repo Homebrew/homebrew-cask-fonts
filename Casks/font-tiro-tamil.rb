@@ -6,7 +6,7 @@ cask "font-tiro-tamil" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Tiro Tamil"
-  desc "Especially suited to traditional literary publishing but also made with the needs of today’s multiple print and screen media in mind"
+  desc "Especially suited to traditional literary publishing"
   homepage "https://fonts.google.com/specimen/Tiro+Tamil"
 
   font "TiroTamil-Italic.ttf"
