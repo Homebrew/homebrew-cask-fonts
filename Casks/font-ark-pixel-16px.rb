@@ -1,6 +1,6 @@
 cask "font-ark-pixel-16px" do
-  version "2022-04-19"
-  sha256 "652b40d9d1f109162b326aeb50c5551c4ebe52d33c287311fb0fd14c401c6c1f"
+  version "2022-05-04"
+  sha256 "e8ee224ae5d35bcd973ddb09f7984e63ec9b47f73f11ea4b4f807938ec31bb0b"
 
   url "https://github.com/TakWolf/ark-pixel-font/releases/download/dev-#{version}/ark-pixel-font-16px-otf-v0.0.0-dev-#{version.no_hyphens}.zip"
   name "Ark Pixel 16px"
