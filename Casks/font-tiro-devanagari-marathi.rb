@@ -6,7 +6,7 @@ cask "font-tiro-devanagari-marathi" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Tiro Devanagari Marathi"
-  desc "Characterised by broader proportions, more generous counters, and strong diagonal strokes and terminals"
+  desc "Broader proportions, generous counters, and strong diagonal strokes"
   homepage "https://fonts.google.com/specimen/Tiro+Devanagari+Marathi"
 
   font "TiroDevanagariMarathi-Italic.ttf"

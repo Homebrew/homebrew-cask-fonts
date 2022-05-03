@@ -6,7 +6,7 @@ cask "font-tiro-bangla" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Tiro Bangla"
-  desc "Especially suited to traditional literary publishing but also made with the needs of today’s multiple print and screen media in mind"
+  desc "Suited to traditional literary publishing"
   homepage "https://fonts.google.com/specimen/Tiro+Bangla"
 
   font "TiroBangla-Italic.ttf"

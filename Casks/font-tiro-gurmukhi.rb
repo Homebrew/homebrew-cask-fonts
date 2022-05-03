@@ -6,7 +6,7 @@ cask "font-tiro-gurmukhi" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Tiro Gurmukhi"
-  desc "Absent from the monolinear typefaces that became conventional for the script in the 20th century"
+  desc "Reintroduces stroke modulation of traditional Punjabi manuscript"
   homepage "https://fonts.google.com/specimen/Tiro+Gurmukhi"
 
   font "TiroGurmukhi-Italic.ttf"

@@ -6,7 +6,7 @@ cask "font-tiro-devanagari-sanskrit" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Tiro Devanagari Sanskrit"
-  desc "Characterised by broader proportions, more generous counters, and strong diagonal strokes and terminals"
+  desc "Broader proportions, generous counters, and strong diagonal strokes"
   homepage "https://fonts.google.com/specimen/Tiro+Devanagari+Sanskrit"
 
   font "TiroDevanagariSanskrit-Italic.ttf"
