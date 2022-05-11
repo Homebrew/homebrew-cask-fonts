@@ -1,9 +1,10 @@
 cask "font-martian-mono" do
   version "0.9.0"
-  sha256 :no_check
+  sha256 "2d7c4e9103b1df5551eb6d91f19122b80bb82e97aa77d7ddc65cb3edc95cd8d3"
 
-  name "Martian Mono"
   url "https://github.com/evilmartians/mono/releases/download/v#{version}/martian-mono-#{version}-otf.zip"
+  name "Martian Mono"
+  desc "Monospaced font from Evil Martians"
   homepage "https://github.com/evilmartians/mono"
 
   font "MartianMono-CnBd.otf"
