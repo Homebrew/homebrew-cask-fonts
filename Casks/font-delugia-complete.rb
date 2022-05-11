@@ -7,11 +7,6 @@ cask "font-delugia-complete" do
   desc "Cascadia Code + Nerd Fonts, minor difference between Caskaydia Cove Nerd Font"
   homepage "https://github.com/adam7/delugia-code"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   font "delugia-complete/DelugiaComplete-Bold.ttf"
   font "delugia-complete/DelugiaComplete-BoldItalic.ttf"
   font "delugia-complete/DelugiaComplete-Italic.ttf"
