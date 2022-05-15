@@ -6,7 +6,7 @@ cask "font-gentium-plus-book" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Gentium Plus Book"
-  desc "The new version of the reduced character set families, gentium book basic"
+  desc "New version of the reduced character set families, gentium book basic"
   homepage "https://fonts.google.com/specimen/Gentium+Plus+Book"
 
   font "GentiumBookPlus-Bold.ttf"
