@@ -6,8 +6,8 @@ cask "font-camingocode" do
   name "CamingoCode"
   homepage "https://www.janfromm.de/typefaces/camingomono/camingocode/"
 
-  font "camingocode-v#{version.dots_to_underscores}/TTF/CamingoCode-Bold.ttf"
-  font "camingocode-v#{version.dots_to_underscores}/TTF/CamingoCode-BoldItalic.ttf"
-  font "camingocode-v#{version.dots_to_underscores}/TTF/CamingoCode-Italic.ttf"
-  font "camingocode-v#{version.dots_to_underscores}/TTF/CamingoCode-Regular.ttf"
+  font "TTF/CamingoCode-Bold.ttf"
+  font "TTF/CamingoCode-BoldItalic.ttf"
+  font "TTF/CamingoCode-Italic.ttf"
+  font "TTF/CamingoCode-Regular.ttf"
 end
