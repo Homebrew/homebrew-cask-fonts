@@ -1,8 +1,8 @@
 cask "font-camingocode" do
   version "1.0"
-  sha256 "13b188ca8d1b5fe2c3ba880771f20a6faac550405ae98d12edd46240f8896714"
+  sha256 :no_check
 
-  url "https://janfromm.de/_data/downloads/CamingoCode-v#{version}.zip"
+  url "https://janfromm.de/typefaces/camingocode/camingocode.zip"
   name "CamingoCode"
   homepage "https://www.janfromm.de/typefaces/camingomono/camingocode/"
 
