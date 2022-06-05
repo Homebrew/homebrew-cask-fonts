@@ -6,7 +6,7 @@ cask "font-gantari" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Gantari"
-  desc "Not purely geometric, proportions have been designed so that all characters can look harmonious"
+  desc "Designed so that all characters can look harmonious"
   homepage "https://fonts.google.com/specimen/Gantari"
 
   font "Gantari-Italic[wght].ttf"
