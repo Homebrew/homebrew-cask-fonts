@@ -1,6 +1,6 @@
 cask "font-hackgen" do
-  version "2.6.1"
-  sha256 "e0e64d521beb43df633f86201ee8f9d1614876e9633a0991772fda9f93da815b"
+  version "2.6.3"
+  sha256 "2b1c751abe318c44e2a3b22137fa31c18765a1c4e07962a8d1e05e7d5908241a"
 
   url "https://github.com/yuru7/HackGen/releases/download/v#{version}/HackGen_v#{version}.zip"
   name "HackGen"
