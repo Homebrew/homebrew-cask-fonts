@@ -1,5 +1,5 @@
 cask "font-sf-arabic" do
-  version "17.0d16e1"
+  version "18.0d4e1"
   sha256 :no_check
 
   url "https://devimages-cdn.apple.com/design/resources/download/SF-Arabic.dmg"
