@@ -1,6 +1,3 @@
-# typed: false
-# frozen_string_literal: true
-
 cask "font-jsmath-cmbx10" do
   version :latest
   sha256 :no_check
