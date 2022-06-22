@@ -6,8 +6,8 @@ cask "font-edwin" do
   name "Text font for musical scores"
   homepage "https://github.com/MuseScoreFonts/Edwin"
 
-  font "Edwin-BdIta.otf"
-  font "Edwin-Bold.otf"
-  font "Edwin-Italic.otf"
-  font "Edwin-Roman.otf"
+  font "Edwin-#{version}/Edwin-BdIta.otf"
+  font "Edwin-#{version}/Edwin-Bold.otf"
+  font "Edwin-#{version}/Edwin-Italic.otf"
+  font "Edwin-#{version}/Edwin-Roman.otf"
 end
