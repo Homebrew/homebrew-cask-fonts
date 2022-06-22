@@ -6,7 +6,7 @@ cask "font-albert-sans" do
       verified: "github.com/google/fonts/",
       using:    :svn
   name "Albert Sans"
-  desc "Modern geometric sans serif family, inspired by the type- characteristics of scandinavian architects and designers in the early 20th century"
+  desc "Modern geometric sans serif family"
   homepage "https://fonts.google.com/specimen/Albert+Sans"
 
   font "AlbertSans-Italic[wght].ttf"
