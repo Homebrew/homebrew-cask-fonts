@@ -1,6 +1,6 @@
 cask "font-amiri" do
-  version "0.114"
-  sha256 "52330497d65ed127c5e73a2b939d2417656136312001744312eddf0c66085274"
+  version "0.116"
+  sha256 "cf5a13b45974a040f55d5db8bb96d31aecfb4973685599ae3206702be285e2cf"
 
   url "https://github.com/alif-type/amiri/releases/download/#{version}/Amiri-#{version}.zip",
       verified: "github.com/alif-type/amiri/"
