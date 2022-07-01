@@ -6,5 +6,5 @@ cask "font-iansui" do
   name "iansui"
   homepage "https://github.com/ButTaiwan/iansui"
 
-  font "Iansui#{version.no_dots[0,3]}-Regular.ttf"
+  font "Iansui#{version.no_dots[0, 3]}-Regular.ttf"
 end
