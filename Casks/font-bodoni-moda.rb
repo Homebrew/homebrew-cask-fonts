@@ -8,11 +8,6 @@ cask "font-bodoni-moda" do
   desc "Serif typeface with high contrast"
   homepage "https://indestructibletype.com/Bodoni.html"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   font "Bodoni-master/fonts/variable/Bodoni-Italic-VF.ttf"
   font "Bodoni-master/fonts/variable/Bodoni-VF.ttf"
 end
