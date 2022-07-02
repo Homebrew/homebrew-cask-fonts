@@ -10,4 +10,9 @@ cask "font-bodoni-moda" do
 
   font "Bodoni-master/fonts/variable/Bodoni-Italic-VF.ttf"
   font "Bodoni-master/fonts/variable/Bodoni-VF.ttf"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 end
