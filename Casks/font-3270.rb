@@ -1,6 +1,6 @@
 cask "font-3270" do
-  version "2.3.1,3b8f2fb"
-  sha256 "ad1f58cbf58d7bbc1b4f650c4016154858b9bc225b731130ded7aef2b167086d"
+  version "3.0.0,32ca849"
+  sha256 "f0036599abb56e033a92741ba91123b4375d6f4702b0f47f37409515441d61ad"
 
   url "https://github.com/rbanffy/3270font/releases/download/v#{version.csv.first}/3270_fonts_#{version.csv.second}.zip"
   name "IBM 3270"
