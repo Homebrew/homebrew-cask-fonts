@@ -1,5 +1,5 @@
 cask "font-sf-compact" do
-  version "18.0d9e1"
+  version "18.0d10e1"
   sha256 :no_check
 
   url "https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg"
