@@ -4,11 +4,12 @@ cask "font-doulos-sil" do
 
   url "https://software.sil.org/downloads/r/doulos/DoulosSIL-#{version}.zip"
   name "Doulos SIL"
+  desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
   homepage "https://software.sil.org/doulos/"
 
   livecheck do
     url "https://software.sil.org/doulos/download/"
-    regex(/href=.*DoulosSIL-(\d+(?:\.\d+)+)\.zip/i)
+    regex(/href=.*DoulosSIL[._-]v?(\d+(?:\.\d+)+)\.zip/i)
   end
 
   font "DoulosSIL-#{version}/DoulosSIL-Regular.ttf"
