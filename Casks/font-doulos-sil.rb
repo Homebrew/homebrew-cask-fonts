@@ -1,10 +1,16 @@
 cask "font-doulos-sil" do
-  version "5.000"
-  sha256 "0b309c3db813a98ce884c0bd25c7f5c0bd96bbffd076459e39298812ca22472e"
+  version "6.101"
+  sha256 "daea5cc79767c43029b025603402ccb51c7812a22772db3c18ae8526ef670c58"
 
   url "https://software.sil.org/downloads/r/doulos/DoulosSIL-#{version}.zip"
   name "Doulos SIL"
+  desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
   homepage "https://software.sil.org/doulos/"
 
-  font "DoulosSIL-#{version}/DoulosSIL-R.ttf"
+  livecheck do
+    url "https://software.sil.org/doulos/download/"
+    regex(/href=.*DoulosSIL[._-]v?(\d+(?:\.\d+)+)\.zip/i)
+  end
+
+  font "DoulosSIL-#{version}/DoulosSIL-Regular.ttf"
 end

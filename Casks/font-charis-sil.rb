@@ -1,13 +1,19 @@
 cask "font-charis-sil" do
-  version "5.000"
-  sha256 "5e3e5473b30363008c289cc87e2aa584a0916087a63a3f689defa8e0cee09bfd"
+  version "6.101"
+  sha256 "2de585f4517636d18039f1dc082258dfb89262d7a7feea2526fb21c0cc69131f"
 
   url "https://software.sil.org/downloads/r/charis/CharisSIL-#{version}.zip"
   name "Charis SIL"
-  homepage "https://software.sil.org/charis/download/"
+  desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
+  homepage "https://software.sil.org/charis/"
 
-  font "CharisSIL-#{version}/CharisSIL-R.ttf"
-  font "CharisSIL-#{version}/CharisSIL-B.ttf"
-  font "CharisSIL-#{version}/CharisSIL-BI.ttf"
-  font "CharisSIL-#{version}/CharisSIL-I.ttf"
+  livecheck do
+    url "https://software.sil.org/charis/download/"
+    regex(/href=.*CharisSIL[._-]v?(\d+(?:\.\d+)+)\.zip/i)
+  end
+
+  font "CharisSIL-#{version}/CharisSIL-Bold.ttf"
+  font "CharisSIL-#{version}/CharisSIL-BoldItalic.ttf"
+  font "CharisSIL-#{version}/CharisSIL-Italic.ttf"
+  font "CharisSIL-#{version}/CharisSIL-Regular.ttf"
 end
