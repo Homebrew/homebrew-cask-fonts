@@ -6,6 +6,11 @@ cask "font-andika" do
   name "Andika"
   homepage "https://software.sil.org/andika/"
 
+  livecheck do
+    url "https://software.sil.org/andika/download/"
+    regex(/href=.*Andika-(\d+(?:\.\d+)+)\.zip/i)
+  end
+
   font "Andika-#{version}/Andika-Bold.ttf"
   font "Andika-#{version}/Andika-BoldItalic.ttf"
   font "Andika-#{version}/Andika-Italic.ttf"
