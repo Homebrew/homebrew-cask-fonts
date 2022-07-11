@@ -4,11 +4,12 @@ cask "font-charis-sil" do
 
   url "https://software.sil.org/downloads/r/charis/CharisSIL-#{version}.zip"
   name "Charis SIL"
+  desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
   homepage "https://software.sil.org/charis/"
 
   livecheck do
     url "https://software.sil.org/charis/download/"
-    regex(/href=.*CharisSIL-(\d+(?:\.\d+)+)\.zip/i)
+    regex(/href=.*CharisSIL[._-]v?(\d+(?:\.\d+)+)\.zip/i)
   end
 
   font "CharisSIL-#{version}/CharisSIL-Bold.ttf"
