@@ -4,11 +4,12 @@ cask "font-andika" do
 
   url "https://software.sil.org/downloads/r/andika/Andika-#{version}.zip"
   name "Andika"
+  desc "Sans-serif font family designed and optimized for literacy use"
   homepage "https://software.sil.org/andika/"
 
   livecheck do
     url "https://software.sil.org/andika/download/"
-    regex(/href=.*Andika-(\d+(?:\.\d+)+)\.zip/i)
+    regex(/href=.*Andika[._-]v?(\d+(?:\.\d+)+)\.zip/i)
   end
 
   font "Andika-#{version}/Andika-Bold.ttf"
