@@ -1,10 +1,15 @@
 cask "font-victor-mono" do
-  version :latest
+  version "1.5.4"
   sha256 :no_check
 
   url "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
   name "Victor Mono"
+  desc "Monospaced font with cursive italics and programming symbol ligatures"
   homepage "https://rubjo.github.io/victor-mono/"
+
+  livecheck do
+    url "https://github.com/rubjo/victor-mono/releases"
+  end
 
   font "OTF/VictorMono-Thin.otf"
   font "OTF/VictorMono-ExtraLight.otf"
