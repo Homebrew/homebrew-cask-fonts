@@ -4,7 +4,12 @@ cask "font-victor-mono" do
 
   url "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
   name "Victor Mono"
+  desc "Monospaced font with semi-connected cursive italics and programming symbol ligatures"
   homepage "https://rubjo.github.io/victor-mono/"
+
+  livecheck do
+    url "https://github.com/rubjo/victor-mono/releases"
+  end
 
   font "OTF/VictorMono-Thin.otf"
   font "OTF/VictorMono-ExtraLight.otf"
