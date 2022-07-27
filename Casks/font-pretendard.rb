@@ -1,6 +1,6 @@
 cask "font-pretendard" do
-  version "1.3.4"
-  sha256 "c06bb7991107dfcaab6a3169cf36f0f50c80b32cbb9d91c37cc940dc24969a67"
+  version "1.3.5"
+  sha256 "065866c33e52eb9b2487378f2a82d252aa420b0b277bb57032e56efe9a37b383"
 
   url "https://github.com/orioncactus/pretendard/releases/download/v#{version}/Pretendard-#{version}.zip"
   name "Pretendard"
