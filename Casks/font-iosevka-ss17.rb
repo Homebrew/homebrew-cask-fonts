@@ -1,6 +1,6 @@
 cask "font-iosevka-ss17" do
-  version "15.6.1"
-  sha256 "c755c1a37c069f72b7b8b5f199b7b5e2068d76d568471a50428160d03b7813db"
+  version "15.6.2"
+  sha256 "00645f2e63ff88e37f15808229f681ba380a4389379d7c9bc1d65fa06e6e7608"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss17-#{version}.zip"
   name "Iosevka SS17"
