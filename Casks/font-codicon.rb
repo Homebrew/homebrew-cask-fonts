@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 cask "font-codicon" do
   version "0.0.31"
   sha256 "157dbef05bd3ef2c0b8cab4abeddea1eef43cde412881b6046ac00193446c988"
