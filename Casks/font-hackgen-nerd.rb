@@ -1,8 +1,8 @@
 cask "font-hackgen-nerd" do
-  version "2.6.3"
-  sha256 "3120f82ac2a7b742acd863425c080031d7cd8f5716403ea582adc4b5193bf691"
+  version "2.7.0"
+  sha256 "58f9b5b652ebbb0e07a2bae1d8ad1177848ec8b961519e4fecdb464524b73f7c"
 
-  url "https://github.com/yuru7/HackGen/releases/download/v#{version}/HackGenNerd_v#{version}.zip"
+  url "https://github.com/yuru7/HackGen/releases/download/v#{version}/HackGen_NF_v#{version}.zip"
   name "HackGenNerd"
   desc "Japanese programming font which is a composed of Hack and GenJyuu-Gothic"
   homepage "https://github.com/yuru7/HackGen"
