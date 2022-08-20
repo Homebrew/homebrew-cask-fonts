@@ -1,6 +1,6 @@
 cask "font-iosevka-aile" do
-  version "15.6.3"
-  sha256 "88ecf886b8d4b1586e590c3ed742b738d3c0bc7143aa5d105784e1837579e2f9"
+  version "16.0.0"
+  sha256 "feaa6eb5b4992d5f9efd60218fc7b5ca0861d1ce66d3a6096d01e93f1fe333bb"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-aile-#{version}.zip"
   name "Iosevka Aile"
