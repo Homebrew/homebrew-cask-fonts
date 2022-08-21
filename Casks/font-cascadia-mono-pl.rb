@@ -12,16 +12,6 @@ cask "font-cascadia-mono-pl" do
     strategy :github_latest
   end
 
-  font "ttf/static/CascadiaMonoPL-Bold.ttf"
-  font "ttf/static/CascadiaMonoPL-BoldItalic.ttf"
-  font "ttf/static/CascadiaMonoPL-ExtraLight.ttf"
-  font "ttf/static/CascadiaMonoPL-ExtraLightItalic.ttf"
-  font "ttf/static/CascadiaMonoPL-Italic.ttf"
-  font "ttf/static/CascadiaMonoPL-Light.ttf"
-  font "ttf/static/CascadiaMonoPL-LightItalic.ttf"
-  font "ttf/static/CascadiaMonoPL-Regular.ttf"
-  font "ttf/static/CascadiaMonoPL-SemiBold.ttf"
-  font "ttf/static/CascadiaMonoPL-SemiBoldItalic.ttf"
-  font "ttf/static/CascadiaMonoPL-SemiLight.ttf"
-  font "ttf/static/CascadiaMonoPL-SemiLightItalic.ttf"
+  font "ttf/CascadiaMonoPL.ttf"
+  font "ttf/CascadiaMonoPLItalic.ttf"
 end
