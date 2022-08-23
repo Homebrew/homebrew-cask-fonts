@@ -12,16 +12,6 @@ cask "font-cascadia-code" do
     strategy :github_latest
   end
 
-  font "ttf/static/CascadiaCode-Bold.ttf"
-  font "ttf/static/CascadiaCode-BoldItalic.ttf"
-  font "ttf/static/CascadiaCode-ExtraLight.ttf"
-  font "ttf/static/CascadiaCode-ExtraLightItalic.ttf"
-  font "ttf/static/CascadiaCode-Italic.ttf"
-  font "ttf/static/CascadiaCode-Light.ttf"
-  font "ttf/static/CascadiaCode-LightItalic.ttf"
-  font "ttf/static/CascadiaCode-Regular.ttf"
-  font "ttf/static/CascadiaCode-SemiBold.ttf"
-  font "ttf/static/CascadiaCode-SemiBoldItalic.ttf"
-  font "ttf/static/CascadiaCode-SemiLight.ttf"
-  font "ttf/static/CascadiaCode-SemiLightItalic.ttf"
+  font "ttf/CascadiaCode.ttf"
+  font "ttf/CascadiaCodeItalic.ttf"
 end
