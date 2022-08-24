@@ -7,6 +7,11 @@ cask "font-maple" do
   desc "Nerd Font font with round corners"
   homepage "https://github.com/subframe7536/Maple-font"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "MapleMono-Bold.ttf"
   font "MapleMono-BoldItalic.ttf"
   font "MapleMono-Italic.ttf"
