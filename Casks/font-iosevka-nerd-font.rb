@@ -1,6 +1,6 @@
 cask "font-iosevka-nerd-font" do
-  version "2.1.0"
-  sha256 "6bd29ef886b808d1d76dd85f82b8823452265fda582801734aab6f9460270de3"
+  version "2.2.0"
+  sha256 "3774b75229a816761a433e160376d484834b2ace5882c7e3601123af8ac6492b"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Iosevka.zip"
   appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
