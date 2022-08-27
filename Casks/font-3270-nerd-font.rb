@@ -3,7 +3,6 @@ cask "font-3270-nerd-font" do
   sha256 "161ba437475fb162058c9947a7f62e214006ea7f8b4bda1fb2a9ea19077bf9af"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/3270.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "3270 Nerd Font (3270)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
