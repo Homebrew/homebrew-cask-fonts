@@ -1,9 +1,8 @@
 cask "font-arimo-nerd-font" do
-  version "2.1.0"
-  sha256 "683a1b4f33dcf20d6ceee89161786b1684a22bc7296efd5fd4c9d766ba6bf4cc"
+  version "2.2.1"
+  sha256 "5260211447ff71778c2f38f17bbdec2c480bf75c4f2a95e391f124edfc94f105"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Arimo.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "Arimo Nerd Font (Arimo)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
