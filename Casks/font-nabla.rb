@@ -5,7 +5,7 @@ cask "font-nabla" do
   url "https://github.com/google/fonts/raw/main/ofl/nabla/Nabla%5BEDPT%2CEHLT%5D.ttf",
       verified: "github.com/google/fonts/"
   name "Nabla"
-  homepage "https://fonts.google.com/specimen/Nabla"
+  homepage "https://github.com/justvanrossum/nabla"
 
   font "Nabla[EDPT,EHLT].ttf"
 end
