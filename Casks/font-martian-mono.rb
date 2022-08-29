@@ -1,6 +1,6 @@
 cask "font-martian-mono" do
-  version "0.9.0"
-  sha256 "2d7c4e9103b1df5551eb6d91f19122b80bb82e97aa77d7ddc65cb3edc95cd8d3"
+  version "0.9.1"
+  sha256 "1bb58d92e2af101727c6120ae3f5cb4497c8da7462962b5f2ea769d05445d46d"
 
   url "https://github.com/evilmartians/mono/releases/download/v#{version}/martian-mono-#{version}-otf.zip"
   name "Martian Mono"
@@ -28,11 +28,11 @@ cask "font-martian-mono" do
   font "MartianMono-StdTh.otf"
   font "MartianMono-StdxBd.otf"
   font "MartianMono-StdxLt.otf"
-  font "MartianMono-WdBd.otf"
-  font "MartianMono-WdLt.otf"
-  font "MartianMono-WdMd.otf"
-  font "MartianMono-WdRg.otf"
-  font "MartianMono-WdTh.otf"
-  font "MartianMono-WdxBd.otf"
-  font "MartianMono-WdxLt.otf"
+  font "MartianMono-sWdBd.otf"
+  font "MartianMono-sWdLt.otf"
+  font "MartianMono-sWdMd.otf"
+  font "MartianMono-sWdRg.otf"
+  font "MartianMono-sWdTh.otf"
+  font "MartianMono-sWdxBd.otf"
+  font "MartianMono-sWdxLt.otf"
 end
