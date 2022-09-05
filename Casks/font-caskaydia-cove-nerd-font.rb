@@ -4,8 +4,8 @@ cask "font-caskaydia-cove-nerd-font" do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaCode.zip"
   name "CaskaydiaCove Nerd Font (Caskaydia code)"
+  desc "Fork of the Cascadia Code typeface"
   homepage "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode"
-  desc "Caskaydia Cove is a fork of the Cascadia Code typeface with the RFN (Reserved Font Name) removed, plus small adjustments to conform to the Google Fonts spec."
 
   font "Caskaydia Cove Nerd Font Complete Bold Italic.otf"
   font "Caskaydia Cove Nerd Font Complete Bold.otf"
