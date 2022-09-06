@@ -1,6 +1,6 @@
 cask "font-lxgw-wenkai-tc" do
-  version "0.920"
-  sha256 "6f2a6d5a654af4484f80c6cbc3912fc5f9db3361ddcb7ec08cbf4d0c27159b3a"
+  version "0.921"
+  sha256 "3be7aa409114c9a209ae11f6dc64eee65316914930acc3473ef7f7bbd9cc449b"
 
   url "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v#{version}/lxgw-wenkai-tc-v#{version}.zip"
   name "LXGW WenKai TC"
