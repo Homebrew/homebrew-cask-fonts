@@ -4,6 +4,7 @@ cask "font-meslo-lg-nerd-font" do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Meslo.zip"
   name "MesloLG Nerd Font families (Meslo LG)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
   font "Meslo LG M Bold Nerd Font Complete Mono.ttf"
