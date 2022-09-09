@@ -1,16 +1,16 @@
 cask "font-lxgw-bright" do
-  version "2.161"
-  sha256 "92e2a7072640f32995919baad9a04203e064e2f72e6b1f656aefab3ffc0d57fb"
+  version "4.124"
+  sha256 "31ba535644f3ccc76ea4bb3e4fb8e03288aee4e9a617f95c51d8d66f1de21b0f"
 
   url "https://github.com/lxgw/LxgwBright/archive/refs/tags/v#{version}.zip"
   name "LXGW Bright"
-  desc "Merged font of Ysabeau Office and LXGW WenKai"
+  desc "Merged font of Ysabeau Office and LXGW WenKai Lite"
   homepage "https://github.com/lxgw/LxgwBright"
 
-  font "LxgwBright-#{version}/OTF/LXGWBright-Medium.otf"
-  font "LxgwBright-#{version}/OTF/LXGWBright-MediumItalic.otf"
-  font "LxgwBright-#{version}/OTF/LXGWBright-Regular.otf"
-  font "LxgwBright-#{version}/OTF/LXGWBright-Italic.otf"
-  font "LxgwBright-#{version}/OTF/LXGWBright-SemiLight.otf"
-  font "LxgwBright-#{version}/OTF/LXGWBright-SemiLightItalic.otf"
+  font "LxgwBright-#{version}/LXGWBright/LXGWBright-Medium.otf"
+  font "LxgwBright-#{version}/LXGWBright/LXGWBright-MediumItalic.otf"
+  font "LxgwBright-#{version}/LXGWBright/LXGWBright-Regular.otf"
+  font "LxgwBright-#{version}/LXGWBright/LXGWBright-Italic.otf"
+  font "LxgwBright-#{version}/LXGWBright/LXGWBright-SemiLight.otf"
+  font "LxgwBright-#{version}/LXGWBright/LXGWBright-SemiLightItalic.otf"
 end
