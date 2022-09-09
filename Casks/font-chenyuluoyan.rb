@@ -1,6 +1,6 @@
 cask "font-chenyuluoyan" do
   version "1.0-motospaced"
-  sha256 "c8ffe4559c4f1d9013b58a318cba5b5c955ab7306080980e3b6a9126641e8af7"
+  sha256 "d8ecd0598634c92f0b29f90aabef8f7916f17aef19b0350883ca7b46979a5373"
 
   url "https://github.com/Chenyu-otf/chenyuluoyan_thin/releases/download/v#{version}/ChenYuluoyan-Thin-Monospaced.ttf"
   name "font-chenyuluoyan"
