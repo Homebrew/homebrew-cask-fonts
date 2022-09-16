@@ -4,7 +4,7 @@ cask "font-plemol-jp" do
 
   url "https://github.com/yuru7/PlemolJP/releases/download/v#{version}/PlemolJP_v#{version}.zip"
   name "PlemolJP"
-  desc "Japanese programming font which is a composed of IBM Plex Mono and IBM Plex Sans JP"
+  desc "Japanese programming font synthesized from IBM Plex Mono and IBM Plex Sans JP"
   homepage "https://github.com/yuru7/PlemolJP"
 
   font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Bold.ttf"
@@ -22,7 +22,6 @@ cask "font-plemol-jp" do
   font "PlemolJP_v#{version}/PlemolJP/PlemolJP-TextItalic.ttf"
   font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Thin.ttf"
   font "PlemolJP_v#{version}/PlemolJP/PlemolJP-ThinItalic.ttf"
-
   font "PlemolJP_v#{version}/PlemolJP35/PlemolJP35-Bold.ttf"
   font "PlemolJP_v#{version}/PlemolJP35/PlemolJP35-BoldItalic.ttf"
   font "PlemolJP_v#{version}/PlemolJP35/PlemolJP35-ExtraLight.ttf"
@@ -39,7 +38,6 @@ cask "font-plemol-jp" do
   font "PlemolJP_v#{version}/PlemolJP35/PlemolJP35-TextItalic.ttf"
   font "PlemolJP_v#{version}/PlemolJP35/PlemolJP35-Thin.ttf"
   font "PlemolJP_v#{version}/PlemolJP35/PlemolJP35-ThinItalic.ttf"
-
   font "PlemolJP_v#{version}/PlemolJP35Console/PlemolJP35Console-Bold.ttf"
   font "PlemolJP_v#{version}/PlemolJP35Console/PlemolJP35Console-BoldItalic.ttf"
   font "PlemolJP_v#{version}/PlemolJP35Console/PlemolJP35Console-ExtraLight.ttf"
@@ -56,7 +54,6 @@ cask "font-plemol-jp" do
   font "PlemolJP_v#{version}/PlemolJP35Console/PlemolJP35Console-TextItalic.ttf"
   font "PlemolJP_v#{version}/PlemolJP35Console/PlemolJP35Console-Thin.ttf"
   font "PlemolJP_v#{version}/PlemolJP35Console/PlemolJP35Console-ThinItalic.ttf"
-
   font "PlemolJP_v#{version}/PlemolJPConsole/PlemolJPConsole-Bold.ttf"
   font "PlemolJP_v#{version}/PlemolJPConsole/PlemolJPConsole-BoldItalic.ttf"
   font "PlemolJP_v#{version}/PlemolJPConsole/PlemolJPConsole-ExtraLight.ttf"
