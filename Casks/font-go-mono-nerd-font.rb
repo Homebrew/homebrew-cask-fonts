@@ -1,10 +1,10 @@
 cask "font-go-mono-nerd-font" do
-  version "2.1.0"
-  sha256 "755b206bc1b8441c4bebf08366ea0d02c28fb300b0f4c3e711f220ebdf1df0af"
+  version "2.2.2"
+  sha256 "aae3e1c8fb30afae212d1e368cefe425e0b44d9293d4bdc9ab609ce112a28c02"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Go-Mono.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "GoMono Nerd Font (Go)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
   font "Go Mono Nerd Font Complete.ttf"
