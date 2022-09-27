@@ -1,8 +1,8 @@
 cask "font-lxgw-bright" do
-  version "4.125"
-  sha256 "08df13e9835d273db38b537cc469e08016b3538b4655787a210970cab3b6afae"
+  version "4.132.4"
+  sha256 "398177effb5c35ccee4d9f8a9cf8b693174b8f90442016bae4e8a58c7f242e7e"
 
-  url "https://github.com/lxgw/LxgwBright/archive/refs/tags/v#{version}.zip"
+  url "https://github.com/lxgw/LxgwBright/releases/download/v#{version}/LXGWBright.7z"
   name "LXGW Bright"
   desc "Merged font of Ysabeau Office and LXGW WenKai Lite"
   homepage "https://github.com/lxgw/LxgwBright"
@@ -13,16 +13,4 @@ cask "font-lxgw-bright" do
   font "LxgwBright-#{version}/LXGWBright/LXGWBright-Regular.otf"
   font "LxgwBright-#{version}/LXGWBright/LXGWBright-SemiLight.otf"
   font "LxgwBright-#{version}/LXGWBright/LXGWBright-SemiLightItalic.otf"
-  font "LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-Italic.otf"
-  font "LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-Medium.otf"
-  font "LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-MediumItalic.otf"
-  font "LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-Regular.otf"
-  font "LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-SemiLight.otf"
-  font "LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-SemiLightItalic.otf"
-  font "LxgwBright-#{version}/LXGWBrightTC/LXGWBrightTC-Italic.otf"
-  font "LxgwBright-#{version}/LXGWBrightTC/LXGWBrightTC-Medium.otf"
-  font "LxgwBright-#{version}/LXGWBrightTC/LXGWBrightTC-MediumItalic.otf"
-  font "LxgwBright-#{version}/LXGWBrightTC/LXGWBrightTC-Regular.otf"
-  font "LxgwBright-#{version}/LXGWBrightTC/LXGWBrightTC-SemiLight.otf"
-  font "LxgwBright-#{version}/LXGWBrightTC/LXGWBrightTC-SemiLightItalic.otf"
 end
