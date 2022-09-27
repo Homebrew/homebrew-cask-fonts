@@ -7,10 +7,10 @@ cask "font-lxgw-bright" do
   desc "Merged font of Ysabeau Office and LXGW WenKai Lite"
   homepage "https://github.com/lxgw/LxgwBright"
 
-  font "LxgwBright-#{version}/LXGWBright/LXGWBright-Italic.otf"
-  font "LxgwBright-#{version}/LXGWBright/LXGWBright-Medium.otf"
-  font "LxgwBright-#{version}/LXGWBright/LXGWBright-MediumItalic.otf"
-  font "LxgwBright-#{version}/LXGWBright/LXGWBright-Regular.otf"
-  font "LxgwBright-#{version}/LXGWBright/LXGWBright-SemiLight.otf"
-  font "LxgwBright-#{version}/LXGWBright/LXGWBright-SemiLightItalic.otf"
+  font "LXGWBright/LXGWBright-Italic.otf"
+  font "LXGWBright/LXGWBright-Medium.otf"
+  font "LXGWBright/LXGWBright-MediumItalic.otf"
+  font "LXGWBright/LXGWBright-Regular.otf"
+  font "LXGWBright/LXGWBright-SemiLight.otf"
+  font "LXGWBright/LXGWBright-SemiLightItalic.otf"
 end
