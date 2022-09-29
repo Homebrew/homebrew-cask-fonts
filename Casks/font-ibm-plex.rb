@@ -1,9 +1,10 @@
 cask "font-ibm-plex" do
-  version "6.1.0"
-  sha256 "957b90e8ff720f20e8fec885335c2b6798f566f42946c0cff727162205034be5"
+  version "6.1.1"
+  sha256 "c936ece46d39a1cb281d3c37881c7269500fcda5c5bbedcbc7cf289898ea36fd"
 
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
   name "IBM Plex"
+  desc "Corporate typeface for IBM"
   homepage "https://github.com/IBM/plex"
 
   livecheck do
