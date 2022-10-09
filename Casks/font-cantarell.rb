@@ -9,7 +9,7 @@ cask "font-cantarell" do
   homepage "https://fonts.google.com/specimen/Cantarell"
 
   font "Cantarell-Bold.ttf"
-  font "Cantarell-BoldOblique.ttf"
-  font "Cantarell-Oblique.ttf"
+  font "Cantarell-BoldItalic.ttf"
+  font "Cantarell-Italic.ttf"
   font "Cantarell-Regular.ttf"
 end
