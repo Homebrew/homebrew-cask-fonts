@@ -7,6 +7,11 @@ cask "font-martian-mono" do
   desc "Monospaced font from Evil Martians"
   homepage "https://github.com/evilmartians/mono"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "MartianMono-CnBd.otf"
   font "MartianMono-CnLt.otf"
   font "MartianMono-CnMd.otf"
