@@ -2,12 +2,10 @@ cask "font-merienda" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/merienda",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts/raw/main/ofl/merienda/Merienda%5Bwght%5D.ttf",
+      verified: "github.com/google/fonts/"
   name "Merienda"
   homepage "https://fonts.google.com/specimen/Merienda"
 
-  font "Merienda-Bold.ttf"
-  font "Merienda-Regular.ttf"
+  font "Merienda[wght].ttf"
 end
