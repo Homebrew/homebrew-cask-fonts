@@ -1,6 +1,6 @@
 cask "font-martian-mono" do
-  version "0.9.1"
-  sha256 "1bb58d92e2af101727c6120ae3f5cb4497c8da7462962b5f2ea769d05445d46d"
+  version "0.9.2"
+  sha256 "e03646305b5fa3dd4ce58c8d0c8348f939e8500e47af534dc64c47978c27f6b5"
 
   url "https://github.com/evilmartians/mono/releases/download/v#{version}/martian-mono-#{version}-otf.zip"
   name "Martian Mono"
