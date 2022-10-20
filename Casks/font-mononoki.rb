@@ -4,8 +4,8 @@ cask "font-mononoki" do
 
   url "https://github.com/madmalik/mononoki/releases/download/#{version}/mononoki.zip",
       verified: "github.com/madmalik/mononoki/"
-  appcast "https://github.com/madmalik/mononoki/releases.atom"
   name "Mononoki"
+  desc "Programming font"
   homepage "https://madmalik.github.io/mononoki/"
 
   font "webfont/mononoki-Bold.ttf"
