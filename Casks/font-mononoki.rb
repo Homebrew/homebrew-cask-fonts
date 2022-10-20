@@ -1,6 +1,6 @@
 cask "font-mononoki" do
-  version "1.3"
-  sha256 "37291a9371b4127bb03e012ace7ecc79375f6eccfa688be81a36ccc5d29e3ee6"
+  version "1.4"
+  sha256 "e0b8223a524f7f4dfa6a25f1bc9b061f5303b114a3837aaad860446bca71a857"
 
   url "https://github.com/madmalik/mononoki/releases/download/#{version}/mononoki.zip",
       verified: "github.com/madmalik/mononoki/"
