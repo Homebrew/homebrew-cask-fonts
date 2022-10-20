@@ -8,8 +8,12 @@ cask "font-mononoki" do
   desc "Programming font"
   homepage "https://madmalik.github.io/mononoki/"
 
-  font "webfont/mononoki-Bold.ttf"
-  font "webfont/mononoki-BoldItalic.ttf"
-  font "webfont/mononoki-Italic.ttf"
-  font "webfont/mononoki-Regular.ttf"
+  font "mononoki-Bold.otf"
+  font "mononoki-Bold.ttf"
+  font "mononoki-BoldItalic.otf"
+  font "mononoki-BoldItalic.ttf"
+  font "mononoki-Italic.otf"
+  font "mononoki-Italic.ttf"
+  font "mononoki-Regular.otf"
+  font "mononoki-Regular.ttf"
 end
