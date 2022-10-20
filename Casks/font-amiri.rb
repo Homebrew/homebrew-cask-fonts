@@ -1,10 +1,11 @@
 cask "font-amiri" do
-  version "0.117"
-  sha256 "9c4e768893e0023a0ad6f488d5c84bd5add6565d3dcadb838ba5b20e75fcc9a7"
+  version "0.900"
+  sha256 "ab5dbcf2464ef929e8bd0a25533686a305c921731456173d2e19023281bfe361"
 
   url "https://github.com/alif-type/amiri/releases/download/#{version}/Amiri-#{version}.zip",
       verified: "github.com/alif-type/amiri/"
   name "Amiri"
+  desc "Classical Arabic typeface in Naskh style"
   homepage "https://www.amirifont.org/"
 
   font "Amiri-#{version}/Amiri-Bold.ttf"
