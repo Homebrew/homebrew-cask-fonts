@@ -5,6 +5,7 @@ cask "font-amiri" do
   url "https://github.com/alif-type/amiri/releases/download/#{version}/Amiri-#{version}.zip",
       verified: "github.com/alif-type/amiri/"
   name "Amiri"
+  desc "Classical Arabic typeface in Naskh style"
   homepage "https://www.amirifont.org/"
 
   font "Amiri-#{version}/Amiri-Bold.ttf"
