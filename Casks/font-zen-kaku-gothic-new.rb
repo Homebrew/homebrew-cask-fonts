@@ -2,9 +2,10 @@ cask "font-zen-kaku-gothic-new" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/zenkakugothicnew",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/zenkakugothicnew"
   name "Zen Kaku Gothic New"
   desc "Classical yet simple and stylish version"
   homepage "https://fonts.google.com/specimen/Zen+Kaku+Gothic+New"

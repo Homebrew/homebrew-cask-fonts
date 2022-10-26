@@ -2,9 +2,10 @@ cask "font-arima-madurai" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/arimamadurai",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/arimamadurai"
   name "Arima Madurai"
   homepage "https://fonts.google.com/specimen/Arima+Madurai"
 

@@ -2,9 +2,10 @@ cask "font-dm-mono" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/dmmono",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/dmmono"
   name "DM Mono"
   homepage "https://fonts.google.com/specimen/DM+Mono"
 

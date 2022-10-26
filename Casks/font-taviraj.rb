@@ -2,9 +2,10 @@ cask "font-taviraj" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/taviraj",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/taviraj"
   name "Taviraj"
   homepage "https://fonts.google.com/specimen/Taviraj"
 

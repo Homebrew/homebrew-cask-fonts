@@ -2,9 +2,10 @@ cask "font-mali" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/mali",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/mali"
   name "Mali"
   homepage "https://fonts.google.com/specimen/Mali"
 
