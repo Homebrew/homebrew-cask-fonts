@@ -1,9 +1,10 @@
 cask "font-twitter-color-emoji" do
-  version "13.1.0"
-  sha256 "4ef8af7ebe5f04ed40bc76ff6bc02ed8ebeb252af1468462eba80ca3b8682e97"
+  version "14.0.2"
+  sha256 "8e2c6cb768b5a578b1dacb8f70d3b91e782a8098821484af77cf322ac499f28a"
 
   url "https://github.com/eosrei/twemoji-color-font/releases/download/v#{version}/TwitterColorEmoji-SVGinOT-#{version}.zip"
   name "Twitter Color Emoji"
+  desc "Twitter Unicode emoji color OpenType-SVG font"
   homepage "https://github.com/eosrei/twemoji-color-font/"
 
   font "TwitterColorEmoji-SVGinOT-#{version}/TwitterColorEmoji-SVGinOT.ttf"
