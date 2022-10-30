@@ -1,9 +1,8 @@
 cask "font-coelacanth" do
-  version "0.006"
-  sha256 "6926eab323cc893b7f5c6115514421c7b8d96d23376c8181e8342219816f925c"
+  version "0.008"
+  sha256 "e3fd1bec5f2daf9c4cadd53012be98d7862965d4385464c022400448dcf8acb9"
 
-  url "https://github.com/Fuzzypeg/Coelacanth/releases/download/v#{version}/coelacanth_v#{version}.zip"
-  appcast "https://github.com/Fuzzypeg/Coelacanth/releases.atom"
+  url "https://github.com/Fuzzypeg/Coelacanth/blob/master/release/coelacanth_v#{version}.zip"
   name "Coelacanth"
   desc "Serif typeface inspired by Bruce Rogers' Centaur"
   homepage "https://github.com/Fuzzypeg/Coelacanth"
