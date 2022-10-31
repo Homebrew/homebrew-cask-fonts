@@ -4,8 +4,8 @@ cask "font-bungee" do
 
   url "https://github.com/djrrb/bungee/releases/download/v#{version}/Bungee-fonts.zip",
       verified: "github.com/djrrb/bungee/"
-  appcast "https://github.com/djrrb/bungee/releases.atom"
   name "Bungee"
+  desc "Fonts for vertical and multicolor typography"
   homepage "https://djr.com/bungee/"
 
   font "fonts/Bungee_Color_Fonts/BungeeColor-Regular_sbix_MacOS.ttf"
