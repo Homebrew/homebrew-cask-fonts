@@ -1,8 +1,8 @@
 cask "font-maple" do
-  version "5.0"
-  sha256 "14aae22b953be17ba1fe21ec08c69e47158790a8f3bfa6db81c1c04e6ef4f05a"
+  version "5.5"
+  sha256 "c6467d35e7e35873e358d5bc2c633c0a04f666b8388f57afbf1d4ae7ab14cd1f"
 
-  url "https://github.com/subframe7536/Maple-font/releases/download/v#{version}/Maple.Mono.ttf.zip"
+  url "https://github.com/subframe7536/Maple-font/releases/download/v#{version}/MapleMono.zip"
   name "font Maple"
   desc "Nerd Font font with round corners"
   homepage "https://github.com/subframe7536/Maple-font"
