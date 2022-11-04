@@ -4,10 +4,13 @@ cask "font-fira-code" do
 
   url "https://github.com/tonsky/FiraCode/releases/download/#{version}/Fira_Code_v#{version}.zip"
   name "Fira Code"
+  desc "Free monospaced font with programming ligatures"
   homepage "https://github.com/tonsky/FiraCode"
 
-  font "variable_ttf/FiraCode-VF.ttf"
-  # The FiraCode-Retina.tff font is not included in FiraCode-VF.ttf
-  # See https://github.com/Homebrew/homebrew-cask-fonts/issues/5396
+  font "ttf/FiraCode-Bold.ttf"
+  font "ttf/FiraCode-Light.ttf"
+  font "ttf/FiraCode-Medium.ttf"
+  font "ttf/FiraCode-Regular.ttf"
   font "ttf/FiraCode-Retina.ttf"
+  font "ttf/FiraCode-SemiBold.ttf"
 end
