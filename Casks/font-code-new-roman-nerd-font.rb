@@ -3,8 +3,8 @@ cask "font-code-new-roman-nerd-font" do
   sha256 "df74171025e40588db3e7b79ecfae4de408692cd75f607fd585e5033b285846b"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CodeNewRoman.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "CodeNewRoman Nerd Font (Code New Roman)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
   font "Code New Roman Italic Nerd Font Complete.otf"
