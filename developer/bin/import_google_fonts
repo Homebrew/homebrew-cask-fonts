@@ -7,7 +7,7 @@
 #
 # To install dependencies:
 #
-#   pip install gftools html2text jinja2 protobuf
+#   pip3 install gftools html2text jinja2 protobuf
 
 from functools import reduce
 from glob import glob
@@ -18,6 +18,7 @@ from google.protobuf import text_format
 import gftools.fonts_public_pb2 as fonts_pb2
 import jinja2
 import html2text
+import urllib.request
 
 def parse_metadata(filename):
     # based off of
@@ -38,12 +39,17 @@ class FontCask:
   sha256 :no_check
 
 {% if files|length == 1 %}
-  url "https://github.com/google/fonts/raw/main/{{folder}}/{{files[0] | urlencode}}",
+  url "https://github.com/google/fonts/raw/main/{{folder}}/{{files[0] | urlencode}}"
+      {%- if not 'github.com/' in homepage %},
       verified: "github.com/google/fonts/"
+      {%- endif +%}
 {% else %}
-  url "https://github.com/google/fonts/trunk/{{folder}}",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      {%- if not 'github.com/' in homepage +%}
+      verified:  "github.com/google/fonts",
+      {%- endif +%}
+      branch:    "main",
+      only_path: "{{folder}}"
 {% endif %}
   name "{{font_name}}"
 {% if desc %}
@@ -63,6 +69,7 @@ end
         self.meta = meta
         self.desc = description
         self.early_access = early_access
+        self.homepage_override = None
 
     def font_name(self):
         return self.meta.name
@@ -88,6 +95,9 @@ end
         return self.font_name().replace(" ", "+")
 
     def homepage(self):
+        if self.homepage_override is not None:
+          return self.homepage_override
+
         if self.early_access:
             return f"https://fonts.google.com/earlyaccess"
 
@@ -156,11 +166,21 @@ def metadata_to_cask(meta_file, repo_dir):
 
 
 def write_cask(cask):
-    if should_skip(cask.dest_path()):
-        return
+    path = cask.dest_path()
+    if should_skip(path):
+        return False
 
-    with open(cask.dest_path(), "w") as f:
-        f.write(cask.cask_content())
+    content = cask.cask_content()
+
+    if os.path.exists(path):
+      with open(path, "r") as f:
+        if f.read() == content:
+          return False
+
+    with open(path, "w") as f:
+        f.write(content)
+
+    return True
 
 
 def find_google_casks():
@@ -172,8 +192,12 @@ def find_google_casks():
     with open(cask_path, "r") as f:
       contents = f.read()
 
-      if not re.search(r"(fonts\.google\.com|google\.com/fonts)", contents):
+      if not re.search(r"(github\.com\/google\/fonts|fonts\.google\.com|google\.com/fonts)", contents):
         continue
+
+      homepage = re.search(r"homepage\s+([\"'])(.*)(\1)\s*", contents)
+      if homepage:
+        homepage = homepage[2]
 
       desc = re.search(r"desc\s+([\"'])(.*)(\1)\s*", contents)
       if desc:
@@ -182,8 +206,9 @@ def find_google_casks():
         description = None
 
     casks[token] = {
-      "path": cask_path,
-      "description": description,
+      'path': cask_path,
+      'description': description,
+      'homepage': homepage,
     }
 
   return casks
@@ -255,34 +280,68 @@ Download the or clone the repository from https://github.com/google/fonts, then 
     family_folders = find_family_folders(repo_dir)
 
     existing_casks = find_google_casks()
-    new_casks = {}
+    added_casks = {}
+    updated_casks = {}
 
     for family_folder in family_folders:
         meta_file = os.path.join(family_folder, "METADATA.pb")
         # check if the metadata file is present
         # https://github.com/google/fonts/issues/2512
         if os.path.exists(meta_file):
-            try:
-                cask = metadata_to_cask(meta_file, repo_dir)
-            except text_format.ParseError:
-                continue
+          try:
+            cask = metadata_to_cask(meta_file, repo_dir)
+          except text_format.ParseError:
+            continue
         else:
-            cask = derive_cask(family_folder, repo_dir)
+          cask = derive_cask(family_folder, repo_dir)
+
+        # Ek Mukta has been renamed to just Mukta but still exists.
+        if cask.token() == 'font-ek-mukta':
+          continue
+
+        # Skip cask if already handled (i.e. if it exists in multiple license sub-directories).
+        if cask.token() in added_casks or cask.token() in updated_casks:
+          continue
 
         existing_cask = existing_casks.pop(cask.token(), None)
         if existing_cask:
-            cask.desc = existing_cask["description"]
+          cask.desc = existing_cask['description']
 
-        if cask.token() in new_casks:
-            continue
+          # If font is unreleased, re-use previous homepage URL.
+          if cask.homepage() != existing_cask['homepage']:
+            try:
+              urllib.request.urlopen(cask.homepage())
+            except urllib.request.URLError as e:
+              if e.code == 404:
+                cask.homepage_override = existing_cask['homepage']
+
+          updated_casks[cask.token()] = cask
         else:
-            new_casks[cask.token()] = cask
+          added_casks[cask.token()] = cask
 
-        cask_existed = existing_cask is not None
-        if not mode or (mode == "add" and not cask_existed) or (mode == "update" and cask_existed):
-          write_cask(cask)
+    changed_casks = {}
 
-    if not mode or mode == "delete":
+    print("Mode " + mode)
+
+    if not mode or mode == 'add':
+      print("Adding added casks")
+
+      changed_casks |= added_casks
+
+    if not mode or mode == 'update':
+      print("Adding updated casks")
+      changed_casks |= updated_casks
+
+    written_casks = 0
+    for token, cask in changed_casks.items():
+      if write_cask(cask):
+        written_casks += 1
+
+      # Limit cask changes per PR.
+      if mode is not None and written_casks >= 100:
+        break
+
+    if not mode or mode == 'delete':
       # Delete casks which don't exist anymore.
       for deleted_cask in existing_casks.values():
         os.remove(deleted_cask["path"])
