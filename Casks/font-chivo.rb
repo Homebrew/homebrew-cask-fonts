@@ -8,12 +8,6 @@ cask "font-chivo" do
   name "Chivo"
   homepage "https://fonts.google.com/specimen/Chivo"
 
-  font "Chivo-Black.ttf"
-  font "Chivo-BlackItalic.ttf"
-  font "Chivo-Bold.ttf"
-  font "Chivo-BoldItalic.ttf"
-  font "Chivo-Italic.ttf"
-  font "Chivo-Light.ttf"
-  font "Chivo-LightItalic.ttf"
-  font "Chivo-Regular.ttf"
+  font "Chivo-Italic[wght].ttf"
+  font "Chivo[wght].ttf"
 end

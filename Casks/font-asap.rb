@@ -8,6 +8,6 @@ cask "font-asap" do
   name "Asap"
   homepage "https://fonts.google.com/specimen/Asap"
 
-  font "Asap-Italic[wght].ttf"
-  font "Asap[wght].ttf"
+  font "Asap-Italic[wdth,wght].ttf"
+  font "Asap[wdth,wght].ttf"
 end

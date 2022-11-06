@@ -2,10 +2,9 @@ cask "font-ibm-plex-mono" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
-      branch:    "main",
-      only_path: "ofl/ibmplexmono"
+  url "https://github.com/google/fonts/trunk/ofl/ibmplexmono",
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "IBM Plex Mono"
   desc "Corporate typeface for IBM"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Mono"
