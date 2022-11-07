@@ -5,7 +5,7 @@ cask "font-climate-crisis" do
   url "https://github.com/google/fonts/raw/main/ofl/climatecrisis/ClimateCrisis%5BYEAR%5D.ttf",
       verified: "github.com/google/fonts/"
   name "Climate Crisis"
-  homepage "https://fonts.google.com/specimen/Climate+Crisis"
+  homepage "https://github.com/dancoull/ClimateCrisis"
 
   font "ClimateCrisis[YEAR].ttf"
 end
