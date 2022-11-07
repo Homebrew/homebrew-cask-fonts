@@ -2,9 +2,10 @@ cask "font-k2d" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/k2d",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/k2d"
   name "K2D"
   homepage "https://fonts.google.com/specimen/K2D"
 

@@ -2,9 +2,10 @@ cask "font-kanit" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/kanit",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/kanit"
   name "Kanit"
   homepage "https://fonts.google.com/specimen/Kanit"
 

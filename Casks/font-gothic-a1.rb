@@ -2,9 +2,10 @@ cask "font-gothic-a1" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/gothica1",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/gothica1"
   name "Gothic A1"
   homepage "https://fonts.google.com/specimen/Gothic+A1"
 
