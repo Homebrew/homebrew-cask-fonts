@@ -7,7 +7,7 @@ cask "font-ek-mukta" do
       branch:    "main",
       only_path: "ofl/ekmukta"
   name "Ek Mukta"
-  homepage "https://fonts.google.com/specimen/Ek+Mukta"
+  homepage "https://fonts.google.com/specimen/Mukta"
 
   font "EkMukta-Bold.ttf"
   font "EkMukta-ExtraBold.ttf"
