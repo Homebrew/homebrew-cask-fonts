@@ -7,7 +7,7 @@ cask "font-bio-rhyme-expanded" do
       branch:    "main",
       only_path: "ofl/biorhymeexpanded"
   name "Bio Rhyme Expanded"
-  homepage "https://fonts.google.com/specimen/BioRhyme+Expanded"
+  homepage "https://fonts.google.com/specimen/Bio+Rhyme+Expanded"
 
   font "BioRhymeExpanded-Bold.ttf"
   font "BioRhymeExpanded-ExtraBold.ttf"

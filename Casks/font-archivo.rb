@@ -2,9 +2,10 @@ cask "font-archivo" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/archivo",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/archivo"
   name "Archivo"
   homepage "https://fonts.google.com/specimen/Archivo"
 

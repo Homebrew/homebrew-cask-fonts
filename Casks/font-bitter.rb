@@ -2,9 +2,10 @@ cask "font-bitter" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/bitter",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/bitter"
   name "Bitter"
   desc "Slab-serif typeface optimized for e-ink screens"
   homepage "https://fonts.google.com/specimen/Bitter"

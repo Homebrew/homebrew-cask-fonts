@@ -7,7 +7,7 @@ cask "font-open-sans-condensed" do
       branch:    "main",
       only_path: "apache/opensanscondensed"
   name "Open Sans Condensed"
-  homepage "https://fonts.google.com/earlyaccess"
+  homepage "https://fonts.google.com/specimen/Open+Sans+Condensed"
 
   font "OpenSansCondensed-Bold.ttf"
   font "OpenSansCondensed-Light.ttf"

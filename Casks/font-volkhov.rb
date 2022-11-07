@@ -2,9 +2,10 @@ cask "font-volkhov" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/volkhov",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/volkhov"
   name "Volkhov"
   homepage "https://fonts.google.com/specimen/Volkhov"
 

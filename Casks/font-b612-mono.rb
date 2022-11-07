@@ -2,9 +2,10 @@ cask "font-b612-mono" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/b612mono",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/b612mono"
   name "B612 Mono"
   homepage "https://fonts.google.com/specimen/B612+Mono"
 

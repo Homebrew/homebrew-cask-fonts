@@ -2,9 +2,10 @@ cask "font-averia-serif-libre" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/averiaseriflibre",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/averiaseriflibre"
   name "Averia Serif Libre"
   homepage "https://fonts.google.com/specimen/Averia+Serif+Libre"
 
