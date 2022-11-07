@@ -2,11 +2,12 @@ cask "font-ek-mukta" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/ekmukta",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/ekmukta"
   name "Ek Mukta"
-  homepage "https://fonts.google.com/specimen/Ek+Mukta"
+  homepage "https://fonts.google.com/specimen/Mukta"
 
   font "EkMukta-Bold.ttf"
   font "EkMukta-ExtraBold.ttf"
