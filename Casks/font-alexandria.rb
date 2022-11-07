@@ -6,7 +6,7 @@ cask "font-alexandria" do
       verified: "github.com/google/fonts/"
   name "Alexandria"
   desc "9 weights font family made in matching to the latin type Montserrat"
-  homepage "https://fonts.google.com/specimen/Alexandria"
+  homepage "https://github.com/Gue3bara/Alexandria"
 
   font "Alexandria[wght].ttf"
 end
