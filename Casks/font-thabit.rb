@@ -7,7 +7,7 @@ cask "font-thabit" do
       branch:    "main",
       only_path: "ofl/thabit"
   name "Thabit"
-  homepage "https://fonts.google.com/specimen/Thabit"
+  homepage "https://fonts.google.com/earlyaccess"
 
   font "Thabit-Bold.ttf"
   font "Thabit-BoldOblique.ttf"
