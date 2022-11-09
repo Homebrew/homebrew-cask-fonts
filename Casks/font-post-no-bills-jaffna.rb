@@ -7,7 +7,7 @@ cask "font-post-no-bills-jaffna" do
       branch:    "main",
       only_path: "ofl/postnobillsjaffna"
   name "Post No Bills Jaffna"
-  homepage "https://fonts.google.com/specimen/Post+No+Bills+Jaffna"
+  homepage "https://github.com/mooniak/post-no-bills-font"
 
   font "PostNoBillsJaffna-Bold.ttf"
   font "PostNoBillsJaffna-ExtraBold.ttf"
