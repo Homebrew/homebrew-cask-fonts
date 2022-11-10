@@ -7,7 +7,7 @@ cask "font-seoul-namsan-condensed" do
       branch:    "main",
       only_path: "ofl/seoulnamsancondensed"
   name "Seoul Namsan Condensed"
-  homepage "http://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
+  homepage "https://fonts.google.com/specimen/Seoul+Namsan+Condensed"
 
   font "SeoulNamsanCondensed-Black.ttf"
   font "SeoulNamsanCondensed-Bold.ttf"
