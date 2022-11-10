@@ -2,9 +2,10 @@ cask "font-noto-sans-devanagari-ui" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/notosansdevanagariui",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/notosansdevanagariui"
   name "Noto Sans Devanagari UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Devanagari+UI"
 
