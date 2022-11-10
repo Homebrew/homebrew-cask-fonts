@@ -7,7 +7,7 @@ cask "font-seoul-hangang-condensed" do
       branch:    "main",
       only_path: "ofl/seoulhangangcondensed"
   name "Seoul Hangang Condensed"
-  homepage "http://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
+  homepage "https://fonts.google.com/specimen/Seoul+Hangang+Condensed"
 
   font "SeoulHangangCondensed-Bold.ttf"
   font "SeoulHangangCondensed-BoldL.ttf"
