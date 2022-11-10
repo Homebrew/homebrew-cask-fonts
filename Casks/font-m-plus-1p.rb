@@ -2,9 +2,10 @@ cask "font-m-plus-1p" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/mplus1p",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/mplus1p"
   name "M PLUS 1p"
   homepage "https://fonts.google.com/specimen/M+PLUS+1p"
 
