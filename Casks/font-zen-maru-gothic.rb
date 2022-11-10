@@ -2,9 +2,10 @@ cask "font-zen-maru-gothic" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/zenmarugothic",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/zenmarugothic"
   name "Zen Maru Gothic"
   desc "Also easy to use in any scenes"
   homepage "https://fonts.google.com/specimen/Zen+Maru+Gothic"
