@@ -2,9 +2,10 @@ cask "font-david-libre" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/davidlibre",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/davidlibre"
   name "David Libre"
   desc "Led by meir sadan, a type designer based in tel aviv, israel"
   homepage "https://fonts.google.com/specimen/David+Libre"

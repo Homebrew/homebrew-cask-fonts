@@ -2,9 +2,10 @@ cask "font-ibm-plex-sans-thai-looped" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/ibmplexsansthailooped",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/ibmplexsansthailooped"
   name "IBM Plex Sans Thai Looped"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Thai+Looped"
 
