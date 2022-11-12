@@ -7,7 +7,7 @@ cask "font-tuffy" do
       branch:    "main",
       only_path: "ofl/tuffy"
   name "Tuffy"
-  homepage "https://www.cufonfonts.com/font/tuffy"
+  homepage "http://tulrich.com/fonts/"
 
   font "Tuffy-Bold.ttf"
   font "Tuffy-BoldItalic.ttf"
