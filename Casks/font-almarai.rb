@@ -2,9 +2,10 @@ cask "font-almarai" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/almarai",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/almarai"
   name "Almarai"
   homepage "https://fonts.google.com/specimen/Almarai"
 

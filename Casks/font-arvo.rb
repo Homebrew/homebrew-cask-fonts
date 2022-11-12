@@ -2,9 +2,10 @@ cask "font-arvo" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/arvo",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/arvo"
   name "Arvo"
   homepage "https://fonts.google.com/specimen/Arvo"
 

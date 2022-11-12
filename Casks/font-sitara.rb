@@ -2,11 +2,12 @@ cask "font-sitara" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/sitara",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/sitara"
   name "Sitara"
-  homepage "https://fonts.google.com/specimen/Sitara"
+  homepage "https://www.cdnfonts.com/sitara.font" # Upstream repo https://github.com/Neelakash/sitara is gone.
 
   font "Sitara-Bold.ttf"
   font "Sitara-BoldItalic.ttf"

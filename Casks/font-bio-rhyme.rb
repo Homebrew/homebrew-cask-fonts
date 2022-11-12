@@ -2,11 +2,12 @@ cask "font-bio-rhyme" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/biorhyme",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/biorhyme"
   name "Bio Rhyme"
-  homepage "https://fonts.google.com/specimen/Bio+Rhyme"
+  homepage "https://fonts.google.com/specimen/BioRhyme"
 
   font "BioRhyme-Bold.ttf"
   font "BioRhyme-ExtraBold.ttf"
