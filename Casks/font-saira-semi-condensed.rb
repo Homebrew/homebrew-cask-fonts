@@ -2,9 +2,10 @@ cask "font-saira-semi-condensed" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/sairasemicondensed",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/sairasemicondensed"
   name "Saira Semi Condensed"
   homepage "https://fonts.google.com/specimen/Saira+Semi+Condensed"
 

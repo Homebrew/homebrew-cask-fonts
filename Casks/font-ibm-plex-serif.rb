@@ -2,9 +2,10 @@ cask "font-ibm-plex-serif" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/ibmplexserif",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/ibmplexserif"
   name "IBM Plex Serif"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Serif"
 

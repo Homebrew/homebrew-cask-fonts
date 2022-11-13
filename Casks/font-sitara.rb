@@ -7,7 +7,7 @@ cask "font-sitara" do
       branch:    "main",
       only_path: "ofl/sitara"
   name "Sitara"
-  homepage "https://www.cdnfonts.com/sitara.font" # Upstream repo https://github.com/Neelakash/sitara is gone.
+  homepage "https://www.cdnfonts.com/sitara.font"
 
   font "Sitara-Bold.ttf"
   font "Sitara-BoldItalic.ttf"
