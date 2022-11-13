@@ -8,7 +8,7 @@ cask "font-sofia-sans" do
       only_path: "ofl/sofiasans"
   name "Sofia Sans"
   desc "Opentype family with large character set"
-  homepage "https://fonts.google.com/specimen/Sofia+Sans"
+  homepage "https://github.com/lettersoup/Sofia-Sans"
 
   font "SofiaSans-Italic[wdth,wght].ttf"
   font "SofiaSans[wdth,wght].ttf"
