@@ -2,9 +2,10 @@ cask "font-turret-road" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/turretroad",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/turretroad"
   name "Turret Road"
   homepage "https://fonts.google.com/specimen/Turret+Road"
 

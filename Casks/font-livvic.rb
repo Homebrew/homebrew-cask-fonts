@@ -2,9 +2,10 @@ cask "font-livvic" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/livvic",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/livvic"
   name "Livvic"
   homepage "https://fonts.google.com/specimen/Livvic"
 

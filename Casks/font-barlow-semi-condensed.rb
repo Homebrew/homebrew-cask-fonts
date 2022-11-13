@@ -2,9 +2,10 @@ cask "font-barlow-semi-condensed" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ofl/barlowsemicondensed",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ofl/barlowsemicondensed"
   name "Barlow Semi Condensed"
   homepage "https://fonts.google.com/specimen/Barlow+Semi+Condensed"
 
