@@ -7,7 +7,7 @@ cask "font-post-no-bills-colombo" do
       branch:    "main",
       only_path: "ofl/postnobillscolombo"
   name "Post No Bills Colombo"
-  homepage "https://fonts.google.com/specimen/Post+No+Bills"
+  homepage "https://fonts.google.com/specimen/Stick+No+Bills"
 
   font "PostNoBillsColombo-Bold.ttf"
   font "PostNoBillsColombo-ExtraBold.ttf"
