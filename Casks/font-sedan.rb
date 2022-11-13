@@ -2,12 +2,12 @@ cask "font-sedan" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
-      branch:    "main",
-      only_path: "ofl/sedan"
+  url "https://github.com/google/fonts/trunk/ofl/sedan",
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Sedan"
-  homepage "https://tipotype.com/underground/sedan/"
+  desc "Also available, a small caps sister family"
+  homepage "https://fonts.google.com/specimen/Sedan"
 
   font "Sedan-Italic.ttf"
   font "Sedan-Regular.ttf"

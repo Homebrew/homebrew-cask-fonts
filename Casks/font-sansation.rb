@@ -2,12 +2,12 @@ cask "font-sansation" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
-      branch:    "main",
-      only_path: "ofl/sansation"
+  url "https://github.com/google/fonts/trunk/ofl/sansation",
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Sansation"
-  homepage "https://www.fontspace.com/sansation-font-f20328"
+  desc "Sans serif typeface family"
+  homepage "https://fonts.google.com/specimen/Sansation"
 
   font "Sansation-Bold.ttf"
   font "Sansation-BoldItalic.ttf"

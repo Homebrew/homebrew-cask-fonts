@@ -2,12 +2,11 @@ cask "font-seoul-hangang-condensed" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
-      branch:    "main",
-      only_path: "ofl/seoulhangangcondensed"
+  url "https://github.com/google/fonts/trunk/ofl/seoulhangangcondensed",
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Seoul Hangang Condensed"
-  homepage "http://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
+  homepage "https://fonts.google.com/specimen/Seoul+Hangang+Condensed"
 
   font "SeoulHangangCondensed-Bold.ttf"
   font "SeoulHangangCondensed-BoldL.ttf"

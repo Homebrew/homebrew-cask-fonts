@@ -2,11 +2,12 @@ cask "font-hind-jalandhar" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts.git",
-      branch:    "main",
-      only_path: "ofl/hindjalandhar"
+  url "https://github.com/google/fonts/trunk/ofl/hindjalandhar",
+      verified: "github.com/google/fonts/",
+      using:    :svn
   name "Hind Jalandhar"
-  homepage "https://github.com/itfoundry/hind-jalandhar"
+  desc "Led by indian type foundry, a type design foundry based in ahmedabad, india"
+  homepage "https://fonts.google.com/specimen/Hind+Jalandhar"
 
   font "HindJalandhar-Bold.ttf"
   font "HindJalandhar-Light.ttf"
