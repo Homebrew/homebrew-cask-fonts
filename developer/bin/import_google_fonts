@@ -338,7 +338,7 @@ Download the or clone the repository from https://github.com/google/fonts, then 
         written_casks += 1
 
       # Limit cask changes per PR.
-      if mode is not None and written_casks >= 100:
+      if mode is not None and written_casks >= 50:
         break
 
     if not mode or mode == 'delete':
