@@ -7,7 +7,7 @@ cask "font-seoul-namsan" do
       branch:    "main",
       only_path: "ofl/seoulnamsan"
   name "Seoul Namsan"
-  homepage "https://fonts.google.com/specimen/Seoul+Namsan"
+  homepage "https://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
 
   font "SeoulNamsan-Bold.ttf"
   font "SeoulNamsan-ExtraBold.ttf"
