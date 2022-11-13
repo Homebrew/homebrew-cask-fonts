@@ -2,9 +2,10 @@ cask "font-ubuntu" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/trunk/ufl/ubuntu",
-      verified: "github.com/google/fonts/",
-      using:    :svn
+  url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
+      branch:    "main",
+      only_path: "ufl/ubuntu"
   name "Ubuntu"
   desc "Sans-serif typeface manually hinted for clarity"
   homepage "https://fonts.google.com/specimen/Ubuntu"
