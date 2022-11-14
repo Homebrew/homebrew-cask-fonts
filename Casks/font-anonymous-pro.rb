@@ -6,6 +6,14 @@ cask "font-anonymous-pro" do
   name "Anonymous Pro"
   homepage "https://www.marksimonson.com/fonts/view/anonymous-pro"
 
+  livecheck do
+    url :homepage
+    regex(/href=.*?AnonymousPro[._-]v?(\d+(?:[._]\d+)+)\.zip/i)
+    strategy :page_match do |page, regex|
+      page.scan(regex).map { |match| match.first.tr("_", ".") }
+    end
+  end
+
   font "AnonymousPro-#{version}.001/Anonymous Pro B.ttf"
   font "AnonymousPro-#{version}.001/Anonymous Pro BI.ttf"
   font "AnonymousPro-#{version}.001/Anonymous Pro I.ttf"
