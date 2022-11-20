@@ -9,6 +9,6 @@ cask "font-sofia-sans" do
   desc "Opentype family with large character set"
   homepage "https://github.com/lettersoup/Sofia-Sans"
 
-  font "SofiaSans-Italic[wdth,wght].ttf"
-  font "SofiaSans[wdth,wght].ttf"
+  font "SofiaSans-Italic[wght].ttf"
+  font "SofiaSans[wght].ttf"
 end

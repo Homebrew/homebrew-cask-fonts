@@ -2,16 +2,10 @@ cask "font-frank-ruhl-libre" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
-      branch:    "main",
-      only_path: "ofl/frankruhllibre"
+  url "https://github.com/google/fonts/raw/main/ofl/frankruhllibre/FrankRuhlLibre%5Bwght%5D.ttf",
+      verified: "github.com/google/fonts/"
   name "Frank Ruhl Libre"
   homepage "https://fonts.google.com/specimen/Frank+Ruhl+Libre"
 
-  font "FrankRuhlLibre-Black.ttf"
-  font "FrankRuhlLibre-Bold.ttf"
-  font "FrankRuhlLibre-Light.ttf"
-  font "FrankRuhlLibre-Medium.ttf"
-  font "FrankRuhlLibre-Regular.ttf"
+  font "FrankRuhlLibre[wght].ttf"
 end
