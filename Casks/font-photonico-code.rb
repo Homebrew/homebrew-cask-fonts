@@ -7,5 +7,5 @@ cask "font-photonico-code" do
   desc "Free, monospace, slab-serif style font for coding"
   homepage "https://github.com/Photonico/Photonico_Code"
 
-  font "Photonico.1.2.Regular.ttf"
+  font "Photonico.#{version}.Regular.ttf"
 end
