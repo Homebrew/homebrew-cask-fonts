@@ -4,7 +4,13 @@ cask "font-bigblue-terminal-nerd-font" do
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/BigBlueTerminal.zip"
   name "BigBlue_Terminal Nerd Font families (BigBlue Terminal)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "BigBlue TerminalPlus Nerd Font Complete.TTF"
   font "BigBlue Terminal 437TT Nerd Font Complete.TTF"
