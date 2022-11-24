@@ -1,11 +1,16 @@
 cask "font-hasklug-nerd-font" do
-  version "2.1.0"
-  sha256 "73a7387e9569ab33bee5aebb62ef86762c2e77084799760e41f61250c107cb6f"
+  version "2.2.1"
+  sha256 "cbb9b6f45c38c82d22c8e5130f93338b4663935277391d62e9234f4a1509f862"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hasklig.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "Hasklug Nerd Font (Hasklig)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "Hasklug Bold Nerd Font Complete.otf"
   font "Hasklug Bold Italic Nerd Font Complete.otf"
