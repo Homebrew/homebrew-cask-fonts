@@ -3,7 +3,6 @@ cask "font-cousine-nerd-font" do
   sha256 "0d20332feb284938edbde0a376411e3cf1f7e5ad8aeedb8e92b67d37ef534a9c"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Cousine.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "Cousine Nerd Font (Cousine)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
