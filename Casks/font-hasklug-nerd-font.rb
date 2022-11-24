@@ -3,7 +3,6 @@ cask "font-hasklug-nerd-font" do
   sha256 "cbb9b6f45c38c82d22c8e5130f93338b4663935277391d62e9234f4a1509f862"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hasklig.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "Hasklug Nerd Font (Hasklig)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
