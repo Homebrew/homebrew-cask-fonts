@@ -1,6 +1,6 @@
 cask "font-bitstream-vera-sans-mono-nerd-font" do
-  version "2.1.0"
-  sha256 "b31595d1e717156a1f42b0ff635b93d5da631312e4f0bd5c581259171e4a42d8"
+  version "2.2.1"
+  sha256 "908e663d280122f4839539c3acf444d0a29609e61a8f4fa8a75f61af9fc601cc"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/BitstreamVeraSansMono.zip"
   appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
