@@ -3,7 +3,6 @@ cask "font-open-dyslexic" do
   sha256 "3b4a84f573d3f5d75e198bbf362ff6fa812b33d6559dce651e44df455be929cc"
 
   url "https://codeload.github.com/antijingoist/open-dyslexic/zip/#{version}"
-  appcast "https://github.com/antijingoist/open-dyslexic/releases.atom"
   name "OpenDyslexic"
   homepage "https://github.com/antijingoist/open-dyslexic"
 

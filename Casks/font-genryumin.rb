@@ -3,7 +3,6 @@ cask "font-genryumin" do
   sha256 "e0ddfef92cd319e829fb968a44ce17301e5b35a727824b3c03e3aa9d946e25cd"
 
   url "https://github.com/ButTaiwan/genryu-font/releases/download/v#{version}/GenRyuMin.zip"
-  appcast "https://github.com/ButTaiwan/genryu-font/releases.atom"
   name "GenRyuMin"
   homepage "https://github.com/ButTaiwan/genryu-font"
 

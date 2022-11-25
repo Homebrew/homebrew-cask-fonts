@@ -4,7 +4,6 @@ cask "font-fira-sans" do
 
   url "https://github.com/mozilla/Fira/archive/#{version}.tar.gz",
       verified: "github.com/mozilla/Fira/"
-  appcast "https://github.com/mozilla/Fira/releases.atom"
   name "Fira Sans"
   homepage "https://mozilla.github.io/Fira/"
 

@@ -19,7 +19,6 @@ cask "font-ionicons" do
   sha256 "b222fcaede908b71d5b206db9fb7b625a07d313be00ee908eabd267604868661"
 
   url "https://github.com/ionic-team/ionicons/archive/v#{version}.zip"
-  appcast "https://github.com/ionic-team/ionicons/releases.atom"
   name "Ionicons"
   homepage "https://github.com/ionic-team/ionicons"
 
@@ -35,7 +34,6 @@ cask "font-fantasque-sans-mono" do
   sha256 "84be689e231ff773ed9d352e83dccd8151d9e445f1cb0b88cb0e9330fc4d9cfc"
 
   url "https://github.com/belluzj/fantasque-sans/releases/download/v#{version}/FantasqueSansMono-Normal.zip"
-  appcast "https://github.com/belluzj/fantasque-sans/releases.atom"
   name "Fantasque Sans Mono"
   homepage "https://github.com/belluzj/fantasque-sans"
 

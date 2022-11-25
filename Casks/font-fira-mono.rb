@@ -4,7 +4,6 @@ cask "font-fira-mono" do
 
   url "https://github.com/mozilla/Fira/archive/#{version.csv.second}.tar.gz",
       verified: "github.com/mozilla/Fira/"
-  appcast "https://github.com/mozilla/Fira/releases.atom"
   name "Fira Mono"
   homepage "https://mozilla.github.io/Fira/"
 

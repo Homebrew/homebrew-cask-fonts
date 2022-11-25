@@ -4,7 +4,6 @@ cask "font-myrica" do
 
   url "https://codeload.github.com/tomokuni/Myrica/tar.gz/#{version}",
       verified: "codeload.github.com/tomokuni/Myrica/"
-  appcast "https://github.com/tomokuni/Myrica/releases.atom"
   name "Myrica"
   homepage "https://myrica.estable.jp/"
 

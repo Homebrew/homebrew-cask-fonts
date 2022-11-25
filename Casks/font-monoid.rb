@@ -4,7 +4,6 @@ cask "font-monoid" do
 
   url "https://github.com/larsenwork/monoid/blob/release/Monoid.zip?raw=true",
       verified: "github.com/larsenwork/monoid/"
-  appcast "https://github.com/larsenwork/monoid/releases.atom"
   name "Monoid"
   homepage "https://larsenwork.com/monoid/"
 

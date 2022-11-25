@@ -3,7 +3,6 @@ cask "font-genyomin" do
   sha256 "6feafd61b261bdeccc4e69eba8661f5f1dd7ec79d8ef3a78b19fb20759cf366f"
 
   url "https://github.com/ButTaiwan/genyo-font/releases/download/v#{version}/GenYoMin.zip"
-  appcast "https://github.com/ButTaiwan/genyo-font/releases.atom"
   name "GenYoMin"
   homepage "https://github.com/ButTaiwan/genyo-font"
 

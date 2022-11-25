@@ -4,7 +4,6 @@ cask "font-monoisome" do
 
   url "https://github.com/larsenwork/monoid/blob/master/Monoisome/Monoisome-Regular.ttf?raw=true",
       verified: "github.com/larsenwork/monoid/"
-  appcast "https://github.com/larsenwork/monoid/releases.atom"
   name "Monoisome"
   homepage "https://larsenwork.com/monoid/"
 

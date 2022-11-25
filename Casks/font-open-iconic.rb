@@ -4,7 +4,6 @@ cask "font-open-iconic" do
 
   url "https://codeload.github.com/iconic/open-iconic/zip/#{version}",
       verified: "codeload.github.com/iconic/open-iconic/"
-  appcast "https://github.com/iconic/open-iconic/releases.atom"
   name "Open Iconic"
   homepage "https://useiconic.com/open/"
 

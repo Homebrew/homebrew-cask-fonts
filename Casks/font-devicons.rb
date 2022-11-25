@@ -4,7 +4,6 @@ cask "font-devicons" do
 
   url "https://github.com/vorillaz/devicons/archive/#{version}.zip",
       verified: "github.com/vorillaz/devicons/"
-  appcast "https://github.com/vorillaz/devicons/releases.atom"
   name "Devicons"
   homepage "https://vorillaz.github.io/devicons/"
 

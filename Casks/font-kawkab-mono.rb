@@ -4,7 +4,6 @@ cask "font-kawkab-mono" do
 
   url "https://github.com/aiaf/kawkab-mono/releases/download/v#{version}/kawkab-mono-#{version}.zip",
       verified: "github.com/aiaf/kawkab-mono/"
-  appcast "https://github.com/aiaf/kawkab-mono/releases.atom"
   name "Kawkab Mono"
   homepage "https://makkuk.com/kawkab-mono"
 

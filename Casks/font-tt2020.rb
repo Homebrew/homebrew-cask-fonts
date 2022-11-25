@@ -3,7 +3,6 @@ cask "font-tt2020" do
   sha256 "050fa5c979557229242db4fad007e18941e8d64aab1d2ae96c9e99c44773fa5d"
 
   url "https://github.com/ctrlcctrlv/TT2020/archive/v#{version}.zip"
-  appcast "https://github.com/ctrlcctrlv/TT2020/releases.atom"
   name "TT2020"
   desc "Advanced, open source, hyperrealistic, multilingual typewriter font"
   homepage "https://github.com/ctrlcctrlv/TT2020"

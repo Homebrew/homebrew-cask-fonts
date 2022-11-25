@@ -4,7 +4,6 @@ cask "font-jf-open-huninn" do
 
   url "https://github.com/justfont/open-huninn-font/releases/download/v#{version}/jf-openhuninn-#{version}.zip",
       verified: "github.com/justfont/open-huninn-font/"
-  appcast "https://github.com/justfont/open-huninn-font/releases.atom"
   name "jf open huninn"
   name "jf open 粉圓"
   homepage "https://justfont.com/huninn/"

@@ -3,7 +3,6 @@ cask "font-genyogothic" do
   sha256 "d90705ecb3ab25a9b98972fcb244323b6a0c76c4320bb7e0ab1b82815f727086"
 
   url "https://github.com/ButTaiwan/genyog-font/releases/download/v#{version}/GenYoGothic.zip"
-  appcast "https://github.com/ButTaiwan/genyog-font/releases.atom"
   name "GenYoGothic"
   homepage "https://github.com/ButTaiwan/genyog-font"
 
