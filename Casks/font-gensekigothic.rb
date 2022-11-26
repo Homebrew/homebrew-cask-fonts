@@ -3,7 +3,6 @@ cask "font-gensekigothic" do
   sha256 "d4baad35c36428fe355648615c30bfb5f74bc1d4eca12e88af664a83fb7c7d6a"
 
   url "https://github.com/ButTaiwan/genseki-font/releases/download/v#{version}/GenSekiGothic.zip"
-  appcast "https://github.com/ButTaiwan/genseki-font/releases.atom"
   name "GenSekiGothic"
   homepage "https://github.com/ButTaiwan/genseki-font"
 

@@ -3,7 +3,6 @@ cask "font-fantasque-sans-mono" do
   sha256 "84be689e231ff773ed9d352e83dccd8151d9e445f1cb0b88cb0e9330fc4d9cfc"
 
   url "https://github.com/belluzj/fantasque-sans/releases/download/v#{version}/FantasqueSansMono-Normal.zip"
-  appcast "https://github.com/belluzj/fantasque-sans/releases.atom"
   name "Fantasque Sans Mono"
   homepage "https://github.com/belluzj/fantasque-sans"
 

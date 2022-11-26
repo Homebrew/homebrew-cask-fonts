@@ -3,7 +3,6 @@ cask "font-tinos-nerd-font" do
   sha256 "4d5e33948bbb51e2a65bec8390afae7e9e0286c55f003a5d8e0b13e8cd24f61c"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Tinos.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "Tinos Nerd Font (Tinos)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 

@@ -4,7 +4,6 @@ cask "font-firago" do
 
   url "https://github.com/bBoxType/FiraGO/archive/#{version}.tar.gz",
       verified: "github.com/bBoxType/FiraGO/"
-  appcast "https://github.com/bBoxType/FiraGO/releases.atom"
   name "FiraGO"
   homepage "https://bboxtype.com/typefaces/FiraGO/"
 

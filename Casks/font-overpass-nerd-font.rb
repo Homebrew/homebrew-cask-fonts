@@ -3,7 +3,6 @@ cask "font-overpass-nerd-font" do
   sha256 "b5f7522a2e884562cfca4c32fa708d537b884efb5d055ad617a3b503d9f842f7"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Overpass.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "Overpass Nerd Font (Overpass)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 

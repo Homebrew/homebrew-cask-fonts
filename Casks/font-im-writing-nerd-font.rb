@@ -3,7 +3,6 @@ cask "font-im-writing-nerd-font" do
   sha256 "9f18ad9964ac0a09ec321b6d1ca68a25e4c1b2a019b575032b9b75c37bd69332"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/iA-Writer.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "iMWriting Nerd Font families (iA Writer)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 

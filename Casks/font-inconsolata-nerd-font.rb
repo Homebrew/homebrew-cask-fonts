@@ -3,7 +3,6 @@ cask "font-inconsolata-nerd-font" do
   sha256 "21b2e09afb0fd7f0c06aba6605dae79abe1b7c9e695fc34d2232b43101e3eb91"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Inconsolata.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "Inconsolata Nerd Font (Inconsolata)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 

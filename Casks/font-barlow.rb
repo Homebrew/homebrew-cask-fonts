@@ -4,7 +4,6 @@ cask "font-barlow" do
 
   url "https://github.com/jpt/barlow/archive/#{version}.zip",
       verified: "github.com/jpt/barlow/"
-  appcast "https://github.com/jpt/barlow/releases.atom"
   name "Barlow"
   homepage "https://tribby.com/fonts/barlow"
 

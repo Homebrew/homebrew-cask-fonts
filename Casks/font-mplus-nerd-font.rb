@@ -3,7 +3,6 @@ cask "font-mplus-nerd-font" do
   sha256 "d88b440d40747fd196bc86a741a6c0233737600c3b20e50e7512d7ea3e74b90e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/MPlus.zip"
-  appcast "https://github.com/ryanoasis/nerd-fonts/releases.atom"
   name "mplus Nerd Font (M+)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 

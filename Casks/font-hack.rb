@@ -4,7 +4,6 @@ cask "font-hack" do
 
   url "https://github.com/source-foundry/Hack/releases/download/v#{version}/Hack-v#{version}-ttf.zip",
       verified: "github.com/source-foundry/Hack/"
-  appcast "https://github.com/source-foundry/Hack/releases.atom"
   name "Hack"
   homepage "https://sourcefoundry.org/hack/"
 

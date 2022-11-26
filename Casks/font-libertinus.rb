@@ -3,7 +3,6 @@ cask "font-libertinus" do
   sha256 "7fe9f022722d1c1cc67dc2c28a110b3bb55bae3575196160d2422c89333b3850"
 
   url "https://github.com/alerque/libertinus/releases/download/v#{version}/Libertinus-#{version}.tar.xz"
-  appcast "https://github.com/alerque/libertinus/releases.atom"
   name "Libertinus"
   desc "Proportional serif typeface inspired by 19th century book type"
   homepage "https://github.com/alerque/libertinus"
