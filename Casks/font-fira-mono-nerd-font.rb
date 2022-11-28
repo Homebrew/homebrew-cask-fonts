@@ -12,10 +12,16 @@ cask "font-fira-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Fira Mono Bold Nerd Font Complete.otf"
-  font "Fira Mono Medium Nerd Font Complete.otf"
-  font "Fira Mono Regular Nerd Font Complete.otf"
-  font "Fira Mono Bold Nerd Font Complete Mono.otf"
-  font "Fira Mono Medium Nerd Font Complete Mono.otf"
-  font "Fira Mono Regular Nerd Font Complete Mono.otf"
+  font "Fura Mono Bold Nerd Font Complete Mono Windows Compatible.otf"
+  font "Fura Mono Bold Nerd Font Complete Mono.otf"
+  font "Fura Mono Bold Nerd Font Complete Windows Compatible.otf"
+  font "Fura Mono Bold Nerd Font Complete.otf"
+  font "Fura Mono Medium Nerd Font Complete Mono Windows Compatible.otf"
+  font "Fura Mono Medium Nerd Font Complete Mono.otf"
+  font "Fura Mono Medium Nerd Font Complete Windows Compatible.otf"
+  font "Fura Mono Medium Nerd Font Complete.otf"
+  font "Fura Mono Regular Nerd Font Complete Mono Windows Compatible.otf"
+  font "Fura Mono Regular Nerd Font Complete Mono.otf"
+  font "Fura Mono Regular Nerd Font Complete Windows Compatible.otf"
+  font "Fura Mono Regular Nerd Font Complete.otf"
 end
