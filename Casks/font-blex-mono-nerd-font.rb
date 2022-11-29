@@ -1,6 +1,6 @@
 cask "font-blex-mono-nerd-font" do
-  version "2.2.1"
-  sha256 "56f87ab8dfd3070105006794954fbeb5f2adcddba342231622b8f1eec6589101"
+  version "2.2.2"
+  sha256 "05c76e08627cae7b334e3bcf88c41a263bd7da02680ec6f6987fc51c25cb4d39"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/IBMPlexMono.zip"
   name "BlexMono Nerd Font (IBM Plex Mono)"
