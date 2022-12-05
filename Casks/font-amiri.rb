@@ -1,6 +1,6 @@
 cask "font-amiri" do
-  version "0.900"
-  sha256 "ab5dbcf2464ef929e8bd0a25533686a305c921731456173d2e19023281bfe361"
+  version "1.000"
+  sha256 "926fe1bd7dfde8e55178281f645258bfced6420c951c6f2fd532fd21691bca30"
 
   url "https://github.com/alif-type/amiri/releases/download/#{version}/Amiri-#{version}.zip",
       verified: "github.com/alif-type/amiri/"
@@ -9,9 +9,13 @@ cask "font-amiri" do
   homepage "https://www.amirifont.org/"
 
   font "Amiri-#{version}/Amiri-Bold.ttf"
-  font "Amiri-#{version}/Amiri-BoldSlanted.ttf"
+  font "Amiri-#{version}/Amiri-BoldItalic.ttf"
+  font "Amiri-#{version}/Amiri-Italic.ttf"
   font "Amiri-#{version}/Amiri-Regular.ttf"
-  font "Amiri-#{version}/Amiri-Slanted.ttf"
   font "Amiri-#{version}/AmiriQuran.ttf"
   font "Amiri-#{version}/AmiriQuranColored.ttf"
+
+  caveats do
+    discontinued
+  end
 end
