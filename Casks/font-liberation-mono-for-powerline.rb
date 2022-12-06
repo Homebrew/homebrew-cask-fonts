@@ -2,8 +2,9 @@ cask "font-liberation-mono-for-powerline" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/powerline/fonts/trunk/LiberationMono",
-      using: :svn
+  url "https://github.com/powerline/fonts.git",
+      branch:    "master",
+      only_path: "LiberationMono"
   name "Literation Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/LiberationMono"
 

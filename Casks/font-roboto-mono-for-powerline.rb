@@ -2,8 +2,9 @@ cask "font-roboto-mono-for-powerline" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/powerline/fonts/trunk/RobotoMono",
-      using: :svn
+  url "https://github.com/powerline/fonts.git",
+      branch:    "master",
+      only_path: "RobotoMono"
   name "Roboto Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/RobotoMono"
 
