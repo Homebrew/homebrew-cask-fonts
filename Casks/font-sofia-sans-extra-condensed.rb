@@ -7,7 +7,7 @@ cask "font-sofia-sans-extra-condensed" do
       branch:    "main",
       only_path: "ofl/sofiasansextracondensed"
   name "Sofia Sans Extra Condensed"
-  homepage "https://fonts.google.com/specimen/Sofia+Sans+Extra+Condensed"
+  homepage "https://www.dfonts.org/fonts/sofia-pro-condensed-font-family/"
 
   font "SofiaSansExtraCondensed-Italic[wght].ttf"
   font "SofiaSansExtraCondensed[wght].ttf"
