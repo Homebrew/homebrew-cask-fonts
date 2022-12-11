@@ -6,7 +6,7 @@ cask "font-noto-sans-tangsa" do
       verified: "github.com/google/fonts/"
   name "Noto Sans Tangsa"
   desc "Design for the indic tangsa script"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Tangsa"
+  homepage "https://notofonts.github.io/tangsa/"
 
   font "NotoSansTangsa[wght].ttf"
 end
