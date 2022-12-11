@@ -6,7 +6,7 @@ cask "font-noto-sans-signwriting" do
       verified: "github.com/google/fonts/"
   name "Noto Sans SignWriting"
   desc "Design for the sign-language signwriting script"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+SignWriting"
+  homepage "https://notofonts.github.io/noto-docs/specimen/NotoSansSignWriting/"
 
   font "NotoSansSignWriting-Regular.ttf"
 end
