@@ -7,7 +7,7 @@ cask "font-biorhyme" do
       branch:    "main",
       only_path: "ofl/biorhyme"
   name "BioRhyme"
-  desc "Latin typeface family comprised of two widths, a normal family and an expanded family"
+  desc "Latin typeface family"
   homepage "https://fonts.google.com/specimen/BioRhyme"
 
   font "BioRhyme-Bold.ttf"
