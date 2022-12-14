@@ -3,9 +3,14 @@ cask "font-caskaydia-cove-nerd-font" do
   sha256 "b4f4f20ab6bbf55dd9ae7dd1fadd4ef2c608f38922c401afcce373b36a9b0407"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaCode.zip"
-  name "CaskaydiaCove Nerd Font (Caskaydia code)"
-  desc "Fork of the Cascadia Code typeface"
-  homepage "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode"
+  name "CaskaydiaCove Nerd Font (Cascadia Code)"
+  desc "Developer targeted fonts with a high number of glyphs"
+  homepage "https://github.com/ryanoasis/nerd-fonts"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "Caskaydia Cove Nerd Font Complete Bold Italic.otf"
   font "Caskaydia Cove Nerd Font Complete Bold.otf"

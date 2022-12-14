@@ -7,12 +7,17 @@ cask "font-dejavu-sans-mono-nerd-font" do
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "DejaVu Sans Mono Bold Nerd Font Complete Mono.ttf"
   font "DejaVu Sans Mono Bold Nerd Font Complete.ttf"
   font "DejaVu Sans Mono Bold Oblique Nerd Font Complete Mono.ttf"
   font "DejaVu Sans Mono Bold Oblique Nerd Font Complete.ttf"
-  font "DejaVu Sans Mono Nerd Font Complete.ttf"
   font "DejaVu Sans Mono Nerd Font Complete Mono.ttf"
+  font "DejaVu Sans Mono Nerd Font Complete.ttf"
   font "DejaVu Sans Mono Oblique Nerd Font Complete Mono.ttf"
   font "DejaVu Sans Mono Oblique Nerd Font Complete.ttf"
 end

@@ -12,12 +12,12 @@ cask "font-cousine-nerd-font" do
     strategy :github_latest
   end
 
-  font "Cousine Bold Nerd Font Complete.ttf"
-  font "Cousine Bold Nerd Font Complete Mono.ttf"
   font "Cousine Bold Italic Nerd Font Complete Mono.ttf"
   font "Cousine Bold Italic Nerd Font Complete.ttf"
-  font "Cousine Regular Nerd Font Complete.ttf"
-  font "Cousine Regular Nerd Font Complete Mono.ttf"
-  font "Cousine Italic Nerd Font Complete.ttf"
+  font "Cousine Bold Nerd Font Complete Mono.ttf"
+  font "Cousine Bold Nerd Font Complete.ttf"
   font "Cousine Italic Nerd Font Complete Mono.ttf"
+  font "Cousine Italic Nerd Font Complete.ttf"
+  font "Cousine Regular Nerd Font Complete Mono.ttf"
+  font "Cousine Regular Nerd Font Complete.ttf"
 end

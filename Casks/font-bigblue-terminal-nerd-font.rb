@@ -12,8 +12,8 @@ cask "font-bigblue-terminal-nerd-font" do
     strategy :github_latest
   end
 
-  font "BigBlue TerminalPlus Nerd Font Complete.TTF"
+  font "BigBlue Terminal 437TT Nerd Font Complete Mono.TTF"
   font "BigBlue Terminal 437TT Nerd Font Complete.TTF"
   font "BigBlue TerminalPlus Nerd Font Complete Mono.TTF"
-  font "BigBlue Terminal 437TT Nerd Font Complete Mono.TTF"
+  font "BigBlue TerminalPlus Nerd Font Complete.TTF"
 end

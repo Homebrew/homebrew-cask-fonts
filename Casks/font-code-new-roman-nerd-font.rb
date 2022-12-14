@@ -7,10 +7,15 @@ cask "font-code-new-roman-nerd-font" do
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
-  font "Code New Roman Italic Nerd Font Complete.otf"
-  font "Code New Roman Nerd Font Complete.otf"
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
+  font "Code New Roman Bold Nerd Font Complete Mono.otf"
   font "Code New Roman Bold Nerd Font Complete.otf"
   font "Code New Roman Italic Nerd Font Complete Mono.otf"
+  font "Code New Roman Italic Nerd Font Complete.otf"
   font "Code New Roman Nerd Font Complete Mono.otf"
-  font "Code New Roman Bold Nerd Font Complete Mono.otf"
+  font "Code New Roman Nerd Font Complete.otf"
 end
