@@ -12,6 +12,6 @@ cask "font-droid-sans-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Droid Sans Mono Nerd Font Complete.otf"
   font "Droid Sans Mono Nerd Font Complete Mono.otf"
+  font "Droid Sans Mono Nerd Font Complete.otf"
 end

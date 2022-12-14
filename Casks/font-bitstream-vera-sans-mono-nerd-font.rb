@@ -12,12 +12,12 @@ cask "font-bitstream-vera-sans-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Bitstream Vera Sans Mono Bold Nerd Font Complete.ttf"
   font "Bitstream Vera Sans Mono Bold Nerd Font Complete Mono.ttf"
-  font "Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete.ttf"
+  font "Bitstream Vera Sans Mono Bold Nerd Font Complete.ttf"
   font "Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete Mono.ttf"
+  font "Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete.ttf"
   font "Bitstream Vera Sans Mono Nerd Font Complete Mono.ttf"
   font "Bitstream Vera Sans Mono Nerd Font Complete.ttf"
-  font "Bitstream Vera Sans Mono Oblique Nerd Font Complete.ttf"
   font "Bitstream Vera Sans Mono Oblique Nerd Font Complete Mono.ttf"
+  font "Bitstream Vera Sans Mono Oblique Nerd Font Complete.ttf"
 end

@@ -1,17 +1,23 @@
 cask "font-space-mono-nerd-font" do
-  version "2.1.0"
-  sha256 "b3bee63e157aefd83424b3b02db90007e21452fe23df7707657e28dd9e70b5f6"
+  version "2.2.2"
+  sha256 "f7c864da3d4057fce7163181ae1dd85a6175c5e55a12a5410a00e57302cc7aa8"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SpaceMono.zip"
   name "SpaceMono Nerd Font (Space Mono)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
-  font "Space Mono Italic Nerd Font Complete.ttf"
-  font "Space Mono Bold Italic Nerd Font Complete.ttf"
-  font "Space Mono Bold Nerd Font Complete.ttf"
-  font "Space Mono Nerd Font Complete.ttf"
-  font "Space Mono Italic Nerd Font Complete Mono.ttf"
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "Space Mono Bold Italic Nerd Font Complete Mono.ttf"
+  font "Space Mono Bold Italic Nerd Font Complete.ttf"
   font "Space Mono Bold Nerd Font Complete Mono.ttf"
+  font "Space Mono Bold Nerd Font Complete.ttf"
+  font "Space Mono Italic Nerd Font Complete Mono.ttf"
+  font "Space Mono Italic Nerd Font Complete.ttf"
   font "Space Mono Nerd Font Complete Mono.ttf"
+  font "Space Mono Nerd Font Complete.ttf"
 end

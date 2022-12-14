@@ -1,10 +1,16 @@
 cask "font-im-writing-nerd-font" do
-  version "2.1.0"
-  sha256 "9f18ad9964ac0a09ec321b6d1ca68a25e4c1b2a019b575032b9b75c37bd69332"
+  version "2.2.2"
+  sha256 "3852130a129dc8b5146744015b468f7e4ba29c00c9a9f0b2b61cabc3316b7c9c"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/iA-Writer.zip"
-  name "iMWriting Nerd Font families (iA Writer)"
+  name "IMWriting Nerd Font families (iA Writer)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "iM Writing Duo S Bold Italic Nerd Font Complete Mono.ttf"
   font "iM Writing Duo S Bold Italic Nerd Font Complete.ttf"
@@ -15,13 +21,21 @@ cask "font-im-writing-nerd-font" do
   font "iM Writing Duo S Regular Nerd Font Complete Mono.ttf"
   font "iM Writing Duo S Regular Nerd Font Complete.ttf"
   font "iM Writing Duospace Bold Nerd Font Complete Mono.otf"
+  font "iM Writing Duospace Bold Nerd Font Complete Mono.ttf"
   font "iM Writing Duospace Bold Nerd Font Complete.otf"
+  font "iM Writing Duospace Bold Nerd Font Complete.ttf"
   font "iM Writing Duospace BoldItalic Nerd Font Complete Mono.otf"
+  font "iM Writing Duospace BoldItalic Nerd Font Complete Mono.ttf"
   font "iM Writing Duospace BoldItalic Nerd Font Complete.otf"
+  font "iM Writing Duospace BoldItalic Nerd Font Complete.ttf"
   font "iM Writing Duospace Italic Nerd Font Complete Mono.otf"
+  font "iM Writing Duospace Italic Nerd Font Complete Mono.ttf"
   font "iM Writing Duospace Italic Nerd Font Complete.otf"
+  font "iM Writing Duospace Italic Nerd Font Complete.ttf"
   font "iM Writing Duospace Regular Nerd Font Complete Mono.otf"
+  font "iM Writing Duospace Regular Nerd Font Complete Mono.ttf"
   font "iM Writing Duospace Regular Nerd Font Complete.otf"
+  font "iM Writing Duospace Regular Nerd Font Complete.ttf"
   font "iM Writing Mono S Bold Italic Nerd Font Complete Mono.ttf"
   font "iM Writing Mono S Bold Italic Nerd Font Complete.ttf"
   font "iM Writing Mono S Bold Nerd Font Complete Mono.ttf"

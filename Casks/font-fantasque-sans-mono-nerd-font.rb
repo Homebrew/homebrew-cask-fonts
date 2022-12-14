@@ -12,12 +12,12 @@ cask "font-fantasque-sans-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Fantasque Sans Mono Bold Nerd Font Complete Mono.ttf"
-  font "Fantasque Sans Mono Bold Nerd Font Complete.ttf"
   font "Fantasque Sans Mono Bold Italic Nerd Font Complete Mono.ttf"
   font "Fantasque Sans Mono Bold Italic Nerd Font Complete.ttf"
-  font "Fantasque Sans Mono Regular Nerd Font Complete Mono.ttf"
-  font "Fantasque Sans Mono Regular Nerd Font Complete.ttf"
+  font "Fantasque Sans Mono Bold Nerd Font Complete Mono.ttf"
+  font "Fantasque Sans Mono Bold Nerd Font Complete.ttf"
   font "Fantasque Sans Mono Italic Nerd Font Complete Mono.ttf"
   font "Fantasque Sans Mono Italic Nerd Font Complete.ttf"
+  font "Fantasque Sans Mono Regular Nerd Font Complete Mono.ttf"
+  font "Fantasque Sans Mono Regular Nerd Font Complete.ttf"
 end

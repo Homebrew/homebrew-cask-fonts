@@ -7,12 +7,17 @@ cask "font-hack-nerd-font" do
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
-  font "Hack Bold Nerd Font Complete Mono.ttf"
-  font "Hack Bold Nerd Font Complete.ttf"
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "Hack Bold Italic Nerd Font Complete Mono.ttf"
   font "Hack Bold Italic Nerd Font Complete.ttf"
-  font "Hack Regular Nerd Font Complete.ttf"
-  font "Hack Regular Nerd Font Complete Mono.ttf"
+  font "Hack Bold Nerd Font Complete Mono.ttf"
+  font "Hack Bold Nerd Font Complete.ttf"
   font "Hack Italic Nerd Font Complete Mono.ttf"
   font "Hack Italic Nerd Font Complete.ttf"
+  font "Hack Regular Nerd Font Complete Mono.ttf"
+  font "Hack Regular Nerd Font Complete.ttf"
 end
