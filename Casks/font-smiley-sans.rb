@@ -8,10 +8,5 @@ cask "font-smiley-sans" do
   desc "Chinese typeface seeking a visual balance between the humanist and the geometric"
   homepage "https://atelier-anchor.com/typefaces/smiley-sans/"
 
-  livecheck do
-    url "https://github.com/atelier-anchor/smiley-sans"
-    strategy :gitHub_latest
-  end
-
   font "SmileySans-Oblique.ttf"
 end
