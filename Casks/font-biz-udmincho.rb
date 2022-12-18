@@ -7,6 +7,7 @@ cask "font-biz-udmincho" do
       branch:    "main",
       only_path: "ofl/bizudmincho"
   name "BIZ UDMincho"
+  desc "Universal design typeface in the Japanese Mincho type tradition"
   homepage "https://fonts.google.com/specimen/BIZ+UDMincho"
 
   font "BIZUDMincho-Bold.ttf"
