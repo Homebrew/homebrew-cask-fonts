@@ -1,6 +1,6 @@
 cask "font-iosevka-etoile" do
-  version "16.8.4"
-  sha256 "b1b5d353a8b644b5255bba656e1251d65e1678906837820888b45dfb2a37bac9"
+  version "17.0.0"
+  sha256 "c86229adbe10b7f154377aa497b59d67307d65646f029000b6b44f71ab422021"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-etoile-#{version}.zip"
   name "Iosevka Etoile"
