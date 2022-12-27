@@ -1,11 +1,11 @@
 cask "font-monocraft" do
-  version "1.4"
-  sha256 "fbdf76af2b4b72def4e6ea035fbc92aac12f093900db1b9e2c47430e3cc21030"
+  version "2.0"
+  sha256 "a61ecbf50c0fe9a7bcdfdf90e601a0d02a72d4b03733bcebed10a6322b61f2d6"
 
-  url "https://github.com/IdreesInc/Monocraft/releases/download/v#{version}/Monocraft.otf"
+  url "https://github.com/IdreesInc/Monocraft/releases/download/v#{version}/Monocraft.ttf"
   name "Monocraft"
-  desc "Programming font based on the typeface used in Minecraft"
+  desc "Monospaced programming font inspired by the Minecraft typeface"
   homepage "https://github.com/IdreesInc/Monocraft"
 
-  font "Monocraft.otf"
+  font "Monocraft.ttf"
 end
