@@ -1,6 +1,6 @@
 cask "font-plemol-jp-hs" do
-  version "1.3.0"
-  sha256 "09a8e9d8c82b88ec96ee20ad8742817cf465d60de086d3429e70e74aa41004e3"
+  version "1.4.0"
+  sha256 "980be30e550e466503a3552540e565702344e47515cd504b76e67a16a5980d9d"
 
   url "https://github.com/yuru7/PlemolJP/releases/download/v#{version}/PlemolJP_HS_v#{version}.zip"
   name "PlemolJP HS"
