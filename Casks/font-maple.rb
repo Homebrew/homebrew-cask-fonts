@@ -1,6 +1,6 @@
 cask "font-maple" do
-  version "5.5"
-  sha256 "c6467d35e7e35873e358d5bc2c633c0a04f666b8388f57afbf1d4ae7ab14cd1f"
+  version "6.0"
+  sha256 "5045e80a5648b75c19ac8366467666b523cd726beb2b1de362d8c9c75b66e513"
 
   url "https://github.com/subframe7536/Maple-font/releases/download/v#{version}/MapleMono.zip"
   name "Maple Mono"
