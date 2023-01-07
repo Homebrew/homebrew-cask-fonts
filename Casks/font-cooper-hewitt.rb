@@ -2,8 +2,7 @@ cask "font-cooper-hewitt" do
   version :latest
   sha256 :no_check
 
-  url "https://www.cooperhewitt.org/wp-content/uploads/fonts/CooperHewitt-OTF-public.zip",
-      verified: "www.cooperhewitt.org/wp-content/uploads/fonts/"
+  url "https://www.cooperhewitt.org/wp-content/uploads/fonts/CooperHewitt-OTF-public.zip"
   name "Cooper Hewitt"
   homepage "https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/"
 
