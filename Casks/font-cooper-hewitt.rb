@@ -2,9 +2,9 @@ cask "font-cooper-hewitt" do
   version :latest
   sha256 :no_check
 
-  url "https://uh8yh30l48rpize52xh0q1o6i-wpengine.netdna-ssl.com/wp-content/uploads/fonts/CooperHewitt-OTF-public.zip",
-      verified: "uh8yh30l48rpize52xh0q1o6i-wpengine.netdna-ssl.com/wp-content/uploads/fonts/"
+  url "https://www.cooperhewitt.org/wp-content/uploads/fonts/CooperHewitt-OTF-public.zip"
   name "Cooper Hewitt"
+  desc "Contemporary sans serif composed of modified-geometric curves and arches"
   homepage "https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/"
 
   font "CooperHewitt-OTF-public/CooperHewitt-Bold.otf"
