@@ -1,11 +1,19 @@
 cask "font-aurulent-sans-mono-nerd-font" do
-  version "2.2.1"
-  sha256 "b107076e9783928722d794635f029f8a5b1c57b177946c1dc95b9402857bc8c3"
+  version "2.2.2"
+  sha256 "884da5c5eb6f71cdab62772d5f6b9f1c673bdc9763882838fff5eead7207111a"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/AurulentSansMono.zip"
   name "AurulentSansMono Nerd Font (Aurulent Sans Mono)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
-  font "AurulentSansMono-Regular Nerd Font Complete.otf"
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
+  font "AurulentSansMono-Regular Nerd Font Complete Mono Windows Compatible.otf"
   font "AurulentSansMono-Regular Nerd Font Complete Mono.otf"
+  font "AurulentSansMono-Regular Nerd Font Complete Windows Compatible.otf"
+  font "AurulentSansMono-Regular Nerd Font Complete.otf"
 end
