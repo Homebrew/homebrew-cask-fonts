@@ -1,6 +1,6 @@
 cask "font-code-new-roman-nerd-font" do
-  version "2.2.2"
-  sha256 "df74171025e40588db3e7b79ecfae4de408692cd75f607fd585e5033b285846b"
+  version "2.3.0"
+  sha256 "28676e4e035324913296b88e6a9d838b4a5968bfa05e1ba39eb48ce8d3f6c21f"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CodeNewRoman.zip"
   name "CodeNewRoman Nerd Font (Code New Roman)"
