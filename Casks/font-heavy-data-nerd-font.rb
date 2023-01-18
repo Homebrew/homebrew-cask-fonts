@@ -1,6 +1,6 @@
 cask "font-heavy-data-nerd-font" do
-  version "2.2.2"
-  sha256 "81b6049c38928b82a661977b78ebdd569e89ce2c1bafee66adf2d5627839f58a"
+  version "2.3.0"
+  sha256 "b65e7b617987e4fad8379d5893d1b0e6e9e996bb12f3a283315a16ecbab05cb9"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/HeavyData.zip"
   name "HeavyData Nerd Font (Heavy Data)"
@@ -12,6 +12,5 @@ cask "font-heavy-data-nerd-font" do
     strategy :github_latest
   end
 
-  font "Heavy Data Nerd Font Complete Mono.ttf"
   font "Heavy Data Nerd Font Complete.ttf"
 end
