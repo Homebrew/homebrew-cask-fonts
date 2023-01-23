@@ -1,6 +1,6 @@
 cask "font-fantasque-sans-mono-nerd-font" do
-  version "2.3.0"
-  sha256 "65ddcff3c1a3b29b20d3d5f6ae02758952fe51ff5612be93708487d9009d1272"
+  version "2.3.2"
+  sha256 "506d336172b58f83b574c957068bd63113d327431141f579a9eec8a402dc4d25"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FantasqueSansMono.zip"
   name "FantasqueSansMono Nerd Font (Fantasque Sans Mono)"

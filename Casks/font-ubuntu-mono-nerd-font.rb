@@ -1,6 +1,6 @@
 cask "font-ubuntu-mono-nerd-font" do
-  version "2.3.0"
-  sha256 "f8dfd23f9f214f083d7ecdeb68b04bf5eb038a984c9c40000b6eef3c8b30ed67"
+  version "2.3.2"
+  sha256 "bcad6c904a1d1fc6167cc738d2379586707d689a96e623a9f65d6c6ea716d723"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/UbuntuMono.zip"
   name "UbuntuMono Nerd Font (Ubuntu Mono)"
