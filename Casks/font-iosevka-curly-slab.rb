@@ -1,6 +1,6 @@
 cask "font-iosevka-curly-slab" do
-  version "17.0.4"
-  sha256 "7eaf80de56e9ca9d6e591d52c4912c6ae10dcf65c4d605ef0369e6aceacfb69b"
+  version "17.1.0"
+  sha256 "ef0a03974f8c00ccdee356442a4aeef2e07778e74a63e1e54d9047e66404d3a9"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-curly-slab-#{version}.zip"
   name "Iosevka Curly Slab"
