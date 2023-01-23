@@ -1,6 +1,6 @@
 cask "font-gohufont-nerd-font" do
-  version "2.3.0"
-  sha256 "809a3c956f8555758119dc52006c1baee8b11e8863a85e07ee934b237f4ded85"
+  version "2.3.2"
+  sha256 "676152c0dd5f5c16a6868be51353fda357a0ab819984962dd27bbbf753530b8b"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Gohu.zip"
   name "GohuFont Nerd Font (Gohu)"

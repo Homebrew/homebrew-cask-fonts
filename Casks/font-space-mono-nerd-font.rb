@@ -1,6 +1,6 @@
 cask "font-space-mono-nerd-font" do
-  version "2.3.0"
-  sha256 "f3f74571a685b045b2dbf39c778576c227b45030a219cd282745ba2e81c413db"
+  version "2.3.2"
+  sha256 "1169497c51828b11446b169e751a6a69c38d46c67f6f4d3fb457fe13fed54c49"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SpaceMono.zip"
   name "SpaceMono Nerd Font (Space Mono)"
