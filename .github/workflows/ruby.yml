@@ -1,0 +1,34 @@
+name: Ruby
+on:
+  schedule:
+    - cron: 0 0 * * *
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Ruby 2.6
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+        bundler-cache: true
+    - name: Configure git
+      run: |
+        git config user.email 'm@docs.casa'
+        git config user.name 'TANIGUCHI Masaya'
+    - name: Convert and commit
+      run: |
+        git submodule update --init --remote
+        gem install bundler
+        bundle install --jobs 4 --retry 3 --without development
+        bundle exec ruby cask2formula convert
+        bundle exec ruby cask2formula commit
+    - name: Clean Formula directory
+      run: |
+        comm -23 --nocheck-order <(ls -1 Formula) <(ls -1 homebrew-cask-fonts/Casks) | xargs -I{} sh -c 'git rm ./Formula/{} && git commit -m "Remove {}"'
+    - name: Publish to GitHub
+      env:
+        TOKEN: ${{ secrets.PUSH_TOKEN }}
+      run: |
+        git push https://fgborges:${TOKEN}@github.com/Linuxbrew/homebrew-fonts HEAD:master
+  
