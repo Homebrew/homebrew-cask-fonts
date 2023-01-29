@@ -7,7 +7,7 @@ cask "font-shantell-sans" do
       branch:    "main",
       only_path: "ofl/shantellsans"
   name "Shantell Sans"
-  homepage "https://fonts.google.com/specimen/Shantell+Sans"
+  homepage "https://github.com/arrowtype/shantell-sans"
 
   font "ShantellSans-Italic[BNCE,INFM,SPAC,wght].ttf"
   font "ShantellSans[BNCE,INFM,SPAC,wght].ttf"
