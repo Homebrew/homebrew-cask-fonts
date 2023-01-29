@@ -2,7 +2,7 @@ cask "font-shantell-sans" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts.git"
+  url "https://github.com/google/fonts.git",
       branch:    "main",
       only_path: "ofl/shantellsans"
   name "Shantell Sans"
