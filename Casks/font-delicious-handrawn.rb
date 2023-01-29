@@ -6,7 +6,7 @@ cask "font-delicious-handrawn" do
       verified: "github.com/google/fonts/"
   name "Delicious Handrawn"
   desc "Font inspired by agung rohmat's handwriting"
-  homepage "https://fonts.google.com/specimen/Delicious+Handrawn"
+  homepage "https://github.com/alphArtype/Delicious-Handrawn"
 
   font "DeliciousHandrawn-Regular.ttf"
 end
