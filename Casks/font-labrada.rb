@@ -8,6 +8,7 @@ cask "font-labrada" do
       only_path: "ofl/labrada"
   name "Labrada"
   desc "Typeface family designed by mercedes jáuregui"
+  homepage "https://github.com/Omnibus-Type/Labrada"
 
   font "Labrada-Italic[wght].ttf"
   font "Labrada[wght].ttf"
