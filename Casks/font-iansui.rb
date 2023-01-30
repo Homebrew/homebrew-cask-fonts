@@ -1,6 +1,6 @@
 cask "font-iansui" do
   version "0.943"
-  sha256 "e730db456778638b53a4645a06c4ebc54bca3168de5725b3be1786ed9a06428b"
+  sha256 "d8157b39d10b3f4dbc8b09d240824f81ebb61d41e4bcbc283f249d9fdac5e4b3"
 
   url "https://github.com/ButTaiwan/iansui/releases/download/v#{version}/iansui.zip"
   name "iansui"
