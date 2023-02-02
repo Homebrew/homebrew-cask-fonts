@@ -1,6 +1,6 @@
 cask "font-proggy-clean-tt-nerd-font" do
-  version "2.3.2"
-  sha256 "302206ab2713e8690755d6eb3c9536aa68d5bee3e886f3e89a8f561eaa896580"
+  version "2.3.3"
+  sha256 "62afb1b8a9b49c11ccf53fc9bdbfa9672165539944993c4534ea8139f03c9560"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProggyClean.zip"
   name "ProggyCleanTT Nerd Font families (ProggyCleanTT)"

@@ -1,6 +1,6 @@
 cask "font-profont-nerd-font" do
-  version "2.3.2"
-  sha256 "45709facd940fe94a9061f96ac1a045a5e9a2f932e5d280b44112075d964baba"
+  version "2.3.3"
+  sha256 "da9a286a4cd149ab8e42b54965821dddbf0689f5c3fa5a2cad2985cb2852783c"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProFont.zip"
   name "ProFont Nerd Font families (ProFont)"
