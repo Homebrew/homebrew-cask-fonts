@@ -4,9 +4,13 @@ cask "font-junicode" do
 
   url "https://downloads.sourceforge.net/junicode/junicode-#{version}.zip",
       verified: "downloads.sourceforge.net/junicode/"
-  appcast "https://sourceforge.net/projects/junicode/rss"
   name "Junicode"
   homepage "https://junicode.sourceforge.io/"
+
+  livecheck do
+    url "https://sourceforge.net/projects/junicode/rss"
+    regex(/junicode-(\d+(?:\.\d+)*)/)
+  end
 
   font "FoulisGreek.ttf"
   font "Junicode-Bold.ttf"
