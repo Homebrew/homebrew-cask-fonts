@@ -7,6 +7,7 @@ cask "font-rokkitt" do
       branch:    "main",
       only_path: "ofl/rokkitt"
   name "Rokkitt"
+  desc "Slab Serif font family"
   homepage "https://fonts.google.com/specimen/Rokkitt"
 
   font "Rokkitt-Italic[wght].ttf"
