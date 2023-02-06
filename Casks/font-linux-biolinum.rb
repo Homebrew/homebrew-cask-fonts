@@ -4,9 +4,13 @@ cask "font-linux-biolinum" do
 
   url "https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_#{version}.tgz",
       verified: "downloads.sourceforge.net/linuxlibertine/"
-  appcast "https://sourceforge.net/projects/linuxlibertine/rss"
   name "Linux Biolinum"
   homepage "http://linuxlibertine.org/"
+
+  livecheck do
+    url "https://sourceforge.net/projects/linuxlibertine/rss"
+    regex(%r{/LinLibertineTTF_(\d+(?:\.\d+)+_(?:\d+(?:_\d+)+))\.})
+  end
 
   font "LinBiolinum_Kah.ttf"
   font "LinBiolinum_RBah.ttf"

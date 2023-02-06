@@ -3,9 +3,13 @@ cask "font-dejavu" do
   sha256 "7576310b219e04159d35ff61dd4a4ec4cdba4f35c00e002a136f00e96a908b0a"
 
   url "https://downloads.sourceforge.net/dejavu/dejavu-fonts-ttf-#{version}.zip"
-  appcast "https://sourceforge.net/projects/dejavu/rss"
   name "DejaVu"
   homepage "https://sourceforge.net/projects/dejavu/"
+
+  livecheck do
+    url "https://sourceforge.net/projects/dejavu/rss"
+    regex(%r{/dejavu/(\d+(?:\.\d+)*)})
+  end
 
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuMathTeXGyre.ttf"
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-Bold.ttf"

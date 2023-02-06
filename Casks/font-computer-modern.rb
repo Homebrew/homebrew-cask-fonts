@@ -4,9 +4,13 @@ cask "font-computer-modern" do
 
   url "https://downloads.sourceforge.net/cm-unicode/cm-unicode-#{version}-ttf.tar.xz",
       verified: "downloads.sourceforge.net/cm-unicode/"
-  appcast "https://sourceforge.net/projects/cm-unicode/rss"
   name "Computer Modern"
   homepage "https://cm-unicode.sourceforge.io/"
+
+  livecheck do
+    url "https://sourceforge.net/projects/cm-unicode/rss"
+    regex(%r{/cm-unicode/(\d+(?:\.\d+)*)})
+  end
 
   font "cm-unicode-#{version}/cmunbbx.ttf"
   font "cm-unicode-#{version}/cmunbi.ttf"
