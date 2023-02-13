@@ -12,8 +12,8 @@ cask "font-maple" do
     strategy :github_latest
   end
 
-  font "MapleMono-Bold.ttf"
-  font "MapleMono-BoldItalic.ttf"
-  font "MapleMono-Italic.ttf"
-  font "MapleMono-Regular.ttf"
+  font "ttf/MapleMono-Bold.ttf"
+  font "ttf/MapleMono-BoldItalic.ttf"
+  font "ttf/MapleMono-Italic.ttf"
+  font "ttf/MapleMono-Regular.ttf"
 end
