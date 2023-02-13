@@ -1,6 +1,6 @@
 cask "font-andika" do
-  version "6.101"
-  sha256 "8595a879054a540b24fa942a2621efcd194a9f6468d9cf2541ae693e496b8dd4"
+  version "6.200"
+  sha256 "cc9a7523fcdecf5d2e1858f8ed43bca8f1e1be1ad5f20ac81475d816a9dcf87c"
 
   url "https://software.sil.org/downloads/r/andika/Andika-#{version}.zip"
   name "Andika"
