@@ -1,10 +1,11 @@
 cask "font-gentium-plus" do
-  version "6.101"
-  sha256 "5244209b44a5111736379686119cd54042dce18e308a351c366999ac563ca6bb"
+  version "6.200"
+  sha256 "9b21103b79961149b6508791572acb3b2fe7eb621474c57d5e4ee37e76d7b073"
 
   url "https://github.com/silnrsi/font-gentium/releases/download/v#{version}/GentiumPlus-#{version}.zip",
       verified: "github.com/silnrsi/font-gentium/"
   name "Gentium"
+  desc "Multilingual font"
   homepage "https://software.sil.org/gentium/"
 
   font "GentiumPlus-#{version}/GentiumBookPlus-Bold.ttf"
