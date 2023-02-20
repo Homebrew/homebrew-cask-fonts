@@ -1,6 +1,6 @@
 cask "font-monocraft" do
-  version "2.4"
-  sha256 "4b88f9bf66d325b86e8d3dc1b7c75a34dd5819860ff3354f7fd5d78ee47ae3ea"
+  version "2.5"
+  sha256 "ff21492b686a280164acc4f4d6546d79a39eb9dad5ca911ab221bc5875b35760"
 
   url "https://github.com/IdreesInc/Monocraft/releases/download/v#{version}/Monocraft.ttf"
   name "Monocraft"
