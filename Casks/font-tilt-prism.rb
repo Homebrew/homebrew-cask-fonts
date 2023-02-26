@@ -5,7 +5,7 @@ cask "font-tilt-prism" do
   url "https://github.com/google/fonts/raw/main/ofl/tiltprism/TiltPrism%5BXROT%2CYROT%5D.ttf",
       verified: "github.com/google/fonts/"
   name "Tilt Prism"
-  homepage "https://math-practice.github.io/tilt-specimen/"
+  homepage "https://fonts.google.com/specimen/Tilt+Prism"
 
   font "TiltPrism[XROT,YROT].ttf"
 end
