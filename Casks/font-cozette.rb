@@ -1,6 +1,6 @@
 cask "font-cozette" do
-  version "1.19.0"
-  sha256 "a149884dd9befbac6a84a0f260f24878ff1a7f3ee8a441c1560145cc5f97425d"
+  version "1.19.1"
+  sha256 "7c1d112adcc431d7b3da5124e45884044ad6e458aefa4156691ddf3498e4d79c"
 
   url "https://github.com/slavfox/Cozette/releases/download/v.#{version}/CozetteVector.dfont"
   name "Cozette"
