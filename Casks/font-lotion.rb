@@ -5,7 +5,7 @@ cask "font-lotion" do
   url "https://gitlab.com/nefertiti/lotion-dist/-/archive/master/lotion-dist-master.zip",
       verified: "gitlab.com/nefertiti/lotion-dist"
   name "Lotion"
-  homepage "https://font.nina.coffee"
+  homepage "https://font.nina.coffee/"
 
   font "Lotion-SemiBoldWithoutLigatures.ttf"
   font "Lotion-SemiBoldItalicWithoutLigatures.ttf"
