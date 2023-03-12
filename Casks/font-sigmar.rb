@@ -4,7 +4,6 @@ cask "font-sigmar" do
 
   url "https://github.com/google/fonts/raw/main/ofl/sigmar/Sigmar-Regular.ttf"
   name "Sigmar"
-  desc "Based upon various fonts found in mid twentieth century pulp magazine advertising"
   homepage "https://github.com/googlefonts/sigmarone"
 
   font "Sigmar-Regular.ttf"
