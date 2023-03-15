@@ -1,12 +1,12 @@
 cask "font-jf-open-huninn" do
-  version "1.1"
-  sha256 "1b5a8d0204f5763408609d5e8182455d23a2ebc7450730aed19cc13c619bca37"
+  version "2.0"
+  sha256 "eec8b0b68c34b9166ae37bed839b6126116b225d97f21a5954bb542b9fd1e68c"
 
-  url "https://github.com/justfont/open-huninn-font/releases/download/v#{version}/jf-openhuninn-#{version}.zip",
+  url "https://github.com/justfont/open-huninn-font/releases/download/v#{version}/jf-openhuninn-#{version}.ttf",
       verified: "github.com/justfont/open-huninn-font/"
   name "jf open huninn"
   name "jf open 粉圓"
   homepage "https://justfont.com/huninn/"
 
-  font "jf-openhuninn-#{version}/jf-openhuninn-#{version}.ttf"
+  font "jf-openhuninn-#{version}.ttf"
 end
