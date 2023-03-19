@@ -3,12 +3,11 @@ cask "font-carlito" do
   sha256 :no_check
 
   url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
       branch:    "main",
       only_path: "ofl/carlito"
   name "Carlito"
   desc "Metric-compatible with calibri"
-  homepage "https://fonts.google.com/specimen/Carlito"
+  homepage "https://github.com/googlefonts/carlito"
 
   font "Carlito-Bold.ttf"
   font "Carlito-BoldItalic.ttf"
