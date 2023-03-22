@@ -9,8 +9,8 @@ cask "font-tengwar-formal-csur" do
 
   livecheck do
     url :homepage
-    strategy :page_match
     regex(/href=.*?TengwarFormalCSUR(\d+)\.zip/i)
+    strategy :page_match
   end
 
   font "TengwarFormalCSUR#{version}/TengwarFormalCSUR.ttf"
