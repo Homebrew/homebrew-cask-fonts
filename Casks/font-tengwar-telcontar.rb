@@ -9,8 +9,8 @@ cask "font-tengwar-telcontar" do
 
   livecheck do
     url :homepage
-    strategy :page_match
     regex(/href=.*?TengwarTelcontar[._-]v?(\d+)\.zip/i)
+    strategy :page_match
   end
 
   font "tengtelc.ttf"
