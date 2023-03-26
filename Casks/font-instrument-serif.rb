@@ -3,12 +3,10 @@ cask "font-instrument-serif" do
   sha256 :no_check
 
   url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
       branch:    "main",
       only_path: "ofl/instrumentserif"
   name "Instrument Serif"
-  desc "Meant for large sizes and offers a contemporary take on some of favoured old style serifs"
-  homepage "https://fonts.google.com/specimen/Instrument+Serif"
+  homepage "https://github.com/Instrument/instrument-serif"
 
   font "InstrumentSerif-Italic.ttf"
   font "InstrumentSerif-Regular.ttf"
