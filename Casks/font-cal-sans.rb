@@ -4,7 +4,7 @@ cask "font-cal-sans" do
 
   url "https://github.com/calcom/font/releases/download/v#{version}/CalSans_Semibold_v#{version}.zip"
   name "Cal Sans"
-  desc "Geometric sans-serif typeface to adorn the headlines and interfaces of Cal.com"
+  desc "Geometric sans-serif typeface"
   homepage "https://github.com/calcom/font"
 
   font "fonts/otf/CalSans-SemiBold.otf"
