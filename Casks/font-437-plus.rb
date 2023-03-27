@@ -2,7 +2,7 @@ cask "font-437-plus" do
   version "2.2"
   sha256 "ec0aad90d3eed2d468009bd0b9baa89f8ff5e68c3d1346db7de8528ec2fa2933"
 
-  url "https://int10h.org/oldschool-pc-fonts/download/oldschool_pc_font_pack_v#{version}_win.zip"
+  url "https://int10h.org/oldshool-pc-fonts/download/oldschool_pc_font_pack_v#{version}_win.zip"
   name "Ac437"
   name "AcPlus"
   name "Mx437"
