@@ -1,0 +1,11 @@
+cask "font-undefined-medium" do
+  version "1.1"
+  sha256 "888fd98adfb1e6cd5606dd85881163d11c9c4007eaf01d015262893a48983b01"
+
+  url "https://github.com/andirueckel/undefined-medium/archive/refs/tags/v#{version}.zip"
+  name "undefined medium"
+  desc "pixel grid-based monospace typeface"
+  homepage "https://undefined-medium.com"
+
+  font "fonts/otf/undefined-medium.otf"
+end
