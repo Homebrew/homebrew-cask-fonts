@@ -1,6 +1,6 @@
 cask "font-undefined-medium" do
   version "1.1"
-  sha256 "888fd98adfb1e6cd5606dd85881163d11c9c4007eaf01d015262893a48983b01"
+  sha256 "e8dfbd59e2a3305a227d55ef962d5b94793aa14f1923426c59568aabbbf77aa3"
 
   url "https://github.com/andirueckel/undefined-medium/archive/refs/tags/v#{version}.zip"
   name "undefined medium"
