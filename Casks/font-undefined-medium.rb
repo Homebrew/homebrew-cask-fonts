@@ -5,7 +5,7 @@ cask "font-undefined-medium" do
   url "https://github.com/andirueckel/undefined-medium/archive/refs/tags/v#{version}.zip"
   name "undefined medium"
   desc "pixel grid-based monospace typeface"
-  homepage "https://undefined-medium.com"
+  homepage "https://github.com/andirueckel/undefined-medium"
 
   font "fonts/otf/undefined-medium.otf"
 end
