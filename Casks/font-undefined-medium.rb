@@ -7,5 +7,5 @@ cask "font-undefined-medium" do
   desc "Pixel grid-based monospace typeface"
   homepage "https://github.com/andirueckel/undefined-medium"
 
-  font "fonts/otf/undefined-medium.otf"
+  font "undefined-medium-#{version}/fonts/otf/undefined-medium.otf"
 end
