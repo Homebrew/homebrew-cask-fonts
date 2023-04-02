@@ -3,7 +3,7 @@ cask "font-seoul-hangang-condensed" do
   sha256 :no_check
 
   url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
+      verified:  "github.com/google/fonts/",
       branch:    "main",
       only_path: "ofl/seoulhangangcondensed"
   name "Seoul Hangang Condensed"
