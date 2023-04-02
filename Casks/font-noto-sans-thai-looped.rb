@@ -3,7 +3,7 @@ cask "font-noto-sans-thai-looped" do
   sha256 :no_check
 
   url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
+      verified:  "github.com/google/fonts/",
       branch:    "main",
       only_path: "ofl/notosansthailooped"
   name "Noto Sans Thai Looped"
