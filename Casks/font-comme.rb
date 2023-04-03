@@ -6,7 +6,7 @@ cask "font-comme" do
       verified: "github.com/google/fonts/"
   name "Comme"
   desc "Variable, with a weight axis ranging from thin to black"
-  homepage "https://fonts.google.com/specimen/Comme"
+  homepage "https://github.com/googlefonts/comme"
 
   font "Comme[wght].ttf"
 end
