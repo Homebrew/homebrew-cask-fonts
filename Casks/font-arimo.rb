@@ -3,7 +3,7 @@ cask "font-arimo" do
   sha256 :no_check
 
   url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
+      verified:  "github.com/google/fonts/",
       branch:    "main",
       only_path: "apache/arimo"
   name "Arimo"
