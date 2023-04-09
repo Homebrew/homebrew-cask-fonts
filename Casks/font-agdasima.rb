@@ -8,7 +8,7 @@ cask "font-agdasima" do
       only_path: "ofl/agdasima"
   name "Agdasima"
   desc "Based on big shoulders, a condensed american gothic sans-serif font family"
-  homepage "https://fonts.google.com/specimen/Agdasima"
+  homepage "https://github.com/docrepair-fonts/agdasima-fonts"
 
   font "Agdasima-Bold.ttf"
   font "Agdasima-Regular.ttf"
