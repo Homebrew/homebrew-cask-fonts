@@ -6,7 +6,7 @@ cask "font-noto-sans-nag-mundari" do
       verified: "github.com/google/fonts/"
   name "Noto Sans Nag Mundari"
   desc "Design for the indic nag mundari script"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Nag+Mundari"
+  homepage "https://github.com/notofonts/nag-mundari"
 
   font "NotoSansNagMundari[wght].ttf"
 end
