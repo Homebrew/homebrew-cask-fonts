@@ -1,6 +1,6 @@
 cask "font-zhudou-sans" do
-  version "1.000"
-  sha256 "dae5ff79f8f1db78661a6ec0ae7c1732965c034a3c04bd95cd43baabd14996ca"
+  version "2.000"
+  sha256 "1a2718aa52c98d1ac7e18d60e0f1d61057b18e558e8196a3a770104855a6fc69"
 
   url "https://github.com/Buernia/Zhudou-Sans/releases/download/v#{version}/Zhudou.Sans.zip"
   name "Zhudou Sans"
