@@ -7,7 +7,6 @@ cask "font-instrument-sans" do
       branch:    "main",
       only_path: "ofl/instrumentsans"
   name "Instrument Sans"
-  desc "Needed"
   homepage "https://fonts.google.com/specimen/Instrument+Sans"
 
   font "InstrumentSans-Italic[wdth,wght].ttf"
