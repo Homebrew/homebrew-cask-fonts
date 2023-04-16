@@ -7,7 +7,6 @@ cask "font-playfair" do
       branch:    "main",
       only_path: "ofl/playfair"
   name "Playfair"
-  desc "As high contrast as practically possible"
   homepage "https://fonts.google.com/specimen/Playfair"
 
   font "Playfair-Italic[opsz,wdth,wght].ttf"
