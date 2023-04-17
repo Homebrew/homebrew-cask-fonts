@@ -1,13 +1,17 @@
 cask "font-lilex" do
-  version "1.100"
-  sha256 "1570385aa6fd596d11971a3ab800a220f10a6e8fd1f3b164177561244495bb7d"
+  version "2.200"
+  sha256 "c4029f22577077f0e82c39af6f3513df5d621e4668f49e7cea9c514aba93a59a"
 
-  url "https://github.com/mishamyrt/Lilex/releases/download/#{version}/Lilex-#{version}.zip"
+  url "https://github.com/mishamyrt/Lilex/releases/download/#{version}/Lilex.zip"
   name "Lilex"
+  desc "Programming font"
   homepage "https://github.com/mishamyrt/Lilex"
 
-  font "otf/Lilex-Bold.otf"
-  font "otf/Lilex-Medium.otf"
-  font "otf/Lilex-Regular.otf"
-  font "variable_ttf/Lilex-VF.ttf"
+  font "ttf/Lilex-Bold.ttf"
+  font "ttf/Lilex-ExtraLight.ttf"
+  font "ttf/Lilex-ExtraThick.ttf"
+  font "ttf/Lilex-Meduim.ttf"
+  font "ttf/Lilex-Regular.ttf"
+  font "ttf/Lilex-Thin.ttf"
+  font "variable/Lilex-VF.ttf"
 end
