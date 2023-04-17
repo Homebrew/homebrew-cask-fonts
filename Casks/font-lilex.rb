@@ -4,10 +4,14 @@ cask "font-lilex" do
 
   url "https://github.com/mishamyrt/Lilex/releases/download/#{version}/Lilex.zip"
   name "Lilex"
+  desc "Programming font"
   homepage "https://github.com/mishamyrt/Lilex"
 
-  font "otf/Lilex-Bold.otf"
-  font "otf/Lilex-Medium.otf"
-  font "otf/Lilex-Regular.otf"
-  font "variable_ttf/Lilex-VF.ttf"
+  font "ttf/Lilex-Bold.ttf"
+  font "ttf/Lilex-ExtraLight.ttf"
+  font "ttf/Lilex-ExtraThick.ttf"
+  font "ttf/Lilex-Meduim.ttf"
+  font "ttf/Lilex-Regular.ttf"
+  font "ttf/Lilex-Thin.ttf"
+  font "variable/Lilex-VF.ttf"
 end
