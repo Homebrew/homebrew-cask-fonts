@@ -7,5 +7,5 @@ cask "font-monocraft-nerd-font" do
   desc "Monospaced font inspired by the Minecraft typeface patched to add Nerd glyphs"
   homepage "https://github.com/IdreesInc/Monocraft"
 
-  font "Monocraft-nerd-fonts.ttf"
+  font "Monocraft-nerd-fonts-patched.ttf"
 end
