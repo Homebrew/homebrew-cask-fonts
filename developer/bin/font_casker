@@ -192,7 +192,7 @@ if /^-+h(elp)?$/i.match?(ARGV.first)
   exit 0
 end
 
-unless ARGV.length == 1
+if ARGV.length != 1
   puts usage
   exit 1
 end
