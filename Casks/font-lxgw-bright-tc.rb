@@ -1,6 +1,6 @@
 cask "font-lxgw-bright-tc" do
-  version "4.158"
-  sha256 "2ee4678c6dd4eb2bf6bdd8cfe57de5629669c87b70101fd6a7fa407c9d09044a"
+  version "5.300"
+  sha256 "b9a273a5138a75101c1ddf5bfa4f7439b4f8a1bb5d4992acd239584cae8f46e6"
 
   url "https://github.com/lxgw/LxgwBright/releases/download/v#{version}/LXGWBrightTC.7z"
   name "LXGW Bright TC"
