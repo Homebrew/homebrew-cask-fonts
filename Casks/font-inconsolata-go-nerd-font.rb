@@ -1,6 +1,6 @@
 cask "font-inconsolata-go-nerd-font" do
-  version "2.3.3"
-  sha256 "e54a328970bb060cf94b5ad5edd7bf7e844512bb12341adf467864a10d33e732"
+  version "3.0.0"
+  sha256 "e39771fe2e9fe279511e0369d3b64b1c700d9391c8cc084db17878b512d69c8e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/InconsolataGo.zip"
   name "InconsolataGo Nerd Font (InconsolataGo)"
@@ -12,8 +12,10 @@ cask "font-inconsolata-go-nerd-font" do
     strategy :github_latest
   end
 
-  font "InconsolataGo Bold Nerd Font Complete Mono.ttf"
-  font "InconsolataGo Bold Nerd Font Complete.ttf"
-  font "InconsolataGo Nerd Font Complete Mono.ttf"
-  font "InconsolataGo Nerd Font Complete.ttf"
+  font "InconsolataGoNerdFont-Bold.ttf"
+  font "InconsolataGoNerdFont-Regular.ttf"
+  font "InconsolataGoNerdFontMono-Bold.ttf"
+  font "InconsolataGoNerdFontMono-Regular.ttf"
+  font "InconsolataGoNerdFontPropo-Bold.ttf"
+  font "InconsolataGoNerdFontPropo-Regular.ttf"
 end

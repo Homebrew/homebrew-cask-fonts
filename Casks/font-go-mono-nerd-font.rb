@@ -1,6 +1,6 @@
 cask "font-go-mono-nerd-font" do
-  version "2.3.3"
-  sha256 "3ba2661e638c8d9cb377e81c3f0e51af5cd51f788a363bef23e5688d463ead2e"
+  version "3.0.0"
+  sha256 "9969921572402738cef5e85174160d2b59728df2d5f7949bdf0bcbd2fa2e6c8e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Go-Mono.zip"
   name "GoMono Nerd Font (Go Mono)"
@@ -12,12 +12,16 @@ cask "font-go-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Go Mono Bold Italic Nerd Font Complete Mono.ttf"
-  font "Go Mono Bold Italic Nerd Font Complete.ttf"
-  font "Go Mono Bold Nerd Font Complete Mono.ttf"
-  font "Go Mono Bold Nerd Font Complete.ttf"
-  font "Go Mono Italic Nerd Font Complete Mono.ttf"
-  font "Go Mono Italic Nerd Font Complete.ttf"
-  font "Go Mono Nerd Font Complete Mono.ttf"
-  font "Go Mono Nerd Font Complete.ttf"
+  font "GoMonoNerdFont-Bold.ttf"
+  font "GoMonoNerdFont-BoldItalic.ttf"
+  font "GoMonoNerdFont-Italic.ttf"
+  font "GoMonoNerdFont-Regular.ttf"
+  font "GoMonoNerdFontMono-Bold.ttf"
+  font "GoMonoNerdFontMono-BoldItalic.ttf"
+  font "GoMonoNerdFontMono-Italic.ttf"
+  font "GoMonoNerdFontMono-Regular.ttf"
+  font "GoMonoNerdFontPropo-Bold.ttf"
+  font "GoMonoNerdFontPropo-BoldItalic.ttf"
+  font "GoMonoNerdFontPropo-Italic.ttf"
+  font "GoMonoNerdFontPropo-Regular.ttf"
 end

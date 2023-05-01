@@ -1,6 +1,6 @@
 cask "font-profont-nerd-font" do
-  version "2.3.3"
-  sha256 "da9a286a4cd149ab8e42b54965821dddbf0689f5c3fa5a2cad2985cb2852783c"
+  version "3.0.0"
+  sha256 "6c407fede4ebfb29b0913ab1a1b8e7e6ca5e57bea2222c9c2f65fc7c61df9445"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProFont.zip"
   name "ProFont Nerd Font families (ProFont)"
@@ -12,8 +12,10 @@ cask "font-profont-nerd-font" do
     strategy :github_latest
   end
 
-  font "ProFont IIx Nerd Font Complete Mono.ttf"
-  font "ProFont IIx Nerd Font Complete.ttf"
-  font "ProFontWindows Nerd Font Complete Mono.ttf"
-  font "ProFontWindows Nerd Font Complete.ttf"
+  font "ProFontIIxNerdFont-Regular.ttf"
+  font "ProFontIIxNerdFontMono-Regular.ttf"
+  font "ProFontIIxNerdFontPropo-Regular.ttf"
+  font "ProFontWindowsNerdFont-Regular.ttf"
+  font "ProFontWindowsNerdFontMono-Regular.ttf"
+  font "ProFontWindowsNerdFontPropo-Regular.ttf"
 end

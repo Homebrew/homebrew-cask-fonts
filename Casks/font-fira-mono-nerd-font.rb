@@ -1,9 +1,9 @@
 cask "font-fira-mono-nerd-font" do
-  version "2.3.3"
-  sha256 "490e72a6db6a686ca93079248c761f23bb9b5dda9b3fa7eb51cbc40e12ddc5ce"
+  version "3.0.0"
+  sha256 "9e5ce824731cd365b5ec2b3ad0355797326b3d421eeb39358cb27f78f485e4db"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraMono.zip"
-  name "FuraMono Nerd Font (Fira)"
+  name "FiraMono Nerd Font (Fira)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
@@ -12,10 +12,13 @@ cask "font-fira-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Fura Mono Bold Nerd Font Complete Mono.otf"
-  font "Fura Mono Bold Nerd Font Complete.otf"
-  font "Fura Mono Medium Nerd Font Complete Mono.otf"
-  font "Fura Mono Medium Nerd Font Complete.otf"
-  font "Fura Mono Regular Nerd Font Complete Mono.otf"
-  font "Fura Mono Regular Nerd Font Complete.otf"
+  font "FiraMonoNerdFont-Bold.otf"
+  font "FiraMonoNerdFont-Medium.otf"
+  font "FiraMonoNerdFont-Regular.otf"
+  font "FiraMonoNerdFontMono-Bold.otf"
+  font "FiraMonoNerdFontMono-Medium.otf"
+  font "FiraMonoNerdFontMono-Regular.otf"
+  font "FiraMonoNerdFontPropo-Bold.otf"
+  font "FiraMonoNerdFontPropo-Medium.otf"
+  font "FiraMonoNerdFontPropo-Regular.otf"
 end

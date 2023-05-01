@@ -1,6 +1,6 @@
 cask "font-lilex-nerd-font" do
-  version "2.3.3"
-  sha256 "2168c7fd50da805e8b46ae24c653a006766d1ea77983a1ce50bc4eab67e251f0"
+  version "3.0.0"
+  sha256 "367629808e8e58f16b02d4b414289c3a1ed2550e6d38c45f7d93993aa7746935"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Lilex.zip"
   name "Lilex Nerd Font (Lilex)"
@@ -12,20 +12,13 @@ cask "font-lilex-nerd-font" do
     strategy :github_latest
   end
 
-  font "Lilex Bold Nerd Font Complete Mono.otf"
-  font "Lilex Bold Nerd Font Complete Mono.ttf"
-  font "Lilex Bold Nerd Font Complete.otf"
-  font "Lilex Bold Nerd Font Complete.ttf"
-  font "Lilex Light Nerd Font Complete Mono.otf"
-  font "Lilex Light Nerd Font Complete Mono.ttf"
-  font "Lilex Light Nerd Font Complete.otf"
-  font "Lilex Light Nerd Font Complete.ttf"
-  font "Lilex Medium Nerd Font Complete Mono.otf"
-  font "Lilex Medium Nerd Font Complete Mono.ttf"
-  font "Lilex Medium Nerd Font Complete.otf"
-  font "Lilex Medium Nerd Font Complete.ttf"
-  font "Lilex Regular Nerd Font Complete Mono.otf"
-  font "Lilex Regular Nerd Font Complete Mono.ttf"
-  font "Lilex Regular Nerd Font Complete.otf"
-  font "Lilex Regular Nerd Font Complete.ttf"
+  font "LilexNerdFont-Bold.ttf"
+  font "LilexNerdFont-Regular.ttf"
+  font "LilexNerdFont-Thin.ttf"
+  font "LilexNerdFontMono-Bold.ttf"
+  font "LilexNerdFontMono-Regular.ttf"
+  font "LilexNerdFontMono-Thin.ttf"
+  font "LilexNerdFontPropo-Bold.ttf"
+  font "LilexNerdFontPropo-Regular.ttf"
+  font "LilexNerdFontPropo-Thin.ttf"
 end

@@ -1,6 +1,6 @@
 cask "font-monoid-nerd-font" do
-  version "2.3.3"
-  sha256 "60c4f5ddf05138cf12994deee4939d0cbbd9c9d182c7982852669aef0db533cb"
+  version "3.0.0"
+  sha256 "b9d215398237fcb3a53de9f6c60c30a00494af7b336b652da7a8e12e0f380001"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monoid.zip"
   name "Monoid Nerd Font (Monoid)"
@@ -12,12 +12,16 @@ cask "font-monoid-nerd-font" do
     strategy :github_latest
   end
 
-  font "Monoid Bold Nerd Font Complete Mono.ttf"
-  font "Monoid Bold Nerd Font Complete.ttf"
-  font "Monoid Italic Nerd Font Complete Mono.ttf"
-  font "Monoid Italic Nerd Font Complete.ttf"
-  font "Monoid Regular Nerd Font Complete Mono.ttf"
-  font "Monoid Regular Nerd Font Complete.ttf"
-  font "Monoid Retina Nerd Font Complete Mono.ttf"
-  font "Monoid Retina Nerd Font Complete.ttf"
+  font "MonoidNerdFont-Bold.ttf"
+  font "MonoidNerdFont-Italic.ttf"
+  font "MonoidNerdFont-Regular.ttf"
+  font "MonoidNerdFont-Retina.ttf"
+  font "MonoidNerdFontMono-Bold.ttf"
+  font "MonoidNerdFontMono-Italic.ttf"
+  font "MonoidNerdFontMono-Regular.ttf"
+  font "MonoidNerdFontMono-Retina.ttf"
+  font "MonoidNerdFontPropo-Bold.ttf"
+  font "MonoidNerdFontPropo-Italic.ttf"
+  font "MonoidNerdFontPropo-Regular.ttf"
+  font "MonoidNerdFontPropo-Retina.ttf"
 end

@@ -1,6 +1,6 @@
 cask "font-symbols-only-nerd-font" do
-  version "2.3.3"
-  sha256 "9cf0c800de86bc31f1115b0f4762ef8d80a749f6cfa4cf7413b01fc563cc3f6a"
+  version "3.0.0"
+  sha256 "91c0bbb8690d978cabbd693ab1e4df18d2f6d021e7f05fd7fd853fed4d56234b"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/NerdFontsSymbolsOnly.zip"
   name "Symbols Nerd Font (Symbols Only)"
@@ -12,8 +12,6 @@ cask "font-symbols-only-nerd-font" do
     strategy :github_latest
   end
 
-  font "Symbols-1000-em Nerd Font Complete Mono.ttf"
-  font "Symbols-1000-em Nerd Font Complete.ttf"
-  font "Symbols-2048-em Nerd Font Complete Mono.ttf"
-  font "Symbols-2048-em Nerd Font Complete.ttf"
+  font "SymbolsNerdFont-Regular.ttf"
+  font "SymbolsNerdFontMono-Regular.ttf"
 end

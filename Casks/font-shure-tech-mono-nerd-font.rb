@@ -1,6 +1,6 @@
 cask "font-shure-tech-mono-nerd-font" do
-  version "2.3.3"
-  sha256 "52a51d0a852b7baa33cac37af92d369d7034d9954e0fdc39522c34f84a78b014"
+  version "3.0.0"
+  sha256 "906002e40b70933de50e8ccac48e2f8fff816c6060499f4a81e2bc16af0cdfff"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ShareTechMono.zip"
   name "ShureTechMono Nerd Font (Share Tech Mono)"
@@ -12,6 +12,7 @@ cask "font-shure-tech-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Shure Tech Mono Nerd Font Complete Mono.ttf"
-  font "Shure Tech Mono Nerd Font Complete.ttf"
+  font "ShureTechMonoNerdFont-Regular.ttf"
+  font "ShureTechMonoNerdFontMono-Regular.ttf"
+  font "ShureTechMonoNerdFontPropo-Regular.ttf"
 end
