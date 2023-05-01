@@ -1,6 +1,6 @@
 cask "font-lilex-nerd-font" do
-  version "2.3.3"
-  sha256 "2168c7fd50da805e8b46ae24c653a006766d1ea77983a1ce50bc4eab67e251f0"
+  version "3.0.0"
+  sha256 "367629808e8e58f16b02d4b414289c3a1ed2550e6d38c45f7d93993aa7746935"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Lilex.zip"
   name "Lilex Nerd Font (Lilex)"
