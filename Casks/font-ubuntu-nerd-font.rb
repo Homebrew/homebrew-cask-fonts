@@ -1,6 +1,6 @@
 cask "font-ubuntu-nerd-font" do
-  version "2.3.3"
-  sha256 "787438d097aa96eaeb75b89051d829492d1846dfe1127ad7a6e55741e02e8593"
+  version "3.0.0"
+  sha256 "a8746fc1016d64463be15ba1437b85e9b22beaa9a0e22a91761089030a2fdfba"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Ubuntu.zip"
   name "Ubuntu Nerd Font families (Ubuntu)"
