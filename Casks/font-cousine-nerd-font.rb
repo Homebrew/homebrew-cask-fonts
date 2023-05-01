@@ -1,6 +1,6 @@
 cask "font-cousine-nerd-font" do
-  version "2.3.3"
-  sha256 "329b95fe1fcedbc6527e6b5b5ab2c58b7469fdc1c4cfcc3b88d537f3186da2a2"
+  version "3.0.0"
+  sha256 "b3fa57d3ccbce0bfe412c81bb4907f6dd08d91cc82a05509d27bc32d00704f32"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Cousine.zip"
   name "Cousine Nerd Font (Cousine)"
@@ -12,12 +12,16 @@ cask "font-cousine-nerd-font" do
     strategy :github_latest
   end
 
-  font "Cousine Bold Italic Nerd Font Complete Mono.ttf"
-  font "Cousine Bold Italic Nerd Font Complete.ttf"
-  font "Cousine Bold Nerd Font Complete Mono.ttf"
-  font "Cousine Bold Nerd Font Complete.ttf"
-  font "Cousine Italic Nerd Font Complete Mono.ttf"
-  font "Cousine Italic Nerd Font Complete.ttf"
-  font "Cousine Regular Nerd Font Complete Mono.ttf"
-  font "Cousine Regular Nerd Font Complete.ttf"
+  font "CousineNerdFont-Bold.ttf"
+  font "CousineNerdFont-BoldItalic.ttf"
+  font "CousineNerdFont-Italic.ttf"
+  font "CousineNerdFont-Regular.ttf"
+  font "CousineNerdFontMono-Bold.ttf"
+  font "CousineNerdFontMono-BoldItalic.ttf"
+  font "CousineNerdFontMono-Italic.ttf"
+  font "CousineNerdFontMono-Regular.ttf"
+  font "CousineNerdFontPropo-Bold.ttf"
+  font "CousineNerdFontPropo-BoldItalic.ttf"
+  font "CousineNerdFontPropo-Italic.ttf"
+  font "CousineNerdFontPropo-Regular.ttf"
 end

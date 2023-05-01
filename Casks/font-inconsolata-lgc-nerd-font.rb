@@ -1,9 +1,9 @@
 cask "font-inconsolata-lgc-nerd-font" do
-  version "2.3.3"
-  sha256 "826471e967933f020150430db978a7729927d96bacf3c4e7fbe1e216834f4599"
+  version "3.0.0"
+  sha256 "2d33c53aac3426f6e2c2a2d697d53510075e5cbd4913095866b45c93ca95f30b"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/InconsolataLGC.zip"
-  name "InconsolataLGC Nerd Font (Inconsolata LGC)"
+  name "Inconsolata LGC Nerd Font (Inconsolata LGC)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
@@ -12,12 +12,16 @@ cask "font-inconsolata-lgc-nerd-font" do
     strategy :github_latest
   end
 
-  font "Inconsolata LGC Bold Italic Nerd Font Complete Mono.ttf"
-  font "Inconsolata LGC Bold Italic Nerd Font Complete.ttf"
-  font "Inconsolata LGC Bold Nerd Font Complete Mono.ttf"
-  font "Inconsolata LGC Bold Nerd Font Complete.ttf"
-  font "Inconsolata LGC Italic Nerd Font Complete Mono.ttf"
-  font "Inconsolata LGC Italic Nerd Font Complete.ttf"
-  font "Inconsolata LGC Nerd Font Complete Mono.ttf"
-  font "Inconsolata LGC Nerd Font Complete.ttf"
+  font "InconsolataLGCNerdFont-Bold.ttf"
+  font "InconsolataLGCNerdFont-BoldItalic.ttf"
+  font "InconsolataLGCNerdFont-Italic.ttf"
+  font "InconsolataLGCNerdFont-Regular.ttf"
+  font "InconsolataLGCNerdFontMono-Bold.ttf"
+  font "InconsolataLGCNerdFontMono-BoldItalic.ttf"
+  font "InconsolataLGCNerdFontMono-Italic.ttf"
+  font "InconsolataLGCNerdFontMono-Regular.ttf"
+  font "InconsolataLGCNerdFontPropo-Bold.ttf"
+  font "InconsolataLGCNerdFontPropo-BoldItalic.ttf"
+  font "InconsolataLGCNerdFontPropo-Italic.ttf"
+  font "InconsolataLGCNerdFontPropo-Regular.ttf"
 end

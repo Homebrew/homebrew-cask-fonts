@@ -1,9 +1,9 @@
 cask "font-dejavu-sans-mono-nerd-font" do
-  version "2.3.3"
-  sha256 "4a71551bb10785759ec033ed675d1ee3d751591aee506f41f78c60effc33d4e2"
+  version "3.0.0"
+  sha256 "af406d84d6c52cb2251c96abe090d16a97d31017ea2ee48489fc5f53804d6670"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DejaVuSansMono.zip"
-  name "DejaVuSansMono Nerd Font (DejaVu Sans Mono)"
+  name "DejaVuSansM Nerd Font (DejaVu Sans Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
@@ -12,12 +12,16 @@ cask "font-dejavu-sans-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "DejaVu Sans Mono Bold Nerd Font Complete Mono.ttf"
-  font "DejaVu Sans Mono Bold Nerd Font Complete.ttf"
-  font "DejaVu Sans Mono Bold Oblique Nerd Font Complete Mono.ttf"
-  font "DejaVu Sans Mono Bold Oblique Nerd Font Complete.ttf"
-  font "DejaVu Sans Mono Nerd Font Complete Mono.ttf"
-  font "DejaVu Sans Mono Nerd Font Complete.ttf"
-  font "DejaVu Sans Mono Oblique Nerd Font Complete Mono.ttf"
-  font "DejaVu Sans Mono Oblique Nerd Font Complete.ttf"
+  font "DejaVuSansMNerdFont-Bold.ttf"
+  font "DejaVuSansMNerdFont-BoldOblique.ttf"
+  font "DejaVuSansMNerdFont-Oblique.ttf"
+  font "DejaVuSansMNerdFont-Regular.ttf"
+  font "DejaVuSansMNerdFontMono-Bold.ttf"
+  font "DejaVuSansMNerdFontMono-BoldOblique.ttf"
+  font "DejaVuSansMNerdFontMono-Oblique.ttf"
+  font "DejaVuSansMNerdFontMono-Regular.ttf"
+  font "DejaVuSansMNerdFontPropo-Bold.ttf"
+  font "DejaVuSansMNerdFontPropo-BoldOblique.ttf"
+  font "DejaVuSansMNerdFontPropo-Oblique.ttf"
+  font "DejaVuSansMNerdFontPropo-Regular.ttf"
 end

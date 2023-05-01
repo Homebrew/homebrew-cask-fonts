@@ -1,6 +1,6 @@
 cask "font-ubuntu-mono-nerd-font" do
-  version "2.3.3"
-  sha256 "15bccf8a1a239915ae5854956d382e873a82caf145594a618bbaf41e30b0cbf7"
+  version "3.0.0"
+  sha256 "7af191908ae8e37ab1146eebd2c67f5f5151aa65e954ec1be59c65dc998ef587"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/UbuntuMono.zip"
   name "UbuntuMono Nerd Font (Ubuntu Mono)"
@@ -12,12 +12,16 @@ cask "font-ubuntu-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Ubuntu Mono Bold Italic Nerd Font Complete Mono.ttf"
-  font "Ubuntu Mono Bold Italic Nerd Font Complete.ttf"
-  font "Ubuntu Mono Bold Nerd Font Complete Mono.ttf"
-  font "Ubuntu Mono Bold Nerd Font Complete.ttf"
-  font "Ubuntu Mono Italic Nerd Font Complete Mono.ttf"
-  font "Ubuntu Mono Italic Nerd Font Complete.ttf"
-  font "Ubuntu Mono Nerd Font Complete Mono.ttf"
-  font "Ubuntu Mono Nerd Font Complete.ttf"
+  font "UbuntuMonoNerdFont-Bold.ttf"
+  font "UbuntuMonoNerdFont-BoldItalic.ttf"
+  font "UbuntuMonoNerdFont-Italic.ttf"
+  font "UbuntuMonoNerdFont-Regular.ttf"
+  font "UbuntuMonoNerdFontMono-Bold.ttf"
+  font "UbuntuMonoNerdFontMono-BoldItalic.ttf"
+  font "UbuntuMonoNerdFontMono-Italic.ttf"
+  font "UbuntuMonoNerdFontMono-Regular.ttf"
+  font "UbuntuMonoNerdFontPropo-Bold.ttf"
+  font "UbuntuMonoNerdFontPropo-BoldItalic.ttf"
+  font "UbuntuMonoNerdFontPropo-Italic.ttf"
+  font "UbuntuMonoNerdFontPropo-Regular.ttf"
 end

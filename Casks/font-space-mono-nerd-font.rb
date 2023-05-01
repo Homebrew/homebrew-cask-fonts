@@ -1,6 +1,6 @@
 cask "font-space-mono-nerd-font" do
-  version "2.3.3"
-  sha256 "093b17d8c6cbd71569d6f5ffde6cb3a5e063067d3f3453562daf4fff71417dd4"
+  version "3.0.0"
+  sha256 "c624cbd887a04b7c46f938c0e81ba8965feebd8f602e2afa13e61bec12159d22"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SpaceMono.zip"
   name "SpaceMono Nerd Font (Space Mono)"
@@ -12,12 +12,16 @@ cask "font-space-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "Space Mono Bold Italic Nerd Font Complete Mono.ttf"
-  font "Space Mono Bold Italic Nerd Font Complete.ttf"
-  font "Space Mono Bold Nerd Font Complete Mono.ttf"
-  font "Space Mono Bold Nerd Font Complete.ttf"
-  font "Space Mono Italic Nerd Font Complete Mono.ttf"
-  font "Space Mono Italic Nerd Font Complete.ttf"
-  font "Space Mono Nerd Font Complete Mono.ttf"
-  font "Space Mono Nerd Font Complete.ttf"
+  font "SpaceMonoNerdFont-Bold.ttf"
+  font "SpaceMonoNerdFont-BoldItalic.ttf"
+  font "SpaceMonoNerdFont-Italic.ttf"
+  font "SpaceMonoNerdFont-Regular.ttf"
+  font "SpaceMonoNerdFontMono-Bold.ttf"
+  font "SpaceMonoNerdFontMono-BoldItalic.ttf"
+  font "SpaceMonoNerdFontMono-Italic.ttf"
+  font "SpaceMonoNerdFontMono-Regular.ttf"
+  font "SpaceMonoNerdFontPropo-Bold.ttf"
+  font "SpaceMonoNerdFontPropo-BoldItalic.ttf"
+  font "SpaceMonoNerdFontPropo-Italic.ttf"
+  font "SpaceMonoNerdFontPropo-Regular.ttf"
 end
