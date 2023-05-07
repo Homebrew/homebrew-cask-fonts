@@ -10,5 +10,7 @@ cask "font-harmattan" do
   homepage "https://fonts.google.com/specimen/Harmattan"
 
   font "Harmattan-Bold.ttf"
+  font "Harmattan-Medium.ttf"
   font "Harmattan-Regular.ttf"
+  font "Harmattan-SemiBold.ttf"
 end

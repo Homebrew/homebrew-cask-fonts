@@ -11,5 +11,7 @@ cask "font-scheherazade-new" do
   homepage "https://fonts.google.com/specimen/Scheherazade+New"
 
   font "ScheherazadeNew-Bold.ttf"
+  font "ScheherazadeNew-Medium.ttf"
   font "ScheherazadeNew-Regular.ttf"
+  font "ScheherazadeNew-SemiBold.ttf"
 end
