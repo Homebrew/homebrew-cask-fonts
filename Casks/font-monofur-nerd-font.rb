@@ -1,6 +1,6 @@
 cask "font-monofur-nerd-font" do
-  version "3.0.0"
-  sha256 "8dfb70df06d7dc96146e17e2d40ee087b5bd3200484bf8d468de6260c1a92f49"
+  version "3.0.1"
+  sha256 "61bfa78b6a1d55f25dbb0eeb5542206e690bdef04d0a6f2a62102e2937fb6fb8"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monofur.zip"
   name "Monofur Nerd Font (Monofur)"
@@ -21,4 +21,6 @@ cask "font-monofur-nerd-font" do
   font "MonofurNerdFontPropo-Bold.ttf"
   font "MonofurNerdFontPropo-Italic.ttf"
   font "MonofurNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

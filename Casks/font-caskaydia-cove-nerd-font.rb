@@ -1,6 +1,6 @@
 cask "font-caskaydia-cove-nerd-font" do
-  version "3.0.0"
-  sha256 "18692fc6f7829cb9fc71c1d3e409e2595539d310464d76523f27732107753dfc"
+  version "3.0.1"
+  sha256 "73b8fc00ddf76e46f1bf3496958665a7c9793b33485e67bd293da100663f5a34"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaCode.zip"
   name "CaskaydiaCove Nerd Font (Cascadia Code)"
@@ -48,4 +48,6 @@ cask "font-caskaydia-cove-nerd-font" do
   font "CaskaydiaCoveNerdFontPropo-SemiBoldItalic.ttf"
   font "CaskaydiaCoveNerdFontPropo-SemiLight.ttf"
   font "CaskaydiaCoveNerdFontPropo-SemiLightItalic.ttf"
+
+  # No zap stanza required
 end

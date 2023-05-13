@@ -1,6 +1,6 @@
 cask "font-bitstream-vera-sans-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "0aebf61c2868959e1d7377087be34fbbccff1ae41992dde8bc435646f5e2638b"
+  version "3.0.1"
+  sha256 "5c51139af5b1f5949c5a81a6696b7add7558d0510d6663f878f74997e9478a07"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/BitstreamVeraSansMono.zip"
   name "BitstromWera Nerd Font (Bitstream Vera Sans Mono)"
@@ -24,4 +24,6 @@ cask "font-bitstream-vera-sans-mono-nerd-font" do
   font "BitstromWeraNerdFontPropo-BoldOblique.ttf"
   font "BitstromWeraNerdFontPropo-Oblique.ttf"
   font "BitstromWeraNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

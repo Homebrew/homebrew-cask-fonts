@@ -1,6 +1,6 @@
 cask "font-cousine-nerd-font" do
-  version "3.0.0"
-  sha256 "b3fa57d3ccbce0bfe412c81bb4907f6dd08d91cc82a05509d27bc32d00704f32"
+  version "3.0.1"
+  sha256 "643e06d075fe076ff90eecfa1eeb2e9e2f4445308d0bf6341bbfdfabe40abedf"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Cousine.zip"
   name "Cousine Nerd Font (Cousine)"
@@ -24,4 +24,6 @@ cask "font-cousine-nerd-font" do
   font "CousineNerdFontPropo-BoldItalic.ttf"
   font "CousineNerdFontPropo-Italic.ttf"
   font "CousineNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

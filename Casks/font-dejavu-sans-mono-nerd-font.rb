@@ -1,6 +1,6 @@
 cask "font-dejavu-sans-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "af406d84d6c52cb2251c96abe090d16a97d31017ea2ee48489fc5f53804d6670"
+  version "3.0.1"
+  sha256 "dcf2d29551203beb9eaa38ee54e02f5dec8016a14c4dafa2a31f7134ee834758"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DejaVuSansMono.zip"
   name "DejaVuSansM Nerd Font (DejaVu Sans Mono)"
@@ -24,4 +24,6 @@ cask "font-dejavu-sans-mono-nerd-font" do
   font "DejaVuSansMNerdFontPropo-BoldOblique.ttf"
   font "DejaVuSansMNerdFontPropo-Oblique.ttf"
   font "DejaVuSansMNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

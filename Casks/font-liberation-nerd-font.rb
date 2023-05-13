@@ -1,6 +1,6 @@
 cask "font-liberation-nerd-font" do
-  version "3.0.0"
-  sha256 "f66aa180b000671b5d0f6498b4065424115d4635538b03b03b083ded819350bd"
+  version "3.0.1"
+  sha256 "3aab38b35fbb25dccb185febe12779fd0ddd8447b3551f45f1088e86221554fe"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/LiberationMono.zip"
   name "Literation Nerd Font families (Liberation Mono)"
@@ -40,4 +40,6 @@ cask "font-liberation-nerd-font" do
   font "LiterationSerifNerdFontPropo-BoldItalic.ttf"
   font "LiterationSerifNerdFontPropo-Italic.ttf"
   font "LiterationSerifNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

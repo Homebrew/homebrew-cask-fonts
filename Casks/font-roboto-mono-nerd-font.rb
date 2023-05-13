@@ -1,6 +1,6 @@
 cask "font-roboto-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "7506fb6c16d1f19002c1eb43b3e475fb9c349f63c753b7b0e11dc007edb90ca1"
+  version "3.0.1"
+  sha256 "3dcd373bb3463b00629b28aad55c53e265c1aff7dd3be79584cefdc3d6fc71a4"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/RobotoMono.zip"
   name "RobotoMono Nerd Font (Roboto Mono)"
@@ -48,4 +48,6 @@ cask "font-roboto-mono-nerd-font" do
   font "RobotoMonoNerdFontPropo-SemiBoldItalic.ttf"
   font "RobotoMonoNerdFontPropo-Thin.ttf"
   font "RobotoMonoNerdFontPropo-ThinItalic.ttf"
+
+  # No zap stanza required
 end

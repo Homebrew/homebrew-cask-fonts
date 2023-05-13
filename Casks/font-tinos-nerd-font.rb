@@ -1,6 +1,6 @@
 cask "font-tinos-nerd-font" do
-  version "3.0.0"
-  sha256 "9f714148a54fa1b4f515f975399f801d170699ff4458a2d9674af3b3ff9f2f29"
+  version "3.0.1"
+  sha256 "4293eb2b4e82cac648c3c93b3bf2f319dfc7fb08e2c48ae593d9177d7642a50f"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Tinos.zip"
   name "Tinos Nerd Font (Tinos)"
@@ -20,4 +20,6 @@ cask "font-tinos-nerd-font" do
   font "TinosNerdFontPropo-BoldItalic.ttf"
   font "TinosNerdFontPropo-Italic.ttf"
   font "TinosNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

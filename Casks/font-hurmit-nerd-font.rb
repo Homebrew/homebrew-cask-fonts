@@ -1,6 +1,6 @@
 cask "font-hurmit-nerd-font" do
-  version "3.0.0"
-  sha256 "e9281038b320978c99cbc75296586fe8580af4dc9bf79314fd49f72f5e8642b7"
+  version "3.0.1"
+  sha256 "657795284e1378994bad72f053e14aae2e1f377b5c53b68a47011ad57988797e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hermit.zip"
   name "Hurmit Nerd Font (Hermit)"
@@ -30,4 +30,6 @@ cask "font-hurmit-nerd-font" do
   font "HurmitNerdFontPropo-Light.otf"
   font "HurmitNerdFontPropo-LightItalic.otf"
   font "HurmitNerdFontPropo-Regular.otf"
+
+  # No zap stanza required
 end

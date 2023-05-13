@@ -1,6 +1,6 @@
 cask "font-anonymice-nerd-font" do
-  version "3.0.0"
-  sha256 "c5fc928f8bcf5c44e0d24c2f16d46c9a185eb1ddc7547274c45cae850f5693a1"
+  version "3.0.1"
+  sha256 "843832e800769affedf256462a6747de988f1f45ddbb95e04164c06d047132f4"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/AnonymousPro.zip"
   name "AnonymicePro Nerd Font (Anonymous Pro)"
@@ -24,4 +24,6 @@ cask "font-anonymice-nerd-font" do
   font "AnonymiceProNerdFontPropo-BoldItalic.ttf"
   font "AnonymiceProNerdFontPropo-Italic.ttf"
   font "AnonymiceProNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

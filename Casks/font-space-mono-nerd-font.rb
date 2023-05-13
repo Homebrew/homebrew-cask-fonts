@@ -1,6 +1,6 @@
 cask "font-space-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "c624cbd887a04b7c46f938c0e81ba8965feebd8f602e2afa13e61bec12159d22"
+  version "3.0.1"
+  sha256 "84e0fb6e4b1cf0a8b527a07ecdf11f71ea89554ee6e5e832ba0b9d2d58690c83"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SpaceMono.zip"
   name "SpaceMono Nerd Font (Space Mono)"
@@ -24,4 +24,6 @@ cask "font-space-mono-nerd-font" do
   font "SpaceMonoNerdFontPropo-BoldItalic.ttf"
   font "SpaceMonoNerdFontPropo-Italic.ttf"
   font "SpaceMonoNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

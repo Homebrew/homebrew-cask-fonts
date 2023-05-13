@@ -1,6 +1,6 @@
 cask "font-hack-nerd-font" do
-  version "3.0.0"
-  sha256 "da1d4d89298d8211a53629e6e43da6fffe9b725a09d5ad96b213595fb438058e"
+  version "3.0.1"
+  sha256 "6c7457cd1a8faa212ab625241b9cd189a95e9fb5742f11e482a6d68ff8538f3e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hack.zip"
   name "Hack Nerd Font (Hack)"
@@ -24,4 +24,6 @@ cask "font-hack-nerd-font" do
   font "HackNerdFontPropo-BoldItalic.ttf"
   font "HackNerdFontPropo-Italic.ttf"
   font "HackNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

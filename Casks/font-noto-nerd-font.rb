@@ -1,6 +1,6 @@
 cask "font-noto-nerd-font" do
-  version "3.0.0"
-  sha256 "a6dff18fe25906c2aa749463e6553d7d04999cfd1506c516be25d4f8f71e6bee"
+  version "3.0.1"
+  sha256 "113a4c86799f1c4a4a70dd58b77b58069f3ae3c42d0c4ae3d7210e2aea0a162e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Noto.zip"
   name "Noto Nerd Font families (Noto)"
@@ -403,4 +403,6 @@ cask "font-noto-nerd-font" do
   font "NotoSerifNerdFontPropo-SemiCondensedThinItalic.ttf"
   font "NotoSerifNerdFontPropo-Thin.ttf"
   font "NotoSerifNerdFontPropo-ThinItalic.ttf"
+
+  # No zap stanza required
 end

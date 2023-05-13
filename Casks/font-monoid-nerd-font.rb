@@ -1,6 +1,6 @@
 cask "font-monoid-nerd-font" do
-  version "3.0.0"
-  sha256 "b9d215398237fcb3a53de9f6c60c30a00494af7b336b652da7a8e12e0f380001"
+  version "3.0.1"
+  sha256 "0e228a2841a6625fe8b801f23a0791758cd03bf70f23767882e3751a0306a5ed"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monoid.zip"
   name "Monoid Nerd Font (Monoid)"
@@ -24,4 +24,6 @@ cask "font-monoid-nerd-font" do
   font "MonoidNerdFontPropo-Italic.ttf"
   font "MonoidNerdFontPropo-Regular.ttf"
   font "MonoidNerdFontPropo-Retina.ttf"
+
+  # No zap stanza required
 end

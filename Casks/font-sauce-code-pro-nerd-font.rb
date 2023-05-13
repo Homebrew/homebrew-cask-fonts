@@ -1,6 +1,6 @@
 cask "font-sauce-code-pro-nerd-font" do
-  version "3.0.0"
-  sha256 "2939dfc2a18294b0fc484ec38be51f141df7266d794000b151d1950967caf23e"
+  version "3.0.1"
+  sha256 "a9f52896bc7a078ddfbae0f32c29d52b3b22108789381fc782e45afc04a8f1d4"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SourceCodePro.zip"
   name "SauceCodePro Nerd Font (Source Code Pro)"
@@ -54,4 +54,6 @@ cask "font-sauce-code-pro-nerd-font" do
   font "SauceCodeProNerdFontPropo-Regular.ttf"
   font "SauceCodeProNerdFontPropo-SemiBold.ttf"
   font "SauceCodeProNerdFontPropo-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

@@ -1,6 +1,6 @@
 cask "font-droid-sans-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "d186336f5a6ce7c67b9e2485d5b143e4c655ef59dcad9ee47d3fe3ff9c65b197"
+  version "3.0.1"
+  sha256 "9c2f674b4946414c202df40544dee936ba3edfefcf086790eab3c278873a2815"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DroidSansMono.zip"
   name "DroidSansM Nerd Font (Droid Sans Mono)"
@@ -15,4 +15,6 @@ cask "font-droid-sans-mono-nerd-font" do
   font "DroidSansMNerdFont-Regular.otf"
   font "DroidSansMNerdFontMono-Regular.otf"
   font "DroidSansMNerdFontPropo-Regular.otf"
+
+  # No zap stanza required
 end

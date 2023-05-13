@@ -1,6 +1,6 @@
 cask "font-overpass-nerd-font" do
-  version "3.0.0"
-  sha256 "c9812ba813a4b1c899894e94478ecd05a37c3e40fe95bf76e98253e9600f4604"
+  version "3.0.1"
+  sha256 "7f9ee54c792caa1f31b4873a76d0654c85323f9b8a75e56579d62edfa8c92156"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Overpass.zip"
   name "Overpass Nerd Font families (Overpass)"
@@ -56,4 +56,6 @@ cask "font-overpass-nerd-font" do
   font "OverpassNerdFontPropo-SemiBoldItalic.otf"
   font "OverpassNerdFontPropo-Thin.otf"
   font "OverpassNerdFontPropo-ThinItalic.otf"
+
+  # No zap stanza required
 end

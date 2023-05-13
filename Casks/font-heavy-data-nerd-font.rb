@@ -1,6 +1,6 @@
 cask "font-heavy-data-nerd-font" do
-  version "3.0.0"
-  sha256 "00164c3331126eaf32f170322c845ef81c5f78f5a9b9bd03165e1f82df190bb4"
+  version "3.0.1"
+  sha256 "36b219a2325280ef066917671b567f5995343e5c6e90b5364f0fbb681b93f27f"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/HeavyData.zip"
   name "HeavyData Nerd Font (Heavy Data)"
@@ -14,4 +14,6 @@ cask "font-heavy-data-nerd-font" do
 
   font "HeavyDataNerdFont-Regular.ttf"
   font "HeavyDataNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

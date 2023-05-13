@@ -1,6 +1,6 @@
 cask "font-mononoki-nerd-font" do
-  version "3.0.0"
-  sha256 "bc14697e0d471f3737e806c764c6d370efa136ae1106618993aff525cfe4c0ec"
+  version "3.0.1"
+  sha256 "a4493ebded602941bfa1571bdd8a8b48f56f416033bb947f24490c1912620757"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Mononoki.zip"
   name "Mononoki Nerd Font (Mononoki)"
@@ -24,4 +24,6 @@ cask "font-mononoki-nerd-font" do
   font "MononokiNerdFontPropo-BoldItalic.ttf"
   font "MononokiNerdFontPropo-Italic.ttf"
   font "MononokiNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end
