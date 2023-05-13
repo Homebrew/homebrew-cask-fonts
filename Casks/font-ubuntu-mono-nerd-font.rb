@@ -1,6 +1,6 @@
 cask "font-ubuntu-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "7af191908ae8e37ab1146eebd2c67f5f5151aa65e954ec1be59c65dc998ef587"
+  version "3.0.1"
+  sha256 "3ef8fcd564a2c67c5afd19e36fa9fa7ab354ce051cc58e3108cbc16c0edaebdb"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/UbuntuMono.zip"
   name "UbuntuMono Nerd Font (Ubuntu Mono)"
@@ -24,4 +24,6 @@ cask "font-ubuntu-mono-nerd-font" do
   font "UbuntuMonoNerdFontPropo-BoldItalic.ttf"
   font "UbuntuMonoNerdFontPropo-Italic.ttf"
   font "UbuntuMonoNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

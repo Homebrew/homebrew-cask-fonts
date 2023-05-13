@@ -1,6 +1,6 @@
 cask "font-gohufont-nerd-font" do
-  version "3.0.0"
-  sha256 "5b45fbf5cb1831f8dc5f4dab2a7776eea177cabe6072ce278eeb70b3602e7965"
+  version "3.0.1"
+  sha256 "d2a9e19555a043cd0cbd9f1e9e3274824a3442417b7434a4ad3a1c964957f655"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Gohu.zip"
   name "GohuFont  Nerd Font families (Gohu)"
@@ -24,4 +24,6 @@ cask "font-gohufont-nerd-font" do
   font "GohuFontuni-14NerdFont-Regular.ttf"
   font "GohuFontuni-14NerdFontMono-Regular.ttf"
   font "GohuFontuni-14NerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

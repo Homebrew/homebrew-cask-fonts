@@ -1,6 +1,6 @@
 cask "font-inconsolata-lgc-nerd-font" do
-  version "3.0.0"
-  sha256 "2d33c53aac3426f6e2c2a2d697d53510075e5cbd4913095866b45c93ca95f30b"
+  version "3.0.1"
+  sha256 "001f4b4897ef690ea21a78d998ee502da2d64eca6877a3ca0a4ef42c1ade8ba8"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/InconsolataLGC.zip"
   name "Inconsolata LGC Nerd Font (Inconsolata LGC)"
@@ -24,4 +24,6 @@ cask "font-inconsolata-lgc-nerd-font" do
   font "InconsolataLGCNerdFontPropo-BoldItalic.ttf"
   font "InconsolataLGCNerdFontPropo-Italic.ttf"
   font "InconsolataLGCNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

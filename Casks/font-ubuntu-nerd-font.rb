@@ -1,6 +1,6 @@
 cask "font-ubuntu-nerd-font" do
-  version "3.0.0"
-  sha256 "a8746fc1016d64463be15ba1437b85e9b22beaa9a0e22a91761089030a2fdfba"
+  version "3.0.1"
+  sha256 "3f0b17b0a156dd7d271f9477cbdc9cf9eb12c3fa2648b9690637d8fc0b6e4361"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Ubuntu.zip"
   name "Ubuntu Nerd Font (Ubuntu)"
@@ -30,4 +30,6 @@ cask "font-ubuntu-nerd-font" do
   font "UbuntuNerdFontPropo-Medium.ttf"
   font "UbuntuNerdFontPropo-MediumItalic.ttf"
   font "UbuntuNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

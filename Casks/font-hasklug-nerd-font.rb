@@ -1,6 +1,6 @@
 cask "font-hasklug-nerd-font" do
-  version "3.0.0"
-  sha256 "c1d919d06678684317205ae20de40357616a4a0448a95fc8caf99dd4b55f4ee2"
+  version "3.0.1"
+  sha256 "3de5e0def0efe9dcf915de4013752ce6e227003d8eb33abe36ca3333dd828bea"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hasklig.zip"
   name "Hasklug Nerd Font (Hasklig)"
@@ -54,4 +54,6 @@ cask "font-hasklug-nerd-font" do
   font "HasklugNerdFontPropo-Regular.otf"
   font "HasklugNerdFontPropo-SemiBold.otf"
   font "HasklugNerdFontPropo-SemiBoldItalic.otf"
+
+  # No zap stanza required
 end

@@ -1,6 +1,6 @@
 cask "font-meslo-lg-nerd-font" do
-  version "3.0.0"
-  sha256 "e87f90f5bcf434d7eb3eba9dcc6c66ec27b2cf40ee6391d055436ab47c6efcd3"
+  version "3.0.1"
+  sha256 "7e0247775e04d935b2d3331a4b29f802d23d43fee5d30120e0fb0769ecdd9393"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Meslo.zip"
   name "MesloLG Nerd Font families (Meslo LG)"
@@ -84,4 +84,6 @@ cask "font-meslo-lg-nerd-font" do
   font "MesloLGSNerdFontPropo-BoldItalic.ttf"
   font "MesloLGSNerdFontPropo-Italic.ttf"
   font "MesloLGSNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

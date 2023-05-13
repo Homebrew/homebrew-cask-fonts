@@ -1,6 +1,6 @@
 cask "font-mplus-nerd-font" do
-  version "3.0.0"
-  sha256 "b59ba3c6ca1b2231c2dc96103c6a5f737a1210893288dbe5ea28f64ad0a642a3"
+  version "3.0.1"
+  sha256 "64fd460cb16b8277dff3f1c00c8035ea56cfdf564e66ccdeb6ec070ef121e1fa"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/MPlus.zip"
   name "M+ Nerd Font families (MPlus)"
@@ -111,4 +111,6 @@ cask "font-mplus-nerd-font" do
   font "M+CodeLatXNerdFontPropo-Regular.ttf"
   font "M+CodeLatXNerdFontPropo-SemiBold.ttf"
   font "M+CodeLatXNerdFontPropo-Thin.ttf"
+
+  # No zap stanza required
 end

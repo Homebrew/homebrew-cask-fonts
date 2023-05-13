@@ -1,6 +1,6 @@
 cask "font-im-writing-nerd-font" do
-  version "3.0.0"
-  sha256 "08e57f49f83082332dd9172257e71cda0be0fa0376d34c1ebdc04d3e57aed194"
+  version "3.0.1"
+  sha256 "89697338c3e83f9e90732bf06fd3de173ec04d3325950fec8ec4814b8899c1d9"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/iA-Writer.zip"
   name "IMWriting Nerd Font families (iA Writer)"
@@ -40,4 +40,6 @@ cask "font-im-writing-nerd-font" do
   font "iMWritingQuatNerdFontPropo-BoldItalic.ttf"
   font "iMWritingQuatNerdFontPropo-Italic.ttf"
   font "iMWritingQuatNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

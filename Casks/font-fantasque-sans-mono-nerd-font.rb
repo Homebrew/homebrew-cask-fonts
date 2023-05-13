@@ -1,6 +1,6 @@
 cask "font-fantasque-sans-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "e488890d690ba7787e3d34817eb3d5974d6d2039ee1ffc5f04caf7b6f0b320db"
+  version "3.0.1"
+  sha256 "72d029291d7a40919d22a5758396daf63f01a0377b5efdec972e20e521a412e6"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FantasqueSansMono.zip"
   name "FantasqueSansM Nerd Font (Fantasque Sans Mono)"
@@ -24,4 +24,6 @@ cask "font-fantasque-sans-mono-nerd-font" do
   font "FantasqueSansMNerdFontPropo-BoldItalic.ttf"
   font "FantasqueSansMNerdFontPropo-Italic.ttf"
   font "FantasqueSansMNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

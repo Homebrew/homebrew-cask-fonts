@@ -1,6 +1,6 @@
 cask "font-code-new-roman-nerd-font" do
-  version "3.0.0"
-  sha256 "01529d02564511fb8a3c9e10011c9a0d1c4912fb979bd661cf606087ea2a5df4"
+  version "3.0.1"
+  sha256 "ad832d2117dcc596fdb7660395e771c0036974d623367b139a3d30edc549c39e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CodeNewRoman.zip"
   name "CodeNewRoman Nerd Font (Code New Roman)"
@@ -21,4 +21,6 @@ cask "font-code-new-roman-nerd-font" do
   font "CodeNewRomanNerdFontPropo-Bold.otf"
   font "CodeNewRomanNerdFontPropo-Italic.otf"
   font "CodeNewRomanNerdFontPropo-Regular.otf"
+
+  # No zap stanza required
 end

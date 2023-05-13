@@ -1,6 +1,6 @@
 cask "font-arimo-nerd-font" do
-  version "3.0.0"
-  sha256 "14a04ecb56f9b520e97b8974a475dee1ed9fcd75d80b18b3f79ae087a5cf73aa"
+  version "3.0.1"
+  sha256 "dc3a588831cf00fd264c286ba3cb3f567510ded849cab39d1e7516bd83ec9129"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Arimo.zip"
   name "Arimo Nerd Font (Arimo)"
@@ -20,4 +20,6 @@ cask "font-arimo-nerd-font" do
   font "ArimoNerdFontPropo-BoldItalic.ttf"
   font "ArimoNerdFontPropo-Italic.ttf"
   font "ArimoNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

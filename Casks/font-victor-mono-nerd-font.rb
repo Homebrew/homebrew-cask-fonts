@@ -1,6 +1,6 @@
 cask "font-victor-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "30e08dc555d87cde4afa5f76b282ab8dad5fbc0ee7d012e5e3b9c8e97d93b081"
+  version "3.0.1"
+  sha256 "9d9f384ed2f438c8481684a7969161c73aaf1233ba4874435d545b5dbd1971fa"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/VictorMono.zip"
   name "VictorMono Nerd Font (Victor Mono)"
@@ -75,4 +75,6 @@ cask "font-victor-mono-nerd-font" do
   font "VictorMonoNerdFontPropo-Thin.ttf"
   font "VictorMonoNerdFontPropo-ThinItalic.ttf"
   font "VictorMonoNerdFontPropo-ThinOblique.ttf"
+
+  # No zap stanza required
 end

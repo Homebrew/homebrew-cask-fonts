@@ -1,6 +1,6 @@
 cask "font-iosevka-nerd-font" do
-  version "3.0.0"
-  sha256 "104fe5998982ed8f55cc05069f325bf886da8dfa6036dc4113f198594f9b481b"
+  version "3.0.1"
+  sha256 "2371c5b0457436be6376b01ad7c55d99f88c0e22d28a7586e5bc8f3450782185"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Iosevka.zip"
   name "Iosevka Nerd Font (Iosevka)"
@@ -93,4 +93,6 @@ cask "font-iosevka-nerd-font" do
   font "IosevkaNerdFontPropo-Thin.ttf"
   font "IosevkaNerdFontPropo-ThinItalic.ttf"
   font "IosevkaNerdFontPropo-ThinOblique.ttf"
+
+  # No zap stanza required
 end

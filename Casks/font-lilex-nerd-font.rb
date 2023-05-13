@@ -1,6 +1,6 @@
 cask "font-lilex-nerd-font" do
-  version "3.0.0"
-  sha256 "367629808e8e58f16b02d4b414289c3a1ed2550e6d38c45f7d93993aa7746935"
+  version "3.0.1"
+  sha256 "a5b9b181121bed45d18831ef15854b0d219c48a59bffe75231da4aa85afba409"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Lilex.zip"
   name "Lilex Nerd Font (Lilex)"
@@ -21,4 +21,6 @@ cask "font-lilex-nerd-font" do
   font "LilexNerdFontPropo-Bold.ttf"
   font "LilexNerdFontPropo-Regular.ttf"
   font "LilexNerdFontPropo-Thin.ttf"
+
+  # No zap stanza required
 end

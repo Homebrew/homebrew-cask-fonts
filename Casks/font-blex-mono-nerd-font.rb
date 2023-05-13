@@ -1,6 +1,6 @@
 cask "font-blex-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "ca104358629dc07868ad0848c2627923dd8f650a623079a27e8175ebb3edd623"
+  version "3.0.1"
+  sha256 "649550a4b45fbf0cfccd859ae665c6c11d94f870a5ac5e2de17a9e07b69d88e8"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/IBMPlexMono.zip"
   name "BlexMono Nerd Font families (IBM Plex Mono)"
@@ -60,4 +60,6 @@ cask "font-blex-mono-nerd-font" do
   font "BlexMonoTextNerdFontMono-Regular.ttf"
   font "BlexMonoTextNerdFontPropo-Italic.ttf"
   font "BlexMonoTextNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -1,6 +1,6 @@
 cask "font-fira-code-nerd-font" do
-  version "3.0.0"
-  sha256 "705b7eaa5b687987cc0e65a961314250be0cbdac71e6ae5a8be5c8064361f37c"
+  version "3.0.1"
+  sha256 "532f6cc67eef8bcead4c36b3484c323f7c546e1eda3c5598617cf0e112345353"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraCode.zip"
   name "FiraCode Nerd Font (Fira Code)"
@@ -30,4 +30,6 @@ cask "font-fira-code-nerd-font" do
   font "FiraCodeNerdFontPropo-Regular.ttf"
   font "FiraCodeNerdFontPropo-Retina.ttf"
   font "FiraCodeNerdFontPropo-SemiBold.ttf"
+
+  # No zap stanza required
 end

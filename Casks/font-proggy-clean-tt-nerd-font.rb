@@ -1,6 +1,6 @@
 cask "font-proggy-clean-tt-nerd-font" do
-  version "3.0.0"
-  sha256 "80fc32c6ac35191efb7e9a8ab26a260538c620296671bc1046caf1c9d630621e"
+  version "3.0.1"
+  sha256 "5649a12d0ba783ef4f95d3e3e4e97b2a5579984ff73b7d400a018761585279f4"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProggyClean.zip"
   name "ProggyClean Nerd Font families (ProggyCleanTT)"
@@ -21,4 +21,6 @@ cask "font-proggy-clean-tt-nerd-font" do
   font "ProggyCleanSZNerdFont-Regular.ttf"
   font "ProggyCleanSZNerdFontMono-Regular.ttf"
   font "ProggyCleanSZNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end

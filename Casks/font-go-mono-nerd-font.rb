@@ -1,6 +1,6 @@
 cask "font-go-mono-nerd-font" do
-  version "3.0.0"
-  sha256 "9969921572402738cef5e85174160d2b59728df2d5f7949bdf0bcbd2fa2e6c8e"
+  version "3.0.1"
+  sha256 "9ac21958530b64e438e7ba9cd2c2ce26403632cab2f067da21522b2eefd2b710"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Go-Mono.zip"
   name "GoMono Nerd Font (Go Mono)"
@@ -24,4 +24,6 @@ cask "font-go-mono-nerd-font" do
   font "GoMonoNerdFontPropo-BoldItalic.ttf"
   font "GoMonoNerdFontPropo-Italic.ttf"
   font "GoMonoNerdFontPropo-Regular.ttf"
+
+  # No zap stanza required
 end
