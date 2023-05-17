@@ -33,8 +33,6 @@ cask "font-iosevka-comfy" do
   font "iosevka-comfy-motion-fixed/ttf/iosevka-comfy-motion-fixed-regular.ttf"
   font "iosevka-comfy-motion-fixed/ttf/iosevka-comfy-motion-fixed-bold.ttf"
   font "iosevka-comfy-motion-fixed/ttf/iosevka-comfy-motion-fixed-lightitalic.ttf"
-  font "iosevka-comfy-motion-fixed/ttf/iosevka-comfy-motion-fixed-extendeditalic.ttf"
-  font "iosevka-comfy-motion-fixed/ttf/iosevka-comfy-motion-fixed-extendedbold.ttf"
   font "iosevka-comfy-motion-fixed/ttf/iosevka-comfy-motion-fixed-semilightitalic.ttf"
   font "iosevka-comfy-motion-fixed/ttf/iosevka-comfy-motion-fixed-light.ttf"
   font "iosevka-comfy-motion-fixed/ttf/iosevka-comfy-motion-fixed-italic.ttf"
