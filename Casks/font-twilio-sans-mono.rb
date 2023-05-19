@@ -4,6 +4,7 @@ cask "font-twilio-sans-mono" do
 
   url "https://github.com/twilio/twilio-sans-mono/raw/main/Twilio-Sans-Mono.zip"
   name "Twilio Sans Mono"
+  desc "Programming font"
   homepage "https://github.com/twilio/twilio-sans-mono"
 
   font "Twilio-Sans-Mono/OTF/TwilioSansMono-Bold.otf"
@@ -22,4 +23,6 @@ cask "font-twilio-sans-mono" do
   font "Twilio-Sans-Mono/OTF/TwilioSansMono-RetinaItl.otf"
   font "Twilio-Sans-Mono/OTF/TwilioSansMono-Semibold.otf"
   font "Twilio-Sans-Mono/OTF/TwilioSansMono-SemiboldItl.otf"
+
+  # No zap stanza required
 end
