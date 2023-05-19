@@ -12,8 +12,9 @@ cask "font-aurulent-sans-mono-nerd-font" do
     strategy :github_latest
   end
 
-  font "AurulentSansMono-Regular Nerd Font Complete Mono Windows Compatible.otf"
-  font "AurulentSansMono-Regular Nerd Font Complete Mono.otf"
-  font "AurulentSansMono-Regular Nerd Font Complete Windows Compatible.otf"
-  font "AurulentSansMono-Regular Nerd Font Complete.otf"
+  font "AurulentSansMNerdFont-Regular.otf"
+  font "AurulentSansMNerdFontMono-Regular.otf"
+  font "AurulentSansMNerdFontPropo-Regular.otf"
+
+  # No zap stanza required
 end
