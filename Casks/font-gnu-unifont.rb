@@ -18,4 +18,6 @@ cask "font-gnu-unifont" do
   font "unifont-#{version}/font/precompiled/unifont_sample-#{version}.ttf"
   font "unifont-#{version}/font/precompiled/unifont_jp-#{version}.ttf"
   font "unifont-#{version}/font/precompiled/unifont_csur-#{version}.ttf"
+
+  # No zap stanza required
 end
