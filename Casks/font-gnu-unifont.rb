@@ -1,6 +1,6 @@
 cask "font-gnu-unifont" do
-  version "15.0.01"
-  sha256 "7d11a924bf3c63ea7fdf2da2b96d6d4986435bedfd1e6816c8ac2e6db47634d5"
+  version "15.0.03"
+  sha256 "734a4f9f583b5184eb240a49e6bf768785168d1ebb443dc39b42d15c0bd2c767"
 
   url "https://ftpmirror.gnu.org/unifont/unifont-#{version}/unifont-#{version}.tar.gz",
       verified: "ftpmirror.gnu.org/unifont/"
@@ -18,4 +18,6 @@ cask "font-gnu-unifont" do
   font "unifont-#{version}/font/precompiled/unifont_sample-#{version}.ttf"
   font "unifont-#{version}/font/precompiled/unifont_jp-#{version}.ttf"
   font "unifont-#{version}/font/precompiled/unifont_csur-#{version}.ttf"
+
+  # No zap stanza required
 end
