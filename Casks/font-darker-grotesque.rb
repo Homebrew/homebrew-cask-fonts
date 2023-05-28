@@ -8,6 +8,4 @@ cask "font-darker-grotesque" do
   homepage "https://fonts.google.com/specimen/Darker+Grotesque"
 
   font "DarkerGrotesque[wght].ttf"
-
-  # No zap stanza required
 end
