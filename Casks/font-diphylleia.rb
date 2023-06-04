@@ -8,6 +8,4 @@ cask "font-diphylleia" do
   homepage "https://github.com/JAMO-TYPEFACE/Diphylleia"
 
   font "Diphylleia-Regular.ttf"
-
-  # No zap stanza required
 end

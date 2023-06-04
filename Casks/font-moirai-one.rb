@@ -7,6 +7,4 @@ cask "font-moirai-one" do
   homepage "https://github.com/JAMO-TYPEFACE/Moirai"
 
   font "MoiraiOne-Regular.ttf"
-
-  # No zap stanza required
 end

@@ -8,6 +8,4 @@ cask "font-orbit" do
   homepage "https://github.com/JAMO-TYPEFACE/Orbit"
 
   font "Orbit-Regular.ttf"
-
-  # No zap stanza required
 end

@@ -7,6 +7,4 @@ cask "font-gasoek-one" do
   homepage "https://github.com/JAMO-TYPEFACE/Gasoek"
 
   font "GasoekOne-Regular.ttf"
-
-  # No zap stanza required
 end
