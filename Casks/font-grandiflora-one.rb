@@ -7,6 +7,4 @@ cask "font-grandiflora-one" do
   homepage "https://github.com/JAMO-TYPEFACE/Grandiflora"
 
   font "GrandifloraOne-Regular.ttf"
-
-  # No zap stanza required
 end

@@ -7,6 +7,4 @@ cask "font-bagel-fat-one" do
   homepage "https://github.com/JAMO-TYPEFACE/BagelFat"
 
   font "BagelFatOne-Regular.ttf"
-
-  # No zap stanza required
 end
