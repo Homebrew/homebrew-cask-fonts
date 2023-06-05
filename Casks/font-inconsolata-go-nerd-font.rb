@@ -1,6 +1,6 @@
 cask "font-inconsolata-go-nerd-font" do
-  version "3.0.1"
-  sha256 "e85ca68ddd37031760ec8f9b46d0cf3d803d967d99d9b51e31df30d84ee74ea2"
+  version "3.0.2"
+  sha256 "d62b81ab1defac1dcdd265aaccdb8d2f795e7c7f7ba22dcc9c9471c4127c3ff8"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/InconsolataGo.zip"
   name "InconsolataGo Nerd Font (InconsolataGo)"

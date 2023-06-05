@@ -1,6 +1,6 @@
 cask "font-open-dyslexic-nerd-font" do
-  version "3.0.1"
-  sha256 "cacbf7973646252cbbf636f041a03d3f4fe409a43aa788937dd492cd3e947a1f"
+  version "3.0.2"
+  sha256 "4229d3bdb482db539ad555f9cdfce5aa29db5334a50556f139e90775cb86fe2e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/OpenDyslexic.zip"
   name "OpenDyslexic Nerd Font families (OpenDyslexic)"
