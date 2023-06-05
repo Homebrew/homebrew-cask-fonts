@@ -1,6 +1,6 @@
 cask "font-hurmit-nerd-font" do
-  version "3.0.1"
-  sha256 "657795284e1378994bad72f053e14aae2e1f377b5c53b68a47011ad57988797e"
+  version "3.0.2"
+  sha256 "b35b2cda374dd1522d3831b659eb91636c943f6b158d67ec51f91b1deb31e701"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hermit.zip"
   name "Hurmit Nerd Font (Hermit)"

@@ -1,6 +1,6 @@
 cask "font-bigblue-terminal-nerd-font" do
-  version "3.0.1"
-  sha256 "fba95367888c4acaeaf6ba705bde59bb535d3cc897f9f86f9e961f08723d289e"
+  version "3.0.2"
+  sha256 "49e75438525e112e0a71ef39bc6f9465d621aae5a51d1e18087b167b39293783"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/BigBlueTerminal.zip"
   name "BigBlueTerm Nerd Font families (BigBlue Terminal)"
