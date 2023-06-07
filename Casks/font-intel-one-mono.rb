@@ -1,6 +1,6 @@
 cask "font-intel-one-mono" do
-  version "1.2.0"
-  sha256 "5675c8696efb7515ef5c1d55af4d714500cc10296dc3317f44ca868005a7bb93"
+  version "1.2.1"
+  sha256 "44127021492601921168811653115995131f15350574b6c708c4646a0534814d"
 
   url "https://github.com/intel/intel-one-mono/releases/download/V#{version}/otf.zip"
   name "font-intel-one-mono"
