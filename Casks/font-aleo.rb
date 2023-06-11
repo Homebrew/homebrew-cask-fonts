@@ -9,10 +9,6 @@ cask "font-aleo" do
   name "Aleo"
   homepage "https://fonts.google.com/specimen/Aleo"
 
-  font "Aleo-Bold.ttf"
-  font "Aleo-BoldItalic.ttf"
-  font "Aleo-Italic.ttf"
-  font "Aleo-Light.ttf"
-  font "Aleo-LightItalic.ttf"
-  font "Aleo-Regular.ttf"
+  font "Aleo-Italic[wght].ttf"
+  font "Aleo[wght].ttf"
 end
