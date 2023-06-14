@@ -3,7 +3,7 @@ cask "font-ark-pixel-10px-monospaced" do
   sha256 "6ff986b69ee08f28c8275813239ab65ae55dd26e5b1c1a54eec93557b50410c4"
 
   url "https://github.com/TakWolf/ark-pixel-font/releases/download/#{version}/ark-pixel-font-10px-monospaced-otf-v#{version}.zip"
-  name "Ark Pixel 10px monospaced"
+  name "Ark Pixel 10px Monospaced"
   desc "Open source Pan-CJK pixel font"
   homepage "https://github.com/TakWolf/ark-pixel-font"
 

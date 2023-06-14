@@ -3,7 +3,7 @@ cask "font-ark-pixel-10px-proportional" do
   sha256 "76d91fb6588a7cb7d0993c972d1d3f10a5822cc22b66a64f6ec0c556f86757c3"
 
   url "https://github.com/TakWolf/ark-pixel-font/releases/download/#{version}/ark-pixel-font-10px-proportional-otf-v#{version}.zip"
-  name "Ark Pixel 10px proportional"
+  name "Ark Pixel 10px Proportional"
   desc "Open source Pan-CJK pixel font"
   homepage "https://github.com/TakWolf/ark-pixel-font"
 
