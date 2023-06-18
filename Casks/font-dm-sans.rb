@@ -9,10 +9,6 @@ cask "font-dm-sans" do
   name "DM Sans"
   homepage "https://fonts.google.com/specimen/DM+Sans"
 
-  font "DMSans-Bold.ttf"
-  font "DMSans-BoldItalic.ttf"
-  font "DMSans-Italic.ttf"
-  font "DMSans-Medium.ttf"
-  font "DMSans-MediumItalic.ttf"
-  font "DMSans-Regular.ttf"
+  font "DMSans-Italic[opsz,wght].ttf"
+  font "DMSans[opsz,wght].ttf"
 end

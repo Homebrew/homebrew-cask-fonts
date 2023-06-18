@@ -8,6 +8,4 @@ cask "font-noto-serif-makasar" do
   homepage "https://github.com/notofonts/makasar"
 
   font "NotoSerifMakasar-Regular.ttf"
-
-  # No zap stanza required
 end
