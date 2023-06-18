@@ -8,6 +8,4 @@ cask "font-noto-serif-ottoman-siyaq" do
   homepage "https://github.com/notofonts/noto-project-template"
 
   font "NotoSerifOttomanSiyaq-Regular.ttf"
-
-  # No zap stanza required
 end
