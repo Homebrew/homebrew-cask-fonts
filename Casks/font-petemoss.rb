@@ -5,7 +5,7 @@ cask "font-petemoss" do
   url "https://github.com/google/fonts/raw/main/ofl/petemoss/Petemoss-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Petemoss"
-  desc "Inspired by the forms created using a pentel™ color brush"
+  desc "Inspired by the forms created using a pentel color brush"
   homepage "https://fonts.google.com/specimen/Petemoss"
 
   font "Petemoss-Regular.ttf"
