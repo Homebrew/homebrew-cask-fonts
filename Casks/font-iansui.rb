@@ -7,5 +7,5 @@ cask "font-iansui" do
   desc "Chinese font derived from Klee One"
   homepage "https://github.com/ButTaiwan/iansui"
 
-  font "Iansui#{version.no_dots[0, 3]}-Regular.ttf"
+  font "Iansui-Regular.ttf"
 end
