@@ -7,6 +7,7 @@ cask "font-iming" do
   name "一點明體"
   name "一点明朝"
   name "一点明体"
+  desc "Traditional Chinese typefaces in TrueType"
   homepage "https://github.com/ichitenfont/I.Ming"
 
   font "I.Ming-#{version}/#{version}/I.Ming-#{version}.ttf"
@@ -15,4 +16,6 @@ cask "font-iming" do
   font "I.Ming-#{version}/#{version}/I.MingVarCP-#{version}.ttf"
   font "I.Ming-#{version}/#{version}/PMingI.U-#{version}.ttf"
   font "I.Ming-#{version}/#{version}/PMingI.UVar-#{version}.ttf"
+
+  # No zap stanza required
 end
