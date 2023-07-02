@@ -9,4 +9,6 @@ cask "font-narnoor" do
   homepage "https://fonts.google.com/specimen/Narnoor"
 
   font "Narnoor-Regular.ttf"
+
+  # No zap stanza required
 end
