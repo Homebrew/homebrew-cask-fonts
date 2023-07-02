@@ -9,4 +9,6 @@ cask "font-bacasime-antique" do
   homepage "https://fonts.google.com/specimen/Bacasime+Antique"
 
   font "BacasimeAntique-Regular.ttf"
+
+  # No zap stanza required
 end
