@@ -9,4 +9,6 @@ cask "font-noto-serif-makasar" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Makasar"
 
   font "NotoSerifMakasar-Regular.ttf"
+
+  # No zap stanza required
 end
