@@ -13,4 +13,6 @@ cask "font-belanosima" do
   font "Belanosima-Bold.ttf"
   font "Belanosima-Regular.ttf"
   font "Belanosima-SemiBold.ttf"
+
+  # No zap stanza required
 end
