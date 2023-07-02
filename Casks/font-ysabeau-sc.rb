@@ -9,4 +9,6 @@ cask "font-ysabeau-sc" do
   homepage "https://fonts.google.com/specimen/Ysabeau+SC"
 
   font "YsabeauSC[wght].ttf"
+
+  # No zap stanza required
 end
