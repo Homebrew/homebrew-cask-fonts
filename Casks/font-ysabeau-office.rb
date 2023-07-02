@@ -12,4 +12,6 @@ cask "font-ysabeau-office" do
 
   font "YsabeauOffice-Italic[wght].ttf"
   font "YsabeauOffice[wght].ttf"
+
+  # No zap stanza required
 end
