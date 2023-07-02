@@ -9,4 +9,6 @@ cask "font-markazi-text" do
   homepage "https://fonts.google.com/specimen/Markazi+Text"
 
   font "MarkaziText-VF.ttf"
+
+  # No zap stanza required
 end
