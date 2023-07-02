@@ -11,4 +11,6 @@ cask "font-ysabeau-infant" do
 
   font "YsabeauInfant-Italic[wght].ttf"
   font "YsabeauInfant[wght].ttf"
+
+  # No zap stanza required
 end
