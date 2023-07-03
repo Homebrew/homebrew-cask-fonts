@@ -26,6 +26,4 @@ cask "font-anonymice-nerd-font" do
   font "AnonymiceProNerdFontPropo-Regular.ttf"
 
   # No zap stanza required
-
-  # No zap stanza required
 end
