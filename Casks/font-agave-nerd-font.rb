@@ -20,6 +20,4 @@ cask "font-agave-nerd-font" do
   font "AgaveNerdFontPropo-Regular.ttf"
 
   # No zap stanza required
-
-  # No zap stanza required
 end
