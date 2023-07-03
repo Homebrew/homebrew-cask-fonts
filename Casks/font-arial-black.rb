@@ -7,4 +7,6 @@ cask "font-arial-black" do
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
 
   font "AriBlk.TTF"
+
+  # No zap stanza required
 end

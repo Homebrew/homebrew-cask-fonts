@@ -8,4 +8,6 @@ cask "font-antic-slab" do
   homepage "https://fonts.google.com/specimen/Antic+Slab"
 
   font "AnticSlab-Regular.ttf"
+
+  # No zap stanza required
 end

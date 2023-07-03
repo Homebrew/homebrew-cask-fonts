@@ -8,4 +8,6 @@ cask "font-arizonia" do
   homepage "https://fonts.google.com/specimen/Arizonia"
 
   font "Arizonia-Regular.ttf"
+
+  # No zap stanza required
 end

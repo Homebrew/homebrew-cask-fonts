@@ -8,4 +8,6 @@ cask "font-architects-daughter" do
   homepage "https://fonts.google.com/specimen/Architects+Daughter"
 
   font "ArchitectsDaughter-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-alef" do
 
   font "TTF/Alef-Bold.ttf"
   font "TTF/Alef-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-anek-latin" do
   homepage "https://fonts.google.com/specimen/Anek+Latin"
 
   font "AnekLatin[wdth,wght].ttf"
+
+  # No zap stanza required
 end

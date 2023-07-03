@@ -8,4 +8,6 @@ cask "font-abril-fatface" do
   homepage "https://fonts.google.com/specimen/Abril+Fatface"
 
   font "AbrilFatface-Regular.ttf"
+
+  # No zap stanza required
 end

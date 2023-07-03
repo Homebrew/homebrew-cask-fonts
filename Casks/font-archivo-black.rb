@@ -8,4 +8,6 @@ cask "font-archivo-black" do
   homepage "https://fonts.google.com/specimen/Archivo+Black"
 
   font "ArchivoBlack-Regular.ttf"
+
+  # No zap stanza required
 end

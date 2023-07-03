@@ -8,4 +8,6 @@ cask "font-adamina" do
   homepage "https://fonts.google.com/specimen/Adamina"
 
   font "Adamina-Regular.ttf"
+
+  # No zap stanza required
 end

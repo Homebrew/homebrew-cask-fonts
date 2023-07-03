@@ -12,4 +12,6 @@ cask "font-amiko" do
   font "Amiko-Bold.ttf"
   font "Amiko-Regular.ttf"
   font "Amiko-SemiBold.ttf"
+
+  # No zap stanza required
 end

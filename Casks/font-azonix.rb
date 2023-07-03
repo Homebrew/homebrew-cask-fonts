@@ -8,4 +8,6 @@ cask "font-azonix" do
   homepage "https://www.dafont.com/azonix.font"
 
   font "Azonix.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-abel" do
   homepage "https://fonts.google.com/specimen/Abel"
 
   font "Abel-Regular.ttf"
+
+  # No zap stanza required
 end

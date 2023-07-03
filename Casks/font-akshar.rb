@@ -9,4 +9,6 @@ cask "font-akshar" do
   homepage "https://fonts.google.com/specimen/Akshar"
 
   font "Akshar[wght].ttf"
+
+  # No zap stanza required
 end

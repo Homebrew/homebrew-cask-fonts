@@ -12,4 +12,6 @@ cask "font-andada-pro" do
 
   font "AndadaPro-Italic[wght].ttf"
   font "AndadaPro[wght].ttf"
+
+  # No zap stanza required
 end

@@ -7,4 +7,6 @@ cask "font-andale-mono" do
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
 
   font "AndaleMo.TTF"
+
+  # No zap stanza required
 end

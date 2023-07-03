@@ -19,4 +19,6 @@ cask "font-anonymous-pro" do
   font "AnonymousPro-#{version}.001/Anonymous Pro BI.ttf"
   font "AnonymousPro-#{version}.001/Anonymous Pro I.ttf"
   font "AnonymousPro-#{version}.001/Anonymous Pro.ttf"
+
+  # No zap stanza required
 end

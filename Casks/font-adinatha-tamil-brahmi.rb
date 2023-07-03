@@ -7,4 +7,6 @@ cask "font-adinatha-tamil-brahmi" do
   homepage "http://www.virtualvinodh.com/wp/tamil-brahmi-font/"
 
   font "Adinatha-Tamil-Brahmi/Adinatha-Tamil-Brahmi.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-andagii" do
   homepage "http://www.i18nguy.com/unicode/unicode-font.html"
 
   font "ANDAGII_.TTF"
+
+  # No zap stanza required
 end

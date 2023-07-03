@@ -8,4 +8,6 @@ cask "font-anek-odia" do
   homepage "https://fonts.google.com/specimen/Anek+Odia"
 
   font "AnekOdia[wdth,wght].ttf"
+
+  # No zap stanza required
 end

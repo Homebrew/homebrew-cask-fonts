@@ -8,4 +8,6 @@ cask "font-aguafina-script" do
   homepage "https://fonts.google.com/specimen/Aguafina+Script"
 
   font "AguafinaScript-Regular.ttf"
+
+  # No zap stanza required
 end

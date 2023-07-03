@@ -8,4 +8,6 @@ cask "font-acme" do
   homepage "https://fonts.google.com/specimen/Acme"
 
   font "Acme-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -13,4 +13,6 @@ cask "font-amaranth" do
   font "Amaranth-BoldItalic.ttf"
   font "Amaranth-Italic.ttf"
   font "Amaranth-Regular.ttf"
+
+  # No zap stanza required
 end

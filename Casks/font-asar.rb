@@ -8,4 +8,6 @@ cask "font-asar" do
   homepage "https://fonts.google.com/specimen/Asar"
 
   font "Asar-Regular.ttf"
+
+  # No zap stanza required
 end

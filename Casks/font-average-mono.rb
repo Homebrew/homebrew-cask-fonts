@@ -10,4 +10,6 @@ cask "font-average-mono" do
   font "AverageMono/AverageMonoBold.otf"
   font "AverageMono/AverageMonoItalic.otf"
   font "AverageMono/AverageMonoBoldItalic.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-anaheim" do
   homepage "https://fonts.google.com/specimen/Anaheim"
 
   font "Anaheim-Regular.ttf"
+
+  # No zap stanza required
 end

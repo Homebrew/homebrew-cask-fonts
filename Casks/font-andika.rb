@@ -16,4 +16,6 @@ cask "font-andika" do
   font "Andika-#{version}/Andika-BoldItalic.ttf"
   font "Andika-#{version}/Andika-Italic.ttf"
   font "Andika-#{version}/Andika-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-anek-gujarati" do
   homepage "https://fonts.google.com/specimen/Anek+Gujarati"
 
   font "AnekGujarati[wdth,wght].ttf"
+
+  # No zap stanza required
 end

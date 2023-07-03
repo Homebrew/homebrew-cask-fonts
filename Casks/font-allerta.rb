@@ -8,4 +8,6 @@ cask "font-allerta" do
   homepage "https://fonts.google.com/specimen/Allerta"
 
   font "Allerta-Regular.ttf"
+
+  # No zap stanza required
 end

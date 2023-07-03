@@ -8,4 +8,6 @@ cask "font-akaya-kanadaka" do
   homepage "https://fonts.google.com/specimen/Akaya+Kanadaka"
 
   font "AkayaKanadaka-Regular.ttf"
+
+  # No zap stanza required
 end

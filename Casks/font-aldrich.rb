@@ -8,4 +8,6 @@ cask "font-aldrich" do
   homepage "https://fonts.google.com/specimen/Aldrich"
 
   font "Aldrich-Regular.ttf"
+
+  # No zap stanza required
 end

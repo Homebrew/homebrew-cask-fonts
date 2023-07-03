@@ -8,4 +8,6 @@ cask "font-alfa-slab-one" do
   homepage "https://fonts.google.com/specimen/Alfa+Slab+One"
 
   font "AlfaSlabOne-Regular.ttf"
+
+  # No zap stanza required
 end

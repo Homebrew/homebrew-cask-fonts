@@ -9,4 +9,6 @@ cask "font-aboreto" do
   homepage "https://fonts.google.com/specimen/Aboreto"
 
   font "Aboreto-Regular.ttf"
+
+  # No zap stanza required
 end

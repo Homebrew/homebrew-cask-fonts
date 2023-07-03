@@ -8,4 +8,6 @@ cask "font-aubrey" do
   homepage "https://fonts.google.com/specimen/Aubrey"
 
   font "Aubrey-Regular.ttf"
+
+  # No zap stanza required
 end

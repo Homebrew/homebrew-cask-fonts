@@ -15,4 +15,6 @@ cask "font-athiti" do
   font "Athiti-Medium.ttf"
   font "Athiti-Regular.ttf"
   font "Athiti-SemiBold.ttf"
+
+  # No zap stanza required
 end

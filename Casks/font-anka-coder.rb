@@ -11,4 +11,6 @@ cask "font-anka-coder" do
   font "AnkaCoder-bi.ttf"
   font "AnkaCoder-i.ttf"
   font "AnkaCoder-r.ttf"
+
+  # No zap stanza required
 end

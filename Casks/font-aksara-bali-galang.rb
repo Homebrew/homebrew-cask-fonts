@@ -8,4 +8,6 @@ cask "font-aksara-bali-galang" do
   homepage "https://fonts.google.com/specimen/Aksara+Bali+Galang"
 
   font "AksaraBaliGalang-Regular.ttf"
+
+  # No zap stanza required
 end

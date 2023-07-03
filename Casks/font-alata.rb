@@ -8,4 +8,6 @@ cask "font-alata" do
   homepage "https://fonts.google.com/specimen/Alata"
 
   font "Alata-Regular.ttf"
+
+  # No zap stanza required
 end

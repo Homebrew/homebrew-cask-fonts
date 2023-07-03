@@ -8,4 +8,6 @@ cask "font-amstelvar-alpha" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "AmstelvarAlpha-VF.ttf"
+
+  # No zap stanza required
 end

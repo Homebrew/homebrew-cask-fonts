@@ -8,4 +8,6 @@ cask "font-alice" do
   homepage "https://fonts.google.com/specimen/Alice"
 
   font "Alice-Regular.ttf"
+
+  # No zap stanza required
 end

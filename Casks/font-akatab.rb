@@ -15,4 +15,6 @@ cask "font-akatab" do
   font "Akatab-Medium.ttf"
   font "Akatab-Regular.ttf"
   font "Akatab-SemiBold.ttf"
+
+  # No zap stanza required
 end

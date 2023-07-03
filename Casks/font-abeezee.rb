@@ -11,4 +11,6 @@ cask "font-abeezee" do
 
   font "ABeeZee-Italic.ttf"
   font "ABeeZee-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-anek-tamil" do
   homepage "https://fonts.google.com/specimen/Anek+Tamil"
 
   font "AnekTamil[wdth,wght].ttf"
+
+  # No zap stanza required
 end

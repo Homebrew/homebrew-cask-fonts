@@ -8,4 +8,6 @@ cask "font-anek-devanagari" do
   homepage "https://fonts.google.com/specimen/Anek+Devanagari"
 
   font "AnekDevanagari[wdth,wght].ttf"
+
+  # No zap stanza required
 end

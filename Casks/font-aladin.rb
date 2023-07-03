@@ -8,4 +8,6 @@ cask "font-aladin" do
   homepage "https://fonts.google.com/specimen/Aladin"
 
   font "Aladin-Regular.ttf"
+
+  # No zap stanza required
 end

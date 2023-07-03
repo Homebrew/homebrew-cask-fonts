@@ -18,4 +18,6 @@ cask "font-amiri" do
   caveats do
     discontinued
   end
+
+  # No zap stanza required
 end

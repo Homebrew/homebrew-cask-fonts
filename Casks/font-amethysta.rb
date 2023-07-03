@@ -8,4 +8,6 @@ cask "font-amethysta" do
   homepage "https://fonts.google.com/specimen/Amethysta"
 
   font "Amethysta-Regular.ttf"
+
+  # No zap stanza required
 end

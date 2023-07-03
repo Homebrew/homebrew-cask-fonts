@@ -9,4 +9,6 @@ cask "font-are-you-serious" do
   homepage "https://fonts.google.com/specimen/Are+You+Serious"
 
   font "AreYouSerious-Regular.ttf"
+
+  # No zap stanza required
 end

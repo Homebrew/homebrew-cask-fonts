@@ -8,4 +8,6 @@ cask "font-antic-didone" do
   homepage "https://fonts.google.com/specimen/Antic+Didone"
 
   font "AnticDidone-Regular.ttf"
+
+  # No zap stanza required
 end

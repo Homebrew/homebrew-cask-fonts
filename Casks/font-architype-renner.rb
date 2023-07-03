@@ -10,4 +10,6 @@ cask "font-architype-renner" do
   font "ArchitypeRenner-Demi.otf"
   font "ArchitypeRenner-Medium.otf"
   font "ArchitypeRenner-Regular.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-alike-angular" do
   homepage "https://fonts.google.com/specimen/Alike+Angular"
 
   font "AlikeAngular-Regular.ttf"
+
+  # No zap stanza required
 end

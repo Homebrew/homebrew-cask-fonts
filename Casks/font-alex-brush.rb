@@ -8,4 +8,6 @@ cask "font-alex-brush" do
   homepage "https://fonts.google.com/specimen/Alex+Brush"
 
   font "AlexBrush-Regular.ttf"
+
+  # No zap stanza required
 end

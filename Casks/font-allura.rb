@@ -8,4 +8,6 @@ cask "font-allura" do
   homepage "https://fonts.google.com/specimen/Allura"
 
   font "Allura-Regular.ttf"
+
+  # No zap stanza required
 end

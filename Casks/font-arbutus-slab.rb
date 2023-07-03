@@ -8,4 +8,6 @@ cask "font-arbutus-slab" do
   homepage "https://fonts.google.com/specimen/Arbutus+Slab"
 
   font "ArbutusSlab-Regular.ttf"
+
+  # No zap stanza required
 end
