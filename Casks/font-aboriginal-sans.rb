@@ -10,4 +10,6 @@ cask "font-aboriginal-sans" do
   font "AboriginalSansBOLD.ttf"
   font "AboriginalSansBOLDITALIC.ttf"
   font "AboriginalSansITALIC.ttf"
+
+  # No zap stanza required
 end

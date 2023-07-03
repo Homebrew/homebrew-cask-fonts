@@ -8,4 +8,6 @@ cask "font-amarante" do
   homepage "https://fonts.google.com/specimen/Amarante"
 
   font "Amarante-Regular.ttf"
+
+  # No zap stanza required
 end

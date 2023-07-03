@@ -12,4 +12,6 @@ cask "font-advent-pro" do
 
   font "AdventPro-Italic[wdth,wght].ttf"
   font "AdventPro[wdth,wght].ttf"
+
+  # No zap stanza required
 end

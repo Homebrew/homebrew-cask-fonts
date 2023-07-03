@@ -13,4 +13,6 @@ cask "font-arvo" do
   font "Arvo-BoldItalic.ttf"
   font "Arvo-Italic.ttf"
   font "Arvo-Regular.ttf"
+
+  # No zap stanza required
 end

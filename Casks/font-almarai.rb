@@ -13,4 +13,6 @@ cask "font-almarai" do
   font "Almarai-ExtraBold.ttf"
   font "Almarai-Light.ttf"
   font "Almarai-Regular.ttf"
+
+  # No zap stanza required
 end

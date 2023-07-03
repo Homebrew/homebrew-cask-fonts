@@ -8,4 +8,6 @@ cask "font-armata" do
   homepage "https://fonts.google.com/specimen/Armata"
 
   font "Armata-Regular.ttf"
+
+  # No zap stanza required
 end

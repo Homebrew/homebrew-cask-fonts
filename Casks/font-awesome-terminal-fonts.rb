@@ -9,4 +9,6 @@ cask "font-awesome-terminal-fonts" do
   font "awesome-terminal-fonts-patching-strategy/patched/Droid+Sans+Mono+Awesome.ttf"
   font "awesome-terminal-fonts-patching-strategy/patched/Inconsolata+Awesome.ttf"
   font "awesome-terminal-fonts-patching-strategy/patched/SourceCodePro+Powerline+Awesome+Regular.ttf"
+
+  # No zap stanza required
 end

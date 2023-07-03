@@ -12,4 +12,6 @@ cask "font-albert-sans" do
 
   font "AlbertSans-Italic[wght].ttf"
   font "AlbertSans[wght].ttf"
+
+  # No zap stanza required
 end

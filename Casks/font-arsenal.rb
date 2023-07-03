@@ -13,4 +13,6 @@ cask "font-arsenal" do
   font "Arsenal-BoldItalic.ttf"
   font "Arsenal-Italic.ttf"
   font "Arsenal-Regular.ttf"
+
+  # No zap stanza required
 end

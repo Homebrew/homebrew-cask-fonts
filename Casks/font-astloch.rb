@@ -11,4 +11,6 @@ cask "font-astloch" do
 
   font "Astloch-Bold.ttf"
   font "Astloch-Regular.ttf"
+
+  # No zap stanza required
 end

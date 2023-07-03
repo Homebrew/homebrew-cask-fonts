@@ -11,4 +11,6 @@ cask "font-arya" do
 
   font "Arya-Bold.ttf"
   font "Arya-Regular.ttf"
+
+  # No zap stanza required
 end

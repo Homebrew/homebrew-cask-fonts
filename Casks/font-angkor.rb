@@ -8,4 +8,6 @@ cask "font-angkor" do
   homepage "https://fonts.google.com/specimen/Angkor"
 
   font "Angkor-Regular.ttf"
+
+  # No zap stanza required
 end

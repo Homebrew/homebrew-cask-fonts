@@ -9,4 +9,6 @@ cask "font-alexandria" do
   homepage "https://fonts.google.com/specimen/Alexandria"
 
   font "Alexandria[wght].ttf"
+
+  # No zap stanza required
 end

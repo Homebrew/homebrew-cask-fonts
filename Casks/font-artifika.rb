@@ -8,4 +8,6 @@ cask "font-artifika" do
   homepage "https://fonts.google.com/specimen/Artifika"
 
   font "Artifika-Regular.ttf"
+
+  # No zap stanza required
 end

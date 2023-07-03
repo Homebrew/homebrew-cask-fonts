@@ -8,4 +8,6 @@ cask "font-almendra-sc" do
   homepage "https://fonts.google.com/specimen/Almendra+SC"
 
   font "AlmendraSC-Regular.ttf"
+
+  # No zap stanza required
 end

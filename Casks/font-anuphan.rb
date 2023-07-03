@@ -9,4 +9,6 @@ cask "font-anuphan" do
   homepage "https://fonts.google.com/specimen/Anuphan"
 
   font "Anuphan[wght].ttf"
+
+  # No zap stanza required
 end

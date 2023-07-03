@@ -8,4 +8,6 @@ cask "font-average" do
   homepage "https://fonts.google.com/specimen/Average"
 
   font "Average-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-amiri-quran-colored" do
   homepage "https://fonts.google.com/specimen/Amiri+Quran+Colored"
 
   font "AmiriQuranColored-Regular.ttf"
+
+  # No zap stanza required
 end

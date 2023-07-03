@@ -11,4 +11,6 @@ cask "font-alumni-sans-inline-one" do
 
   font "AlumniSansInlineOne-Italic.ttf"
   font "AlumniSansInlineOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-alike" do
   homepage "https://fonts.google.com/specimen/Alike"
 
   font "Alike-Regular.ttf"
+
+  # No zap stanza required
 end

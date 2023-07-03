@@ -11,4 +11,6 @@ cask "font-asul" do
 
   font "Asul-Bold.ttf"
   font "Asul-Regular.ttf"
+
+  # No zap stanza required
 end

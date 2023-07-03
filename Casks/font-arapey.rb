@@ -11,4 +11,6 @@ cask "font-arapey" do
 
   font "Arapey-Italic.ttf"
   font "Arapey-Regular.ttf"
+
+  # No zap stanza required
 end

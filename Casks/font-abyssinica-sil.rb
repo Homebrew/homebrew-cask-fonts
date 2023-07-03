@@ -8,4 +8,6 @@ cask "font-abyssinica-sil" do
   homepage "https://fonts.google.com/specimen/Abyssinica+SIL"
 
   font "AbyssinicaSIL-Regular.ttf"
+
+  # No zap stanza required
 end

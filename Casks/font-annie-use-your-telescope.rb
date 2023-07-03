@@ -8,4 +8,6 @@ cask "font-annie-use-your-telescope" do
   homepage "https://fonts.google.com/specimen/Annie+Use+Your+Telescope"
 
   font "AnnieUseYourTelescope-Regular.ttf"
+
+  # No zap stanza required
 end

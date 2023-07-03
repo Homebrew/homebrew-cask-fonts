@@ -7,4 +7,6 @@ cask "font-ahuramzda" do
   homepage "https://fontlibrary.org/font/ahuramazda/"
 
   font "Ahuramazda-Avestan-Font-1.0/ahuramazda.ttf"
+
+  # No zap stanza required
 end

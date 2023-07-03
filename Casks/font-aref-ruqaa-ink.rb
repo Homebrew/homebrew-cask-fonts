@@ -12,4 +12,6 @@ cask "font-aref-ruqaa-ink" do
 
   font "ArefRuqaaInk-Bold.ttf"
   font "ArefRuqaaInk-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -27,4 +27,6 @@ cask "font-aileron" do
   font "Aileron-ThinItalic.otf"
   font "Aileron-UltraLight.otf"
   font "Aileron-UltraLightItalic.otf"
+
+  # No zap stanza required
 end

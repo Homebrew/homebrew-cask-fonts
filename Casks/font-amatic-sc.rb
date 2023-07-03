@@ -11,4 +11,6 @@ cask "font-amatic-sc" do
 
   font "AmaticSC-Bold.ttf"
   font "AmaticSC-Regular.ttf"
+
+  # No zap stanza required
 end

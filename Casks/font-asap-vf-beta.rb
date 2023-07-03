@@ -12,4 +12,6 @@ cask "font-asap-vf-beta" do
   font "AsapVFBeta-Condensed.ttf"
   font "AsapVFBeta-Italic.ttf"
   font "AsapVFBeta.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-akaya-telivigala" do
   homepage "https://fonts.google.com/specimen/Akaya+Telivigala"
 
   font "AkayaTelivigala-Regular.ttf"
+
+  # No zap stanza required
 end

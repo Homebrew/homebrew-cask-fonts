@@ -8,4 +8,6 @@ cask "font-antonio" do
   homepage "https://fonts.google.com/specimen/Antonio"
 
   font "Antonio[wght].ttf"
+
+  # No zap stanza required
 end

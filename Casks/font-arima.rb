@@ -9,4 +9,6 @@ cask "font-arima" do
   homepage "https://fonts.google.com/specimen/Arima"
 
   font "Arima[wght].ttf"
+
+  # No zap stanza required
 end

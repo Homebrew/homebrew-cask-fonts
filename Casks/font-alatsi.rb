@@ -8,4 +8,6 @@ cask "font-alatsi" do
   homepage "https://fonts.google.com/specimen/Alatsi"
 
   font "Alatsi-Regular.ttf"
+
+  # No zap stanza required
 end

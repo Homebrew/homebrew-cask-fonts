@@ -11,4 +11,6 @@ cask "font-amita" do
 
   font "Amita-Bold.ttf"
   font "Amita-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-academicons" do
   homepage "https://github.com/jpswalsh/academicons"
 
   font "academicons-#{version}/fonts/academicons.ttf"
+
+  # No zap stanza required
 end

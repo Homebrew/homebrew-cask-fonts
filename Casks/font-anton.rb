@@ -8,4 +8,6 @@ cask "font-anton" do
   homepage "https://fonts.google.com/specimen/Anton"
 
   font "Anton-Regular.ttf"
+
+  # No zap stanza required
 end

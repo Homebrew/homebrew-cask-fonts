@@ -8,4 +8,6 @@ cask "font-audiowide" do
   homepage "https://fonts.google.com/specimen/Audiowide"
 
   font "Audiowide-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-adobe-blank" do
   homepage "https://fonts.google.com/specimen/Adobe+Blank"
 
   font "AdobeBlank-Regular.ttf"
+
+  # No zap stanza required
 end

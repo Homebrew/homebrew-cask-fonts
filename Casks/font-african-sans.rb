@@ -10,4 +10,6 @@ cask "font-african-sans" do
   font "African Sans BOLD 938.ttf"
   font "African Sans BOLD ITALIC 938.ttf"
   font "African Sans ITALIC 938.ttf"
+
+  # No zap stanza required
 end

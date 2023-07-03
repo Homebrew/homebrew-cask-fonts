@@ -26,4 +26,6 @@ cask "font-alegreya" do
   font "Alegreya-#{version}/fonts/otf/AlegreyaSC-Medium.otf"
   font "Alegreya-#{version}/fonts/otf/AlegreyaSC-MediumItalic.otf"
   font "Alegreya-#{version}/fonts/otf/AlegreyaSC-Regular.otf"
+
+  # No zap stanza required
 end

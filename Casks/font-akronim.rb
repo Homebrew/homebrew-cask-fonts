@@ -8,4 +8,6 @@ cask "font-akronim" do
   homepage "https://fonts.google.com/specimen/Akronim"
 
   font "Akronim-Regular.ttf"
+
+  # No zap stanza required
 end

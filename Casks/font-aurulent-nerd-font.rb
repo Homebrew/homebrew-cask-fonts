@@ -17,4 +17,6 @@ cask "font-aurulent-nerd-font" do
   font "AurulentSansMNerdFontPropo-Regular.otf"
 
   # No zap stanza required
+
+  # No zap stanza required
 end

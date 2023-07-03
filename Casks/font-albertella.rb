@@ -8,4 +8,6 @@ cask "font-albertella" do
   homepage "https://moji-waku.com/albertella/index.html"
 
   font "albertella/Albertella-Light.otf"
+
+  # No zap stanza required
 end

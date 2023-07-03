@@ -8,4 +8,6 @@ cask "font-autour-one" do
   homepage "https://fonts.google.com/specimen/Autour+One"
 
   font "AutourOne-Regular.ttf"
+
+  # No zap stanza required
 end

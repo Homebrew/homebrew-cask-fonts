@@ -8,4 +8,6 @@ cask "font-actor" do
   homepage "https://fonts.google.com/specimen/Actor"
 
   font "Actor-Regular.ttf"
+
+  # No zap stanza required
 end

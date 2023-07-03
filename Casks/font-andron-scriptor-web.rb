@@ -7,4 +7,6 @@ cask "font-andron-scriptor-web" do
   homepage "https://folk.uib.no/hnooh/mufi/fonts/"
 
   font "AND_SCR_WEB_#{version}/Andron Scriptor Web.ttf"
+
+  # No zap stanza required
 end

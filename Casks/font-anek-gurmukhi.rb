@@ -8,4 +8,6 @@ cask "font-anek-gurmukhi" do
   homepage "https://fonts.google.com/specimen/Anek+Gurmukhi"
 
   font "AnekGurmukhi[wdth,wght].ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-azeret-mono" do
 
   font "AzeretMono-Italic[wght].ttf"
   font "AzeretMono[wght].ttf"
+
+  # No zap stanza required
 end

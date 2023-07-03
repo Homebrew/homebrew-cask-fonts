@@ -8,4 +8,6 @@ cask "font-assistant" do
   homepage "https://fonts.google.com/specimen/Assistant"
 
   font "Assistant[wght].ttf"
+
+  # No zap stanza required
 end

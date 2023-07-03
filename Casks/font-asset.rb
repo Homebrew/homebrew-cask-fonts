@@ -8,4 +8,6 @@ cask "font-asset" do
   homepage "https://fonts.google.com/specimen/Asset"
 
   font "Asset-Regular.ttf"
+
+  # No zap stanza required
 end

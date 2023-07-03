@@ -9,4 +9,6 @@ cask "font-allison" do
   homepage "https://fonts.google.com/specimen/Allison"
 
   font "Allison-Regular.ttf"
+
+  # No zap stanza required
 end

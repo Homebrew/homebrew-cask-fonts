@@ -9,4 +9,6 @@ cask "font-alkatra" do
   homepage "https://fonts.google.com/specimen/Alkatra"
 
   font "Alkatra[wght].ttf"
+
+  # No zap stanza required
 end

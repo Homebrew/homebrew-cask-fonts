@@ -10,4 +10,6 @@ cask "font-arial" do
   font "Arialbd.TTF"
   font "Arialbi.TTF"
   font "Arial.TTF"
+
+  # No zap stanza required
 end

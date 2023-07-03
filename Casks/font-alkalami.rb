@@ -9,4 +9,6 @@ cask "font-alkalami" do
   homepage "https://fonts.google.com/specimen/Alkalami"
 
   font "Alkalami-Regular.ttf"
+
+  # No zap stanza required
 end

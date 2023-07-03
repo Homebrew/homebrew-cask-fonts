@@ -8,4 +8,6 @@ cask "font-averia-gruesa-libre" do
   homepage "https://fonts.google.com/specimen/Averia+Gruesa+Libre"
 
   font "AveriaGruesaLibre-Regular.ttf"
+
+  # No zap stanza required
 end
