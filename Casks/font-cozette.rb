@@ -8,4 +8,6 @@ cask "font-cozette" do
   homepage "https://github.com/slavfox/Cozette"
 
   font "CozetteVector.dfont"
+
+  # No zap stanza required
 end
