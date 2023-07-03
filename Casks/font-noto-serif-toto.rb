@@ -8,4 +8,6 @@ cask "font-noto-serif-toto" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Toto"
 
   font "NotoSerifToto[wght].ttf"
+
+  # No zap stanza required
 end

@@ -16,4 +16,6 @@ cask "font-tajawal" do
   font "Tajawal-Light.ttf"
   font "Tajawal-Medium.ttf"
   font "Tajawal-Regular.ttf"
+
+  # No zap stanza required
 end

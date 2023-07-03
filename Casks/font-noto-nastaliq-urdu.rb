@@ -8,4 +8,6 @@ cask "font-noto-nastaliq-urdu" do
   homepage "https://www.google.com/get/noto/#nastaliq-aran"
 
   font "NotoNastaliqUrdu-Regular.ttf"
+
+  # No zap stanza required
 end

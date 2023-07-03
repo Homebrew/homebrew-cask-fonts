@@ -8,4 +8,6 @@ cask "font-bree-serif" do
   homepage "https://fonts.google.com/specimen/Bree+Serif"
 
   font "BreeSerif-Regular.ttf"
+
+  # No zap stanza required
 end

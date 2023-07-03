@@ -8,4 +8,6 @@ cask "font-stint-ultra-expanded" do
   homepage "https://fonts.google.com/specimen/Stint+Ultra+Expanded"
 
   font "StintUltraExpanded-Regular.ttf"
+
+  # No zap stanza required
 end

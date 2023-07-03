@@ -8,4 +8,6 @@ cask "font-mrs-sheppards" do
   homepage "https://fonts.google.com/specimen/Mrs+Sheppards"
 
   font "MrsSheppards-Regular.ttf"
+
+  # No zap stanza required
 end

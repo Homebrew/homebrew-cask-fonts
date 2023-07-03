@@ -10,4 +10,6 @@ cask "font-ia-writer-duo" do
   font "iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-BoldItalic.ttf"
   font "iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Italic.ttf"
   font "iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Regular.ttf"
+
+  # No zap stanza required
 end

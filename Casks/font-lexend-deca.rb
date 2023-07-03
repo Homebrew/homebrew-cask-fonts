@@ -7,4 +7,6 @@ cask "font-lexend-deca" do
   homepage "https://github.com/ThomasJockin/lexend"
 
   font "LexendDeca-Regular.ttf"
+
+  # No zap stanza required
 end

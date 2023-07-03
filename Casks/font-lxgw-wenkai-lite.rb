@@ -14,4 +14,6 @@ cask "font-lxgw-wenkai-lite" do
   font "lxgw-wenkai-lite-v#{version}/LXGWWenKaiMonoLite-Bold.ttf"
   font "lxgw-wenkai-lite-v#{version}/LXGWWenKaiMonoLite-Light.ttf"
   font "lxgw-wenkai-lite-v#{version}/LXGWWenKaiMonoLite-Regular.ttf"
+
+  # No zap stanza required
 end

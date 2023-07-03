@@ -8,4 +8,6 @@ cask "font-galada" do
   homepage "https://fonts.google.com/specimen/Galada"
 
   font "Galada-Regular.ttf"
+
+  # No zap stanza required
 end

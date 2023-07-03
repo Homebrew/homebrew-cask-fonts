@@ -8,4 +8,6 @@ cask "font-sofadi-one" do
   homepage "https://fonts.google.com/specimen/Sofadi+One"
 
   font "SofadiOne-Regular.ttf"
+
+  # No zap stanza required
 end

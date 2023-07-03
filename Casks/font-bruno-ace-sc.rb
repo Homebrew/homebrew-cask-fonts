@@ -8,4 +8,6 @@ cask "font-bruno-ace-sc" do
   homepage "https://fonts.google.com/specimen/Bruno+Ace+SC"
 
   font "BrunoAceSC-Regular.ttf"
+
+  # No zap stanza required
 end

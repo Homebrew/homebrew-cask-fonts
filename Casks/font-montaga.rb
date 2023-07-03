@@ -8,4 +8,6 @@ cask "font-montaga" do
   homepage "https://fonts.google.com/specimen/Montaga"
 
   font "Montaga-Regular.ttf"
+
+  # No zap stanza required
 end

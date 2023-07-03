@@ -27,4 +27,6 @@ cask "font-public-sans" do
   font "fonts/otf/PublicSans-ThinItalic.otf"
   font "fonts/variable/PublicSans-Italic[wght].ttf"
   font "fonts/variable/PublicSans[wght].ttf"
+
+  # No zap stanza required
 end

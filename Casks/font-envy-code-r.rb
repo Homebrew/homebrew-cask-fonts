@@ -9,4 +9,6 @@ cask "font-envy-code-r" do
   font "Envy Code R PR7/Envy Code R Bold.ttf"
   font "Envy Code R PR7/Envy Code R Italic.ttf"
   font "Envy Code R PR7/Envy Code R.ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-spleen" do
   font "spleen-#{version}/spleen-12x24.otf"
   font "spleen-#{version}/spleen-16x32.otf"
   font "spleen-#{version}/spleen-32x64.otf"
+
+  # No zap stanza required
 end

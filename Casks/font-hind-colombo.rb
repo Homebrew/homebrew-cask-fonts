@@ -14,4 +14,6 @@ cask "font-hind-colombo" do
   font "HindColombo-Medium.ttf"
   font "HindColombo-Regular.ttf"
   font "HindColombo-SemiBold.ttf"
+
+  # No zap stanza required
 end

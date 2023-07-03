@@ -8,4 +8,6 @@ cask "font-rock-3d" do
   homepage "https://fonts.google.com/specimen/Rock+3D"
 
   font "Rock3D-Regular.ttf"
+
+  # No zap stanza required
 end

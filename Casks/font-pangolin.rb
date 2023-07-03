@@ -8,4 +8,6 @@ cask "font-pangolin" do
   homepage "https://fonts.google.com/specimen/Pangolin"
 
   font "Pangolin-Regular.ttf"
+
+  # No zap stanza required
 end

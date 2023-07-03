@@ -14,4 +14,6 @@ cask "font-post-no-bills-jaffna" do
   font "PostNoBillsJaffna-Medium.ttf"
   font "PostNoBillsJaffna-Regular.ttf"
   font "PostNoBillsJaffna-SemiBold.ttf"
+
+  # No zap stanza required
 end

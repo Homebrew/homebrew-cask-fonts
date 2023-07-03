@@ -15,4 +15,6 @@ cask "font-firge" do
   font "Firge_v#{version}/Firge35Console-Regular.ttf"
   font "Firge_v#{version}/FirgeConsole-Bold.ttf"
   font "Firge_v#{version}/FirgeConsole-Regular.ttf"
+
+  # No zap stanza required
 end

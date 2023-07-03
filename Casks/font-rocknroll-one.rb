@@ -8,4 +8,6 @@ cask "font-rocknroll-one" do
   homepage "https://fonts.google.com/specimen/RocknRoll+One"
 
   font "RocknRollOne-Regular.ttf"
+
+  # No zap stanza required
 end

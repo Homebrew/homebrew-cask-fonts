@@ -8,4 +8,6 @@ cask "font-oxanium" do
   homepage "https://fonts.google.com/specimen/Oxanium"
 
   font "Oxanium[wght].ttf"
+
+  # No zap stanza required
 end

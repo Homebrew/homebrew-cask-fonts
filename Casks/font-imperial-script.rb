@@ -9,4 +9,6 @@ cask "font-imperial-script" do
   homepage "https://fonts.google.com/specimen/Imperial+Script"
 
   font "ImperialScript-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -13,4 +13,6 @@ cask "font-cambay" do
   font "Cambay-BoldItalic.ttf"
   font "Cambay-Italic.ttf"
   font "Cambay-Regular.ttf"
+
+  # No zap stanza required
 end

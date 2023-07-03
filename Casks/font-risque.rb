@@ -8,4 +8,6 @@ cask "font-risque" do
   homepage "https://fonts.google.com/specimen/Risque"
 
   font "Risque-Regular.ttf"
+
+  # No zap stanza required
 end

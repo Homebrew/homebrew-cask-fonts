@@ -7,4 +7,6 @@ cask "font-langdon" do
   homepage "https://www.ffonts.net/Langdon.font"
 
   font "Langdon.otf"
+
+  # No zap stanza required
 end

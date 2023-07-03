@@ -11,4 +11,6 @@ cask "font-stardos-stencil" do
 
   font "StardosStencil-Bold.ttf"
   font "StardosStencil-Regular.ttf"
+
+  # No zap stanza required
 end

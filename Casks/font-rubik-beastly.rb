@@ -9,4 +9,6 @@ cask "font-rubik-beastly" do
   homepage "https://fonts.google.com/specimen/Rubik+Beastly"
 
   font "RubikBeastly-Regular.ttf"
+
+  # No zap stanza required
 end

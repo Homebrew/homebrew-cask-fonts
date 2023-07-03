@@ -27,4 +27,6 @@ cask "font-fira-sans-condensed" do
   font "FiraSansCondensed-SemiBoldItalic.ttf"
   font "FiraSansCondensed-Thin.ttf"
   font "FiraSansCondensed-ThinItalic.ttf"
+
+  # No zap stanza required
 end

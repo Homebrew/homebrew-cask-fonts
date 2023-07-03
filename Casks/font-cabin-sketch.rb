@@ -11,4 +11,6 @@ cask "font-cabin-sketch" do
 
   font "CabinSketch-Bold.ttf"
   font "CabinSketch-Regular.ttf"
+
+  # No zap stanza required
 end

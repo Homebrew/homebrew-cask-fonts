@@ -8,4 +8,6 @@ cask "font-julius-sans-one" do
   homepage "https://fonts.google.com/specimen/Julius+Sans+One"
 
   font "JuliusSansOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-quicksand" do
   homepage "https://fonts.google.com/specimen/Quicksand"
 
   font "Quicksand[wght].ttf"
+
+  # No zap stanza required
 end

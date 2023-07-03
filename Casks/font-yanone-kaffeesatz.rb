@@ -8,4 +8,6 @@ cask "font-yanone-kaffeesatz" do
   homepage "https://fonts.google.com/specimen/Yanone+Kaffeesatz"
 
   font "YanoneKaffeesatz[wght].ttf"
+
+  # No zap stanza required
 end

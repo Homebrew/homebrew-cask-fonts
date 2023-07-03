@@ -8,4 +8,6 @@ cask "font-warnes" do
   homepage "https://fonts.google.com/specimen/Warnes"
 
   font "Warnes-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-noto-sans-sinhala-ui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Sinhala+UI"
 
   font "NotoSansSinhalaUI[wdth,wght].ttf"
+
+  # No zap stanza required
 end

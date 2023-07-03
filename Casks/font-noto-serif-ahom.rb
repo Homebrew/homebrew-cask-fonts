@@ -8,4 +8,6 @@ cask "font-noto-serif-ahom" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Ahom"
 
   font "NotoSerifAhom-Regular.ttf"
+
+  # No zap stanza required
 end

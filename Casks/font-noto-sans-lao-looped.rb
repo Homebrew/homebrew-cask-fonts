@@ -9,4 +9,6 @@ cask "font-noto-sans-lao-looped" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Lao+Looped"
 
   font "NotoSansLaoLooped[wdth,wght].ttf"
+
+  # No zap stanza required
 end

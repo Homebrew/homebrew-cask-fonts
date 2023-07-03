@@ -9,4 +9,6 @@ cask "font-bhutuka-expanded-one" do
   homepage "https://fonts.google.com/specimen/BhuTuka+Expanded+One"
 
   font "BhuTukaExpandedOne-Regular.ttf"
+
+  # No zap stanza required
 end

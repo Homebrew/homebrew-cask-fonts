@@ -8,4 +8,6 @@ cask "font-ribeye-marrow" do
   homepage "https://fonts.google.com/specimen/Ribeye+Marrow"
 
   font "RibeyeMarrow-Regular.ttf"
+
+  # No zap stanza required
 end

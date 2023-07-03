@@ -9,4 +9,6 @@ cask "font-readex-pro" do
   homepage "https://fonts.google.com/specimen/Readex+Pro"
 
   font "ReadexPro[HEXP,wght].ttf"
+
+  # No zap stanza required
 end

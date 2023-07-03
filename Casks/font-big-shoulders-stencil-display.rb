@@ -9,4 +9,6 @@ cask "font-big-shoulders-stencil-display" do
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display"
 
   font "BigShouldersStencilDisplay[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-give-you-glory" do
   homepage "https://fonts.google.com/specimen/Give+You+Glory"
 
   font "GiveYouGlory.ttf"
+
+  # No zap stanza required
 end

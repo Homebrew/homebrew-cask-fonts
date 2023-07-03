@@ -7,4 +7,6 @@ cask "font-xkcd-script" do
   homepage "https://github.com/ipython/xkcd-font"
 
   font "xkcd-script.ttf"
+
+  # No zap stanza required
 end

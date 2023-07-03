@@ -8,4 +8,6 @@ cask "font-fredericka-the-great" do
   homepage "https://fonts.google.com/specimen/Fredericka+the+Great"
 
   font "FrederickatheGreat-Regular.ttf"
+
+  # No zap stanza required
 end

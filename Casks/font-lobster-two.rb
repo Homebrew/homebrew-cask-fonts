@@ -13,4 +13,6 @@ cask "font-lobster-two" do
   font "LobsterTwo-BoldItalic.ttf"
   font "LobsterTwo-Italic.ttf"
   font "LobsterTwo-Regular.ttf"
+
+  # No zap stanza required
 end

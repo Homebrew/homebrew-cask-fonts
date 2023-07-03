@@ -14,4 +14,6 @@ cask "font-clear-sans" do
   font "TTF/ClearSans-MediumItalic.ttf"
   font "TTF/ClearSans-Regular.ttf"
   font "TTF/ClearSans-Thin.ttf"
+
+  # No zap stanza required
 end

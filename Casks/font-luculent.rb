@@ -10,4 +10,6 @@ cask "font-luculent" do
   font "luculent/luculentb.ttf"
   font "luculent/luculentbi.ttf"
   font "luculent/luculenti.ttf"
+
+  # No zap stanza required
 end

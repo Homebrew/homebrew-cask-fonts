@@ -9,4 +9,6 @@ cask "font-noto-serif-kannada" do
 
   font "NotoSerifKannada-Bold.ttf"
   font "NotoSerifKannada-Regular.ttf"
+
+  # No zap stanza required
 end

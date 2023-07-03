@@ -8,4 +8,6 @@ cask "font-underdog" do
   homepage "https://fonts.google.com/specimen/Underdog"
 
   font "Underdog-Regular.ttf"
+
+  # No zap stanza required
 end

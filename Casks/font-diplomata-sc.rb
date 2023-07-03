@@ -8,4 +8,6 @@ cask "font-diplomata-sc" do
   homepage "https://fonts.google.com/specimen/Diplomata+SC"
 
   font "DiplomataSC-Regular.ttf"
+
+  # No zap stanza required
 end

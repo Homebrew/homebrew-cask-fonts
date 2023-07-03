@@ -8,4 +8,6 @@ cask "font-comic-sans-ms" do
 
   font "Comicbd.TTF"
   font "Comic.TTF"
+
+  # No zap stanza required
 end

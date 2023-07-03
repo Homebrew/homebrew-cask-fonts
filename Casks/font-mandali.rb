@@ -8,4 +8,6 @@ cask "font-mandali" do
   homepage "https://fonts.google.com/specimen/Mandali"
 
   font "Mandali-Regular.ttf"
+
+  # No zap stanza required
 end

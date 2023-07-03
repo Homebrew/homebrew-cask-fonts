@@ -31,4 +31,6 @@ cask "font-jetbrains-mono" do
   font "fonts/ttf/JetBrainsMonoNL-ThinItalic.ttf"
   font "fonts/variable/JetBrainsMono-Italic[wght].ttf"
   font "fonts/variable/JetBrainsMono[wght].ttf"
+
+  # No zap stanza required
 end

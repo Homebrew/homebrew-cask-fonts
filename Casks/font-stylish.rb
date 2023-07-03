@@ -8,4 +8,6 @@ cask "font-stylish" do
   homepage "https://fonts.google.com/specimen/Stylish"
 
   font "Stylish-Regular.ttf"
+
+  # No zap stanza required
 end

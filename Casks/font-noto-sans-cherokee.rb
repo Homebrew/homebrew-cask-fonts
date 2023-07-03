@@ -16,4 +16,6 @@ cask "font-noto-sans-cherokee" do
   font "NotoSansCherokee-Regular.ttf"
   font "NotoSansCherokee-SemiBold.ttf"
   font "NotoSansCherokee-Thin.ttf"
+
+  # No zap stanza required
 end

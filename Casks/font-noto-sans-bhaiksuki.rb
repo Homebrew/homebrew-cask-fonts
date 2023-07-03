@@ -8,4 +8,6 @@ cask "font-noto-sans-bhaiksuki" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Bhaiksuki"
 
   font "NotoSansBhaiksuki-Regular.ttf"
+
+  # No zap stanza required
 end

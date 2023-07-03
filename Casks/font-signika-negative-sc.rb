@@ -14,4 +14,6 @@ cask "font-signika-negative-sc" do
   font "SignikaNegativeSC-Light.ttf"
   font "SignikaNegativeSC-Regular.ttf"
   font "SignikaNegativeSC-SemiBold.ttf"
+
+  # No zap stanza required
 end

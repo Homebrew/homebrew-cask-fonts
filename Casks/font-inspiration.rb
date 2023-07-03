@@ -8,4 +8,6 @@ cask "font-inspiration" do
   homepage "https://fonts.google.com/specimen/Inspiration"
 
   font "Inspiration-Regular.ttf"
+
+  # No zap stanza required
 end

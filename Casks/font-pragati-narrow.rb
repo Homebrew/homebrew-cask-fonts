@@ -11,4 +11,6 @@ cask "font-pragati-narrow" do
 
   font "PragatiNarrow-Bold.ttf"
   font "PragatiNarrow-Regular.ttf"
+
+  # No zap stanza required
 end

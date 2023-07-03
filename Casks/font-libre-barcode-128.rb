@@ -8,4 +8,6 @@ cask "font-libre-barcode-128" do
   homepage "https://fonts.google.com/specimen/Libre+Barcode+128"
 
   font "LibreBarcode128-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-bubblegum-sans" do
   homepage "https://fonts.google.com/specimen/Bubblegum+Sans"
 
   font "BubblegumSans-Regular.ttf"
+
+  # No zap stanza required
 end

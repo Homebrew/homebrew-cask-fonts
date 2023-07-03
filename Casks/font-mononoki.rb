@@ -16,4 +16,6 @@ cask "font-mononoki" do
   font "mononoki-Italic.ttf"
   font "mononoki-Regular.otf"
   font "mononoki-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-balsamiq-sans" do
   font "balsamiqsans-master/fonts/ttf/BalsamiqSans-BoldItalic.ttf"
   font "balsamiqsans-master/fonts/ttf/BalsamiqSans-Italic.ttf"
   font "balsamiqsans-master/fonts/ttf/BalsamiqSans-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-metamorphous" do
   homepage "https://fonts.google.com/specimen/Metamorphous"
 
   font "Metamorphous-Regular.ttf"
+
+  # No zap stanza required
 end

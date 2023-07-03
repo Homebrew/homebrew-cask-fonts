@@ -8,4 +8,6 @@ cask "font-league-script" do
   homepage "https://fonts.google.com/specimen/League+Script"
 
   font "LeagueScript-Regular.ttf"
+
+  # No zap stanza required
 end

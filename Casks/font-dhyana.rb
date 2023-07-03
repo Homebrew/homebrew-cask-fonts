@@ -11,4 +11,6 @@ cask "font-dhyana" do
 
   font "Dhyana-Bold.ttf"
   font "Dhyana-Regular.ttf"
+
+  # No zap stanza required
 end

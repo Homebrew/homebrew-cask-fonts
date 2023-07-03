@@ -11,4 +11,6 @@ cask "font-monda" do
 
   font "Monda-Bold.ttf"
   font "Monda-Regular.ttf"
+
+  # No zap stanza required
 end

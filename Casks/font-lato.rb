@@ -24,4 +24,6 @@ cask "font-lato" do
   font "Lato2OFL/Lato-SemiboldItalic.ttf"
   font "Lato2OFL/Lato-Thin.ttf"
   font "Lato2OFL/Lato-ThinItalic.ttf"
+
+  # No zap stanza required
 end

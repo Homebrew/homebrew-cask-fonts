@@ -8,4 +8,6 @@ cask "font-tilt-neon" do
   homepage "https://fonts.google.com/specimen/Tilt+Neon"
 
   font "TiltNeon[XROT,YROT].ttf"
+
+  # No zap stanza required
 end

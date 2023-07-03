@@ -8,4 +8,6 @@ cask "font-miao-unicode" do
   homepage "https://phjamr.github.io/miao.html"
 
   font "MiaoUnicode-Regular.ttf"
+
+  # No zap stanza required
 end

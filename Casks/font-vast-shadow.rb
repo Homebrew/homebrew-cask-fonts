@@ -8,4 +8,6 @@ cask "font-vast-shadow" do
   homepage "https://fonts.google.com/specimen/Vast+Shadow"
 
   font "VastShadow-Regular.ttf"
+
+  # No zap stanza required
 end

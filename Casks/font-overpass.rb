@@ -27,4 +27,6 @@ cask "font-overpass" do
   font "Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-light.otf"
   font "Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-regular.otf"
   font "Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-semibold.otf"
+
+  # No zap stanza required
 end

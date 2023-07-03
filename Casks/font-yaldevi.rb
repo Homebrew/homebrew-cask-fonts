@@ -9,4 +9,6 @@ cask "font-yaldevi" do
   homepage "https://fonts.google.com/specimen/Yaldevi"
 
   font "Yaldevi[wght].ttf"
+
+  # No zap stanza required
 end

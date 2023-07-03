@@ -9,4 +9,6 @@ cask "font-big-shoulders-inline-display" do
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Inline+Display"
 
   font "BigShouldersInlineDisplay[wght].ttf"
+
+  # No zap stanza required
 end

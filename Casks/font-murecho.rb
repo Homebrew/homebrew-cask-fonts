@@ -9,4 +9,6 @@ cask "font-murecho" do
   homepage "https://fonts.google.com/specimen/Murecho"
 
   font "Murecho[wght].ttf"
+
+  # No zap stanza required
 end

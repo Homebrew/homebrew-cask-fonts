@@ -10,4 +10,6 @@ cask "font-tex-gyre-termes" do
   font "texgyretermes-bolditalic.otf"
   font "texgyretermes-italic.otf"
   font "texgyretermes-regular.otf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-truculenta" do
   homepage "https://fonts.google.com/specimen/Truculenta"
 
   font "Truculenta[opsz,wdth,wght].ttf"
+
+  # No zap stanza required
 end

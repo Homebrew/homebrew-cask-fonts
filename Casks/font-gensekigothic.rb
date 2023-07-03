@@ -11,4 +11,6 @@ cask "font-gensekigothic" do
   font "GenSekiGothic-L.ttc"
   font "GenSekiGothic-M.ttc"
   font "GenSekiGothic-R.ttc"
+
+  # No zap stanza required
 end

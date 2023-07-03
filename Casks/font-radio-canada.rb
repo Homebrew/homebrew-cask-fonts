@@ -11,4 +11,6 @@ cask "font-radio-canada" do
 
   font "RadioCanada-Italic[wdth,wght].ttf"
   font "RadioCanada[wdth,wght].ttf"
+
+  # No zap stanza required
 end

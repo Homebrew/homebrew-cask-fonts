@@ -9,4 +9,6 @@ cask "font-pontano-sans" do
   homepage "https://fonts.google.com/specimen/Pontano+Sans"
 
   font "PontanoSans[wght].ttf"
+
+  # No zap stanza required
 end

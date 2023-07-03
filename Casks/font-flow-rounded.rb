@@ -8,4 +8,6 @@ cask "font-flow-rounded" do
   homepage "https://fonts.google.com/specimen/Flow+Rounded"
 
   font "FlowRounded-Regular.ttf"
+
+  # No zap stanza required
 end

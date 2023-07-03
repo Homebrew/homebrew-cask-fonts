@@ -43,4 +43,6 @@ cask "font-noto-sans-georgian" do
   font "NotoSansGeorgian-SemiCondensedSemiBold.ttf"
   font "NotoSansGeorgian-SemiCondensedThin.ttf"
   font "NotoSansGeorgian-Thin.ttf"
+
+  # No zap stanza required
 end

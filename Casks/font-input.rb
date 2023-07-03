@@ -182,4 +182,6 @@ cask "font-input" do
 
       https://input.djr.com/license/
   EOS
+
+  # No zap stanza required
 end

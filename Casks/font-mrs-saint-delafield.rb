@@ -8,4 +8,6 @@ cask "font-mrs-saint-delafield" do
   homepage "https://fonts.google.com/specimen/Mrs+Saint+Delafield"
 
   font "MrsSaintDelafield-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-wallpoet" do
   homepage "https://fonts.google.com/specimen/Wallpoet"
 
   font "Wallpoet-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-bilbo" do
   homepage "https://fonts.google.com/specimen/Bilbo"
 
   font "Bilbo-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-taprom" do
   homepage "https://fonts.google.com/specimen/Taprom"
 
   font "Taprom-Regular.ttf"
+
+  # No zap stanza required
 end

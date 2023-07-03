@@ -8,4 +8,6 @@ cask "font-suravaram" do
   homepage "https://fonts.google.com/specimen/Suravaram"
 
   font "Suravaram-Regular.ttf"
+
+  # No zap stanza required
 end

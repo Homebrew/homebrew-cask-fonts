@@ -14,4 +14,6 @@ cask "font-ocr" do
   font "ocr-#{version}/OCRBL.otf"
   font "ocr-#{version}/OCRBS.otf"
   font "ocr-#{version}/OCRBX.otf"
+
+  # No zap stanza required
 end

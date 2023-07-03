@@ -8,4 +8,6 @@ cask "font-noto-sans-soyombo" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Soyombo"
 
   font "NotoSansSoyombo-Regular.ttf"
+
+  # No zap stanza required
 end

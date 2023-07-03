@@ -7,4 +7,6 @@ cask "font-typographer-woodcut-initials-one" do
   homepage "https://www.1001fonts.com/typographerwoodcutinitialsone-font.html"
 
   font "TypographerWoodcut01.ttf"
+
+  # No zap stanza required
 end

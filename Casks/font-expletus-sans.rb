@@ -11,4 +11,6 @@ cask "font-expletus-sans" do
 
   font "ExpletusSans-Italic[wght].ttf"
   font "ExpletusSans[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-molle" do
   homepage "https://fonts.google.com/specimen/Molle"
 
   font "Molle-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-red-hat-mono" do
 
   font "RedHatMono-Italic[wght].ttf"
   font "RedHatMono[wght].ttf"
+
+  # No zap stanza required
 end

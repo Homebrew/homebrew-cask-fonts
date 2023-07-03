@@ -8,4 +8,6 @@ cask "font-noto-sans-bassa-vah" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Bassa+Vah"
 
   font "NotoSansBassaVah[wght].ttf"
+
+  # No zap stanza required
 end

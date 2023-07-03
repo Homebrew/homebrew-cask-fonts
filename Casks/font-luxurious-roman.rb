@@ -9,4 +9,6 @@ cask "font-luxurious-roman" do
   homepage "https://fonts.google.com/specimen/Luxurious+Roman"
 
   font "LuxuriousRoman-Regular.ttf"
+
+  # No zap stanza required
 end

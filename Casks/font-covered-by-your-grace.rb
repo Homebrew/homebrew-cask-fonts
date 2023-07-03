@@ -8,4 +8,6 @@ cask "font-covered-by-your-grace" do
   homepage "https://fonts.google.com/specimen/Covered+By+Your+Grace"
 
   font "CoveredByYourGrace.ttf"
+
+  # No zap stanza required
 end

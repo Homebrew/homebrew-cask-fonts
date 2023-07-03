@@ -9,4 +9,6 @@ cask "font-noto-kufi-arabic" do
 
   font "NotoKufiArabic-Bold.ttf"
   font "NotoKufiArabic-Regular.ttf"
+
+  # No zap stanza required
 end

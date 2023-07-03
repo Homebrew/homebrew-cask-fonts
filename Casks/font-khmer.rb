@@ -8,4 +8,6 @@ cask "font-khmer" do
   homepage "https://fonts.google.com/specimen/Khmer"
 
   font "Khmer.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-girassol" do
   homepage "https://fonts.google.com/specimen/Girassol"
 
   font "Girassol-Regular.ttf"
+
+  # No zap stanza required
 end

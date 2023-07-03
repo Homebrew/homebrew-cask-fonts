@@ -8,4 +8,6 @@ cask "font-zeyada" do
   homepage "https://fonts.google.com/specimen/Zeyada"
 
   font "Zeyada.ttf"
+
+  # No zap stanza required
 end

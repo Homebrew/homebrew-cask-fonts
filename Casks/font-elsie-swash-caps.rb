@@ -11,4 +11,6 @@ cask "font-elsie-swash-caps" do
 
   font "ElsieSwashCaps-Black.ttf"
   font "ElsieSwashCaps-Regular.ttf"
+
+  # No zap stanza required
 end

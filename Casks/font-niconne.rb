@@ -8,4 +8,6 @@ cask "font-niconne" do
   homepage "https://fonts.google.com/specimen/Niconne"
 
   font "Niconne-Regular.ttf"
+
+  # No zap stanza required
 end

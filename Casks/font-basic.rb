@@ -8,4 +8,6 @@ cask "font-basic" do
   homepage "https://fonts.google.com/specimen/Basic"
 
   font "Basic-Regular.ttf"
+
+  # No zap stanza required
 end

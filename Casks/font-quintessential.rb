@@ -8,4 +8,6 @@ cask "font-quintessential" do
   homepage "https://fonts.google.com/specimen/Quintessential"
 
   font "Quintessential-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-dm-serif-display" do
 
   font "DMSerifDisplay-Italic.ttf"
   font "DMSerifDisplay-Regular.ttf"
+
+  # No zap stanza required
 end

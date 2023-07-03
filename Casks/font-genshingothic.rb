@@ -28,4 +28,6 @@ cask "font-genshingothic" do
   font "GenShinGothic-P-Normal.ttf"
   font "GenShinGothic-P-Regular.ttf"
   font "GenShinGothic-Regular.ttf"
+
+  # No zap stanza required
 end

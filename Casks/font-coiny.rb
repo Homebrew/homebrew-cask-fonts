@@ -8,4 +8,6 @@ cask "font-coiny" do
   homepage "https://fonts.google.com/specimen/Coiny"
 
   font "Coiny-Regular.ttf"
+
+  # No zap stanza required
 end

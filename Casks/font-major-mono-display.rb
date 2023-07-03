@@ -8,4 +8,6 @@ cask "font-major-mono-display" do
   homepage "https://fonts.google.com/specimen/Major+Mono+Display"
 
   font "MajorMonoDisplay-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-cookie" do
   homepage "https://fonts.google.com/specimen/Cookie"
 
   font "Cookie-Regular.ttf"
+
+  # No zap stanza required
 end

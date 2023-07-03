@@ -8,4 +8,6 @@ cask "font-inconsolata" do
   homepage "https://fonts.google.com/specimen/Inconsolata"
 
   font "Inconsolata[wdth,wght].ttf"
+
+  # No zap stanza required
 end

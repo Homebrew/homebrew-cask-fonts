@@ -8,4 +8,6 @@ cask "font-digital-numbers" do
   homepage "https://fonts.google.com/specimen/Digital+Numbers"
 
   font "DigitalNumbers-Regular.ttf"
+
+  # No zap stanza required
 end

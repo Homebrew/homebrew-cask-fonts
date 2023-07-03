@@ -13,4 +13,6 @@ cask "font-kaisei-decol" do
   font "KaiseiDecol-Bold.ttf"
   font "KaiseiDecol-Medium.ttf"
   font "KaiseiDecol-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-fjord-one" do
   homepage "https://fonts.google.com/specimen/Fjord+One"
 
   font "FjordOne-Regular.ttf"
+
+  # No zap stanza required
 end

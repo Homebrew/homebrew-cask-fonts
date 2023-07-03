@@ -11,4 +11,6 @@ cask "font-manuale" do
 
   font "Manuale-Italic[wght].ttf"
   font "Manuale[wght].ttf"
+
+  # No zap stanza required
 end

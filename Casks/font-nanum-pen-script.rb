@@ -8,4 +8,6 @@ cask "font-nanum-pen-script" do
   homepage "https://fonts.google.com/specimen/Nanum+Pen+Script"
 
   font "NanumPenScript-Regular.ttf"
+
+  # No zap stanza required
 end

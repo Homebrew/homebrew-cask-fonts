@@ -8,4 +8,6 @@ cask "font-unifrakturcook" do
   homepage "https://fonts.google.com/specimen/UnifrakturCook"
 
   font "UnifrakturCook-Bold.ttf"
+
+  # No zap stanza required
 end

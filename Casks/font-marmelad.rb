@@ -8,4 +8,6 @@ cask "font-marmelad" do
   homepage "https://fonts.google.com/specimen/Marmelad"
 
   font "Marmelad-Regular.ttf"
+
+  # No zap stanza required
 end

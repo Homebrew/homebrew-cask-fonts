@@ -8,4 +8,6 @@ cask "font-cambo" do
   homepage "https://fonts.google.com/specimen/Cambo"
 
   font "Cambo-Regular.ttf"
+
+  # No zap stanza required
 end

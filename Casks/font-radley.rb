@@ -11,4 +11,6 @@ cask "font-radley" do
 
   font "Radley-Italic.ttf"
   font "Radley-Regular.ttf"
+
+  # No zap stanza required
 end

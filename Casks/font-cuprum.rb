@@ -11,4 +11,6 @@ cask "font-cuprum" do
 
   font "Cuprum-Italic[wght].ttf"
   font "Cuprum[wght].ttf"
+
+  # No zap stanza required
 end

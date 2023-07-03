@@ -8,4 +8,6 @@ cask "font-junge" do
   homepage "https://fonts.google.com/specimen/Junge"
 
   font "Junge-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-modern-antiqua" do
   homepage "https://fonts.google.com/specimen/Modern+Antiqua"
 
   font "ModernAntiqua-Regular.ttf"
+
+  # No zap stanza required
 end

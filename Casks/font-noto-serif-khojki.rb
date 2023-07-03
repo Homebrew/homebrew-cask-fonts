@@ -9,4 +9,6 @@ cask "font-noto-serif-khojki" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Khojki"
 
   font "NotoSerifKhojki[wght].ttf"
+
+  # No zap stanza required
 end

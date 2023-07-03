@@ -8,4 +8,6 @@ cask "font-island-moments" do
   homepage "https://fonts.google.com/specimen/Island+Moments"
 
   font "IslandMoments-Regular.ttf"
+
+  # No zap stanza required
 end

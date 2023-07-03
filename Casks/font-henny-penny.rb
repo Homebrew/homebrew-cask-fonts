@@ -8,4 +8,6 @@ cask "font-henny-penny" do
   homepage "https://fonts.google.com/specimen/Henny+Penny"
 
   font "HennyPenny-Regular.ttf"
+
+  # No zap stanza required
 end

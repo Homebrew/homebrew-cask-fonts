@@ -8,4 +8,6 @@ cask "font-humor-sans" do
   homepage "https://xkcdsucks.blogspot.com.au/2009/03/xkcdsucks-is-proud-to-present-humor.html"
 
   font "Humor-Sans-#{version}.ttf"
+
+  # No zap stanza required
 end

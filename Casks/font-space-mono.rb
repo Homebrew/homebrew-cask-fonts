@@ -10,4 +10,6 @@ cask "font-space-mono" do
   font "spacemono-main/fonts/SpaceMono-BoldItalic.ttf"
   font "spacemono-main/fonts/SpaceMono-Italic.ttf"
   font "spacemono-main/fonts/SpaceMono-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-rakkas" do
   homepage "https://fonts.google.com/specimen/Rakkas"
 
   font "Rakkas-Regular.ttf"
+
+  # No zap stanza required
 end

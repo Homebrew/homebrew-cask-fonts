@@ -8,4 +8,6 @@ cask "font-noto-sans-khmer-ui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Khmer+UI"
 
   font "NotoSansKhmerUI[wdth,wght].ttf"
+
+  # No zap stanza required
 end

@@ -25,4 +25,6 @@ cask "font-metropolis" do
   font "Metropolis-SemiBoldItalic.otf"
   font "Metropolis-Thin.otf"
   font "Metropolis-ThinItalic.otf"
+
+  # No zap stanza required
 end

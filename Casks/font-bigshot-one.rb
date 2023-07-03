@@ -8,4 +8,6 @@ cask "font-bigshot-one" do
   homepage "https://fonts.google.com/specimen/Bigshot+One"
 
   font "BigshotOne-Regular.ttf"
+
+  # No zap stanza required
 end

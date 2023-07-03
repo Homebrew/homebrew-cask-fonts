@@ -9,4 +9,6 @@ cask "font-send-flowers" do
   homepage "https://fonts.google.com/specimen/Send+Flowers"
 
   font "SendFlowers-Regular.ttf"
+
+  # No zap stanza required
 end

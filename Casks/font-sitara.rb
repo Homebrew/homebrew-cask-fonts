@@ -13,4 +13,6 @@ cask "font-sitara" do
   font "Sitara-BoldItalic.ttf"
   font "Sitara-Italic.ttf"
   font "Sitara-Regular.ttf"
+
+  # No zap stanza required
 end

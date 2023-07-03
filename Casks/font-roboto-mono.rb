@@ -11,4 +11,6 @@ cask "font-roboto-mono" do
 
   font "RobotoMono-Italic[wght].ttf"
   font "RobotoMono[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-noto-sans-old-turkic" do
   homepage "https://www.google.com/get/noto/#sans-orkh"
 
   font "NotoSansOldTurkic-Regular.ttf"
+
+  # No zap stanza required
 end

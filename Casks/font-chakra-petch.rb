@@ -19,4 +19,6 @@ cask "font-chakra-petch" do
   font "ChakraPetch-Regular.ttf"
   font "ChakraPetch-SemiBold.ttf"
   font "ChakraPetch-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

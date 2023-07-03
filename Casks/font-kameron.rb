@@ -11,4 +11,6 @@ cask "font-kameron" do
 
   font "Kameron-Bold.ttf"
   font "Kameron-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-texturina" do
 
   font "Texturina-Italic[opsz,wght].ttf"
   font "Texturina[opsz,wght].ttf"
+
+  # No zap stanza required
 end

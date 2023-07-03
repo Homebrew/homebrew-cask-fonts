@@ -8,4 +8,6 @@ cask "font-noto-sans-meroitic" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Meroitic"
 
   font "NotoSansMeroitic-Regular.ttf"
+
+  # No zap stanza required
 end

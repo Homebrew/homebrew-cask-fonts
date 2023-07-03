@@ -9,4 +9,6 @@ cask "font-droid-sans-mono-for-powerline" do
   homepage "https://github.com/powerline/fonts/tree/master/DroidSansMono"
 
   font "Droid Sans Mono for Powerline.otf"
+
+  # No zap stanza required
 end

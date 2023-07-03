@@ -8,4 +8,6 @@ cask "font-princess-sofia" do
   homepage "https://fonts.google.com/specimen/Princess+Sofia"
 
   font "PrincessSofia-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -17,4 +17,6 @@ cask "font-sansita" do
   font "Sansita-ExtraBoldItalic.ttf"
   font "Sansita-Italic.ttf"
   font "Sansita-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-ole" do
   homepage "https://fonts.google.com/specimen/Ole"
 
   font "Ole-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -19,4 +19,6 @@ cask "font-cormorant-garamond" do
   font "CormorantGaramond-Regular.ttf"
   font "CormorantGaramond-SemiBold.ttf"
   font "CormorantGaramond-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-noto-serif-telugu" do
 
   font "NotoSerifTelugu-Bold.ttf"
   font "NotoSerifTelugu-Regular.ttf"
+
+  # No zap stanza required
 end

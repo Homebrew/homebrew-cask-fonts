@@ -8,4 +8,6 @@ cask "font-miniver" do
   homepage "https://fonts.google.com/specimen/Miniver"
 
   font "Miniver-Regular.ttf"
+
+  # No zap stanza required
 end

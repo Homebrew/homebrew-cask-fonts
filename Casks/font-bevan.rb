@@ -11,4 +11,6 @@ cask "font-bevan" do
 
   font "Bevan-Italic.ttf"
   font "Bevan-Regular.ttf"
+
+  # No zap stanza required
 end

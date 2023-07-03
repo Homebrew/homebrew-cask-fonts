@@ -8,4 +8,6 @@ cask "font-rhodium-libre" do
   homepage "https://fonts.google.com/specimen/Rhodium+Libre"
 
   font "RhodiumLibre-Regular.ttf"
+
+  # No zap stanza required
 end

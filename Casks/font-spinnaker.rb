@@ -8,4 +8,6 @@ cask "font-spinnaker" do
   homepage "https://fonts.google.com/specimen/Spinnaker"
 
   font "Spinnaker-Regular.ttf"
+
+  # No zap stanza required
 end

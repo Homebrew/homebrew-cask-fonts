@@ -18,4 +18,6 @@ cask "font-roboto-mono-for-powerline" do
   font "Roboto Mono Thin Italic for Powerline.ttf"
   font "Roboto Mono Thin for Powerline.ttf"
   font "Roboto Mono for Powerline.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-federo" do
   homepage "https://fonts.google.com/specimen/Federo"
 
   font "Federo-Regular.ttf"
+
+  # No zap stanza required
 end

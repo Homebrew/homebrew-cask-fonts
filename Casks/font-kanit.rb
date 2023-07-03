@@ -27,4 +27,6 @@ cask "font-kanit" do
   font "Kanit-SemiBoldItalic.ttf"
   font "Kanit-Thin.ttf"
   font "Kanit-ThinItalic.ttf"
+
+  # No zap stanza required
 end

@@ -13,4 +13,6 @@ cask "font-kiwi-maru" do
   font "KiwiMaru-Light.ttf"
   font "KiwiMaru-Medium.ttf"
   font "KiwiMaru-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-kelly-slab" do
   homepage "https://fonts.google.com/specimen/Kelly+Slab"
 
   font "KellySlab-Regular.ttf"
+
+  # No zap stanza required
 end

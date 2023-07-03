@@ -8,4 +8,6 @@ cask "font-yellowtail" do
   homepage "https://fonts.google.com/specimen/Yellowtail"
 
   font "Yellowtail-Regular.ttf"
+
+  # No zap stanza required
 end

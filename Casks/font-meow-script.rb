@@ -9,4 +9,6 @@ cask "font-meow-script" do
   homepage "https://fonts.google.com/specimen/Meow+Script"
 
   font "MeowScript-Regular.ttf"
+
+  # No zap stanza required
 end

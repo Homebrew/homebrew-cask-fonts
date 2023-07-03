@@ -8,4 +8,6 @@ cask "font-noto-sans-hanifi-rohingya" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Hanifi+Rohingya"
 
   font "NotoSansHanifiRohingya[wght].ttf"
+
+  # No zap stanza required
 end

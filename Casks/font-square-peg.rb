@@ -8,4 +8,6 @@ cask "font-square-peg" do
   homepage "https://fonts.google.com/specimen/Square+Peg"
 
   font "SquarePeg-Regular.ttf"
+
+  # No zap stanza required
 end

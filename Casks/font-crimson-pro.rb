@@ -11,4 +11,6 @@ cask "font-crimson-pro" do
 
   font "CrimsonPro-Italic[wght].ttf"
   font "CrimsonPro[wght].ttf"
+
+  # No zap stanza required
 end

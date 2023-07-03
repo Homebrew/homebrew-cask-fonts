@@ -8,4 +8,6 @@ cask "font-donegal-one" do
   homepage "https://fonts.google.com/specimen/Donegal+One"
 
   font "DonegalOne-Regular.ttf"
+
+  # No zap stanza required
 end

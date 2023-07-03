@@ -8,4 +8,6 @@ cask "font-khyay" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "Khyay-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-nixie-one" do
   homepage "https://fonts.google.com/specimen/Nixie+One"
 
   font "NixieOne-Regular.ttf"
+
+  # No zap stanza required
 end

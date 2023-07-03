@@ -8,4 +8,6 @@ cask "font-lacquer" do
   homepage "https://fonts.google.com/specimen/Lacquer"
 
   font "Lacquer-Regular.ttf"
+
+  # No zap stanza required
 end

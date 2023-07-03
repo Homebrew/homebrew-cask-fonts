@@ -18,4 +18,6 @@ cask "font-saira-extra-condensed" do
   font "SairaExtraCondensed-Regular.ttf"
   font "SairaExtraCondensed-SemiBold.ttf"
   font "SairaExtraCondensed-Thin.ttf"
+
+  # No zap stanza required
 end

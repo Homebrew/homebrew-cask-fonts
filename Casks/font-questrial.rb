@@ -8,4 +8,6 @@ cask "font-questrial" do
   homepage "https://fonts.google.com/specimen/Questrial"
 
   font "Questrial-Regular.ttf"
+
+  # No zap stanza required
 end

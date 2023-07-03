@@ -12,4 +12,6 @@ cask "font-rowdies" do
   font "Rowdies-Bold.ttf"
   font "Rowdies-Light.ttf"
   font "Rowdies-Regular.ttf"
+
+  # No zap stanza required
 end

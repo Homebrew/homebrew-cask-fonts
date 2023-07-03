@@ -13,4 +13,6 @@ cask "font-scada" do
   font "Scada-BoldItalic.ttf"
   font "Scada-Italic.ttf"
   font "Scada-Regular.ttf"
+
+  # No zap stanza required
 end

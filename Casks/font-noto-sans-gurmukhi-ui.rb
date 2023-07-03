@@ -8,4 +8,6 @@ cask "font-noto-sans-gurmukhi-ui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Gurmukhi+UI"
 
   font "NotoSansGurmukhiUI[wdth,wght].ttf"
+
+  # No zap stanza required
 end

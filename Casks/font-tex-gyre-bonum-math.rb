@@ -7,4 +7,6 @@ cask "font-tex-gyre-bonum-math" do
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
 
   font "texgyrebonum-math-#{version.no_dots}/opentype/texgyrebonum-math.otf"
+
+  # No zap stanza required
 end

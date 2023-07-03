@@ -9,4 +9,6 @@ cask "font-lexend" do
   homepage "https://fonts.google.com/specimen/Lexend"
 
   font "Lexend[wght].ttf"
+
+  # No zap stanza required
 end

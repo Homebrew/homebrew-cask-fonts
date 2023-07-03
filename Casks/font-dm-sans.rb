@@ -11,4 +11,6 @@ cask "font-dm-sans" do
 
   font "DMSans-Italic[opsz,wght].ttf"
   font "DMSans[opsz,wght].ttf"
+
+  # No zap stanza required
 end

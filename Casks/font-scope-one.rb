@@ -8,4 +8,6 @@ cask "font-scope-one" do
   homepage "https://fonts.google.com/specimen/Scope+One"
 
   font "ScopeOne-Regular.ttf"
+
+  # No zap stanza required
 end

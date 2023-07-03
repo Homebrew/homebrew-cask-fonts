@@ -15,4 +15,6 @@ cask "font-pridi" do
   font "Pridi-Medium.ttf"
   font "Pridi-Regular.ttf"
   font "Pridi-SemiBold.ttf"
+
+  # No zap stanza required
 end

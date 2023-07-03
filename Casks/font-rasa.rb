@@ -11,4 +11,6 @@ cask "font-rasa" do
 
   font "Rasa-Italic[wght].ttf"
   font "Rasa[wght].ttf"
+
+  # No zap stanza required
 end

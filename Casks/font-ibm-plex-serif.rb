@@ -23,4 +23,6 @@ cask "font-ibm-plex-serif" do
   font "IBMPlexSerif-SemiBoldItalic.ttf"
   font "IBMPlexSerif-Thin.ttf"
   font "IBMPlexSerif-ThinItalic.ttf"
+
+  # No zap stanza required
 end

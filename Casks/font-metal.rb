@@ -8,4 +8,6 @@ cask "font-metal" do
   homepage "https://fonts.google.com/specimen/Metal"
 
   font "Metal-Regular.ttf"
+
+  # No zap stanza required
 end

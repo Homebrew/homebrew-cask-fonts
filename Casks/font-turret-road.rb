@@ -15,4 +15,6 @@ cask "font-turret-road" do
   font "TurretRoad-Light.ttf"
   font "TurretRoad-Medium.ttf"
   font "TurretRoad-Regular.ttf"
+
+  # No zap stanza required
 end

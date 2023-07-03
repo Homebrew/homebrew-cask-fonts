@@ -9,4 +9,6 @@ cask "font-kalam" do
   font "Kalam-Bold.otf"
   font "Kalam-Light.otf"
   font "Kalam-Regular.otf"
+
+  # No zap stanza required
 end

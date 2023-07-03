@@ -8,4 +8,6 @@ cask "font-noto-serif-tangut" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Tangut"
 
   font "NotoSerifTangut-Regular.ttf"
+
+  # No zap stanza required
 end

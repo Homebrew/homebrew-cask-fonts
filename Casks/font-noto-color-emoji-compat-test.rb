@@ -8,4 +8,6 @@ cask "font-noto-color-emoji-compat-test" do
   homepage "https://fonts.google.com/specimen/Noto+Color+Emoji+Compat+Test"
 
   font "NotoColorEmojiCompatTest-Regular.ttf"
+
+  # No zap stanza required
 end

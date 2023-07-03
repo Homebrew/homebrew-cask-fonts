@@ -8,4 +8,6 @@ cask "font-lemon" do
   homepage "https://fonts.google.com/specimen/Lemon"
 
   font "Lemon-Regular.ttf"
+
+  # No zap stanza required
 end

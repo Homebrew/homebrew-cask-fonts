@@ -9,4 +9,6 @@ cask "font-ingrid-darling" do
   homepage "https://fonts.google.com/specimen/Ingrid+Darling"
 
   font "IngridDarling-Regular.ttf"
+
+  # No zap stanza required
 end

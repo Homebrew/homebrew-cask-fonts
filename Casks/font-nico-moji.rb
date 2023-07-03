@@ -8,4 +8,6 @@ cask "font-nico-moji" do
   homepage "https://fonts.google.com/specimen/Nico+Moji"
 
   font "NicoMoji-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-copse" do
   homepage "https://fonts.google.com/specimen/Copse"
 
   font "Copse-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-la-belle-aurore" do
   homepage "https://fonts.google.com/specimen/La+Belle+Aurore"
 
   font "LaBelleAurore.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-elice-digital-baeum" do
 
   font "EliceDigitalBaeumOTF_Regular.otf"
   font "EliceDigitalBaeumOTF_Bold.otf"
+
+  # No zap stanza required
 end

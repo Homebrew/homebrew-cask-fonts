@@ -17,4 +17,6 @@ cask "font-blinker" do
   font "Blinker-Regular.ttf"
   font "Blinker-SemiBold.ttf"
   font "Blinker-Thin.ttf"
+
+  # No zap stanza required
 end

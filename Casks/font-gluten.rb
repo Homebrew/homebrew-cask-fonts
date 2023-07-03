@@ -9,4 +9,6 @@ cask "font-gluten" do
   homepage "https://fonts.google.com/specimen/Gluten"
 
   font "Gluten[slnt,wght].ttf"
+
+  # No zap stanza required
 end

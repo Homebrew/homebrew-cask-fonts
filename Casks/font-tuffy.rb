@@ -13,4 +13,6 @@ cask "font-tuffy" do
   font "Tuffy-BoldItalic.ttf"
   font "Tuffy-Italic.ttf"
   font "Tuffy-Regular.ttf"
+
+  # No zap stanza required
 end

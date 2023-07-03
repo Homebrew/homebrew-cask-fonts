@@ -8,4 +8,6 @@ cask "font-yuji-hentaigana-akari" do
   homepage "https://fonts.google.com/specimen/Yuji+Hentaigana+Akari"
 
   font "YujiHentaiganaAkari-Regular.ttf"
+
+  # No zap stanza required
 end

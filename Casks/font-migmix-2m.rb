@@ -8,4 +8,6 @@ cask "font-migmix-2m" do
 
   font "migmix-2m-#{version}/migmix-2m-bold.ttf"
   font "migmix-2m-#{version}/migmix-2m-regular.ttf"
+
+  # No zap stanza required
 end

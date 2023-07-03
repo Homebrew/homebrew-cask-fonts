@@ -8,4 +8,6 @@ cask "font-varela-round" do
   homepage "https://fonts.google.com/specimen/Varela+Round"
 
   font "VarelaRound-Regular.ttf"
+
+  # No zap stanza required
 end

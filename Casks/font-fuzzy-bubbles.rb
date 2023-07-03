@@ -12,4 +12,6 @@ cask "font-fuzzy-bubbles" do
 
   font "FuzzyBubbles-Bold.ttf"
   font "FuzzyBubbles-Regular.ttf"
+
+  # No zap stanza required
 end

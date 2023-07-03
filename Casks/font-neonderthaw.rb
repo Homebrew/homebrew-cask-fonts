@@ -9,4 +9,6 @@ cask "font-neonderthaw" do
   homepage "https://fonts.google.com/specimen/Neonderthaw"
 
   font "Neonderthaw-Regular.ttf"
+
+  # No zap stanza required
 end

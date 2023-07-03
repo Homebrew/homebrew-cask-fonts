@@ -9,4 +9,6 @@ cask "font-fredoka" do
   homepage "https://fonts.google.com/specimen/Fredoka"
 
   font "Fredoka[wdth,wght].ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-labrada" do
 
   font "Labrada-Italic[wght].ttf"
   font "Labrada[wght].ttf"
+
+  # No zap stanza required
 end

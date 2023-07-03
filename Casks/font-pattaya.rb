@@ -8,4 +8,6 @@ cask "font-pattaya" do
   homepage "https://fonts.google.com/specimen/Pattaya"
 
   font "Pattaya-Regular.ttf"
+
+  # No zap stanza required
 end

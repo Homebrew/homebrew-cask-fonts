@@ -8,4 +8,6 @@ cask "font-inder" do
   homepage "https://fonts.google.com/specimen/Inder"
 
   font "Inder-Regular.ttf"
+
+  # No zap stanza required
 end

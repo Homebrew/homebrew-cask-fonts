@@ -8,4 +8,6 @@ cask "font-trykker" do
   homepage "https://fonts.google.com/specimen/Trykker"
 
   font "Trykker-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-iranian-sans" do
 
   font "irsans.ttf"
   font "irsansb.ttf"
+
+  # No zap stanza required
 end

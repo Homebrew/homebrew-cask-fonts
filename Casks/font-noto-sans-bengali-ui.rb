@@ -8,4 +8,6 @@ cask "font-noto-sans-bengali-ui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Bengali+UI"
 
   font "NotoSansBengaliUI[wdth,wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-bonbon" do
   homepage "https://fonts.google.com/specimen/Bonbon"
 
   font "Bonbon-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-herr-von-muellerhoff" do
   homepage "https://fonts.google.com/specimen/Herr+Von+Muellerhoff"
 
   font "HerrVonMuellerhoff-Regular.ttf"
+
+  # No zap stanza required
 end

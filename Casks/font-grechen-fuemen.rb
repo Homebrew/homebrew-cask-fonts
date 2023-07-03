@@ -9,4 +9,6 @@ cask "font-grechen-fuemen" do
   homepage "https://fonts.google.com/specimen/Grechen+Fuemen"
 
   font "GrechenFuemen-Regular.ttf"
+
+  # No zap stanza required
 end

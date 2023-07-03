@@ -8,4 +8,6 @@ cask "font-vibes" do
   homepage "https://fonts.google.com/specimen/Vibes"
 
   font "Vibes-Regular.ttf"
+
+  # No zap stanza required
 end

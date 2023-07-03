@@ -9,4 +9,6 @@ cask "font-imbue" do
   homepage "https://fonts.google.com/specimen/Imbue"
 
   font "Imbue[opsz,wght].ttf"
+
+  # No zap stanza required
 end

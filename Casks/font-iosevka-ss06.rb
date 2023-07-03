@@ -21,4 +21,6 @@ cask "font-iosevka-ss06" do
   font "iosevka-ss06-regular.ttc"
   font "iosevka-ss06-semibold.ttc"
   font "iosevka-ss06-thin.ttc"
+
+  # No zap stanza required
 end

@@ -10,4 +10,6 @@ cask "font-verdana" do
   font "Verdanab.TTF"
   font "Verdanai.TTF"
   font "Verdanaz.TTF"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-bokor" do
   homepage "https://fonts.google.com/specimen/Bokor"
 
   font "Bokor-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-souliyo" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "Souliyo-Regular.ttf"
+
+  # No zap stanza required
 end

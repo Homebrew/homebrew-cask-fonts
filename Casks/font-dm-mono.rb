@@ -15,4 +15,6 @@ cask "font-dm-mono" do
   font "DMMono-Medium.ttf"
   font "DMMono-MediumItalic.ttf"
   font "DMMono-Regular.ttf"
+
+  # No zap stanza required
 end

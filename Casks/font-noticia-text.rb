@@ -13,4 +13,6 @@ cask "font-noticia-text" do
   font "NoticiaText-BoldItalic.ttf"
   font "NoticiaText-Italic.ttf"
   font "NoticiaText-Regular.ttf"
+
+  # No zap stanza required
 end

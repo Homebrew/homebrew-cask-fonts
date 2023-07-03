@@ -43,4 +43,6 @@ cask "font-noto-serif-hebrew" do
   font "NotoSerifHebrew-SemiCondensedSemiBold.ttf"
   font "NotoSerifHebrew-SemiCondensedThin.ttf"
   font "NotoSerifHebrew-Thin.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-yeseva-one" do
   homepage "https://fonts.google.com/specimen/Yeseva+One"
 
   font "YesevaOne-Regular.ttf"
+
+  # No zap stanza required
 end

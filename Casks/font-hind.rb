@@ -11,4 +11,6 @@ cask "font-hind" do
   font "Hind-Medium.otf"
   font "Hind-Regular.otf"
   font "Hind-SemiBold.otf"
+
+  # No zap stanza required
 end

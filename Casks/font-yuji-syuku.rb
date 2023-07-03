@@ -9,4 +9,6 @@ cask "font-yuji-syuku" do
   homepage "https://fonts.google.com/specimen/Yuji+Syuku"
 
   font "YujiSyuku-Regular.ttf"
+
+  # No zap stanza required
 end

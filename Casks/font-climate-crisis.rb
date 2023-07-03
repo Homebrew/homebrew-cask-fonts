@@ -8,4 +8,6 @@ cask "font-climate-crisis" do
   homepage "https://fonts.google.com/specimen/Climate+Crisis"
 
   font "ClimateCrisis[YEAR].ttf"
+
+  # No zap stanza required
 end

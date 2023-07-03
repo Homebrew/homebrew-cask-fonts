@@ -8,4 +8,6 @@ cask "font-goudy-bookletter-1911" do
   homepage "https://fonts.google.com/specimen/Goudy+Bookletter+1911"
 
   font "GoudyBookletter1911.ttf"
+
+  # No zap stanza required
 end

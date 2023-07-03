@@ -18,4 +18,6 @@ cask "font-go" do
   font "Go-Regular.ttf"
   font "Go-Smallcaps-Italic.ttf"
   font "Go-Smallcaps.ttf"
+
+  # No zap stanza required
 end

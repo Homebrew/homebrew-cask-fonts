@@ -8,4 +8,6 @@ cask "font-neucha" do
   homepage "https://fonts.google.com/specimen/Neucha"
 
   font "Neucha.ttf"
+
+  # No zap stanza required
 end

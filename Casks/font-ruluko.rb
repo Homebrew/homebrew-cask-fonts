@@ -8,4 +8,6 @@ cask "font-ruluko" do
   homepage "https://fonts.google.com/specimen/Ruluko"
 
   font "Ruluko-Regular.ttf"
+
+  # No zap stanza required
 end

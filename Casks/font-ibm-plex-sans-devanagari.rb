@@ -16,4 +16,6 @@ cask "font-ibm-plex-sans-devanagari" do
   font "IBMPlexSansDevanagari-Regular.ttf"
   font "IBMPlexSansDevanagari-SemiBold.ttf"
   font "IBMPlexSansDevanagari-Thin.ttf"
+
+  # No zap stanza required
 end

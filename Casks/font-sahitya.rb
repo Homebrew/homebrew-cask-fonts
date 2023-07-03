@@ -11,4 +11,6 @@ cask "font-sahitya" do
 
   font "Sahitya-Bold.ttf"
   font "Sahitya-Regular.ttf"
+
+  # No zap stanza required
 end

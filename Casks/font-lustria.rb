@@ -8,4 +8,6 @@ cask "font-lustria" do
   homepage "https://fonts.google.com/specimen/Lustria"
 
   font "Lustria-Regular.ttf"
+
+  # No zap stanza required
 end

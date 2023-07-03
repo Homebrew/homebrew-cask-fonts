@@ -8,4 +8,6 @@ cask "font-prociono" do
   homepage "https://fonts.google.com/specimen/Prociono"
 
   font "Prociono-Regular.ttf"
+
+  # No zap stanza required
 end

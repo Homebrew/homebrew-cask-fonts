@@ -11,4 +11,6 @@ cask "font-corinthia" do
 
   font "Corinthia-Bold.ttf"
   font "Corinthia-Regular.ttf"
+
+  # No zap stanza required
 end

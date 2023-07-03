@@ -8,4 +8,6 @@ cask "font-tulpen-one" do
   homepage "https://fonts.google.com/specimen/Tulpen+One"
 
   font "TulpenOne-Regular.ttf"
+
+  # No zap stanza required
 end

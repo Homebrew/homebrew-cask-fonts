@@ -8,4 +8,6 @@ cask "font-comfortaa" do
   homepage "https://fonts.google.com/specimen/Comfortaa"
 
   font "Comfortaa[wght].ttf"
+
+  # No zap stanza required
 end

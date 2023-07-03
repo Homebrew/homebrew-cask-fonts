@@ -8,4 +8,6 @@ cask "font-handlee" do
   homepage "https://fonts.google.com/specimen/Handlee"
 
   font "Handlee-Regular.ttf"
+
+  # No zap stanza required
 end

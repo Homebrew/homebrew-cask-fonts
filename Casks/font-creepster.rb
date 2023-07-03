@@ -8,4 +8,6 @@ cask "font-creepster" do
   homepage "https://fonts.google.com/specimen/Creepster"
 
   font "Creepster-Regular.ttf"
+
+  # No zap stanza required
 end

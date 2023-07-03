@@ -8,4 +8,6 @@ cask "font-lovers-quarrel" do
   homepage "https://fonts.google.com/specimen/Lovers+Quarrel"
 
   font "LoversQuarrel-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -39,4 +39,6 @@ cask "font-plemol-jp-nf" do
   font "PlemolJP_NF_v#{version}/PlemolJP35Console_NF/PlemolJP35ConsoleNF-TextItalic.ttf"
   font "PlemolJP_NF_v#{version}/PlemolJP35Console_NF/PlemolJP35ConsoleNF-Thin.ttf"
   font "PlemolJP_NF_v#{version}/PlemolJP35Console_NF/PlemolJP35ConsoleNF-ThinItalic.ttf"
+
+  # No zap stanza required
 end

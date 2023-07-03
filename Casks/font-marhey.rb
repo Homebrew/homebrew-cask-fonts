@@ -9,4 +9,6 @@ cask "font-marhey" do
   homepage "https://fonts.google.com/specimen/Marhey"
 
   font "Marhey[wght].ttf"
+
+  # No zap stanza required
 end

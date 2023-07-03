@@ -14,4 +14,6 @@ cask "font-carlito" do
   font "Carlito-BoldItalic.ttf"
   font "Carlito-Italic.ttf"
   font "Carlito-Regular.ttf"
+
+  # No zap stanza required
 end

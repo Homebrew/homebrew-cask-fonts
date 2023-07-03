@@ -15,4 +15,6 @@ cask "font-zen-kaku-gothic-antique" do
   font "ZenKakuGothicAntique-Light.ttf"
   font "ZenKakuGothicAntique-Medium.ttf"
   font "ZenKakuGothicAntique-Regular.ttf"
+
+  # No zap stanza required
 end

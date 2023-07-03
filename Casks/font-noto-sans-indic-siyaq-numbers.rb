@@ -8,4 +8,6 @@ cask "font-noto-sans-indic-siyaq-numbers" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Indic+Siyaq+Numbers"
 
   font "NotoSansIndicSiyaqNumbers-Regular.ttf"
+
+  # No zap stanza required
 end

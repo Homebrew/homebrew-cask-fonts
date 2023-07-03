@@ -9,4 +9,6 @@ cask "font-bungee-color" do
   homepage "https://fonts.google.com/specimen/Bungee+Color"
 
   font "BungeeColor-Regular.ttf"
+
+  # No zap stanza required
 end

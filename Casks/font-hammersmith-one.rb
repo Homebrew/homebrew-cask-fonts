@@ -8,4 +8,6 @@ cask "font-hammersmith-one" do
   homepage "https://fonts.google.com/specimen/Hammersmith+One"
 
   font "HammersmithOne-Regular.ttf"
+
+  # No zap stanza required
 end

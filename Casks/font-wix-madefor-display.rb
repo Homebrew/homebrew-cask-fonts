@@ -8,4 +8,6 @@ cask "font-wix-madefor-display" do
   homepage "https://fonts.google.com/specimen/Wix+Madefor+Display"
 
   font "WixMadeforDisplay[wght].ttf"
+
+  # No zap stanza required
 end

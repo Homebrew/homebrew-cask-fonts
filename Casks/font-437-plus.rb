@@ -1023,4 +1023,6 @@ cask "font-437-plus" do
   font "ttf - Ac (aspect-corrected)/Ac437_ACM_VGA_8x8.ttf"
   font "ttf - Ac (aspect-corrected)/Ac437_ToshibaSat_9x16.ttf"
   font "ttf - Ac (aspect-corrected)/AcPlus_IBM_BIOS.ttf"
+
+  # No zap stanza required
 end

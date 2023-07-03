@@ -8,4 +8,6 @@ cask "font-noto-sans-caucasian-albanian" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Caucasian+Albanian"
 
   font "NotoSansCaucasianAlbanian-Regular.ttf"
+
+  # No zap stanza required
 end

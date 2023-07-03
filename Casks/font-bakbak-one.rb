@@ -9,4 +9,6 @@ cask "font-bakbak-one" do
   homepage "https://fonts.google.com/specimen/Bakbak+One"
 
   font "BakbakOne-Regular.ttf"
+
+  # No zap stanza required
 end

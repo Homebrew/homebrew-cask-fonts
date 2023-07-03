@@ -29,4 +29,6 @@ cask "font-genjyuugothic-l" do
   font "GenJyuuGothicL-P-Normal.ttf"
   font "GenJyuuGothicL-P-Regular.ttf"
   font "GenJyuuGothicL-Regular.ttf"
+
+  # No zap stanza required
 end

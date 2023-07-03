@@ -8,4 +8,6 @@ cask "font-raleway-dots" do
   homepage "https://fonts.google.com/specimen/Raleway+Dots"
 
   font "RalewayDots-Regular.ttf"
+
+  # No zap stanza required
 end

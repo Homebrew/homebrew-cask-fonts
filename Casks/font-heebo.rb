@@ -8,4 +8,6 @@ cask "font-heebo" do
   homepage "https://fonts.google.com/specimen/Heebo"
 
   font "Heebo[wght].ttf"
+
+  # No zap stanza required
 end

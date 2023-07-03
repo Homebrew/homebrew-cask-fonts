@@ -8,4 +8,6 @@ cask "font-hepta-slab" do
   homepage "https://fonts.google.com/specimen/Hepta+Slab"
 
   font "HeptaSlab[wght].ttf"
+
+  # No zap stanza required
 end

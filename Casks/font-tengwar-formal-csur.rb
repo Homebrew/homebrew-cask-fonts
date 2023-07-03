@@ -14,4 +14,6 @@ cask "font-tengwar-formal-csur" do
   end
 
   font "TengwarFormalCSUR#{version}/TengwarFormalCSUR.ttf"
+
+  # No zap stanza required
 end

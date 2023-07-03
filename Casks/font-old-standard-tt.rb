@@ -12,4 +12,6 @@ cask "font-old-standard-tt" do
   font "OldStandard-Bold.ttf"
   font "OldStandard-Italic.ttf"
   font "OldStandard-Regular.ttf"
+
+  # No zap stanza required
 end

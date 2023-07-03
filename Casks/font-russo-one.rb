@@ -8,4 +8,6 @@ cask "font-russo-one" do
   homepage "https://fonts.google.com/specimen/Russo+One"
 
   font "RussoOne-Regular.ttf"
+
+  # No zap stanza required
 end

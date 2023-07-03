@@ -9,4 +9,6 @@ cask "font-kumbh-sans" do
   homepage "https://fonts.google.com/specimen/Kumbh+Sans"
 
   font "KumbhSans[YOPQ,wght].ttf"
+
+  # No zap stanza required
 end

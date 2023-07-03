@@ -9,4 +9,6 @@ cask "font-gulzar" do
   homepage "https://fonts.google.com/specimen/Gulzar"
 
   font "Gulzar-Regular.ttf"
+
+  # No zap stanza required
 end

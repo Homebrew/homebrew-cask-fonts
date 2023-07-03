@@ -8,4 +8,6 @@ cask "font-zcool-xiaowei" do
   homepage "https://fonts.google.com/specimen/ZCOOL+XiaoWei"
 
   font "ZCOOLXiaoWei-Regular.ttf"
+
+  # No zap stanza required
 end

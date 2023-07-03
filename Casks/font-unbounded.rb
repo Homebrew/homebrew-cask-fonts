@@ -9,4 +9,6 @@ cask "font-unbounded" do
   homepage "https://fonts.google.com/specimen/Unbounded"
 
   font "Unbounded[wght].ttf"
+
+  # No zap stanza required
 end

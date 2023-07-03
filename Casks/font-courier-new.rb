@@ -10,4 +10,6 @@ cask "font-courier-new" do
   font "courbd.ttf"
   font "courbi.ttf"
   font "couri.ttf"
+
+  # No zap stanza required
 end

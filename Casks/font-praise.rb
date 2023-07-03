@@ -9,4 +9,6 @@ cask "font-praise" do
   homepage "https://fonts.google.com/specimen/Praise"
 
   font "Praise-Regular.ttf"
+
+  # No zap stanza required
 end

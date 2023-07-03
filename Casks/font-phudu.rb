@@ -8,4 +8,6 @@ cask "font-phudu" do
   homepage "https://fonts.google.com/specimen/Phudu"
 
   font "Phudu[wght].ttf"
+
+  # No zap stanza required
 end

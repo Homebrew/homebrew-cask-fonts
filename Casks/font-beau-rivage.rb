@@ -9,4 +9,6 @@ cask "font-beau-rivage" do
   homepage "https://fonts.google.com/specimen/Beau+Rivage"
 
   font "BeauRivage-Regular.ttf"
+
+  # No zap stanza required
 end

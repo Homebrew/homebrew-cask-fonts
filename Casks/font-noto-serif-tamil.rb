@@ -43,4 +43,6 @@ cask "font-noto-serif-tamil" do
   font "NotoSerifTamil-SemiCondensedSemiBold.ttf"
   font "NotoSerifTamil-SemiCondensedThin.ttf"
   font "NotoSerifTamil-Thin.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-sancreek" do
   homepage "https://fonts.google.com/specimen/Sancreek"
 
   font "Sancreek-Regular.ttf"
+
+  # No zap stanza required
 end

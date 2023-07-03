@@ -8,4 +8,6 @@ cask "font-gilda-display" do
   homepage "https://fonts.google.com/specimen/Gilda+Display"
 
   font "GildaDisplay-Regular.ttf"
+
+  # No zap stanza required
 end

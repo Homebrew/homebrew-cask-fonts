@@ -15,4 +15,6 @@ cask "font-zhudou-sans" do
   font "otf/ZhudouSans-Medium.otf"
   font "otf/ZhudouSans-Normal.otf"
   font "otf/ZhudouSans-Regular.otf"
+
+  # No zap stanza required
 end

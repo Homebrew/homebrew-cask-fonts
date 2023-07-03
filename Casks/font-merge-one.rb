@@ -8,4 +8,6 @@ cask "font-merge-one" do
   homepage "https://fonts.google.com/specimen/Merge+One"
 
   font "MergeOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-baumans" do
   homepage "https://fonts.google.com/specimen/Baumans"
 
   font "Baumans-Regular.ttf"
+
+  # No zap stanza required
 end

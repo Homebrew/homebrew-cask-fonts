@@ -8,4 +8,6 @@ cask "font-noto-serif-tibetan" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Tibetan"
 
   font "NotoSerifTibetan[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-kenia" do
   homepage "https://fonts.google.com/specimen/Kenia"
 
   font "Kenia-Regular.ttf"
+
+  # No zap stanza required
 end

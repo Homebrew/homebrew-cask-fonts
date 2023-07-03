@@ -8,4 +8,6 @@ cask "font-otomanopee-one" do
   homepage "https://fonts.google.com/specimen/Otomanopee+One"
 
   font "OtomanopeeOne-Regular.ttf"
+
+  # No zap stanza required
 end

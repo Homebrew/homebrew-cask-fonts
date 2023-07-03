@@ -79,4 +79,6 @@ cask "font-noto-sans-lao" do
   font "NotoSansLaoUI-SemiCondensedSemiBold.ttf"
   font "NotoSansLaoUI-SemiCondensedThin.ttf"
   font "NotoSansLaoUI-Thin.ttf"
+
+  # No zap stanza required
 end

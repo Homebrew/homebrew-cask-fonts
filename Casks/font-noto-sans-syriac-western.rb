@@ -8,4 +8,6 @@ cask "font-noto-sans-syriac-western" do
   homepage "https://www.google.com/get/noto/#sans-syrc-western"
 
   font "NotoSansSyriacWestern-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-yinmar" do
   homepage "https://fonts.google.com/specimen/Yinmar"
 
   font "Yinmar-Regular.ttf"
+
+  # No zap stanza required
 end

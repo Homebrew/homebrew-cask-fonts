@@ -8,4 +8,6 @@ cask "font-felipa" do
   homepage "https://fonts.google.com/specimen/Felipa"
 
   font "Felipa-Regular.ttf"
+
+  # No zap stanza required
 end

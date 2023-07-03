@@ -13,4 +13,6 @@ cask "font-rambla" do
   font "Rambla-BoldItalic.ttf"
   font "Rambla-Italic.ttf"
   font "Rambla-Regular.ttf"
+
+  # No zap stanza required
 end

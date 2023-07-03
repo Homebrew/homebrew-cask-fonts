@@ -9,4 +9,6 @@ cask "font-lavishly-yours" do
   homepage "https://fonts.google.com/specimen/Lavishly+Yours"
 
   font "LavishlyYours-Regular.ttf"
+
+  # No zap stanza required
 end

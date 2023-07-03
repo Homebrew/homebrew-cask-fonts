@@ -11,4 +11,6 @@ cask "font-instrument-serif" do
 
   font "InstrumentSerif-Italic.ttf"
   font "InstrumentSerif-Regular.ttf"
+
+  # No zap stanza required
 end

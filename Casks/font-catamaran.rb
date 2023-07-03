@@ -8,4 +8,6 @@ cask "font-catamaran" do
   homepage "https://fonts.google.com/specimen/Catamaran"
 
   font "Catamaran[wght].ttf"
+
+  # No zap stanza required
 end

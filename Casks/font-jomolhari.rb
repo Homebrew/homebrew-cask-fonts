@@ -8,4 +8,6 @@ cask "font-jomolhari" do
   homepage "https://fonts.google.com/specimen/Jomolhari"
 
   font "Jomolhari-Regular.ttf"
+
+  # No zap stanza required
 end

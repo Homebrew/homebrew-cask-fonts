@@ -9,4 +9,6 @@ cask "font-noto-mono-for-powerline" do
   homepage "https://github.com/powerline/fonts/tree/master/NotoMono"
 
   font "Noto Mono for Powerline.ttf"
+
+  # No zap stanza required
 end

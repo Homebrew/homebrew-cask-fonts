@@ -9,4 +9,6 @@ cask "font-smooch" do
   homepage "https://fonts.google.com/specimen/Smooch"
 
   font "Smooch-Regular.ttf"
+
+  # No zap stanza required
 end

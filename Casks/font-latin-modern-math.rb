@@ -7,4 +7,6 @@ cask "font-latin-modern-math" do
   homepage "http://www.gust.org.pl/projects/e-foundry/lm-math"
 
   font "latinmodern-math-1959/otf/latinmodern-math.otf"
+
+  # No zap stanza required
 end

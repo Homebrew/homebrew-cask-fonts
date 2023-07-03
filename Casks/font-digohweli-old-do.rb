@@ -7,4 +7,6 @@ cask "font-digohweli-old-do" do
   homepage "https://www.languagegeek.com/font/fontdownload.html"
 
   font "OldDODigohweli.ttf"
+
+  # No zap stanza required
 end

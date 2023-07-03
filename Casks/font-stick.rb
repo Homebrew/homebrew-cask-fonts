@@ -9,4 +9,6 @@ cask "font-stick" do
   homepage "https://fonts.google.com/specimen/Stick"
 
   font "Stick-Regular.ttf"
+
+  # No zap stanza required
 end

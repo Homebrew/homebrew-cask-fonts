@@ -7,4 +7,6 @@ cask "font-bukyvede-italic" do
   homepage "https://kodeks.uni-bamberg.de/aksl/Schrift/BukyVede.htm"
 
   font "BukyVede-Italic.ttf"
+
+  # No zap stanza required
 end

@@ -14,4 +14,6 @@ cask "font-fandol" do
   font "fandol/FandolKai-Regular.otf"
   font "fandol/FandolSong-Bold.otf"
   font "fandol/FandolSong-Regular.otf"
+
+  # No zap stanza required
 end

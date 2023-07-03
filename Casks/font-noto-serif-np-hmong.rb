@@ -8,4 +8,6 @@ cask "font-noto-serif-np-hmong" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+NP+Hmong"
 
   font "NotoSerifNPHmong[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-suez-one" do
   homepage "https://fonts.google.com/specimen/Suez+One"
 
   font "SuezOne-Regular.ttf"
+
+  # No zap stanza required
 end

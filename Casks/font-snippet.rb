@@ -8,4 +8,6 @@ cask "font-snippet" do
   homepage "https://fonts.google.com/specimen/Snippet"
 
   font "Snippet.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-doppio-one" do
   homepage "https://fonts.google.com/specimen/Doppio+One"
 
   font "DoppioOne-Regular.ttf"
+
+  # No zap stanza required
 end

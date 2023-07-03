@@ -8,4 +8,6 @@ cask "font-cantata-one" do
   homepage "https://fonts.google.com/specimen/Cantata+One"
 
   font "CantataOne-Regular.ttf"
+
+  # No zap stanza required
 end

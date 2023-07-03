@@ -8,4 +8,6 @@ cask "font-monofett" do
   homepage "https://fonts.google.com/specimen/Monofett"
 
   font "Monofett-Regular.ttf"
+
+  # No zap stanza required
 end

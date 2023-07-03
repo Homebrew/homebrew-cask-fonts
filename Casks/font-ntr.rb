@@ -8,4 +8,6 @@ cask "font-ntr" do
   homepage "https://fonts.google.com/specimen/NTR"
 
   font "NTR-Regular.ttf"
+
+  # No zap stanza required
 end

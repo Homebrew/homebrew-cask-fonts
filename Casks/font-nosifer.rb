@@ -8,4 +8,6 @@ cask "font-nosifer" do
   homepage "https://fonts.google.com/specimen/Nosifer"
 
   font "Nosifer-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-graduate" do
   homepage "https://fonts.google.com/specimen/Graduate"
 
   font "Graduate-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -10,4 +10,6 @@ cask "font-tex-gyre-bonum" do
   font "texgyrebonum-bolditalic.otf"
   font "texgyrebonum-italic.otf"
   font "texgyrebonum-regular.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-flow-block" do
   homepage "https://fonts.google.com/specimen/Flow+Block"
 
   font "FlowBlock-Regular.ttf"
+
+  # No zap stanza required
 end

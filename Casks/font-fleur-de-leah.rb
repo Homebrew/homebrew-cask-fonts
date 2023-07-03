@@ -9,4 +9,6 @@ cask "font-fleur-de-leah" do
   homepage "https://fonts.google.com/specimen/Fleur+De+Leah"
 
   font "FleurDeLeah-Regular.ttf"
+
+  # No zap stanza required
 end

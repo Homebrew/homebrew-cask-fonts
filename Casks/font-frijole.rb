@@ -8,4 +8,6 @@ cask "font-frijole" do
   homepage "https://fonts.google.com/specimen/Frijole"
 
   font "Frijole-Regular.ttf"
+
+  # No zap stanza required
 end

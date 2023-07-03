@@ -11,4 +11,6 @@ cask "font-lusitana" do
 
   font "Lusitana-Bold.ttf"
   font "Lusitana-Regular.ttf"
+
+  # No zap stanza required
 end

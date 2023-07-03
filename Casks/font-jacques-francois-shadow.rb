@@ -8,4 +8,6 @@ cask "font-jacques-francois-shadow" do
   homepage "https://fonts.google.com/specimen/Jacques+Francois+Shadow"
 
   font "JacquesFrancoisShadow-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-vampiro-one" do
   homepage "https://fonts.google.com/specimen/Vampiro+One"
 
   font "VampiroOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -19,4 +19,6 @@ cask "font-inria" do
   font "InriaFonts-master/fonts/InriaSerif/OTF/InriaSerif-Light.otf"
   font "InriaFonts-master/fonts/InriaSerif/OTF/InriaSerif-LightItalic.otf"
   font "InriaFonts-master/fonts/InriaSerif/OTF/InriaSerif-Regular.otf"
+
+  # No zap stanza required
 end

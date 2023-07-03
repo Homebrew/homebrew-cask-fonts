@@ -9,4 +9,6 @@ cask "font-caramel" do
   homepage "https://fonts.google.com/specimen/Caramel"
 
   font "Caramel-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-oldenburg" do
   homepage "https://fonts.google.com/specimen/Oldenburg"
 
   font "Oldenburg-Regular.ttf"
+
+  # No zap stanza required
 end

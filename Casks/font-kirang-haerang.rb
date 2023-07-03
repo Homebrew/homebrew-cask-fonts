@@ -8,4 +8,6 @@ cask "font-kirang-haerang" do
   homepage "https://fonts.google.com/specimen/Kirang+Haerang"
 
   font "KirangHaerang-Regular.ttf"
+
+  # No zap stanza required
 end

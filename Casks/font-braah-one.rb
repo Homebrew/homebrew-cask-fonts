@@ -9,4 +9,6 @@ cask "font-braah-one" do
   homepage "https://fonts.google.com/specimen/Braah+One"
 
   font "BraahOne-Regular.ttf"
+
+  # No zap stanza required
 end

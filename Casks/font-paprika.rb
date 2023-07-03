@@ -8,4 +8,6 @@ cask "font-paprika" do
   homepage "https://fonts.google.com/specimen/Paprika"
 
   font "Paprika-Regular.ttf"
+
+  # No zap stanza required
 end

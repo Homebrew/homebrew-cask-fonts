@@ -8,4 +8,6 @@ cask "font-dela-gothic-one" do
   homepage "https://fonts.google.com/specimen/Dela+Gothic+One"
 
   font "DelaGothicOne-Regular.ttf"
+
+  # No zap stanza required
 end

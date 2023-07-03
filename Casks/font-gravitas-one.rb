@@ -8,4 +8,6 @@ cask "font-gravitas-one" do
   homepage "https://fonts.google.com/specimen/Gravitas+One"
 
   font "GravitasOne.ttf"
+
+  # No zap stanza required
 end

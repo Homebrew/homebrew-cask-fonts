@@ -8,4 +8,6 @@ cask "font-train-one" do
   homepage "https://fonts.google.com/specimen/Train+One"
 
   font "TrainOne-Regular.ttf"
+
+  # No zap stanza required
 end

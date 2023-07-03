@@ -8,4 +8,6 @@ cask "font-noto-sans-old-permic" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Old+Permic"
 
   font "NotoSansOldPermic-Regular.ttf"
+
+  # No zap stanza required
 end

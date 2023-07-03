@@ -8,4 +8,6 @@ cask "font-varta" do
   homepage "https://fonts.google.com/specimen/Varta"
 
   font "Varta[wght].ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-montserrat-subrayada" do
 
   font "MontserratSubrayada-Bold.ttf"
   font "MontserratSubrayada-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-bad-script" do
   homepage "https://fonts.google.com/specimen/Bad+Script"
 
   font "BadScript-Regular.ttf"
+
+  # No zap stanza required
 end

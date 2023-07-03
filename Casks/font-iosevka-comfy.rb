@@ -98,4 +98,6 @@ cask "font-iosevka-comfy" do
   font "iosevka-comfy-motion-duo/ttf/iosevka-comfy-motion-duo-lightitalic.ttf"
   font "iosevka-comfy-motion-duo/ttf/iosevka-comfy-motion-duo-bold.ttf"
   font "iosevka-comfy-motion-duo/ttf/iosevka-comfy-motion-duo-light.ttf"
+
+  # No zap stanza required
 end

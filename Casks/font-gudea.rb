@@ -12,4 +12,6 @@ cask "font-gudea" do
   font "Gudea-Bold.ttf"
   font "Gudea-Italic.ttf"
   font "Gudea-Regular.ttf"
+
+  # No zap stanza required
 end

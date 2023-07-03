@@ -8,4 +8,6 @@ cask "font-edlo" do
   homepage "https://ehamiter.github.io/Edlo/"
 
   font "edlo.ttf"
+
+  # No zap stanza required
 end

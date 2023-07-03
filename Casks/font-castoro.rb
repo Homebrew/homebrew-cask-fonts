@@ -12,4 +12,6 @@ cask "font-castoro" do
 
   font "Castoro-Italic.ttf"
   font "Castoro-Regular.ttf"
+
+  # No zap stanza required
 end

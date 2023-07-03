@@ -8,4 +8,6 @@ cask "font-shadows-into-light" do
   homepage "https://fonts.google.com/specimen/Shadows+Into+Light"
 
   font "ShadowsIntoLight.ttf"
+
+  # No zap stanza required
 end

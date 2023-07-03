@@ -9,4 +9,6 @@ cask "font-waptia" do
 
   font "waptia/Waptia-Light.otf"
   font "waptia/Waptia-Thin.otf"
+
+  # No zap stanza required
 end

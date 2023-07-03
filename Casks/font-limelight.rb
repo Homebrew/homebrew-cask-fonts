@@ -8,4 +8,6 @@ cask "font-limelight" do
   homepage "https://fonts.google.com/specimen/Limelight"
 
   font "Limelight-Regular.ttf"
+
+  # No zap stanza required
 end

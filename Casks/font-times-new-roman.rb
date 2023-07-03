@@ -10,4 +10,6 @@ cask "font-times-new-roman" do
   font "Timesbd.TTF"
   font "Timesbi.TTF"
   font "Timesi.TTF"
+
+  # No zap stanza required
 end

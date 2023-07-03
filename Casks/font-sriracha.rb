@@ -8,4 +8,6 @@ cask "font-sriracha" do
   homepage "https://fonts.google.com/specimen/Sriracha"
 
   font "Sriracha-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-milonga" do
   homepage "https://fonts.google.com/specimen/Milonga"
 
   font "Milonga-Regular.ttf"
+
+  # No zap stanza required
 end

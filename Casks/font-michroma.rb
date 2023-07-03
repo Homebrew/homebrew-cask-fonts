@@ -8,4 +8,6 @@ cask "font-michroma" do
   homepage "https://fonts.google.com/specimen/Michroma"
 
   font "Michroma-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-rokkitt-vf-beta" do
   homepage "https://fonts.google.com/specimen/Rokkitt+VF+Beta"
 
   font "RokkittVFBeta.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-genwanmin" do
   font "GenWanMin-M.ttc"
   font "GenWanMin-R.ttc"
   font "GenWanMin-SB.ttc"
+
+  # No zap stanza required
 end

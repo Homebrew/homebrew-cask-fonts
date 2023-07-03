@@ -12,4 +12,6 @@ cask "font-nanum-gothic" do
   font "NanumGothic-Bold.ttf"
   font "NanumGothic-ExtraBold.ttf"
   font "NanumGothic-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-whisper" do
   homepage "https://fonts.google.com/specimen/Whisper"
 
   font "Whisper-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-delius" do
   homepage "https://fonts.google.com/specimen/Delius"
 
   font "Delius-Regular.ttf"
+
+  # No zap stanza required
 end

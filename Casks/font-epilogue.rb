@@ -12,4 +12,6 @@ cask "font-epilogue" do
 
   font "Epilogue-Italic[wght].ttf"
   font "Epilogue[wght].ttf"
+
+  # No zap stanza required
 end

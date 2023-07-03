@@ -9,4 +9,6 @@ cask "font-noto-serif-ottoman-siyaq" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Ottoman+Siyaq"
 
   font "NotoSerifOttomanSiyaq-Regular.ttf"
+
+  # No zap stanza required
 end

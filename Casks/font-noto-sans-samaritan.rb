@@ -8,4 +8,6 @@ cask "font-noto-sans-samaritan" do
   homepage "https://www.google.com/get/noto/#sans-samr"
 
   font "NotoSansSamaritan-Regular.ttf"
+
+  # No zap stanza required
 end

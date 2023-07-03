@@ -9,4 +9,6 @@ cask "font-chenyuluoyan" do
   homepage "https://github.com/Chenyu-otf/chenyuluoyan_thin"
 
   font "ChenYuluoyan-Thin-Monospaced.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-qahiri" do
   homepage "https://fonts.google.com/specimen/Qahiri"
 
   font "Qahiri-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-combo" do
   homepage "https://fonts.google.com/specimen/Combo"
 
   font "Combo-Regular.ttf"
+
+  # No zap stanza required
 end

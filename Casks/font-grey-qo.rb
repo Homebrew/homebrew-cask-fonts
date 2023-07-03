@@ -8,4 +8,6 @@ cask "font-grey-qo" do
   homepage "https://fonts.google.com/specimen/Grey+Qo"
 
   font "GreyQo-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-pt-mono" do
 
   font "PTM55F.ttf"
   font "PTM75F.ttf"
+
+  # No zap stanza required
 end

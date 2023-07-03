@@ -8,4 +8,6 @@ cask "font-grenze-gotisch" do
   homepage "https://fonts.google.com/specimen/Grenze+Gotisch"
 
   font "GrenzeGotisch[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-keania-one" do
   homepage "https://fonts.google.com/specimen/Keania+One"
 
   font "KeaniaOne-Regular.ttf"
+
+  # No zap stanza required
 end

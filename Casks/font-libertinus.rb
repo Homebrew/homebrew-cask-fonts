@@ -21,4 +21,6 @@ cask "font-libertinus" do
   font "Libertinus-#{version}/static/OTF/LibertinusSerif-SemiboldItalic.otf"
   font "Libertinus-#{version}/static/OTF/LibertinusSerifDisplay-Regular.otf"
   font "Libertinus-#{version}/static/OTF/LibertinusSerifInitials-Regular.otf"
+
+  # No zap stanza required
 end

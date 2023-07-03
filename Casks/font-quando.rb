@@ -8,4 +8,6 @@ cask "font-quando" do
   homepage "https://fonts.google.com/specimen/Quando"
 
   font "Quando-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-mansalva" do
   homepage "https://fonts.google.com/specimen/Mansalva"
 
   font "Mansalva-Regular.ttf"
+
+  # No zap stanza required
 end

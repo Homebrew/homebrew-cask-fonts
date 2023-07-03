@@ -27,4 +27,6 @@ cask "font-montserrat-alternates" do
   font "MontserratAlternates-SemiBoldItalic.ttf"
   font "MontserratAlternates-Thin.ttf"
   font "MontserratAlternates-ThinItalic.ttf"
+
+  # No zap stanza required
 end

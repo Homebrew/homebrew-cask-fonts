@@ -8,4 +8,6 @@ cask "font-rubik-maze" do
   homepage "https://fonts.google.com/specimen/Rubik+Maze"
 
   font "RubikMaze-Regular.ttf"
+
+  # No zap stanza required
 end

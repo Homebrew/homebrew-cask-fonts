@@ -8,4 +8,6 @@ cask "font-emblema-one" do
   homepage "https://fonts.google.com/specimen/Emblema+One"
 
   font "EmblemaOne-Regular.ttf"
+
+  # No zap stanza required
 end

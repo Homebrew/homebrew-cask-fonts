@@ -8,4 +8,6 @@ cask "font-rancho" do
   homepage "https://fonts.google.com/specimen/Rancho"
 
   font "Rancho-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-pigmo01" do
   homepage "https://moji-waku.com/pigmo01/index.html"
 
   font "pigmo01/Pigmo-01.otf"
+
+  # No zap stanza required
 end

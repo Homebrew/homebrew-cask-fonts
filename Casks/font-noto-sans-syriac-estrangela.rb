@@ -8,4 +8,6 @@ cask "font-noto-sans-syriac-estrangela" do
   homepage "https://www.google.com/get/noto/#sans-syrc-estrangela"
 
   font "NotoSansSyriacEstrangela-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-gorditas" do
 
   font "Gorditas-Bold.ttf"
   font "Gorditas-Regular.ttf"
+
+  # No zap stanza required
 end

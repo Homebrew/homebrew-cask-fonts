@@ -8,4 +8,6 @@ cask "font-miltonian-tattoo" do
   homepage "https://fonts.google.com/specimen/Miltonian+Tattoo"
 
   font "MiltonianTattoo-Regular.ttf"
+
+  # No zap stanza required
 end

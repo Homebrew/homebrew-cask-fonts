@@ -8,4 +8,6 @@ cask "font-spirax" do
   homepage "https://fonts.google.com/specimen/Spirax"
 
   font "Spirax-Regular.ttf"
+
+  # No zap stanza required
 end

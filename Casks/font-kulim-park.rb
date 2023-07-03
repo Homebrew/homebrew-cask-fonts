@@ -19,4 +19,6 @@ cask "font-kulim-park" do
   font "KulimPark-Regular.ttf"
   font "KulimPark-SemiBold.ttf"
   font "KulimPark-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

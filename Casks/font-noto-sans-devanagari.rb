@@ -79,4 +79,6 @@ cask "font-noto-sans-devanagari" do
   font "NotoSansDevanagariUI-SemiCondensedSemiBold.ttf"
   font "NotoSansDevanagariUI-SemiCondensedThin.ttf"
   font "NotoSansDevanagariUI-Thin.ttf"
+
+  # No zap stanza required
 end

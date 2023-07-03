@@ -8,4 +8,6 @@ cask "font-squada-one" do
   homepage "https://fonts.google.com/specimen/Squada+One"
 
   font "SquadaOne-Regular.ttf"
+
+  # No zap stanza required
 end

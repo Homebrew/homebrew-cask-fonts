@@ -8,4 +8,6 @@ cask "font-cutive" do
   homepage "https://fonts.google.com/specimen/Cutive"
 
   font "Cutive-Regular.ttf"
+
+  # No zap stanza required
 end

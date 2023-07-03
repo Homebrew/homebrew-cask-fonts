@@ -8,4 +8,6 @@ cask "font-signika-negative" do
   homepage "https://fonts.google.com/specimen/Signika+Negative"
 
   font "SignikaNegative[wght].ttf"
+
+  # No zap stanza required
 end

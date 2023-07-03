@@ -8,4 +8,6 @@ cask "font-yesteryear" do
   homepage "https://fonts.google.com/specimen/Yesteryear"
 
   font "Yesteryear-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-mingzat" do
   homepage "https://fonts.google.com/specimen/Mingzat"
 
   font "Mingzat-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-noto-sans-masaram-gondi" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Masaram+Gondi"
 
   font "NotoSansMasaramGondi-Regular.ttf"
+
+  # No zap stanza required
 end

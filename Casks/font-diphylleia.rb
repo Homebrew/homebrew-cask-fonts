@@ -9,4 +9,6 @@ cask "font-diphylleia" do
   homepage "https://fonts.google.com/specimen/Diphylleia"
 
   font "Diphylleia-Regular.ttf"
+
+  # No zap stanza required
 end

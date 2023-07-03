@@ -8,4 +8,6 @@ cask "font-stalinist-one" do
   homepage "https://fonts.google.com/specimen/Stalinist+One"
 
   font "StalinistOne-Regular.ttf"
+
+  # No zap stanza required
 end

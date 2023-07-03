@@ -8,4 +8,6 @@ cask "font-mouse-memoirs" do
   homepage "https://fonts.google.com/specimen/Mouse+Memoirs"
 
   font "MouseMemoirs-Regular.ttf"
+
+  # No zap stanza required
 end

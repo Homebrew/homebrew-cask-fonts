@@ -18,4 +18,6 @@ cask "font-encode-sans-condensed" do
   font "EncodeSansCondensed-Regular.ttf"
   font "EncodeSansCondensed-SemiBold.ttf"
   font "EncodeSansCondensed-Thin.ttf"
+
+  # No zap stanza required
 end

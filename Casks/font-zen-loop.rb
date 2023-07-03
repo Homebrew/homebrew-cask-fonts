@@ -12,4 +12,6 @@ cask "font-zen-loop" do
 
   font "ZenLoop-Italic.ttf"
   font "ZenLoop-Regular.ttf"
+
+  # No zap stanza required
 end

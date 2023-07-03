@@ -8,4 +8,6 @@ cask "font-headland-one" do
   homepage "https://fonts.google.com/specimen/Headland+One"
 
   font "HeadlandOne-Regular.ttf"
+
+  # No zap stanza required
 end

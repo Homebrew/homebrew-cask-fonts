@@ -8,4 +8,6 @@ cask "font-sail" do
   homepage "https://fonts.google.com/specimen/Sail"
 
   font "Sail-Regular.ttf"
+
+  # No zap stanza required
 end

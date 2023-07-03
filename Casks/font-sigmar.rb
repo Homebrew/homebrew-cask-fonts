@@ -8,4 +8,6 @@ cask "font-sigmar" do
   homepage "https://fonts.google.com/specimen/Sigmar"
 
   font "Sigmar-Regular.ttf"
+
+  # No zap stanza required
 end

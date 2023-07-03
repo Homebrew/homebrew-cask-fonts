@@ -8,4 +8,6 @@ cask "font-poetsen-one" do
   homepage "https://fonts.google.com/specimen/Poetsen+One"
 
   font "PoetsenOne-Regular.ttf"
+
+  # No zap stanza required
 end

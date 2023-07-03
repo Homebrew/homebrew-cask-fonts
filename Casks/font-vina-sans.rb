@@ -8,4 +8,6 @@ cask "font-vina-sans" do
   homepage "https://fonts.google.com/specimen/Vina+Sans"
 
   font "VinaSans-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-eagle-lake" do
   homepage "https://fonts.google.com/specimen/Eagle+Lake"
 
   font "EagleLake-Regular.ttf"
+
+  # No zap stanza required
 end

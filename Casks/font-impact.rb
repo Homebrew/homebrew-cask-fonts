@@ -7,4 +7,6 @@ cask "font-impact" do
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
 
   font "Impact.TTF"
+
+  # No zap stanza required
 end

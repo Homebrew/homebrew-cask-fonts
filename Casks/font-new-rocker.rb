@@ -8,4 +8,6 @@ cask "font-new-rocker" do
   homepage "https://fonts.google.com/specimen/New+Rocker"
 
   font "NewRocker-Regular.ttf"
+
+  # No zap stanza required
 end

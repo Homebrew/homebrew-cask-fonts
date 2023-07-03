@@ -8,4 +8,6 @@ cask "font-noto-sans-cypriot" do
   homepage "https://www.google.com/get/noto/#sans-cprt"
 
   font "NotoSansCypriot-Regular.ttf"
+
+  # No zap stanza required
 end

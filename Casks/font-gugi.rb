@@ -8,4 +8,6 @@ cask "font-gugi" do
   homepage "https://fonts.google.com/specimen/Gugi"
 
   font "Gugi-Regular.ttf"
+
+  # No zap stanza required
 end

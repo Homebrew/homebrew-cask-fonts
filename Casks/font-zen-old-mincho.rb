@@ -15,4 +15,6 @@ cask "font-zen-old-mincho" do
   font "ZenOldMincho-Medium.ttf"
   font "ZenOldMincho-Regular.ttf"
   font "ZenOldMincho-SemiBold.ttf"
+
+  # No zap stanza required
 end

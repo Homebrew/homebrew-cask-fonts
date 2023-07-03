@@ -8,4 +8,6 @@ cask "font-slabo-13px" do
   homepage "https://fonts.google.com/specimen/Slabo+13px"
 
   font "Slabo13px-Regular.ttf"
+
+  # No zap stanza required
 end

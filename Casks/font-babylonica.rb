@@ -9,4 +9,6 @@ cask "font-babylonica" do
   homepage "https://fonts.google.com/specimen/Babylonica"
 
   font "Babylonica-Regular.ttf"
+
+  # No zap stanza required
 end

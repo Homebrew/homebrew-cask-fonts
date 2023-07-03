@@ -9,4 +9,6 @@ cask "font-smiley-sans" do
   homepage "https://atelier-anchor.com/typefaces/smiley-sans/"
 
   font "SmileySans-Oblique.ttf"
+
+  # No zap stanza required
 end

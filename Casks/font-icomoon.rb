@@ -8,4 +8,6 @@ cask "font-icomoon" do
   homepage "https://icomoon.io/"
 
   font "IcoMoon-Free-master/Font/IcoMoon-Free.ttf"
+
+  # No zap stanza required
 end

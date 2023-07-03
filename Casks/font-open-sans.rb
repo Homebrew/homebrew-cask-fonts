@@ -11,4 +11,6 @@ cask "font-open-sans" do
 
   font "OpenSans-Italic[wdth,wght].ttf"
   font "OpenSans[wdth,wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-strong" do
   homepage "https://fonts.google.com/specimen/Strong"
 
   font "Strong-Regular.ttf"
+
+  # No zap stanza required
 end

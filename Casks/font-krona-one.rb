@@ -8,4 +8,6 @@ cask "font-krona-one" do
   homepage "https://fonts.google.com/specimen/Krona+One"
 
   font "KronaOne-Regular.ttf"
+
+  # No zap stanza required
 end

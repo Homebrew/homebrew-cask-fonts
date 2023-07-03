@@ -10,4 +10,6 @@ cask "font-terminus" do
   font "terminus-ttf-#{version}/TerminusTTF-Bold-#{version}.ttf"
   font "terminus-ttf-#{version}/TerminusTTF-Italic-#{version}.ttf"
   font "terminus-ttf-#{version}/TerminusTTF-Bold Italic-#{version}.ttf"
+
+  # No zap stanza required
 end

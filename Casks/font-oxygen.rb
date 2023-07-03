@@ -12,4 +12,6 @@ cask "font-oxygen" do
   font "Oxygen-Bold.ttf"
   font "Oxygen-Light.ttf"
   font "Oxygen-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -13,4 +13,6 @@ cask "font-farro" do
   font "Farro-Light.ttf"
   font "Farro-Medium.ttf"
   font "Farro-Regular.ttf"
+
+  # No zap stanza required
 end

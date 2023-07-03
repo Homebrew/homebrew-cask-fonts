@@ -8,4 +8,6 @@ cask "font-grand-hotel" do
   homepage "https://fonts.google.com/specimen/Grand+Hotel"
 
   font "GrandHotel-Regular.ttf"
+
+  # No zap stanza required
 end

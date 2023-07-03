@@ -12,4 +12,6 @@ cask "font-lekton" do
   font "Lekton-Bold.ttf"
   font "Lekton-Italic.ttf"
   font "Lekton-Regular.ttf"
+
+  # No zap stanza required
 end

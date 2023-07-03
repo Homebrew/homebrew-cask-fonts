@@ -8,4 +8,6 @@ cask "font-seymour-one" do
   homepage "https://fonts.google.com/specimen/Seymour+One"
 
   font "SeymourOne-Regular.ttf"
+
+  # No zap stanza required
 end

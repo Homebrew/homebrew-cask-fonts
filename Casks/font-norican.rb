@@ -8,4 +8,6 @@ cask "font-norican" do
   homepage "https://fonts.google.com/specimen/Norican"
 
   font "Norican-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-fugaz-one" do
   homepage "https://fonts.google.com/specimen/Fugaz+One"
 
   font "FugazOne-Regular.ttf"
+
+  # No zap stanza required
 end

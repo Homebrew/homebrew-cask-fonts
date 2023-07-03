@@ -11,4 +11,6 @@ cask "font-new-york" do
   pkg "NY Fonts.pkg"
 
   uninstall pkgutil: "com.apple.pkg.NYFonts"
+
+  # No zap stanza required
 end

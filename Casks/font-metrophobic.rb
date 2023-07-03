@@ -8,4 +8,6 @@ cask "font-metrophobic" do
   homepage "https://fonts.google.com/specimen/Metrophobic"
 
   font "Metrophobic-Regular.ttf"
+
+  # No zap stanza required
 end

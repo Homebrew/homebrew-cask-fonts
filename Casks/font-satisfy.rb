@@ -8,4 +8,6 @@ cask "font-satisfy" do
   homepage "https://fonts.google.com/specimen/Satisfy"
 
   font "Satisfy-Regular.ttf"
+
+  # No zap stanza required
 end

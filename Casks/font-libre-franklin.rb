@@ -24,4 +24,6 @@ cask "font-libre-franklin" do
   font "Libre-Franklin-master/fonts/OTF/LibreFranklin-SemiBoldItalic.otf"
   font "Libre-Franklin-master/fonts/OTF/LibreFranklin-Thin.otf"
   font "Libre-Franklin-master/fonts/OTF/LibreFranklin-ThinItalic.otf"
+
+  # No zap stanza required
 end

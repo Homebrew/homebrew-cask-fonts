@@ -8,4 +8,6 @@ cask "font-inconsolata-g" do
   homepage "https://leonardo-m.livejournal.com/77079.html"
 
   font "Inconsolata-g.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-noto-sans-old-hungarian" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Old+Hungarian"
 
   font "NotoSansOldHungarian-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-yrsa" do
 
   font "Yrsa-Italic[wght].ttf"
   font "Yrsa[wght].ttf"
+
+  # No zap stanza required
 end

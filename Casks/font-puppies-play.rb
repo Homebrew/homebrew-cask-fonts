@@ -9,4 +9,6 @@ cask "font-puppies-play" do
   homepage "https://fonts.google.com/specimen/Puppies+Play"
 
   font "PuppiesPlay-Regular.ttf"
+
+  # No zap stanza required
 end

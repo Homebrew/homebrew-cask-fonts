@@ -9,4 +9,6 @@ cask "font-shalimar" do
   homepage "https://fonts.google.com/specimen/Shalimar"
 
   font "Shalimar-Regular.ttf"
+
+  # No zap stanza required
 end

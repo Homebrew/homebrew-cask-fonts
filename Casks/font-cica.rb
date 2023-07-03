@@ -10,4 +10,6 @@ cask "font-cica" do
   font "Cica-BoldItalic.ttf"
   font "Cica-Regular.ttf"
   font "Cica-RegularItalic.ttf"
+
+  # No zap stanza required
 end

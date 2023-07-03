@@ -7,4 +7,6 @@ cask "font-n-gage" do
   homepage "https://www.dafont.com/n-gage.font"
 
   font "N-Gage.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-ballet" do
   homepage "https://fonts.google.com/specimen/Ballet"
 
   font "Ballet[opsz].ttf"
+
+  # No zap stanza required
 end

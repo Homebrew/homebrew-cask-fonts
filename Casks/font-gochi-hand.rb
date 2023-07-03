@@ -8,4 +8,6 @@ cask "font-gochi-hand" do
   homepage "https://fonts.google.com/specimen/Gochi+Hand"
 
   font "GochiHand-Regular.ttf"
+
+  # No zap stanza required
 end

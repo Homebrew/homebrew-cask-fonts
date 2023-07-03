@@ -16,4 +16,6 @@ cask "font-maple" do
   font "ttf/MapleMono-BoldItalic.ttf"
   font "ttf/MapleMono-Italic.ttf"
   font "ttf/MapleMono-Regular.ttf"
+
+  # No zap stanza required
 end

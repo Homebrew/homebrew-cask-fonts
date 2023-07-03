@@ -8,4 +8,6 @@ cask "font-petit-formal-script" do
   homepage "https://fonts.google.com/specimen/Petit+Formal+Script"
 
   font "PetitFormalScript-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-unkempt" do
 
   font "Unkempt-Bold.ttf"
   font "Unkempt-Regular.ttf"
+
+  # No zap stanza required
 end

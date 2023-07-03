@@ -8,4 +8,6 @@ cask "font-last-resort-high-efficiency" do
   homepage "https://github.com/unicode-org/last-resort-font"
 
   font "LastResortHE-Regular.ttf"
+
+  # No zap stanza required
 end

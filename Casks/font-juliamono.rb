@@ -23,4 +23,6 @@ cask "font-juliamono" do
   font "JuliaMono-RegularLatin.ttf"
   font "JuliaMono-SemiBold.ttf"
   font "JuliaMono-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

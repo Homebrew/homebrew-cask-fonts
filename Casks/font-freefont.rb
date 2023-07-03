@@ -18,4 +18,6 @@ cask "font-freefont" do
   font "freefont-#{version}/FreeSerifBold.otf"
   font "freefont-#{version}/FreeSerifBoldItalic.otf"
   font "freefont-#{version}/FreeSerifItalic.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-mystery-quest" do
   homepage "https://fonts.google.com/specimen/Mystery+Quest"
 
   font "MysteryQuest-Regular.ttf"
+
+  # No zap stanza required
 end

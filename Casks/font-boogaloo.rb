@@ -8,4 +8,6 @@ cask "font-boogaloo" do
   homepage "https://fonts.google.com/specimen/Boogaloo"
 
   font "Boogaloo-Regular.ttf"
+
+  # No zap stanza required
 end

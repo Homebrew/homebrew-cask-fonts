@@ -8,4 +8,6 @@ cask "font-mochiy-pop-p-one" do
   homepage "https://fonts.google.com/specimen/Mochiy+Pop+P+One"
 
   font "MochiyPopPOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-jolly-lodger" do
   homepage "https://fonts.google.com/specimen/Jolly+Lodger"
 
   font "JollyLodger-Regular.ttf"
+
+  # No zap stanza required
 end

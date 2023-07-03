@@ -11,4 +11,6 @@ cask "font-srisakdi" do
 
   font "Srisakdi-Bold.ttf"
   font "Srisakdi-Regular.ttf"
+
+  # No zap stanza required
 end

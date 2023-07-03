@@ -11,4 +11,6 @@ cask "font-phetsarath" do
 
   font "Phetsarath-Bold.ttf"
   font "Phetsarath-Regular.ttf"
+
+  # No zap stanza required
 end

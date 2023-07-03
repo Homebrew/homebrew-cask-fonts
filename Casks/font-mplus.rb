@@ -49,4 +49,6 @@ cask "font-mplus" do
   font "mplus-TESTFLIGHT-#{version}/mplus-2p-medium.ttf"
   font "mplus-TESTFLIGHT-#{version}/mplus-2p-regular.ttf"
   font "mplus-TESTFLIGHT-#{version}/mplus-2p-thin.ttf"
+
+  # No zap stanza required
 end

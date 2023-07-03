@@ -10,4 +10,6 @@ cask "font-tex-gyre-pagella" do
   font "qpl#{version.dots_to_underscores}otf/texgyrepagella-bolditalic.otf"
   font "qpl#{version.dots_to_underscores}otf/texgyrepagella-italic.otf"
   font "qpl#{version.dots_to_underscores}otf/texgyrepagella-regular.otf"
+
+  # No zap stanza required
 end

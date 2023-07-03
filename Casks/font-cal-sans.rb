@@ -8,4 +8,6 @@ cask "font-cal-sans" do
   homepage "https://github.com/calcom/font"
 
   font "fonts/otf/CalSans-SemiBold.otf"
+
+  # No zap stanza required
 end

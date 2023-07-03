@@ -12,4 +12,6 @@ cask "font-tiro-kannada" do
 
   font "TiroKannada-Italic.ttf"
   font "TiroKannada-Regular.ttf"
+
+  # No zap stanza required
 end

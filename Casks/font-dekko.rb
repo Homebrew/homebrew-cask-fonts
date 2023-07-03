@@ -8,4 +8,6 @@ cask "font-dekko" do
   homepage "https://fonts.google.com/specimen/Dekko"
 
   font "Dekko-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-escumasia" do
   homepage "https://moji-waku.com/escumasia/index.html"
 
   font "escumasia/Escumasia-Regular.otf"
+
+  # No zap stanza required
 end

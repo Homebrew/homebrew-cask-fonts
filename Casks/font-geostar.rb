@@ -8,4 +8,6 @@ cask "font-geostar" do
   homepage "https://fonts.google.com/specimen/Geostar"
 
   font "Geostar-Regular.ttf"
+
+  # No zap stanza required
 end

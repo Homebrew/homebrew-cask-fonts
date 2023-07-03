@@ -8,4 +8,6 @@ cask "font-concert-one" do
   homepage "https://fonts.google.com/specimen/Concert+One"
 
   font "ConcertOne-Regular.ttf"
+
+  # No zap stanza required
 end

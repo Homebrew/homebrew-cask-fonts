@@ -8,4 +8,6 @@ cask "font-porter-sans-block" do
   homepage "https://fonts.google.com/specimen/Porter+Sans+Block"
 
   font "PorterSansBlock-Regular.ttf"
+
+  # No zap stanza required
 end

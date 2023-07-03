@@ -8,4 +8,6 @@ cask "font-dashicons" do
   homepage "https://developer.wordpress.org/resource/dashicons"
 
   font "dashicons.ttf"
+
+  # No zap stanza required
 end

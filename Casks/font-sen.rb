@@ -12,4 +12,6 @@ cask "font-sen" do
   font "Sen-Bold.ttf"
   font "Sen-ExtraBold.ttf"
   font "Sen-Regular.ttf"
+
+  # No zap stanza required
 end

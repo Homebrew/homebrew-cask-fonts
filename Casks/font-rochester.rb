@@ -8,4 +8,6 @@ cask "font-rochester" do
   homepage "https://fonts.google.com/specimen/Rochester"
 
   font "Rochester-Regular.ttf"
+
+  # No zap stanza required
 end

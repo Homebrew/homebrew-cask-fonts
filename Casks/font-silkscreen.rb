@@ -12,4 +12,6 @@ cask "font-silkscreen" do
 
   font "Silkscreen-Bold.ttf"
   font "Silkscreen-Regular.ttf"
+
+  # No zap stanza required
 end

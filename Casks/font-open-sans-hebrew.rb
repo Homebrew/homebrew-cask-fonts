@@ -17,4 +17,6 @@ cask "font-open-sans-hebrew" do
   font "OpenSansHebrew-Light.ttf"
   font "OpenSansHebrew-LightItalic.ttf"
   font "OpenSansHebrew-Regular.ttf"
+
+  # No zap stanza required
 end

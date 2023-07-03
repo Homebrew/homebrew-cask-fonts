@@ -8,4 +8,6 @@ cask "font-noto-serif-gurmukhi" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Gurmukhi"
 
   font "NotoSerifGurmukhi[wght].ttf"
+
+  # No zap stanza required
 end

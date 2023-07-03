@@ -11,4 +11,6 @@ cask "font-faustina" do
 
   font "Faustina-Italic[wght].ttf"
   font "Faustina[wght].ttf"
+
+  # No zap stanza required
 end

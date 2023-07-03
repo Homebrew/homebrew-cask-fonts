@@ -8,4 +8,6 @@ cask "font-homemade-apple" do
   homepage "https://fonts.google.com/specimen/Homemade+Apple"
 
   font "HomemadeApple-Regular.ttf"
+
+  # No zap stanza required
 end

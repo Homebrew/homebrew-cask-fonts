@@ -8,4 +8,6 @@ cask "font-blaka-hollow" do
   homepage "https://fonts.google.com/specimen/Blaka+Hollow"
 
   font "BlakaHollow-Regular.ttf"
+
+  # No zap stanza required
 end

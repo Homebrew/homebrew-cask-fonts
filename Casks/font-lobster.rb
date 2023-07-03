@@ -8,4 +8,6 @@ cask "font-lobster" do
   homepage "https://fonts.google.com/specimen/Lobster"
 
   font "Lobster-Regular.ttf"
+
+  # No zap stanza required
 end

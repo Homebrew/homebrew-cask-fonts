@@ -16,4 +16,6 @@ cask "font-ibm-plex-sans-thai-looped" do
   font "IBMPlexSansThaiLooped-Regular.ttf"
   font "IBMPlexSansThaiLooped-SemiBold.ttf"
   font "IBMPlexSansThaiLooped-Thin.ttf"
+
+  # No zap stanza required
 end

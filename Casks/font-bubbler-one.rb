@@ -8,4 +8,6 @@ cask "font-bubbler-one" do
   homepage "https://fonts.google.com/specimen/Bubbler+One"
 
   font "BubblerOne-Regular.ttf"
+
+  # No zap stanza required
 end

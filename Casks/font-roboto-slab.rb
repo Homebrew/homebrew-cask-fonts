@@ -8,4 +8,6 @@ cask "font-roboto-slab" do
   homepage "https://fonts.google.com/specimen/Roboto+Slab"
 
   font "RobotoSlab[wght].ttf"
+
+  # No zap stanza required
 end

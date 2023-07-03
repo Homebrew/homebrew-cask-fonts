@@ -8,4 +8,6 @@ cask "font-bilbo-swash-caps" do
   homepage "https://fonts.google.com/specimen/Bilbo+Swash+Caps"
 
   font "BilboSwashCaps-Regular.ttf"
+
+  # No zap stanza required
 end

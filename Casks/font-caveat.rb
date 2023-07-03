@@ -8,4 +8,6 @@ cask "font-caveat" do
   homepage "https://fonts.google.com/specimen/Caveat"
 
   font "Caveat[wght].ttf"
+
+  # No zap stanza required
 end

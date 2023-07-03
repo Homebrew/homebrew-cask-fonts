@@ -15,4 +15,6 @@ cask "font-crimson-text" do
   font "CrimsonText-Regular.ttf"
   font "CrimsonText-SemiBold.ttf"
   font "CrimsonText-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

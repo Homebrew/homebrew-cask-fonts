@@ -8,4 +8,6 @@ cask "font-seaweed-script" do
   homepage "https://fonts.google.com/specimen/Seaweed+Script"
 
   font "SeaweedScript-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-kumar-one" do
   homepage "https://fonts.google.com/specimen/Kumar+One"
 
   font "KumarOne-Regular.ttf"
+
+  # No zap stanza required
 end

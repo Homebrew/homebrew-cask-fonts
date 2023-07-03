@@ -8,4 +8,6 @@ cask "font-overlock-sc" do
   homepage "https://fonts.google.com/specimen/Overlock+SC"
 
   font "OverlockSC-Regular.ttf"
+
+  # No zap stanza required
 end

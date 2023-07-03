@@ -8,4 +8,6 @@ cask "font-marcellus-sc" do
   homepage "https://fonts.google.com/specimen/Marcellus+SC"
 
   font "MarcellusSC-Regular.ttf"
+
+  # No zap stanza required
 end

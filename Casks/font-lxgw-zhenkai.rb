@@ -9,4 +9,6 @@ cask "font-lxgw-zhenkai" do
   homepage "https://github.com/lxgw/LxgwZhenKai"
 
   font "LXGWZhenKai.ttf"
+
+  # No zap stanza required
 end

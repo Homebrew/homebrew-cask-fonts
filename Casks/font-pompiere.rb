@@ -8,4 +8,6 @@ cask "font-pompiere" do
   homepage "https://fonts.google.com/specimen/Pompiere"
 
   font "Pompiere-Regular.ttf"
+
+  # No zap stanza required
 end

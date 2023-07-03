@@ -8,4 +8,6 @@ cask "font-constructium" do
   homepage "https://www.kreativekorp.com/software/fonts/constructium.shtml"
 
   font "Constructium.ttf"
+
+  # No zap stanza required
 end

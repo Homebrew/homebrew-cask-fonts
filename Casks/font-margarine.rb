@@ -8,4 +8,6 @@ cask "font-margarine" do
   homepage "https://fonts.google.com/specimen/Margarine"
 
   font "Margarine-Regular.ttf"
+
+  # No zap stanza required
 end

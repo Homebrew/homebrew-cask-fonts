@@ -8,4 +8,6 @@ cask "font-noto-sans-mongolian" do
   homepage "https://www.google.com/get/noto/#sans-mong"
 
   font "NotoSansMongolian-Regular.ttf"
+
+  # No zap stanza required
 end

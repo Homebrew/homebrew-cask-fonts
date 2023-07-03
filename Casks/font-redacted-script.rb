@@ -12,4 +12,6 @@ cask "font-redacted-script" do
   font "RedactedScript-Bold.ttf"
   font "RedactedScript-Light.ttf"
   font "RedactedScript-Regular.ttf"
+
+  # No zap stanza required
 end

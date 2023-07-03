@@ -8,4 +8,6 @@ cask "font-crushed" do
   homepage "https://fonts.google.com/specimen/Crushed"
 
   font "Crushed-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -79,4 +79,6 @@ cask "font-noto-sans-thai" do
   font "NotoSansThaiUI-SemiCondensedSemiBold.ttf"
   font "NotoSansThaiUI-SemiCondensedThin.ttf"
   font "NotoSansThaiUI-Thin.ttf"
+
+  # No zap stanza required
 end

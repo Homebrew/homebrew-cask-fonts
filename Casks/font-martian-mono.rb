@@ -35,4 +35,6 @@ cask "font-martian-mono" do
   font "MartianMono-sWdTh.otf"
   font "MartianMono-sWdxBd.otf"
   font "MartianMono-sWdxLt.otf"
+
+  # No zap stanza required
 end

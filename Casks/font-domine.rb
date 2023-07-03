@@ -8,4 +8,6 @@ cask "font-domine" do
   homepage "https://fonts.google.com/specimen/Domine"
 
   font "Domine[wght].ttf"
+
+  # No zap stanza required
 end

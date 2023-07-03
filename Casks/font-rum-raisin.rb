@@ -8,4 +8,6 @@ cask "font-rum-raisin" do
   homepage "https://fonts.google.com/specimen/Rum+Raisin"
 
   font "RumRaisin-Regular.ttf"
+
+  # No zap stanza required
 end

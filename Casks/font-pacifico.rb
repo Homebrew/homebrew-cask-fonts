@@ -8,4 +8,6 @@ cask "font-pacifico" do
   homepage "https://fonts.google.com/specimen/Pacifico"
 
   font "Pacifico-Regular.ttf"
+
+  # No zap stanza required
 end

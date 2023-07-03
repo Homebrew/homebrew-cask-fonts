@@ -21,4 +21,6 @@ cask "font-sarasa-gothic" do
   font "sarasa-regular.ttc"
   font "sarasa-semibold.ttc"
   font "sarasa-semibolditalic.ttc"
+
+  # No zap stanza required
 end

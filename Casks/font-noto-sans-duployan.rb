@@ -11,4 +11,6 @@ cask "font-noto-sans-duployan" do
 
   font "NotoSansDuployan-Bold.ttf"
   font "NotoSansDuployan-Regular.ttf"
+
+  # No zap stanza required
 end

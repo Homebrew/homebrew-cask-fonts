@@ -17,4 +17,6 @@ cask "font-stix" do
   font "stixfonts-#{version}/fonts/static_otf/STIXTwoText-Regular.otf"
   font "stixfonts-#{version}/fonts/static_otf/STIXTwoText-SemiBold.otf"
   font "stixfonts-#{version}/fonts/static_otf/STIXTwoText-SemiBoldItalic.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-roboto-flex" do
   homepage "https://fonts.google.com/specimen/Roboto+Flex"
 
   font "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf"
+
+  # No zap stanza required
 end

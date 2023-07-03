@@ -12,4 +12,6 @@ cask "font-pathway-extreme" do
 
   font "PathwayExtreme-Italic[opsz,wdth,wght].ttf"
   font "PathwayExtreme[opsz,wdth,wght].ttf"
+
+  # No zap stanza required
 end

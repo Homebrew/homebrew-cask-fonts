@@ -9,4 +9,6 @@ cask "font-cherish" do
   homepage "https://fonts.google.com/specimen/Cherish"
 
   font "Cherish-Regular.ttf"
+
+  # No zap stanza required
 end

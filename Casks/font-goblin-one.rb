@@ -8,4 +8,6 @@ cask "font-goblin-one" do
   homepage "https://fonts.google.com/specimen/Goblin+One"
 
   font "GoblinOne.ttf"
+
+  # No zap stanza required
 end

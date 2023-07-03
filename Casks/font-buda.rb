@@ -8,4 +8,6 @@ cask "font-buda" do
   homepage "https://fonts.google.com/specimen/Buda"
 
   font "Buda-Light.ttf"
+
+  # No zap stanza required
 end

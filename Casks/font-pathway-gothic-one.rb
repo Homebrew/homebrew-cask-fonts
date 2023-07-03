@@ -8,4 +8,6 @@ cask "font-pathway-gothic-one" do
   homepage "https://fonts.google.com/specimen/Pathway+Gothic+One"
 
   font "PathwayGothicOne-Regular.ttf"
+
+  # No zap stanza required
 end

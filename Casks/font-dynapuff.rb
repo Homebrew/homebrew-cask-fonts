@@ -8,4 +8,6 @@ cask "font-dynapuff" do
   homepage "https://fonts.google.com/specimen/DynaPuff"
 
   font "DynaPuff[wdth,wght].ttf"
+
+  # No zap stanza required
 end

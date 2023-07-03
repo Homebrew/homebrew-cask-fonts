@@ -8,4 +8,6 @@ cask "font-swanky-and-moo-moo" do
   homepage "https://fonts.google.com/specimen/Swanky+and+Moo+Moo"
 
   font "SwankyandMooMoo.ttf"
+
+  # No zap stanza required
 end

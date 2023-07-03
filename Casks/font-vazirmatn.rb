@@ -9,4 +9,6 @@ cask "font-vazirmatn" do
   homepage "https://fonts.google.com/specimen/Vazirmatn"
 
   font "Vazirmatn[wght].ttf"
+
+  # No zap stanza required
 end

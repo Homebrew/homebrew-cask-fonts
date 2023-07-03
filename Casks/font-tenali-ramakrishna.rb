@@ -8,4 +8,6 @@ cask "font-tenali-ramakrishna" do
   homepage "https://fonts.google.com/specimen/Tenali+Ramakrishna"
 
   font "TenaliRamakrishna-Regular.ttf"
+
+  # No zap stanza required
 end

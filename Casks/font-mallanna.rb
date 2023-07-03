@@ -8,4 +8,6 @@ cask "font-mallanna" do
   homepage "https://fonts.google.com/specimen/Mallanna"
 
   font "Mallanna-Regular.ttf"
+
+  # No zap stanza required
 end

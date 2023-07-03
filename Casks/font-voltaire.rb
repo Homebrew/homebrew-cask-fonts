@@ -8,4 +8,6 @@ cask "font-voltaire" do
   homepage "https://fonts.google.com/specimen/Voltaire"
 
   font "Voltaire-Regular.ttf"
+
+  # No zap stanza required
 end

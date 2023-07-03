@@ -9,4 +9,6 @@ cask "font-museo" do
 
   font "Museo300-Regular.otf"
   font "Museo700-Regular.otf"
+
+  # No zap stanza required
 end

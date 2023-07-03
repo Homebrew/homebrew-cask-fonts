@@ -8,4 +8,6 @@ cask "font-ledger" do
   homepage "https://fonts.google.com/specimen/Ledger"
 
   font "Ledger-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -13,4 +13,6 @@ cask "font-harmattan" do
   font "Harmattan-Medium.ttf"
   font "Harmattan-Regular.ttf"
   font "Harmattan-SemiBold.ttf"
+
+  # No zap stanza required
 end

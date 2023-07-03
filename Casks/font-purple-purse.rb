@@ -8,4 +8,6 @@ cask "font-purple-purse" do
   homepage "https://fonts.google.com/specimen/Purple+Purse"
 
   font "PurplePurse-Regular.ttf"
+
+  # No zap stanza required
 end

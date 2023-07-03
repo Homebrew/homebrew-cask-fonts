@@ -8,4 +8,6 @@ cask "font-trade-winds" do
   homepage "https://fonts.google.com/specimen/Trade+Winds"
 
   font "TradeWinds-Regular.ttf"
+
+  # No zap stanza required
 end

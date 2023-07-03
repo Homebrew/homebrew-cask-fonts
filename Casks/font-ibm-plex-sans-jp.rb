@@ -16,4 +16,6 @@ cask "font-ibm-plex-sans-jp" do
   font "IBMPlexSansJP-Regular.ttf"
   font "IBMPlexSansJP-SemiBold.ttf"
   font "IBMPlexSansJP-Thin.ttf"
+
+  # No zap stanza required
 end

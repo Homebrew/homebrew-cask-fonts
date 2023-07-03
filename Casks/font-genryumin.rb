@@ -13,4 +13,6 @@ cask "font-genryumin" do
   font "GenRyuMin-M.ttc"
   font "GenRyuMin-R.ttc"
   font "GenRyuMin-SB.ttc"
+
+  # No zap stanza required
 end

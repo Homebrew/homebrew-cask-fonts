@@ -8,4 +8,6 @@ cask "font-bigelow-rules" do
   homepage "https://fonts.google.com/specimen/Bigelow+Rules"
 
   font "BigelowRules-Regular.ttf"
+
+  # No zap stanza required
 end

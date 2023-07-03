@@ -8,4 +8,6 @@ cask "font-engagement" do
   homepage "https://fonts.google.com/specimen/Engagement"
 
   font "Engagement-Regular.ttf"
+
+  # No zap stanza required
 end

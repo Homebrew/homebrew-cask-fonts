@@ -9,4 +9,6 @@ cask "font-noto-serif-hk" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+HK"
 
   font "NotoSerifHK[wght].ttf"
+
+  # No zap stanza required
 end

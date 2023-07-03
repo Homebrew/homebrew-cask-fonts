@@ -15,4 +15,6 @@ cask "font-playfair-display-sc" do
   font "PlayfairDisplaySC-BoldItalic.ttf"
   font "PlayfairDisplaySC-Italic.ttf"
   font "PlayfairDisplaySC-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -7,4 +7,6 @@ cask "font-iranian-serif" do
   homepage "https://fontlibrary.org/en/font/iranian-serif"
 
   font "irseri.ttf"
+
+  # No zap stanza required
 end

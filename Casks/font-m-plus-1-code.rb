@@ -8,4 +8,6 @@ cask "font-m-plus-1-code" do
   homepage "https://fonts.google.com/specimen/M+PLUS+1+Code"
 
   font "MPLUS1Code[wght].ttf"
+
+  # No zap stanza required
 end

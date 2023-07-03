@@ -9,4 +9,6 @@ cask "font-love-light" do
   homepage "https://fonts.google.com/specimen/Love+Light"
 
   font "LoveLight-Regular.ttf"
+
+  # No zap stanza required
 end

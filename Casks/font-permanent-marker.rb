@@ -8,4 +8,6 @@ cask "font-permanent-marker" do
   homepage "https://fonts.google.com/specimen/Permanent+Marker"
 
   font "PermanentMarker-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-nova-flat" do
   homepage "https://fonts.google.com/specimen/Nova+Flat"
 
   font "NovaFlat.ttf"
+
+  # No zap stanza required
 end

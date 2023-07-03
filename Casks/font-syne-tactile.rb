@@ -9,4 +9,6 @@ cask "font-syne-tactile" do
   homepage "https://fonts.google.com/specimen/Syne+Tactile"
 
   font "SyneTactile-Regular.ttf"
+
+  # No zap stanza required
 end

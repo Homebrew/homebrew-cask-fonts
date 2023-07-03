@@ -11,4 +11,6 @@ cask "font-pt-sans-narrow" do
 
   font "PT_Sans-Narrow-Web-Bold.ttf"
   font "PT_Sans-Narrow-Web-Regular.ttf"
+
+  # No zap stanza required
 end

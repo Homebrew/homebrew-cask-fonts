@@ -132,4 +132,6 @@ cask "font-ibm-plex" do
   font "OpenType/IBM-Plex-Serif/IBMPlexSerif-TextItalic.otf"
   font "OpenType/IBM-Plex-Serif/IBMPlexSerif-Thin.otf"
   font "OpenType/IBM-Plex-Serif/IBMPlexSerif-ThinItalic.otf"
+
+  # No zap stanza required
 end

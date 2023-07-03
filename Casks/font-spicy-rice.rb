@@ -8,4 +8,6 @@ cask "font-spicy-rice" do
   homepage "https://fonts.google.com/specimen/Spicy+Rice"
 
   font "SpicyRice-Regular.ttf"
+
+  # No zap stanza required
 end

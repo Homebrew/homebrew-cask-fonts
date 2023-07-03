@@ -8,4 +8,6 @@ cask "font-outfit" do
   homepage "https://fonts.google.com/specimen/Outfit"
 
   font "Outfit[wght].ttf"
+
+  # No zap stanza required
 end

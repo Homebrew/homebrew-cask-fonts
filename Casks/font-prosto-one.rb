@@ -8,4 +8,6 @@ cask "font-prosto-one" do
   homepage "https://fonts.google.com/specimen/Prosto+One"
 
   font "ProstoOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -19,4 +19,6 @@ cask "font-im-fell-types" do
   font "IMFePIit29C.otf"
   font "IMFePIrm29C.otf"
   font "IMFeTLrm29C.otf"
+
+  # No zap stanza required
 end

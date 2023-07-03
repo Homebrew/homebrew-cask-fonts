@@ -23,4 +23,6 @@ cask "font-udev-gothic-nf" do
   font "UDEVGothic_NF_v#{version}/UDEVGothicNFLG-BoldItalic.ttf"
   font "UDEVGothic_NF_v#{version}/UDEVGothicNFLG-Italic.ttf"
   font "UDEVGothic_NF_v#{version}/UDEVGothicNFLG-Regular.ttf"
+
+  # No zap stanza required
 end

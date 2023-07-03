@@ -8,4 +8,6 @@ cask "font-noto-sans-thai-ui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Thai+UI"
 
   font "NotoSansThaiUI[wdth,wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-vidaloka" do
   homepage "https://fonts.google.com/specimen/Vidaloka"
 
   font "Vidaloka-Regular.ttf"
+
+  # No zap stanza required
 end

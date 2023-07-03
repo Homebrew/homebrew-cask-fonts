@@ -8,4 +8,6 @@ cask "font-carter-one" do
   homepage "https://fonts.google.com/specimen/Carter+One"
 
   font "CarterOne.ttf"
+
+  # No zap stanza required
 end

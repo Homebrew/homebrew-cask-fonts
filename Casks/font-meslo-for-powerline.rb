@@ -12,4 +12,6 @@ cask "font-meslo-for-powerline" do
   font "fonts-#{version}/Meslo/Meslo LG M Regular for Powerline.otf"
   font "fonts-#{version}/Meslo/Meslo LG S DZ Regular for Powerline.otf"
   font "fonts-#{version}/Meslo/Meslo LG S Regular for Powerline.otf"
+
+  # No zap stanza required
 end

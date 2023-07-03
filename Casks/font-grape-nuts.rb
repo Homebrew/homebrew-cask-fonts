@@ -9,4 +9,6 @@ cask "font-grape-nuts" do
   homepage "https://fonts.google.com/specimen/Grape+Nuts"
 
   font "GrapeNuts-Regular.ttf"
+
+  # No zap stanza required
 end

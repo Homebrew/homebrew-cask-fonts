@@ -13,4 +13,6 @@ cask "font-simonetta" do
   font "Simonetta-BlackItalic.ttf"
   font "Simonetta-Italic.ttf"
   font "Simonetta-Regular.ttf"
+
+  # No zap stanza required
 end

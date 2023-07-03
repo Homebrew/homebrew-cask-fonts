@@ -8,4 +8,6 @@ cask "font-qwigley" do
   homepage "https://fonts.google.com/specimen/Qwigley"
 
   font "Qwigley-Regular.ttf"
+
+  # No zap stanza required
 end

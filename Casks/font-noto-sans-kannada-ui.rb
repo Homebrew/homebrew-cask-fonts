@@ -8,4 +8,6 @@ cask "font-noto-sans-kannada-ui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Kannada+UI"
 
   font "NotoSansKannadaUI[wdth,wght].ttf"
+
+  # No zap stanza required
 end

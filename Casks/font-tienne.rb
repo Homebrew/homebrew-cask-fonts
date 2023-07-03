@@ -12,4 +12,6 @@ cask "font-tienne" do
   font "Tienne-Black.ttf"
   font "Tienne-Bold.ttf"
   font "Tienne-Regular.ttf"
+
+  # No zap stanza required
 end

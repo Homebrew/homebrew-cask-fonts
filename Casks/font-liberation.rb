@@ -26,4 +26,6 @@ cask "font-liberation" do
   font "liberation-fonts-ttf-#{version.before_comma}/LiberationSerif-BoldItalic.ttf"
   font "liberation-fonts-ttf-#{version.before_comma}/LiberationSerif-Italic.ttf"
   font "liberation-fonts-ttf-#{version.before_comma}/LiberationSerif-Regular.ttf"
+
+  # No zap stanza required
 end

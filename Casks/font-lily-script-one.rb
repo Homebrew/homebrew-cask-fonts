@@ -8,4 +8,6 @@ cask "font-lily-script-one" do
   homepage "https://fonts.google.com/specimen/Lily+Script+One"
 
   font "LilyScriptOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-calistoga" do
   homepage "https://fonts.google.com/specimen/Calistoga"
 
   font "Calistoga-Regular.ttf"
+
+  # No zap stanza required
 end

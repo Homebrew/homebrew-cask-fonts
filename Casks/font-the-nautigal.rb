@@ -12,4 +12,6 @@ cask "font-the-nautigal" do
 
   font "TheNautigal-Bold.ttf"
   font "TheNautigal-Regular.ttf"
+
+  # No zap stanza required
 end

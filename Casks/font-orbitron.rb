@@ -8,4 +8,6 @@ cask "font-orbitron" do
   homepage "https://fonts.google.com/specimen/Orbitron"
 
   font "Orbitron[wght].ttf"
+
+  # No zap stanza required
 end

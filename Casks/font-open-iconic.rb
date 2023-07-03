@@ -8,4 +8,6 @@ cask "font-open-iconic" do
   homepage "https://useiconic.com/open/"
 
   font "open-iconic-#{version}/font/fonts/open-iconic.ttf"
+
+  # No zap stanza required
 end

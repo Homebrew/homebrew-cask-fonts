@@ -14,4 +14,6 @@ cask "font-khula" do
   font "Khula-Light.ttf"
   font "Khula-Regular.ttf"
   font "Khula-SemiBold.ttf"
+
+  # No zap stanza required
 end

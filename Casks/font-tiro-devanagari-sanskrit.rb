@@ -12,4 +12,6 @@ cask "font-tiro-devanagari-sanskrit" do
 
   font "TiroDevanagariSanskrit-Italic.ttf"
   font "TiroDevanagariSanskrit-Regular.ttf"
+
+  # No zap stanza required
 end

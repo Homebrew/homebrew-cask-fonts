@@ -8,4 +8,6 @@ cask "font-codicon" do
   homepage "https://github.com/microsoft/vscode-codicons"
 
   font "vscode-codicons-#{version}/dist/codicon.ttf"
+
+  # No zap stanza required
 end

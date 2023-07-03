@@ -8,4 +8,6 @@ cask "font-jeju-gothic" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "JejuGothic-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-waterfall" do
   homepage "https://fonts.google.com/specimen/Waterfall"
 
   font "Waterfall-Regular.ttf"
+
+  # No zap stanza required
 end

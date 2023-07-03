@@ -11,4 +11,6 @@ cask "font-glegoo" do
 
   font "Glegoo-Bold.ttf"
   font "Glegoo-Regular.ttf"
+
+  # No zap stanza required
 end

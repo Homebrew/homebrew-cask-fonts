@@ -8,4 +8,6 @@ cask "font-parisienne" do
   homepage "https://fonts.google.com/specimen/Parisienne"
 
   font "Parisienne-Regular.ttf"
+
+  # No zap stanza required
 end

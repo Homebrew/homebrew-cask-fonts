@@ -8,4 +8,6 @@ cask "font-supermercado-one" do
   homepage "https://fonts.google.com/specimen/Supermercado+One"
 
   font "SupermercadoOne-Regular.ttf"
+
+  # No zap stanza required
 end

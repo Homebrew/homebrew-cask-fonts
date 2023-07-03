@@ -8,4 +8,6 @@ cask "font-bangers" do
   homepage "https://fonts.google.com/specimen/Bangers"
 
   font "Bangers-Regular.ttf"
+
+  # No zap stanza required
 end

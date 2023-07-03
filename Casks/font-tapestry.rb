@@ -9,4 +9,6 @@ cask "font-tapestry" do
   homepage "https://fonts.google.com/specimen/Tapestry"
 
   font "Tapestry-Regular.ttf"
+
+  # No zap stanza required
 end

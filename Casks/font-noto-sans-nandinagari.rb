@@ -9,4 +9,6 @@ cask "font-noto-sans-nandinagari" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nandinagari"
 
   font "NotoSansNandinagari-Regular.ttf"
+
+  # No zap stanza required
 end

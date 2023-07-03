@@ -8,4 +8,6 @@ cask "font-joti-one" do
   homepage "https://fonts.google.com/specimen/Joti+One"
 
   font "JotiOne-Regular.ttf"
+
+  # No zap stanza required
 end

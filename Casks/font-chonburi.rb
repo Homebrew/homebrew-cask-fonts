@@ -8,4 +8,6 @@ cask "font-chonburi" do
   homepage "https://fonts.google.com/specimen/Chonburi"
 
   font "Chonburi-Regular.ttf"
+
+  # No zap stanza required
 end

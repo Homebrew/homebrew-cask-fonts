@@ -8,4 +8,6 @@ cask "font-poller-one" do
   homepage "https://fonts.google.com/specimen/Poller+One"
 
   font "PollerOne.ttf"
+
+  # No zap stanza required
 end

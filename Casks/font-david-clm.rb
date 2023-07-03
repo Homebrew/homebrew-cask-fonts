@@ -10,4 +10,6 @@ cask "font-david-clm" do
   font "DavidCLM-BoldItalic.otf"
   font "DavidCLM-Medium.otf"
   font "DavidCLM-MediumItalic.otf"
+
+  # No zap stanza required
 end

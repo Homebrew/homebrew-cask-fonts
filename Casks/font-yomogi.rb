@@ -8,4 +8,6 @@ cask "font-yomogi" do
   homepage "https://fonts.google.com/specimen/Yomogi"
 
   font "Yomogi-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-germania-one" do
   homepage "https://fonts.google.com/specimen/Germania+One"
 
   font "GermaniaOne-Regular.ttf"
+
+  # No zap stanza required
 end

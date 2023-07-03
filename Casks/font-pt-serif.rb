@@ -12,4 +12,6 @@ cask "font-pt-serif" do
   font "PTF76F.ttf"
   font "PTZ55F.ttf"
   font "PTZ56F.ttf"
+
+  # No zap stanza required
 end

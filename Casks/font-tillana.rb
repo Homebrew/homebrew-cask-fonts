@@ -14,4 +14,6 @@ cask "font-tillana" do
   font "Tillana-Medium.ttf"
   font "Tillana-Regular.ttf"
   font "Tillana-SemiBold.ttf"
+
+  # No zap stanza required
 end

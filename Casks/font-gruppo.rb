@@ -8,4 +8,6 @@ cask "font-gruppo" do
   homepage "https://fonts.google.com/specimen/Gruppo"
 
   font "Gruppo-Regular.ttf"
+
+  # No zap stanza required
 end

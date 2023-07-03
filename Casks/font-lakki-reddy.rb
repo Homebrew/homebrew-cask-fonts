@@ -8,4 +8,6 @@ cask "font-lakki-reddy" do
   homepage "https://fonts.google.com/specimen/Lakki+Reddy"
 
   font "LakkiReddy-Regular.ttf"
+
+  # No zap stanza required
 end

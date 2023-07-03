@@ -8,4 +8,6 @@ cask "font-salsa" do
   homepage "https://fonts.google.com/specimen/Salsa"
 
   font "Salsa-Regular.ttf"
+
+  # No zap stanza required
 end

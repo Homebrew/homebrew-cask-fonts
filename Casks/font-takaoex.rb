@@ -8,4 +8,6 @@ cask "font-takaoex" do
 
   font "TakaoExFonts_#{version}/TakaoExGothic.ttf"
   font "TakaoExFonts_#{version}/TakaoExMincho.ttf"
+
+  # No zap stanza required
 end

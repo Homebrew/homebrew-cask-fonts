@@ -8,4 +8,6 @@ cask "font-wire-one" do
   homepage "https://fonts.google.com/specimen/Wire+One"
 
   font "WireOne-Regular.ttf"
+
+  # No zap stanza required
 end

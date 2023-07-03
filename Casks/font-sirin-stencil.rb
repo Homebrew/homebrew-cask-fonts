@@ -8,4 +8,6 @@ cask "font-sirin-stencil" do
   homepage "https://fonts.google.com/specimen/Sirin+Stencil"
 
   font "SirinStencil-Regular.ttf"
+
+  # No zap stanza required
 end

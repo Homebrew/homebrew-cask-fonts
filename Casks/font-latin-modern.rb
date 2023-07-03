@@ -78,4 +78,6 @@ cask "font-latin-modern" do
   font "lmsansquot8-boldoblique.otf"
   font "lmsansquot8-oblique.otf"
   font "lmsansquot8-regular.otf"
+
+  # No zap stanza required
 end

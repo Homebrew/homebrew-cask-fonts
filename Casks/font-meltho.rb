@@ -28,4 +28,6 @@ cask "font-meltho" do
   font "melthofonts-1/melthofonts-#{version.before_comma}/SyrCOMTurAbdin.otf"
   font "melthofonts-1/melthofonts-#{version.before_comma}/SyrCOMUrhoy.otf"
   font "melthofonts-1/melthofonts-#{version.before_comma}/SyrCOMUrhoyBold.otf"
+
+  # No zap stanza required
 end

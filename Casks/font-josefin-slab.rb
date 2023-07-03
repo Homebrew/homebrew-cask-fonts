@@ -11,4 +11,6 @@ cask "font-josefin-slab" do
 
   font "JosefinSlab-Italic[wght].ttf"
   font "JosefinSlab[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-unlock" do
   homepage "https://fonts.google.com/specimen/Unlock"
 
   font "Unlock-Regular.ttf"
+
+  # No zap stanza required
 end

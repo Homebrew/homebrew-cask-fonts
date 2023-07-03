@@ -14,4 +14,6 @@ cask "font-suwannaphum" do
   font "Suwannaphum-Light.ttf"
   font "Suwannaphum-Regular.ttf"
   font "Suwannaphum-Thin.ttf"
+
+  # No zap stanza required
 end

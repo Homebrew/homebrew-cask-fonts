@@ -8,4 +8,6 @@ cask "font-notable" do
   homepage "https://fonts.google.com/specimen/Notable"
 
   font "Notable-Regular.ttf"
+
+  # No zap stanza required
 end

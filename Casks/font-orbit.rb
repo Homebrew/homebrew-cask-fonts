@@ -9,4 +9,6 @@ cask "font-orbit" do
   homepage "https://fonts.google.com/specimen/Orbit"
 
   font "Orbit-Regular.ttf"
+
+  # No zap stanza required
 end

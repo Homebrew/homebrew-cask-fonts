@@ -8,4 +8,6 @@ cask "font-noto-sans-syriac" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Syriac"
 
   font "NotoSansSyriac[wght].ttf"
+
+  # No zap stanza required
 end

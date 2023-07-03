@@ -11,4 +11,6 @@ cask "font-news-cycle" do
 
   font "NewsCycle-Bold.ttf"
   font "NewsCycle-Regular.ttf"
+
+  # No zap stanza required
 end

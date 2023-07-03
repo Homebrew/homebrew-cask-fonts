@@ -8,4 +8,6 @@ cask "font-gabriela" do
   homepage "https://fonts.google.com/specimen/Gabriela"
 
   font "Gabriela-Regular.ttf"
+
+  # No zap stanza required
 end

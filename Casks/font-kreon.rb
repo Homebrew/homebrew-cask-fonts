@@ -8,4 +8,6 @@ cask "font-kreon" do
   homepage "https://fonts.google.com/specimen/Kreon"
 
   font "Kreon[wght].ttf"
+
+  # No zap stanza required
 end

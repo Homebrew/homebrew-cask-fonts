@@ -8,4 +8,6 @@ cask "font-mr-dafoe" do
   homepage "https://fonts.google.com/specimen/Mr+Dafoe"
 
   font "MrDafoe-Regular.ttf"
+
+  # No zap stanza required
 end

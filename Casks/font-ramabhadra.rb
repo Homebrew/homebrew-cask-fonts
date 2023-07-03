@@ -8,4 +8,6 @@ cask "font-ramabhadra" do
   homepage "https://fonts.google.com/specimen/Ramabhadra"
 
   font "Ramabhadra-Regular.ttf"
+
+  # No zap stanza required
 end

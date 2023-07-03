@@ -8,4 +8,6 @@ cask "font-griffy" do
   homepage "https://fonts.google.com/specimen/Griffy"
 
   font "Griffy-Regular.ttf"
+
+  # No zap stanza required
 end

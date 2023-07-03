@@ -13,4 +13,6 @@ cask "font-caladea" do
   font "Caladea-BoldItalic.ttf"
   font "Caladea-Italic.ttf"
   font "Caladea-Regular.ttf"
+
+  # No zap stanza required
 end

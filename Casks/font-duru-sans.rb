@@ -8,4 +8,6 @@ cask "font-duru-sans" do
   homepage "https://fonts.google.com/specimen/Duru+Sans"
 
   font "DuruSans-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-leckerli-one" do
   homepage "https://fonts.google.com/specimen/Leckerli+One"
 
   font "LeckerliOne-Regular.ttf"
+
+  # No zap stanza required
 end

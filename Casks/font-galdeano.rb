@@ -8,4 +8,6 @@ cask "font-galdeano" do
   homepage "https://fonts.google.com/specimen/Galdeano"
 
   font "Galdeano-Regular.ttf"
+
+  # No zap stanza required
 end

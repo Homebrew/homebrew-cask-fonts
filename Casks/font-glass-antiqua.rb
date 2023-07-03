@@ -8,4 +8,6 @@ cask "font-glass-antiqua" do
   homepage "https://fonts.google.com/specimen/Glass+Antiqua"
 
   font "GlassAntiqua-Regular.ttf"
+
+  # No zap stanza required
 end

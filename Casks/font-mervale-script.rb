@@ -8,4 +8,6 @@ cask "font-mervale-script" do
   homepage "https://fonts.google.com/specimen/Mervale+Script"
 
   font "MervaleScript-Regular.ttf"
+
+  # No zap stanza required
 end

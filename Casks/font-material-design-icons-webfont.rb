@@ -10,4 +10,6 @@ cask "font-material-design-icons-webfont" do
   homepage "https://materialdesignicons.com/"
 
   font "materialdesignicons-webfont.ttf"
+
+  # No zap stanza required
 end

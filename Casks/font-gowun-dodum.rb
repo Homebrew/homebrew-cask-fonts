@@ -8,4 +8,6 @@ cask "font-gowun-dodum" do
   homepage "https://fonts.google.com/specimen/Gowun+Dodum"
 
   font "GowunDodum-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -7,4 +7,6 @@ cask "font-scheherazade" do
   homepage "https://scripts.sil.org/Scheherazade"
 
   font "Scheherazade-#{version}/Scheherazade-R.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-twinkle-star" do
   homepage "https://fonts.google.com/specimen/Twinkle+Star"
 
   font "TwinkleStar-Regular.ttf"
+
+  # No zap stanza required
 end

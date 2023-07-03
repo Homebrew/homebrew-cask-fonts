@@ -8,4 +8,6 @@ cask "font-noto-sans-warang-citi" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Warang+Citi"
 
   font "NotoSansWarangCiti-Regular.ttf"
+
+  # No zap stanza required
 end

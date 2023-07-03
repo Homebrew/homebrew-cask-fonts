@@ -8,4 +8,6 @@ cask "font-oooh-baby" do
   homepage "https://fonts.google.com/specimen/Oooh+Baby"
 
   font "OoohBaby-Regular.ttf"
+
+  # No zap stanza required
 end

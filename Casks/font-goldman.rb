@@ -12,4 +12,6 @@ cask "font-goldman" do
 
   font "Goldman-Bold.ttf"
   font "Goldman-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-castoro-titling" do
   homepage "https://fonts.google.com/specimen/Castoro+Titling"
 
   font "CastoroTitling-Regular.ttf"
+
+  # No zap stanza required
 end

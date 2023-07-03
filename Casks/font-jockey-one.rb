@@ -8,4 +8,6 @@ cask "font-jockey-one" do
   homepage "https://fonts.google.com/specimen/Jockey+One"
 
   font "JockeyOne-Regular.ttf"
+
+  # No zap stanza required
 end

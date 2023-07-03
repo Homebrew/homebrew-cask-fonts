@@ -9,4 +9,6 @@ cask "font-noto-serif-malayalam" do
 
   font "NotoSerifMalayalam-Bold.ttf"
   font "NotoSerifMalayalam-Regular.ttf"
+
+  # No zap stanza required
 end

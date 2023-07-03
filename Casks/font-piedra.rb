@@ -8,4 +8,6 @@ cask "font-piedra" do
   homepage "https://fonts.google.com/specimen/Piedra"
 
   font "Piedra-Regular.ttf"
+
+  # No zap stanza required
 end

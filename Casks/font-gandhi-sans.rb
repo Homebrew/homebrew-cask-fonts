@@ -10,4 +10,6 @@ cask "font-gandhi-sans" do
   font "GandhiSans-Italic.otf"
   font "GandhiSans-Bold.otf"
   font "GandhiSans-BoldItalic.otf"
+
+  # No zap stanza required
 end

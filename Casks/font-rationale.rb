@@ -8,4 +8,6 @@ cask "font-rationale" do
   homepage "https://fonts.google.com/specimen/Rationale"
 
   font "Rationale-Regular.ttf"
+
+  # No zap stanza required
 end

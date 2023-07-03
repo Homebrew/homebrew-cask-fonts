@@ -8,4 +8,6 @@ cask "font-croissant-one" do
   homepage "https://fonts.google.com/specimen/Croissant+One"
 
   font "CroissantOne-Regular.ttf"
+
+  # No zap stanza required
 end

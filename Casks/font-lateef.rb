@@ -16,4 +16,6 @@ cask "font-lateef" do
   font "Lateef-Medium.ttf"
   font "Lateef-Regular.ttf"
   font "Lateef-SemiBold.ttf"
+
+  # No zap stanza required
 end

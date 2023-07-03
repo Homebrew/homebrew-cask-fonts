@@ -8,4 +8,6 @@ cask "font-grandiflora-one" do
   homepage "https://fonts.google.com/specimen/Grandiflora+One"
 
   font "GrandifloraOne-Regular.ttf"
+
+  # No zap stanza required
 end

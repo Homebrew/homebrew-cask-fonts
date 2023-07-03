@@ -8,4 +8,6 @@ cask "font-noto-sans-wancho" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Wancho"
 
   font "NotoSansWancho-Regular.ttf"
+
+  # No zap stanza required
 end

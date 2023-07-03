@@ -8,4 +8,6 @@ cask "font-ceviche-one" do
   homepage "https://fonts.google.com/specimen/Ceviche+One"
 
   font "CevicheOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-kantumruy-pro" do
 
   font "KantumruyPro-Italic[wght].ttf"
   font "KantumruyPro[wght].ttf"
+
+  # No zap stanza required
 end

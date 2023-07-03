@@ -8,4 +8,6 @@ cask "font-barriecito" do
   homepage "https://fonts.google.com/specimen/Barriecito"
 
   font "Barriecito-Regular.ttf"
+
+  # No zap stanza required
 end

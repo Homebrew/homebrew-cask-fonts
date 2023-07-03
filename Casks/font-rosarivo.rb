@@ -11,4 +11,6 @@ cask "font-rosarivo" do
 
   font "Rosarivo-Italic.ttf"
   font "Rosarivo-Regular.ttf"
+
+  # No zap stanza required
 end

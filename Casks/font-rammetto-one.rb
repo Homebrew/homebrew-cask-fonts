@@ -8,4 +8,6 @@ cask "font-rammetto-one" do
   homepage "https://fonts.google.com/specimen/Rammetto+One"
 
   font "RammettoOne-Regular.ttf"
+
+  # No zap stanza required
 end

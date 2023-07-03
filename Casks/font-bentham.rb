@@ -8,4 +8,6 @@ cask "font-bentham" do
   homepage "https://fonts.google.com/specimen/Bentham"
 
   font "Bentham-Regular.ttf"
+
+  # No zap stanza required
 end

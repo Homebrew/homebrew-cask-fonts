@@ -9,4 +9,6 @@ cask "font-foldit" do
   homepage "https://fonts.google.com/specimen/Foldit"
 
   font "Foldit[wght].ttf"
+
+  # No zap stanza required
 end

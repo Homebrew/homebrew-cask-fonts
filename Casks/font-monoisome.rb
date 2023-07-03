@@ -8,4 +8,6 @@ cask "font-monoisome" do
   homepage "https://larsenwork.com/monoid/"
 
   font "Monoisome-Regular.ttf"
+
+  # No zap stanza required
 end

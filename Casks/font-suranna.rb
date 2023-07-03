@@ -8,4 +8,6 @@ cask "font-suranna" do
   homepage "https://fonts.google.com/specimen/Suranna"
 
   font "Suranna-Regular.ttf"
+
+  # No zap stanza required
 end

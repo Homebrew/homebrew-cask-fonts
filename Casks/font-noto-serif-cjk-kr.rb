@@ -14,4 +14,6 @@ cask "font-noto-serif-cjk-kr" do
   font "NotoSerifCJKkr-Medium.otf"
   font "NotoSerifCJKkr-Regular.otf"
   font "NotoSerifCJKkr-SemiBold.otf"
+
+  # No zap stanza required
 end

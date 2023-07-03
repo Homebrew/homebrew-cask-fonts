@@ -8,4 +8,6 @@ cask "font-holtwood-one-sc" do
   homepage "https://fonts.google.com/specimen/Holtwood+One+SC"
 
   font "HoltwoodOneSC.ttf"
+
+  # No zap stanza required
 end

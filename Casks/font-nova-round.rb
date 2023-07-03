@@ -8,4 +8,6 @@ cask "font-nova-round" do
   homepage "https://fonts.google.com/specimen/Nova+Round"
 
   font "NovaRound.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-sf-mono" do
   pkg "SF Mono Fonts.pkg"
 
   uninstall pkgutil: "com.apple.pkg.SFMonoFonts"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-noto-sans-tamil-ui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Tamil+UI"
 
   font "NotoSansTamilUI[wdth,wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-siemreap" do
   homepage "https://fonts.google.com/specimen/Siemreap"
 
   font "Siemreap.ttf"
+
+  # No zap stanza required
 end

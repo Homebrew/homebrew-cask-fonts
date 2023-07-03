@@ -16,4 +16,6 @@ cask "font-pretendard" do
   font "public/static/Pretendard-Regular.otf"
   font "public/static/Pretendard-SemiBold.otf"
   font "public/static/Pretendard-Thin.otf"
+
+  # No zap stanza required
 end

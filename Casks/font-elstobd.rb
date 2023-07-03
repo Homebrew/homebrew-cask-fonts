@@ -54,4 +54,6 @@ cask "font-elstobd" do
   font "Elstob_font/desktop/ElstobD-Regular.ttf"
   font "Elstob_font/desktop/ElstobD-SemiBold.ttf"
   font "Elstob_font/desktop/ElstobD-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

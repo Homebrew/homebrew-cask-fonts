@@ -8,4 +8,6 @@ cask "font-moirai-one" do
   homepage "https://fonts.google.com/specimen/Moirai+One"
 
   font "MoiraiOne-Regular.ttf"
+
+  # No zap stanza required
 end

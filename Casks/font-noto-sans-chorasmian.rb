@@ -9,4 +9,6 @@ cask "font-noto-sans-chorasmian" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Chorasmian"
 
   font "NotoSansChorasmian-Regular.ttf"
+
+  # No zap stanza required
 end

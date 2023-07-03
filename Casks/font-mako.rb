@@ -8,4 +8,6 @@ cask "font-mako" do
   homepage "https://fonts.google.com/specimen/Mako"
 
   font "Mako-Regular.ttf"
+
+  # No zap stanza required
 end

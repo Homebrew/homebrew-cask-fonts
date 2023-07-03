@@ -25,4 +25,6 @@ cask "font-bitter-ht" do
   font "BitterPro-SemiBoldItalic.ttf"
   font "BitterPro-Thin.ttf"
   font "BitterPro-ThinItalic.ttf"
+
+  # No zap stanza required
 end

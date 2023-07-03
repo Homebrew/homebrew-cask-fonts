@@ -8,4 +8,6 @@ cask "font-marck-script" do
   homepage "https://fonts.google.com/specimen/Marck+Script"
 
   font "MarckScript-Regular.ttf"
+
+  # No zap stanza required
 end

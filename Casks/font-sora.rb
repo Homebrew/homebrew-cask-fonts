@@ -8,4 +8,6 @@ cask "font-sora" do
   homepage "https://fonts.google.com/specimen/Sora"
 
   font "Sora[wght].ttf"
+
+  # No zap stanza required
 end

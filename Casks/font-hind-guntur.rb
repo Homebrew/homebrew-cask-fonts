@@ -14,4 +14,6 @@ cask "font-hind-guntur" do
   font "HindGuntur-Medium.ttf"
   font "HindGuntur-Regular.ttf"
   font "HindGuntur-SemiBold.ttf"
+
+  # No zap stanza required
 end

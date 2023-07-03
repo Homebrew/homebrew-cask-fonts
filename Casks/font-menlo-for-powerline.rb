@@ -10,4 +10,6 @@ cask "font-menlo-for-powerline" do
   font "Menlo-for-Powerline-master/Menlo Bold for Powerline.ttf"
   font "Menlo-for-Powerline-master/Menlo Italic for Powerline.ttf"
   font "Menlo-for-Powerline-master/Menlo Bold Italic for Powerline.ttf"
+
+  # No zap stanza required
 end

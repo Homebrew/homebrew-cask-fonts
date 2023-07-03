@@ -8,4 +8,6 @@ cask "font-noto-sans-canadian-aboriginal" do
   homepage "https://www.google.com/get/noto/#sans-cans"
 
   font "NotoSansCanadianAboriginal-Regular.ttf"
+
+  # No zap stanza required
 end

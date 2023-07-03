@@ -13,4 +13,6 @@ cask "font-share" do
   font "Share-BoldItalic.ttf"
   font "Share-Italic.ttf"
   font "Share-Regular.ttf"
+
+  # No zap stanza required
 end

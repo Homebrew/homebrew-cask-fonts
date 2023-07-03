@@ -13,4 +13,6 @@ cask "font-thasadith" do
   font "Thasadith-BoldItalic.ttf"
   font "Thasadith-Italic.ttf"
   font "Thasadith-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-viga" do
   homepage "https://fonts.google.com/specimen/Viga"
 
   font "Viga-Regular.ttf"
+
+  # No zap stanza required
 end

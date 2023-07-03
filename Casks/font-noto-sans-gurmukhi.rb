@@ -9,4 +9,6 @@ cask "font-noto-sans-gurmukhi" do
 
   font "NotoSansGurmukhi-Bold.ttf"
   font "NotoSansGurmukhi-Regular.ttf"
+
+  # No zap stanza required
 end

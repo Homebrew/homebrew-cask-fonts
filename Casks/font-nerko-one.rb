@@ -9,4 +9,6 @@ cask "font-nerko-one" do
   homepage "https://fonts.google.com/specimen/Nerko+One"
 
   font "NerkoOne-Regular.ttf"
+
+  # No zap stanza required
 end

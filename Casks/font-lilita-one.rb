@@ -8,4 +8,6 @@ cask "font-lilita-one" do
   homepage "https://fonts.google.com/specimen/Lilita+One"
 
   font "LilitaOne-Regular.ttf"
+
+  # No zap stanza required
 end

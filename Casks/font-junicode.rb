@@ -17,4 +17,6 @@ cask "font-junicode" do
   font "Junicode-BoldItalic.ttf"
   font "Junicode-Italic.ttf"
   font "Junicode.ttf"
+
+  # No zap stanza required
 end

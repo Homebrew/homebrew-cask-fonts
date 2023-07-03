@@ -8,4 +8,6 @@ cask "font-sedgwick-ave-display" do
   homepage "https://fonts.google.com/specimen/Sedgwick+Ave+Display"
 
   font "SedgwickAveDisplay-Regular.ttf"
+
+  # No zap stanza required
 end
