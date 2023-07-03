@@ -8,4 +8,6 @@ cask "font-palette-mosaic" do
   homepage "https://fonts.google.com/specimen/Palette+Mosaic"
 
   font "PaletteMosaic-Regular.ttf"
+
+  # No zap stanza required
 end

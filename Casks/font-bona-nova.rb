@@ -13,4 +13,6 @@ cask "font-bona-nova" do
   font "BonaNova-Bold.ttf"
   font "BonaNova-Italic.ttf"
   font "BonaNova-Regular.ttf"
+
+  # No zap stanza required
 end

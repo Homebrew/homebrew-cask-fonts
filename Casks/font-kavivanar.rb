@@ -8,4 +8,6 @@ cask "font-kavivanar" do
   homepage "https://fonts.google.com/specimen/Kavivanar"
 
   font "Kavivanar-Regular.ttf"
+
+  # No zap stanza required
 end

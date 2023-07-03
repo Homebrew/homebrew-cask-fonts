@@ -8,4 +8,6 @@ cask "font-ubuntu-condensed" do
   homepage "https://fonts.google.com/specimen/Ubuntu+Condensed"
 
   font "UbuntuCondensed-Regular.ttf"
+
+  # No zap stanza required
 end

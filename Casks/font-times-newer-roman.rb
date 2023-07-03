@@ -11,4 +11,6 @@ cask "font-times-newer-roman" do
   font "TimesNewerRoman-BoldItalic.otf"
   font "TimesNewerRoman-Italic.otf"
   font "TimesNewerRoman-Regular.otf"
+
+  # No zap stanza required
 end

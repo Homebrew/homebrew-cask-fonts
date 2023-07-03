@@ -8,4 +8,6 @@ cask "font-golos-text" do
   homepage "https://fonts.google.com/specimen/Golos+Text"
 
   font "GolosText[wght].ttf"
+
+  # No zap stanza required
 end

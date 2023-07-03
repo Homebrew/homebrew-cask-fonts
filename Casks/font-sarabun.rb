@@ -25,4 +25,6 @@ cask "font-sarabun" do
   font "Sarabun-SemiBoldItalic.ttf"
   font "Sarabun-Thin.ttf"
   font "Sarabun-ThinItalic.ttf"
+
+  # No zap stanza required
 end

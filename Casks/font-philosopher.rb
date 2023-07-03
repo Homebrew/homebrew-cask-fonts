@@ -13,4 +13,6 @@ cask "font-philosopher" do
   font "Philosopher-BoldItalic.ttf"
   font "Philosopher-Italic.ttf"
   font "Philosopher-Regular.ttf"
+
+  # No zap stanza required
 end

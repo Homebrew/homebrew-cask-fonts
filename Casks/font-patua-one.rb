@@ -8,4 +8,6 @@ cask "font-patua-one" do
   homepage "https://fonts.google.com/specimen/Patua+One"
 
   font "PatuaOne-Regular.ttf"
+
+  # No zap stanza required
 end

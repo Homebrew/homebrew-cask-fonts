@@ -8,4 +8,6 @@ cask "font-noto-sans-kayah-li" do
   homepage "https://www.google.com/get/noto/#sans-kali"
 
   font "NotoSansKayahLi-Regular.ttf"
+
+  # No zap stanza required
 end

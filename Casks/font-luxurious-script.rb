@@ -8,4 +8,6 @@ cask "font-luxurious-script" do
   homepage "https://fonts.google.com/specimen/Luxurious+Script"
 
   font "LuxuriousScript-Regular.ttf"
+
+  # No zap stanza required
 end

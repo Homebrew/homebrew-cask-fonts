@@ -8,4 +8,6 @@ cask "font-baloo-bhai-2" do
   homepage "https://fonts.google.com/specimen/Baloo+Bhai+2"
 
   font "BalooBhai2[wght].ttf"
+
+  # No zap stanza required
 end

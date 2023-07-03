@@ -9,4 +9,6 @@ cask "font-estonia" do
   homepage "https://fonts.google.com/specimen/Estonia"
 
   font "Estonia-Regular.ttf"
+
+  # No zap stanza required
 end

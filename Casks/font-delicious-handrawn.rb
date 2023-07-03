@@ -9,4 +9,6 @@ cask "font-delicious-handrawn" do
   homepage "https://fonts.google.com/specimen/Delicious+Handrawn"
 
   font "DeliciousHandrawn-Regular.ttf"
+
+  # No zap stanza required
 end

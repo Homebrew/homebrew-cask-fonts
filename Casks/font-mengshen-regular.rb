@@ -10,4 +10,6 @@ cask "font-mengshen-regular" do
 
   font "Mengshen-HanSerif.ttf"
   font "Mengshen-Handwritten.ttf"
+
+  # No zap stanza required
 end

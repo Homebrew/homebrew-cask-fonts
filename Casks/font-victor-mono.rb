@@ -32,4 +32,6 @@ cask "font-victor-mono" do
   font "OTF/VictorMono-MediumItalic.otf"
   font "OTF/VictorMono-SemiBoldItalic.otf"
   font "OTF/VictorMono-BoldItalic.otf"
+
+  # No zap stanza required
 end

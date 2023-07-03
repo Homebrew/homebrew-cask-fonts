@@ -8,4 +8,6 @@ cask "font-noto-sans-linear-a" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Linear+A"
 
   font "NotoSansLinearA-Regular.ttf"
+
+  # No zap stanza required
 end

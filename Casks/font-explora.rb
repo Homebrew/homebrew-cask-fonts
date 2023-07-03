@@ -9,4 +9,6 @@ cask "font-explora" do
   homepage "https://fonts.google.com/specimen/Explora"
 
   font "Explora-Regular.ttf"
+
+  # No zap stanza required
 end

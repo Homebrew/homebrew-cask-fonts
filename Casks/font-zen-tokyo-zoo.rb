@@ -8,4 +8,6 @@ cask "font-zen-tokyo-zoo" do
   homepage "https://fonts.google.com/specimen/Zen+Tokyo+Zoo"
 
   font "ZenTokyoZoo-Regular.ttf"
+
+  # No zap stanza required
 end

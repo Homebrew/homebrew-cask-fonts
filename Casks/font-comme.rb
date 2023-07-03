@@ -9,4 +9,6 @@ cask "font-comme" do
   homepage "https://fonts.google.com/specimen/Comme"
 
   font "Comme[wght].ttf"
+
+  # No zap stanza required
 end

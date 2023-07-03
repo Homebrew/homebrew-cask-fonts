@@ -9,4 +9,6 @@ cask "font-handjet" do
   homepage "https://fonts.google.com/specimen/Handjet"
 
   font "Handjet[ELGR,ELSH,wght].ttf"
+
+  # No zap stanza required
 end

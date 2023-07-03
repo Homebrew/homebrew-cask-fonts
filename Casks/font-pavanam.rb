@@ -8,4 +8,6 @@ cask "font-pavanam" do
   homepage "https://fonts.google.com/specimen/Pavanam"
 
   font "Pavanam-Regular.ttf"
+
+  # No zap stanza required
 end

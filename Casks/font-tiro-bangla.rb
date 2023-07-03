@@ -12,4 +12,6 @@ cask "font-tiro-bangla" do
 
   font "TiroBangla-Italic.ttf"
   font "TiroBangla-Regular.ttf"
+
+  # No zap stanza required
 end

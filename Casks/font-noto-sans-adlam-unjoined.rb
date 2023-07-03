@@ -8,4 +8,6 @@ cask "font-noto-sans-adlam-unjoined" do
   homepage "https://www.google.com/get/noto/#sans-adlm-unjoined"
 
   font "NotoSansAdlamUnjoined-Regular.ttf"
+
+  # No zap stanza required
 end

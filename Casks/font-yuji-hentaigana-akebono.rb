@@ -8,4 +8,6 @@ cask "font-yuji-hentaigana-akebono" do
   homepage "https://fonts.google.com/specimen/Yuji+Hentaigana+Akebono"
 
   font "YujiHentaiganaAkebono-Regular.ttf"
+
+  # No zap stanza required
 end

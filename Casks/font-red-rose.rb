@@ -9,4 +9,6 @@ cask "font-red-rose" do
   homepage "https://fonts.google.com/specimen/Red+Rose"
 
   font "RedRose[wght].ttf"
+
+  # No zap stanza required
 end

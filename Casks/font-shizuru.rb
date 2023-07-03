@@ -8,4 +8,6 @@ cask "font-shizuru" do
   homepage "https://fonts.google.com/specimen/Shizuru"
 
   font "Shizuru-Regular.ttf"
+
+  # No zap stanza required
 end

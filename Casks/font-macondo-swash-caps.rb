@@ -8,4 +8,6 @@ cask "font-macondo-swash-caps" do
   homepage "https://fonts.google.com/specimen/Macondo+Swash+Caps"
 
   font "MacondoSwashCaps-Regular.ttf"
+
+  # No zap stanza required
 end

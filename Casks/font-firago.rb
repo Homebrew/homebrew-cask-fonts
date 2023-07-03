@@ -37,4 +37,6 @@ cask "font-firago" do
   font "FiraGO-#{version}/Fonts/FiraGO_OTF/Roman/FiraGO-Thin.otf"
   font "FiraGO-#{version}/Fonts/FiraGO_OTF/Roman/FiraGO-Two.otf"
   font "FiraGO-#{version}/Fonts/FiraGO_OTF/Roman/FiraGO-UltraLight.otf"
+
+  # No zap stanza required
 end

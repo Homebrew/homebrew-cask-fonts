@@ -9,4 +9,6 @@ cask "font-syne-mono" do
   homepage "https://fonts.google.com/specimen/Syne+Mono"
 
   font "SyneMono-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-hanamina" do
 
   font "HanaMinA.ttf"
   font "HanaMinB.ttf"
+
+  # No zap stanza required
 end

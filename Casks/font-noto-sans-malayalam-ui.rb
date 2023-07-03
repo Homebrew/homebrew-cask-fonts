@@ -8,4 +8,6 @@ cask "font-noto-sans-malayalam-ui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Malayalam+UI"
 
   font "NotoSansMalayalamUI[wdth,wght].ttf"
+
+  # No zap stanza required
 end

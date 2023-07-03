@@ -8,4 +8,6 @@ cask "font-tilt-prism" do
   homepage "https://fonts.google.com/specimen/Tilt+Prism"
 
   font "TiltPrism[XROT,YROT].ttf"
+
+  # No zap stanza required
 end

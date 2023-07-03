@@ -8,4 +8,6 @@ cask "font-eater" do
   homepage "https://fonts.google.com/specimen/Eater"
 
   font "Eater-Regular.ttf"
+
+  # No zap stanza required
 end

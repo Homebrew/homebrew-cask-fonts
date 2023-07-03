@@ -8,4 +8,6 @@ cask "font-chela-one" do
   homepage "https://fonts.google.com/specimen/Chela+One"
 
   font "ChelaOne-Regular.ttf"
+
+  # No zap stanza required
 end

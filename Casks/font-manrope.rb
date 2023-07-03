@@ -8,4 +8,6 @@ cask "font-manrope" do
   homepage "https://fonts.google.com/specimen/Manrope"
 
   font "Manrope[wght].ttf"
+
+  # No zap stanza required
 end

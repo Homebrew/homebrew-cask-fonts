@@ -8,4 +8,6 @@ cask "font-bowlby-one" do
   homepage "https://fonts.google.com/specimen/Bowlby+One"
 
   font "BowlbyOne-Regular.ttf"
+
+  # No zap stanza required
 end

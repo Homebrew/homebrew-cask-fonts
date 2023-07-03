@@ -8,4 +8,6 @@ cask "font-dorsa" do
   homepage "https://fonts.google.com/specimen/Dorsa"
 
   font "Dorsa-Regular.ttf"
+
+  # No zap stanza required
 end

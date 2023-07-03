@@ -9,4 +9,6 @@ cask "font-recursive" do
   homepage "https://fonts.google.com/specimen/Recursive"
 
   font "Recursive[CASL,CRSV,MONO,slnt,wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-tenor-sans" do
   homepage "https://fonts.google.com/specimen/Tenor+Sans"
 
   font "TenorSans-Regular.ttf"
+
+  # No zap stanza required
 end

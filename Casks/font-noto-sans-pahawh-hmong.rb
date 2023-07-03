@@ -8,4 +8,6 @@ cask "font-noto-sans-pahawh-hmong" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Pahawh+Hmong"
 
   font "NotoSansPahawhHmong-Regular.ttf"
+
+  # No zap stanza required
 end

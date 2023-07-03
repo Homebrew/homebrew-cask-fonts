@@ -9,4 +9,6 @@ cask "font-nabla" do
   homepage "https://fonts.google.com/specimen/Nabla"
 
   font "Nabla[EDPT,EHLT].ttf"
+
+  # No zap stanza required
 end

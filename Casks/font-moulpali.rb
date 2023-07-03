@@ -8,4 +8,6 @@ cask "font-moulpali" do
   homepage "https://fonts.google.com/specimen/Moulpali"
 
   font "Moulpali-Regular.ttf"
+
+  # No zap stanza required
 end

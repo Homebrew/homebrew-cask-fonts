@@ -9,4 +9,6 @@ cask "font-birthstone" do
   homepage "https://fonts.google.com/specimen/Birthstone"
 
   font "Birthstone-Regular.ttf"
+
+  # No zap stanza required
 end

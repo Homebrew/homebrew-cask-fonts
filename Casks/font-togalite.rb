@@ -13,4 +13,6 @@ cask "font-togalite" do
   font "togalite/togalite-light.otf"
   font "togalite/togalite-medium.otf"
   font "togalite/togalite-regular.otf"
+
+  # No zap stanza required
 end

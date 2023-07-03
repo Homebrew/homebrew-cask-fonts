@@ -13,4 +13,6 @@ cask "font-unna" do
   font "Unna-BoldItalic.ttf"
   font "Unna-Italic.ttf"
   font "Unna-Regular.ttf"
+
+  # No zap stanza required
 end

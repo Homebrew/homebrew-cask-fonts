@@ -11,4 +11,6 @@ cask "font-biz-udpgothic" do
 
   font "BIZUDPGothic-Bold.ttf"
   font "BIZUDPGothic-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-over-the-rainbow" do
   homepage "https://fonts.google.com/specimen/Over+the+Rainbow"
 
   font "OvertheRainbow.ttf"
+
+  # No zap stanza required
 end

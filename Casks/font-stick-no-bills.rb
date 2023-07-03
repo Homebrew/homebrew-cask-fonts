@@ -9,4 +9,6 @@ cask "font-stick-no-bills" do
   homepage "https://fonts.google.com/specimen/Stick+No+Bills"
 
   font "StickNoBills[wght].ttf"
+
+  # No zap stanza required
 end

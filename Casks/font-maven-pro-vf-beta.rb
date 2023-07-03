@@ -8,4 +8,6 @@ cask "font-maven-pro-vf-beta" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "MavenProVFBeta.ttf"
+
+  # No zap stanza required
 end

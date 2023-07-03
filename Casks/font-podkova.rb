@@ -8,4 +8,6 @@ cask "font-podkova" do
   homepage "https://fonts.google.com/specimen/Podkova"
 
   font "Podkova[wght].ttf"
+
+  # No zap stanza required
 end

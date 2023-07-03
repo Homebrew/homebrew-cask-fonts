@@ -8,4 +8,6 @@ cask "font-waiting-for-the-sunrise" do
   homepage "https://fonts.google.com/specimen/Waiting+for+the+Sunrise"
 
   font "WaitingfortheSunrise.ttf"
+
+  # No zap stanza required
 end

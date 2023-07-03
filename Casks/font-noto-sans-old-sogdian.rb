@@ -8,4 +8,6 @@ cask "font-noto-sans-old-sogdian" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Old+Sogdian"
 
   font "NotoSansOldSogdian-Regular.ttf"
+
+  # No zap stanza required
 end

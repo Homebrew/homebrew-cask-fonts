@@ -8,4 +8,6 @@ cask "font-shanti" do
   homepage "https://fonts.google.com/specimen/Shanti"
 
   font "Shanti-Regular.ttf"
+
+  # No zap stanza required
 end

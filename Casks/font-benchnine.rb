@@ -12,4 +12,6 @@ cask "font-benchnine" do
   font "BenchNine-Bold.ttf"
   font "BenchNine-Light.ttf"
   font "BenchNine-Regular.ttf"
+
+  # No zap stanza required
 end

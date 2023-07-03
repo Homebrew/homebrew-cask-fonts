@@ -9,4 +9,6 @@ cask "font-commissioner" do
   homepage "https://fonts.google.com/specimen/Commissioner"
 
   font "Commissioner[FLAR,VOLM,slnt,wght].ttf"
+
+  # No zap stanza required
 end

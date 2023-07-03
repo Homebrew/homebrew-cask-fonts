@@ -11,4 +11,6 @@ cask "font-libre-bodoni" do
 
   font "LibreBodoni-Italic[wght].ttf"
   font "LibreBodoni[wght].ttf"
+
+  # No zap stanza required
 end

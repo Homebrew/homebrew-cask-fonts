@@ -8,4 +8,6 @@ cask "font-jomhuria" do
   homepage "https://fonts.google.com/specimen/Jomhuria"
 
   font "Jomhuria-Regular.ttf"
+
+  # No zap stanza required
 end

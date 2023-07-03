@@ -9,4 +9,6 @@ cask "font-slackside-one" do
   homepage "https://fonts.google.com/specimen/Slackside+One"
 
   font "SlacksideOne-Regular.ttf"
+
+  # No zap stanza required
 end

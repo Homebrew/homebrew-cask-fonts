@@ -8,4 +8,6 @@ cask "font-encode-sans" do
   homepage "https://fonts.google.com/specimen/Encode+Sans"
 
   font "EncodeSans[wdth,wght].ttf"
+
+  # No zap stanza required
 end

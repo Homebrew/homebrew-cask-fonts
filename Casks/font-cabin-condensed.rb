@@ -13,4 +13,6 @@ cask "font-cabin-condensed" do
   font "CabinCondensed-Medium.ttf"
   font "CabinCondensed-Regular.ttf"
   font "CabinCondensed-SemiBold.ttf"
+
+  # No zap stanza required
 end

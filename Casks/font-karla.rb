@@ -11,4 +11,6 @@ cask "font-karla" do
 
   font "Karla-Italic[wght].ttf"
   font "Karla[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-meera-inimai" do
   homepage "https://fonts.google.com/specimen/Meera+Inimai"
 
   font "MeeraInimai-Regular.ttf"
+
+  # No zap stanza required
 end

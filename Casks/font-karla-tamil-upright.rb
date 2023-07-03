@@ -11,4 +11,6 @@ cask "font-karla-tamil-upright" do
 
   font "KarlaTamilUpright-Bold.ttf"
   font "KarlaTamilUpright-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -79,4 +79,6 @@ cask "font-noto-sans-khmer" do
   font "NotoSansKhmerUI-SemiCondensedSemiBold.ttf"
   font "NotoSansKhmerUI-SemiCondensedThin.ttf"
   font "NotoSansKhmerUI-Thin.ttf"
+
+  # No zap stanza required
 end

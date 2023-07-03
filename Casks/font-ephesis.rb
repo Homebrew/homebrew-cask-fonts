@@ -9,4 +9,6 @@ cask "font-ephesis" do
   homepage "https://fonts.google.com/specimen/Ephesis"
 
   font "Ephesis-Regular.ttf"
+
+  # No zap stanza required
 end

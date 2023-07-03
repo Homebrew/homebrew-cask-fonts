@@ -14,4 +14,6 @@ cask "font-lilex" do
   font "ttf/Lilex-Regular.ttf"
   font "ttf/Lilex-Thin.ttf"
   font "variable/Lilex-VF.ttf"
+
+  # No zap stanza required
 end

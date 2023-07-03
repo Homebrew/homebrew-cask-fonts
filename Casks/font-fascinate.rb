@@ -8,4 +8,6 @@ cask "font-fascinate" do
   homepage "https://fonts.google.com/specimen/Fascinate"
 
   font "Fascinate-Regular.ttf"
+
+  # No zap stanza required
 end

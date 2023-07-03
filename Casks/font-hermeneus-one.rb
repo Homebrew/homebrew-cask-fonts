@@ -8,4 +8,6 @@ cask "font-hermeneus-one" do
   homepage "https://fonts.google.com/specimen/Hermeneus+One"
 
   font "HermeneusOne-Regular.ttf"
+
+  # No zap stanza required
 end

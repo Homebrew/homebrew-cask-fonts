@@ -8,4 +8,6 @@ cask "font-black-ops-one" do
   homepage "https://fonts.google.com/specimen/Black+Ops+One"
 
   font "BlackOpsOne-Regular.ttf"
+
+  # No zap stanza required
 end

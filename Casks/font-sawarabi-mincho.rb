@@ -8,4 +8,6 @@ cask "font-sawarabi-mincho" do
   homepage "https://fonts.google.com/specimen/Sawarabi+Mincho"
 
   font "SawarabiMincho-Regular.ttf"
+
+  # No zap stanza required
 end

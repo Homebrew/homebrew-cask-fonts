@@ -8,4 +8,6 @@ cask "font-noto-sans-old-persian" do
   homepage "https://www.google.com/get/noto/#sans-xpeo"
 
   font "NotoSansOldPersian-Regular.ttf"
+
+  # No zap stanza required
 end

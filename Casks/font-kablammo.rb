@@ -8,4 +8,6 @@ cask "font-kablammo" do
   homepage "https://fonts.google.com/specimen/Kablammo"
 
   font "Kablammo[MORF].ttf"
+
+  # No zap stanza required
 end

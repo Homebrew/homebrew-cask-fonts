@@ -8,4 +8,6 @@ cask "font-orienta" do
   homepage "https://fonts.google.com/specimen/Orienta"
 
   font "Orienta-Regular.ttf"
+
+  # No zap stanza required
 end

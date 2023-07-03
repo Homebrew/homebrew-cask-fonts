@@ -8,4 +8,6 @@ cask "font-moon-dance" do
   homepage "https://fonts.google.com/specimen/Moon+Dance"
 
   font "MoonDance-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-kolker-brush" do
   homepage "https://fonts.google.com/specimen/Kolker+Brush"
 
   font "KolkerBrush-Regular.ttf"
+
+  # No zap stanza required
 end

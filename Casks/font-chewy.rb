@@ -8,4 +8,6 @@ cask "font-chewy" do
   homepage "https://fonts.google.com/specimen/Chewy"
 
   font "Chewy-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-kavoon" do
   homepage "https://fonts.google.com/specimen/Kavoon"
 
   font "Kavoon-Regular.ttf"
+
+  # No zap stanza required
 end

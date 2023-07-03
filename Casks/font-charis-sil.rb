@@ -16,4 +16,6 @@ cask "font-charis-sil" do
   font "CharisSIL-#{version}/CharisSIL-BoldItalic.ttf"
   font "CharisSIL-#{version}/CharisSIL-Italic.ttf"
   font "CharisSIL-#{version}/CharisSIL-Regular.ttf"
+
+  # No zap stanza required
 end

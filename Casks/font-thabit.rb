@@ -13,4 +13,6 @@ cask "font-thabit" do
   font "Thabit-BoldOblique.ttf"
   font "Thabit-Oblique.ttf"
   font "Thabit.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-miss-fajardose" do
   homepage "https://fonts.google.com/specimen/Miss+Fajardose"
 
   font "MissFajardose-Regular.ttf"
+
+  # No zap stanza required
 end

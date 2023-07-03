@@ -8,4 +8,6 @@ cask "font-port-lligat-sans" do
   homepage "https://fonts.google.com/specimen/Port+Lligat+Sans"
 
   font "PortLligatSans-Regular.ttf"
+
+  # No zap stanza required
 end

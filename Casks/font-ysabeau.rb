@@ -54,4 +54,6 @@ cask "font-ysabeau" do
   font "Ysabeau_Install_v#{version}/YsabeauSC-Semibold.ttf"
   font "Ysabeau_Install_v#{version}/YsabeauSC-Semilight.ttf"
   font "Ysabeau_Install_v#{version}/YsabeauSC-Thin.ttf"
+
+  # No zap stanza required
 end

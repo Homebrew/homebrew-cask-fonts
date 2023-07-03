@@ -8,4 +8,6 @@ cask "font-vibur" do
   homepage "https://fonts.google.com/specimen/Vibur"
 
   font "Vibur-Regular.ttf"
+
+  # No zap stanza required
 end

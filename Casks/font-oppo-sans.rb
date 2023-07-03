@@ -11,4 +11,6 @@ cask "font-oppo-sans" do
   font "Font-OPPOSans/OPPOSans-L.ttf"
   font "Font-OPPOSans/OPPOSans-M.ttf"
   font "Font-OPPOSans/OPPOSans-R.ttf"
+
+  # No zap stanza required
 end

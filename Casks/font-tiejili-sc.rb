@@ -9,4 +9,6 @@ cask "font-tiejili-sc" do
   homepage "https://github.com/Buernia/Tiejili"
 
   font "TiejiliSC-Regular.otf"
+
+  # No zap stanza required
 end

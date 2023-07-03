@@ -19,4 +19,6 @@ cask "font-cormorant-infant" do
   font "CormorantInfant-Regular.ttf"
   font "CormorantInfant-SemiBold.ttf"
   font "CormorantInfant-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

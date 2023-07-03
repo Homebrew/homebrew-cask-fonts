@@ -9,4 +9,6 @@ cask "font-liga-comic-mono" do
 
   font "comic-mono-font-master/LigaComicMono.ttf"
   font "comic-mono-font-master/LigaComicMono-Bold.ttf"
+
+  # No zap stanza required
 end

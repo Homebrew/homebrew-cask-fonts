@@ -9,4 +9,6 @@ cask "font-bungee-spice" do
   homepage "https://fonts.google.com/specimen/Bungee+Spice"
 
   font "BungeeSpice-Regular.ttf"
+
+  # No zap stanza required
 end

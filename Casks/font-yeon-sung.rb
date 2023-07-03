@@ -8,4 +8,6 @@ cask "font-yeon-sung" do
   homepage "https://fonts.google.com/specimen/Yeon+Sung"
 
   font "YeonSung-Regular.ttf"
+
+  # No zap stanza required
 end

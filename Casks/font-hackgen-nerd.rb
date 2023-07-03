@@ -11,4 +11,6 @@ cask "font-hackgen-nerd" do
   font "HackGen_NF_v#{version}/HackGen35ConsoleNF-Regular.ttf"
   font "HackGen_NF_v#{version}/HackGenConsoleNF-Bold.ttf"
   font "HackGen_NF_v#{version}/HackGenConsoleNF-Regular.ttf"
+
+  # No zap stanza required
 end

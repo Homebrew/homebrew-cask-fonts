@@ -9,4 +9,6 @@ cask "font-noto-sans-tc" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+TC"
 
   font "NotoSansTC[wght].ttf"
+
+  # No zap stanza required
 end

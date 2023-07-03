@@ -8,4 +8,6 @@ cask "font-bhavuka" do
   homepage "https://fonts.google.com/specimen/Bhavuka"
 
   font "Bhavuka-Regular.ttf"
+
+  # No zap stanza required
 end

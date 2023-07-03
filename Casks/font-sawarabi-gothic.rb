@@ -8,4 +8,6 @@ cask "font-sawarabi-gothic" do
   homepage "https://fonts.google.com/specimen/Sawarabi+Gothic"
 
   font "SawarabiGothic-Regular.ttf"
+
+  # No zap stanza required
 end

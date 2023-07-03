@@ -11,4 +11,6 @@ cask "font-pt-serif-caption" do
 
   font "PT_Serif-Caption-Web-Italic.ttf"
   font "PT_Serif-Caption-Web-Regular.ttf"
+
+  # No zap stanza required
 end

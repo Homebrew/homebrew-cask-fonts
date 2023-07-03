@@ -8,4 +8,6 @@ cask "font-oswald" do
   homepage "https://fonts.google.com/specimen/Oswald"
 
   font "Oswald[wght].ttf"
+
+  # No zap stanza required
 end

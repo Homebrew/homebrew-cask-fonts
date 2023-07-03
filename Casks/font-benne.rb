@@ -9,4 +9,6 @@ cask "font-benne" do
   homepage "https://fonts.google.com/specimen/Benne"
 
   font "Benne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-chivo" do
 
   font "Chivo-Italic[wght].ttf"
   font "Chivo[wght].ttf"
+
+  # No zap stanza required
 end

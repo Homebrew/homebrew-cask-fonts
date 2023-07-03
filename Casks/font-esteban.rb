@@ -8,4 +8,6 @@ cask "font-esteban" do
   homepage "https://fonts.google.com/specimen/Esteban"
 
   font "Esteban-Regular.ttf"
+
+  # No zap stanza required
 end

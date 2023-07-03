@@ -8,4 +8,6 @@ cask "font-freehand" do
   homepage "https://fonts.google.com/specimen/Freehand"
 
   font "Freehand-Regular.ttf"
+
+  # No zap stanza required
 end

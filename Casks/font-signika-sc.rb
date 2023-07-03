@@ -9,4 +9,6 @@ cask "font-signika-sc" do
   homepage "https://fonts.google.com/specimen/Signika+SC"
 
   font "SignikaSC[wght].ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-my-soul" do
   homepage "https://fonts.google.com/specimen/My+Soul"
 
   font "MySoul-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-yuji-boku" do
   homepage "https://fonts.google.com/specimen/Yuji+Boku"
 
   font "YujiBoku-Regular.ttf"
+
+  # No zap stanza required
 end

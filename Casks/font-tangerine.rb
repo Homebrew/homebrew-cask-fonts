@@ -11,4 +11,6 @@ cask "font-tangerine" do
 
   font "Tangerine-Bold.ttf"
   font "Tangerine-Regular.ttf"
+
+  # No zap stanza required
 end

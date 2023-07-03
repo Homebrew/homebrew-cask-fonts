@@ -9,4 +9,6 @@ cask "font-mea-culpa" do
   homepage "https://fonts.google.com/specimen/Mea+Culpa"
 
   font "MeaCulpa-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -7,4 +7,6 @@ cask "font-tex-gyre-chorus" do
   homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/chorus"
 
   font "texgyrechorus-mediumitalic.otf"
+
+  # No zap stanza required
 end

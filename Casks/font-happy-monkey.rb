@@ -8,4 +8,6 @@ cask "font-happy-monkey" do
   homepage "https://fonts.google.com/specimen/Happy+Monkey"
 
   font "HappyMonkey-Regular.ttf"
+
+  # No zap stanza required
 end

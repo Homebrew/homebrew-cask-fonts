@@ -13,4 +13,6 @@ cask "font-fira-code" do
   font "ttf/FiraCode-Regular.ttf"
   font "ttf/FiraCode-Retina.ttf"
   font "ttf/FiraCode-SemiBold.ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-bitter" do
 
   font "Bitter-Italic[wght].ttf"
   font "Bitter[wght].ttf"
+
+  # No zap stanza required
 end

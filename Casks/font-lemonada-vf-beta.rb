@@ -8,4 +8,6 @@ cask "font-lemonada-vf-beta" do
   homepage "https://fonts.google.com/specimen/Lemonada+VF+Beta"
 
   font "LemonadaVFBeta.ttf"
+
+  # No zap stanza required
 end

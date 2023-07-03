@@ -14,4 +14,6 @@ cask "font-hind-kochi" do
   font "HindKochi-Medium.ttf"
   font "HindKochi-Regular.ttf"
   font "HindKochi-SemiBold.ttf"
+
+  # No zap stanza required
 end

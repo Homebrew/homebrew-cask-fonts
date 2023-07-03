@@ -15,4 +15,6 @@ cask "font-maitree" do
   font "Maitree-Medium.ttf"
   font "Maitree-Regular.ttf"
   font "Maitree-SemiBold.ttf"
+
+  # No zap stanza required
 end

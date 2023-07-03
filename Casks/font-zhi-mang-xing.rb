@@ -8,4 +8,6 @@ cask "font-zhi-mang-xing" do
   homepage "https://fonts.google.com/specimen/Zhi+Mang+Xing"
 
   font "ZhiMangXing-Regular.ttf"
+
+  # No zap stanza required
 end

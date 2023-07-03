@@ -8,4 +8,6 @@ cask "font-kite-one" do
   homepage "https://fonts.google.com/specimen/Kite+One"
 
   font "KiteOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-poor-story" do
   homepage "https://fonts.google.com/specimen/Poor+Story"
 
   font "PoorStory-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-noto-sans-gunjala-gondi" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Gunjala+Gondi"
 
   font "NotoSansGunjalaGondi[wght].ttf"
+
+  # No zap stanza required
 end

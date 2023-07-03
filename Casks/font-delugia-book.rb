@@ -13,4 +13,6 @@ cask "font-delugia-book" do
   font "delugia-book/DelugiaBook.ttf"
   font "delugia-book/DelugiaBookLight-Italic.ttf"
   font "delugia-book/DelugiaBookLight.ttf"
+
+  # No zap stanza required
 end

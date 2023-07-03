@@ -9,4 +9,6 @@ cask "font-cairo-play" do
   homepage "https://fonts.google.com/specimen/Cairo+Play"
 
   font "CairoPlay[slnt,wght].ttf"
+
+  # No zap stanza required
 end

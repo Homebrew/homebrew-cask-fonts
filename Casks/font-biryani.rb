@@ -16,4 +16,6 @@ cask "font-biryani" do
   font "Biryani-Light.ttf"
   font "Biryani-Regular.ttf"
   font "Biryani-SemiBold.ttf"
+
+  # No zap stanza required
 end

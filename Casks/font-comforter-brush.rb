@@ -9,4 +9,6 @@ cask "font-comforter-brush" do
   homepage "https://fonts.google.com/specimen/Comforter+Brush"
 
   font "ComforterBrush-Regular.ttf"
+
+  # No zap stanza required
 end

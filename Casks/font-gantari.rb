@@ -12,4 +12,6 @@ cask "font-gantari" do
 
   font "Gantari-Italic[wght].ttf"
   font "Gantari[wght].ttf"
+
+  # No zap stanza required
 end

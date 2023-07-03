@@ -8,4 +8,6 @@ cask "font-dr-sugiyama" do
   homepage "https://fonts.google.com/specimen/Dr+Sugiyama"
 
   font "DrSugiyama-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-jim-nightshade" do
   homepage "https://fonts.google.com/specimen/Jim+Nightshade"
 
   font "JimNightshade-Regular.ttf"
+
+  # No zap stanza required
 end

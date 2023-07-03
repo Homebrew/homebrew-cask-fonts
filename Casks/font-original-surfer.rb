@@ -8,4 +8,6 @@ cask "font-original-surfer" do
   homepage "https://fonts.google.com/specimen/Original+Surfer"
 
   font "OriginalSurfer-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -16,4 +16,6 @@ cask "font-inknut-antiqua" do
   font "InknutAntiqua-Medium.ttf"
   font "InknutAntiqua-Regular.ttf"
   font "InknutAntiqua-SemiBold.ttf"
+
+  # No zap stanza required
 end

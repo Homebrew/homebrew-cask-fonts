@@ -8,4 +8,6 @@ cask "font-plaster" do
   homepage "https://fonts.google.com/specimen/Plaster"
 
   font "Plaster-Regular.ttf"
+
+  # No zap stanza required
 end

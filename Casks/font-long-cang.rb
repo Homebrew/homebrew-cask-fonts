@@ -8,4 +8,6 @@ cask "font-long-cang" do
   homepage "https://fonts.google.com/specimen/Long+Cang"
 
   font "LongCang-Regular.ttf"
+
+  # No zap stanza required
 end

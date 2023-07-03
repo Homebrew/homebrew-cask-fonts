@@ -13,4 +13,6 @@ cask "font-seoul-hangang" do
   font "SeoulHangang-ExtraBold.ttf"
   font "SeoulHangang-Light.ttf"
   font "SeoulHangang-Medium.ttf"
+
+  # No zap stanza required
 end

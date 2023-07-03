@@ -8,4 +8,6 @@ cask "font-the-girl-next-door" do
   homepage "https://fonts.google.com/specimen/The+Girl+Next+Door"
 
   font "TheGirlNextDoor.ttf"
+
+  # No zap stanza required
 end

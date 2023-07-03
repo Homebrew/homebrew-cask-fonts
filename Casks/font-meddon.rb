@@ -8,4 +8,6 @@ cask "font-meddon" do
   homepage "https://fonts.google.com/specimen/Meddon"
 
   font "Meddon.ttf"
+
+  # No zap stanza required
 end

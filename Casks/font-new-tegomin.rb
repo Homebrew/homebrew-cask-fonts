@@ -8,4 +8,6 @@ cask "font-new-tegomin" do
   homepage "https://fonts.google.com/specimen/New+Tegomin"
 
   font "NewTegomin-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-sono" do
   homepage "https://fonts.google.com/specimen/Sono"
 
   font "Sono[MONO,wght].ttf"
+
+  # No zap stanza required
 end

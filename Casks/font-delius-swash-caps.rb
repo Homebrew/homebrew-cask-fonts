@@ -8,4 +8,6 @@ cask "font-delius-swash-caps" do
   homepage "https://fonts.google.com/specimen/Delius+Swash+Caps"
 
   font "DeliusSwashCaps-Regular.ttf"
+
+  # No zap stanza required
 end

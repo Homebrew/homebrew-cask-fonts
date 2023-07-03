@@ -8,4 +8,6 @@ cask "font-gemunu-libre" do
   homepage "https://fonts.google.com/specimen/Gemunu+Libre"
 
   font "GemunuLibre[wght].ttf"
+
+  # No zap stanza required
 end

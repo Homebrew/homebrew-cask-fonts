@@ -8,4 +8,6 @@ cask "font-smythe" do
   homepage "https://fonts.google.com/specimen/Smythe"
 
   font "Smythe-Regular.ttf"
+
+  # No zap stanza required
 end

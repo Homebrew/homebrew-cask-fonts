@@ -13,4 +13,6 @@ cask "font-b612-mono" do
   font "B612Mono-BoldItalic.ttf"
   font "B612Mono-Italic.ttf"
   font "B612Mono-Regular.ttf"
+
+  # No zap stanza required
 end

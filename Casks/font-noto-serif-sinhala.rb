@@ -16,4 +16,6 @@ cask "font-noto-serif-sinhala" do
   font "NotoSerifSinhala-Regular.ttf"
   font "NotoSerifSinhala-SemiBold.ttf"
   font "NotoSerifSinhala-Thin.ttf"
+
+  # No zap stanza required
 end

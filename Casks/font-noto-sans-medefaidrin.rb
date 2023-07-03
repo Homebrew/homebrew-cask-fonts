@@ -8,4 +8,6 @@ cask "font-noto-sans-medefaidrin" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Medefaidrin"
 
   font "NotoSansMedefaidrin[wght].ttf"
+
+  # No zap stanza required
 end

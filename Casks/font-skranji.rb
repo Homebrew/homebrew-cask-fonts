@@ -11,4 +11,6 @@ cask "font-skranji" do
 
   font "Skranji-Bold.ttf"
   font "Skranji-Regular.ttf"
+
+  # No zap stanza required
 end

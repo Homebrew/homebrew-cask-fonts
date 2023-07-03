@@ -11,4 +11,6 @@ cask "font-im-fell-french-canon" do
 
   font "IMFeFCit28P.ttf"
   font "IMFeFCrm28P.ttf"
+
+  # No zap stanza required
 end

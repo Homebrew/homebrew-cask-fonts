@@ -8,4 +8,6 @@ cask "font-chelsea-market" do
   homepage "https://fonts.google.com/specimen/Chelsea+Market"
 
   font "ChelseaMarket-Regular.ttf"
+
+  # No zap stanza required
 end

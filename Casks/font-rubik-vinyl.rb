@@ -8,4 +8,6 @@ cask "font-rubik-vinyl" do
   homepage "https://fonts.google.com/specimen/Rubik+Vinyl"
 
   font "RubikVinyl-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -11,4 +11,6 @@ cask "font-mohave" do
 
   font "Mohave-Italic[wght].ttf"
   font "Mohave[wght].ttf"
+
+  # No zap stanza required
 end

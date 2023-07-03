@@ -8,4 +8,6 @@ cask "font-dosis" do
   homepage "https://fonts.google.com/specimen/Dosis"
 
   font "Dosis[wght].ttf"
+
+  # No zap stanza required
 end

@@ -7,4 +7,6 @@ cask "font-fzshusong-z01" do
   homepage "https://www.foundertype.com/index.php/FontInfo/index.html?id=151"
 
   font "FZSSK.ttf"
+
+  # No zap stanza required
 end

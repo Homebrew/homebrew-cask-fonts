@@ -10,4 +10,6 @@ cask "font-courier-prime-sans" do
   font "CourierPrimeSans-master/ttf/Courier Prime Sans Bold.ttf"
   font "CourierPrimeSans-master/ttf/Courier Prime Sans Italic.ttf"
   font "CourierPrimeSans-master/ttf/Courier Prime Sans.ttf"
+
+  # No zap stanza required
 end

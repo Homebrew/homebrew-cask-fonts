@@ -8,4 +8,6 @@ cask "font-yatra-one" do
   homepage "https://fonts.google.com/specimen/Yatra+One"
 
   font "YatraOne-Regular.ttf"
+
+  # No zap stanza required
 end

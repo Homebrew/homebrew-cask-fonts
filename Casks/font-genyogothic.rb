@@ -13,4 +13,6 @@ cask "font-genyogothic" do
   font "GenYoGothic-M.ttc"
   font "GenYoGothic-N.ttc"
   font "GenYoGothic-R.ttc"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-kapakana" do
   homepage "https://fonts.google.com/specimen/Kapakana"
 
   font "Kapakana[wght].ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-birthstone-bounce" do
 
   font "BirthstoneBounce-Medium.ttf"
   font "BirthstoneBounce-Regular.ttf"
+
+  # No zap stanza required
 end

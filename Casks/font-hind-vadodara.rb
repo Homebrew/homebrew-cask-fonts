@@ -14,4 +14,6 @@ cask "font-hind-vadodara" do
   font "HindVadodara-Medium.ttf"
   font "HindVadodara-Regular.ttf"
   font "HindVadodara-SemiBold.ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-dongle" do
   font "Dongle-Bold.ttf"
   font "Dongle-Light.ttf"
   font "Dongle-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -24,4 +24,6 @@ cask "font-poppins" do
   font "Poppins-SemiBoldItalic.otf"
   font "Poppins-Thin.otf"
   font "Poppins-ThinItalic.otf"
+
+  # No zap stanza required
 end

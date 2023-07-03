@@ -11,4 +11,6 @@ cask "font-cherry-swash" do
 
   font "CherrySwash-Bold.ttf"
   font "CherrySwash-Regular.ttf"
+
+  # No zap stanza required
 end

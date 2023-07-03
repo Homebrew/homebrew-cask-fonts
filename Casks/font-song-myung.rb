@@ -8,4 +8,6 @@ cask "font-song-myung" do
   homepage "https://fonts.google.com/specimen/Song+Myung"
 
   font "SongMyung-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-gajraj-one" do
   homepage "https://fonts.google.com/specimen/Gajraj+One"
 
   font "GajrajOne-Regular.ttf"
+
+  # No zap stanza required
 end

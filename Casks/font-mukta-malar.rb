@@ -16,4 +16,6 @@ cask "font-mukta-malar" do
   font "MuktaMalar-Medium.ttf"
   font "MuktaMalar-Regular.ttf"
   font "MuktaMalar-SemiBold.ttf"
+
+  # No zap stanza required
 end

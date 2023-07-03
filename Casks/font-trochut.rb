@@ -12,4 +12,6 @@ cask "font-trochut" do
   font "Trochut-Bold.ttf"
   font "Trochut-Italic.ttf"
   font "Trochut-Regular.ttf"
+
+  # No zap stanza required
 end

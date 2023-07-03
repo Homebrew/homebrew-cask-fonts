@@ -8,4 +8,6 @@ cask "font-darumadrop-one" do
   homepage "https://fonts.google.com/specimen/Darumadrop+One"
 
   font "DarumadropOne-Regular.ttf"
+
+  # No zap stanza required
 end

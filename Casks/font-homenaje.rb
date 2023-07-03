@@ -8,4 +8,6 @@ cask "font-homenaje" do
   homepage "https://fonts.google.com/specimen/Homenaje"
 
   font "Homenaje-Regular.ttf"
+
+  # No zap stanza required
 end

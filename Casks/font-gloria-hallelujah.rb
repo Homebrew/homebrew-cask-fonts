@@ -8,4 +8,6 @@ cask "font-gloria-hallelujah" do
   homepage "https://fonts.google.com/specimen/Gloria+Hallelujah"
 
   font "GloriaHallelujah.ttf"
+
+  # No zap stanza required
 end

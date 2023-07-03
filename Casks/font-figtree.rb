@@ -12,4 +12,6 @@ cask "font-figtree" do
 
   font "Figtree-Italic[wght].ttf"
   font "Figtree[wght].ttf"
+
+  # No zap stanza required
 end

@@ -14,4 +14,6 @@ cask "font-kaisei-tokumin" do
   font "KaiseiTokumin-ExtraBold.ttf"
   font "KaiseiTokumin-Medium.ttf"
   font "KaiseiTokumin-Regular.ttf"
+
+  # No zap stanza required
 end

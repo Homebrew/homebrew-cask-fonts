@@ -8,4 +8,6 @@ cask "font-geologica" do
   homepage "https://fonts.google.com/specimen/Geologica"
 
   font "Geologica[CRSV,SHRP,slnt,wght].ttf"
+
+  # No zap stanza required
 end

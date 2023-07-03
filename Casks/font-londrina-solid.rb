@@ -13,4 +13,6 @@ cask "font-londrina-solid" do
   font "LondrinaSolid-Light.ttf"
   font "LondrinaSolid-Regular.ttf"
   font "LondrinaSolid-Thin.ttf"
+
+  # No zap stanza required
 end

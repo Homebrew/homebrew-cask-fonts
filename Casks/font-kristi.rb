@@ -8,4 +8,6 @@ cask "font-kristi" do
   homepage "https://fonts.google.com/specimen/Kristi"
 
   font "Kristi-Regular.ttf"
+
+  # No zap stanza required
 end

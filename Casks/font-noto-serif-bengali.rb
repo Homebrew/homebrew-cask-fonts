@@ -9,4 +9,6 @@ cask "font-noto-serif-bengali" do
 
   font "NotoSerifBengali-Bold.ttf"
   font "NotoSerifBengali-Regular.ttf"
+
+  # No zap stanza required
 end

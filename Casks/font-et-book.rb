@@ -13,4 +13,6 @@ cask "font-et-book" do
   font "et-book-gh-pages/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf"
   font "et-book-gh-pages/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf"
   font "et-book-gh-pages/et-book/et-book-semi-bold-old-style-figures/et-book-semi-bold-old-style-figures.ttf"
+
+  # No zap stanza required
 end

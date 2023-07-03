@@ -9,4 +9,6 @@ cask "font-monomaniac-one" do
   homepage "https://fonts.google.com/specimen/Monomaniac+One"
 
   font "MonomaniacOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-hanalei" do
   homepage "https://fonts.google.com/specimen/Hanalei"
 
   font "Hanalei-Regular.ttf"
+
+  # No zap stanza required
 end

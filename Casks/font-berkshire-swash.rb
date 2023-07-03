@@ -8,4 +8,6 @@ cask "font-berkshire-swash" do
   homepage "https://fonts.google.com/specimen/Berkshire+Swash"
 
   font "BerkshireSwash-Regular.ttf"
+
+  # No zap stanza required
 end

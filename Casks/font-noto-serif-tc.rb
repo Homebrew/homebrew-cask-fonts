@@ -9,4 +9,6 @@ cask "font-noto-serif-tc" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+TC"
 
   font "NotoSerifTC[wght].ttf"
+
+  # No zap stanza required
 end

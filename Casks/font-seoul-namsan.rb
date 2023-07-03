@@ -13,4 +13,6 @@ cask "font-seoul-namsan" do
   font "SeoulNamsan-ExtraBold.ttf"
   font "SeoulNamsan-Light.ttf"
   font "SeoulNamsan-Medium.ttf"
+
+  # No zap stanza required
 end

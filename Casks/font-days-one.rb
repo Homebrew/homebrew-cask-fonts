@@ -8,4 +8,6 @@ cask "font-days-one" do
   homepage "https://fonts.google.com/specimen/Days+One"
 
   font "DaysOne-Regular.ttf"
+
+  # No zap stanza required
 end

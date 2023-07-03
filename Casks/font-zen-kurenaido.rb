@@ -9,4 +9,6 @@ cask "font-zen-kurenaido" do
   homepage "https://fonts.google.com/specimen/Zen+Kurenaido"
 
   font "ZenKurenaido-Regular.ttf"
+
+  # No zap stanza required
 end

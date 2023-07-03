@@ -15,4 +15,6 @@ cask "font-bellota-text" do
   font "BellotaText-Light.ttf"
   font "BellotaText-LightItalic.ttf"
   font "BellotaText-Regular.ttf"
+
+  # No zap stanza required
 end

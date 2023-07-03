@@ -8,4 +8,6 @@ cask "font-noto-sans-zanabazar-square" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Zanabazar+Square"
 
   font "NotoSansZanabazarSquare-Regular.ttf"
+
+  # No zap stanza required
 end

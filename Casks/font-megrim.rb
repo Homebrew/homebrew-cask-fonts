@@ -8,4 +8,6 @@ cask "font-megrim" do
   homepage "https://fonts.google.com/specimen/Megrim"
 
   font "Megrim.ttf"
+
+  # No zap stanza required
 end

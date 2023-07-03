@@ -8,4 +8,6 @@ cask "font-ponnala" do
   homepage "https://fonts.google.com/specimen/Ponnala"
 
   font "Ponnala-Regular.ttf"
+
+  # No zap stanza required
 end

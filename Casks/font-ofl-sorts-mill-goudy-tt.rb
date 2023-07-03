@@ -11,4 +11,6 @@ cask "font-ofl-sorts-mill-goudy-tt" do
 
   font "OFLGoudyStMTT-Italic.ttf"
   font "OFLGoudyStMTT.ttf"
+
+  # No zap stanza required
 end

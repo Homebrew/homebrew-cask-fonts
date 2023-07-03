@@ -8,4 +8,6 @@ cask "font-noto-serif-dogra" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Dogra"
 
   font "NotoSerifDogra-Regular.ttf"
+
+  # No zap stanza required
 end

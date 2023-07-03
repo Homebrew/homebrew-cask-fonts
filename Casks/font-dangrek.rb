@@ -8,4 +8,6 @@ cask "font-dangrek" do
   homepage "https://fonts.google.com/specimen/Dangrek"
 
   font "Dangrek-Regular.ttf"
+
+  # No zap stanza required
 end

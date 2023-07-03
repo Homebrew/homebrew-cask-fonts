@@ -9,4 +9,6 @@ cask "font-jaapokki" do
   font "Jaapokki-font-package-#{version}/Regular/Jaapokki-Regular.otf"
   font "Jaapokki-font-package-#{version}/enchance/Jaapokkienchance-Regular.otf"
   font "Jaapokki-font-package-#{version}/subtract/Jaapokkisubtract-Regular.otf"
+
+  # No zap stanza required
 end

@@ -7,4 +7,6 @@ cask "font-ligature-symbols" do
   homepage "https://kudakurage.com/ligature_symbols/"
 
   font "LigatureSymbols/LigatureSymbols-2.11.otf"
+
+  # No zap stanza required
 end

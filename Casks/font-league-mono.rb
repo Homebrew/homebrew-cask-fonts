@@ -49,4 +49,6 @@ cask "font-league-mono" do
   font "LeagueMono-#{version}/static/OTF/LeagueMono-WideBold.otf"
   font "LeagueMono-#{version}/static/OTF/LeagueMono-WideExtraBold.otf"
   font "LeagueMono-#{version}/variable/TTF/LeagueMono-VF.ttf"
+
+  # No zap stanza required
 end

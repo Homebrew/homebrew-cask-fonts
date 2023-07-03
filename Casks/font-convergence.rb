@@ -8,4 +8,6 @@ cask "font-convergence" do
   homepage "https://fonts.google.com/specimen/Convergence"
 
   font "Convergence-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -20,4 +20,6 @@ cask "font-titillium-web" do
   font "TitilliumWeb-Regular.ttf"
   font "TitilliumWeb-SemiBold.ttf"
   font "TitilliumWeb-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

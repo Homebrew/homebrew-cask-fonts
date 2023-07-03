@@ -8,4 +8,6 @@ cask "font-marko-one" do
   homepage "https://fonts.google.com/specimen/Marko+One"
 
   font "MarkoOne-Regular.ttf"
+
+  # No zap stanza required
 end

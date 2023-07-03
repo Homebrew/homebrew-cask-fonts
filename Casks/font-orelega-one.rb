@@ -8,4 +8,6 @@ cask "font-orelega-one" do
   homepage "https://fonts.google.com/specimen/Orelega+One"
 
   font "OrelegaOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-edu-vic-wa-nt-beginner" do
   homepage "https://fonts.google.com/specimen/Edu+VIC+WA+NT+Beginner"
 
   font "EduVICWANTBeginner[wght].ttf"
+
+  # No zap stanza required
 end

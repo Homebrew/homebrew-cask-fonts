@@ -8,4 +8,6 @@ cask "font-gamja-flower" do
   homepage "https://fonts.google.com/specimen/Gamja+Flower"
 
   font "GamjaFlower-Regular.ttf"
+
+  # No zap stanza required
 end

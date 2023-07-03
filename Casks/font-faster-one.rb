@@ -8,4 +8,6 @@ cask "font-faster-one" do
   homepage "https://fonts.google.com/specimen/Faster+One"
 
   font "FasterOne-Regular.ttf"
+
+  # No zap stanza required
 end

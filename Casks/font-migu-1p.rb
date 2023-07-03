@@ -8,4 +8,6 @@ cask "font-migu-1p" do
 
   font "migu-1p-#{version}/migu-1p-bold.ttf"
   font "migu-1p-#{version}/migu-1p-regular.ttf"
+
+  # No zap stanza required
 end

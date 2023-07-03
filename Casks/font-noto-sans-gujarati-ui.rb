@@ -18,4 +18,6 @@ cask "font-noto-sans-gujarati-ui" do
   font "NotoSansGujaratiUI-Regular.ttf"
   font "NotoSansGujaratiUI-SemiBold.ttf"
   font "NotoSansGujaratiUI-Thin.ttf"
+
+  # No zap stanza required
 end

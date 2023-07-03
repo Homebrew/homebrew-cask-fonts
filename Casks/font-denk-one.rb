@@ -8,4 +8,6 @@ cask "font-denk-one" do
   homepage "https://fonts.google.com/specimen/Denk+One"
 
   font "DenkOne-Regular.ttf"
+
+  # No zap stanza required
 end

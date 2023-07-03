@@ -8,4 +8,6 @@ cask "font-dokdo" do
   homepage "https://fonts.google.com/specimen/Dokdo"
 
   font "Dokdo-Regular.ttf"
+
+  # No zap stanza required
 end

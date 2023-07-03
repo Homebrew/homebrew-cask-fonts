@@ -43,4 +43,6 @@ cask "font-noto-serif-lao" do
   font "NotoSerifLao-SemiCondensedSemiBold.ttf"
   font "NotoSerifLao-SemiCondensedThin.ttf"
   font "NotoSerifLao-Thin.ttf"
+
+  # No zap stanza required
 end

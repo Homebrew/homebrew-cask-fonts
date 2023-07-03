@@ -8,4 +8,6 @@ cask "font-love-ya-like-a-sister" do
   homepage "https://fonts.google.com/specimen/Love+Ya+Like+A+Sister"
 
   font "LoveYaLikeASister.ttf"
+
+  # No zap stanza required
 end

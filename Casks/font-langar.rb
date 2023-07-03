@@ -9,4 +9,6 @@ cask "font-langar" do
   homepage "https://fonts.google.com/specimen/Langar"
 
   font "Langar-Regular.ttf"
+
+  # No zap stanza required
 end

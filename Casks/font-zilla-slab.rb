@@ -18,4 +18,6 @@ cask "font-zilla-slab" do
   font "zilla-slab/otf/ZillaSlab-SemiBoldItalic.otf"
   font "zilla-slab/otf/ZillaSlabHighlight-Bold.otf"
   font "zilla-slab/otf/ZillaSlabHighlight-Regular.otf"
+
+  # No zap stanza required
 end

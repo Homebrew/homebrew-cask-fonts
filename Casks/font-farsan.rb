@@ -8,4 +8,6 @@ cask "font-farsan" do
   homepage "https://fonts.google.com/specimen/Farsan"
 
   font "Farsan-Regular.ttf"
+
+  # No zap stanza required
 end

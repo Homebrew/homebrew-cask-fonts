@@ -9,4 +9,6 @@ cask "font-chokokutai" do
   homepage "https://fonts.google.com/specimen/Chokokutai"
 
   font "Chokokutai-Regular.ttf"
+
+  # No zap stanza required
 end

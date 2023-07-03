@@ -8,4 +8,6 @@ cask "font-odor-mean-chey" do
   homepage "https://fonts.google.com/specimen/Odor+Mean+Chey"
 
   font "OdorMeanChey-Regular.ttf"
+
+  # No zap stanza required
 end

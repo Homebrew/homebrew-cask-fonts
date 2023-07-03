@@ -8,4 +8,6 @@ cask "font-lohit-tamil" do
   homepage "https://fonts.google.com/specimen/Lohit+Tamil"
 
   font "Lohit-Tamil.ttf"
+
+  # No zap stanza required
 end

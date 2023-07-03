@@ -8,4 +8,6 @@ cask "font-festive" do
   homepage "https://fonts.google.com/specimen/Festive"
 
   font "Festive-Regular.ttf"
+
+  # No zap stanza required
 end

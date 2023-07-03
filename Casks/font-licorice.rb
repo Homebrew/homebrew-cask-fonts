@@ -9,4 +9,6 @@ cask "font-licorice" do
   homepage "https://fonts.google.com/specimen/Licorice"
 
   font "Licorice-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-tauri" do
   homepage "https://fonts.google.com/specimen/Tauri"
 
   font "Tauri-Regular.ttf"
+
+  # No zap stanza required
 end

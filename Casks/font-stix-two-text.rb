@@ -11,4 +11,6 @@ cask "font-stix-two-text" do
 
   font "STIXTwoText-Italic[wght].ttf"
   font "STIXTwoText[wght].ttf"
+
+  # No zap stanza required
 end

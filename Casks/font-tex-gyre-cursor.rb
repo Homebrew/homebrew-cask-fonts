@@ -10,4 +10,6 @@ cask "font-tex-gyre-cursor" do
   font "texgyrecursor-bolditalic.otf"
   font "texgyrecursor-italic.otf"
   font "texgyrecursor-regular.otf"
+
+  # No zap stanza required
 end

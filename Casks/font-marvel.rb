@@ -13,4 +13,6 @@ cask "font-marvel" do
   font "Marvel-BoldItalic.ttf"
   font "Marvel-Italic.ttf"
   font "Marvel-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-courier-prime-medium-and-semi-bold" do
 
   font "CourierPrime-Medium.ttf"
   font "CourierPrime-SemiBold.ttf"
+
+  # No zap stanza required
 end

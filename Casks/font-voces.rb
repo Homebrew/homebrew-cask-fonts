@@ -8,4 +8,6 @@ cask "font-voces" do
   homepage "https://fonts.google.com/specimen/Voces"
 
   font "Voces-Regular.ttf"
+
+  # No zap stanza required
 end

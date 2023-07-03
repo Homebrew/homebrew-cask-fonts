@@ -15,4 +15,6 @@ cask "font-intel-one-mono" do
   font "otf/intelone-mono-font-family-medium.otf"
   font "otf/intelone-mono-font-family-mediumitalic.otf"
   font "otf/intelone-mono-font-family-regular.otf"
+
+  # No zap stanza required
 end

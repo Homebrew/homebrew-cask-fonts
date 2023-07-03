@@ -11,4 +11,6 @@ cask "font-fanwood-text" do
 
   font "FanwoodText-Italic.ttf"
   font "FanwoodText-Regular.ttf"
+
+  # No zap stanza required
 end

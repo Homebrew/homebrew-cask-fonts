@@ -8,4 +8,6 @@ cask "font-ovo" do
   homepage "https://fonts.google.com/specimen/Ovo"
 
   font "Ovo-Regular.ttf"
+
+  # No zap stanza required
 end

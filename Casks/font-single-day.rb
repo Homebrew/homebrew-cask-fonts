@@ -8,4 +8,6 @@ cask "font-single-day" do
   homepage "https://fonts.google.com/specimen/Single+Day"
 
   font "SingleDay-Regular.ttf"
+
+  # No zap stanza required
 end

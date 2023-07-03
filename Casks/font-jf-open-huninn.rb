@@ -9,4 +9,6 @@ cask "font-jf-open-huninn" do
   homepage "https://justfont.com/huninn/"
 
   font "jf-openhuninn-#{version}.ttf"
+
+  # No zap stanza required
 end

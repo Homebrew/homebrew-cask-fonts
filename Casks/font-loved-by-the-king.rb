@@ -8,4 +8,6 @@ cask "font-loved-by-the-king" do
   homepage "https://fonts.google.com/specimen/Loved+by+the+King"
 
   font "LovedbytheKing.ttf"
+
+  # No zap stanza required
 end

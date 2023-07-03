@@ -8,4 +8,6 @@ cask "font-rozha-one" do
   homepage "https://fonts.google.com/specimen/Rozha+One"
 
   font "RozhaOne-Regular.ttf"
+
+  # No zap stanza required
 end

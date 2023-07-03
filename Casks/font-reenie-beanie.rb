@@ -8,4 +8,6 @@ cask "font-reenie-beanie" do
   homepage "https://fonts.google.com/specimen/Reenie+Beanie"
 
   font "ReenieBeanie.ttf"
+
+  # No zap stanza required
 end

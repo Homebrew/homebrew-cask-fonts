@@ -9,4 +9,6 @@ cask "font-kdam-thmor-pro" do
   homepage "https://fonts.google.com/specimen/Kdam+Thmor+Pro"
 
   font "KdamThmorPro-Regular.ttf"
+
+  # No zap stanza required
 end

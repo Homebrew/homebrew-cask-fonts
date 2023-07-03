@@ -9,4 +9,6 @@ cask "font-style-script" do
   homepage "https://fonts.google.com/specimen/Style+Script"
 
   font "StyleScript-Regular.ttf"
+
+  # No zap stanza required
 end

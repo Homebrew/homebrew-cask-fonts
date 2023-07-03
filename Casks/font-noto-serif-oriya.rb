@@ -9,4 +9,6 @@ cask "font-noto-serif-oriya" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Oriya"
 
   font "NotoSerifOriya[wght].ttf"
+
+  # No zap stanza required
 end

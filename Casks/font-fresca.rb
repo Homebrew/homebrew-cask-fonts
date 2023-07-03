@@ -8,4 +8,6 @@ cask "font-fresca" do
   homepage "https://fonts.google.com/specimen/Fresca"
 
   font "Fresca-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-gasoek-one" do
   homepage "https://fonts.google.com/specimen/Gasoek+One"
 
   font "GasoekOne-Regular.ttf"
+
+  # No zap stanza required
 end

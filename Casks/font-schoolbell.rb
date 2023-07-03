@@ -8,4 +8,6 @@ cask "font-schoolbell" do
   homepage "https://fonts.google.com/specimen/Schoolbell"
 
   font "Schoolbell-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-poiret-one" do
   homepage "https://fonts.google.com/specimen/Poiret+One"
 
   font "PoiretOne-Regular.ttf"
+
+  # No zap stanza required
 end

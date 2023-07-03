@@ -8,4 +8,6 @@ cask "font-shrikhand" do
   homepage "https://fonts.google.com/specimen/Shrikhand"
 
   font "Shrikhand-Regular.ttf"
+
+  # No zap stanza required
 end

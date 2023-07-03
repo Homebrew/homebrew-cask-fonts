@@ -8,4 +8,6 @@ cask "font-sue-ellen-francisco" do
   homepage "https://fonts.google.com/specimen/Sue+Ellen+Francisco"
 
   font "SueEllenFrancisco-Regular.ttf"
+
+  # No zap stanza required
 end

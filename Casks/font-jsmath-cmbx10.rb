@@ -12,4 +12,6 @@ cask "font-jsmath-cmbx10" do
   font "TeX-fonts-10/jsMath-cmr10.ttf"
   font "TeX-fonts-10/jsMath-cmsy10.ttf"
   font "TeX-fonts-10/jsMath-cmti10.ttf"
+
+  # No zap stanza required
 end

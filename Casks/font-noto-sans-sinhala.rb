@@ -79,4 +79,6 @@ cask "font-noto-sans-sinhala" do
   font "NotoSansSinhalaUI-SemiCondensedSemiBold.ttf"
   font "NotoSansSinhalaUI-SemiCondensedThin.ttf"
   font "NotoSansSinhalaUI-Thin.ttf"
+
+  # No zap stanza required
 end

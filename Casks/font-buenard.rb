@@ -11,4 +11,6 @@ cask "font-buenard" do
 
   font "Buenard-Bold.ttf"
   font "Buenard-Regular.ttf"
+
+  # No zap stanza required
 end

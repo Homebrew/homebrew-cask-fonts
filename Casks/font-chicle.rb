@@ -8,4 +8,6 @@ cask "font-chicle" do
   homepage "https://fonts.google.com/specimen/Chicle"
 
   font "Chicle-Regular.ttf"
+
+  # No zap stanza required
 end

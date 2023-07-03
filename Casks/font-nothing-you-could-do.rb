@@ -8,4 +8,6 @@ cask "font-nothing-you-could-do" do
   homepage "https://fonts.google.com/specimen/Nothing+You+Could+Do"
 
   font "NothingYouCouldDo.ttf"
+
+  # No zap stanza required
 end

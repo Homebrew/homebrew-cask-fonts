@@ -10,4 +10,6 @@ cask "font-miriam-mono-clm" do
   font "MiriamMonoCLM-BoldOblique.ttf"
   font "MiriamMonoCLM-Book.ttf"
   font "MiriamMonoCLM-BookOblique.ttf"
+
+  # No zap stanza required
 end

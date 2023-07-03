@@ -16,4 +16,6 @@ cask "font-m-plus-1p" do
   font "MPLUS1p-Medium.ttf"
   font "MPLUS1p-Regular.ttf"
   font "MPLUS1p-Thin.ttf"
+
+  # No zap stanza required
 end

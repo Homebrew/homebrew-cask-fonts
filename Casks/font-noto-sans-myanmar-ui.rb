@@ -18,4 +18,6 @@ cask "font-noto-sans-myanmar-ui" do
   font "NotoSansMyanmarUI-Regular.ttf"
   font "NotoSansMyanmarUI-SemiBold.ttf"
   font "NotoSansMyanmarUI-Thin.ttf"
+
+  # No zap stanza required
 end

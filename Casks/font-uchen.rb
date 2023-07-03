@@ -8,4 +8,6 @@ cask "font-uchen" do
   homepage "https://fonts.google.com/specimen/Uchen"
 
   font "Uchen-Regular.ttf"
+
+  # No zap stanza required
 end

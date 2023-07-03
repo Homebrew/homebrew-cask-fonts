@@ -8,4 +8,6 @@ cask "font-gfs-didot" do
   homepage "https://fonts.google.com/specimen/GFS+Didot"
 
   font "GFSDidot-Regular.ttf"
+
+  # No zap stanza required
 end

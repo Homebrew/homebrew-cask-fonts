@@ -8,4 +8,6 @@ cask "font-timmana" do
   homepage "https://fonts.google.com/specimen/Timmana"
 
   font "Timmana-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -45,4 +45,6 @@ cask "font-urbanist" do
   font "Urbanist-fonts/fonts/variable/Urbanist-Italic[wght].ttf"
   font "Urbanist-fonts/fonts/variable/Urbanist[ital,wght].ttf"
   font "Urbanist-fonts/fonts/variable/Urbanist[wght].ttf"
+
+  # No zap stanza required
 end

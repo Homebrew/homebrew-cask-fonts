@@ -12,4 +12,6 @@ cask "font-judson" do
   font "Judson-Bold.ttf"
   font "Judson-Italic.ttf"
   font "Judson-Regular.ttf"
+
+  # No zap stanza required
 end

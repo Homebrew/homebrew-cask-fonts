@@ -8,4 +8,6 @@ cask "font-kaiso" do
   homepage "https://moji-waku.com/kaiso/index.html"
 
   font "kaiso_next/Kaiso-Next-B.otf"
+
+  # No zap stanza required
 end

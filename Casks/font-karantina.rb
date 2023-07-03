@@ -13,4 +13,6 @@ cask "font-karantina" do
   font "Karantina-Bold.ttf"
   font "Karantina-Light.ttf"
   font "Karantina-Regular.ttf"
+
+  # No zap stanza required
 end

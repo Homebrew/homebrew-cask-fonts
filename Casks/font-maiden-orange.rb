@@ -8,4 +8,6 @@ cask "font-maiden-orange" do
   homepage "https://fonts.google.com/specimen/Maiden+Orange"
 
   font "MaidenOrange-Regular.ttf"
+
+  # No zap stanza required
 end

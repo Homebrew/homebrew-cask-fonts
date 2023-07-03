@@ -9,4 +9,6 @@ cask "font-noto-sans-oriya" do
 
   font "NotoSansOriya-Bold.ttf"
   font "NotoSansOriya-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-hannari" do
   homepage "https://fonts.google.com/specimen/Hannari"
 
   font "Hannari-Regular.ttf"
+
+  # No zap stanza required
 end

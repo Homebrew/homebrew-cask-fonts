@@ -8,4 +8,6 @@ cask "font-bebas-neue" do
   homepage "https://fonts.google.com/specimen/Bebas+Neue"
 
   font "BebasNeue-Regular.ttf"
+
+  # No zap stanza required
 end

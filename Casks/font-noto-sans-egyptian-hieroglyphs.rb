@@ -8,4 +8,6 @@ cask "font-noto-sans-egyptian-hieroglyphs" do
   homepage "https://www.google.com/get/noto/#sans-egyp"
 
   font "NotoSansEgyptianHieroglyphs-Regular.ttf"
+
+  # No zap stanza required
 end

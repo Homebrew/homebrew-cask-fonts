@@ -10,4 +10,6 @@ cask "font-georgia" do
   font "Georgiab.TTF"
   font "Georgiai.TTF"
   font "Georgia.TTF"
+
+  # No zap stanza required
 end

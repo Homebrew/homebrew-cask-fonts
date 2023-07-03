@@ -11,4 +11,6 @@ cask "font-chau-philomene-one" do
 
   font "ChauPhilomeneOne-Italic.ttf"
   font "ChauPhilomeneOne-Regular.ttf"
+
+  # No zap stanza required
 end

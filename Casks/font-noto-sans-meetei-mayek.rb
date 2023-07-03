@@ -8,4 +8,6 @@ cask "font-noto-sans-meetei-mayek" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Meetei+Mayek"
 
   font "NotoSansMeeteiMayek[wght].ttf"
+
+  # No zap stanza required
 end

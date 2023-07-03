@@ -8,4 +8,6 @@ cask "font-devicons" do
   homepage "https://vorillaz.github.io/devicons/"
 
   font "devicons-#{version}/fonts/devicons.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-medievalsharp" do
   homepage "https://fonts.google.com/specimen/MedievalSharp"
 
   font "MedievalSharp.ttf"
+
+  # No zap stanza required
 end

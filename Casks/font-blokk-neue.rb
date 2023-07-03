@@ -7,4 +7,6 @@ cask "font-blokk-neue" do
   homepage "https://github.com/los-gordos/BLOKK"
 
   font "BLOKKNeue-Regular.otf"
+
+  # No zap stanza required
 end

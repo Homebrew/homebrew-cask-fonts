@@ -17,4 +17,6 @@ cask "font-xits" do
   caveats do
     discontinued
   end
+
+  # No zap stanza required
 end

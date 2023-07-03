@@ -13,4 +13,6 @@ cask "font-david-libre" do
   font "DavidLibre-Bold.ttf"
   font "DavidLibre-Medium.ttf"
   font "DavidLibre-Regular.ttf"
+
+  # No zap stanza required
 end

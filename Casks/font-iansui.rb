@@ -8,4 +8,6 @@ cask "font-iansui" do
   homepage "https://github.com/ButTaiwan/iansui"
 
   font "Iansui-Regular.ttf"
+
+  # No zap stanza required
 end

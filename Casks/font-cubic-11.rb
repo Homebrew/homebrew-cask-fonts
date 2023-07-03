@@ -9,4 +9,6 @@ cask "font-cubic-11" do
   homepage "https://github.com/ACh-K/Cubic-11"
 
   font "fonts/ttf/Cubic_11_#{version}_R.ttf"
+
+  # No zap stanza required
 end

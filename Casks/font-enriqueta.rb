@@ -13,4 +13,6 @@ cask "font-enriqueta" do
   font "Enriqueta-Medium.ttf"
   font "Enriqueta-Regular.ttf"
   font "Enriqueta-SemiBold.ttf"
+
+  # No zap stanza required
 end

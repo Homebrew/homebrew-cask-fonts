@@ -8,4 +8,6 @@ cask "font-pinyon-script" do
   homepage "https://fonts.google.com/specimen/Pinyon+Script"
 
   font "PinyonScript-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-libre-baskerville" do
   font "LibreBaskerville-Bold.ttf"
   font "LibreBaskerville-Italic.ttf"
   font "LibreBaskerville-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-oi" do
   homepage "https://fonts.google.com/specimen/Oi"
 
   font "Oi-Regular.ttf"
+
+  # No zap stanza required
 end

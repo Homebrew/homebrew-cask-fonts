@@ -9,4 +9,6 @@ cask "font-yusei-magic" do
   homepage "https://fonts.google.com/specimen/Yusei+Magic"
 
   font "YuseiMagic-Regular.ttf"
+
+  # No zap stanza required
 end

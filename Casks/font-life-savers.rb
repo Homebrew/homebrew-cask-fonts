@@ -12,4 +12,6 @@ cask "font-life-savers" do
   font "LifeSavers-Bold.ttf"
   font "LifeSavers-ExtraBold.ttf"
   font "LifeSavers-Regular.ttf"
+
+  # No zap stanza required
 end

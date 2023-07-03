@@ -8,4 +8,6 @@ cask "font-monocraft" do
   homepage "https://github.com/IdreesInc/Monocraft"
 
   font "Monocraft.ttf"
+
+  # No zap stanza required
 end

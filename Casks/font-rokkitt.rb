@@ -12,4 +12,6 @@ cask "font-rokkitt" do
 
   font "Rokkitt-Italic[wght].ttf"
   font "Rokkitt[wght].ttf"
+
+  # No zap stanza required
 end

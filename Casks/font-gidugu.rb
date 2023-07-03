@@ -8,4 +8,6 @@ cask "font-gidugu" do
   homepage "https://fonts.google.com/specimen/Gidugu"
 
   font "Gidugu-Regular.ttf"
+
+  # No zap stanza required
 end

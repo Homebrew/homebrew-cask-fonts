@@ -8,4 +8,6 @@ cask "font-noto-sans-chakma" do
   homepage "https://www.google.com/get/noto/#sans-cakm"
 
   font "NotoSansChakma-Regular.ttf"
+
+  # No zap stanza required
 end

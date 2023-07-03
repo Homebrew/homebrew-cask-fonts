@@ -8,4 +8,6 @@ cask "font-noto-sans-mahajani" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Mahajani"
 
   font "NotoSansMahajani-Regular.ttf"
+
+  # No zap stanza required
 end

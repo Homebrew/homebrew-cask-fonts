@@ -8,4 +8,6 @@ cask "font-lao-sans-pro" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "LaoSansPro-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-rubik-80s-fade" do
   homepage "https://fonts.google.com/specimen/Rubik+80s+Fade"
 
   font "Rubik80sFade-Regular.ttf"
+
+  # No zap stanza required
 end

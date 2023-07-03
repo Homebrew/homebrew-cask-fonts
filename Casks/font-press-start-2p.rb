@@ -8,4 +8,6 @@ cask "font-press-start-2p" do
   homepage "https://fonts.google.com/specimen/Press+Start+2P"
 
   font "PressStart2P-Regular.ttf"
+
+  # No zap stanza required
 end

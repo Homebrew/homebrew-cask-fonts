@@ -8,4 +8,6 @@ cask "font-romanesco" do
   homepage "https://fonts.google.com/specimen/Romanesco"
 
   font "Romanesco-Regular.ttf"
+
+  # No zap stanza required
 end

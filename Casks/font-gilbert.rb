@@ -17,4 +17,6 @@ cask "font-gilbert" do
 
   font "Gilbert-Bold Preview#{version.before_comma.minor.tr("00", "")}.otf"
   font "Gilbert-Color Bold Preview#{version.before_comma.minor.tr("00", "")}.otf"
+
+  # No zap stanza required
 end

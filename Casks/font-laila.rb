@@ -11,4 +11,6 @@ cask "font-laila" do
   font "Laila-Medium.otf"
   font "Laila-Regular.otf"
   font "Laila-SemiBold.otf"
+
+  # No zap stanza required
 end

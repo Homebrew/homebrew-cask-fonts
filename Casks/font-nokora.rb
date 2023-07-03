@@ -14,4 +14,6 @@ cask "font-nokora" do
   font "Nokora-Light.ttf"
   font "Nokora-Regular.ttf"
   font "Nokora-Thin.ttf"
+
+  # No zap stanza required
 end

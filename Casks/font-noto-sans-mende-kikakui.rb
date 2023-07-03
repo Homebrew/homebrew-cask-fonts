@@ -8,4 +8,6 @@ cask "font-noto-sans-mende-kikakui" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Mende+Kikakui"
 
   font "NotoSansMendeKikakui-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-maven-pro" do
   homepage "https://fonts.google.com/specimen/Maven+Pro"
 
   font "MavenPro[wght].ttf"
+
+  # No zap stanza required
 end

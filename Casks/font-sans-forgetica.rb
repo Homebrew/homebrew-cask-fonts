@@ -7,4 +7,6 @@ cask "font-sans-forgetica" do
   homepage "https://sansforgetica.rmit.edu.au/"
 
   font "Sans Forgetica/SansForgetica-Regular.otf"
+
+  # No zap stanza required
 end

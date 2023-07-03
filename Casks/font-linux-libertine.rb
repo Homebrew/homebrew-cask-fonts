@@ -21,4 +21,6 @@ cask "font-linux-libertine" do
   font "LinLibertine_RZIah.ttf"
   font "LinLibertine_RZah.ttf"
   font "LinLibertine_Rah.ttf"
+
+  # No zap stanza required
 end

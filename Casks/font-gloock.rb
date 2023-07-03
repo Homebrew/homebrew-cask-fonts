@@ -9,4 +9,6 @@ cask "font-gloock" do
   homepage "https://fonts.google.com/specimen/Gloock"
 
   font "Gloock-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -14,4 +14,6 @@ cask "font-solway" do
   font "Solway-Light.ttf"
   font "Solway-Medium.ttf"
   font "Solway-Regular.ttf"
+
+  # No zap stanza required
 end

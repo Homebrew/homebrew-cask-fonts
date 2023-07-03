@@ -8,4 +8,6 @@ cask "font-unica-one" do
   homepage "https://fonts.google.com/specimen/Unica+One"
 
   font "UnicaOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-kimberella" do
   homepage "https://moji-waku.com/kimberella/index.html"
 
   font "kimberella/Kimberella-Regular.otf"
+
+  # No zap stanza required
 end

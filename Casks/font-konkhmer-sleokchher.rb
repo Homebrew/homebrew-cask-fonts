@@ -9,4 +9,6 @@ cask "font-konkhmer-sleokchher" do
   homepage "https://fonts.google.com/specimen/Konkhmer+Sleokchher"
 
   font "KonkhmerSleokchher-Regular.ttf"
+
+  # No zap stanza required
 end

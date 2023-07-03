@@ -8,4 +8,6 @@ cask "font-shojumaru" do
   homepage "https://fonts.google.com/specimen/Shojumaru"
 
   font "Shojumaru-Regular.ttf"
+
+  # No zap stanza required
 end

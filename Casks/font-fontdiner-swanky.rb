@@ -8,4 +8,6 @@ cask "font-fontdiner-swanky" do
   homepage "https://fonts.google.com/specimen/Fontdiner+Swanky"
 
   font "FontdinerSwanky-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-short-stack" do
   homepage "https://fonts.google.com/specimen/Short+Stack"
 
   font "ShortStack-Regular.ttf"
+
+  # No zap stanza required
 end

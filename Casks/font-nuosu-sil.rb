@@ -8,4 +8,6 @@ cask "font-nuosu-sil" do
   homepage "https://fonts.google.com/specimen/Nuosu+SIL"
 
   font "NuosuSIL-Regular.ttf"
+
+  # No zap stanza required
 end

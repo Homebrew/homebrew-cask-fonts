@@ -8,4 +8,6 @@ cask "font-odibee-sans" do
   homepage "https://fonts.google.com/specimen/Odibee+Sans"
 
   font "OdibeeSans-Regular.ttf"
+
+  # No zap stanza required
 end

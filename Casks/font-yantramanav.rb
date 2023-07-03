@@ -15,4 +15,6 @@ cask "font-yantramanav" do
   font "Yantramanav-Medium.ttf"
   font "Yantramanav-Regular.ttf"
   font "Yantramanav-Thin.ttf"
+
+  # No zap stanza required
 end

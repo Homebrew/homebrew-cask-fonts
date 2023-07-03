@@ -11,4 +11,6 @@ cask "font-playfair" do
 
   font "Playfair-Italic[opsz,wdth,wght].ttf"
   font "Playfair[opsz,wdth,wght].ttf"
+
+  # No zap stanza required
 end

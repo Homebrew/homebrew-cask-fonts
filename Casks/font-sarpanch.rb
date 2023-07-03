@@ -15,4 +15,6 @@ cask "font-sarpanch" do
   font "Sarpanch-Medium.ttf"
   font "Sarpanch-Regular.ttf"
   font "Sarpanch-SemiBold.ttf"
+
+  # No zap stanza required
 end

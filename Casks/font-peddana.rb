@@ -8,4 +8,6 @@ cask "font-peddana" do
   homepage "https://fonts.google.com/specimen/Peddana"
 
   font "Peddana-Regular.ttf"
+
+  # No zap stanza required
 end

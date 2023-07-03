@@ -8,4 +8,6 @@ cask "font-wendy-one" do
   homepage "https://fonts.google.com/specimen/Wendy+One"
 
   font "WendyOne-Regular.ttf"
+
+  # No zap stanza required
 end

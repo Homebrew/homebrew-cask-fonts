@@ -8,4 +8,6 @@ cask "font-cute-font" do
   homepage "https://fonts.google.com/specimen/Cute+Font"
 
   font "CuteFont-Regular.ttf"
+
+  # No zap stanza required
 end

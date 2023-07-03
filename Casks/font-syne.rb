@@ -9,4 +9,6 @@ cask "font-syne" do
   homepage "https://fonts.google.com/specimen/Syne"
 
   font "Syne[wght].ttf"
+
+  # No zap stanza required
 end

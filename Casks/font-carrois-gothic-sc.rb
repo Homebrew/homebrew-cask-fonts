@@ -8,4 +8,6 @@ cask "font-carrois-gothic-sc" do
   homepage "https://fonts.google.com/specimen/Carrois+Gothic+SC"
 
   font "CarroisGothicSC-Regular.ttf"
+
+  # No zap stanza required
 end

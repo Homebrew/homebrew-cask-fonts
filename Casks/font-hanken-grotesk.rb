@@ -12,4 +12,6 @@ cask "font-hanken-grotesk" do
 
   font "HankenGrotesk-Italic[wght].ttf"
   font "HankenGrotesk[wght].ttf"
+
+  # No zap stanza required
 end

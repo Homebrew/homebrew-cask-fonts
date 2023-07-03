@@ -23,4 +23,6 @@ cask "font-titillium" do
   font "Titillium_roman_upright_italic_#{version.before_comma.dots_to_underscores}_OT/Titillium-Thin.otf"
   font "Titillium_roman_upright_italic_#{version.before_comma.dots_to_underscores}_OT/Titillium-ThinItalic.otf"
   font "Titillium_roman_upright_italic_#{version.before_comma.dots_to_underscores}_OT/Titillium-ThinUpright.otf"
+
+  # No zap stanza required
 end

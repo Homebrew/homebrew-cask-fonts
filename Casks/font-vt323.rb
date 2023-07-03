@@ -8,4 +8,6 @@ cask "font-vt323" do
   homepage "https://fonts.google.com/specimen/VT323"
 
   font "VT323-Regular.ttf"
+
+  # No zap stanza required
 end

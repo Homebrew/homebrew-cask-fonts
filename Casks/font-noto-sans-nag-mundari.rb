@@ -9,4 +9,6 @@ cask "font-noto-sans-nag-mundari" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nag+Mundari"
 
   font "NotoSansNagMundari[wght].ttf"
+
+  # No zap stanza required
 end

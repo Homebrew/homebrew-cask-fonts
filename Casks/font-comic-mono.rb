@@ -10,4 +10,6 @@ cask "font-comic-mono" do
 
   font "comic-mono-font-master/ComicMono.ttf"
   font "comic-mono-font-master/ComicMono-Bold.ttf"
+
+  # No zap stanza required
 end

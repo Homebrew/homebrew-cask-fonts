@@ -43,4 +43,6 @@ cask "font-noto-serif-myanmar" do
   font "NotoSerifMyanmar-SemiCondensedSemiBold.ttf"
   font "NotoSerifMyanmar-SemiCondensedThin.ttf"
   font "NotoSerifMyanmar-Thin.ttf"
+
+  # No zap stanza required
 end

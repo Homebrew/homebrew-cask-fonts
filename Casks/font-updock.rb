@@ -9,4 +9,6 @@ cask "font-updock" do
   homepage "https://fonts.google.com/specimen/Updock"
 
   font "Updock-Regular.ttf"
+
+  # No zap stanza required
 end

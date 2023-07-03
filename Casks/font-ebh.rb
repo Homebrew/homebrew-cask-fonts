@@ -17,4 +17,6 @@ cask "font-ebh" do
   font "EBH-v#{version}/EBH Facsimile.otf"
   font "EBH-v#{version}/EBH Initials.otf"
   font "EBH-v#{version}/EBH Runes.otf"
+
+  # No zap stanza required
 end

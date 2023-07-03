@@ -8,4 +8,6 @@ cask "font-im-fell-great-primer-sc" do
   homepage "https://fonts.google.com/specimen/IM+Fell+Great+Primer+SC"
 
   font "IMFeGPsc28P.ttf"
+
+  # No zap stanza required
 end

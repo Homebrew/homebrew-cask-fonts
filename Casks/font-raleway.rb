@@ -28,4 +28,6 @@ cask "font-raleway" do
   font "Raleway-#{version}/static/OTF/Raleway-BlackItalic.otf"
   font "Raleway-#{version}/variable/TTF/Raleway-VF.ttf"
   font "Raleway-#{version}/variable/TTF/Raleway-Italic-VF.ttf"
+
+  # No zap stanza required
 end

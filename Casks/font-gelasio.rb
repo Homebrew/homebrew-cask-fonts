@@ -17,4 +17,6 @@ cask "font-gelasio" do
   font "Gelasio-Regular.ttf"
   font "Gelasio-SemiBold.ttf"
   font "Gelasio-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

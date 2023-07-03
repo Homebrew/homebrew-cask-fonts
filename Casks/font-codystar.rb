@@ -11,4 +11,6 @@ cask "font-codystar" do
 
   font "Codystar-Light.ttf"
   font "Codystar-Regular.ttf"
+
+  # No zap stanza required
 end

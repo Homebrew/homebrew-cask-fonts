@@ -8,4 +8,6 @@ cask "font-barrio" do
   homepage "https://fonts.google.com/specimen/Barrio"
 
   font "Barrio-Regular.ttf"
+
+  # No zap stanza required
 end

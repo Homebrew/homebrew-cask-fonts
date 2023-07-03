@@ -27,4 +27,6 @@ cask "font-taviraj" do
   font "Taviraj-SemiBoldItalic.ttf"
   font "Taviraj-Thin.ttf"
   font "Taviraj-ThinItalic.ttf"
+
+  # No zap stanza required
 end

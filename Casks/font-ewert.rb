@@ -8,4 +8,6 @@ cask "font-ewert" do
   homepage "https://fonts.google.com/specimen/Ewert"
 
   font "Ewert-Regular.ttf"
+
+  # No zap stanza required
 end

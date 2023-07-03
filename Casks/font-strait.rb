@@ -8,4 +8,6 @@ cask "font-strait" do
   homepage "https://fonts.google.com/specimen/Strait"
 
   font "Strait-Regular.ttf"
+
+  # No zap stanza required
 end

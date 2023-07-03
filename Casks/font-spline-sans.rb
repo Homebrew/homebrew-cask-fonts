@@ -9,4 +9,6 @@ cask "font-spline-sans" do
   homepage "https://fonts.google.com/specimen/Spline+Sans"
 
   font "SplineSans[wght].ttf"
+
+  # No zap stanza required
 end

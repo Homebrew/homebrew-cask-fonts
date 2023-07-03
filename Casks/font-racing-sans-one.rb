@@ -8,4 +8,6 @@ cask "font-racing-sans-one" do
   homepage "https://fonts.google.com/specimen/Racing+Sans+One"
 
   font "RacingSansOne-Regular.ttf"
+
+  # No zap stanza required
 end

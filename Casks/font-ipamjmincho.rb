@@ -14,4 +14,6 @@ cask "font-ipamjmincho" do
   end
 
   font "ipamjm.ttf"
+
+  # No zap stanza required
 end

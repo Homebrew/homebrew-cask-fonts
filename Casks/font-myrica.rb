@@ -9,4 +9,6 @@ cask "font-myrica" do
   homepage "https://myrica.estable.jp/"
 
   font "Myrica-#{version}/Myrica.TTC"
+
+  # No zap stanza required
 end

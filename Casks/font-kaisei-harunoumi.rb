@@ -12,4 +12,6 @@ cask "font-kaisei-harunoumi" do
   font "KaiseiHarunoUmi-Bold.ttf"
   font "KaiseiHarunoUmi-Medium.ttf"
   font "KaiseiHarunoUmi-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-hahmlet" do
   homepage "https://fonts.google.com/specimen/Hahmlet"
 
   font "Hahmlet[wght].ttf"
+
+  # No zap stanza required
 end

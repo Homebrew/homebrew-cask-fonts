@@ -8,4 +8,6 @@ cask "font-lohit" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "Lohit-Devanagari.ttf"
+
+  # No zap stanza required
 end

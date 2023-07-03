@@ -8,4 +8,6 @@ cask "font-dotgothic16" do
   homepage "https://fonts.google.com/specimen/DotGothic16"
 
   font "DotGothic16-Regular.ttf"
+
+  # No zap stanza required
 end

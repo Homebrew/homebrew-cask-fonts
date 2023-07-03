@@ -15,4 +15,6 @@ cask "font-zen-maru-gothic" do
   font "ZenMaruGothic-Light.ttf"
   font "ZenMaruGothic-Medium.ttf"
   font "ZenMaruGothic-Regular.ttf"
+
+  # No zap stanza required
 end

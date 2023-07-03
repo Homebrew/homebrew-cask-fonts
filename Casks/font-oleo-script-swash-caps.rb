@@ -11,4 +11,6 @@ cask "font-oleo-script-swash-caps" do
 
   font "OleoScriptSwashCaps-Bold.ttf"
   font "OleoScriptSwashCaps-Regular.ttf"
+
+  # No zap stanza required
 end

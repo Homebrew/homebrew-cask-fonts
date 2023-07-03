@@ -8,4 +8,6 @@ cask "font-finger-paint" do
   homepage "https://fonts.google.com/specimen/Finger+Paint"
 
   font "FingerPaint-Regular.ttf"
+
+  # No zap stanza required
 end

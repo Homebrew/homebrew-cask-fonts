@@ -13,4 +13,6 @@ cask "font-mirza" do
   font "Mirza-Medium.ttf"
   font "Mirza-Regular.ttf"
   font "Mirza-SemiBold.ttf"
+
+  # No zap stanza required
 end

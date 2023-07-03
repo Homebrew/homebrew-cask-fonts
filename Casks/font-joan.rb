@@ -9,4 +9,6 @@ cask "font-joan" do
   homepage "https://fonts.google.com/specimen/Joan"
 
   font "Joan-Regular.ttf"
+
+  # No zap stanza required
 end

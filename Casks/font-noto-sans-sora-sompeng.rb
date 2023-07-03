@@ -8,4 +8,6 @@ cask "font-noto-sans-sora-sompeng" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Sora+Sompeng"
 
   font "NotoSansSoraSompeng[wght].ttf"
+
+  # No zap stanza required
 end

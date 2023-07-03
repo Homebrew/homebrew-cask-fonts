@@ -8,4 +8,6 @@ cask "font-frank-ruhl-libre" do
   homepage "https://fonts.google.com/specimen/Frank+Ruhl+Libre"
 
   font "FrankRuhlLibre[wght].ttf"
+
+  # No zap stanza required
 end

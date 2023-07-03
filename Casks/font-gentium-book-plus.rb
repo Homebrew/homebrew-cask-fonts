@@ -14,4 +14,6 @@ cask "font-gentium-book-plus" do
   font "GentiumBookPlus-BoldItalic.ttf"
   font "GentiumBookPlus-Italic.ttf"
   font "GentiumBookPlus-Regular.ttf"
+
+  # No zap stanza required
 end

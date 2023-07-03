@@ -9,4 +9,6 @@ cask "font-cardo" do
   font "Cardo104s.ttf"
   font "Cardoi99.ttf"
   font "Cardob101.ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-sunflower" do
   font "Sunflower-Bold.ttf"
   font "Sunflower-Light.ttf"
   font "Sunflower-Medium.ttf"
+
+  # No zap stanza required
 end

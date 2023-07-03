@@ -43,4 +43,6 @@ cask "font-noto-sans-ethiopic" do
   font "NotoSansEthiopic-SemiCondensedSemiBold.ttf"
   font "NotoSansEthiopic-SemiCondensedThin.ttf"
   font "NotoSansEthiopic-Thin.ttf"
+
+  # No zap stanza required
 end

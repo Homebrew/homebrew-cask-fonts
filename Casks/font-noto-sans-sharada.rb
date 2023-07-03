@@ -8,4 +8,6 @@ cask "font-noto-sans-sharada" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Sharada"
 
   font "NotoSansSharada-Regular.ttf"
+
+  # No zap stanza required
 end

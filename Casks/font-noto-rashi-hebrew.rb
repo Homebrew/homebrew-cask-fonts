@@ -8,4 +8,6 @@ cask "font-noto-rashi-hebrew" do
   homepage "https://fonts.google.com/specimen/Noto+Rashi+Hebrew"
 
   font "NotoRashiHebrew[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-noto-sans-phoenician" do
   homepage "https://www.google.com/get/noto/#sans-phnx"
 
   font "NotoSansPhoenician-Regular.ttf"
+
+  # No zap stanza required
 end

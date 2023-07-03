@@ -8,4 +8,6 @@ cask "font-peralta" do
   homepage "https://fonts.google.com/specimen/Peralta"
 
   font "Peralta-Regular.ttf"
+
+  # No zap stanza required
 end

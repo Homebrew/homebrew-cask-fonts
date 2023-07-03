@@ -13,4 +13,6 @@ cask "font-simple-line-icons" do
   end
 
   font "simple-line-icons-#{version}/fonts/Simple-Line-Icons.ttf"
+
+  # No zap stanza required
 end

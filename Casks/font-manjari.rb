@@ -12,4 +12,6 @@ cask "font-manjari" do
   font "Manjari-Bold.ttf"
   font "Manjari-Regular.ttf"
   font "Manjari-Thin.ttf"
+
+  # No zap stanza required
 end

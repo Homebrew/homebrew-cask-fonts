@@ -8,4 +8,6 @@ cask "font-sree-krushnadevaraya" do
   homepage "https://fonts.google.com/specimen/Sree+Krushnadevaraya"
 
   font "SreeKrushnadevaraya-Regular.ttf"
+
+  # No zap stanza required
 end

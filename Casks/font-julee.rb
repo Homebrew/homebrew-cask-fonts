@@ -8,4 +8,6 @@ cask "font-julee" do
   homepage "https://fonts.google.com/specimen/Julee"
 
   font "Julee-Regular.ttf"
+
+  # No zap stanza required
 end

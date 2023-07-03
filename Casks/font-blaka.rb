@@ -9,4 +9,6 @@ cask "font-blaka" do
   homepage "https://fonts.google.com/specimen/Blaka"
 
   font "Blaka-Regular.ttf"
+
+  # No zap stanza required
 end

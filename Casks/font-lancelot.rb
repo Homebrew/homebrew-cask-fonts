@@ -8,4 +8,6 @@ cask "font-lancelot" do
   homepage "https://fonts.google.com/specimen/Lancelot"
 
   font "Lancelot-Regular.ttf"
+
+  # No zap stanza required
 end

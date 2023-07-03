@@ -12,4 +12,6 @@ cask "font-league-gothic" do
   font "LeagueGothic-#{version}/static/OTF/LeagueGothic-Italic.otf"
   font "LeagueGothic-#{version}/static/OTF/LeagueGothic-Condensed.otf"
   font "LeagueGothic-#{version}/static/OTF/LeagueGothic-CondensedItalic.otf"
+
+  # No zap stanza required
 end

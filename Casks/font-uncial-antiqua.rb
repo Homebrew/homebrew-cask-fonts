@@ -8,4 +8,6 @@ cask "font-uncial-antiqua" do
   homepage "https://fonts.google.com/specimen/Uncial+Antiqua"
 
   font "UncialAntiqua-Regular.ttf"
+
+  # No zap stanza required
 end

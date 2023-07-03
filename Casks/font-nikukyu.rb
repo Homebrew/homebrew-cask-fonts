@@ -8,4 +8,6 @@ cask "font-nikukyu" do
   homepage "https://fonts.google.com/specimen/Nikukyu"
 
   font "Nikukyu-Regular.ttf"
+
+  # No zap stanza required
 end

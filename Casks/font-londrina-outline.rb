@@ -8,4 +8,6 @@ cask "font-londrina-outline" do
   homepage "https://fonts.google.com/specimen/Londrina+Outline"
 
   font "LondrinaOutline-Regular.ttf"
+
+  # No zap stanza required
 end

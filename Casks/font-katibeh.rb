@@ -8,4 +8,6 @@ cask "font-katibeh" do
   homepage "https://fonts.google.com/specimen/Katibeh"
 
   font "Katibeh-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-noto-serif-kr" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+KR"
 
   font "NotoSerifKR[wght].ttf"
+
+  # No zap stanza required
 end

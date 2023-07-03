@@ -8,4 +8,6 @@ cask "font-merienda" do
   homepage "https://fonts.google.com/specimen/Merienda"
 
   font "Merienda[wght].ttf"
+
+  # No zap stanza required
 end

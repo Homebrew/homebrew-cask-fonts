@@ -8,4 +8,6 @@ cask "font-kranky" do
   homepage "https://fonts.google.com/specimen/Kranky"
 
   font "Kranky-Regular.ttf"
+
+  # No zap stanza required
 end

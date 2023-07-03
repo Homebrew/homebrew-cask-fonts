@@ -15,4 +15,6 @@ cask "font-shippori-mincho" do
   font "ShipporiMincho-Medium.ttf"
   font "ShipporiMincho-Regular.ttf"
   font "ShipporiMincho-SemiBold.ttf"
+
+  # No zap stanza required
 end

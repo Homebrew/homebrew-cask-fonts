@@ -12,4 +12,6 @@ cask "font-passion-one" do
   font "PassionOne-Black.ttf"
   font "PassionOne-Bold.ttf"
   font "PassionOne-Regular.ttf"
+
+  # No zap stanza required
 end

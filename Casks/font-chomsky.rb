@@ -8,4 +8,6 @@ cask "font-chomsky" do
   homepage "https://github.com/ctrlcctrlv/chomsky"
 
   font "Chomsky.otf"
+
+  # No zap stanza required
 end

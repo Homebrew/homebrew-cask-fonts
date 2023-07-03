@@ -27,4 +27,6 @@ cask "font-grenze" do
   font "Grenze-SemiBoldItalic.ttf"
   font "Grenze-Thin.ttf"
   font "Grenze-ThinItalic.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-noto-sans-gujarati" do
 
   font "NotoSansGujarati-Bold.ttf"
   font "NotoSansGujarati-Regular.ttf"
+
+  # No zap stanza required
 end

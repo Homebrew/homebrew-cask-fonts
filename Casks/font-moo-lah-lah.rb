@@ -8,4 +8,6 @@ cask "font-moo-lah-lah" do
   homepage "https://fonts.google.com/specimen/Moo+Lah+Lah"
 
   font "MooLahLah-Regular.ttf"
+
+  # No zap stanza required
 end

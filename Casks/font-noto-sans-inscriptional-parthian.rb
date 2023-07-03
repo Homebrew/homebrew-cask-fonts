@@ -8,4 +8,6 @@ cask "font-noto-sans-inscriptional-parthian" do
   homepage "https://www.google.com/get/noto/#sans-prti"
 
   font "NotoSansInscriptionalParthian-Regular.ttf"
+
+  # No zap stanza required
 end

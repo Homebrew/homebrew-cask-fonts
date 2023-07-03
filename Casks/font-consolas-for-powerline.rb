@@ -10,4 +10,6 @@ cask "font-consolas-for-powerline" do
   font "consolas-powerline-vim-master/CONSOLAB-Powerline.ttf"
   font "consolas-powerline-vim-master/CONSOLAI-Powerline.ttf"
   font "consolas-powerline-vim-master/CONSOLAZ-Powerline.ttf"
+
+  # No zap stanza required
 end

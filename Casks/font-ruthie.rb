@@ -8,4 +8,6 @@ cask "font-ruthie" do
   homepage "https://fonts.google.com/specimen/Ruthie"
 
   font "Ruthie-Regular.ttf"
+
+  # No zap stanza required
 end

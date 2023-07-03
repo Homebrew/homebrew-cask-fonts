@@ -15,4 +15,6 @@ cask "font-d2coding" do
   end
 
   font "D2Coding/D2Coding-Ver#{version.before_comma}-#{version.after_comma}.ttc"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-monoton" do
   homepage "https://fonts.google.com/specimen/Monoton"
 
   font "Monoton-Regular.ttf"
+
+  # No zap stanza required
 end

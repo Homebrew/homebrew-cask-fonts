@@ -8,4 +8,6 @@ cask "font-prata" do
   homepage "https://fonts.google.com/specimen/Prata"
 
   font "Prata-Regular.ttf"
+
+  # No zap stanza required
 end

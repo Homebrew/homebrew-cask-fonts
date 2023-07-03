@@ -26,4 +26,6 @@ cask "font-inter" do
   font "Inter Desktop/Inter-Thin.otf"
   font "Inter Desktop/Inter-ThinItalic.otf"
   font "Inter Desktop/Inter-V.ttf"
+
+  # No zap stanza required
 end

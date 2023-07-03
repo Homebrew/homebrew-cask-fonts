@@ -8,4 +8,6 @@ cask "font-freckle-face" do
   homepage "https://fonts.google.com/specimen/Freckle+Face"
 
   font "FreckleFace-Regular.ttf"
+
+  # No zap stanza required
 end

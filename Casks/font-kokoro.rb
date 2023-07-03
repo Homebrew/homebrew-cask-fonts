@@ -8,4 +8,6 @@ cask "font-kokoro" do
   homepage "https://fonts.google.com/specimen/Kokoro"
 
   font "Kokoro-Regular.ttf"
+
+  # No zap stanza required
 end

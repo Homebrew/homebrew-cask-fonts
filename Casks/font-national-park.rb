@@ -11,4 +11,6 @@ cask "font-national-park" do
   font "NationalPark-Regular.otf"
   font "NationalPark-Outline.otf"
   font "NationalPark-Heavy.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-overpass-mono" do
   homepage "https://fonts.google.com/specimen/Overpass+Mono"
 
   font "OverpassMono[wght].ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-sacramento" do
   homepage "https://fonts.google.com/specimen/Sacramento"
 
   font "Sacramento-Regular.ttf"
+
+  # No zap stanza required
 end

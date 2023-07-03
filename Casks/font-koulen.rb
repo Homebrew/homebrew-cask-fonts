@@ -8,4 +8,6 @@ cask "font-koulen" do
   homepage "https://fonts.google.com/specimen/Koulen"
 
   font "Koulen-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -16,4 +16,6 @@ cask "font-noto-sans-cham" do
   font "NotoSansCham-Regular.ttf"
   font "NotoSansCham-SemiBold.ttf"
   font "NotoSansCham-Thin.ttf"
+
+  # No zap stanza required
 end

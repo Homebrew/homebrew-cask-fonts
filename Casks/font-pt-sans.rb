@@ -14,4 +14,6 @@ cask "font-pt-sans" do
   font "PTS56F.ttf"
   font "PTS75F.ttf"
   font "PTS76F.ttf"
+
+  # No zap stanza required
 end

@@ -10,4 +10,6 @@ cask "font-cochineal" do
   font "cochineal/opentype/Cochineal-BoldItalic.otf"
   font "cochineal/opentype/Cochineal-Italic.otf"
   font "cochineal/opentype/Cochineal-Roman.otf"
+
+  # No zap stanza required
 end

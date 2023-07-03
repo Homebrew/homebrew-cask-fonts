@@ -8,4 +8,6 @@ cask "font-kaushan-script" do
   homepage "https://fonts.google.com/specimen/Kaushan+Script"
 
   font "KaushanScript-Regular.ttf"
+
+  # No zap stanza required
 end

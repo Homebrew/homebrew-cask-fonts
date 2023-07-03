@@ -8,4 +8,6 @@ cask "font-rubik-marker-hatch" do
   homepage "https://fonts.google.com/specimen/Rubik+Marker+Hatch"
 
   font "RubikMarkerHatch-Regular.ttf"
+
+  # No zap stanza required
 end

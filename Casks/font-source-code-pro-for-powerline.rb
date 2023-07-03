@@ -22,4 +22,6 @@ cask "font-source-code-pro-for-powerline" do
   font "Source Code Pro Powerline SemiboldItalic.otf"
   font "Source Code Pro Semibold for Powerline.otf"
   font "Source Code Pro for Powerline.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-flavors" do
   homepage "https://fonts.google.com/specimen/Flavors"
 
   font "Flavors-Regular.ttf"
+
+  # No zap stanza required
 end

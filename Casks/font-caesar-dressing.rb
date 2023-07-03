@@ -8,4 +8,6 @@ cask "font-caesar-dressing" do
   homepage "https://fonts.google.com/specimen/Caesar+Dressing"
 
   font "CaesarDressing-Regular.ttf"
+
+  # No zap stanza required
 end

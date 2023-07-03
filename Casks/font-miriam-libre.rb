@@ -11,4 +11,6 @@ cask "font-miriam-libre" do
 
   font "MiriamLibre-Bold.ttf"
   font "MiriamLibre-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -16,4 +16,6 @@ cask "font-bitstream-vera" do
   font "ttf-bitstream-vera-1.10/VeraMono.ttf"
   font "ttf-bitstream-vera-1.10/VeraSe.ttf"
   font "ttf-bitstream-vera-1.10/VeraSeBd.ttf"
+
+  # No zap stanza required
 end

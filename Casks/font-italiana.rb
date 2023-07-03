@@ -8,4 +8,6 @@ cask "font-italiana" do
   homepage "https://fonts.google.com/specimen/Italiana"
 
   font "Italiana-Regular.ttf"
+
+  # No zap stanza required
 end

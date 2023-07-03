@@ -13,4 +13,6 @@ cask "font-ubuntu-mono" do
   font "UbuntuMono-BoldItalic.ttf"
   font "UbuntuMono-Italic.ttf"
   font "UbuntuMono-Regular.ttf"
+
+  # No zap stanza required
 end

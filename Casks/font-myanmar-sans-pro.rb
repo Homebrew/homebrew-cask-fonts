@@ -8,4 +8,6 @@ cask "font-myanmar-sans-pro" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "MyanmarSansPro-Regular.ttf"
+
+  # No zap stanza required
 end

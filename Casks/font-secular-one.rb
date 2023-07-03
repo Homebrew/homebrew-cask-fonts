@@ -8,4 +8,6 @@ cask "font-secular-one" do
   homepage "https://fonts.google.com/specimen/Secular+One"
 
   font "SecularOne-Regular.ttf"
+
+  # No zap stanza required
 end

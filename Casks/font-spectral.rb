@@ -34,4 +34,6 @@ cask "font-spectral" do
   font "Spectral-master/fonts/sc/SpectralSC-Regular.ttf"
   font "Spectral-master/fonts/sc/SpectralSC-SemiBold.ttf"
   font "Spectral-master/fonts/sc/SpectralSC-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

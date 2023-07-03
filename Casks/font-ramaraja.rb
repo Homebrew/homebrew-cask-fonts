@@ -8,4 +8,6 @@ cask "font-ramaraja" do
   homepage "https://fonts.google.com/specimen/Ramaraja"
 
   font "Ramaraja-Regular.ttf"
+
+  # No zap stanza required
 end

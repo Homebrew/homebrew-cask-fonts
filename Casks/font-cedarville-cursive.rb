@@ -8,4 +8,6 @@ cask "font-cedarville-cursive" do
   homepage "https://fonts.google.com/specimen/Cedarville+Cursive"
 
   font "Cedarville-Cursive.ttf"
+
+  # No zap stanza required
 end

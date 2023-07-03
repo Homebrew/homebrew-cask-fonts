@@ -8,4 +8,6 @@ cask "font-mclaren" do
   homepage "https://fonts.google.com/specimen/McLaren"
 
   font "McLaren-Regular.ttf"
+
+  # No zap stanza required
 end

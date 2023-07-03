@@ -8,4 +8,6 @@ cask "font-rye" do
   homepage "https://fonts.google.com/specimen/Rye"
 
   font "Rye-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -10,4 +10,6 @@ cask "font-trebuchet-ms" do
   font "Trebucbd.ttf"
   font "trebucbi.ttf"
   font "trebucit.ttf"
+
+  # No zap stanza required
 end

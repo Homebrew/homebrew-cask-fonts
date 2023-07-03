@@ -9,4 +9,6 @@ cask "font-trispace" do
   homepage "https://fonts.google.com/specimen/Trispace"
 
   font "Trispace[wdth,wght].ttf"
+
+  # No zap stanza required
 end

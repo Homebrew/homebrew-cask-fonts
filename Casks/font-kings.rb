@@ -9,4 +9,6 @@ cask "font-kings" do
   homepage "https://fonts.google.com/specimen/Kings"
 
   font "Kings-Regular.ttf"
+
+  # No zap stanza required
 end

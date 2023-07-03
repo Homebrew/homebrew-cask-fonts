@@ -8,4 +8,6 @@ cask "font-staatliches" do
   homepage "https://fonts.google.com/specimen/Staatliches"
 
   font "Staatliches-Regular.ttf"
+
+  # No zap stanza required
 end

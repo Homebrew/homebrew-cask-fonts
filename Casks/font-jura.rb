@@ -8,4 +8,6 @@ cask "font-jura" do
   homepage "https://fonts.google.com/specimen/Jura"
 
   font "Jura[wght].ttf"
+
+  # No zap stanza required
 end

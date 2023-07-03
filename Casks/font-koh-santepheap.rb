@@ -15,4 +15,6 @@ cask "font-koh-santepheap" do
   font "KohSantepheap-Light.ttf"
   font "KohSantepheap-Regular.ttf"
   font "KohSantepheap-Thin.ttf"
+
+  # No zap stanza required
 end

@@ -13,4 +13,6 @@ cask "font-cantarell" do
   font "Cantarell-BoldItalic.ttf"
   font "Cantarell-Italic.ttf"
   font "Cantarell-Regular.ttf"
+
+  # No zap stanza required
 end

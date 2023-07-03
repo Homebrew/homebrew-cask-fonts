@@ -8,4 +8,6 @@ cask "font-miltonian" do
   homepage "https://fonts.google.com/specimen/Miltonian"
 
   font "Miltonian-Regular.ttf"
+
+  # No zap stanza required
 end

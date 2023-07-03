@@ -13,4 +13,6 @@ cask "font-lxgw-bright-tc" do
   font "LXGWBrightTC/LXGWBrightTC-Italic.otf"
   font "LXGWBrightTC/LXGWBrightTC-SemiLight.otf"
   font "LXGWBrightTC/LXGWBrightTC-SemiLightItalic.otf"
+
+  # No zap stanza required
 end

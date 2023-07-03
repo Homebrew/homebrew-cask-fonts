@@ -8,4 +8,6 @@ cask "font-viaoda-libre" do
   homepage "https://fonts.google.com/specimen/Viaoda+Libre"
 
   font "ViaodaLibre-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -17,4 +17,6 @@ cask "font-monoid" do
     To get other styles, please tap the sscotth/homebrew-monoid repo
       brew tap sscotth/monoid
   EOS
+
+  # No zap stanza required
 end

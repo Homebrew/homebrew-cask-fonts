@@ -8,4 +8,6 @@ cask "font-six-caps" do
   homepage "https://fonts.google.com/specimen/Six+Caps"
 
   font "SixCaps.ttf"
+
+  # No zap stanza required
 end

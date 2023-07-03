@@ -43,4 +43,6 @@ cask "font-noto-serif-thai" do
   font "NotoSerifThai-SemiCondensedSemiBold.ttf"
   font "NotoSerifThai-SemiCondensedThin.ttf"
   font "NotoSerifThai-Thin.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-bm" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "BM-HANNA.ttf"
+
+  # No zap stanza required
 end

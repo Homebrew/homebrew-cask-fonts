@@ -15,4 +15,6 @@ cask "font-tsukimi-rounded" do
   font "TsukimiRounded-Medium.ttf"
   font "TsukimiRounded-Regular.ttf"
   font "TsukimiRounded-SemiBold.ttf"
+
+  # No zap stanza required
 end

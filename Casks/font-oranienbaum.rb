@@ -8,4 +8,6 @@ cask "font-oranienbaum" do
   homepage "https://fonts.google.com/specimen/Oranienbaum"
 
   font "Oranienbaum-Regular.ttf"
+
+  # No zap stanza required
 end

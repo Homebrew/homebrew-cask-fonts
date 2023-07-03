@@ -13,4 +13,6 @@ cask "font-hind-jalandhar" do
   font "HindJalandhar-Medium.ttf"
   font "HindJalandhar-Regular.ttf"
   font "HindJalandhar-SemiBold.ttf"
+
+  # No zap stanza required
 end

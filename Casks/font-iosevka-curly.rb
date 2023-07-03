@@ -21,4 +21,6 @@ cask "font-iosevka-curly" do
   font "iosevka-curly-regular.ttc"
   font "iosevka-curly-semibold.ttc"
   font "iosevka-curly-thin.ttc"
+
+  # No zap stanza required
 end

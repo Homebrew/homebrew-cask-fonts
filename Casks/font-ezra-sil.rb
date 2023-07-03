@@ -8,4 +8,6 @@ cask "font-ezra-sil" do
 
   font "EzraSIL#{version}/SILEOT.ttf"
   font "EzraSIL#{version}/SILEOTSR.ttf"
+
+  # No zap stanza required
 end

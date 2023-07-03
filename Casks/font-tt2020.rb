@@ -17,4 +17,6 @@ cask "font-tt2020" do
   font "TT2020-#{version}/dist/TT2020StyleE-Regular.ttf"
   font "TT2020-#{version}/dist/TT2020StyleF-Regular.ttf"
   font "TT2020-#{version}/dist/TT2020StyleG-Regular.ttf"
+
+  # No zap stanza required
 end

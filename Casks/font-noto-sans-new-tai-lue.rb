@@ -8,4 +8,6 @@ cask "font-noto-sans-new-tai-lue" do
   homepage "https://www.google.com/get/noto/#sans-talu"
 
   font "NotoSansNewTaiLue-Regular.ttf"
+
+  # No zap stanza required
 end

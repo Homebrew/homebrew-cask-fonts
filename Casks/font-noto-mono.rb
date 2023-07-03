@@ -8,4 +8,6 @@ cask "font-noto-mono" do
   homepage "https://www.google.com/get/noto/#mono-mono"
 
   font "NotoMono-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -14,4 +14,6 @@ cask "font-biorhyme-expanded" do
   font "BioRhymeExpanded-ExtraLight.ttf"
   font "BioRhymeExpanded-Light.ttf"
   font "BioRhymeExpanded-Regular.ttf"
+
+  # No zap stanza required
 end

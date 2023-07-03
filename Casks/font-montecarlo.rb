@@ -9,4 +9,6 @@ cask "font-montecarlo" do
   homepage "https://fonts.google.com/specimen/MonteCarlo"
 
   font "MonteCarlo-Regular.ttf"
+
+  # No zap stanza required
 end

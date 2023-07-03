@@ -8,4 +8,6 @@ cask "font-hurricane" do
   homepage "https://fonts.google.com/specimen/Hurricane"
 
   font "Hurricane-Regular.ttf"
+
+  # No zap stanza required
 end

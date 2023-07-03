@@ -11,4 +11,6 @@ cask "font-jost" do
 
   font "Jost-Italic[wght].ttf"
   font "Jost[wght].ttf"
+
+  # No zap stanza required
 end

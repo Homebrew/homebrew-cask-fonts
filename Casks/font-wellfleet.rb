@@ -8,4 +8,6 @@ cask "font-wellfleet" do
   homepage "https://fonts.google.com/specimen/Wellfleet"
 
   font "Wellfleet-Regular.ttf"
+
+  # No zap stanza required
 end

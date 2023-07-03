@@ -8,4 +8,6 @@ cask "font-condiment" do
   homepage "https://fonts.google.com/specimen/Condiment"
 
   font "Condiment-Regular.ttf"
+
+  # No zap stanza required
 end

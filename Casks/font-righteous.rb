@@ -8,4 +8,6 @@ cask "font-righteous" do
   homepage "https://fonts.google.com/specimen/Righteous"
 
   font "Righteous-Regular.ttf"
+
+  # No zap stanza required
 end

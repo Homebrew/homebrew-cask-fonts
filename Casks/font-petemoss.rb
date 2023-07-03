@@ -9,4 +9,6 @@ cask "font-petemoss" do
   homepage "https://fonts.google.com/specimen/Petemoss"
 
   font "Petemoss-Regular.ttf"
+
+  # No zap stanza required
 end

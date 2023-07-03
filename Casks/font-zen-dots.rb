@@ -9,4 +9,6 @@ cask "font-zen-dots" do
   homepage "https://fonts.google.com/specimen/Zen+Dots"
 
   font "ZenDots-Regular.ttf"
+
+  # No zap stanza required
 end

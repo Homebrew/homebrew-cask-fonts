@@ -8,4 +8,6 @@ cask "font-belgrano" do
   homepage "https://fonts.google.com/specimen/Belgrano"
 
   font "Belgrano-Regular.ttf"
+
+  # No zap stanza required
 end

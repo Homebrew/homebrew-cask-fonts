@@ -8,4 +8,6 @@ cask "font-undefined-medium" do
   homepage "https://github.com/andirueckel/undefined-medium"
 
   font "undefined-medium-#{version}/fonts/otf/undefined-medium.otf"
+
+  # No zap stanza required
 end

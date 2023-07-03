@@ -21,4 +21,6 @@ cask "font-church-slavonic" do
   font "fonts-churchslavonic/TriodionUnicode.otf"
   font "fonts-churchslavonic/VertogradUnicode.otf"
   font "fonts-churchslavonic/Voskresensky-Regular.otf"
+
+  # No zap stanza required
 end

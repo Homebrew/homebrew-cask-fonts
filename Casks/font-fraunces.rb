@@ -12,4 +12,6 @@ cask "font-fraunces" do
 
   font "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
   font "Fraunces[SOFT,WONK,opsz,wght].ttf"
+
+  # No zap stanza required
 end

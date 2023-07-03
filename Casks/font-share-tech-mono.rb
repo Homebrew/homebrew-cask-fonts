@@ -8,4 +8,6 @@ cask "font-share-tech-mono" do
   homepage "https://fonts.google.com/specimen/Share+Tech+Mono"
 
   font "ShareTechMono-Regular.ttf"
+
+  # No zap stanza required
 end

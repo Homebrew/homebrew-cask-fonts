@@ -8,4 +8,6 @@ cask "font-meie-script" do
   homepage "https://fonts.google.com/specimen/Meie+Script"
 
   font "MeieScript-Regular.ttf"
+
+  # No zap stanza required
 end

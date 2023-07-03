@@ -8,4 +8,6 @@ cask "font-euphoria-script" do
   homepage "https://fonts.google.com/specimen/Euphoria+Script"
 
   font "EuphoriaScript-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -13,4 +13,6 @@ cask "font-palanquin-dark" do
   font "PalanquinDark-Medium.ttf"
   font "PalanquinDark-Regular.ttf"
   font "PalanquinDark-SemiBold.ttf"
+
+  # No zap stanza required
 end

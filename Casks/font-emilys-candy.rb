@@ -8,4 +8,6 @@ cask "font-emilys-candy" do
   homepage "https://fonts.google.com/specimen/Emilys+Candy"
 
   font "EmilysCandy-Regular.ttf"
+
+  # No zap stanza required
 end

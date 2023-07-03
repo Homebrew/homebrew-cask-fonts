@@ -51,4 +51,6 @@ cask "font-cormorant" do
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/CormorantUpright-Medium.ttf"
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/CormorantUpright-Regular.ttf"
   font "Cormorant_Install_v#{version}/1. TrueType Font Files/CormorantUpright-SemiBold.ttf"
+
+  # No zap stanza required
 end

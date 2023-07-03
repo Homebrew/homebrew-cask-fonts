@@ -8,4 +8,6 @@ cask "font-noto-sans-pau-cin-hau" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Pau+Cin+Hau"
 
   font "NotoSansPauCinHau-Regular.ttf"
+
+  # No zap stanza required
 end

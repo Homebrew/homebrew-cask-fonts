@@ -8,4 +8,6 @@ cask "font-bellefair" do
   homepage "https://fonts.google.com/specimen/Bellefair"
 
   font "Bellefair-Regular.ttf"
+
+  # No zap stanza required
 end

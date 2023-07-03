@@ -8,4 +8,6 @@ cask "font-noto-sans-cjk" do
   homepage "https://www.google.com/get/noto/help/cjk/"
 
   font "NotoSansCJK.ttc"
+
+  # No zap stanza required
 end

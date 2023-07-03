@@ -7,4 +7,6 @@ cask "font-profontx" do
   homepage "http://faisal.com/software/profontx/"
 
   font "ProFontX/ProFontX"
+
+  # No zap stanza required
 end

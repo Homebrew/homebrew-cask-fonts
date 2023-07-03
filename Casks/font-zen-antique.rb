@@ -8,4 +8,6 @@ cask "font-zen-antique" do
   homepage "https://fonts.google.com/specimen/Zen+Antique"
 
   font "ZenAntique-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -10,4 +10,6 @@ cask "font-everson-mono" do
   font "evermono-#{version}/Everson Mono Bold.ttf"
   font "evermono-#{version}/Everson Mono Bold Oblique.ttf"
   font "evermono-#{version}/Everson Mono Oblique.ttf"
+
+  # No zap stanza required
 end

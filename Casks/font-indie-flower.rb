@@ -8,4 +8,6 @@ cask "font-indie-flower" do
   homepage "https://fonts.google.com/specimen/Indie+Flower"
 
   font "IndieFlower-Regular.ttf"
+
+  # No zap stanza required
 end

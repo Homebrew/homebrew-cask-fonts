@@ -8,4 +8,6 @@ cask "font-cinzel" do
   homepage "https://fonts.google.com/specimen/Cinzel"
 
   font "Cinzel[wght].ttf"
+
+  # No zap stanza required
 end

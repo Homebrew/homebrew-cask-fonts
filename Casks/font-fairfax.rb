@@ -11,4 +11,6 @@ cask "font-fairfax" do
   font "FairfaxBold.ttf"
   font "FairfaxItalic.ttf"
   font "FairfaxSerif.ttf"
+
+  # No zap stanza required
 end

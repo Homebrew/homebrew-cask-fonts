@@ -8,4 +8,6 @@ cask "font-cagliostro" do
   homepage "https://fonts.google.com/specimen/Cagliostro"
 
   font "Cagliostro-Regular.ttf"
+
+  # No zap stanza required
 end

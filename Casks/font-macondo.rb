@@ -8,4 +8,6 @@ cask "font-macondo" do
   homepage "https://fonts.google.com/specimen/Macondo"
 
   font "Macondo-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-lumanosimo" do
   homepage "https://github.com/docrepair-fonts/lumanosimo-fonts"
 
   font "Lumanosimo-Regular.ttf"
+
+  # No zap stanza required
 end

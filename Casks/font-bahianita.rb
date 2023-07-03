@@ -8,4 +8,6 @@ cask "font-bahianita" do
   homepage "https://fonts.google.com/specimen/Bahianita"
 
   font "Bahianita-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-noto-serif-georgian" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Georgian"
 
   font "NotoSerifGeorgian[wdth,wght].ttf"
+
+  # No zap stanza required
 end

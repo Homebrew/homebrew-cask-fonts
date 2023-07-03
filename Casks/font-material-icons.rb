@@ -13,4 +13,6 @@ cask "font-material-icons" do
   end
 
   font "material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
+
+  # No zap stanza required
 end

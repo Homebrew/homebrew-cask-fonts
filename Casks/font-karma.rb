@@ -11,4 +11,6 @@ cask "font-karma" do
   font "Karma-Medium.otf"
   font "Karma-Regular.otf"
   font "Karma-SemiBold.otf"
+
+  # No zap stanza required
 end

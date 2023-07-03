@@ -8,4 +8,6 @@ cask "font-ruge-boogie" do
   homepage "https://fonts.google.com/specimen/Ruge+Boogie"
 
   font "RugeBoogie-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-padyakke-expanded-one" do
   homepage "https://fonts.google.com/specimen/Padyakke+Expanded+One"
 
   font "PadyakkeExpandedOne-Regular.ttf"
+
+  # No zap stanza required
 end

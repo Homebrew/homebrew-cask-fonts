@@ -8,4 +8,6 @@ cask "font-big-shoulders-display" do
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Display"
 
   font "BigShouldersDisplay[wght].ttf"
+
+  # No zap stanza required
 end

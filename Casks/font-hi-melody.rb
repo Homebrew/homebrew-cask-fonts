@@ -8,4 +8,6 @@ cask "font-hi-melody" do
   homepage "https://fonts.google.com/specimen/Hi+Melody"
 
   font "HiMelody-Regular.ttf"
+
+  # No zap stanza required
 end

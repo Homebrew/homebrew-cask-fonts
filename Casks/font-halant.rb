@@ -11,4 +11,6 @@ cask "font-halant" do
   font "Halant-Medium.otf"
   font "Halant-Regular.otf"
   font "Halant-SemiBold.otf"
+
+  # No zap stanza required
 end

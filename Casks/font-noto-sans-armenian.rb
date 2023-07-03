@@ -43,4 +43,6 @@ cask "font-noto-sans-armenian" do
   font "NotoSansArmenian-SemiCondensedSemiBold.ttf"
   font "NotoSansArmenian-SemiCondensedThin.ttf"
   font "NotoSansArmenian-Thin.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-jeju-hallasan" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "JejuHallasan-Regular.ttf"
+
+  # No zap stanza required
 end

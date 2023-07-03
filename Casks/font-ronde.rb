@@ -8,4 +8,6 @@ cask "font-ronde" do
   homepage "https://moji-waku.com/ronde/index.html"
 
   font "ronde_square/Ronde-B_square.otf"
+
+  # No zap stanza required
 end

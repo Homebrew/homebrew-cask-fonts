@@ -8,4 +8,6 @@ cask "font-seoul-namsan-vertical" do
   homepage "https://fonts.google.com/specimen/Seoul+Namsan+Vertical"
 
   font "SeoulNamsanVertical-Regular.ttf"
+
+  # No zap stanza required
 end

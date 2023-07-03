@@ -8,4 +8,6 @@ cask "font-lalezar" do
   homepage "https://fonts.google.com/specimen/Lalezar"
 
   font "Lalezar-Regular.ttf"
+
+  # No zap stanza required
 end

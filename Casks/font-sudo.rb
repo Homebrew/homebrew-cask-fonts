@@ -8,4 +8,6 @@ cask "font-sudo" do
   homepage "https://github.com/jenskutilek/sudo-font/"
 
   font "sudo/SudoVariable.ttf"
+
+  # No zap stanza required
 end

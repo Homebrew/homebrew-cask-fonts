@@ -8,4 +8,6 @@ cask "font-oxygen-mono" do
   homepage "https://fonts.google.com/specimen/Oxygen+Mono"
 
   font "OxygenMono-Regular.ttf"
+
+  # No zap stanza required
 end

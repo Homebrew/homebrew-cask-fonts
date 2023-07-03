@@ -8,4 +8,6 @@ cask "font-offside" do
   homepage "https://fonts.google.com/specimen/Offside"
 
   font "Offside-Regular.ttf"
+
+  # No zap stanza required
 end

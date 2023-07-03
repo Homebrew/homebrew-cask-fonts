@@ -8,4 +8,6 @@ cask "font-nats" do
   homepage "https://fonts.google.com/specimen/NATS"
 
   font "NATS-Regular.ttf"
+
+  # No zap stanza required
 end

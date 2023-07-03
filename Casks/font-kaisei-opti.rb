@@ -13,4 +13,6 @@ cask "font-kaisei-opti" do
   font "KaiseiOpti-Bold.ttf"
   font "KaiseiOpti-Medium.ttf"
   font "KaiseiOpti-Regular.ttf"
+
+  # No zap stanza required
 end

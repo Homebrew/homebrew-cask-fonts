@@ -9,4 +9,6 @@ cask "font-sansita-swashed" do
   homepage "https://fonts.google.com/specimen/Sansita+Swashed"
 
   font "SansitaSwashed[wght].ttf"
+
+  # No zap stanza required
 end

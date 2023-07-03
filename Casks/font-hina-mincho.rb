@@ -8,4 +8,6 @@ cask "font-hina-mincho" do
   homepage "https://fonts.google.com/specimen/Hina+Mincho"
 
   font "HinaMincho-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-passions-conflict" do
   homepage "https://fonts.google.com/specimen/Passions+Conflict"
 
   font "PassionsConflict-Regular.ttf"
+
+  # No zap stanza required
 end

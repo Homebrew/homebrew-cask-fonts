@@ -15,4 +15,6 @@ cask "font-overlock" do
   font "Overlock-BoldItalic.ttf"
   font "Overlock-Italic.ttf"
   font "Overlock-Regular.ttf"
+
+  # No zap stanza required
 end

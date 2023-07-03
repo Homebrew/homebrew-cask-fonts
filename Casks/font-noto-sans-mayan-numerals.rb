@@ -8,4 +8,6 @@ cask "font-noto-sans-mayan-numerals" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Mayan+Numerals"
 
   font "NotoSansMayanNumerals-Regular.ttf"
+
+  # No zap stanza required
 end

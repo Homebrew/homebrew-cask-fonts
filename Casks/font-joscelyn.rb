@@ -7,4 +7,6 @@ cask "font-joscelyn" do
   homepage "https://github.com/psb1558/Joscelyn-font"
 
   font "Joscelyn.otf"
+
+  # No zap stanza required
 end

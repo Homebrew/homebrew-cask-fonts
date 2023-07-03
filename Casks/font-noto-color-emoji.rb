@@ -8,4 +8,6 @@ cask "font-noto-color-emoji" do
   homepage "https://www.google.com/get/noto/#emoji-zsye-color"
 
   font "NotoColorEmoji.ttf"
+
+  # No zap stanza required
 end

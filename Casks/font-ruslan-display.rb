@@ -8,4 +8,6 @@ cask "font-ruslan-display" do
   homepage "https://fonts.google.com/specimen/Ruslan+Display"
 
   font "RuslanDisplay.ttf"
+
+  # No zap stanza required
 end

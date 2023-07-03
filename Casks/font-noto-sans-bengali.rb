@@ -25,4 +25,6 @@ cask "font-noto-sans-bengali" do
   font "NotoSansBengaliUI-Regular.ttf"
   font "NotoSansBengaliUI-SemiBold.ttf"
   font "NotoSansBengaliUI-Thin.ttf"
+
+  # No zap stanza required
 end

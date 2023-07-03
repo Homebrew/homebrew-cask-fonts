@@ -8,4 +8,6 @@ cask "font-bungee-inline" do
   homepage "https://fonts.google.com/specimen/Bungee+Inline"
 
   font "BungeeInline-Regular.ttf"
+
+  # No zap stanza required
 end

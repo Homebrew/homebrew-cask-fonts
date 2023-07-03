@@ -47,4 +47,6 @@ cask "font-coelacanth" do
   font "CoelacanthSubhdHeavy.otf"
   font "CoelacanthSubhdLt.otf"
   font "CoelacanthSubhdSemibd.otf"
+
+  # No zap stanza required
 end

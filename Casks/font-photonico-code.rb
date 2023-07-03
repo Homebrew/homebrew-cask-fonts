@@ -8,4 +8,6 @@ cask "font-photonico-code" do
   homepage "https://github.com/Photonico/Photonico_Code"
 
   font "Photonico.#{version}.Regular.ttf"
+
+  # No zap stanza required
 end

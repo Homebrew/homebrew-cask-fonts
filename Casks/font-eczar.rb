@@ -8,4 +8,6 @@ cask "font-eczar" do
   homepage "https://fonts.google.com/specimen/Eczar"
 
   font "Eczar[wght].ttf"
+
+  # No zap stanza required
 end

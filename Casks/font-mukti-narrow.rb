@@ -7,4 +7,6 @@ cask "font-mukti-narrow" do
   homepage "https://www.omicronlab.com/bangla-fonts.html"
 
   font "muktinarrow.ttf"
+
+  # No zap stanza required
 end

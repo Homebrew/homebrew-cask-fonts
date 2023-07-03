@@ -10,4 +10,6 @@ cask "font-fantasque-sans-mono" do
   font "OTF/FantasqueSansMono-BoldItalic.otf"
   font "OTF/FantasqueSansMono-Italic.otf"
   font "OTF/FantasqueSansMono-Regular.otf"
+
+  # No zap stanza required
 end

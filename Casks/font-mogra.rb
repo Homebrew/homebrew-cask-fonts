@@ -8,4 +8,6 @@ cask "font-mogra" do
   homepage "https://fonts.google.com/specimen/Mogra"
 
   font "Mogra-Regular.ttf"
+
+  # No zap stanza required
 end

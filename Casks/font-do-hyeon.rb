@@ -8,4 +8,6 @@ cask "font-do-hyeon" do
   homepage "https://fonts.google.com/specimen/Do+Hyeon"
 
   font "DoHyeon-Regular.ttf"
+
+  # No zap stanza required
 end

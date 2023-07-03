@@ -55,4 +55,6 @@ cask "font-mona-sans" do
   font "Mona Sans/OTF/Mona-Sans-UltraLightNarrowItalic.otf"
   font "Mona Sans/OTF/Mona-Sans-UltraLightWide.otf"
   font "Mona Sans/OTF/Mona-Sans-UltraLightWideItalic.otf"
+
+  # No zap stanza required
 end

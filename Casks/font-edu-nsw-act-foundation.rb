@@ -8,4 +8,6 @@ cask "font-edu-nsw-act-foundation" do
   homepage "https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation"
 
   font "EduNSWACTFoundation[wght].ttf"
+
+  # No zap stanza required
 end

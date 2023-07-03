@@ -10,4 +10,6 @@ cask "font-kawkab-mono" do
   font "kawkab-mono-#{version}/KawkabMono-Bold.otf"
   font "kawkab-mono-#{version}/KawkabMono-Light.otf"
   font "kawkab-mono-#{version}/KawkabMono-Regular.otf"
+
+  # No zap stanza required
 end

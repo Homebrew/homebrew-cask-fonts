@@ -8,4 +8,6 @@ cask "font-ravi-prakash" do
   homepage "https://fonts.google.com/specimen/Ravi+Prakash"
 
   font "RaviPrakash-Regular.ttf"
+
+  # No zap stanza required
 end

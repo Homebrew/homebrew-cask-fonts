@@ -8,4 +8,6 @@ cask "font-chenla" do
   homepage "https://fonts.google.com/specimen/Chenla"
 
   font "Chenla.ttf"
+
+  # No zap stanza required
 end

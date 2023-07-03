@@ -9,4 +9,6 @@ cask "font-solitreo" do
   homepage "https://fonts.google.com/specimen/Solitreo"
 
   font "Solitreo-Regular.ttf"
+
+  # No zap stanza required
 end

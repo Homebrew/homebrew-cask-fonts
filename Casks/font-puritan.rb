@@ -13,4 +13,6 @@ cask "font-puritan" do
   font "Puritan-BoldItalic.ttf"
   font "Puritan-Italic.ttf"
   font "Puritan-Regular.ttf"
+
+  # No zap stanza required
 end

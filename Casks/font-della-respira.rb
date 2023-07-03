@@ -8,4 +8,6 @@ cask "font-della-respira" do
   homepage "https://fonts.google.com/specimen/Della+Respira"
 
   font "DellaRespira-Regular.ttf"
+
+  # No zap stanza required
 end

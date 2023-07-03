@@ -8,4 +8,6 @@ cask "font-patrick-hand-sc" do
   homepage "https://fonts.google.com/specimen/Patrick+Hand+SC"
 
   font "PatrickHandSC-Regular.ttf"
+
+  # No zap stanza required
 end

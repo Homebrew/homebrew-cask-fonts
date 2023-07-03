@@ -8,4 +8,6 @@ cask "font-iceland" do
   homepage "https://fonts.google.com/specimen/Iceland"
 
   font "Iceland-Regular.ttf"
+
+  # No zap stanza required
 end

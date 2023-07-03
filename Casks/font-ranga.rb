@@ -11,4 +11,6 @@ cask "font-ranga" do
 
   font "Ranga-Bold.ttf"
   font "Ranga-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-gidole" do
 
   font "GidoleFont/Gidole-Regular.ttf"
   font "GidoleFont/Gidolinya-Regular.otf"
+
+  # No zap stanza required
 end

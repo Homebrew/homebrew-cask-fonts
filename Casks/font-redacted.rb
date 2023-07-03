@@ -10,4 +10,6 @@ cask "font-redacted" do
   font "Redacted-Font-old-sources/fonts/redacted-script-bold.ttf"
   font "Redacted-Font-old-sources/fonts/redacted-script-light.ttf"
   font "Redacted-Font-old-sources/fonts/redacted-script-regular.ttf"
+
+  # No zap stanza required
 end

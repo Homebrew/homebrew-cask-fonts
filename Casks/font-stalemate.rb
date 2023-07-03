@@ -8,4 +8,6 @@ cask "font-stalemate" do
   homepage "https://fonts.google.com/specimen/Stalemate"
 
   font "Stalemate-Regular.ttf"
+
+  # No zap stanza required
 end

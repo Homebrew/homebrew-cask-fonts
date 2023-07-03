@@ -10,4 +10,6 @@ cask "font-camingocode" do
   font "TTF/CamingoCode-BoldItalic.ttf"
   font "TTF/CamingoCode-Italic.ttf"
   font "TTF/CamingoCode-Regular.ttf"
+
+  # No zap stanza required
 end

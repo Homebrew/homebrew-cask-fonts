@@ -15,4 +15,6 @@ cask "font-open-dyslexic" do
   font "open-dyslexic-#{version}/otf/OpenDyslexicAlta-Italic.otf"
   font "open-dyslexic-#{version}/otf/OpenDyslexicAlta-Regular.otf"
   font "open-dyslexic-#{version}/otf/OpenDyslexicMono-Regular.otf"
+
+  # No zap stanza required
 end

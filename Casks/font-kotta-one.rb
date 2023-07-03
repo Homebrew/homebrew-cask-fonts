@@ -8,4 +8,6 @@ cask "font-kotta-one" do
   homepage "https://fonts.google.com/specimen/Kotta+One"
 
   font "KottaOne-Regular.ttf"
+
+  # No zap stanza required
 end

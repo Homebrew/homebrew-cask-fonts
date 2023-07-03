@@ -10,4 +10,6 @@ cask "font-fira-mono" do
   font "Fira-#{version.after_comma}/otf/FiraMono-Bold.otf"
   font "Fira-#{version.after_comma}/otf/FiraMono-Medium.otf"
   font "Fira-#{version.after_comma}/otf/FiraMono-Regular.otf"
+
+  # No zap stanza required
 end

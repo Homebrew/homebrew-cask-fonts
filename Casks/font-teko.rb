@@ -14,4 +14,6 @@ cask "font-teko" do
   font "Teko-Medium.ttf"
   font "Teko-Regular.ttf"
   font "Teko-SemiBold.ttf"
+
+  # No zap stanza required
 end

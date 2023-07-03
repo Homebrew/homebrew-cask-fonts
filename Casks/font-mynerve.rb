@@ -8,4 +8,6 @@ cask "font-mynerve" do
   homepage "https://fonts.google.com/specimen/Mynerve"
 
   font "Mynerve-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-unifrakturmaguntia" do
   homepage "https://fonts.google.com/specimen/UnifrakturMaguntia"
 
   font "UnifrakturMaguntia-Book.ttf"
+
+  # No zap stanza required
 end

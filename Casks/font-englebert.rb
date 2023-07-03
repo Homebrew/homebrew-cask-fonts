@@ -8,4 +8,6 @@ cask "font-englebert" do
   homepage "https://fonts.google.com/specimen/Englebert"
 
   font "Englebert-Regular.ttf"
+
+  # No zap stanza required
 end

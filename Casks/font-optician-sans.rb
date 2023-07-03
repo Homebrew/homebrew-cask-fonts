@@ -8,4 +8,6 @@ cask "font-optician-sans" do
   homepage "https://optician-sans.com/"
 
   font "Optician-Sans.otf"
+
+  # No zap stanza required
 end

@@ -10,4 +10,6 @@ cask "font-inconsolata-lgc" do
   font "inconsolatalgcbold.ttf"
   font "inconsolatalgcbolditalic.ttf"
   font "inconsolatalgcitalic.ttf"
+
+  # No zap stanza required
 end

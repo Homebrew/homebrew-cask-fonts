@@ -8,4 +8,6 @@ cask "font-knewave" do
   homepage "https://fonts.google.com/specimen/Knewave"
 
   font "Knewave-Regular.ttf"
+
+  # No zap stanza required
 end

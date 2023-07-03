@@ -8,4 +8,6 @@ cask "font-mr-de-haviland" do
   homepage "https://fonts.google.com/specimen/Mr+De+Haviland"
 
   font "MrDeHaviland-Regular.ttf"
+
+  # No zap stanza required
 end

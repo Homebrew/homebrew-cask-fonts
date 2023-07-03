@@ -8,4 +8,6 @@ cask "font-smooch-sans" do
   homepage "https://fonts.google.com/specimen/Smooch+Sans"
 
   font "SmoochSans[wght].ttf"
+
+  # No zap stanza required
 end

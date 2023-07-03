@@ -13,4 +13,6 @@ cask "font-quantico" do
   font "Quantico-BoldItalic.ttf"
   font "Quantico-Italic.ttf"
   font "Quantico-Regular.ttf"
+
+  # No zap stanza required
 end

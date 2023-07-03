@@ -8,4 +8,6 @@ cask "font-paytone-one" do
   homepage "https://fonts.google.com/specimen/Paytone+One"
 
   font "PaytoneOne-Regular.ttf"
+
+  # No zap stanza required
 end

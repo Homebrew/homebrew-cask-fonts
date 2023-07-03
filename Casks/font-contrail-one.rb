@@ -8,4 +8,6 @@ cask "font-contrail-one" do
   homepage "https://fonts.google.com/specimen/Contrail+One"
 
   font "ContrailOne-Regular.ttf"
+
+  # No zap stanza required
 end

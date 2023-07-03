@@ -12,4 +12,6 @@ cask "font-kanjistrokeorders" do
   caveats do
     license "https://drive.google.com/file/d/1HOybxFTh2aD6zoLoh-ixHf2vTSgqFs6f/preview"
   end
+
+  # No zap stanza required
 end

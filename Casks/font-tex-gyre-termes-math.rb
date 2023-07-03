@@ -7,4 +7,6 @@ cask "font-tex-gyre-termes-math" do
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
 
   font "texgyretermes-math-1543/opentype/texgyretermes-math.otf"
+
+  # No zap stanza required
 end

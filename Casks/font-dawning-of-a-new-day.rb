@@ -8,4 +8,6 @@ cask "font-dawning-of-a-new-day" do
   homepage "https://fonts.google.com/specimen/Dawning+of+a+New+Day"
 
   font "DawningofaNewDay.ttf"
+
+  # No zap stanza required
 end

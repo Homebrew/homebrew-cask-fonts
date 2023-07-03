@@ -8,4 +8,6 @@ cask "font-lohit-bengali" do
   homepage "https://fonts.google.com/specimen/Lohit+Bengali"
 
   font "Lohit-Bengali.ttf"
+
+  # No zap stanza required
 end

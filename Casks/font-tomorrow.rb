@@ -27,4 +27,6 @@ cask "font-tomorrow" do
   font "Tomorrow-SemiBoldItalic.ttf"
   font "Tomorrow-Thin.ttf"
   font "Tomorrow-ThinItalic.ttf"
+
+  # No zap stanza required
 end

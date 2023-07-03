@@ -8,4 +8,6 @@ cask "font-lao-muang-khong" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "LaoMuangKhong-Regular.ttf"
+
+  # No zap stanza required
 end

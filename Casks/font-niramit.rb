@@ -21,4 +21,6 @@ cask "font-niramit" do
   font "Niramit-Regular.ttf"
   font "Niramit-SemiBold.ttf"
   font "Niramit-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

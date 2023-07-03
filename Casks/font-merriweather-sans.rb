@@ -11,4 +11,6 @@ cask "font-merriweather-sans" do
 
   font "MerriweatherSans-Italic[wght].ttf"
   font "MerriweatherSans[wght].ttf"
+
+  # No zap stanza required
 end

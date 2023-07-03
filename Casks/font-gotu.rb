@@ -8,4 +8,6 @@ cask "font-gotu" do
   homepage "https://fonts.google.com/specimen/Gotu"
 
   font "Gotu-Regular.ttf"
+
+  # No zap stanza required
 end

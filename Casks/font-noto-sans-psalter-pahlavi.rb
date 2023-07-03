@@ -8,4 +8,6 @@ cask "font-noto-sans-psalter-pahlavi" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Psalter+Pahlavi"
 
   font "NotoSansPsalterPahlavi-Regular.ttf"
+
+  # No zap stanza required
 end

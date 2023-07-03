@@ -9,4 +9,6 @@ cask "font-potta-one" do
   homepage "https://fonts.google.com/specimen/Potta+One"
 
   font "PottaOne-Regular.ttf"
+
+  # No zap stanza required
 end

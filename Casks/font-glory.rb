@@ -12,4 +12,6 @@ cask "font-glory" do
 
   font "Glory-Italic[wght].ttf"
   font "Glory[wght].ttf"
+
+  # No zap stanza required
 end

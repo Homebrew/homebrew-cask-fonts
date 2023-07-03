@@ -15,4 +15,6 @@ cask "font-routed-gothic" do
   font "routed-gothic-ttf-v#{version}/routed-gothic-wide-italic.ttf"
   font "routed-gothic-ttf-v#{version}/routed-gothic-wide.ttf"
   font "routed-gothic-ttf-v#{version}/routed-gothic.ttf"
+
+  # No zap stanza required
 end

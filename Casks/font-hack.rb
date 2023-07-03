@@ -11,4 +11,6 @@ cask "font-hack" do
   font "ttf/Hack-Italic.ttf"
   font "ttf/Hack-Bold.ttf"
   font "ttf/Hack-BoldItalic.ttf"
+
+  # No zap stanza required
 end

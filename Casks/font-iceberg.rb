@@ -8,4 +8,6 @@ cask "font-iceberg" do
   homepage "https://fonts.google.com/specimen/Iceberg"
 
   font "Iceberg-Regular.ttf"
+
+  # No zap stanza required
 end

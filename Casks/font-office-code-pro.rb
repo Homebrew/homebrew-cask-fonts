@@ -22,4 +22,6 @@ cask "font-office-code-pro" do
   font "Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-MediumItalic.otf"
   font "Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Regular.otf"
   font "Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-RegularItalic.otf"
+
+  # No zap stanza required
 end

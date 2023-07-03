@@ -8,4 +8,6 @@ cask "font-shippori-antique-b1" do
   homepage "https://fonts.google.com/specimen/Shippori+Antique+B1"
 
   font "ShipporiAntiqueB1-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-hubballi" do
   homepage "https://fonts.google.com/specimen/Hubballi"
 
   font "Hubballi-Regular.ttf"
+
+  # No zap stanza required
 end

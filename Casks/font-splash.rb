@@ -8,4 +8,6 @@ cask "font-splash" do
   homepage "https://fonts.google.com/specimen/Splash"
 
   font "Splash-Regular.ttf"
+
+  # No zap stanza required
 end

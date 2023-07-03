@@ -8,4 +8,6 @@ cask "font-galindo" do
   homepage "https://fonts.google.com/specimen/Galindo"
 
   font "Galindo-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -43,4 +43,6 @@ cask "font-noto-sans-mono" do
   font "NotoSansMono-SemiCondensedSemiBold.ttf"
   font "NotoSansMono-SemiCondensedThin.ttf"
   font "NotoSansMono-Thin.ttf"
+
+  # No zap stanza required
 end

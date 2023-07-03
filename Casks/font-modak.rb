@@ -8,4 +8,6 @@ cask "font-modak" do
   homepage "https://fonts.google.com/specimen/Modak"
 
   font "Modak-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-cairo" do
   homepage "https://fonts.google.com/specimen/Cairo"
 
   font "Cairo[slnt,wght].ttf"
+
+  # No zap stanza required
 end

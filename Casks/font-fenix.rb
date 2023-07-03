@@ -8,4 +8,6 @@ cask "font-fenix" do
   homepage "https://fonts.google.com/specimen/Fenix"
 
   font "Fenix-Regular.ttf"
+
+  # No zap stanza required
 end

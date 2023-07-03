@@ -12,4 +12,6 @@ cask "font-faune" do
   font "Faune_Fonts/Otf/Faune-TextBold.otf"
   font "Faune_Fonts/Otf/Faune-TextItalic.otf"
   font "Faune_Fonts/Otf/Faune-TextRegular.otf"
+
+  # No zap stanza required
 end

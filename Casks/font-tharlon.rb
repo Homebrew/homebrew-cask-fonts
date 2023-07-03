@@ -8,4 +8,6 @@ cask "font-tharlon" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "Tharlon-Regular.ttf"
+
+  # No zap stanza required
 end

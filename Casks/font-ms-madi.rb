@@ -9,4 +9,6 @@ cask "font-ms-madi" do
   homepage "https://fonts.google.com/specimen/Ms+Madi"
 
   font "MsMadi-Regular.ttf"
+
+  # No zap stanza required
 end

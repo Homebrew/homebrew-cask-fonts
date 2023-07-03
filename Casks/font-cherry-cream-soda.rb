@@ -8,4 +8,6 @@ cask "font-cherry-cream-soda" do
   homepage "https://fonts.google.com/specimen/Cherry+Cream+Soda"
 
   font "CherryCreamSoda-Regular.ttf"
+
+  # No zap stanza required
 end

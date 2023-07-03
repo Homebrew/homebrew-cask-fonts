@@ -8,4 +8,6 @@ cask "font-imprima" do
   homepage "https://fonts.google.com/specimen/Imprima"
 
   font "Imprima-Regular.ttf"
+
+  # No zap stanza required
 end

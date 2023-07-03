@@ -8,4 +8,6 @@ cask "font-poprumcute" do
   homepage "https://moji-waku.com/poprumcute/index.html"
 
   font "poprumcute/PopRumCute.otf"
+
+  # No zap stanza required
 end

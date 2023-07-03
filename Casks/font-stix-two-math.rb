@@ -8,4 +8,6 @@ cask "font-stix-two-math" do
   homepage "https://fonts.google.com/specimen/STIX+Two+Math"
 
   font "STIXTwoMath-Regular.ttf"
+
+  # No zap stanza required
 end

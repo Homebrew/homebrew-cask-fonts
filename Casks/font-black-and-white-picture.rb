@@ -8,4 +8,6 @@ cask "font-black-and-white-picture" do
   homepage "https://fonts.google.com/specimen/Black+And+White+Picture"
 
   font "BlackAndWhitePicture-Regular.ttf"
+
+  # No zap stanza required
 end

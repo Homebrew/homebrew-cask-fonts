@@ -8,4 +8,6 @@ cask "font-el-messiri" do
   homepage "https://fonts.google.com/specimen/El+Messiri"
 
   font "ElMessiri[wght].ttf"
+
+  # No zap stanza required
 end

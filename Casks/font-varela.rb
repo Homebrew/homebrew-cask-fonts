@@ -8,4 +8,6 @@ cask "font-varela" do
   homepage "https://fonts.google.com/specimen/Varela"
 
   font "Varela-Regular.ttf"
+
+  # No zap stanza required
 end

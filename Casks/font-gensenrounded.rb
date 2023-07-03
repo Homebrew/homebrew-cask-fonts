@@ -13,4 +13,6 @@ cask "font-gensenrounded" do
   font "GenSenRounded-L.ttc"
   font "GenSenRounded-M.ttc"
   font "GenSenRounded-R.ttc"
+
+  # No zap stanza required
 end

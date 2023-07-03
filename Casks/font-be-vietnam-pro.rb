@@ -28,4 +28,6 @@ cask "font-be-vietnam-pro" do
   font "BeVietnamPro-SemiBoldItalic.ttf"
   font "BeVietnamPro-Thin.ttf"
   font "BeVietnamPro-ThinItalic.ttf"
+
+  # No zap stanza required
 end

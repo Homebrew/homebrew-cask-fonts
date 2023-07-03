@@ -8,4 +8,6 @@ cask "font-playball" do
   homepage "https://fonts.google.com/specimen/Playball"
 
   font "Playball-Regular.ttf"
+
+  # No zap stanza required
 end

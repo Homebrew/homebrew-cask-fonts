@@ -8,4 +8,6 @@ cask "font-reggae-one" do
   homepage "https://fonts.google.com/specimen/Reggae+One"
 
   font "ReggaeOne-Regular.ttf"
+
+  # No zap stanza required
 end

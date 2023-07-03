@@ -8,4 +8,6 @@ cask "font-preahvihear" do
   homepage "https://fonts.google.com/specimen/Preahvihear"
 
   font "Preahvihear-Regular.ttf"
+
+  # No zap stanza required
 end

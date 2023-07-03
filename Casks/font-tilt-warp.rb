@@ -8,4 +8,6 @@ cask "font-tilt-warp" do
   homepage "https://fonts.google.com/specimen/Tilt+Warp"
 
   font "TiltWarp[XROT,YROT].ttf"
+
+  # No zap stanza required
 end

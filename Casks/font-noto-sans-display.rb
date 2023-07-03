@@ -79,4 +79,6 @@ cask "font-noto-sans-display" do
   font "NotoSansDisplay-SemiCondensedThinItalic.ttf"
   font "NotoSansDisplay-Thin.ttf"
   font "NotoSansDisplay-ThinItalic.ttf"
+
+  # No zap stanza required
 end

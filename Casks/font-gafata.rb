@@ -8,4 +8,6 @@ cask "font-gafata" do
   homepage "https://fonts.google.com/specimen/Gafata"
 
   font "Gafata-Regular.ttf"
+
+  # No zap stanza required
 end

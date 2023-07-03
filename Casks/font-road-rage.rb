@@ -9,4 +9,6 @@ cask "font-road-rage" do
   homepage "https://fonts.google.com/specimen/Road+Rage"
 
   font "RoadRage-Regular.ttf"
+
+  # No zap stanza required
 end

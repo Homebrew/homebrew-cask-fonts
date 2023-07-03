@@ -8,4 +8,6 @@ cask "font-devonshire" do
   homepage "https://fonts.google.com/specimen/Devonshire"
 
   font "Devonshire-Regular.ttf"
+
+  # No zap stanza required
 end

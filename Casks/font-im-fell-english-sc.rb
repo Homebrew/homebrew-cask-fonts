@@ -8,4 +8,6 @@ cask "font-im-fell-english-sc" do
   homepage "https://fonts.google.com/specimen/IM+Fell+English+SC"
 
   font "IMFeENsc28P.ttf"
+
+  # No zap stanza required
 end

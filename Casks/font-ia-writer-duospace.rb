@@ -10,4 +10,6 @@ cask "font-ia-writer-duospace" do
   font "iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-BoldItalic.otf"
   font "iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Regular.otf"
   font "iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Italic.otf"
+
+  # No zap stanza required
 end

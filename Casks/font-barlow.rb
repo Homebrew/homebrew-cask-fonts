@@ -61,4 +61,6 @@ cask "font-barlow" do
   font "barlow-#{version}/fonts/otf/BarlowSemiCondensed-SemiBoldItalic.otf"
   font "barlow-#{version}/fonts/otf/BarlowSemiCondensed-Thin.otf"
   font "barlow-#{version}/fonts/otf/BarlowSemiCondensed-ThinItalic.otf"
+
+  # No zap stanza required
 end

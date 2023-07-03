@@ -7,4 +7,6 @@ cask "font-inconsolata-dz-for-powerline" do
   homepage "https://github.com/powerline/fonts/tree/master/InconsolataDz"
 
   font "Inconsolata-dz for Powerline.otf"
+
+  # No zap stanza required
 end

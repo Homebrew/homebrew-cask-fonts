@@ -18,4 +18,6 @@ cask "font-ubuntu" do
   font "Ubuntu-Medium.ttf"
   font "Ubuntu-MediumItalic.ttf"
   font "Ubuntu-Regular.ttf"
+
+  # No zap stanza required
 end

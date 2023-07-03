@@ -8,4 +8,6 @@ cask "font-text-me-one" do
   homepage "https://fonts.google.com/specimen/Text+Me+One"
 
   font "TextMeOne-Regular.ttf"
+
+  # No zap stanza required
 end

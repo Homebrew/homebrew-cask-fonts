@@ -16,4 +16,6 @@ cask "font-palanquin" do
   font "Palanquin-Regular.ttf"
   font "Palanquin-SemiBold.ttf"
   font "Palanquin-Thin.ttf"
+
+  # No zap stanza required
 end

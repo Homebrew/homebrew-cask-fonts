@@ -8,4 +8,6 @@ cask "font-butcherman" do
   homepage "https://fonts.google.com/specimen/Butcherman"
 
   font "Butcherman-Regular.ttf"
+
+  # No zap stanza required
 end

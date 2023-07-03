@@ -8,4 +8,6 @@ cask "font-itim" do
   homepage "https://fonts.google.com/specimen/Itim"
 
   font "Itim-Regular.ttf"
+
+  # No zap stanza required
 end

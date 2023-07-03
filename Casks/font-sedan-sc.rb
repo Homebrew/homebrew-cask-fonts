@@ -8,4 +8,6 @@ cask "font-sedan-sc" do
   homepage "https://fonts.google.com/specimen/Sedan+SC"
 
   font "SedanSC-Regular.ttf"
+
+  # No zap stanza required
 end

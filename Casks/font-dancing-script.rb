@@ -8,4 +8,6 @@ cask "font-dancing-script" do
   homepage "https://fonts.google.com/specimen/Dancing+Script"
 
   font "DancingScript[wght].ttf"
+
+  # No zap stanza required
 end

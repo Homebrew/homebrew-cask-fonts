@@ -8,4 +8,6 @@ cask "font-metal-mania" do
   homepage "https://fonts.google.com/specimen/Metal+Mania"
 
   font "MetalMania-Regular.ttf"
+
+  # No zap stanza required
 end

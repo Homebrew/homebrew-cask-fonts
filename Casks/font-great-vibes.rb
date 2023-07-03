@@ -8,4 +8,6 @@ cask "font-great-vibes" do
   homepage "https://fonts.google.com/specimen/Great+Vibes"
 
   font "GreatVibes-Regular.ttf"
+
+  # No zap stanza required
 end

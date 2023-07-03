@@ -8,4 +8,6 @@ cask "font-candal" do
   homepage "https://fonts.google.com/specimen/Candal"
 
   font "Candal.ttf"
+
+  # No zap stanza required
 end

@@ -12,4 +12,6 @@ cask "font-kufam" do
 
   font "Kufam-Italic[wght].ttf"
   font "Kufam[wght].ttf"
+
+  # No zap stanza required
 end

@@ -16,4 +16,6 @@ cask "font-ibm-plex-sans-hebrew" do
   font "IBMPlexSansHebrew-Regular.ttf"
   font "IBMPlexSansHebrew-SemiBold.ttf"
   font "IBMPlexSansHebrew-Thin.ttf"
+
+  # No zap stanza required
 end

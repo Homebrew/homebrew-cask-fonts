@@ -8,4 +8,6 @@ cask "font-habibi" do
   homepage "https://fonts.google.com/specimen/Habibi"
 
   font "Habibi-Regular.ttf"
+
+  # No zap stanza required
 end

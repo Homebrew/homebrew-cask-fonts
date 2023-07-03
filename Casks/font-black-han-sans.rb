@@ -8,4 +8,6 @@ cask "font-black-han-sans" do
   homepage "https://fonts.google.com/specimen/Black+Han+Sans"
 
   font "BlackHanSans-Regular.ttf"
+
+  # No zap stanza required
 end

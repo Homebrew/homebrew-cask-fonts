@@ -30,4 +30,6 @@ cask "font-vollkorn" do
   font "TTF/Vollkorn-Regular.ttf"
   font "TTF/Vollkorn-SemiBold.ttf"
   font "TTF/Vollkorn-SemiBoldItalic.ttf"
+
+  # No zap stanza required
 end

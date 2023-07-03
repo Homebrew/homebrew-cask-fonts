@@ -18,4 +18,6 @@ cask "font-noto-sans-thai-looped" do
   font "NotoSansThaiLooped-Regular.ttf"
   font "NotoSansThaiLooped-SemiBold.ttf"
   font "NotoSansThaiLooped-Thin.ttf"
+
+  # No zap stanza required
 end

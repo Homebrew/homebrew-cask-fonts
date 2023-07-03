@@ -11,4 +11,6 @@ cask "font-sanchez" do
 
   font "Sanchez-Italic.ttf"
   font "Sanchez-Regular.ttf"
+
+  # No zap stanza required
 end

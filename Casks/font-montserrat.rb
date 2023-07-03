@@ -11,4 +11,6 @@ cask "font-montserrat" do
 
   font "Montserrat-Italic[wght].ttf"
   font "Montserrat[wght].ttf"
+
+  # No zap stanza required
 end

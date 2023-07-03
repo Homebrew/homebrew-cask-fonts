@@ -8,4 +8,6 @@ cask "font-monsieur-la-doulaise" do
   homepage "https://fonts.google.com/specimen/Monsieur+La+Doulaise"
 
   font "MonsieurLaDoulaise-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -9,4 +9,6 @@ cask "font-montagu-slab" do
   homepage "https://fonts.google.com/specimen/Montagu+Slab"
 
   font "MontaguSlab[opsz,wght].ttf"
+
+  # No zap stanza required
 end

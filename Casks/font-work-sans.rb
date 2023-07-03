@@ -25,4 +25,6 @@ cask "font-work-sans" do
   font "Work-Sans-master/fonts/ttf/WorkSans-SemiBoldItalic.ttf"
   font "Work-Sans-master/fonts/ttf/WorkSans-Thin.ttf"
   font "Work-Sans-master/fonts/ttf/WorkSans-ThinItalic.ttf"
+
+  # No zap stanza required
 end

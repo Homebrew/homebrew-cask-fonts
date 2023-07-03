@@ -8,4 +8,6 @@ cask "font-noto-serif-yezidi" do
   homepage "https://fonts.google.com/specimen/Noto+Serif+Yezidi"
 
   font "NotoSerifYezidi[wght].ttf"
+
+  # No zap stanza required
 end

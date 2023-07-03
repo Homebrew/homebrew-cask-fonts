@@ -9,4 +9,6 @@ cask "font-noto-serif-devanagari" do
 
   font "NotoSerifDevanagari-Bold.ttf"
   font "NotoSerifDevanagari-Regular.ttf"
+
+  # No zap stanza required
 end

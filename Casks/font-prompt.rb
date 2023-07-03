@@ -27,4 +27,6 @@ cask "font-prompt" do
   font "Prompt-SemiBoldItalic.ttf"
   font "Prompt-Thin.ttf"
   font "Prompt-ThinItalic.ttf"
+
+  # No zap stanza required
 end

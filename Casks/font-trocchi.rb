@@ -8,4 +8,6 @@ cask "font-trocchi" do
   homepage "https://fonts.google.com/specimen/Trocchi"
 
   font "Trocchi-Regular.ttf"
+
+  # No zap stanza required
 end

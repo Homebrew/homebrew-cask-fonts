@@ -8,4 +8,6 @@ cask "font-sarina" do
   homepage "https://fonts.google.com/specimen/Sarina"
 
   font "Sarina-Regular.ttf"
+
+  # No zap stanza required
 end

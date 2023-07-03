@@ -8,4 +8,6 @@ cask "font-bonheur-royale" do
   homepage "https://fonts.google.com/specimen/Bonheur+Royale"
 
   font "BonheurRoyale-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-butterfly-kids" do
   homepage "https://fonts.google.com/specimen/Butterfly+Kids"
 
   font "ButterflyKids-Regular.ttf"
+
+  # No zap stanza required
 end

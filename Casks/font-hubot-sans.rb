@@ -71,4 +71,6 @@ cask "font-hubot-sans" do
   font "Hubot Sans/OTF/Hubot-Sans-SemiBoldSemiItalic.otf"
   font "Hubot Sans/OTF/Hubot-Sans-SemiBoldWide.otf"
   font "Hubot Sans/OTF/Hubot-Sans-SemiBoldWideItalic.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-courgette" do
   homepage "https://fonts.google.com/specimen/Courgette"
 
   font "Courgette-Regular.ttf"
+
+  # No zap stanza required
 end

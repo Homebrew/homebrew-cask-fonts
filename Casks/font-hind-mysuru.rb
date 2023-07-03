@@ -13,4 +13,6 @@ cask "font-hind-mysuru" do
   font "HindMysuru-Medium.ttf"
   font "HindMysuru-Regular.ttf"
   font "HindMysuru-SemiBold.ttf"
+
+  # No zap stanza required
 end

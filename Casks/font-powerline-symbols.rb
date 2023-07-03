@@ -7,4 +7,6 @@ cask "font-powerline-symbols" do
   homepage "https://github.com/powerline/powerline"
 
   font "PowerlineSymbols.otf"
+
+  # No zap stanza required
 end

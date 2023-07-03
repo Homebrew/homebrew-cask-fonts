@@ -8,4 +8,6 @@ cask "font-mada" do
   homepage "https://fonts.google.com/specimen/Mada"
 
   font "Mada[wght].ttf"
+
+  # No zap stanza required
 end

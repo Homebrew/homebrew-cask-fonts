@@ -12,4 +12,6 @@ cask "font-georama" do
 
   font "Georama-Italic[wdth,wght].ttf"
   font "Georama[wdth,wght].ttf"
+
+  # No zap stanza required
 end

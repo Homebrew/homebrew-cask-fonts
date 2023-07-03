@@ -11,4 +11,6 @@ cask "font-mountains-of-christmas" do
 
   font "MountainsofChristmas-Bold.ttf"
   font "MountainsofChristmas-Regular.ttf"
+
+  # No zap stanza required
 end

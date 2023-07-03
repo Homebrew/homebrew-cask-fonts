@@ -9,4 +9,6 @@ cask "font-water-brush" do
   homepage "https://fonts.google.com/specimen/Water+Brush"
 
   font "WaterBrush-Regular.ttf"
+
+  # No zap stanza required
 end

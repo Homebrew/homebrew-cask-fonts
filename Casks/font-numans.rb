@@ -8,4 +8,6 @@ cask "font-numans" do
   homepage "https://fonts.google.com/specimen/Numans"
 
   font "Numans-Regular.ttf"
+
+  # No zap stanza required
 end

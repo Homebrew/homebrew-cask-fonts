@@ -8,4 +8,6 @@ cask "font-rouge-script" do
   homepage "https://fonts.google.com/specimen/Rouge+Script"
 
   font "RougeScript-Regular.ttf"
+
+  # No zap stanza required
 end

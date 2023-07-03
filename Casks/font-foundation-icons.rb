@@ -7,4 +7,6 @@ cask "font-foundation-icons" do
   homepage "https://zurb.com/playground/foundation-icon-fonts-3"
 
   font "foundation-icons/foundation-icons.ttf"
+
+  # No zap stanza required
 end

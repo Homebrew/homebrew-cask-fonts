@@ -17,4 +17,6 @@ cask "font-merriweather" do
   font "Merriweather-Light.ttf"
   font "Merriweather-LightItalic.ttf"
   font "Merriweather-Regular.ttf"
+
+  # No zap stanza required
 end

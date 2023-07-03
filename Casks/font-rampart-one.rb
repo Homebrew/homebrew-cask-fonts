@@ -8,4 +8,6 @@ cask "font-rampart-one" do
   homepage "https://fonts.google.com/specimen/Rampart+One"
 
   font "RampartOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -16,4 +16,6 @@ cask "font-noto-sans-symbols" do
   font "NotoSansSymbols-Regular.ttf"
   font "NotoSansSymbols-SemiBold.ttf"
   font "NotoSansSymbols-Thin.ttf"
+
+  # No zap stanza required
 end

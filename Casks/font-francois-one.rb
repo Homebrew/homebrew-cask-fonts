@@ -8,4 +8,6 @@ cask "font-francois-one" do
   homepage "https://fonts.google.com/specimen/Francois+One"
 
   font "FrancoisOne-Regular.ttf"
+
+  # No zap stanza required
 end

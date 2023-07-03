@@ -8,4 +8,6 @@ cask "font-liu-jian-mao-cao" do
   homepage "https://fonts.google.com/specimen/Liu+Jian+Mao+Cao"
 
   font "LiuJianMaoCao-Regular.ttf"
+
+  # No zap stanza required
 end

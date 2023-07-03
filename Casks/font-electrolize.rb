@@ -8,4 +8,6 @@ cask "font-electrolize" do
   homepage "https://fonts.google.com/specimen/Electrolize"
 
   font "Electrolize-Regular.ttf"
+
+  # No zap stanza required
 end

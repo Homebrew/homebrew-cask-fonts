@@ -15,4 +15,6 @@ cask "font-b612" do
   font "b612-master/fonts/ttf/B612Mono-BoldItalic.ttf"
   font "b612-master/fonts/ttf/B612Mono-Italic.ttf"
   font "b612-master/fonts/ttf/B612Mono-Regular.ttf"
+
+  # No zap stanza required
 end

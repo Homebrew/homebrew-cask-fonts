@@ -8,4 +8,6 @@ cask "font-clicker-script" do
   homepage "https://fonts.google.com/specimen/Clicker+Script"
 
   font "ClickerScript-Regular.ttf"
+
+  # No zap stanza required
 end

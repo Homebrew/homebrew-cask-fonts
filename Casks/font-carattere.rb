@@ -9,4 +9,6 @@ cask "font-carattere" do
   homepage "https://fonts.google.com/specimen/Carattere"
 
   font "Carattere-Regular.ttf"
+
+  # No zap stanza required
 end

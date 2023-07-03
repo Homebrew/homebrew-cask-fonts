@@ -8,4 +8,6 @@ cask "font-noto-sans-tirhuta" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Tirhuta"
 
   font "NotoSansTirhuta-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -10,4 +10,6 @@ cask "font-space-grotesk" do
   font "SpaceGrotesk-#{version}/otf/SpaceGrotesk-Light.otf"
   font "SpaceGrotesk-#{version}/otf/SpaceGrotesk-Medium.otf"
   font "SpaceGrotesk-#{version}/otf/SpaceGrotesk-Regular.otf"
+
+  # No zap stanza required
 end

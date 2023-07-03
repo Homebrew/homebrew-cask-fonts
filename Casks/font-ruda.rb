@@ -8,4 +8,6 @@ cask "font-ruda" do
   homepage "https://fonts.google.com/specimen/Ruda"
 
   font "Ruda[wght].ttf"
+
+  # No zap stanza required
 end

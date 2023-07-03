@@ -8,4 +8,6 @@ cask "font-lugrasimo" do
   homepage "https://github.com/docrepair-fonts/lugrasimo-fonts"
 
   font "Lugrasimo-Regular.ttf"
+
+  # No zap stanza required
 end

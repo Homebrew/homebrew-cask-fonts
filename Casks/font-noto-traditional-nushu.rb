@@ -8,4 +8,6 @@ cask "font-noto-traditional-nushu" do
   homepage "https://fonts.google.com/specimen/Noto+Traditional+Nushu"
 
   font "NotoTraditionalNushu[wght].ttf"
+
+  # No zap stanza required
 end

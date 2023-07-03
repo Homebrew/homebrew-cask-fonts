@@ -8,4 +8,6 @@ cask "font-gurajada" do
   homepage "https://fonts.google.com/specimen/Gurajada"
 
   font "Gurajada-Regular.ttf"
+
+  # No zap stanza required
 end

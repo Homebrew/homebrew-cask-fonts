@@ -79,4 +79,6 @@ cask "font-noto-sans-arabic" do
   font "NotoSansArabicUI-SemiCondensedSemiBold.ttf"
   font "NotoSansArabicUI-SemiCondensedThin.ttf"
   font "NotoSansArabicUI-Thin.ttf"
+
+  # No zap stanza required
 end

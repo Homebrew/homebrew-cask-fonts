@@ -10,4 +10,6 @@ cask "font-tex-gyre-adventor" do
   font "qag#{version.dots_to_underscores}otf/texgyreadventor-bolditalic.otf"
   font "qag#{version.dots_to_underscores}otf/texgyreadventor-italic.otf"
   font "qag#{version.dots_to_underscores}otf/texgyreadventor-regular.otf"
+
+  # No zap stanza required
 end

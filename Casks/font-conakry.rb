@@ -7,4 +7,6 @@ cask "font-conakry" do
   homepage "https://www.evertype.com/fonts/nko/"
 
   font "ConakryFont/Conakry.ttf"
+
+  # No zap stanza required
 end

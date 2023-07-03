@@ -8,4 +8,6 @@ cask "font-twitter-color-emoji" do
   homepage "https://github.com/eosrei/twemoji-color-font/"
 
   font "TwitterColorEmoji-SVGinOT-#{version}/TwitterColorEmoji-SVGinOT.ttf"
+
+  # No zap stanza required
 end

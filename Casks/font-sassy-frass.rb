@@ -8,4 +8,6 @@ cask "font-sassy-frass" do
   homepage "https://fonts.google.com/specimen/Sassy+Frass"
 
   font "SassyFrass-Regular.ttf"
+
+  # No zap stanza required
 end

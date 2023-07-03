@@ -8,4 +8,6 @@ cask "font-noto-sans-nabataean" do
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nabataean"
 
   font "NotoSansNabataean-Regular.ttf"
+
+  # No zap stanza required
 end

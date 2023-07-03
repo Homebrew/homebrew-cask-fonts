@@ -8,4 +8,6 @@ cask "font-belleza" do
   homepage "https://fonts.google.com/specimen/Belleza"
 
   font "Belleza-Regular.ttf"
+
+  # No zap stanza required
 end

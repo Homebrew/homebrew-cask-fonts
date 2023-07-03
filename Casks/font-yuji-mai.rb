@@ -8,4 +8,6 @@ cask "font-yuji-mai" do
   homepage "https://fonts.google.com/specimen/Yuji+Mai"
 
   font "YujiMai-Regular.ttf"
+
+  # No zap stanza required
 end

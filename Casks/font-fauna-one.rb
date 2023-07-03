@@ -8,4 +8,6 @@ cask "font-fauna-one" do
   homepage "https://fonts.google.com/specimen/Fauna+One"
 
   font "FaunaOne-Regular.ttf"
+
+  # No zap stanza required
 end

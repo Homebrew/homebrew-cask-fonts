@@ -12,4 +12,6 @@ cask "font-gupter" do
   font "Gupter-Bold.ttf"
   font "Gupter-Medium.ttf"
   font "Gupter-Regular.ttf"
+
+  # No zap stanza required
 end

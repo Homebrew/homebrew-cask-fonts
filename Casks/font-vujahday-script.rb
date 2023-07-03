@@ -8,4 +8,6 @@ cask "font-vujahday-script" do
   homepage "https://fonts.google.com/specimen/Vujahday+Script"
 
   font "VujahdayScript-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -14,4 +14,6 @@ cask "font-hanuman" do
   font "Hanuman-Light.ttf"
   font "Hanuman-Regular.ttf"
   font "Hanuman-Thin.ttf"
+
+  # No zap stanza required
 end

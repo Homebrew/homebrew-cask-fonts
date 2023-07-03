@@ -8,4 +8,6 @@ cask "font-telex" do
   homepage "https://fonts.google.com/specimen/Telex"
 
   font "Telex-Regular.ttf"
+
+  # No zap stanza required
 end

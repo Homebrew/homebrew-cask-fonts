@@ -8,4 +8,6 @@ cask "font-titan-one" do
   homepage "https://fonts.google.com/specimen/Titan+One"
 
   font "TitanOne-Regular.ttf"
+
+  # No zap stanza required
 end

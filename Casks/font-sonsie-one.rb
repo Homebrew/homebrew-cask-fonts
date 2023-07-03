@@ -8,4 +8,6 @@ cask "font-sonsie-one" do
   homepage "https://fonts.google.com/specimen/Sonsie+One"
 
   font "SonsieOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -21,4 +21,6 @@ cask "font-brill" do
   font "Brill-BoldItalic.ttf"
   font "Brill-Italic.ttf"
   font "Brill-Roman.ttf"
+
+  # No zap stanza required
 end

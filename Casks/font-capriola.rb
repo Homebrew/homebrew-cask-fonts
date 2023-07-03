@@ -8,4 +8,6 @@ cask "font-capriola" do
   homepage "https://fonts.google.com/specimen/Capriola"
 
   font "Capriola-Regular.ttf"
+
+  # No zap stanza required
 end

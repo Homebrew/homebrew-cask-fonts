@@ -8,4 +8,6 @@ cask "font-mr-bedfort" do
   homepage "https://fonts.google.com/specimen/Mr+Bedfort"
 
   font "MrBedfort-Regular.ttf"
+
+  # No zap stanza required
 end

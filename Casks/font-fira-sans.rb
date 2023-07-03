@@ -71,4 +71,6 @@ cask "font-fira-sans" do
   font "Fira-#{version}/otf/FiraSans-UltraLightItalic.otf"
   font "Fira-#{version}/otf/FiraSans-UltraLight.otf"
   font "Fira-#{version}/otf/FiraSans-Ultra.otf"
+
+  # No zap stanza required
 end

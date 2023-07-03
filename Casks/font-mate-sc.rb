@@ -8,4 +8,6 @@ cask "font-mate-sc" do
   homepage "https://fonts.google.com/specimen/Mate+SC"
 
   font "MateSC-Regular.ttf"
+
+  # No zap stanza required
 end

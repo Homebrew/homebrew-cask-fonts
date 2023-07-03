@@ -9,4 +9,6 @@ cask "font-fuggles" do
   homepage "https://fonts.google.com/specimen/Fuggles"
 
   font "Fuggles-Regular.ttf"
+
+  # No zap stanza required
 end

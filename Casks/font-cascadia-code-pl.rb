@@ -14,4 +14,6 @@ cask "font-cascadia-code-pl" do
 
   font "ttf/CascadiaCodePL.ttf"
   font "ttf/CascadiaCodePLItalic.ttf"
+
+  # No zap stanza required
 end

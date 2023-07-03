@@ -8,4 +8,6 @@ cask "font-just-me-again-down-here" do
   homepage "https://fonts.google.com/specimen/Just+Me+Again+Down+Here"
 
   font "JustMeAgainDownHere.ttf"
+
+  # No zap stanza required
 end

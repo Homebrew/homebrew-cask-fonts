@@ -8,4 +8,6 @@ cask "font-sansita-one" do
   homepage "https://fonts.google.com/specimen/Sansita+One"
 
   font "SansitaOne-Regular.ttf"
+
+  # No zap stanza required
 end

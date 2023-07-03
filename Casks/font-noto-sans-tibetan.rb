@@ -9,4 +9,6 @@ cask "font-noto-sans-tibetan" do
 
   font "NotoSansTibetan-Bold.ttf"
   font "NotoSansTibetan-Regular.ttf"
+
+  # No zap stanza required
 end

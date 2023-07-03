@@ -8,4 +8,6 @@ cask "font-sevillana" do
   homepage "https://fonts.google.com/specimen/Sevillana"
 
   font "Sevillana-Regular.ttf"
+
+  # No zap stanza required
 end

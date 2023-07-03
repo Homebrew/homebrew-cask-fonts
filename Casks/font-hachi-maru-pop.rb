@@ -9,4 +9,6 @@ cask "font-hachi-maru-pop" do
   homepage "https://fonts.google.com/specimen/Hachi+Maru+Pop"
 
   font "HachiMaruPop-Regular.ttf"
+
+  # No zap stanza required
 end

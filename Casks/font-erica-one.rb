@@ -8,4 +8,6 @@ cask "font-erica-one" do
   homepage "https://fonts.google.com/specimen/Erica+One"
 
   font "EricaOne-Regular.ttf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-changa" do
   homepage "https://fonts.google.com/specimen/Changa"
 
   font "Changa[wght].ttf"
+
+  # No zap stanza required
 end

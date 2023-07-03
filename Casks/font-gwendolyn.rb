@@ -11,4 +11,6 @@ cask "font-gwendolyn" do
 
   font "Gwendolyn-Bold.ttf"
   font "Gwendolyn-Regular.ttf"
+
+  # No zap stanza required
 end

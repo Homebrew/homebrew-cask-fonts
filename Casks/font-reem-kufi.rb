@@ -8,4 +8,6 @@ cask "font-reem-kufi" do
   homepage "https://fonts.google.com/specimen/Reem+Kufi"
 
   font "ReemKufi[wght].ttf"
+
+  # No zap stanza required
 end

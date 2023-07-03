@@ -15,4 +15,6 @@ cask "font-glow-sans-tc-wide" do
   font "GlowSansTC-Wide-Medium.otf"
   font "GlowSansTC-Wide-Regular.otf"
   font "GlowSansTC-Wide-Thin.otf"
+
+  # No zap stanza required
 end

@@ -8,4 +8,6 @@ cask "font-carme" do
   homepage "https://fonts.google.com/specimen/Carme"
 
   font "Carme-Regular.ttf"
+
+  # No zap stanza required
 end

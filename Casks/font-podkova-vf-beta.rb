@@ -8,4 +8,6 @@ cask "font-podkova-vf-beta" do
   homepage "https://fonts.google.com/earlyaccess"
 
   font "PodkovaVFBeta.ttf"
+
+  # No zap stanza required
 end

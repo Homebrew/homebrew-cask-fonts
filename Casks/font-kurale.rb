@@ -8,4 +8,6 @@ cask "font-kurale" do
   homepage "https://fonts.google.com/specimen/Kurale"
 
   font "Kurale-Regular.ttf"
+
+  # No zap stanza required
 end

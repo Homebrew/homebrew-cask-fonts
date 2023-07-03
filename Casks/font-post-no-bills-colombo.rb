@@ -15,4 +15,6 @@ cask "font-post-no-bills-colombo" do
   font "PostNoBillsColombo-Medium.ttf"
   font "PostNoBillsColombo-Regular.ttf"
   font "PostNoBillsColombo-SemiBold.ttf"
+
+  # No zap stanza required
 end

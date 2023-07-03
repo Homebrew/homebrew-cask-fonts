@@ -8,4 +8,6 @@ cask "font-bayon" do
   homepage "https://fonts.google.com/specimen/Bayon"
 
   font "Bayon-Regular.ttf"
+
+  # No zap stanza required
 end

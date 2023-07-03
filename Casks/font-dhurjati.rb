@@ -8,4 +8,6 @@ cask "font-dhurjati" do
   homepage "https://fonts.google.com/specimen/Dhurjati"
 
   font "Dhurjati-Regular.ttf"
+
+  # No zap stanza required
 end
