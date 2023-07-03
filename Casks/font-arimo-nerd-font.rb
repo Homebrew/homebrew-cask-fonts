@@ -22,6 +22,4 @@ cask "font-arimo-nerd-font" do
   font "ArimoNerdFontPropo-Regular.ttf"
 
   # No zap stanza required
-
-  # No zap stanza required
 end
