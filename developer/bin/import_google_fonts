@@ -97,7 +97,7 @@ end
     def homepage(self):
         if self.homepage_override is not None:
           return self.homepage_override
-        
+
         if self.early_access:
             return f"https://fonts.google.com/earlyaccess"
 
