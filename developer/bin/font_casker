@@ -134,6 +134,8 @@ def caskify(family, version, sha, paths)
   output << stanzify("homepage", "")
   output << ""
   output << stanzify("font", paths)
+  output << ""
+  output << "# No zap stanza required"
   output << "end"
 end
 
