@@ -8,6 +8,4 @@ cask "font-special-elite" do
   homepage "https://fonts.google.com/specimen/Special+Elite"
 
   font "SpecialElite-Regular.ttf"
-
-  # No zap stanza required
 end

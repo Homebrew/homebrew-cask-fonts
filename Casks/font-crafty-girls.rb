@@ -8,6 +8,4 @@ cask "font-crafty-girls" do
   homepage "https://fonts.google.com/specimen/Crafty+Girls"
 
   font "CraftyGirls-Regular.ttf"
-
-  # No zap stanza required
 end

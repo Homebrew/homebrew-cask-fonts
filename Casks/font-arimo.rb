@@ -11,6 +11,4 @@ cask "font-arimo" do
 
   font "Arimo-Italic[wght].ttf"
   font "Arimo[wght].ttf"
-
-  # No zap stanza required
 end

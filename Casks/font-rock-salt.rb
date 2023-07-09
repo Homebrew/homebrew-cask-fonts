@@ -8,6 +8,4 @@ cask "font-rock-salt" do
   homepage "https://fonts.google.com/specimen/Rock+Salt"
 
   font "RockSalt-Regular.ttf"
-
-  # No zap stanza required
 end

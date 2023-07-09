@@ -8,6 +8,4 @@ cask "font-sunshiney" do
   homepage "https://fonts.google.com/specimen/Sunshiney"
 
   font "Sunshiney-Regular.ttf"
-
-  # No zap stanza required
 end

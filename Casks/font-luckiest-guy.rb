@@ -8,6 +8,4 @@ cask "font-luckiest-guy" do
   homepage "https://fonts.google.com/specimen/Luckiest+Guy"
 
   font "LuckiestGuy-Regular.ttf"
-
-  # No zap stanza required
 end

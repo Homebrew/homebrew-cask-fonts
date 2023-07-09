@@ -9,6 +9,4 @@ cask "font-kosugi-maru" do
   homepage "https://fonts.google.com/specimen/Kosugi+Maru"
 
   font "KosugiMaru-Regular.ttf"
-
-  # No zap stanza required
 end

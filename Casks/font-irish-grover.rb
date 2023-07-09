@@ -8,6 +8,4 @@ cask "font-irish-grover" do
   homepage "https://fonts.google.com/specimen/Irish+Grover"
 
   font "IrishGrover-Regular.ttf"
-
-  # No zap stanza required
 end

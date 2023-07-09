@@ -8,6 +8,4 @@ cask "font-just-another-hand" do
   homepage "https://fonts.google.com/specimen/Just+Another+Hand"
 
   font "JustAnotherHand-Regular.ttf"
-
-  # No zap stanza required
 end
