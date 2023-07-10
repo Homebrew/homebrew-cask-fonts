@@ -4,7 +4,7 @@ cask "font-bricolage-grotesque" do
 
   url "https://github.com/google/fonts/raw/main/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz%2Cwdth%2Cwght%5D.ttf"
   name "Bricolage Grotesque"
-  desc "Collage of lots of different things: historical sources, technical decisions and personal feelings"
+  desc "Collage of historical sources, technical decisions and personal feelings"
   homepage "https://github.com/ateliertriay/bricolage"
 
   font "BricolageGrotesque[opsz,wdth,wght].ttf"
