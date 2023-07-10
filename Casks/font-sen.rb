@@ -2,16 +2,12 @@ cask "font-sen" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts.git",
-      verified:  "github.com/google/fonts",
-      branch:    "main",
-      only_path: "ofl/sen"
+  url "https://github.com/google/fonts/raw/main/ofl/sen/Sen%5Bwght%5D.ttf",
+      verified: "github.com/google/fonts/"
   name "Sen"
   homepage "https://fonts.google.com/specimen/Sen"
 
-  font "Sen-Bold.ttf"
-  font "Sen-ExtraBold.ttf"
-  font "Sen-Regular.ttf"
+  font "Sen[wght].ttf"
 
   # No zap stanza required
 end
