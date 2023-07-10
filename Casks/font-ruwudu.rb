@@ -6,7 +6,7 @@ cask "font-ruwudu" do
       branch:    "main",
       only_path: "ofl/ruwudu"
   name "Ruwudu"
-  desc "Intended to provide a libre and open font family for arabic script languages in west africa that use the rubutun kano style"
+  desc "Open font family for arabic script languages that use the rubutun kano style"
   homepage "https://github.com/silnrsi/font-ruwudu"
 
   font "Ruwudu-Bold.ttf"
