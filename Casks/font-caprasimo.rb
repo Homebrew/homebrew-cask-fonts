@@ -5,7 +5,7 @@ cask "font-caprasimo" do
   url "https://github.com/google/fonts/raw/main/ofl/caprasimo/Caprasimo-Regular.ttf",
       verified: "github.com/google/fonts/"
   name "Caprasimo"
-  desc "Based on fraunces, a display, old-style soft-serif typeface inspired by the mannerisms of early 20th century typefaces such as the cooper series"
+  desc "Based on fraunces"
   homepage "https://fonts.google.com/specimen/Caprasimo"
 
   font "Caprasimo-Regular.ttf"
