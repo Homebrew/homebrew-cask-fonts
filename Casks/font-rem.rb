@@ -6,7 +6,7 @@ cask "font-rem" do
       branch:    "main",
       only_path: "ofl/rem"
   name "REM"
-  desc "Acronym for rapid eye movement, which refers to a stage of sleep characterized by quick, random eye movements"
+  desc "Acronym for rapid eye movement"
   homepage "https://github.com/octaviopardo/REM"
 
   font "REM-Italic[wght].ttf"
