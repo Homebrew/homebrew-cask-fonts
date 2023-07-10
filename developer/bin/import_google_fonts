@@ -40,12 +40,12 @@ class FontCask:
 
 {% if files|length == 1 %}
   url "https://github.com/google/fonts/raw/main/{{folder}}/{{files[0] | urlencode}}"
-      {%- if not 'github.com/' in homepage %},
+      {%- if not 'github.com/google/fonts/' in homepage %},
       verified: "github.com/google/fonts/"
       {%- endif +%}
 {% else %}
   url "https://github.com/google/fonts.git",
-      {%- if not 'github.com/' in homepage +%}
+      {%- if not 'github.com/google/fonts/' in homepage +%}
       verified:  "github.com/google/fonts",
       {%- endif +%}
       branch:    "main",
@@ -317,6 +317,12 @@ Download the or clone the repository from https://github.com/google/fonts, then 
 
           updated_casks[cask.token()] = cask
         else:
+          try:
+             urllib.request.urlopen(cask.homepage())
+          except urllib.request.URLError as e:
+            if e.code == 404:
+              cask.homepage_override = cask.meta.source.repository_url
+
           added_casks[cask.token()] = cask
 
     changed_casks = {}
