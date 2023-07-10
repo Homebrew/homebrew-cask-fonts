@@ -8,6 +8,4 @@ cask "font-coming-soon" do
   homepage "https://fonts.google.com/specimen/Coming+Soon"
 
   font "ComingSoon-Regular.ttf"
-
-  # No zap stanza required
 end

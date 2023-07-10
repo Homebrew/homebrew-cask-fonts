@@ -8,6 +8,4 @@ cask "font-aclonica" do
   homepage "https://fonts.google.com/specimen/Aclonica"
 
   font "Aclonica-Regular.ttf"
-
-  # No zap stanza required
 end

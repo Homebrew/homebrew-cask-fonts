@@ -8,6 +8,4 @@ cask "font-redressed" do
   homepage "https://fonts.google.com/specimen/Redressed"
 
   font "Redressed-Regular.ttf"
-
-  # No zap stanza required
 end

@@ -8,6 +8,4 @@ cask "font-walter-turncoat" do
   homepage "https://fonts.google.com/specimen/Walter+Turncoat"
 
   font "WalterTurncoat-Regular.ttf"
-
-  # No zap stanza required
 end

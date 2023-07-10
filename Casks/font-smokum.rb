@@ -8,6 +8,4 @@ cask "font-smokum" do
   homepage "https://fonts.google.com/specimen/Smokum"
 
   font "Smokum-Regular.ttf"
-
-  # No zap stanza required
 end

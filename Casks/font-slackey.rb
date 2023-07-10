@@ -8,6 +8,4 @@ cask "font-slackey" do
   homepage "https://fonts.google.com/specimen/Slackey"
 
   font "Slackey-Regular.ttf"
-
-  # No zap stanza required
 end

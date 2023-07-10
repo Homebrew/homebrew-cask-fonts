@@ -8,6 +8,4 @@ cask "font-ultra" do
   homepage "https://fonts.google.com/specimen/Ultra"
 
   font "Ultra-Regular.ttf"
-
-  # No zap stanza required
 end

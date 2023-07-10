@@ -8,6 +8,4 @@ cask "font-jsmath-cmr10" do
   homepage "https://fonts.google.com/specimen/jsMath+cmr10"
 
   font "jsMath-cmr10.ttf"
-
-  # No zap stanza required
 end

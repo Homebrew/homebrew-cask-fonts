@@ -8,6 +8,4 @@ cask "font-calligraffitti" do
   homepage "https://fonts.google.com/specimen/Calligraffitti"
 
   font "Calligraffitti-Regular.ttf"
-
-  # No zap stanza required
 end
