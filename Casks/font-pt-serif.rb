@@ -2,16 +2,17 @@ cask "font-pt-serif" do
   version :latest
   sha256 :no_check
 
-  url "https://company.paratype.com/system/attachments/634/original/ptserif.zip"
+  url "https://api.paratype.com/api/editions/ofl/download/52194",
+      referer: "https://www.paratype.com/"
   name "PT Serif"
   homepage "https://www.paratype.com/public/"
 
-  font "PTF55F.ttf"
-  font "PTF56F.ttf"
-  font "PTF75F.ttf"
-  font "PTF76F.ttf"
-  font "PTZ55F.ttf"
-  font "PTZ56F.ttf"
+  font "PT/PT/PT-Serif/pt-serif_bold-italic.ttf"
+  font "PT/PT/PT-Serif/pt-serif_bold.ttf"
+  font "PT/PT/PT-Serif/pt-serif_caption-italic.ttf"
+  font "PT/PT/PT-Serif/pt-serif_caption-regular.ttf"
+  font "PT/PT/PT-Serif/pt-serif_italic.ttf"
+  font "PT/PT/PT-Serif/pt-serif_regular.ttf"
 
   # No zap stanza required
 end
