@@ -5,7 +5,8 @@ cask "font-pt-mono" do
   url "https://api.paratype.com/api/editions/ofl/download/52218",
       referer: "https://www.paratype.com/"
   name "PT Mono"
-  homepage "https://www.paratype.com/public/"
+  desc "Monospaced font of the PT Project series"
+  homepage "https://www.paratype.com/fonts/pt/pt-mono"
 
   font "PT/PT/PT-Mono/pt-mono_bold.ttf"
   font "PT/PT/PT-Mono/pt-mono_regular.ttf"
