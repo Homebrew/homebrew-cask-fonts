@@ -1,6 +1,6 @@
 cask "font-bungee" do
-  version "1.2.0"
-  sha256 "627992b0435f4c28ef4227da0258c41fbf26d98c1765cea596708a4135b855e3"
+  version "1.2.1"
+  sha256 "b6ff37d099140cb82c143622a097b95154265931735e84ef2105957976bb1bd0"
 
   url "https://github.com/djrrb/bungee/releases/download/v#{version}/Bungee-fonts.zip",
       verified: "github.com/djrrb/bungee/"
