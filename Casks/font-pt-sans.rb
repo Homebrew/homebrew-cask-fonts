@@ -5,7 +5,8 @@ cask "font-pt-sans" do
   url "https://api.paratype.com/api/editions/ofl/download/52212",
       referer: "https://www.paratype.com/"
   name "PT Sans"
-  homepage "https://www.paratype.com/public/"
+  desc "Type family of universal use"
+  homepage "https://www.paratype.com/fonts/pt/pt-sans"
 
   font "PT/PT/PT-Sans/pt-sans_bold-italic.ttf"
   font "PT/PT/PT-Sans/pt-sans_bold.ttf"
