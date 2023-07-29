@@ -1,6 +1,6 @@
 cask "font-pretendard-jp" do
-  version "1.3.7"
-  sha256 "8210c29fed1b9ddaafe7e705b5dd5ff8d59fb27b5f6106322198dff9e780e989"
+  version "1.3.8"
+  sha256 "17f6aec0f30d5278f3d0e7e8b1d6efc7537c314abdeca854ffa5169707885e33"
 
   url "https://github.com/orioncactus/pretendard/releases/download/v#{version}/PretendardJP-#{version}.zip"
   name "Pretendard JP"
