@@ -1,6 +1,6 @@
 cask "font-bungee" do
-  version "1.2.0"
-  sha256 "627992b0435f4c28ef4227da0258c41fbf26d98c1765cea596708a4135b855e3"
+  version "1.2.1"
+  sha256 "b6ff37d099140cb82c143622a097b95154265931735e84ef2105957976bb1bd0"
 
   url "https://github.com/djrrb/bungee/releases/download/v#{version}/Bungee-fonts.zip",
       verified: "github.com/djrrb/bungee/"
@@ -13,14 +13,14 @@ cask "font-bungee" do
   font "Bungee-fonts/Bungee_Basic/BungeeInline-Regular.ttf"
   font "Bungee-fonts/Bungee_Basic/BungeeOutline-Regular.ttf"
   font "Bungee-fonts/Bungee_Basic/BungeeShade-Regular.ttf"
-  font "Bungee-fonts/Bungee_Color_Fonts/COLRv0/BungeeColor-Regular_COLRv0.ttf"
-  font "Bungee-fonts/Bungee_Color_Fonts/COLRv1/BungeeSpice-Regular_COLRv1.ttf"
-  font "Bungee-fonts/Bungee_Color_Fonts/svg/BungeeColor-Regular_svg.ttf"
   font "Bungee-fonts/Bungee_Desktop/Bungee/Bungee-Hairline.otf"
   font "Bungee-fonts/Bungee_Desktop/Bungee/Bungee-Inline.otf"
   font "Bungee-fonts/Bungee_Desktop/Bungee/Bungee-Outline.otf"
   font "Bungee-fonts/Bungee_Desktop/Bungee/Bungee-Regular.otf"
   font "Bungee-fonts/Bungee_Desktop/Bungee/Bungee-Shade.otf"
+  font "Bungee-fonts/Bungee_Desktop/BungeeColor/BungeeColor-Regular-COLRv0.ttf"
+  font "Bungee-fonts/Bungee_Desktop/BungeeColor/BungeeColor-Regular-SVG.ttf"
+  font "Bungee-fonts/Bungee_Desktop/BungeeColor/BungeeSpice-Regular-COLRv1.ttf"
   font "Bungee-fonts/Bungee_Desktop/BungeeLayers/BungeeLayers-Inline.otf"
   font "Bungee-fonts/Bungee_Desktop/BungeeLayers/BungeeLayers-Outline.otf"
   font "Bungee-fonts/Bungee_Desktop/BungeeLayers/BungeeLayers-Regular.otf"
