@@ -3,10 +3,11 @@ cask "font-lisu-bosa" do
   sha256 :no_check
 
   url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
       branch:    "main",
       only_path: "ofl/lisubosa"
   name "Lisu Bosa"
-  homepage "https://github.com/silnrsi/font-lisu-bosa"
+  homepage "https://fonts.google.com/specimen/Lisu+Bosa"
 
   font "LisuBosa-Black.ttf"
   font "LisuBosa-BlackItalic.ttf"
