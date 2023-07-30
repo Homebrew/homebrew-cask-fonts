@@ -3,10 +3,11 @@ cask "font-dai-banna-sil" do
   sha256 :no_check
 
   url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
       branch:    "main",
       only_path: "ofl/daibannasil"
   name "Dai Banna SIL"
-  homepage "https://github.com/silnrsi/font-daibannasil"
+  homepage "https://fonts.google.com/specimen/Dai+Banna+SIL"
 
   font "DaiBannaSIL-Bold.ttf"
   font "DaiBannaSIL-BoldItalic.ttf"
