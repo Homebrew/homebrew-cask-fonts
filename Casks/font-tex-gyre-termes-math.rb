@@ -6,6 +6,11 @@ cask "font-tex-gyre-termes-math" do
   name "Termes Math"
   homepage "https://www.gust.org.pl/projects/e-foundry/tg-math"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tg-math/download"
+    regex(/Termes\sMath\s\(OTF\),\sversion\s(\d+(?:\.\d+)+)/i)
+  end
+
   font "texgyretermes-math-1543/opentype/texgyretermes-math.otf"
 
   # No zap stanza required
