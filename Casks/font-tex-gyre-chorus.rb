@@ -6,6 +6,11 @@ cask "font-tex-gyre-chorus" do
   name "TeX Gyre Chorus"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/chorus"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tex-gyre/whole"
+    regex(%r{Chorus</a>,\sver\.\s(\d+(?:\.\d+)+)}i)
+  end
+
   font "texgyrechorus-mediumitalic.otf"
 
   # No zap stanza required
