@@ -6,6 +6,11 @@ cask "font-tex-gyre-schola" do
   name "TeX Gyre Schola"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/schola"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tex-gyre/whole"
+    regex(%r{Schola</a>,\sver\.\s(\d+(?:\.\d+)+)}i)
+  end
+
   font "texgyreschola-bold.otf"
   font "texgyreschola-bolditalic.otf"
   font "texgyreschola-italic.otf"
