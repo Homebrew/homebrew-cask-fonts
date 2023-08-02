@@ -6,6 +6,11 @@ cask "font-tex-gyre-pagella" do
   name "TeX Gyre Pagella"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tex-gyre/whole"
+    regex(%r{Pagella</a>,\sver\.\s(\d+(?:\.\d+)+)}i)
+  end
+
   font "qpl#{version.dots_to_underscores}otf/texgyrepagella-bold.otf"
   font "qpl#{version.dots_to_underscores}otf/texgyrepagella-bolditalic.otf"
   font "qpl#{version.dots_to_underscores}otf/texgyrepagella-italic.otf"
