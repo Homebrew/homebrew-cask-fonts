@@ -6,6 +6,11 @@ cask "font-tex-gyre-termes" do
   name "TeX Gyre Termes"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/termes"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tex-gyre/whole"
+    regex(%r{Termes</a>,\sver\.\s(\d+(?:\.\d+)+)}i)
+  end
+
   font "texgyretermes-bold.otf"
   font "texgyretermes-bolditalic.otf"
   font "texgyretermes-italic.otf"
