@@ -6,6 +6,11 @@ cask "font-tex-gyre-pagella-math" do
   name "Pagella Math"
   homepage "https://www.gust.org.pl/projects/e-foundry/tg-math"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tg-math/download"
+    regex(/Pagella\sMath\s\(OTF\),\sversion\s(\d+(?:\.\d+)+)/i)
+  end
+
   font "texgyrepagella-math-#{version.no_dots}/opentype/texgyrepagella-math.otf"
 
   # No zap stanza required
