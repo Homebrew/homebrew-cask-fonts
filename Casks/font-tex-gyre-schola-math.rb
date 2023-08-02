@@ -6,6 +6,11 @@ cask "font-tex-gyre-schola-math" do
   name "Schola Math"
   homepage "https://www.gust.org.pl/projects/e-foundry/tg-math"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tg-math/download"
+    regex(/Schola\sMath\s\(OTF\),\sversion\s(\d+(?:\.\d+)+)/i)
+  end
+
   font "texgyreschola-math-1533/opentype/texgyreschola-math.otf"
 
   # No zap stanza required
