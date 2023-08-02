@@ -6,6 +6,11 @@ cask "font-tex-gyre-bonum" do
   name "TeX Gyre Bonum"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tex-gyre/whole"
+    regex(%r{Bonum</a>,\sver\.\s(\d+(?:\.\d+)+)}i)
+  end
+
   font "texgyrebonum-bold.otf"
   font "texgyrebonum-bolditalic.otf"
   font "texgyrebonum-italic.otf"
