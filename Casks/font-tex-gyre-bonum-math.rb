@@ -6,6 +6,11 @@ cask "font-tex-gyre-bonum-math" do
   name "Bonum Math"
   homepage "https://www.gust.org.pl/projects/e-foundry/tg-math"
 
+  livecheck do
+    url "https://www.gust.org.pl/projects/e-foundry/tg-math/download"
+    regex(/Bonum\sMath\s\(OTF\),\sversion\s(\d+(?:\.\d+)+)/i)
+  end
+
   font "texgyrebonum-math-#{version.no_dots}/opentype/texgyrebonum-math.otf"
 
   # No zap stanza required
