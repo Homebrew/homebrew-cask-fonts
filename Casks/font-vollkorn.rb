@@ -6,6 +6,14 @@ cask "font-vollkorn" do
   name "Vollkorn"
   homepage "http://vollkorn-typeface.com/"
 
+  livecheck do
+    url :homepage
+    regex(/href=.*?vollkorn[._-]v?(\d+(?:[.-]\d+)+)\.zip/i)
+    strategy :page_match do |page, regex|
+      page.scan(regex).map { |match| match&.first&.tr("-", ".") }
+    end
+  end
+
   font "PS-OTF/Vollkorn-Black.otf"
   font "PS-OTF/Vollkorn-BlackItalic.otf"
   font "PS-OTF/Vollkorn-Bold.otf"
