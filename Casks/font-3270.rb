@@ -8,10 +8,14 @@ cask "font-3270" do
 
   livecheck do
     url "https://github.com/rbanffy/3270font/releases/latest"
-    regex(%r{href=.*/v?(\d+(?:\.\d+)+)/3270[._-]fonts[._-](.*)\.zip}i)
-    strategy :page_match do |page, regex|
-      page.scan(regex)
-          .map { |matches| "#{matches[0]},#{matches[1]}" }
+    regex(%r{v?(\d+(?:\.\d+)+)/3270[._-]fonts[._-](.*)\.zip}i)
+    strategy :github_releases do |json, regex|
+      json.first["assets"].map do |asset|
+        match = asset["browser_download_url"].match(regex)
+        next if match.blank?
+
+        "#{match[1]},#{match[2]}"
+      end
     end
   end
 
