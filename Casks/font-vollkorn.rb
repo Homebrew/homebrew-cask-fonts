@@ -10,8 +10,8 @@ cask "font-vollkorn" do
   desc "Quiet, modest and high quality serif typeface"
   homepage "https://fonts.google.com/specimen/Vollkorn"
 
-  font "Vollkorn[wght].ttf"
   font "Vollkorn-Italic[wght].ttf"
+  font "Vollkorn[wght].ttf"
 
   # No zap stanza required
 end
