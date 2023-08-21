@@ -1,11 +1,23 @@
 cask "font-dream-han-sans" do
-  version "2.004"
+  version "3.00,2.004,2.001"
   sha256 "521eda9dedb8854b915be5fd06910e58fc2ae7f5e31e3e77191a65028a8d0283"
 
-  url "https://github.com/Pal3love/dream-han-cjk/releases/download/dream-3.00-sans-#{version}-serif-2.001/DreamHanSans.zip",
+  url "https://github.com/Pal3love/dream-han-cjk/releases/download/dream-#{version.csv.first}-sans-#{version.csv.second}-serif-#{version.csv.third}/DreamHanSans.zip",
       verified: "github.com/Pal3love/dream-han-cjk/"
   name "Dream Han Sans"
+  desc "Pan-CJK font families with range of weights"
   homepage "https://github.com/Pal3love/dream-han-cjk/"
+
+  livecheck do
+    url "https://github.com/Pal3love/dream-han-cjk/releases/latest"
+    regex(/dream[._-]v?(\d+(?:\.\d+)+)[._-]sans[._-]v?(\d+(?:\.\d+)+)[._-]serif[._-]v?(\d+(?:\.\d+)+)/i)
+    strategy :header_match do |headers, regex|
+      match = headers["location"]&.match(regex)
+      next if match.blank?
+
+      "#{match[1]},#{match[2]},#{match[3]}"
+    end
+  end
 
   font "DreamHanSans-W1.ttc"
   font "DreamHanSans-W2.ttc"
