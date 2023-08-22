@@ -7,14 +7,14 @@ cask "font-intel-one-mono" do
   desc "Expressive monospaced font family"
   homepage "https://github.com/intel/intel-one-mono"
 
-  font "otf/intelone-mono-font-family-bold.otf"
-  font "otf/intelone-mono-font-family-bolditalic.otf"
-  font "otf/intelone-mono-font-family-italic.otf"
-  font "otf/intelone-mono-font-family-light.otf"
-  font "otf/intelone-mono-font-family-lightitalic.otf"
-  font "otf/intelone-mono-font-family-medium.otf"
-  font "otf/intelone-mono-font-family-mediumitalic.otf"
-  font "otf/intelone-mono-font-family-regular.otf"
+  font "otf/IntelOneMono-Bold.otf"
+  font "otf/IntelOneMono-BoldItalic.otf"
+  font "otf/IntelOneMono-Italic.otf"
+  font "otf/IntelOneMono-Light.otf"
+  font "otf/IntelOneMono-LightItalic.otf"
+  font "otf/IntelOneMono-Medium.otf"
+  font "otf/IntelOneMono-MediumItalic.otf"
+  font "otf/IntelOneMono-Regular.otf"
 
   # No zap stanza required
 end
