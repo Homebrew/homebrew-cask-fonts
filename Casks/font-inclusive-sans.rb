@@ -6,7 +6,7 @@ cask "font-inclusive-sans" do
       branch:    "main",
       only_path: "ofl/inclusivesans"
   name "Inclusive Sans"
-  desc "Inspired by the friendly personality of contemporary neo-grotesques while incorporating key features to make it highly legible in all uses"
+  desc "Contemporary neo-grotesques"
   homepage "https://github.com/LivKing/Inclusive-Sans"
 
   font "InclusiveSans-Italic.ttf"
