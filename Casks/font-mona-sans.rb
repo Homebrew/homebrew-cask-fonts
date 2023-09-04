@@ -1,8 +1,8 @@
 cask "font-mona-sans" do
-  version "1.0"
-  sha256 "605cab19df336c927d49af180cd1cb7037f7e1f7a203075629cf5d23c096dd06"
+  version "1.0.1"
+  sha256 "c5e44e736b72bbbd47ae7fecfde8f0c149ba2c0a436d27a2f1ec6392ba3ecd0b"
 
-  url "https://github.com/github/mona-sans/releases/download/v#{version}/Mona.Sans.#{version}.zip"
+  url "https://github.com/github/mona-sans/releases/download/v#{version}/MonaSans.zip"
   name "Mona-Sans"
   desc "Mona Sans, a variable font from GitHub"
   homepage "https://github.com/github/mona-sans"
