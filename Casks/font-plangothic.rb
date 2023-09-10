@@ -9,4 +9,6 @@ cask "font-plangothic" do
 
   font "Plangothic-Project-#{version}/PlangothicP1-Regular (allideo).ttf"
   font "Plangothic-Project-#{version}/PlangothicP2-Regular.ttf"
+
+  # No zap stanza required
 end
