@@ -6,7 +6,7 @@ cask "font-rethink-sans" do
       branch:    "main",
       only_path: "ofl/rethinksans"
   name "Rethink Sans"
-  desc "Filled with thoughtfully turbocharged features, including: weight-specific tracking, two styles of circled numbers a simple keystroke away, and tabular lining figures right out-of-the-box"
+  desc "Sans-serif type family"
   homepage "https://github.com/hans-thiessen/Rethink-Sans"
 
   font "RethinkSans-Italic[wght].ttf"
