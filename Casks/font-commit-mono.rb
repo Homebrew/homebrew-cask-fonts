@@ -8,10 +8,10 @@ cask "font-commit-mono" do
   desc "Neutral programming typeface"
   homepage "https://commitmono.com/"
 
-  font "src/fonts/export/CommitMono-450-Italic.otf"
-  font "src/fonts/export/CommitMono-450-Regular.otf"
-  font "src/fonts/export/CommitMono-700-Italic.otf"
-  font "src/fonts/export/CommitMono-700-Regular.otf"
+  font "CommitMono-1.138/CommitMono-400-Italic.otf"
+  font "CommitMono-1.138/CommitMono-400-Regular.otf"
+  font "CommitMono-1.138/CommitMono-700-Italic.otf"
+  font "CommitMono-1.138/CommitMono-700-Regular.otf"
 
   # No zap stanza required
 end
