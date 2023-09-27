@@ -1,6 +1,6 @@
 cask "font-commit-mono" do
-  version "1.136"
-  sha256 "4b7334d69c2a0d71a707d3ff52048123ce06aa076746961a968becd1f4dc883a"
+  version "1.138"
+  sha256 "7ecad1d1acc524f731bb4822a795f3c2750be32efb6a6966fabf6ed821f22d6e"
 
   url "https://github.com/eigilnikolajsen/commit-mono/releases/download/#{version}/CommitMono-#{version}.zip",
       verified: "github.com/eigilnikolajsen/commit-mono/"
@@ -8,10 +8,10 @@ cask "font-commit-mono" do
   desc "Neutral programming typeface"
   homepage "https://commitmono.com/"
 
-  font "src/fonts/export/CommitMono-450-Italic.otf"
-  font "src/fonts/export/CommitMono-450-Regular.otf"
-  font "src/fonts/export/CommitMono-700-Italic.otf"
-  font "src/fonts/export/CommitMono-700-Regular.otf"
+  font "CommitMono-1.138/CommitMono-400-Italic.otf"
+  font "CommitMono-1.138/CommitMono-400-Regular.otf"
+  font "CommitMono-1.138/CommitMono-700-Italic.otf"
+  font "CommitMono-1.138/CommitMono-700-Regular.otf"
 
   # No zap stanza required
 end
