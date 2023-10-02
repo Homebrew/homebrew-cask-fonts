@@ -1,12 +1,12 @@
 cask "font-lxgw-wenkai-lite" do
-  version "1.300"
-  sha256 "ff88a3e3d1465423ae6d6d4e1fc574ab69643010de0615a72a686da0b34ecd0a"
+  version "1.310"
+  sha256 "19a16e3aaea1a6cc01c592fec4e4c816a7a36c843a91bb67b5538e376394bec8"
 
-  url "https://github.com/lxgw/LxgwWenKai-Core/releases/download/v#{version}/lxgw-wenkai-lite-v#{version}.zip"
+  url "https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v#{version}/lxgw-wenkai-lite-v#{version}.zip"
   name "LXGW WenKai Lite"
   name "霞鹜文楷 轻便版"
   desc "Open-source Chinese font derived from Fontworks' Klee One"
-  homepage "https://github.com/lxgw/LxgwWenKai-Core"
+  homepage "https://github.com/lxgw/LxgwWenKai-Lite"
 
   font "lxgw-wenkai-lite-v#{version}/LXGWWenKaiLite-Bold.ttf"
   font "lxgw-wenkai-lite-v#{version}/LXGWWenKaiLite-Light.ttf"
