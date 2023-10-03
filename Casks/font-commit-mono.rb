@@ -1,8 +1,8 @@
 cask "font-commit-mono" do
-  version "1.138"
-  sha256 "7ecad1d1acc524f731bb4822a795f3c2750be32efb6a6966fabf6ed821f22d6e"
+  version "1.139"
+  sha256 "5cf3b126f8a7c02414b6b25e16c9fe700e3d18f88d9ccdc0aadae8b92e17b078"
 
-  url "https://github.com/eigilnikolajsen/commit-mono/releases/download/#{version}/CommitMono-#{version}.zip",
+  url "https://github.com/eigilnikolajsen/commit-mono/releases/download/v#{version}/CommitMono-#{version}.zip",
       verified: "github.com/eigilnikolajsen/commit-mono/"
   name "Commit Mono"
   desc "Neutral programming typeface"
