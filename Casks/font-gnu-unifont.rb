@@ -13,11 +13,11 @@ cask "font-gnu-unifont" do
     regex(%r{href=["']?unifont[._-]v?(\d+(?:\.\d+)+)/?["' >]}i)
   end
 
-  font "unifont-#{version}/font/precompiled/unifont-#{version}.ttf"
-  font "unifont-#{version}/font/precompiled/unifont_upper-#{version}.ttf"
-  font "unifont-#{version}/font/precompiled/unifont_sample-#{version}.ttf"
-  font "unifont-#{version}/font/precompiled/unifont_jp-#{version}.ttf"
-  font "unifont-#{version}/font/precompiled/unifont_csur-#{version}.ttf"
+  font "unifont-#{version}/font/precompiled/unifont-#{version}.otf"
+  font "unifont-#{version}/font/precompiled/unifont_upper-#{version}.otf"
+  font "unifont-#{version}/font/precompiled/unifont_sample-#{version}.otf"
+  font "unifont-#{version}/font/precompiled/unifont_jp-#{version}.otf"
+  font "unifont-#{version}/font/precompiled/unifont_csur-#{version}.otf"
 
   # No zap stanza required
 end
