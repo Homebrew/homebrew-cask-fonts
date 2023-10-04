@@ -1,6 +1,6 @@
 cask "font-last-resort-high-efficiency" do
-  version "15.000"
-  sha256 "432a3fb6e06f0479c6fcb5bcb14032eb6c697aa9577f27f08d409baf8bc911a8"
+  version "15.100"
+  sha256 "74f93a8fb3ab8756e0e86cb3c2c0783fda10bdea6f979d5817869ba7284e56ca"
 
   url "https://github.com/unicode-org/last-resort-font/releases/download/#{version}/LastResortHE-Regular.ttf"
   name "Last Resort High-Efficiency"
