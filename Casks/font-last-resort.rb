@@ -1,6 +1,6 @@
 cask "font-last-resort" do
-  version "15.000"
-  sha256 "b5a6cbd70646342aca928c619d544e2c844d73ba346db256b421ebaac02c5fd1"
+  version "15.100"
+  sha256 "2c25999fae0a09f4cf5d1c084729b43e81296f497c59e5891a710a7744c724ff"
 
   url "https://github.com/unicode-org/last-resort-font/releases/download/#{version}/LastResort-Regular.ttf"
   name "Last Resort"
