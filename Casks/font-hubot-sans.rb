@@ -1,8 +1,8 @@
 cask "font-hubot-sans" do
-  version "1.0"
-  sha256 "f6dc82db6517d394c8930f1c45cdad97215b8e44defd3b1d712377e08c86e1dc"
+  version "1.0.1"
+  sha256 "b460d36097a5c9a3e45710cbe1554589eaa5765d7c2c88df364516f3e27159b1"
 
-  url "https://github.com/github/hubot-sans/releases/download/v#{version}/Hubot.Sans.#{version}.zip"
+  url "https://github.com/github/hubot-sans/releases/download/v#{version}/Hubot-Sans.zip"
   name "Hubot-Sans"
   desc "Hubot Sans, a variable font from GitHub"
   homepage "https://github.com/github/hubot-sans"
