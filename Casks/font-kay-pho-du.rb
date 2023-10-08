@@ -6,7 +6,7 @@ cask "font-kay-pho-du" do
       branch:    "main",
       only_path: "ofl/kayphodu"
   name "Kay Pho Du"
-  desc "Font family for the kayah li script, based initially on the design of karenni, although the glyphs have been redrawn and a new latin set has been added"
+  desc "Font family for the kayah li script"
   homepage "https://github.com/silnrsi/font-kayphodu"
 
   font "KayPhoDu-Bold.ttf"
