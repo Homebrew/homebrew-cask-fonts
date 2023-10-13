@@ -2,12 +2,12 @@ cask "font-noto-emoji" do
   version :latest
   sha256 :no_check
 
-  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoEmoji-unhinted.zip",
-      verified: "noto-website-2.storage.googleapis.com/"
+  url "https://github.com/google/fonts/raw/main/ofl/notoemoji/NotoEmoji%5Bwght%5D.ttf",
+      verified: "github.com/google/fonts/"
   name "Noto Emoji"
-  homepage "https://www.google.com/get/noto/#emoji-zsye"
+  homepage "https://fonts.google.com/noto/specimen/Noto+Emoji"
 
-  font "NotoEmoji-Regular.ttf"
+  font "NotoEmoji[wght].ttf"
 
   # No zap stanza required
 end
