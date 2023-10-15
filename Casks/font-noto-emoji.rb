@@ -5,7 +5,7 @@ cask "font-noto-emoji" do
   url "https://github.com/google/fonts/raw/main/ofl/notoemoji/NotoEmoji%5Bwght%5D.ttf",
       verified: "github.com/google/fonts/"
   name "Noto Emoji"
-  homepage "https://fonts.google.com/noto/specimen/Noto+Emoji"
+  homepage "https://fonts.google.com/specimen/Noto+Emoji"
 
   font "NotoEmoji[wght].ttf"
 
