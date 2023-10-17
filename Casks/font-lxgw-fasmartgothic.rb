@@ -1,6 +1,6 @@
 cask "font-lxgw-fasmartgothic" do
-  version "1.104"
-  sha256 "f13b35bb743b28291e7231adf8874ebc8aca190a16202a5d9cd9fbffd7d59270"
+  version "1.106"
+  sha256 "11bde2cf9194a2ff32f23c44bcac65d8b0989f52608629099f7099bf6e5582b4"
 
   url "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v#{version}/LXGWFasmartGothic.ttf"
   name "LXGW FasmartGothic"
