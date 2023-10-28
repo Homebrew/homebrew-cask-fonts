@@ -9,8 +9,8 @@ cask "font-geist-mono" do
   homepage "https://vercel.com/font/mono"
 
   livecheck do
-    url "https://github.com/vercel/geist-font"
-    strategy :gitHub_latest
+    url :url
+    strategy :github_latest
   end
 
   font "Geist Mono/GeistMono-Black.otf"
