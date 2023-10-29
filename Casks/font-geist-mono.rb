@@ -22,7 +22,6 @@ cask "font-geist-mono" do
   font "Geist Mono/GeistMono-Thin.otf"
   font "Geist Mono/GeistMono-UltraBlack.otf"
   font "Geist Mono/GeistMono-UltraLight.otf"
-  font "Geist Mono/GeistMonoVF.ttf"
 
   # No zap stanza required
 end
