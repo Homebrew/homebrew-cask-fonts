@@ -13,7 +13,15 @@ cask "font-geist" do
     strategy :github_latest
   end
 
-  font "GeistVF.ttf"
+  font "Geist-Black.otf"
+  font "Geist-Bold.otf"
+  font "Geist-Light.otf"
+  font "Geist-Medium.otf"
+  font "Geist-Regular.otf"
+  font "Geist-SemiBold.otf"
+  font "Geist-Thin.otf"
+  font "Geist-UltraBlack.otf"
+  font "Geist-UltraLight.otf"
 
   # No zap stanza required
 end
