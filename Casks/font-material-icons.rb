@@ -4,7 +4,7 @@ cask "font-material-icons" do
 
   url "https://github.com/google/material-design-icons.git",
       verified:  "github.com/google/material-design-icons/",
-      branch:    "main",
+      branch:    "master",
       only_path: "font"
   name "Material Icons"
   homepage "https://google.github.io/material-design-icons/"
