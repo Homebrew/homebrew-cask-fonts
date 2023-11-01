@@ -8,6 +8,7 @@ cask "font-material-symbols" do
       branch:    "master",
       only_path: "variablefont"
   name "Material Symbols"
+  desc "Icons based on Material Design principles as variable fonts"
   homepage "https://fonts.google.com/icons"
 
   font "MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf"
