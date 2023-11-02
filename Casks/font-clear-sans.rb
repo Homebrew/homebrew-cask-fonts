@@ -1,19 +1,26 @@
 cask "font-clear-sans" do
-  version "1.00"
-  sha256 "41809a296870dd7b4753d6532b4093821d61f9806281e6c053ccb11083ad1190"
+  version :latest
+  sha256 :no_check
 
-  url "https://01.org/sites/default/files/downloads/clear-sans/clearsans-#{version}.zip"
+  url "https://github.com/intel/clear-sans.git",
+      branch:    "main",
+      only_path: "TTF"
   name "Clear Sans"
-  homepage "https://01.org/clear-sans"
+  desc "Sans-serif typeface"
+  homepage "https://github.com/intel/clear-sans"
 
-  font "TTF/ClearSans-Bold.ttf"
-  font "TTF/ClearSans-BoldItalic.ttf"
-  font "TTF/ClearSans-Italic.ttf"
-  font "TTF/ClearSans-Light.ttf"
-  font "TTF/ClearSans-Medium.ttf"
-  font "TTF/ClearSans-MediumItalic.ttf"
-  font "TTF/ClearSans-Regular.ttf"
-  font "TTF/ClearSans-Thin.ttf"
+  font "ClearSans-Bold.ttf"
+  font "ClearSans-BoldItalic.ttf"
+  font "ClearSans-Italic.ttf"
+  font "ClearSans-Light.ttf"
+  font "ClearSans-Medium.ttf"
+  font "ClearSans-MediumItalic.ttf"
+  font "ClearSans-Regular.ttf"
+  font "ClearSans-Thin.ttf"
 
   # No zap stanza required
+
+  caveats do
+    discontinued
+  end
 end
