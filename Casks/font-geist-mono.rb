@@ -1,6 +1,6 @@
 cask "font-geist-mono" do
-  version "1.0.0"
-  sha256 "0abf741ef7d8c7270ffa1b968c763d654617c9ac980a503ab98c15269325a38b"
+  version "1.0.1"
+  sha256 "19e81e92b8a97f784d57455b6de8fecbd945cdc8354e943e682362c087ec5b85"
 
   url "https://github.com/vercel/geist-font/releases/download/#{version}/Geist.Mono.zip",
       verified: "github.com/vercel/geist-font/"
@@ -22,6 +22,7 @@ cask "font-geist-mono" do
   font "Geist Mono/GeistMono-Thin.otf"
   font "Geist Mono/GeistMono-UltraBlack.otf"
   font "Geist Mono/GeistMono-UltraLight.otf"
+  font "Geist Mono/GeistMonoVariableVF.ttf"
 
   # No zap stanza required
 end
