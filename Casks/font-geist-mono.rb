@@ -13,16 +13,16 @@ cask "font-geist-mono" do
     strategy :github_latest
   end
 
-  font "Geist.Mono/GeistMono-Black.otf"
-  font "Geist.Mono/GeistMono-Bold.otf"
-  font "Geist.Mono/GeistMono-Light.otf"
-  font "Geist.Mono/GeistMono-Medium.otf"
-  font "Geist.Mono/GeistMono-Regular.otf"
-  font "Geist.Mono/GeistMono-SemiBold.otf"
-  font "Geist.Mono/GeistMono-Thin.otf"
-  font "Geist.Mono/GeistMono-UltraBlack.otf"
-  font "Geist.Mono/GeistMono-UltraLight.otf"
-  font "Geist.Mono/GeistMonoVariableVF.ttf"
+  font "GeistMono-Black.otf"
+  font "GeistMono-Bold.otf"
+  font "GeistMono-Light.otf"
+  font "GeistMono-Medium.otf"
+  font "GeistMono-Regular.otf"
+  font "GeistMono-SemiBold.otf"
+  font "GeistMono-Thin.otf"
+  font "GeistMono-UltraBlack.otf"
+  font "GeistMono-UltraLight.otf"
+  font "GeistMonoVariableVF.ttf"
 
   # No zap stanza required
 end
