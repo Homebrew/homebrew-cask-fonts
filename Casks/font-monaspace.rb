@@ -6,7 +6,7 @@ cask "font-monaspace" do
       verified: "github.com/githubnext/monaspace/"
   name "Monaspace"
   desc "Superfamily of fonts for code"
-  homepage "https://monaspace.githubnext.com"
+  homepage "https://monaspace.githubnext.com/"
 
   font "monaspace-v#{version}/fonts/otf/MonaspaceArgon-Bold.otf"
   font "monaspace-v#{version}/fonts/otf/MonaspaceArgon-BoldItalic.otf"
@@ -218,7 +218,6 @@ cask "font-monaspace" do
   font "monaspace-v#{version}/fonts/otf/MonaspaceXenon-WideRegular.otf"
   font "monaspace-v#{version}/fonts/otf/MonaspaceXenon-WideSemiBold.otf"
   font "monaspace-v#{version}/fonts/otf/MonaspaceXenon-WideSemiBoldItalic.otf"
-
   font "monaspace-v#{version}/fonts/variable/MonaspaceArgonVarVF[wght,wdth,slnt].ttf"
   font "monaspace-v#{version}/fonts/variable/MonaspaceKryptonVarVF[wght,wdth,slnt].ttf"
   font "monaspace-v#{version}/fonts/variable/MonaspaceNeonVarVF[wght,wdth,slnt].ttf"
