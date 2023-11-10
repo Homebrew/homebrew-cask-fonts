@@ -4,7 +4,7 @@ cask "font-victor-mono-no-oblique" do
 
   url "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
   name "Victor Mono (no oblique)"
-  desc "Monospaced font with cursive italics and programming symbol ligatures, oblique variants removed"
+  desc "Monospaced font with cursive italics and programming symbol ligatures"
   homepage "https://rubjo.github.io/victor-mono/"
 
   livecheck do
