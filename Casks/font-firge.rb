@@ -1,6 +1,6 @@
 cask "font-firge" do
-  version "0.2.0"
-  sha256 "18ccd0d5c7689a02af4a7217912c0112db9f24071e8b36a716baef3b446c32e7"
+  version "0.3.0"
+  sha256 "c986f621000a6598064c7e2078322ed02040af4f7804d258033df949b35b0527"
 
   url "https://github.com/yuru7/Firge/releases/download/v#{version}/Firge_v#{version}.zip"
   name "Firge"
