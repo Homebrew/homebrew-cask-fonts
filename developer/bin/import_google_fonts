@@ -194,6 +194,10 @@ def find_google_casks():
     with open(cask_path, "r") as f:
       contents = f.read()
 
+      # Skip "font-material-symbols" as it matches the url regex, but is not included in the Google Fonts repo
+      if os.path.basename(cask_path) == "font-material-symbols.rb":
+        continue
+
       if not re.search(r"(github\.com\/google\/fonts|fonts\.google\.com|google\.com/fonts)", contents):
         continue
 
