@@ -10,7 +10,7 @@ cask "font-lilex" do
   font "ttf/Lilex-Bold.ttf"
   font "ttf/Lilex-ExtraLight.ttf"
   font "ttf/Lilex-ExtraThick.ttf"
-  font "ttf/Lilex-Meduim.ttf"
+  font "ttf/Lilex-Medium.ttf"
   font "ttf/Lilex-Regular.ttf"
   font "ttf/Lilex-Thin.ttf"
   font "variable/Lilex-VF.ttf"
