@@ -1,6 +1,6 @@
 cask "font-commit-mono" do
-  version "1.141"
-  sha256 "900842dfce51d3090797d432d7a672ce5ef890a03706cf114da15518c504c553"
+  version "1.142"
+  sha256 "567666d5e45dbba5b3d3bd9fc4dde9a14f7d2a05b9b447b77d5aca4b9ee65b13"
 
   url "https://github.com/eigilnikolajsen/commit-mono/releases/download/v#{version}/CommitMono-#{version}.zip",
       verified: "github.com/eigilnikolajsen/commit-mono/"
