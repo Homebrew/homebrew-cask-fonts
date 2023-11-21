@@ -1,4 +1,4 @@
-cask "font-0xProto-nerd-font" do
+cask "font-0xproto-nerd-font" do
   version "3.1.0"
   sha256 "358950face3c9be6d3c504f19d4dcb14a8d1145272f2327f670ac388cba5686d"
 
