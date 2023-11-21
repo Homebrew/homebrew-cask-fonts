@@ -1,6 +1,6 @@
 cask "font-spleen" do
-  version "2.0.0"
-  sha256 "778778b35dd48701b803db247a6ac8759154ce5fc3abd5cc0b6db98a44ba5a0c"
+  version "2.0.1"
+  sha256 "37d909ad669037d79e36839526ef54376fa37046c7a915b157e5f40d73492ee0"
 
   url "https://github.com/fcambus/spleen/releases/download/#{version}/spleen-#{version}.tar.gz"
   name "Spleen"
