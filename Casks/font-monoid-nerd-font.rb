@@ -1,6 +1,6 @@
 cask "font-monoid-nerd-font" do
-  version "3.0.2"
-  sha256 "a9ff94fe7f7dc779ca5575387fa6b900cf38da87b3f7a98abea1381693bdba05"
+  version "3.1.0"
+  sha256 "fc3870185fa30741fa73c870aec68fbb31d02ca76a97c7fe1eab1b5e8d9ebcdb"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monoid.zip"
   name "Monoid Nerd Font (Monoid)"

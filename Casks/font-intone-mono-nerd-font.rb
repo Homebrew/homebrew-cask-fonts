@@ -1,9 +1,9 @@
 cask "font-intone-mono-nerd-font" do
-  version "3.0.2"
-  sha256 "cd2d6e9e37e3b76fe4563c64df79cc91e81b7c264faaf1b7599087810659830b"
+  version "3.1.0"
+  sha256 "34f1670ca94d8f30a7d1181a37619b35d9ecc19cca136fb34753a690289119c8"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/IntelOneMono.zip"
-  name "IntoneMono Nerd Font (Intel One Mono)"
+  name "IntoneMono NF Nerd Font families (Intel One Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 

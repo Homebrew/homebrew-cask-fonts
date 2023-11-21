@@ -1,6 +1,6 @@
 cask "font-monofur-nerd-font" do
-  version "3.0.2"
-  sha256 "f6386c934d552614ac2b2a61d45ec764b167b2015a1cd99e18a4df7e0e3ffe1e"
+  version "3.1.0"
+  sha256 "37780c2709da928a603f79924747c9c9c9725aa589a3647363f78e2bb37b1957"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monofur.zip"
   name "Monofur Nerd Font (Monofur)"
