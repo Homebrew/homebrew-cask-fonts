@@ -6,10 +6,12 @@ cask "font-ia-writer-duospace" do
   name "iA Writer Duospace"
   homepage "https://github.com/iaolo/iA-Fonts"
 
-  font "iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Bold.otf"
-  font "iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-BoldItalic.otf"
-  font "iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Regular.otf"
-  font "iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Italic.otf"
+  font "iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Bold.ttf"
+  font "iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-BoldItalic.ttf"
+  font "iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Italic.ttf"
+  font "iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Regular.ttf"
+  font "iA-Fonts-master/iA Writer Duo/Variable/iAWriterDuoV-Italic.ttf"
+  font "iA-Fonts-master/iA Writer Duo/Variable/iAWriterDuoV.ttf"
 
   # No zap stanza required
 end
