@@ -1,6 +1,6 @@
 cask "font-envy-code-r-nerd-font" do
-  version "3.1.0"
-  sha256 "f5574a73021db99dcd9736b3c77a19df4f68688f277796c64366db877375a4ce"
+  version "3.1.1"
+  sha256 "16febf27a6b9b0e8c40658efa80cf4e99cd0fabee8ae7aadf4276be0193d398e"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/EnvyCodeR.zip"
   name "EnvyCodeR Nerd Font (Envy Code R)"

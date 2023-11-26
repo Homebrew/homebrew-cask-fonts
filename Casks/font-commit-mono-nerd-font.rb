@@ -1,6 +1,6 @@
 cask "font-commit-mono-nerd-font" do
-  version "3.1.0"
-  sha256 "1ba8a0fa707298856c80ee2b8b9ac1dc1dd3dbfdc9c4a7d8ebfbc5f0b650df89"
+  version "3.1.1"
+  sha256 "5e9534b606a678844f422aad07e72ec153f244844909d5f458355e8784212632"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CommitMono.zip"
   name "CommitMono Nerd Font (Commit Mono)"

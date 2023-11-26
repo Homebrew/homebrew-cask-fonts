@@ -1,9 +1,9 @@
 cask "font-iosevka-term-slab-nerd-font" do
-  version "3.1.0"
-  sha256 "4e0a802a05347e6f539c9027fbb6973b1268d76c7a4bd72eab9c107d6e3f7386"
+  version "3.1.1"
+  sha256 "32655d4b3c38be3732abfede2e6bcb5d71079be0b3d424e9474b65a79188e75b"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/IosevkaTermSlab.zip"
-  name "IosevkaTermSlab NF Nerd Font families (Iosevka Term Slab)"
+  name "IosevkaTermSlab Nerd Font (Iosevka Term Slab)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
@@ -14,6 +14,7 @@ cask "font-iosevka-term-slab-nerd-font" do
 
   font "IosevkaTermSlabNerdFont-Bold.ttf"
   font "IosevkaTermSlabNerdFont-BoldItalic.ttf"
+  font "IosevkaTermSlabNerdFont-BoldOblique.ttf"
   font "IosevkaTermSlabNerdFont-ExtraBold.ttf"
   font "IosevkaTermSlabNerdFont-ExtraBoldItalic.ttf"
   font "IosevkaTermSlabNerdFont-ExtraBoldOblique.ttf"
@@ -25,10 +26,10 @@ cask "font-iosevka-term-slab-nerd-font" do
   font "IosevkaTermSlabNerdFont-MediumItalic.ttf"
   font "IosevkaTermSlabNerdFont-MediumOblique.ttf"
   font "IosevkaTermSlabNerdFont-Oblique.ttf"
-  font "IosevkaTermSlabNerdFont-ObliqueBold.ttf"
   font "IosevkaTermSlabNerdFont-Regular.ttf"
   font "IosevkaTermSlabNerdFontMono-Bold.ttf"
   font "IosevkaTermSlabNerdFontMono-BoldItalic.ttf"
+  font "IosevkaTermSlabNerdFontMono-BoldOblique.ttf"
   font "IosevkaTermSlabNerdFontMono-ExtraBold.ttf"
   font "IosevkaTermSlabNerdFontMono-ExtraBoldItalic.ttf"
   font "IosevkaTermSlabNerdFontMono-ExtraBoldOblique.ttf"
@@ -40,10 +41,10 @@ cask "font-iosevka-term-slab-nerd-font" do
   font "IosevkaTermSlabNerdFontMono-MediumItalic.ttf"
   font "IosevkaTermSlabNerdFontMono-MediumOblique.ttf"
   font "IosevkaTermSlabNerdFontMono-Oblique.ttf"
-  font "IosevkaTermSlabNerdFontMono-ObliqueBold.ttf"
   font "IosevkaTermSlabNerdFontMono-Regular.ttf"
   font "IosevkaTermSlabNerdFontPropo-Bold.ttf"
   font "IosevkaTermSlabNerdFontPropo-BoldItalic.ttf"
+  font "IosevkaTermSlabNerdFontPropo-BoldOblique.ttf"
   font "IosevkaTermSlabNerdFontPropo-ExtraBold.ttf"
   font "IosevkaTermSlabNerdFontPropo-ExtraBoldItalic.ttf"
   font "IosevkaTermSlabNerdFontPropo-ExtraBoldOblique.ttf"
@@ -55,7 +56,6 @@ cask "font-iosevka-term-slab-nerd-font" do
   font "IosevkaTermSlabNerdFontPropo-MediumItalic.ttf"
   font "IosevkaTermSlabNerdFontPropo-MediumOblique.ttf"
   font "IosevkaTermSlabNerdFontPropo-Oblique.ttf"
-  font "IosevkaTermSlabNerdFontPropo-ObliqueBold.ttf"
   font "IosevkaTermSlabNerdFontPropo-Regular.ttf"
 
   # No zap stanza required
