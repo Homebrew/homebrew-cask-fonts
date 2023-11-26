@@ -1,9 +1,9 @@
 cask "font-caskaydia-cove-nerd-font" do
-  version "3.1.0"
-  sha256 "fe478b6952e42f678c1acc57612cabc94f6485428def6530c181ff1009d9fc1a"
+  version "3.1.1"
+  sha256 "321a1fa7fdeac315ea9b2273f667e03beb718e42fa5a2066b84ffbf22502d865"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaCode.zip"
-  name "CaskaydiaCove NF Nerd Font families (Cascadia Code)"
+  name "CaskaydiaCove Nerd Font (Cascadia Code)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 

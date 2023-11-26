@@ -1,9 +1,9 @@
 cask "font-caskaydia-mono-nerd-font" do
-  version "3.1.0"
-  sha256 "0166aee75a252bbcaf5f3b0e8e64d73d0214b66b009bcf76a395d960f66f6d2f"
+  version "3.1.1"
+  sha256 "dcd25e34bcb63f1d191ec184cad4ddd37674953c42d7cb88baca0b3758bf7157"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaMono.zip"
-  name "CaskaydiaMono NF Nerd Font families (Cascadia Mono)"
+  name "CaskaydiaMono Nerd Font (Cascadia Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
