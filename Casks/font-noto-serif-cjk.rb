@@ -8,7 +8,7 @@ cask "font-noto-serif-cjk" do
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
 
   livecheck do
-    url :stable
+    url :url
     regex(/^Serif(\d+(?:\.\d+)+)$/i)
   end
 
