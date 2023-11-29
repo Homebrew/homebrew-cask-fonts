@@ -1,19 +1,24 @@
 cask "font-noto-serif-cjk-jp" do
-  version :latest
-  sha256 :no_check
+  version "2.002"
+  sha256 "166a03cc7725f4d52a0533f4137991089e55d1d417b9d7e15197a9d483b41de3"
 
-  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip",
-      verified: "noto-website-2.storage.googleapis.com/"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Serif#{version}/07_NotoSerifCJKjp.zip"
   name "Noto Serif CJK JP"
-  homepage "https://www.google.com/get/noto/#serif-jpan"
+  desc "Language Specific OTFs Japanese (日本語)"
+  homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
 
-  font "NotoSerifCJKjp-Black.otf"
-  font "NotoSerifCJKjp-Bold.otf"
-  font "NotoSerifCJKjp-ExtraLight.otf"
-  font "NotoSerifCJKjp-Light.otf"
-  font "NotoSerifCJKjp-Medium.otf"
-  font "NotoSerifCJKjp-Regular.otf"
-  font "NotoSerifCJKjp-SemiBold.otf"
+  livecheck do
+    url :url
+    regex(/^Serif(\d+(?:\.\d+)+)$/i)
+  end
+
+  font "OTF/Japanese/NotoSerifCJKjp-Black.otf"
+  font "OTF/Japanese/NotoSerifCJKjp-Bold.otf"
+  font "OTF/Japanese/NotoSerifCJKjp-ExtraLight.otf"
+  font "OTF/Japanese/NotoSerifCJKjp-Light.otf"
+  font "OTF/Japanese/NotoSerifCJKjp-Medium.otf"
+  font "OTF/Japanese/NotoSerifCJKjp-Regular.otf"
+  font "OTF/Japanese/NotoSerifCJKjp-SemiBold.otf"
 
   # No zap stanza required
 end

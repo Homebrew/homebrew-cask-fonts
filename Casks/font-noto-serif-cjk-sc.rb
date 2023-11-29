@@ -1,19 +1,24 @@
 cask "font-noto-serif-cjk-sc" do
-  version :latest
-  sha256 :no_check
+  version "2.002"
+  sha256 "eeede72f5b88655a3630f18661155028578afc88aa9e67e55db45a8b5be46789"
 
-  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKsc-hinted.zip",
-      verified: "noto-website-2.storage.googleapis.com/"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Serif#{version}/09_NotoSerifCJKsc.zip"
   name "Noto Serif CJK SC"
-  homepage "https://www.google.com/get/noto/#serif-hans"
+  desc "Language Specific OTFs Simplified Chinese (简体中文)"
+  homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
 
-  font "NotoSerifCJKsc-Bold.otf"
-  font "NotoSerifCJKsc-Light.otf"
-  font "NotoSerifCJKsc-Regular.otf"
-  font "NotoSerifCJKsc-Black.otf"
-  font "NotoSerifCJKsc-ExtraLight.otf"
-  font "NotoSerifCJKsc-Medium.otf"
-  font "NotoSerifCJKsc-SemiBold.otf"
+  livecheck do
+    url :url
+    regex(/^Serif(\d+(?:\.\d+)+)$/i)
+  end
+
+  font "OTF/SimplifiedChinese/NotoSerifCJKsc-Black.otf"
+  font "OTF/SimplifiedChinese/NotoSerifCJKsc-Bold.otf"
+  font "OTF/SimplifiedChinese/NotoSerifCJKsc-ExtraLight.otf"
+  font "OTF/SimplifiedChinese/NotoSerifCJKsc-Light.otf"
+  font "OTF/SimplifiedChinese/NotoSerifCJKsc-Medium.otf"
+  font "OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf"
+  font "OTF/SimplifiedChinese/NotoSerifCJKsc-SemiBold.otf"
 
   # No zap stanza required
 end
