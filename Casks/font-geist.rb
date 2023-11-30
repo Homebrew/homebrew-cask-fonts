@@ -1,6 +1,6 @@
 cask "font-geist" do
-  version "1.0.1"
-  sha256 "ae62c1e1ded446ff173ae799e530e3e093799a8ddb9c92197bfa43fea394a507"
+  version "1.1.0"
+  sha256 "8f96b6e69f416706cec3293ceaa4cbb41a981cba7a32ed7c92dff14a5a44497e"
 
   url "https://github.com/vercel/geist-font/releases/download/#{version}/Geist.zip",
       verified: "github.com/vercel/geist-font/"
@@ -13,16 +13,16 @@ cask "font-geist" do
     strategy :github_latest
   end
 
-  font "Geist-Black.otf"
-  font "Geist-Bold.otf"
-  font "Geist-Light.otf"
-  font "Geist-Medium.otf"
-  font "Geist-Regular.otf"
-  font "Geist-SemiBold.otf"
-  font "Geist-Thin.otf"
-  font "Geist-UltraBlack.otf"
-  font "Geist-UltraLight.otf"
-  font "GeistVariableVF.ttf"
+  font "Geist/Geist-Black.otf"
+  font "Geist/Geist-Bold.otf"
+  font "Geist/Geist-Light.otf"
+  font "Geist/Geist-Medium.otf"
+  font "Geist/Geist-Regular.otf"
+  font "Geist/Geist-SemiBold.otf"
+  font "Geist/Geist-Thin.otf"
+  font "Geist/Geist-UltraBlack.otf"
+  font "Geist/Geist-UltraLight.otf"
+  font "Geist/GeistVariableVF.ttf"
 
   # No zap stanza required
 end
