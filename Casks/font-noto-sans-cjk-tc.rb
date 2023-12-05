@@ -1,11 +1,16 @@
 cask "font-noto-sans-cjk-tc" do
-  version :latest
-  sha256 :no_check
+  version "2.004"
+  sha256 "8ea0d6feb8e092c250710cdc75c138090832ddaa98d8ccb37cd89b03b72c331b"
 
-  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKtc-hinted.zip",
-      verified: "noto-website-2.storage.googleapis.com/"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Sans#{version}/09_NotoSansCJKtc.zip"
   name "Noto Sans CJK TC"
-  homepage "https://www.google.com/get/noto/#sans-hant"
+  desc "Language Specific OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
+  homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
+
+  livecheck do
+    url :url
+    regex(/^Sans(\d+(?:\.\d+)+)$/i)
+  end
 
   font "NotoSansCJKtc-Black.otf"
   font "NotoSansCJKtc-Bold.otf"
@@ -14,8 +19,6 @@ cask "font-noto-sans-cjk-tc" do
   font "NotoSansCJKtc-Medium.otf"
   font "NotoSansCJKtc-Regular.otf"
   font "NotoSansCJKtc-Thin.otf"
-  font "NotoSansMonoCJKtc-Bold.otf"
-  font "NotoSansMonoCJKtc-Regular.otf"
 
   # No zap stanza required
 end
