@@ -8,8 +8,7 @@ cask "font-noto-sans-mono-cjk-kr" do
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
 
   livecheck do
-    url :url
-    regex(/^Sans(\d+(?:\.\d+)+)$/i)
+    cask "font-noto-sans-cjk"
   end
 
   font "NotoSansMonoCJKkr-Bold.otf"
