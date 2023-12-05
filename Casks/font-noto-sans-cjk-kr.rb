@@ -1,11 +1,16 @@
 cask "font-noto-sans-cjk-kr" do
-  version :latest
-  sha256 :no_check
+  version "2.004"
+  sha256 "e26fcf98e75176d24984875377ab921dbb46055b88ed4a39454d91d6146c5654"
 
-  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKkr-hinted.zip",
-      verified: "noto-website-2.storage.googleapis.com/"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Sans#{version}/07_NotoSansCJKkr.zip"
   name "Noto Sans CJK KR"
-  homepage "https://www.google.com/get/noto/#sans-kore"
+  desc "Language Specific OTFs Korean (한국어)"
+  homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
+
+  livecheck do
+    url :url
+    regex(/^Sans(\d+(?:\.\d+)+)$/i)
+  end
 
   font "NotoSansCJKkr-Black.otf"
   font "NotoSansCJKkr-Bold.otf"
@@ -14,8 +19,6 @@ cask "font-noto-sans-cjk-kr" do
   font "NotoSansCJKkr-Medium.otf"
   font "NotoSansCJKkr-Regular.otf"
   font "NotoSansCJKkr-Thin.otf"
-  font "NotoSansMonoCJKkr-Bold.otf"
-  font "NotoSansMonoCJKkr-Regular.otf"
 
   # No zap stanza required
 end
