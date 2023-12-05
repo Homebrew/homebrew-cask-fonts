@@ -1,11 +1,16 @@
 cask "font-noto-sans-cjk-sc" do
-  version :latest
-  sha256 :no_check
+  version "2.004"
+  sha256 "a927e56f53bd6c3b920bc139c0b94aa36c7d9ad0cf009b159437a1a003581140"
 
-  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKsc-hinted.zip",
-      verified: "noto-website-2.storage.googleapis.com/"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Sans#{version}/08_NotoSansCJKsc.zip"
   name "Noto Sans CJK SC"
-  homepage "https://www.google.com/get/noto/#sans-hans"
+  desc "Language Specific OTFs Simplified Chinese (简体中文)"
+  homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
+
+  livecheck do
+    url :url
+    regex(/^Sans(\d+(?:\.\d+)+)$/i)
+  end
 
   font "NotoSansCJKsc-Black.otf"
   font "NotoSansCJKsc-Bold.otf"
@@ -14,8 +19,6 @@ cask "font-noto-sans-cjk-sc" do
   font "NotoSansCJKsc-Medium.otf"
   font "NotoSansCJKsc-Regular.otf"
   font "NotoSansCJKsc-Thin.otf"
-  font "NotoSansMonoCJKsc-Bold.otf"
-  font "NotoSansMonoCJKsc-Regular.otf"
 
   # No zap stanza required
 end
