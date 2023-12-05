@@ -1,11 +1,16 @@
 cask "font-noto-sans-cjk-jp" do
-  version :latest
-  sha256 :no_check
+  version "2.004"
+  sha256 "bf5b26feb83ee02533d4eb4a127bd90ed9d42bdd7ca7cb6e4030b2f21ef55cc5"
 
-  url "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKjp-hinted.zip",
-      verified: "noto-website-2.storage.googleapis.com/"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Sans#{version}/06_NotoSansCJKjp.zip"
   name "Noto Sans CJK JP"
-  homepage "https://www.google.com/get/noto/#sans-jpan"
+  desc "Language Specific OTFs Japanese (日本語)"
+  homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
+
+  livecheck do
+    url :url
+    regex(/^Sans(\d+(?:\.\d+)+)$/i)
+  end
 
   font "NotoSansCJKjp-Black.otf"
   font "NotoSansCJKjp-Bold.otf"
@@ -14,8 +19,6 @@ cask "font-noto-sans-cjk-jp" do
   font "NotoSansCJKjp-Medium.otf"
   font "NotoSansCJKjp-Regular.otf"
   font "NotoSansCJKjp-Thin.otf"
-  font "NotoSansMonoCJKjp-Bold.otf"
-  font "NotoSansMonoCJKjp-Regular.otf"
 
   # No zap stanza required
 end
