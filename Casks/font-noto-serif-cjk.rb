@@ -9,7 +9,8 @@ cask "font-noto-serif-cjk" do
 
   livecheck do
     url :url
-    regex(/^Serif(\d+(?:\.\d+)+)$/i)
+    regex(/^Serif[._-]?v?(\d+(?:\.\d+)+)$/i)
+    strategy :github_releases
   end
 
   font "NotoSerifCJK.ttc"

@@ -8,8 +8,7 @@ cask "font-noto-serif-cjk-jp" do
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
 
   livecheck do
-    url :url
-    regex(/^Serif(\d+(?:\.\d+)+)$/i)
+    cask "font-noto-serif-cjk"
   end
 
   font "OTF/Japanese/NotoSerifCJKjp-Black.otf"
