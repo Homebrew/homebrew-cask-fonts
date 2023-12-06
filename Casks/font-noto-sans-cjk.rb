@@ -9,7 +9,8 @@ cask "font-noto-sans-cjk" do
 
   livecheck do
     url :url
-    regex(/^Sans(\d+(?:\.\d+)+)$/i)
+    regex(/^(?:Noto)?Sans[._-]?v?(\d+(?:\.\d+)+)$/i)
+    strategy :github_releases
   end
 
   font "NotoSansCJK.ttc"
