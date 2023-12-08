@@ -4,7 +4,7 @@ cask "font-noto-sans-phagspa" do
 
   url "https://github.com/google/fonts/raw/main/ofl/notosansphagspa/NotoSansPhagsPa-Regular.ttf"
   name "Noto Sans PhagsPa"
-  desc "Unmodulated (“sans serif”) design for texts in the historical central asian phags-pa script"
+  desc "Sans-serif for texts in the historical central asian phags-pa script"
   homepage "https://github.com/notofonts/phags-pa.git"
 
   font "NotoSansPhagsPa-Regular.ttf"
