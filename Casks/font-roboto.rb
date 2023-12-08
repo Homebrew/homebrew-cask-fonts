@@ -5,7 +5,7 @@ cask "font-roboto" do
   url "https://github.com/google/fonts.git",
       verified:  "github.com/google/fonts",
       branch:    "main",
-      only_path: "apache/roboto"
+      only_path: "ofl/roboto"
   name "Roboto"
   desc "Font with a mechanical skeleton and the forms are largely geometric"
   homepage "https://fonts.google.com/specimen/Roboto"
