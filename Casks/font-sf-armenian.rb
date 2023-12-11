@@ -1,5 +1,5 @@
 cask "font-sf-armenian" do
-  version "19.0d7e1"
+  version :latest
   sha256 :no_check
 
   url "https://devimages-cdn.apple.com/design/resources/download/SF-Armenian.dmg"
