@@ -1,8 +1,8 @@
 cask "font-iosevka" do
-  version "27.3.5"
-  sha256 "3152dc4fcf202dba72da601df33e8564f85c0730ec3e2355bd46005a3df96768"
+  version "28.0.0"
+  sha256 "ac41fc18fbdf29e8bb45b8cf5ee316acd86fcf3d1898d60184c8f4d1d0ba8ff2"
 
-  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-#{version}.zip"
+  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-Iosevka-#{version}.zip"
   name "Iosevka"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
@@ -12,15 +12,15 @@ cask "font-iosevka" do
     strategy :github_latest
   end
 
-  font "iosevka-bold.ttc"
-  font "iosevka-extrabold.ttc"
-  font "iosevka-extralight.ttc"
-  font "iosevka-heavy.ttc"
-  font "iosevka-light.ttc"
-  font "iosevka-medium.ttc"
-  font "iosevka-regular.ttc"
-  font "iosevka-semibold.ttc"
-  font "iosevka-thin.ttc"
+  font "Iosevka-Bold.ttc"
+  font "Iosevka-Extrabold.ttc"
+  font "Iosevka-Extralight.ttc"
+  font "Iosevka-Heavy.ttc"
+  font "Iosevka-Light.ttc"
+  font "Iosevka-Medium.ttc"
+  font "Iosevka-Regular.ttc"
+  font "Iosevka-Semibold.ttc"
+  font "Iosevka-Thin.ttc"
 
   # No zap stanza required
 end
