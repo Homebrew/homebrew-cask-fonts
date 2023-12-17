@@ -13,13 +13,13 @@ cask "font-iosevka" do
   end
 
   font "Iosevka-Bold.ttc"
-  font "Iosevka-Extrabold.ttc"
-  font "Iosevka-Extralight.ttc"
+  font "Iosevka-ExtraBold.ttc"
+  font "Iosevka-ExtraLight.ttc"
   font "Iosevka-Heavy.ttc"
   font "Iosevka-Light.ttc"
   font "Iosevka-Medium.ttc"
   font "Iosevka-Regular.ttc"
-  font "Iosevka-Semibold.ttc"
+  font "Iosevka-SemiBold.ttc"
   font "Iosevka-Thin.ttc"
 
   # No zap stanza required
