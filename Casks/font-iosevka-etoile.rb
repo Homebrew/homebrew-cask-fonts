@@ -1,8 +1,8 @@
 cask "font-iosevka-etoile" do
-  version "27.3.5"
-  sha256 "628ecb7fb3fe555fd24287adf5514b40c0c6a658bb7ec970eac6c76ce2bf8d3d"
+  version "28.0.0"
+  sha256 "37024c8ec945284a2eb34ffc96d57e715b5ea183e9a5eb190ad2cb75e3a285b6"
 
-  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-etoile-#{version}.zip"
+  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-IosevkaEtoile-#{version}.zip"
   name "Iosevka Etoile"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
@@ -12,15 +12,15 @@ cask "font-iosevka-etoile" do
     strategy :github_latest
   end
 
-  font "iosevka-etoile-bold.ttc"
-  font "iosevka-etoile-extrabold.ttc"
-  font "iosevka-etoile-extralight.ttc"
-  font "iosevka-etoile-heavy.ttc"
-  font "iosevka-etoile-light.ttc"
-  font "iosevka-etoile-medium.ttc"
-  font "iosevka-etoile-regular.ttc"
-  font "iosevka-etoile-semibold.ttc"
-  font "iosevka-etoile-thin.ttc"
+  font "IosevkaEtoile-Bold.ttc"
+  font "IosevkaEtoile-ExtraBold.ttc"
+  font "IosevkaEtoile-ExtraLight.ttc"
+  font "IosevkaEtoile-Heavy.ttc"
+  font "IosevkaEtoile-Light.ttc"
+  font "IosevkaEtoile-Medium.ttc"
+  font "IosevkaEtoile-Regular.ttc"
+  font "IosevkaEtoile-SemiBold.ttc"
+  font "IosevkaEtoile-Thin.ttc"
 
   # No zap stanza required
 end
