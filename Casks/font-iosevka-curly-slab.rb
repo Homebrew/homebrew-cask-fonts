@@ -1,8 +1,8 @@
 cask "font-iosevka-curly-slab" do
-  version "27.3.5"
-  sha256 "33733ca2b4064a190c2eef4ae29dbf8a07832498d25b4858edf9149f288f9508"
+  version "28.0.0"
+  sha256 "cfc6861cabbcc36a832f1d655572cdfd6fb2188b6d2cbb47799912d6fd71cc2d"
 
-  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-curly-slab-#{version}.zip"
+  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-IosevkaCurlySlab-#{version}.zip"
   name "Iosevka Curly Slab"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
@@ -12,15 +12,15 @@ cask "font-iosevka-curly-slab" do
     strategy :github_latest
   end
 
-  font "iosevka-curly-slab-bold.ttc"
-  font "iosevka-curly-slab-extrabold.ttc"
-  font "iosevka-curly-slab-extralight.ttc"
-  font "iosevka-curly-slab-heavy.ttc"
-  font "iosevka-curly-slab-light.ttc"
-  font "iosevka-curly-slab-medium.ttc"
-  font "iosevka-curly-slab-regular.ttc"
-  font "iosevka-curly-slab-semibold.ttc"
-  font "iosevka-curly-slab-thin.ttc"
+  font "IosevkaCurlySlab-Bold.ttc"
+  font "IosevkaCurlySlab-ExtraBold.ttc"
+  font "IosevkaCurlySlab-ExtraLight.ttc"
+  font "IosevkaCurlySlab-Heavy.ttc"
+  font "IosevkaCurlySlab-Light.ttc"
+  font "IosevkaCurlySlab-Medium.ttc"
+  font "IosevkaCurlySlab-Regular.ttc"
+  font "IosevkaCurlySlab-SemiBold.ttc"
+  font "IosevkaCurlySlab-Thin.ttc"
 
   # No zap stanza required
 end
