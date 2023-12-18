@@ -7,16 +7,14 @@ cask "font-xits" do
   desc "Times-like typeface for mathematical and scientific publishing"
   homepage "https://github.com/khaledhosny/xits"
 
+  deprecate! date: "2023-12-17", because: :discontinued
+
   font "xits-#{version}/xits-bold.otf"
   font "xits-#{version}/xits-bolditalic.otf"
   font "xits-#{version}/xits-italic.otf"
   font "xits-#{version}/xits-regular.otf"
   font "xits-#{version}/xitsmath-bold.otf"
   font "xits-#{version}/xitsmath-regular.otf"
-
-  caveats do
-    discontinued
-  end
 
   # No zap stanza required
 end

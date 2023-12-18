@@ -9,6 +9,8 @@ cask "font-clear-sans" do
   desc "Sans-serif typeface"
   homepage "https://github.com/intel/clear-sans"
 
+  deprecate! date: "2023-12-17", because: :discontinued
+
   font "ClearSans-Bold.ttf"
   font "ClearSans-BoldItalic.ttf"
   font "ClearSans-Italic.ttf"
@@ -19,8 +21,4 @@ cask "font-clear-sans" do
   font "ClearSans-Thin.ttf"
 
   # No zap stanza required
-
-  caveats do
-    discontinued
-  end
 end

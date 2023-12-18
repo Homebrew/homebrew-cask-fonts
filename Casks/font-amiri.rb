@@ -8,16 +8,14 @@ cask "font-amiri" do
   desc "Classical Arabic typeface in Naskh style"
   homepage "https://www.amirifont.org/"
 
+  deprecate! date: "2023-12-17", because: :discontinued
+
   font "Amiri-#{version}/Amiri-Bold.ttf"
   font "Amiri-#{version}/Amiri-BoldItalic.ttf"
   font "Amiri-#{version}/Amiri-Italic.ttf"
   font "Amiri-#{version}/Amiri-Regular.ttf"
   font "Amiri-#{version}/AmiriQuran.ttf"
   font "Amiri-#{version}/AmiriQuranColored.ttf"
-
-  caveats do
-    discontinued
-  end
 
   # No zap stanza required
 end
