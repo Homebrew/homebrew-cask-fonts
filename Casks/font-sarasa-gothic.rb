@@ -20,7 +20,7 @@ cask "font-sarasa-gothic" do
   font "Sarasa-LightItalic.ttc"
   font "Sarasa-Regular.ttc"
   font "Sarasa-SemiBold.ttc"
-  font "Sarasa-SemiboldItalic.ttc"
+  font "Sarasa-SemiBoldItalic.ttc"
 
   # No zap stanza required
 end
