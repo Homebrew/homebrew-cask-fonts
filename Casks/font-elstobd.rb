@@ -1,6 +1,6 @@
 cask "font-elstobd" do
-  version "2.103"
-  sha256 "a3c1898db4f707079651c1409ae6010affb72510e0c695a2c83ffc2bfa063d52"
+  version "2.104"
+  sha256 "f20439bf6de7c4dd177b013fe5f262cad30bc8caedd07245ad5dfe2b8e9231cc"
 
   url "https://github.com/psb1558/Elstob-font/releases/download/v#{version}/Elstob_#{version}.zip"
   name "ElstobD"
