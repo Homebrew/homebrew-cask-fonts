@@ -1,6 +1,6 @@
 cask "font-dream-han-sans" do
-  version "3.00,2.004,2.001"
-  sha256 "e2b4a748a281dae43da2a0011b27daa7b46d99b740562ba261241afdf13b2712"
+  version "3.01,2.004,2.002"
+  sha256 "7555b909965c4f32d9d757dfd7397365a4d7b2e8c149de6649c9d34a7bf8ed23"
 
   url "https://github.com/Pal3love/dream-han-cjk/releases/download/dream-#{version.csv.first}-sans-#{version.csv.second}-serif-#{version.csv.third}/DreamHanSans.zip"
   name "Dream Han Sans"
