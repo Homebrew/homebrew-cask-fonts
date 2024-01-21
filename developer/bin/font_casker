@@ -37,7 +37,7 @@ ARCHIVE_PATH = ARGV.first.freeze
 ### Constants
 ###
 
-FONT_EXT_PATTERN = /.(otf|ttf)\Z/i.freeze
+FONT_EXT_PATTERN = /.(otf|ttf)\Z/i
 
 # Font files typically denote their weight, style, and width in the filename.
 # Note that these patterns capture regardless of additional modifiers,
