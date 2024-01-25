@@ -1,14 +1,14 @@
 cask "font-lxgw-heartserif" do
-  version "0.114"
-  sha256 "93b5af8e6816c9d6fc6f772c4f57dab5fa80d379c1deafc567da63f9a0fb2302"
+  version "0.900"
+  sha256 "a70f4bd3c6495f36b98472d0e0dfc70807e858de06a6bcf385bd5d0ffee1c539"
 
-  url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v#{version}/LXGWHeartSerifCHS.ttf"
+  url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v#{version}/LXGWHeartSerif.ttf"
   name "LXGW Heart Serif"
   name "霞鹜铭心宋"
   desc "Chinese serif font derived from IPAmj Mincho"
   homepage "https://github.com/lxgw/LxgwNeoZhiSong"
 
-  font "LXGWHeartSerifCHS.ttf"
+  font "LXGWHeartSerif.ttf"
 
   # No zap stanza required
 end
