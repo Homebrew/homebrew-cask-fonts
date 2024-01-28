@@ -6,7 +6,7 @@ cask "font-annapurna-sil" do
       branch:    "main",
       only_path: "ofl/annapurnasil"
   name "Annapurna SIL"
-  desc "Unicode-based font family with broad support for writing systems that use the devanagari script"
+  desc "Unicode-based font with support for systems that use the devanagari script"
   homepage "https://github.com/silnrsi/font-annapurna"
 
   font "AnnapurnaSIL-Bold.ttf"
