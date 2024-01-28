@@ -4,6 +4,7 @@ cask "font-zed-mono" do
 
   url "https://github.com/zed-industries/zed-fonts/releases/download/#{version}/zed-mono-#{version}.zip"
   name "Zed Mono"
+  
   homepage "https://github.com/zed-industries/zed-fonts"
 
   font "zed-mono-bold.ttf"
