@@ -1,7 +1,7 @@
 cask "font-zed-mono" do
   version "1.2.0"
   sha256 "eb673b39528927d21c0b12eaf05e50babc486bc99e724b55c88e529a5dae76c9"
-
+  desc "Custom build of font Iosevka"
   url "https://github.com/zed-industries/zed-fonts/releases/download/#{version}/zed-mono-#{version}.zip"
   name "Zed Mono"
 
