@@ -1,5 +1,6 @@
 cask "font-noto-sans-mono-vf" do
   version "2.014"
+  desc "Monospaced variable font"
   sha256 :no_check
 
   url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSansMono-v#{version}/NotoSansMono-v#{version}.zip",

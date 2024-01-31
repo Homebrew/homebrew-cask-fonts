@@ -1,5 +1,6 @@
 cask "font-noto-sans-vf" do
   version "2.013"
+  desc "Sans-serif variable font"
   sha256 :no_check
 
   url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v#{version}/NotoSans-v#{version}.zip",
