@@ -2,10 +2,11 @@ cask "font-protest-strike" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/google/fonts/raw/main/ofl/proteststrike/ProtestStrike-Regular.ttf"
+  url "https://github.com/google/fonts/raw/main/ofl/proteststrike/ProtestStrike-Regular.ttf",
+      verified: "github.com/google/fonts/"
   name "Protest Strike"
   desc "Solid but peaceful sans serif typeface"
-  homepage "https://github.com/octaviopardo/Protest"
+  homepage "https://fonts.google.com/specimen/Protest+Strike"
 
   font "ProtestStrike-Regular.ttf"
 
