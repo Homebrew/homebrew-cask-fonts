@@ -4,8 +4,8 @@ cask "font-meslo-for-powerlevel10k" do
 
   url "https://github.com/kalip2/font-meslo-for-powerlevel10k/releases/download/v#{version}/font-meslo-for-powerlevel10k.zip"
   name "Meslo Nerd Font for Powerlevel10k"
-  desc "Gorgeous monospace font customized for Powerlevel10k"
-  homepage "https://github.com/kalip2/font-meslo-for-powerlevel10k"
+  desc "Monospace font customized for Powerlevel10k"
+  homepage "https://github.com/kalip2/font-meslo-for-powerlevel10k/"
 
   font "MesloLGS NF Bold Italic.ttf"
   font "MesloLGS NF Bold.ttf"
