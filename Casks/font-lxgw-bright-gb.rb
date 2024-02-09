@@ -1,6 +1,6 @@
 cask "font-lxgw-bright-gb" do
-  version "5.311"
-  sha256 "1ea68416f4ff833fbbe05175d1ffce84fc69788d48ca0712994f8d5510571a75"
+  version "5.320"
+  sha256 "f9df021cdd733e51fc37f9c5554ade463f31d5b4967b66560d40b5079f278f45"
 
   url "https://github.com/lxgw/LxgwBright/releases/download/v#{version}/LXGWBrightGB.7z"
   name "LXGW Bright GB"
