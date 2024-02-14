@@ -1,5 +1,5 @@
 cask "font-victor-mono" do
-  version "1.5.5"
+  version "1.5.6"
   sha256 :no_check
 
   url "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
