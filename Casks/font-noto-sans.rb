@@ -8,6 +8,11 @@ cask "font-noto-sans" do
   desc "Sans-serif variable font"
   homepage "https://notofonts.github.io/"
 
+  livecheck do
+    url "https://github.com/notofonts/latin-greek-cyrillic.git"
+    regex(/^NotoSans-v?(\d+(?:\.\d+)+)$/i)
+  end
+
   font "NotoSans/unhinted/variable/NotoSans-Italic[wdth,wght].ttf"
   font "NotoSans/unhinted/variable/NotoSans[wdth,wght].ttf"
 end

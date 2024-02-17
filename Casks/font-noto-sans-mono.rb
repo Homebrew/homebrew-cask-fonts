@@ -8,6 +8,11 @@ cask "font-noto-sans-mono" do
   desc "Monospaced variable font"
   homepage "https://notofonts.github.io/"
 
+  livecheck do
+    url "https://github.com/notofonts/latin-greek-cyrillic.git"
+    regex(/^NotoSansMono-v?(\d+(?:\.\d+)+)$/i)
+  end
+
   font "NotoSansMono/unhinted/variable/NotoSansMono[wdth,wght].ttf"
 
   # No zap stanza required
