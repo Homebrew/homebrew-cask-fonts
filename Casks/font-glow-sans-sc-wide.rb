@@ -6,6 +6,8 @@ cask "font-glow-sans-sc-wide" do
   name "Glow Sans SC Wide"
   homepage "https://github.com/welai/glow-sans"
 
+  deprecate! date: "2024-02-17", because: :discontinued
+
   font "GlowSansSC-Wide-Bold.otf"
   font "GlowSansSC-Wide-Book.otf"
   font "GlowSansSC-Wide-ExtraBold.otf"
