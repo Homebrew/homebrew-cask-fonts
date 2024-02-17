@@ -6,6 +6,8 @@ cask "font-glow-sans-j-condensed" do
   name "Glow Sans J Condensed"
   homepage "https://github.com/welai/glow-sans"
 
+  deprecate! date: "2024-02-17", because: :discontinued
+
   font "GlowSansJ-Condensed-Bold.otf"
   font "GlowSansJ-Condensed-Book.otf"
   font "GlowSansJ-Condensed-ExtraBold.otf"
