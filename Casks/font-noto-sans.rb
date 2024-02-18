@@ -9,7 +9,7 @@ cask "font-noto-sans" do
   homepage "https://notofonts.github.io/"
 
   livecheck do
-    url "https://github.com/notofonts/latin-greek-cyrillic.git"
+    url :url
     regex(/^NotoSans-v?(\d+(?:\.\d+)+)$/i)
   end
 
