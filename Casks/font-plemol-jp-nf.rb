@@ -1,6 +1,6 @@
 cask "font-plemol-jp-nf" do
-  version "1.6.0"
-  sha256 "ea63ed7eb6fa255f7bd2bb1066158077d41b8668e32a86ffa9322501d6fc18dc"
+  version "1.7.1"
+  sha256 "c81a4c6121afa5d2af4bf22a04feab5c531d4f4011ae1adc9d4243e77a0cccbb"
 
   url "https://github.com/yuru7/PlemolJP/releases/download/v#{version}/PlemolJP_NF_v#{version}.zip"
   name "PlemolJP NF"
