@@ -7,6 +7,8 @@ cask "font-dashicons" do
   name "Dashicons"
   homepage "https://developer.wordpress.org/resource/dashicons"
 
+  deprecate! date: "2024-02-18", because: :discontinued
+
   font "dashicons.ttf"
 
   # No zap stanza required
