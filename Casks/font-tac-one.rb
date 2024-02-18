@@ -4,7 +4,7 @@ cask "font-tac-one" do
 
   url "https://github.com/google/fonts/raw/main/ofl/tacone/TacOne-Regular.ttf"
   name "Tac One"
-  desc "The second project from afrotype"
+  desc "Project from afrotype"
   homepage "https://github.com/Afrotype/tac"
 
   font "TacOne-Regular.ttf"
