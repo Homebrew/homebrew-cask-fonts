@@ -8,6 +8,8 @@ cask "font-lxgw-zhenkai" do
   desc "Bolder-weight Edition of LXGW WenKai"
   homepage "https://github.com/lxgw/LxgwZhenKai"
 
+  deprecate! date: "2024-02-18", because: :discontinued
+
   font "LXGWZhenKai.ttf"
 
   # No zap stanza required
