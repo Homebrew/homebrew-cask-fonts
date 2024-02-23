@@ -8,8 +8,11 @@ cask "font-junicode" do
   homepage "https://junicode.sourceforge.io/"
 
   livecheck do
-    url "https://sourceforge.net/projects/junicode/rss"
-    regex(/junicode-(\d+(?:\.\d+)*)/)
+    url "https://sourceforge.net/projects/junicode/rss?path=/junicode"
+    regex(%r{url=.*?/junicode[._-]v?(\d+(?:[.-]\d+)+)\.(?:t|zip)}i)
+    strategy :sourceforge do |page, regex|
+      page.scan(regex).map { |match| match[0].tr("-", ".") }
+    end
   end
 
   font "FoulisGreek.ttf"
