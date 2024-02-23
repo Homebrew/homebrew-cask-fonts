@@ -7,8 +7,8 @@ cask "font-han-nom-a" do
   homepage "https://sourceforge.net/projects/vietunicode/files/hannom/hannom%20v2005/"
 
   livecheck do
-    url "https://sourceforge.net/projects/vietunicode/rss"
-    regex(%r{/hannom v(\d+)})
+    url "https://sourceforge.net/projects/vietunicode/rss?path=/hannom"
+    regex(%r{url=.*?/hannom(?:\s|%20)*v?(\d+(?:\.\d+)*)/}i)
   end
 
   font "HAN NOM A.ttf"
