@@ -7,8 +7,7 @@ cask "font-dejavu" do
   homepage "https://sourceforge.net/projects/dejavu/"
 
   livecheck do
-    url "https://sourceforge.net/projects/dejavu/rss"
-    regex(%r{/dejavu/(\d+(?:\.\d+)*)})
+    url "https://sourceforge.net/projects/dejavu/rss?path=/dejavu"
   end
 
   font "dejavu-fonts-ttf-#{version}/ttf/DejaVuMathTeXGyre.ttf"
