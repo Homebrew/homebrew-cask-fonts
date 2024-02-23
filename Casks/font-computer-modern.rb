@@ -5,11 +5,12 @@ cask "font-computer-modern" do
   url "https://downloads.sourceforge.net/cm-unicode/cm-unicode-#{version}-ttf.tar.xz",
       verified: "downloads.sourceforge.net/cm-unicode/"
   name "Computer Modern"
+  desc "Multilingual unicode fonts, mainly for X applications"
   homepage "https://cm-unicode.sourceforge.io/"
 
   livecheck do
-    url "https://sourceforge.net/projects/cm-unicode/rss"
-    regex(%r{/cm-unicode/(\d+(?:\.\d+)*)})
+    url "https://sourceforge.net/projects/cm-unicode/rss?path=/cm-unicode"
+    regex(%r{url=.*?/cm-unicode/v?(\d+(?:\.\d+)+[a-z]?)/})
   end
 
   font "cm-unicode-#{version}/cmunbbx.ttf"
