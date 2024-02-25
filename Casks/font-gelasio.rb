@@ -9,14 +9,8 @@ cask "font-gelasio" do
   name "Gelasio"
   homepage "https://fonts.google.com/specimen/Gelasio"
 
-  font "Gelasio-Bold.ttf"
-  font "Gelasio-BoldItalic.ttf"
-  font "Gelasio-Italic.ttf"
-  font "Gelasio-Medium.ttf"
-  font "Gelasio-MediumItalic.ttf"
-  font "Gelasio-Regular.ttf"
-  font "Gelasio-SemiBold.ttf"
-  font "Gelasio-SemiBoldItalic.ttf"
+  font "Gelasio-Italic[wght].ttf"
+  font "Gelasio[wght].ttf"
 
   # No zap stanza required
 end
