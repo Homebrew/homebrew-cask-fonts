@@ -6,11 +6,11 @@ cask "font-oppo-sans" do
   name "OPPO Sans"
   homepage "https://www.coloros.com/topic/coloros7.html"
 
-  font "Font-OPPOSans/OPPOSans-B.ttf"
-  font "Font-OPPOSans/OPPOSans-H.ttf"
-  font "Font-OPPOSans/OPPOSans-L.ttf"
-  font "Font-OPPOSans/OPPOSans-M.ttf"
-  font "Font-OPPOSans/OPPOSans-R.ttf"
+  font "3.0 Designer_分级/OPlusSans3-ExtraLight.ttf"
+  font "3.0 Designer_分级/OPlusSans3-Light.ttf"
+  font "3.0 Designer_分级/OPlusSans3-Regular.ttf"
+  font "3.0 Designer_分级/OPlusSans3-Medium.ttf"
+  font "3.0 Designer_分级/OPlusSans3-Bold.ttf"
 
   # No zap stanza required
 end
