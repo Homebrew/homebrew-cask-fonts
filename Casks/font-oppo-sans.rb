@@ -4,7 +4,7 @@ cask "font-oppo-sans" do
 
   url "https://static01.coloros.com/www/public/img/topic7/font-opposans.zip"
   name "OPPO Sans"
-  homepage "https://www.coloros.com/topic/coloros7.html"
+  homepage "https://www.coloros.com/index/newsDetail?id=72"
 
   font "3.0 Designer_分级/OPlusSans3-ExtraLight.ttf"
   font "3.0 Designer_分级/OPlusSans3-Light.ttf"
