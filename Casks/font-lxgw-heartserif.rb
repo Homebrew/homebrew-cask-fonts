@@ -1,6 +1,6 @@
 cask "font-lxgw-heartserif" do
-  version "0.920.1"
-  sha256 "5452ce034f4bdded1bd4a0692598c1ef12c47e4b20ebcc9c9f66974cce91dfdb"
+  version "0.920.2"
+  sha256 "c4379a990da0c8816f44c462b32433e531ae5e9050fb80555167e0fa9114f172"
 
   url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v#{version}/LXGWHeartSerif.ttf"
   name "LXGW Heart Serif"
