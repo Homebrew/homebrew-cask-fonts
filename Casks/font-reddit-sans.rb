@@ -9,16 +9,8 @@ cask "font-reddit-sans" do
   desc "Complemented by reddit sans condensed and reddit mono"
   homepage "https://github.com/googlefonts/redditsans.git"
 
-  font "RedditSans-Bold.ttf"
-  font "RedditSans-BoldItalic.ttf"
-  font "RedditSans-ExtraBold.ttf"
-  font "RedditSans-ExtraBoldItalic.ttf"
-  font "RedditSans-Italic.ttf"
-  font "RedditSans-Light.ttf"
-  font "RedditSans-LightItalic.ttf"
-  font "RedditSans-Regular.ttf"
-  font "RedditSans-SemiBold.ttf"
-  font "RedditSans-SemiBoldItalic.ttf"
+  font "RedditSans-Italic[wght].ttf"
+  font "RedditSans[wght].ttf"
 
   # No zap stanza required
 end
