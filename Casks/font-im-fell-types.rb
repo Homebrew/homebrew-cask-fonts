@@ -6,6 +6,8 @@ cask "font-im-fell-types" do
   name "IM Fell Types"
   homepage "https://iginomarini.com/fell/"
 
+  disable! date: "2024-04-04", because: :no_longer_available
+
   font "IMFeDPit29C.otf"
   font "IMFeDPrm29C.otf"
   font "IMFeENit29C.otf"
