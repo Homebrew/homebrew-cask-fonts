@@ -1,6 +1,6 @@
 cask "font-mononoki-nerd-font" do
-  version "3.1.1"
-  sha256 "873679bba5dd2c098a896a967f4ffc1357898285ce0d7ee11f268c7470bc4da5"
+  version "3.2.0"
+  sha256 "725689a0f6f308e40e0377f64325c7f2ed8683ea82c282e05ed2283e00e6a7a5"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Mononoki.zip"
   name "Mononoki Nerd Font (Mononoki)"

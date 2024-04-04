@@ -1,6 +1,6 @@
 cask "font-inconsolata-lgc-nerd-font" do
-  version "3.1.1"
-  sha256 "d32110c0186d9e5fdef9ce35df4f726e17324104e257bd14906ad92c30a2c19e"
+  version "3.2.0"
+  sha256 "85bf473d333d7fe22e6a1e27d0bce188bcfa71de14b650b1e7c10ef87dbb1547"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/InconsolataLGC.zip"
   name "Inconsolata LGC Nerd Font (Inconsolata LGC)"

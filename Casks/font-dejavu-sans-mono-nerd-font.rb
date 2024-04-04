@@ -1,6 +1,6 @@
 cask "font-dejavu-sans-mono-nerd-font" do
-  version "3.1.1"
-  sha256 "f46c6fb56b7ee4a5faa08b6ba32830692204a5240fe1fcb3b848fceef2d6e526"
+  version "3.2.0"
+  sha256 "7edc957e1f57c191d3c1492d4c52e57cf1c3b2ce631f8cf8ed8f23c0cc68a472"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DejaVuSansMono.zip"
   name "DejaVuSansM Nerd Font (DejaVu Sans Mono)"
