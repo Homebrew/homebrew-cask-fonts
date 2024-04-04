@@ -1,6 +1,6 @@
 cask "font-im-writing-nerd-font" do
-  version "3.1.1"
-  sha256 "3941ad78ba75a0372e996198cd3f4a051f8bedf015e91306c2c334874ab1a9f9"
+  version "3.2.0"
+  sha256 "c206811b084d912620608840e1290b9afdadb8c908ac8890df053bbe7496921c"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/iA-Writer.zip"
   name "IMWriting Nerd Font families (iA Writer)"

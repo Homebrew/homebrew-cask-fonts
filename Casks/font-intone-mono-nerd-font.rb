@@ -1,6 +1,6 @@
 cask "font-intone-mono-nerd-font" do
-  version "3.1.1"
-  sha256 "24667fecbf99abfaa86c10b5c9ae5008a8bac98bc699b7dab90c66101b5b5120"
+  version "3.2.0"
+  sha256 "aa3a2073d59fe309bb3842854317a01abf5f3c6a2f6b5963808c61d613aa34b8"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/IntelOneMono.zip"
   name "IntoneMono Nerd Font (Intel One Mono)"
