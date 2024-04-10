@@ -4,7 +4,7 @@ cask "font-jaini-purva" do
 
   url "https://github.com/google/fonts/raw/main/ofl/jainipurva/JainiPurva-Regular.ttf"
   name "Jaini Purva"
-  desc "Led by ek type, a collective of type designers based in mumbai focused on designing contemporary indian typefaces"
+  desc "Typeface based on the calligraphic style of the Jain Kalpasutra manuscripts"
   homepage "https://github.com/EkType/Jaini"
 
   font "JainiPurva-Regular.ttf"
