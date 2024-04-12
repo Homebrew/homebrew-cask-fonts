@@ -1,6 +1,6 @@
 cask "font-liberation-nerd-font" do
-  version "3.2.0"
-  sha256 "1f396a501fbe447f85a3396b54a5fc37ebcf00335d0280ecca1e251286722be2"
+  version "3.2.1"
+  sha256 "7be6c701399ad4c69225f0fa632ad7adb8ba999a2ca5b8a208a9dfd2bc25649f"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/LiberationMono.zip"
   name "Literation Nerd Font families (Liberation Mono)"
