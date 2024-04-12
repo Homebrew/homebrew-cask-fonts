@@ -1,6 +1,6 @@
 cask "font-hack-nerd-font" do
-  version "3.2.0"
-  sha256 "b2a3d23cdd951a1e851e870feaee79b840ed7468acddee37ee3d61f18d32ea96"
+  version "3.2.1"
+  sha256 "70b2c3e2375f99e9d81b1f01c7ad90efc9d72177ea975fc62f2310fea21e2f18"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hack.zip"
   name "Hack Nerd Font (Hack)"
