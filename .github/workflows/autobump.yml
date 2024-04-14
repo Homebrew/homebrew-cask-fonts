@@ -39,7 +39,7 @@ jobs:
         uses: Homebrew/actions/bump-packages@master
         continue-on-error: true
         with:
-          token: ${{ secrets.HOMEBREW_CASK_REPO_WORKFLOW_TOKEN }}
+          token: ${{ secrets.HOMEBREW_CASK_SYNC_TOKEN }}
           casks: ${{ github.event.inputs.casks || steps.autobump.outputs.autobump_list }}
         env:
           HOMEBREW_TEST_BOT_AUTOBUMP: 1
