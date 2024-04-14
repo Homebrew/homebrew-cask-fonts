@@ -3,11 +3,12 @@ cask "font-platypi" do
   sha256 :no_check
 
   url "https://github.com/google/fonts.git",
+      verified:  "github.com/google/fonts",
       branch:    "main",
       only_path: "ofl/platypi"
   name "Platypi"
   desc "Platypuses"
-  homepage "https://github.com/d-sargent/platypi"
+  homepage "https://fonts.google.com/specimen/Platypi"
 
   font "Platypi-Italic[wght].ttf"
   font "Platypi[wght].ttf"
