@@ -25,6 +25,9 @@ jobs:
           core: false
           cask: true
           test-bot: false
+          
+      - name: Tap homebrew/cask-fonts
+        run: brew tap homebrew/cask-fonts
 
       - name: Configure Git user
         uses: Homebrew/actions/git-user-config@master
