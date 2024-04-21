@@ -4,7 +4,7 @@ cask "font-freeman" do
 
   url "https://github.com/google/fonts/raw/main/ofl/freeman/Freeman-Regular.ttf"
   name "Freeman"
-  desc "Re-interpretation of the traditional display sans serif gothic typeface where some elements of the handwritten style are added to give a bit more personality to the design"
+  desc "Re-interpretation of the traditional display sans serif gothic typeface"
   homepage "https://github.com/rfuenzalida/Freeman"
 
   font "Freeman-Regular.ttf"
