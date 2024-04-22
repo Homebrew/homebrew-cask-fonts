@@ -1,6 +1,6 @@
 cask "font-iming" do
-  version "8.00"
-  sha256 "37f1e1a772f09c0b84fb7c7d5bf6b36500177a1746976482d96be5444fa0b16b"
+  version "8.10"
+  sha256 "dcd7d3c71fa08541ee86276b29b7c8e70f35f99141ff1d1781695b282d70ff22"
 
   url "https://github.com/ichitenfont/I.Ming/archive/refs/tags/#{version}.zip"
   name "I.Ming"
