@@ -6,7 +6,7 @@ cask "font-radio-canada-big" do
       branch:    "main",
       only_path: "ofl/radiocanadabig"
   name "Radio Canada Big"
-  desc "Variable font with a weight axis that spans from regular (400) to bold (700), offering a spectrum of options to suit diverse design needs"
+  desc "Variable font with a weight axis that spans from regular (400) to bold (700)"
   homepage "https://github.com/googlefonts/radiocanadadisplay"
 
   font "RadioCanadaBig-Italic[wght].ttf"
