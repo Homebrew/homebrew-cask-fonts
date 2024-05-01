@@ -6,7 +6,7 @@ cask "font-0xproto" do
   name "0xProto"
   desc "Programming font focused on source code legibility"
   homepage "https://github.com/0xType/0xProto"
-  
+
   font "fonts/0xProto-Regular.otf"
   font "fonts/0xProto-Italic.otf"
 
