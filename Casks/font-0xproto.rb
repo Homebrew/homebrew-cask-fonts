@@ -7,11 +7,6 @@ cask "font-0xproto" do
   desc "Programming font focused on source code legibility"
   homepage "https://github.com/0xType/0xProto"
   
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-  
   font "fonts/0xProto-Regular.otf"
   font "fonts/0xProto-Italic.otf"
 
