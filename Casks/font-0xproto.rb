@@ -1,13 +1,19 @@
 cask "font-0xproto" do
-  version "1.603"
-  sha256 "100c3478d17f0bed536173944b81a72d989195dd7a3cb84f7d6bacc429bad211"
+  version "2.000"
+  sha256 "ef69ffaa0f7ebab546081aa9b551b34db12f832627b75cb420164a07d9c6b4d0"
 
   url "https://github.com/0xType/0xProto/releases/download/#{version}/0xProto_#{version.dots_to_underscores}.zip"
   name "0xProto"
   desc "Programming font focused on source code legibility"
   homepage "https://github.com/0xType/0xProto"
-
+  
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+  
   font "fonts/0xProto-Regular.otf"
+  font "fonts/0xProto-Italic.otf"
 
   # No zap stanza required
 end
