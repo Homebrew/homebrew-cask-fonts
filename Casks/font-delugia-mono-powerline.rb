@@ -1,6 +1,6 @@
 cask "font-delugia-mono-powerline" do
-  version "2111.01.2"
-  sha256 "af87f367b4d23cc0b16b12c41cb1639642282b932c6d3be0e342dbbf88fddb06"
+  version "2404.23"
+  sha256 "c54d926c288238f2b8804fd48570bf8df309d6a98805ba7215de9d87e096b966"
 
   url "https://github.com/adam7/delugia-code/releases/download/v#{version}/delugia-mono-powerline.zip"
   name "Delugia Code"
