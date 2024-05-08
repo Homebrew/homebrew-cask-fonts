@@ -9,6 +9,13 @@ $ brew tap homebrew/cask-fonts         # You only need to do this once!
 $ brew install font-inconsolata
 ```
 
+Or in a [brew-bundle](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
+
+```ruby
+tap "homebrew/cask-fonts"
+cask "font-inconsolata"
+```
+
 ## Submitting a Cask to this repository
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
