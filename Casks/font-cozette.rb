@@ -7,6 +7,11 @@ cask "font-cozette" do
   desc "Bitmap programming font"
   homepage "https://github.com/slavfox/Cozette"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "CozetteVector.dfont"
 
   # No zap stanza required
