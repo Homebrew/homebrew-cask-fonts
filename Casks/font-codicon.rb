@@ -1,6 +1,6 @@
 cask "font-codicon" do
-  version "0.0.35"
-  sha256 "db217757f24ffb8dc9b6f85f9beedbc779a27ec9dc7553c222b60d3452c0da93"
+  version "0.0.36"
+  sha256 "06fc7ab1b9c56f5849118a8fc2355d3a6e215eda243b5b476fad4c234e668101"
 
   url "https://github.com/microsoft/vscode-codicons/archive/refs/tags/#{version}.zip"
   name "Codicon"
