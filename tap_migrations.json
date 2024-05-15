@@ -1,3 +1,5 @@
 {
-    "font-0xproto": "homebrew/cask"
+    "font-0xproto": "homebrew/cask",
+    "font-3270": "homebrew/cask",
+    "font-437-plus": "homebrew/cask"
 }
